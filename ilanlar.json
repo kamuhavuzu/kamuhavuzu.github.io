@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-20T18:15:27+00:00",
- "son_kontrol": "2026-11-20T18:15:27+00:00",
+ "guncelleme": "2026-11-20T18:19:56+00:00",
+ "son_kontrol": "2026-11-20T18:19:56+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-20T18:15:23+00:00",
+   "son_basari": "2026-11-20T18:19:51+00:00",
    "sayi": 150
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-20T18:15:25+00:00",
+   "son_basari": "2026-11-20T18:19:53+00:00",
    "sayi": 26
   },
   "Kamu İlan (SBB)": {
@@ -20,10 +20,9 @@
    "sayi": 87
   },
   "Resmî Gazete İlanlar": {
-   "durum": "tamam",
-   "yeni": 0,
+   "durum": "eski",
+   "mesaj": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.resmigazete.gov.tr/ilanlar",
    "son_basari": "2026-11-20T18:15:27+00:00",
-   "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
  },
