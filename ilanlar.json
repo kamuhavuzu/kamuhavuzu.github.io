@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-20T10:08:34+00:00",
- "son_kontrol": "2026-11-20T10:08:34+00:00",
+ "guncelleme": "2026-11-20T16:39:48+00:00",
+ "son_kontrol": "2026-11-20T16:39:48+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-20T10:08:29+00:00",
-   "sayi": 149
+   "son_basari": "2026-11-20T16:39:13+00:00",
+   "sayi": 150
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-20T10:08:30+00:00",
+   "son_basari": "2026-11-20T16:39:16+00:00",
    "sayi": 26
   },
   "Kamu İlan (SBB)": {
@@ -20,10 +20,9 @@
    "sayi": 87
   },
   "Resmî Gazete İlanlar": {
-   "durum": "tamam",
-   "yeni": 0,
+   "durum": "eski",
+   "mesaj": "ConnectTimeout: HTTPSConnectionPool(host='www.resmigazete.gov.tr', port=443): Max retries exceeded with url: /ilanlar (Caused by ConnectTimeoutError(<HTTPSConne",
    "son_basari": "2026-11-20T10:08:33+00:00",
-   "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
  },
@@ -4997,6 +4996,27 @@
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=ZVBZqRVVzAd1SbxDkM0J4bBbajHUNFZCrl4dGyEwguHGeEimSRE1FrFiNqcMElCnz8blZKlcqPEXJq3gphCAOYwW6iyv4rF9HMCKdUyxHglY0H1ZpyJLSzUgkXCxXNY5",
    "belge_deneme": 2,
    "puanlar": {}
+  },
+  {
+   "id": 3717998634,
+   "institution": "MARDİN ARTUKLU ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Mardin Artuklu Üniversitesi Öğretim Üyesi Alım İlanı",
+   "city": "MARDİN",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2298532/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2298532/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Mardin Artuklu Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz Birimlerine 2547 sayılı Yükseköğretim Kanunu. Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği ile Mardin Artuklu Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Yönergesi hükümleri doğrultusunda öğretim üyesi alınacaktır. Adayların 657 sayılı Devlet Memurları Kanununun 48 inci maddesindeki genel şartlan ve ilanda belirtilen diğer şartları taşımaları gerekmektedir. 1- Profesör kadrosuna başvuracakların, başvurdukları bölümü belirtir forma özgeçmiş (YÖKSİS formatında). doçentlik belgesinin tasdikli suretini veya karekodlu e-Devlet çıktısı, nüfus cüzdanı/T.C. kimlik kartı suretini, (*) yabancı dit sınav sonuç belgesinin karekodlu e-Devlet çıktısı, 2 adet fotoğraf ile bilimsel çalışma ve yayınlarını kapsayan I (Bir) adet dosyayı teslim edeceklerdir. Ayrıca bilimsel dosyaya PDF formatında 6 (Altı) adet USB eklenecektir. Kamu hizmetinde bulunanlar ve daha önce çalışıp aynlntış olanlar dahi hizmet belgelerini, müracaat dosyalarına eklemeleri gerekmektedir. Profesör kadrosuna atanacaklar, daimî statüde görev yapacaklardır. 2- Doçent kadrosuna başvuracakların, başvurdukları bölümü belirtir forma özgeçmiş (YÖKSİS formatında), doçentlik belgesinin tasdikli suretini veya karekodlu e-Devlet çıktısı, nüfus cüzdanı/T.C. kimlik kartı suretini, (*) yabancı dil sınav sonuç belgesinin karekodlu e-Devlet çıktısı. 2 adet fotoğraf ile bilimsel çalışma ve yayınlarını kapsayan I (Bir) adet dosyayı teslim edeceklerdir. Ayrıca bilimsel dosyaya PDF formatında 4 (Dört) adet USB eklenecektir. Kamu hizmetinde bulunanlar ve daha önce çalışıp ayrılmış olanlar dahi hizmet belgelerini müracaat dosyalarına eklemeleri gerekmektedir. Doçent kadrosuna atanacaklar, daimi statüde görev yapacaklardır. 3- Doktor Öğretim Üyesi kadrosuna başvuracakların, başvurdukları bölümü belirtir forma özgeçmiş (YÖKSİS formatında). doktora belgesinin tasdikli suretini veya karekodlu e-Devlet çıktısı, nüfus cüzdanı/T.C. kimlik kartı suretini, (*) yabancı dil sınav sonuç belgesinin karekodlu e-Devlet çıktısı, 2 adet fotoğraf ile bilimsel çalışma ve yayınlarını kapsayan I (Bir) adet dosyayı teslim edeceklerdir. Ayrıca bilimsel dosyaya PDF formatında 4 (Dört) adet USB eklenecektir. Kamu hizmetinde bulunanlar, daha önce çalışıp ayrılmış olsalar dahi hizmet belgelerini müracaat dosyalarına eklemeleri gerekmektedir. 4- Yabancı ülkelerden alınan diplomaların Üniversitelerarası Kurulu tarafından denkliğinin onaylanmış olması ve bel",
+   "checked_at": "2026-11-20T16:38:57+00:00",
+   "puanlar": {},
+   "akademik": true
   },
   {
    "id": 3725657156,
