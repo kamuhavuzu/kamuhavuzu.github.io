@@ -2,8 +2,8 @@ name: Ilanlari guncelle
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # 15 dakikada bir
-  workflow_dispatch:         # elle calistirma dugmesi
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
