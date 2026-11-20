@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-20T08:47:45+00:00",
- "son_kontrol": "2026-11-20T08:47:45+00:00",
+ "guncelleme": "2026-11-20T10:08:34+00:00",
+ "son_kontrol": "2026-11-20T10:08:34+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 14,
-   "son_basari": "2026-11-20T08:47:30+00:00",
-   "sayi": 148
+   "yeni": 1,
+   "son_basari": "2026-11-20T10:08:29+00:00",
+   "sayi": 149
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 2,
-   "son_basari": "2026-11-20T08:47:31+00:00",
+   "yeni": 0,
+   "son_basari": "2026-11-20T10:08:30+00:00",
    "sayi": 26
   },
   "Kamu İlan (SBB)": {
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-20T08:47:44+00:00",
+   "son_basari": "2026-11-20T10:08:33+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -5019,6 +5019,27 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 3729998838,
+   "institution": "MARDİN ARTUKLU ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Mardin Artuklu Üniversitesi Öğretim Görevlisi Alım İlanı",
+   "city": "MARDİN",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-08",
+   "application_start": "2026-11-20",
+   "link": "https://www.ilan.gov.tr/ilan/2298364/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-gorevlisi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2298364/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-gorevlisi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Mardin Artuklu Üniversitesi Rektörlüğünden ÖĞRETİM GÖREVLİSİ ALIM İLANI Genel Kadro ve Usulü Hakkında 2 sayılı Cumhurbaşkanlığı Kararnamesi. 2547 sayılı Yükseköğretim Kanunu ve öğretim Üyesi Dışındaki öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik hükümlerine göre öğretim görevlisi alınacaktır Genel ve Aranan Şartlar -657 sayılı Devlet Memurları Kanununun 48'inci maddesinde belirtilen şanları taşımak. •ALES' ten en az 70. Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir Merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir •Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesaplanmasında kullanılacak 4'lük ve 5'lik not sistemlerinin 100’lük not sistemine eşdeğerliği Yükseköğretim Kurulu kararıyla belirlenir. - Devlet yükseköğretim kuramlarının araştırma görevlisi kadrolarına başvurularda tezli yüksek lisans, doktora veya sanatta yeterlik eğitimi öğrencisi olmak şartı aranır. •Öğretim görevlisi kadrosuna başvuracak adaylarda en az tezli yüksek lisans derecesine sahip olmak şanı aranır. -Adaylarda, yabancı dille eğilim ve öğretim yapılan programlardaki öğretim görevlisi kadrolarına yapılacak atamalarda, atama yapılacak programın eğitim dilinde; bilim alanı yabancı dille ilgili kadrolara yapılacak öğretim görevlisi atamaları ile 4/11/1981 tarihli ve 2547 sayılı Yükseköğretim Kanununun 5 inci maddesinin birinci fıkrasının (ı) bendi uyarınca zorunlu yabancı dil dersini vermek üzere öğretim görevlisi kadrolarına yapılacak atamalarda ilgili dilde; yükseköğretim kuramlarının uluslararası ilişkiler ile yabancı dille ilgili uygulamalı birimlerinde istihdam edilecek öğretim görevlisi atamalarında, en az bir dilde Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 85 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puana sahip olma şartı aranır - İdare gerekli gördüğü takdirde ilanın her aşamasını iptal etme ve güncelleme hakkına sahiptir Muafiyet •Doktora veya tıpta, diş hekimliğinde, eczacılıkta ve veteriner hekimlikte uzmanlık ya da sanatta yeterlik eğitimini tamamlamış olanlarda, meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanlarına atanacak ola",
+   "checked_at": "2026-11-20T10:08:14+00:00",
+   "puanlar": {},
+   "akademik": true
   },
   {
    "id": 3763246659,
