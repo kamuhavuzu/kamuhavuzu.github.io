@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-21T12:01:15+00:00",
- "son_kontrol": "2026-11-21T12:01:15+00:00",
+ "guncelleme": "2026-11-21T12:16:12+00:00",
+ "son_kontrol": "2026-11-21T12:16:12+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
-   "durum": "tamam",
-   "yeni": 0,
+   "durum": "eski",
+   "mesaj": "ConnectTimeout: HTTPSConnectionPool(host='www.ilan.gov.tr', port=443): Max retries exceeded with url: /api/api/services/app/Ad/AdsByFilter (Caused by ConnectTim",
    "son_basari": "2026-11-21T12:01:11+00:00",
    "sayi": 150
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-21T12:01:12+00:00",
+   "son_basari": "2026-11-21T12:16:06+00:00",
    "sayi": 26
   },
   "Kamu İlan (SBB)": {
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-21T12:01:15+00:00",
+   "son_basari": "2026-11-21T12:16:12+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
