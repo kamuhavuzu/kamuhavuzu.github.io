@@ -47,6 +47,19 @@ def parse_education(text):
     return found.pop() if len(found) == 1 else ""   # emin degilsek bos birak
 
 
+def parse_egitimler(text):
+    """Metinde ACIKCA yazan egitim duzeylerini listeler (bulamazsa bos liste)."""
+    t = norm(text).replace("ONLISANS", "ON LISANS")
+    s = []
+    if re.search(r"ON LISANS|2 YILLIK|MESLEK YUKSEKOKUL", t):
+        s.append("Ön Lisans")
+    if re.search(r"(?<!ON )(?<!YUKSEK )LISANS(?!USTU)|4 YILLIK", t):
+        s.append("Lisans")
+    if re.search(r"ORTAOGRETIM|LISE MEZUN|\bLISE\b", t):
+        s.append("Ortaöğretim")
+    return s
+
+
 def parse_kpss_type(text):
     t = norm(text)
     found = set(re.findall(r"(?<![A-Z0-9])P\s?(93|94|3)(?![0-9])", t))
@@ -320,4 +333,3 @@ def tur_egitim(tur):
     if t == "P94":
         return "Ortaöğretim"
     return "Lisans"
-    

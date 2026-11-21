@@ -356,6 +356,14 @@ def puanlari_yenile(mevcut):
                 row["min_kpss"] = min(pt.values())
                 row["egitimler"] = sorted({ic.tur_egitim(t) for t in pt})
                 n += 1
+        # egitim: once ilan metninde ACIKCA yazan; yoksa KPSS turunden tahmin (isaretli)
+        e = ic.parse_egitimler(metin)
+        if e:
+            row["egitimler"] = e
+            row["egitim_tahmin"] = False
+        elif row.get("puanlar"):
+            row["egitimler"] = sorted({ic.tur_egitim(t) for t in row["puanlar"]})
+            row["egitim_tahmin"] = True
         if not row.get("min_kpss"):
             p = ic.parse_puan_ek(metin)
             if p is not None:

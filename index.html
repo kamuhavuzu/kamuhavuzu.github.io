@@ -228,6 +228,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
         <div class="alan"><label>Kaynak</label><select id="fKaynak"></select></div>
         <label class="onay"><input type="checkbox" id="fAkademik"> Akademik kadroları da göster</label>
         <label class="onay"><input type="checkbox" id="fBitmis"> Süresi dolanları da göster</label>
+        <label class="onay" title="Bu ilanlar doğrudan ilana değil, kaynak sitenin listesine gider"><input type="checkbox" id="fListe"> Doğrudan açılmayan ilanları da göster (Kamu İlan)</label>
         <button type="button" class="btn-tamam" id="btnTamam"><span class="ik">🔍</span><span class="mt">Tamam / Filtrele</span></button>
         <div style="margin-top:10px"><button type="button" class="cip" id="btnTemizle" style="width:100%;justify-content:center">Filtreleri temizle</button></div>
       </div>
@@ -372,12 +373,13 @@ function durumHesapla(i,puan,tur){
 function durum(){return{
   q:norm($('q').value.trim()), egitim:$('fEgitim').value, bolum:$('fBolum').value, tur:$('fTur').value,
   puan:parseFloat($('fPuan').value)||0, sehir:$('fSehir').value, kurum:$('fKurum').value, calisma:$('fCalisma').value,
-  kaynak:$('fKaynak').value, akademik:$('fAkademik').checked, bitmis:$('fBitmis').checked}}
+  kaynak:$('fKaynak').value, akademik:$('fAkademik').checked, bitmis:$('fBitmis').checked, liste:$('fListe').checked}}
 function kaydet(){const d=durum();['egitim','bolum','tur','puan','sehir','kurum','calisma','kaynak'].forEach(k=>yaz('k_'+k,d[k]));yaz('k_cip',JSON.stringify([...cip]))}
 
 function uygun(i,d,durumHaric){
   if(d.sehir&&d.sehir!=='Tümü'&&i.city!==d.sehir) return false;
   if(i.iptal) return false;
+  if(!d.liste&&String(i.link).includes('#')) return false;
   if(d.egitim){ if(i.egitimler.length){ if(!i.egitimler.includes(d.egitim)) return false } else if(i.education_level&&i.education_level!==d.egitim) return false }
   if(d.bolum!=='Tümü'&&i.department&&i.department!=='Herhangi'&&i.department!==d.bolum) return false;
   if(d.puan>0&&d.tur){ if(Object.keys(i.puanlar).length){ if(!i.puanlar[d.tur]) return false } else if(i.kpss_type&&i.kpss_type!==d.tur) return false }
@@ -417,6 +419,7 @@ function kart(i,idx){
   if(pk_.length){ rz.push(...pk_.map(t=>`<span class="rozet r-mavi">${esc(t)} ≥ ${String(i.puanlar[t]).replace('.',',')}</span>`)) }
   else{ if(i.education_level) rz.push(`<span class="rozet">${esc(i.education_level)}</span>`);
         if(i.kpss_type) rz.push(`<span class="rozet">${esc(i.kpss_type)}</span>`); }
+  if(i.egitimler.length) rz.push(`<span class="rozet ${i.egitim_tahmin?'r-kontrol':''}" title="${i.egitim_tahmin?'Eğitim şartı ilan metninden okunamadı, KPSS türünden tahmin edildi; ilandan kontrol et':'İlan metninde yazan eğitim şartı'}">🎓 ${esc(i.egitimler.join(' / '))}${i.egitim_tahmin?' (kontrol et)':''}</span>`);
   if(i.siralama) rz.push('<span class="rozet r-kontrol" title="Alım KPSS puan sıralamasına göre yapılıyor; sabit bir taban puan yazılmamış">KPSS sıralamasıyla alım</span>');
   if(i.kpssVar===false) rz.push('<span class="rozet r-yesil">KPSS şartsız</span>');
   rz.push(`<span class="rozet">${esc(i.employment_type||'Diğer')}</span>`);
@@ -578,13 +581,13 @@ $('btnTamam').addEventListener('click',()=>{
     setTimeout(()=>{b.classList.remove('tamam');ik.textContent='🔍';mt.textContent='Tamam / Filtrele'},1700)},450);
 });
 $('fEgitim').addEventListener('change',()=>{bolumDoldur();otoTur();yenidenCiz()});
-['fBolum','fTur','fSehir','fKurum','fCalisma','fKaynak','fAkademik','fBitmis','fSira'].forEach(id=>$(id).addEventListener('change',()=>{kaydet();yenidenCiz()}));
+['fBolum','fTur','fSehir','fKurum','fCalisma','fKaynak','fAkademik','fBitmis','fListe','fSira'].forEach(id=>$(id).addEventListener('change',()=>{kaydet();yenidenCiz()}));
 $('fPuan').addEventListener('input',()=>{kaydet();yenidenCiz()});
 let zaman; $('q').addEventListener('input',()=>{clearTimeout(zaman);zaman=setTimeout(yenidenCiz,200)});
 $('btnAra').addEventListener('click',yenidenCiz);
 $('btnDaha').addEventListener('click',()=>{gorunen+=SAYFA;listele()});
 $('aktifBar').addEventListener('click',e=>{if(e.target.id==='btnHepsiniKaldir')$('btnTemizle').click()});
-$('btnTemizle').addEventListener('click',()=>{$('q').value='';$('fEgitim').value='';bolumDoldur();$('fPuan').value='';$('fSehir').value='Tümü';$('fKurum').value='Tümü';$('fCalisma').value='';$('fKaynak').value='Tümü';$('fAkademik').checked=false;$('fBitmis').checked=false;cip.clear();durumFiltre='hepsi';kaydet();yenidenCiz()});
+$('btnTemizle').addEventListener('click',()=>{$('q').value='';$('fEgitim').value='';bolumDoldur();$('fPuan').value='';$('fSehir').value='Tümü';$('fKurum').value='Tümü';$('fCalisma').value='';$('fKaynak').value='Tümü';$('fAkademik').checked=false;$('fBitmis').checked=false;$('fListe').checked=false;cip.clear();durumFiltre='hepsi';kaydet();yenidenCiz()});
 $('cipler').addEventListener('click',e=>{const b=e.target.closest('.cip');if(!b)return;const k=b.dataset.cip;
   if(EG[k]){$('fEgitim').value=$('fEgitim').value===EG[k]?'':EG[k];bolumDoldur();otoTur();kaydet()}
   else{cip.has(k)?cip.delete(k):cip.add(k);kaydet()} yenidenCiz()});
