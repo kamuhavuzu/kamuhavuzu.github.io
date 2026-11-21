@@ -60,6 +60,66 @@ def parse_egitimler(text):
     return s
 
 
+_KES = re.compile(r"[.:\n]|\s-\s|\b(?:kurumlar[a-zçğıöşü]*|fakülteler[a-zçğıöşü]*|yüksekokullar[a-zçğıöşü]*|programlar[a-zçğıöşü]*|alanlar[a-zçğıöşü]*|bölümler[a-zçğıöşü]*|mezun\s+olup|olmak)\b")
+_BOLUM_SONU = re.compile(r"\b(?:bölümlerinden|bölümünden|bölümlerinin|programlarından|programından|alanlarından|alanından)\b")
+_YASAK = re.compile(r"\d|mezun|olmak|kadro|sınav|puan|başvuru|kurum|yükseköğretim|üniversite|diğer|ilgili|benzeri|denk|tanınan|yurt|eşdeğer|şartı|şart|tercihen|lisans|önlisans|ön lisans|öğrenim|eğitim|tamamla|bitir|yeterlil|belge|sertifika|yaş|cinsiyet|erkek|kadın|askerlik|ve diğer|vb|vs|bölüm|program")
+_KUCUK = {"ve", "veya", "ile", "ya", "da", "de"}
+
+
+def _tr_kucuk(t):
+    return t.replace("İ", "i").replace("I", "ı").lower()
+
+
+def _baslik(t):
+    out = []
+    for w in t.split():
+        if w in _KUCUK:
+            out.append(w)
+        else:
+            ilk = "İ" if w[0] == "i" else ("I" if w[0] == "ı" else w[0].upper())
+            out.append(ilk + w[1:])
+    return " ".join(out)
+
+
+def bolum_adaylari(text):
+    """Ilan metnindeki 'X, Y, Z bolumlerinden mezun' kaliplarindan bolum adi adaylari (kucuk harf listesi)."""
+    t = _tr_kucuk(re.sub(r"\s+", " ", text or ""))
+    adaylar = set()
+    for m in _BOLUM_SONU.finditer(t):
+        onc = t[max(0, m.start() - 600):m.start()]
+        kesimler = list(_KES.finditer(onc))
+        if kesimler:
+            onc = onc[kesimler[-1].end():]
+        for parca in re.split(r"[,;/]", onc):
+            parca = re.sub(r"^(?:ve|veya|ile|ya da|en az|bir)\s+", "", parca.strip())
+            parca = re.sub(r"\s+(?:ve|veya|ile)$", "", parca).strip(" ()-")
+            kel = parca.split()
+            if not (2 <= len(parca) <= 70) or len(kel) > 6 or _YASAK.search(parca):
+                continue
+            if len(kel) == 1 and len(parca) < 4:
+                continue
+            adaylar.add(parca)
+    return adaylar
+
+
+def bolum_ogren(satirlar, onceki=None, esik=2):
+    """Tum ilanlardan bolum adi ogrenir: en az `esik` farkli ilanda gecen adaylar kalici listeye eklenir."""
+    sayac = {}
+    for r in satirlar:
+        duzeyler = r.get("egitimler") or []
+        if not duzeyler:
+            continue
+        for ad in bolum_adaylari(f"{r.get('title', '')} {r.get('description', '')}"):
+            for d in duzeyler:
+                sayac.setdefault(d, {}).setdefault(ad, set()).add(r.get("id") or r.get("link"))
+    sonuc = {d: set(v) for d, v in (onceki or {}).items()}
+    for d, adlar in sayac.items():
+        for ad, idler in adlar.items():
+            if len(idler) >= esik:
+                sonuc.setdefault(d, set()).add(_baslik(ad))
+    return {d: sorted(v) for d, v in sonuc.items()}
+
+
 def parse_kpss_type(text):
     t = norm(text)
     found = set(re.findall(r"(?<![A-Z0-9])P\s?(93|94|3)(?![0-9])", t))

@@ -450,12 +450,22 @@ def main():
         d["sayi"] = sayilar.get(ad, 0)
 
     ilanlar = sorted(mevcut.values(), key=lambda r: r["id"])
+    # ilanlardan yeni bolum adlarini otomatik ogren (kalici; ilanlar silinse de listede kalir)
+    try:
+        onceki_bolum = {}
+        if os.path.exists(CIKTI):
+            with open(CIKTI, encoding="utf-8") as f:
+                onceki_bolum = json.load(f).get("bolumler", {}) or {}
+        bolumler = ic.bolum_ogren(ilanlar, onceki_bolum)
+    except Exception as e:
+        print("bolum ogrenme atlandi:", e)
+        bolumler = {}
     simdi = datetime.now(timezone.utc).isoformat(timespec="seconds")
     degisti = imza(ilanlar, durumlar) != onceki
     # "guncelleme": ilanlar son ne zaman degisti; "son_kontrol": toplayici en son ne zaman calisti
     with open(CIKTI, "w", encoding="utf-8") as f:
         json.dump({"guncelleme": simdi if degisti else (eski_guncelleme or simdi), "son_kontrol": simdi,
-                   "kaynaklar": durumlar, "ilanlar": ilanlar}, f, ensure_ascii=False, indent=1)
+                   "kaynaklar": durumlar, "bolumler": bolumler, "ilanlar": ilanlar}, f, ensure_ascii=False, indent=1)
     print(f"ilanlar.json yazildi: {len(ilanlar)} ilan ({'degisiklik var' if degisti else 'degisiklik yok'})")
     if all(d["durum"] in ("hata", "eski") for d in durumlar.values()):
         sys.exit(1)
