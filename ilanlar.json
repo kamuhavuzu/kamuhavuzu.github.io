@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-22T17:27:27+00:00",
- "son_kontrol": "2026-11-22T17:27:27+00:00",
+ "guncelleme": "2026-11-22T17:31:10+00:00",
+ "son_kontrol": "2026-11-22T17:31:10+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-22T17:27:09+00:00",
+   "son_basari": "2026-11-22T17:31:05+00:00",
    "sayi": 150
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-22T17:27:16+00:00",
+   "son_basari": "2026-11-22T17:31:07+00:00",
    "sayi": 26
   },
   "Kamu İlan (SBB)": {
@@ -20,9 +20,10 @@
    "sayi": 87
   },
   "Resmî Gazete İlanlar": {
-   "durum": "eski",
-   "mesaj": "ConnectionError: HTTPSConnectionPool(host='www.resmigazete.gov.tr', port=443): Max retries exceeded with url: /ilanlar (Caused by NameResolutionError(\"HTTPSConn",
-   "son_basari": "2026-11-22T17:15:57+00:00",
+   "durum": "tamam",
+   "yeni": 0,
+   "son_basari": "2026-11-22T17:31:09+00:00",
+   "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
  },
