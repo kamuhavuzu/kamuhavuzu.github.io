@@ -1,18 +1,18 @@
 {
- "guncelleme": "2026-11-22T17:31:10+00:00",
- "son_kontrol": "2026-11-22T20:46:01+00:00",
+ "guncelleme": "2026-11-22T21:01:26+00:00",
+ "son_kontrol": "2026-11-22T21:01:26+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-22T20:45:55+00:00",
+   "son_basari": "2026-11-22T21:01:21+00:00",
    "sayi": 150
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-22T20:45:57+00:00",
-   "sayi": 26
+   "yeni": 1,
+   "son_basari": "2026-11-22T21:01:23+00:00",
+   "sayi": 27
   },
   "Kamu İlan (SBB)": {
    "durum": "hata",
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-22T20:46:00+00:00",
+   "son_basari": "2026-11-22T21:01:26+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -5892,6 +5892,27 @@
    "description": "Biruni Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemize 2547 sayılı Yükseköğretim Kanunu'nun ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği'nin ilgili maddeleri uyarınca ''Öğretim Üyesi'' alınacaktır. Başvurular, belirtilen süreler içerisinde, Üniversitemiz İnsan Kaynakları Direktörlüğü'ne şahsen/posta yolu ile yapılabilir. Postadaki gecikmeler, eksik belge ile yapılan veya süresi içinde yapılmayan başvurular dikkate alınmayacaktır. İlan Başlama Tarihi : 16.11.2026 İlan Bitiş Tarihi : 30.11.2026 FAKÜLTE BÖLÜM / PROGRAM ANABİLİM DALI / BİLİM DALI UZMANLIK ALANI / ARANILAN ŞARTLAR KADRO ÜNVANI KADRO SAYISI TIP FAKÜLTESİ Cerrahi Tıp Bilimleri Beyin ve Sinir Cerrahisi Beyin ve Sinir Cerrahisi alanında doçent unvanına sahip olmak. Profesör 1 TIP FAKÜLTESİ Cerrahi Tıp Bilimleri Genel Cerrahi Genel Cerrahi veya Gastroenteroloji Cerrahisi alanlarının birinde Doçent unvanına sahip olmak. Profesör 1 TIP FAKÜLTESİ Cerrahi Tıp Bilimleri Tıbbi Patoloji Tıbbi Patoloji alanında doçent unvanına sahip olmak. Doçent 1 TIP FAKÜLTESİ Cerrahi Tıp Bilimleri Tıbbi Patoloji Tıp Fakültesi mezunu olmak ve Tıbbi Patoloji alanında uzmanlık eğitimini tamamlamış olmak. Doktor Öğretim Üyesi 1 TIP FAKÜLTESİ Cerrahi Tıp Bilimleri Üroloji Üroloji alanında doçent unvanına sahip olmak. Profesör 1 TIP FAKÜLTESİ Dahili Tıp Bilimleri Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji Tıp Fakültesi mezunu olmak ve Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji alanında uzmanlık eğitimini tamamlamış olmak. Doktor Öğretim Üyesi 2 TIP FAKÜLTESİ Dahili Tıp Bilimleri Göğüs Hastalıkları Tıp Fakültesi mezunu olmak ve Göğüs Hastalıkları alanında uzmanlık eğitimini tamamlamış olmak. Doktor Öğretim Üyesi 1 TIP FAKÜLTESİ Dahili Tıp Bilimleri Nöroloji Nöroloji alanında doçent unvanına sahip olmak. Profesör 1 TIP FAKÜLTESİ Dahili Tıp Bilimleri Nükleer Tıp Tıp Fakültesi mezunu olmak ve Nükleer Tıp alanında uzmanlık eğitimini tamamlamış olmak. Doktor Öğretim Üyesi 1 TIP FAKÜLTESİ Dahili Tıp Bilimleri Ruh Sağlığı ve Hastalıkları Ruh Sağlığı ve Hastalıkları alanında doçent unvanına sahip olmak. Doçent 1 TIP FAKÜLTESİ Temel Tıp Bilimleri Tıp Eğitimi Tıp Fakültesi mezunu olmak ve Tıp Eğitimi alanında uzmanlık eğitimini tamamlamış olmak. Doktor Öğretim Üyesi 1 TIP FAKÜLTESİ Temel Tıp Bilimleri Tıbbi Biyoloji Tıbbi Biyoloji alanında Doçent unvanına sahip olmak. Doçent 1 TIP FAKÜLTESİ (İNGİLİZCE) Cerrahi Tıp Bilimleri Anesteziyoloji ve Reanimasyon Tıp Fakültesi mezunu olmak ve Anesteziyoloji",
    "checked_at": "2026-11-19T09:17:44+00:00",
    "akademik": true,
+   "puanlar": {}
+  },
+  {
+   "id": 4115964073,
+   "institution": "DEVLET TİYATROLARI GENEL MÜDÜRLÜĞÜ",
+   "title": "GÖREVDE YÜKSELME SINAVI",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-23",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=224db1dc-e78f-47df-809c-61ede62b9c36",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=224db1dc-e78f-47df-809c-61ede62b9c36",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Diğer",
+   "description": "DEVLET TİYATROLARI GENEL MÜDÜRLÜĞÜ - GÖREVDE YÜKSELME SINAVI (Görevde Yükselme ve Unvan Değişikliği İlanları)",
+   "checked_at": "2026-11-22T21:01:23+00:00",
+   "akademik": false,
    "puanlar": {}
   },
   {
