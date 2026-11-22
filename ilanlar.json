@@ -1,18 +1,18 @@
 {
- "guncelleme": "2026-11-22T21:01:26+00:00",
- "son_kontrol": "2026-11-22T21:01:26+00:00",
+ "guncelleme": "2026-11-22T21:15:59+00:00",
+ "son_kontrol": "2026-11-22T21:15:59+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-22T21:01:21+00:00",
+   "son_basari": "2026-11-22T21:15:54+00:00",
    "sayi": 150
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-22T21:01:23+00:00",
-   "sayi": 27
+   "son_basari": "2026-11-22T21:15:56+00:00",
+   "sayi": 28
   },
   "Kamu İlan (SBB)": {
    "durum": "hata",
@@ -22,7 +22,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-22T21:01:26+00:00",
+   "son_basari": "2026-11-22T21:15:59+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -6078,6 +6078,27 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=Y2GqRS5elRZtOelf5y5K3DlLXxVnH6AgKKz6jh2U9MAiNOid5iqacIyVhBaAuzx8YFwfCKhig%2b%2bjEGtFH4LdHYTry7Log39YGwXrhXOBSa8oh5zm4T%2bdoJcfBXGDWspC",
    "belge_deneme": 2,
+   "puanlar": {}
+  },
+  {
+   "id": 4184738143,
+   "institution": "TÜRK AKREDİTASYON KURUMU GENEL SEKRETERLİĞİ",
+   "title": "TÜRK AKREDİTASYON KURUMU SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ  GİRİŞ SINAVI DUYURUSU",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-23",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "TÜRK AKREDİTASYON KURUMU GENEL SEKRETERLİĞİ - TÜRK AKREDİTASYON KURUMU SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ  GİRİŞ SINAVI DUYURUSU (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-22T21:15:56+00:00",
+   "akademik": false,
    "puanlar": {}
   },
   {
