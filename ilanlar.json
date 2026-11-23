@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-23T08:01:24+00:00",
- "son_kontrol": "2026-11-23T08:01:24+00:00",
+ "guncelleme": "2026-11-23T08:15:58+00:00",
+ "son_kontrol": "2026-11-23T08:15:58+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 1,
-   "son_basari": "2026-11-23T08:01:21+00:00",
-   "sayi": 161
+   "yeni": 2,
+   "son_basari": "2026-11-23T08:15:54+00:00",
+   "sayi": 162
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T08:01:22+00:00",
+   "son_basari": "2026-11-23T08:15:55+00:00",
    "sayi": 31
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T08:01:24+00:00",
+   "son_basari": "2026-11-23T08:15:57+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -691,6 +691,33 @@
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=VQJAzHJrruhobGLVZZyA0XT6KotBlRwPLhBcCT0iL88Nxa1WuGdvzMcyEpKbKT6D2QMsnig4wD%2bH6dAFFw0aIdD0LhwwSk9rh4yD%2b1lmeZ6li4nV3vR3CjCdlBXQQjmv",
    "belge_deneme": 2,
    "puanlar": {}
+  },
+  {
+   "id": 348489409,
+   "institution": "İÇİŞLERİ BAKANLIĞI",
+   "title": "İçişleri Bakanlığı 1170 Sözleşmeli Personel Alım İlanı",
+   "city": "ANKARA",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": 60.0,
+   "quota": null,
+   "deadline": "2026-12-11",
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2299814/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-icisleri-bakanligi-1170-sozlesmeli-personel-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299814/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-icisleri-bakanligi-1170-sozlesmeli-personel-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Sözleşmeli personel",
+   "description": "T.C. İÇİŞLERİ BAKANLIĞI 2026 YILI MERKEZ VE TAŞRA TEŞKİLATINDA ÇALIŞTIRILMAK ÜZERE 4/B SÖZLEŞMELİ PERSONEL ALIMINA İLİŞKİN SÖZLÜ SINAV DUYURUSU 657 sayılı Devlet Memurları Kanunu’nun 4 üncü maddesinin (B) fıkrasına göre 06/06/1978 tarihli ve 7/15754 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan Sözleşmeli Personel Çalıştırılmasına İlişkin Esaslar ile Ek ve Değişiklikleri çerçevesinde; pozisyon dağılımlarını gösterir 4/B Sözleşmeli Personel Alımı Bakanlık Merkez Teşkilatı Birimleri Pozisyon Dağılımı Tablosu (Ek-1/a), 4/B Sözleşmeli Personel Alımı Valilik Birimleri Pozisyon Dağılım Tablosu (Ek-1/b) ve 4/B Sözleşmeli Personel Alımı İlçe Birimlerinde Görevlendirilecek Pozisyon Dağılım Tablosu (Ek-1/c) listelerine uygun olarak, Bakanlık merkez teşkilatında 119 adet, taşra teşkilatında 1.051 adet olmak üzere toplam 1.170 adet muhtelif pozisyonlarda 4/B sözleşmeli personel alınacaktır. ÖSYM tarafından 2026 yılında yapılan Kamu Personel Seçme Sınavı (B) grubundan; lisans mezunları için KPSSP3, ön lisans mezunları için KPSSP93 ve lise mezunları için KPSSP94 puan türünden en az 60 ve üzerinde KPSS puanı almış olmak kaydıyla, adayların tercih sıralamasına göre ilan edilen pozisyon sayısının en fazla 4 katı aday değerlendirilmeye alınacaktır. A) GENEL ŞARTLAR 1) 4/B sözleşmeli personel olarak başvuruda bulunacak adaylarda aşağıdaki şartlar aranır: a) Türkiye Cumhuriyeti vatandaşı olmak, b) 657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesinde belirtilen genel ve özel şartlar ile Sözleşmeli Personel Çalıştırılmasına İlişkin Esaslar Hakkında Bakanlar Kurulu Kararı’nda belirtilen şartlara sahip olmak, c) Son başvuru tarihi (11.12.2026) itibarıyla 18 yaşını doldurmuş veya Türk Medeni Kanunu’nun 12 nci maddesine göre kazai rüşt kararı almış olmak, ç) Kamu haklarından mahrum bulunmamak, d) Türk Ceza Kanunu’nun 53 üncü maddesinde belirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı bir yıl veya daha fazla süreyle hapis cezasına ya da affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak, e) Erkek adaylar için askerlik durumu bakımından; askerlikle ilgisi bulunmamak, askerlik çağına gelmemiş bulunmak veya askerlik çağına gelmiş ise muvazzaf as",
+   "checked_at": "2026-11-23T08:15:39+00:00",
+   "puanlar": {},
+   "akademik": false,
+   "egitimler": [
+    "Ön Lisans",
+    "Lisans",
+    "Ortaöğretim"
+   ],
+   "egitim_tahmin": false
   },
   {
    "id": 355975383,
