@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-23T08:15:58+00:00",
- "son_kontrol": "2026-11-23T08:15:58+00:00",
+ "guncelleme": "2026-11-23T08:31:17+00:00",
+ "son_kontrol": "2026-11-23T08:31:17+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 2,
-   "son_basari": "2026-11-23T08:15:54+00:00",
-   "sayi": 162
+   "son_basari": "2026-11-23T08:31:11+00:00",
+   "sayi": 163
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T08:15:55+00:00",
+   "son_basari": "2026-11-23T08:31:13+00:00",
    "sayi": 31
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T08:15:57+00:00",
+   "son_basari": "2026-11-23T08:31:16+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -6016,6 +6016,31 @@
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=ZVBZqRVVzAd1SbxDkM0J4bBbajHUNFZCrl4dGyEwguHGeEimSRE1FrFiNqcMElCnz8blZKlcqPEXJq3gphCAOYwW6iyv4rF9HMCKdUyxHglY0H1ZpyJLSzUgkXCxXNY5",
    "belge_deneme": 2,
    "puanlar": {}
+  },
+  {
+   "id": 3683843016,
+   "institution": "TARSUS ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Tarsus Üniversitesi Rektörlüğü Öğretim Görevlisi Alım İlanı",
+   "city": "MERSİN",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-07",
+   "application_start": "2026-11-23",
+   "link": "https://www.ilan.gov.tr/ilan/2299827/kamu-akademik-personel-akademik-personel-alimlari-tarsus-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299827/kamu-akademik-personel-akademik-personel-alimlari-tarsus-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Tarsus Üniversitesi Rektörlüğünden: ÖĞRETİM GÖREVLİSİ ALIM İLANI Üniversitemizin aşağıda belirtilen birimlerine, 10.07.2018 tarihli Resmi Gazete’de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi, 2547 sayılı Yükseköğretim Kanunu’nun 31. maddesi ile “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”in ilgili maddelerine göre Öğretim Görevlisi alınacaktır. GENEL VE ÖZEL ŞARTLAR: 1) 657 sayılı Devlet Memurları Kanunu'nun 48. maddesinde belirtilen şartları taşıyor olmak. 2) 2547 sayılı Yükseköğretim Kanunu ve “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”te yer alan genel ve özel koşulları taşıyor olmak. MÜRACAAT EDECEK ADAYLARDAN İSTENEN BELGELER (Ön Değerlendirme): 1) Başvuru Formu (Üniversitemiz Web Sayfasında Duyurular Alanında) 2) Nüfus Cüzdanı Fotokopisi 3) Özgeçmiş 4) Lisans/Lisansüstü diplomaların veya Geçici mezuniyet belgelerinin onaylı sureti veya e-Devlet üzerinden alınan mezuniyet belgesi (Yabancı öğretim kurumu mezunlarının diplomalarının Yükseköğretim Kurulu Başkanlığınca, doktora için Üniversitelerarası Kurulca denkliğini gösterir belge) 5) Lisans Transkripti onaylı sureti veya e-Devlet üzerinden alınan transkript belgesi (Lisans mezuniyet puanının hesaplanmasında YÖK’ün yayınlamış olduğu 4’lük ve 5’lik sistemin 100’lük Sistemde Eşdeğerliliği tabloları dikkate alınacaktır) 6) Merkezi Sınav (ALES) Belgesi (Son 5 yıl), lisans mezuniyeti hangi alanda ise o alandaki ALES puan türü ya da ilan edilen bölüm/anabilim dalı/program hangi alandan öğrenci alıyorsa o alandaki ALES puan türü kullanılacaktır. 7) 2 adet vesikalık fotoğraf (son altı ay içinde çekilmiş olmalı) 8) Yabancı Dil Belgesi (YÖKDİL, e-YÖKDİL, YDS, e-YDS, ÜDS, e-TEP ve ÖSYM tarafından yayımlanan güncel eş değerlik duyurusunda belirtilen diğer yabancı dil belgeleri geçerli olacaktır. Belge üzerindeki geçerlilik tarihi varsa bu tarih esas alınacaktır.) 9) Herhangi bir adli sicil kaydı olmadığına dair belge (e-Devlet üzerinden alınan belge) NOT: 1) Başvurular, şahsen veya posta yoluyla ilan metninde belirtilen başvuru yerlerine yapılacaktır. İlan edilen kadrolardan sadece birine müracaat edilecektir. Birden fazla kadroya başvuru yapanların başvurusu geçersiz sayılacaktır. Eksik belgeli başvurular ile posta yoluyla yapılan başvu",
+   "checked_at": "2026-11-23T08:30:55+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
   },
   {
    "id": 3717998634,
