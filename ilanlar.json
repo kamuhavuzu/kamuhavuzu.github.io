@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-23T07:15:59+00:00",
- "son_kontrol": "2026-11-23T07:15:59+00:00",
+ "guncelleme": "2026-11-23T07:31:25+00:00",
+ "son_kontrol": "2026-11-23T07:31:25+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 2,
-   "son_basari": "2026-11-23T07:15:55+00:00",
-   "sayi": 158
+   "yeni": 4,
+   "son_basari": "2026-11-23T07:31:18+00:00",
+   "sayi": 161
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T07:15:56+00:00",
+   "son_basari": "2026-11-23T07:31:22+00:00",
    "sayi": 31
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T07:15:59+00:00",
+   "son_basari": "2026-11-23T07:31:25+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -1563,6 +1563,27 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 933252446,
+   "institution": "ÖZYEĞİN ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Özyeğin Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-08",
+   "application_start": "2026-11-23",
+   "link": "https://www.ilan.gov.tr/ilan/2299718/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299718/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Özyeğin Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemize, 2547 sayılı Yüksek Öğretim Kanunu \"Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği\" ve “Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmeliği” hükümlerinde aranan koşulları yerine getirmiş olmak kaydı ile aylık ve özlük hakları yönünden 4857 sayılı İş Kanunu hükümlerine tabi olarak Öğretim Üyesi alınacaktır. İlana konu olan kadrolar tam zamanlıdır. Öğretim Üyeleri kadrolarına başvuracakların; bölümü belirtir bir dilekçenin ekinde, nüfus cüzdanı fotokopisi, 2 fotoğraf, özgeçmiş, öğrenim durumunu gösteren belgeler (onaylı suret ve yurt dışından alınan diplomalar ve doçentlik belgeleri için denklik belgesi) YDS ve dengi Yabancı Dil Belgeleri ile bilimsel yayın ve çalışmalarını kapsayan dosyasını vermeleri gerekmektedir. Vakıf yükseköğretim kurumlarının öğretim elemanı ve idari personel istihdamında 7315 sayılı Kanun kapsamında arşiv araştırması ve/veya güvenlik soruşturması yaptırması gerekmektedir. İlan sonucunda başarılı olan adaylar arşiv araştırması süreci başlatılacak ve araştırma olumlu sonuçlandığında atama gerçekleştirilebilecektir. Başvurular son başvuru tarihi mesai bitimine kadar (saat 17.00’a) e-posta yoluyla ik@ozyegin.edu.tr adresine yapılır. Postayla ya da şahsen yapılan müracaatlar kabul edilmeyecektir. Eksik belge ile yapılan başvurular dikkate alınmaz. İlan Başlangıç Tarihi : 23.11.2026 İlan Bitiş Tarihi : 08.12.2026 Fakülte/ Yüksekokul Bölüm/ Anabilim Dalı Prof. Doçent Doktor Öğretim Üyesi Açıklama Hukuk Fakültesi Kamu Hukuku 1 Doktorasını Anayasa Hukuku alanında yapmış olmak. Web of Science (WoS) ve/veya Scopus kapsamında Q1 ve/veya Q2 kategorisinde yer alan dergilerde Anayasa Hukuku alanıyla ilgili yayımlanmış en az üç uluslararası makalesi ve WoS ve/veya Scopus kapsamında taranan uluslararası dergilerde yayımlanmış en az bir kitap değerlendirmesi ile WoS ve/veya Scopus kapsamında taranan uluslararası dergilerde yayımlanan çalışmalardan en az bir atıf almış olmak ve Hukuk felsefesi ve/veya hukuk-kültür ilişkisi ve/veya hukuk göstergebilimi alanlarında disiplinlerarası akademik kitap ve/veya uluslararası bilimsel makale yayımlamış olmak. Anayasa Hukuku alanında en az 10 yıllık ders verme deneyimine sahip olmak. Mühendislik Fakültesi Bilgisayar Mühendisliği 1 Doçentlik ünvanını Bilgisayar Bilimleri ve Mühendisliği alanında almış olmak. Bilgisayarlı görü, makine öğrenmesi, anomali tespiti, bi",
+   "checked_at": "2026-11-23T07:31:01+00:00",
+   "puanlar": {},
+   "akademik": true
   },
   {
    "id": 935897442,
@@ -5051,6 +5072,31 @@
    "egitim_tahmin": false
   },
   {
+   "id": 3093442735,
+   "institution": "T.C. ANTALYA BELEK ÜNİVERSİTESİ",
+   "title": "Antalya Belek Üniversitesi Öğretim Üyesi Dışındaki Kadrolara Personel Alım İlanı",
+   "city": "ANTALYA",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-07",
+   "application_start": "2026-11-23",
+   "link": "https://www.ilan.gov.tr/ilan/2299717/kamu-akademik-personel-akademik-personel-alimlari-antalya-belek-universitesi-ogretim-uyesi-disindaki-kadrolara-personel-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299717/kamu-akademik-personel-akademik-personel-alimlari-antalya-belek-universitesi-ogretim-uyesi-disindaki-kadrolara-personel-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Antalya Belek Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ VE ÖĞRETİM ÜYESİ DIŞINDAKİ KADROLARA PERSONEL ALIM İLANI I. Öğretim Üyesi (profesör, doçent, doktor öğretim üyesi) olarak personel alım ilanı; Üniversitemizin aşağıda Tablo1’de belirtilen birimlerine 657 sayılı Devlet Memurları Kanunu’nun 48’inci maddesinde belirtilen genel şartları taşıyan, 2547 sayılı Yükseköğretim Kanunu ile Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği ve Antalya Belek Üniversitesi Akademik Yükseltme ve Atama Yönergesi’nde belirtilen asgari niteliklere sahip, tam zamanlı öğretim üyesi alınacaktır. 1- Profesör kadrosuna müracaat edeceklerin; dilekçeleri ekinde özgeçmiş, noterden tasdikli doçentlik belgesi, yayın listesi ve bilimsel çalışma ve yayınları kapsayan 1 takım dosya ve 6 flaş bellek ile Rektörlüğe, 2- Doçentlik kadrosuna müracaat edeceklerin; dilekçeleri ekinde özgeçmiş, noterden tasdikli doçentlik belgesi, yayın listesi ve bilimsel çalışmalarını kapsayan 1 takım dosya ve 4 flaş bellek ile Rektörlüğe, 3- Doktor Öğretim Üyesi kadrosuna müracaat edeceklerin; dilekçeleri ekinde özgeçmiş, doktora veya uzmanlık belgesinin noter tasdikli sureti, bilimsel çalışma ve yayınlarını kapsayan 1 takım dosya ve 4 flaş bellek ile ilgili Fakülte Dekanlığına/Yüksekokul Müdürlüğüne başvurularını yapmaları gerekmektedir. II. Öğretim üyesi dışındaki kadrolara (öğretim görevlisi, araştırma görevlisi) alım ilanı; Üniversitemizin aşağıda Tablo 2 ve Tablo 3’te’de belirtilen birimlerine, 2547 sayılı Yükseköğretim Kanunu ve Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına yapılacak atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliğinin ilgili maddelerine göre alım yapılacaktır. Başvuracak adayların, 09.11.2018 tarih ve 30590 sayılı Resmî Gazete’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” kapsamındaki şartları taşıması ve istenen belgeleri tamamlaması gerekmektedir. Öğretim Elemanı kadrosuna başvuracak adayların başvurularını; dilekçe ekinde nüfus cüzdanı fotokopisi, 2 adet fotoğraf, özgeçmiş, onaylı; lisans, yüksek lisans diplomaları ve varsa doktora öğrenci belgeleri, lisans ve yüksek lisans not ortalamasını gösterir transkriptleri (e-Devletten alınan karekodlu belge), ALES ve yabancı dil belgelerinin fotokopileri, Kişisel Verilerin Korunması Kanunu kapsamında aydınlatma ve açık rıza metinlerinin imzalan",
+   "checked_at": "2026-11-23T07:31:02+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
+  },
+  {
    "id": 3103349736,
    "institution": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Bilecik Şeyh Edebali Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
@@ -5501,6 +5547,32 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 3431789897,
+   "institution": "ÖZYEĞİN ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Özyeğin Üniversitesi Rektörlüğü Öğretim Görevlisi Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2299720/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299720/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Özyeğin Üniversitesi Rektörlüğünden: ÖĞRETİM ELEMANI ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimlerine, 2547 sayılı Yükseköğretim Kanunu’nun 31. maddesi ile Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliği’nin ilgili maddelerine göre Öğretim Elemanları alınacaktır. Başvuracak adayların, 09.11.2018 tarih ve 30590 sayılı Resmî Gazete ’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” kapsamındaki koşulları taşıması ve istenen belgeleri tamamlaması gerekmektedir. Vakıf yükseköğretim kurumlarının öğretim elemanı ve idari personel istihdamında 7315 sayılı Kanun kapsamında arşiv araştırması ve/veya güvenlik soruşturması yaptırması gerekmektedir. İlan sonucunda başarılı olan adaylar arşiv araştırması süreci başlatılacak ve araştırma olumlu sonuçlandığında atama gerçekleştirilebilecektir. Başvuru İçin İstenen Belgeler: 1. Başvuru dilekçesi (serbest formatta fakülte, bölüm ve unvan bilgisi yer alacak şekilde olmalıdır) 2. Özgeçmiş ya da YÖK Formatlı Özgeçmiş (Dört A4 sayfayı geçmemelidir ve varsa en az bir referans e-posta ve iletişim bilgileri ile belirtilmelidir.) 3. Nüfus Cüzdanı Fotokopisi 4. Öğrenim Belgeleri (Lisans Diploması, Lisans Transkript Belgesi (Diplomaların yerine e-Devlet Yükseköğretim Kurulu Başkanlığından alınan mezun belgeleri de kabul edilir. Nihai değerlendirme aşamasında Lisans Eğitimi ile ilgili GPA notu için e-Devlet lisans mezuniyet belgesi mezuniyet notu esas alınır.) Tezli Yüksek Lisans diploması ve Doktora Diploması (Yabancı ülkelerden alınan diplomaların denkliğinin onaylanmış olması, denklik belgesinin ibrazı gerekmektedir.) 5. ALES Belgesinin Fotokopisi (Belgenin kontrol kodlu ve barkodlu olması gerekmektedir.): Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkındaki Yönetmelik'in \"MUAFİYET\" başlıklı 14'üncü maddesinin 1'inci fıkrasında; \" Doktora veya tıpta, diş hekimliğinde, eczacılıkta ve veteriner hekimlikte uzmanlık ya da sanatta yeterlik eğitimini tamamlamış olanlarda, meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanlarına atanacak olanlarda, yükseköğretim kurumlarında öğretim elemanı kadrolarında çalışmış veya çalışmakta olanlarda merkez",
+   "checked_at": "2026-11-23T07:31:00+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Ön Lisans",
+    "Lisans"
+   ],
+   "egitim_tahmin": false
   },
   {
    "id": 3455815537,
