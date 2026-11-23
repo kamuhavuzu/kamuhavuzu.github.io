@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-23T11:31:06+00:00",
- "son_kontrol": "2026-11-23T11:31:06+00:00",
+ "guncelleme": "2026-11-23T11:46:00+00:00",
+ "son_kontrol": "2026-11-23T11:46:00+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
-   "durum": "eski",
-   "mesaj": "ConnectionError: HTTPConnectionPool(host='cacerts.geotrust.com', port=80): Max retries exceeded with url: /GeoTrustTLSRSACAG1.crt (Caused by NewConnectionError(",
-   "son_basari": "2026-11-23T11:15:54+00:00",
+   "durum": "tamam",
+   "yeni": 1,
+   "son_basari": "2026-11-23T11:45:55+00:00",
    "sayi": 163
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T11:31:03+00:00",
+   "son_basari": "2026-11-23T11:45:57+00:00",
    "sayi": 31
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T11:31:06+00:00",
+   "son_basari": "2026-11-23T11:46:00+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
