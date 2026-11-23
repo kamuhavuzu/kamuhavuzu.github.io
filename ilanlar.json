@@ -1,30 +1,29 @@
 {
- "guncelleme": "2026-11-23T06:46:09+00:00",
- "son_kontrol": "2026-11-23T06:46:09+00:00",
+ "guncelleme": "2026-11-23T07:01:33+00:00",
+ "son_kontrol": "2026-11-23T07:01:33+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 2,
-   "son_basari": "2026-11-23T06:46:04+00:00",
-   "sayi": 154
+   "yeni": 4,
+   "son_basari": "2026-11-23T07:01:20+00:00",
+   "sayi": 157
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-23T06:46:06+00:00",
-   "sayi": 30
+   "yeni": 1,
+   "son_basari": "2026-11-23T07:01:30+00:00",
+   "sayi": 31
   },
   "Kamu İlan (SBB)": {
-   "durum": "tamam",
-   "yeni": 0,
+   "durum": "eski",
+   "mesaj": "HTTPError: 403 Client Error: Forbidden for url: https://kamuilan.sbb.gov.tr/",
    "son_basari": "2026-11-23T06:46:08+00:00",
-   "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 111
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T06:46:09+00:00",
+   "son_basari": "2026-11-23T07:01:33+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -2816,6 +2815,31 @@
    "puanlar": {}
   },
   {
+   "id": 1763203413,
+   "institution": "YOZGAT BOZOK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Yozgat Bozok Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "city": "YOZGAT",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-11",
+   "application_start": "2026-11-23",
+   "link": "https://www.ilan.gov.tr/ilan/2299680/kamu-akademik-personel-akademik-personel-alimlari-yozgat-bozok-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299680/kamu-akademik-personel-akademik-personel-alimlari-yozgat-bozok-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Yozgat Bozok Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda belirtilen birimlerine, 2547 sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği, 657 sayılı Devlet Memurları Kanunu’nun 48. Maddesi ve Üniversitemiz Akademik Yükseltilme ve Atanma Yönergesinde belirtilen şartları sağlayanlardan Öğretim Üyesi alınacaktır. Tüm başvurular https://personelbasvuru.bozok.edu.tr/ adresi üzerinden elektronik ortamda e-Devlet şifresi ile alınacak olup, şahsen veya posta yoluyla yapılacak başvurular kabul edilmeyecektir. GENEL AÇIKLAMALAR: 1. İlan Tarihi: 23/11/2026-11/12/2026 2. Öğretim Üyesi kadrosuna başvuran adayların 2547 sayılı Yükseköğretim Kanunu’nun 23., 24. ve 26. maddelerinde belirtilen asgari koşulları ile Üniversitemiz Akademik Yükseltilme ve Atanma Yönergesinde belirtilen koşulları sağlamış olmaları gerekir. 3. Eksik belge ile yapılan başvurular kabul edilmeyecektir. 4. İlgili kadrolara müracaat edecek adayların, Üniversitenin aynı tarihte ilana çıktığı veya başvuru takviminde güncelleme yaptığı Öğretim Elemanı pozisyonlarından tek bir kadro ilanına başvuru yapmaları gerekmektedir. Birden fazla pozisyona, kadro ilanına başvuru yapan adayların her iki başvurusu da değerlendirmeye alınmayacaktır. 5. Üniversitemiz Akademik Yükseltilme ve Atanma Yönergesinde belirtilen şartları taşımayan adayların başvuruları Üniversitemizce kabul edilmeyecektir. (Yönerge https://bozok.edu.tr/ Dosya/cb4eba1e-6.pdf adresinden temin edilebilir.) 6. Başvuruda istenen tüm belgelerin https://personelbasvuru.bozok.edu.tr/ adresi üzerinden elektronik olarak yüklenmesi gerekmektedir. 7. İdare gerekli gördüğü takdirde ilanın her aşamasını ve ilan edilen her pozisyonu iptal edebilir. 8. İdarenin İlan Takviminde değişiklik yapma hakkı saklıdır. 9. Tıp ve Diş Hekimliği Fakültesi kadro ilanlarına; Üniversitemiz Akademik Yükseltilme ve Atanma Yönergesinde belirtilen puan ve diğer şartları sağlamayan adaylar da başvuru yapabilecektir. Bu şekilde başvuru yapan adayların, puan ve diğer şartları sağlayan aday bulunmaması halinde başvurusu değerlendirmeye alınacaktır. BİRİMİ ÜNVANI ABD DRC. ADET ARANAN NİTELİKLER HUKUK FAKÜLTESİ Dr. Öğr. Üyesi İdare Hukuku 3 1 Hukuk Fakültesi lisans mezunu olup, doktorasını Kamu Hukuku Anabilim Dalında yapmış olmak. Mahalli idareler üzerindeki idari vesayet denetimi, bölgeli devlet yapılanması ve kuvvetler ayrılığı ilkesi üzerine çalışmaları ile kamu kurum ve kuruluşlarında en az 3 (üç) yıl süreyle görev ya",
+   "checked_at": "2026-11-23T07:01:02+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
+  },
+  {
    "id": 1830952022,
    "institution": "DİCLE KALKINMA AJANSI",
    "title": "DİCLE KALKINMA AJANSI 4 SÖZLEŞMELİ UZMAN PERSONEL ALACAK ( 4 Aralık - 18 Aralık)",
@@ -2970,6 +2994,27 @@
    "akademik": false,
    "puanlar": {},
    "iptal": true
+  },
+  {
+   "id": 1930689836,
+   "institution": "YAŞAR ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Yaşar Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "city": "İZMİR",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2299655/kamu-akademik-personel-akademik-personel-alimlari-yasar-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299655/kamu-akademik-personel-akademik-personel-alimlari-yasar-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Yaşar Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz ilgili Birimlerine 2547 sayılı Kanun ile bu Kanuna dayanılarak Yükseköğretim Kurulu Başkanlığı’nca 12.06.2018 tarih ve 30449 sayılı Resmî Gazete’de yayımlanan “Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği”, Üniversitemiz resmi erişim sayfasında yayımlanan “Akademik Kadrolara Atama ve Yükseltmeler Hakkında Yönerge”de belirtilen kıstasları yerine getirmiş olmak kaydıyla ilgili alanlarda uzmanlaşmış öğretim üyeleri alınacaktır. Başvuru Şartları: *657 sayılı Devlet Memurları Kanununun 48 inci maddesinde belirtilen genel şartları taşımak, *Bir adet başvuru dilekçesi, son altı ay içinde çekilmiş üç adet biyometrik fotoğraf, nüfus cüzdanı fotokopisi, e-Devlet üzerinden alınmış barkotlu nüfus kayıt örneği, Adli Sicil ve Arşiv Kaydı Sorgulama Sonuç Belgesi Arşiv Kayıtlı olarak sorgulaması (e-Devlet üzerinden “Resmi Kuruma Hitaben” alınacak barkotlu belgenin üzerinde mutlaka “Adli Sicil Kaydı Yoktur” ve “Adli Sicil Arşiv Kaydı Yoktur” ibaresi yer almalıdır.), Doktora ve Doçentlik belgelerinin resmi onaylı örnekleri ile diğer öğrenim belgeleri (belgelerin asılları ile fotokopilerinin getirilmesi gerekmektedir), YÖK formatlı güncel özgeçmiş ve yayın listesi, başlıca araştırma eserleri ile bilimsel çalışma ve yayınları, yayınlarına yapılan atıfları, yönettiği doktora çalışmaları, eğitim-öğretim faaliyetlerini, Yabancı dil (İngilizce) sınav sonuç belgeleri (YÖKDİL/YDS ya da ÖSYM tarafından eşdeğer kabul edilen yabancı dil sınavı) içeren PDF formatında hazırlanmış bir adet taşınabilir bellek ile; Profesör ve Doçent kadrosu için Yaşar Üniversitesi Rektörlüğü, İnsan Kaynakları Müdürlüğüne başvurulması gerekmektedir. *Yabancı ülkelerden alınan diplomaların Üniversitelerarası Kurul’ca onaylanmış denkliğinin olması şarttır. *Adayların Devlet Hizmeti Yükümlülüğü bulunmaması gerekmektedir. *Mühendislik Fakültesinde Eğitim-öğretim dili İngilizce olduğundan, başvuracak adayların “Yükseköğretim Kurumlarında Yabancı Dil Eğitim-Öğretimi ve Yabancı Dille Eğitim-Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik”teki genel şartlar ile bu Yönetmeliğin 8 inci maddesinin yedinci fıkrasının (ç) bendine ilişkin 18.05.2021 tarih ve 31485 sayılı Resmî Gazete’de yayımlanan yabancı dil (İngilizce) 100 (yüz) tam puan üzerinden asgari 85 (seksen beş) puan şartını gerekmektedir. T.C. Yaşar Üniversitesi Senatosu’nun 22.10.2025 tarih ve 533 sayılı toplantı kararı gereği, Hukuk Fakültesi için adaylardan İngilizce ",
+   "checked_at": "2026-11-23T07:01:03+00:00",
+   "puanlar": {},
+   "akademik": true
   },
   {
    "id": 1958452882,
@@ -4891,6 +4936,27 @@
    "puanlar": {}
   },
   {
+   "id": 3062184412,
+   "institution": "İÇİŞLERİ BAKANLIĞI",
+   "title": "2026 YILI MERKEZ VE TAŞRA TEŞKİLATINDA ÇALIŞTIRILMAK ÜZERE 4/B SÖZLEŞMELİ PERSONEL ALIMINA İLİŞKİN SÖZLÜ SINAV DUYURUSU",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-23",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=667b7787-181b-4063-af99-0f8f07ba1293",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=667b7787-181b-4063-af99-0f8f07ba1293",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "İÇİŞLERİ BAKANLIĞI - 2026 YILI MERKEZ VE TAŞRA TEŞKİLATINDA ÇALIŞTIRILMAK ÜZERE 4/B SÖZLEŞMELİ PERSONEL ALIMINA İLİŞKİN SÖZLÜ SINAV DUYURUSU (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-23T07:01:30+00:00",
+   "akademik": false,
+   "puanlar": {}
+  },
+  {
    "id": 3078242059,
    "institution": "İSTANBUL GALATA ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Galata Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
@@ -6339,6 +6405,31 @@
    "akademik": true,
    "puanlar": {},
    "iptal": true
+  },
+  {
+   "id": 3988086724,
+   "institution": "(TÜRKAK) TÜRK AKREDİTASYON KURUMU BAŞKANLIĞI",
+   "title": "Türk Akreditasyon Kurumundan Sözleşmeli Koruma ve Güvenlik Görevlisi Alım İlanı",
+   "city": "ANKARA",
+   "department": "Herhangi",
+   "education_level": "Ön Lisans",
+   "kpss_type": "P93",
+   "min_kpss": 70.0,
+   "quota": null,
+   "deadline": "2026-12-07",
+   "application_start": "2026-11-23",
+   "link": "https://www.ilan.gov.tr/ilan/2299654/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk-akreditasyon-kurumundan-sozlesmeli-koruma-ve-guvenlik-gorevlisi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299654/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk-akreditasyon-kurumundan-sozlesmeli-koruma-ve-guvenlik-gorevlisi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Sözleşmeli personel",
+   "description": "Türk Akreditasyon Kurumundan SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ GİRİŞ SINAVI İLANI 1. SINAVA İLİŞKİN GENEL BİLGİLER Türk Akreditasyon Kurumu’nda (TÜRKAK) 375 sayılı Kanun Hükmünde Kararnamenin Ek 27’nci maddesi ile Türk Akreditasyon Kurumu İnsan Kaynakları Yönetmeliği hükümleri çerçevesinde idari hizmet sözleşmeli olarak istihdam edilmek üzere sözlü sınav ile 3 (üç) adet Koruma ve Güvenlik Görevlisi pozisyonuna personel alınacaktır. 2. BAŞVURU ŞARTLARI ve KONTENJANLAR A. Genel Şartlar: 1- a) Türk Vatandaşı olmak, b) 18 yaşını tamamlamış olmak, c) İlanda belirtilen öğrenim şartlarını taşımak, ç) Kamu haklarından mahrum bulunmamak, d) Türk Ceza Kanununun 53’üncü maddesinde belirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı bir yıl veya daha fazla süreyle hapis cezasına ya da affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak. e) Askerlikle ilgisi bulunmamak, muvazzaf askerlik hizmetini yapmış yahut ertelenmiş veya yedek sınıfa geçirilmiş olmak, 2- Görevin yapılmasına engel olabilecek vücut ve akıl hastalığı ile engelli bulunmamak, 3- Tercih edilecek pozisyon için aranan nitelikleri taşıyor olmak, 4- Herhangi bir Sosyal Güvenlik Kurumundan emeklilik veya yaşlılık aylığı almıyor olmak, 5- İlgili mevzuat uyarınca kamu hizmetinde istihdam edilmesine engel bir durumu bulunmamak, 6- Güvenlik soruşturması ve arşiv araştırması olumlu sonuçlanmak, 7- İlanda istenilen sertifika ve belgelere ilan tarihinden önce sahip olmak, 8- 01.01.2026 tarihi itibariyle 35 (otuz beş) yaşını doldurmamış olmak. 02.01.1991 tarihi ve sonrasında doğmuş olmak. B. Özel Şartlar: 1- Giriş Sınavı Bilgileri Tablosunda (Tablo-1) yer alan öğrenim programlarından veya bunlara denk olduğu Yükseköğretim Kurulu tarafından onaylanmış yurt içi veya yurt dışı programlarından mezun olmak, 2- 2026 yılı Kamu Personel Seçme Sınavında (KPSS (B) Ön Lisans), Giriş Sınavı Bilgileri Tablosunda (Tablo-1) yer alan KPSS puan türünden asgari 70 (yetmiş) ve üzerinde puan almış olmak. 3- Son başvuru tarihi itibarıyla geçerlilik süresinin dolmasına en az 6 (altı) ay kalmış olan silahlı veya silahsız özel güvenlik görevlisi kimlik kartına sahip olmak, (asil listeye giren adayların atama",
+   "checked_at": "2026-11-23T07:01:04+00:00",
+   "puanlar": {},
+   "akademik": false,
+   "egitimler": [
+    "Ön Lisans"
+   ],
+   "egitim_tahmin": false
   },
   {
    "id": 3993297745,
