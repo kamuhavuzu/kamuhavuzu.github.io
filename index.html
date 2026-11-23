@@ -6,6 +6,12 @@
 <title>KamuRadar · Kamu personel alım ilanları</title>
 <meta name="description" content="Bakanlık, kurum, belediye, üniversite ve diğer kamu personel alım ilanları tek yerde. Eğitim, KPSS puanı ve şehre göre filtrele.">
 <meta name="theme-color" content="#0b2a4a">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website"><meta property="og:title" content="KamuRadar · Kamu personel alım ilanları">
+<meta property="og:description" content="Tüm kamu alımları tek platformda. Eğitim, KPSS puanı ve şehre göre filtrele.">
+<meta property="og:image" content="https://kamuradar.github.io/logo-yazili.png"><meta property="og:url" content="https://kamuradar.github.io/">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <style>
@@ -32,6 +38,7 @@ button,input,select{font:inherit;color:inherit;max-width:100%}
 header.ust{background:var(--lacivert);color:#fff;position:sticky;top:0;z-index:30}
 .ust .kap{display:flex;align-items:center;gap:14px;height:58px}
 .logo{display:flex;align-items:center;gap:9px;font-weight:800;font-size:20px;letter-spacing:-.3px;text-decoration:none}
+.logo img{width:36px;height:36px;border-radius:10px;display:block;flex:none}
 .logo i{width:30px;height:30px;border-radius:9px;background:var(--sari);display:grid;place-items:center;color:var(--lacivert);font-style:normal;font-size:17px}
 .menu{display:flex;gap:4px;margin-left:10px;overflow-x:auto;scrollbar-width:none}
 .menu a,.menu button{background:none;border:0;color:#cfdcf0;padding:8px 12px;border-radius:9px;font-weight:600;font-size:14px;cursor:pointer;text-decoration:none;white-space:nowrap}
@@ -187,7 +194,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
 <div class="duyuru">Bu site resmî bir kurum sitesi değildir. Başvurudan önce ilanı mutlaka resmî kaynaktan kontrol et.</div>
 <header class="ust">
   <div class="kap">
-    <a class="logo" href="#"><i>◎</i> KamuRadar</a>
+    <a class="logo" href="#"><img src="logo-simge.png" alt="" width="36" height="36"> KamuRadar</a>
     <nav class="menu">
       <a href="#ilanlar">İlanlar</a>
       <button type="button" id="mnIller">İllere göre</button>
