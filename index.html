@@ -539,11 +539,16 @@ function listele(){
 
 
 /* ---------- en son eklenen ilanlar (filtreden bağımsız, kaydırmalı kartlar) ---------- */
-function yeniAnahtar(i){return [i.bas?+i.bas:0, Date.parse(i.checked_at)||0]}
+function yeniAnahtar(i){
+  /* "eklenme günü" = sitenin ilanı ilk gördüğü gün (tarihsiz ilanlar da en üste çıkabilsin); eşitlikte başvuru başlangıcı, sonra saat */
+  const ek=Date.parse(i.checked_at), bas=i.bas?+i.bas:0;
+  const gun=!isNaN(ek)?Math.floor(ek/864e5):(bas?Math.floor(bas/864e5):0);
+  return [gun,bas,isNaN(ek)?0:ek];
+}
 function yenilerCiz(){
   const kap=$('yeniler'); if(!kap) return;
-  const L=tum.filter(i=>!i.iptal&&!i.akademik&&!String(i.link).includes('#')&&(i.kalan===null||i.kalan>=0))
-    .sort((a,b)=>{const x=yeniAnahtar(a),y=yeniAnahtar(b);return (y[0]-x[0])||(y[1]-x[1])}).slice(0,12);
+  const L=tum.filter(i=>!i.iptal&&!i.akademik&&(i.kalan===null||i.kalan>=0))
+    .sort((a,b)=>{const x=yeniAnahtar(a),y=yeniAnahtar(b);return (y[0]-x[0])||(y[1]-x[1])||(y[2]-x[2])}).slice(0,12);
   if(!L.length){kap.innerHTML='';return}
   const eski=kap.querySelector('.ky-yol'), sl=eski?eski.scrollLeft:0;
   kap.innerHTML=`<div class="serit-baslik"><h2>🆕 En son eklenen ilanlar</h2><span class="ky-sayac" id="kySayac">1 / ${L.length}</span></div>
