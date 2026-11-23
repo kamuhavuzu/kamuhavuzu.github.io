@@ -1,30 +1,29 @@
 {
- "guncelleme": "2026-11-23T07:45:55+00:00",
- "son_kontrol": "2026-11-23T07:45:55+00:00",
+ "guncelleme": "2026-11-23T08:01:24+00:00",
+ "son_kontrol": "2026-11-23T08:01:24+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-23T07:45:50+00:00",
+   "son_basari": "2026-11-23T08:01:21+00:00",
    "sayi": 161
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T07:45:52+00:00",
+   "son_basari": "2026-11-23T08:01:22+00:00",
    "sayi": 31
   },
   "Kamu İlan (SBB)": {
-   "durum": "tamam",
-   "yeni": 0,
+   "durum": "eski",
+   "mesaj": "HTTPError: 403 Client Error: Forbidden for url: https://kamuilan.sbb.gov.tr/",
    "son_basari": "2026-11-23T07:45:53+00:00",
-   "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 111
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T07:45:54+00:00",
+   "son_basari": "2026-11-23T08:01:24+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
