@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-23T06:15:55+00:00",
- "son_kontrol": "2026-11-23T06:15:55+00:00",
+ "guncelleme": "2026-11-23T06:31:22+00:00",
+ "son_kontrol": "2026-11-23T06:31:22+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-23T06:15:51+00:00",
-   "sayi": 150
+   "yeni": 3,
+   "son_basari": "2026-11-23T06:31:07+00:00",
+   "sayi": 153
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 1,
-   "son_basari": "2026-11-23T06:15:53+00:00",
+   "yeni": 0,
+   "son_basari": "2026-11-23T06:31:16+00:00",
    "sayi": 30
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T06:15:55+00:00",
+   "son_basari": "2026-11-23T06:31:22+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -2353,6 +2353,31 @@
    "puanlar": {}
   },
   {
+   "id": 1330583618,
+   "institution": "DÜZCE ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Düzce Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "city": "DÜZCE",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-07",
+   "application_start": "2026-11-23",
+   "link": "https://www.ilan.gov.tr/ilan/2299646/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299646/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Düzce Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz birimlerine; 2547 sayılı Kanunun, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ve Üniversitemiz Öğretim Üyeliğine Yükseltilme ve Atanma Ölçütleri Yönergesinin ilgili maddelerine göre öğretim üyesi alınacaktır. Müracaat edecek adayların devlet hizmetine girmede aranılan genel şartlara sahip olmaları gerekmektedir. Gerekli bilgi ve belgeler https://personel.duzce.edu.tr/duyurular adresinden temin edilebilir. Başvurular http://abas.duzce.edu.tr adresinde yer alan Düzce Üniversitesi Akademik İlan Başvuru Sistemi üzerinden elektronik ortamda yapılacaktır. Başvuru Tarihleri: 23.11.2026 - 07.12.2026 tarihleri arasındadır. AKADEMİK İLAN BAŞVURU SİSTEMİNE YÜKLENECEK BAŞVURU EVRAKLARI: 1) Islak İmzalı Aday etkinlik puan listesi. 2) Diplomaların (mezun belgelerinin) e-Devlet çıktıları veya diplomanın taratılmış örneği (*) NOT: Yabancı ülkelerden alınan diplomaların Üniversitelerarası Kurul tarafından verilen denklik belgelerinin taratılmış örneğinin de sisteme eklenmesi gerekmektedir. (*) 3) Yabancı dil sınavı sonuç belgesinin taratılmış örneği. (*) 4) Nüfus Cüzdanı Fotokopisi ve e-Devletten alınan adli sicil kaydı ile askerlik durum belgesi. 5) Özgeçmiş. 6) Bilimsel Çalışmalar. 7) Not: İlan Şartında var ise sertifika, deneyim belgesi vs. bilimsel çalışmalar kısmına yüklenmelidir. (*) Atanmaya hak kazanıp Düzce Üniversitesi Akademik İlan Başvuru Sistemine barkotla doğrulanabilir belge (e-devletten alınabilen belgeler vs.) dışında bir belge yükleyen adaylar atanmaya esas teşkil etmek üzere ilgili evrakların noter onaylı örneklerini Üniversitemiz Personel Daire Başkanlığına teslim edeceklerdir. (Üniversitemiz personeli aslı gibidir işlemini noter yerine görev yaptıkları birimlerin Birim Sekreterlerine yaptırabileceklerdir.) NOT: Adaylar sadece bir kadroya başvurabilir. SIRA NO İLANA ÇIKILAN BİRİM BÖLÜM ANABİLİM DALI ÜNVAN DERECE ADET İLAN ŞARTI 1 Akçakoca Bey Siyasal Bilgiler Fakültesi İktisat İktisat Tarihi Profesör 1 1 Doçent unvanını Mikro İktisat alanında almış, Eğitim Ekonomisi, Kent ve Çevre Ekonomisi alanında çalışmış olmak. 2 Fen Edebiyat Fakültesi Psikoloji Gelişim Psikolojisi Doktor Öğretim Üyesi 2 1 Lisans ve Yüksek Lisansını Psikoloji alanında, Doktorasını Gelişim Psikolojisi alanında yapmış, Cinsiyet Gelişimi alanında çalışmış olmak. 3 İşletme Fakültesi İşletme Yönetim ve Organizasyon Doktor Öğretim Üyesi 2 1 İşletme Bölümü Lisans mezunu, İşletme alanında Doktora yapmış, Di",
+   "checked_at": "2026-11-23T06:30:51+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
+  },
+  {
    "id": 1334352201,
    "institution": "BAYBURT ÜNİVERSİTESİ",
    "title": "BAYBURT ÜNİVERSİTESİ 8 ÖĞRETİM ELEMANI ALACAK ( 18 Kasım - 2 Aralık)",
@@ -4229,6 +4254,32 @@
    "puanlar": {}
   },
   {
+   "id": 2708449685,
+   "institution": "DÜZCE ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Düzce Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "city": "DÜZCE",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-07",
+   "application_start": "2026-11-23",
+   "link": "https://www.ilan.gov.tr/ilan/2299635/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299635/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Düzce Üniversitesi Rektörlüğünden: ÖĞRETİM ELEMANI ALIM İLANI Üniversitemiz birimlerine; 2547 sayılı Kanunun, 657 sayılı Kanunun ve Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik'in ilgili maddelerine göre öğretim elemanı alınacaktır. BAŞVURU 1- Başvuru Tarihleri: 23.11.2026 - 07.12.2026 tarihleri arasındadır. 2- Başvurular sadece http://abas.duzce.edu.tr adresinde yer alan Düzce Üniversitesi Akademik İlan Başvuru Sistemi üzerinden elektronik ortamda yapılacaktır. 3- Ön Değerlendirme Sonuçları 10.12.2026 tarihinde https://personel.duzce.edu.tr/duyurular internet sitesinden duyurulacaktır. 4- Giriş Sınavları 14.12.2026 tarihinde saat 14:00'da başvurulan birimlerde yapılacaktır. Sonuçlar 16.12.2026 tarihinde yukarıda bahsi geçen internet sitesinden duyurulacaktır. 5- AKADEMİK İLAN BAŞVURU SİSTEMİNE YÜKLENECEK BAŞVURU EVRAKLARI: - Lisans mezuniyet belgesinin e devlet çıktısı ve Lisans transkriptinin e Devlet çıktısı ya da fotokopisi. - İlan şartlarında var ise yüksek lisans/doktora mezuniyet/öğrencilik belgesinin e Devlet çıktısı. ÖNEMLİ (!): Diploma/Mezun Belgesi/öğrencilik belgesinde ilan şartında belirtilen alan adı açıkça yazmıyorsa adayların mezun olduğu veya öğrenim gördüğü birimin öğrenci işlerinden ilan şartında istenilen alanın belirtildiği ıslak veya elektronik imzalı belgeyi de ibraz etmeleri gerekmektedir. - İlan şartlarında var ise deneyim belgesi, usta öğreticilik belgesi/sertifika vb. evraklar. - ALES ve Yabancı Dil Sonuç Belgesi (Bilgisayar çıktısı) - Özgeçmiş NOT: Yabancı ülkelerdeki yükseköğretim kuruluşlarından mezun olan adayların denklik belgelerini de sunması gerekmektedir. 6- Adaylar, tek kadro için başvuruda bulunabilirler. SIRA NO İLANA ÇIKILAN BİRİM BÖLÜM ANABİLİM DALI ÜNVAN DERECE ADET ALES PUAN BARAJI Y. DİL PUAN BARAJI İLAN ŞARTI 1 Mühendislik Fakültesi Makine Mühendisliği Malzeme Bilimleri Araştırma Görevlisi 4 1 70 50 Makine Mühendisliği Bölümü lisans mezunu ve Malzeme Bilimleri alanında tezli yüksek lisans yapıyor olmak. 2 Gölyaka Meslek Yüksekokulu Pazarlama ve Reklamcılık Halkla İlişkiler ve Tanıtım Öğretim Görevlisi 1 1 70 Muaf Halkla İlişkiler ve Tanıtım veya Radyo, Televizyon ve Sinema bölümlerinden birinden lisans mezunu ve bu alanlardan birinde tezli yüksek lisans yapmış olmak. Lisans mezuniyeti sonrasında yükseköğretim kurumlarında belgelendirmek kaydıyla alanında en az 10 (on) yıl mesleki deneyimi olup ",
+   "checked_at": "2026-11-23T06:30:52+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Ön Lisans",
+    "Lisans"
+   ],
+   "egitim_tahmin": false
+  },
+  {
    "id": 2710402227,
    "institution": "İZMİR DEMOKRASİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "SÖZLEŞMELİ AVUKAT ALIM İLANI (S2026/3)",
@@ -5432,6 +5483,31 @@
    "egitimler": [
     "Ön Lisans",
     "Lisans",
+    "Ortaöğretim"
+   ],
+   "egitim_tahmin": false
+  },
+  {
+   "id": 3475581274,
+   "institution": "ONDOKUZ MAYIS ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Ondokuz Mayıs Üniversitesi Rektörlüğü Sürekli İşçi Alım İlanı",
+   "city": "SAMSUN",
+   "department": "Herhangi",
+   "education_level": "Ortaöğretim",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2299634/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ondokuz-mayis-universitesi-rektorlugu-surekli-isci-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299634/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ondokuz-mayis-universitesi-rektorlugu-surekli-isci-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "İşçi",
+   "description": "Ondokuz Mayıs Üniversitesi Rektörlüğünden SÜREKLİ İŞÇİ ALIM İLANI Üniversitemiz Rektörlüğüne bağlı birimlerde 4857 sayılı İş Kanunu ve Kamu Kurum ve Kuruluşlarında Eski Hükümlü veya Terörle Mücadelede Malul Sayılmayacak Şekilde Yaralananların İşçi Olarak Alınmasında Uygulanacak Usul ve Esaslar Hakkında Yönetmelik hükümleri kapsamında aşağıdaki tabloda belirtilen unvanlarda noter kurası ve akabinde yapılacak sözlü ve uygulamalı sınav yöntemiyle Türkiye İş Kurumu (İŞKUR) üzerinden 21 adet Sürekli İşçi alınacaktır. Sürekli işçi kadrolarına ilişkin ilan, Türkiye İş Kurumu (İŞKUR) internet sitesi üzerinden yayımlanacaktır. Şartlara durumu uyan adaylar, ilanın Türkiye İş Kurumu (İŞKUR) internet sitesinde yayımlandığı tarihten itibaren 5 (beş) gün içinde başvurularını esube.iskur.gov.tr internet adresinden “İş Arayan” linki üzerinden T.C. Kimlik Numarası ve şifre ile giriş yaparak başvuru yapabilecektir. Unvanı Mezuniyet Alım Şekli Pozisyon Adedi Aranılan Nitelikler Sürekli İşçi (Temizlik Görevlisi) (Kadın/Erkek) Ortaöğretim (Lise ve Dengi) Kura + Sözlü Sınav 7 -Ortaöğretim kurumlarının herhangi birinden mezun olmak. -Açık ve kapalı alanlardaki her türlü temizlik, basit bakım ve onarım, dağıtım, taşıma ve diğer işleri yürütebilmek. -7/24 esasına göre çalışmasına engel durumu bulunmamak. -Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak. Sürekli İşçi (Kaynakçı) (Kadın/Erkek) Ortaöğretim (Lise ve Dengi) Kura + Uygulamalı Sınav 2 -Ortaöğretim kurumlarının Mesleki ve Teknik Liselerinin Metal Teknolojisi alanı (Kaynakçılık) dalından mezun olmak veya 3308 sayılı Mesleki Eğitim Kanunu’na göre düzenlenen Kaynakçılık Ustalık belgesine sahip olmak. -7/24 esasına göre çalışmasına engel durumu bulunmamak. -Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak. Sürekli İşçi (Oto Bakım Onarımcısı-Otomotiv Mekanikçisi) (Kadın/Erkek) Ortaöğretim (Lise ve Dengi) Kura + Uygulamalı Sınav 2 -Ortaöğretim kurumlarının Mesleki ve Teknik Liselerinin Motorlu Araçlar Teknolojisi alanından mezun olmak veya 3308 sayılı Mesleki Eğitim Kanunu’na göre düzenlenen Oto Bakım-Onarımcısı (Otomotiv Mekanikerliği) Ustalık belgesine sahip olmak. -7/24 esasına göre çalışmasına engel durumu bulunmamak. -Son başvuru tarihi itibarıyla 35 (otuz beş) yaşından gün almamış olmak. Sürekli İşçi (Elektrikçi-Genel) (Kadın/Erkek) Ortaöğretim (Lise ve Dengi) Kura + Uygulamalı Sınav 4 -Ortaöğretim kurumlarının Mesleki ve Teknik Liselerinin Elektrik-Elektronik Teknolojisi alanın",
+   "checked_at": "2026-11-23T06:30:54+00:00",
+   "puanlar": {},
+   "akademik": false,
+   "egitimler": [
     "Ortaöğretim"
    ],
    "egitim_tahmin": false
