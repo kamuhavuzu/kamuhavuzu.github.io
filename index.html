@@ -6,9 +6,8 @@
 <title>KamuRadar · Kamu personel alım ilanları</title>
 <meta name="description" content="Bakanlık, kurum, belediye, üniversite ve diğer kamu personel alım ilanları tek yerde. Eğitim, KPSS puanı ve şehre göre filtrele.">
 <meta name="theme-color" content="#0b2a4a">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
 <style>
 :root{
   --bg:#f5f7fb; --kart:#ffffff; --yazi:#13233a; --soluk:#5b6b82; --cizgi:#e1e7f0;
@@ -21,7 +20,7 @@
 :root[data-tema="koyu"]{--bg:#0c1524;--kart:#14213a;--yazi:#e8eef9;--soluk:#9fb0c9;--cizgi:#243452;--gol:0 1px 2px rgba(0,0,0,.4)}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;overflow-x:hidden;-webkit-text-size-adjust:100%}
-body{margin:0;overflow-x:hidden;max-width:100vw;background:var(--bg);color:var(--yazi);font-family:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.5}
+body{margin:0;overflow-x:hidden;max-width:100vw;background:var(--bg);color:var(--yazi);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.5}
 a{color:inherit}
 .kap{max-width:1180px;margin:0 auto;padding:0 16px;min-width:0}
 button,input,select{font:inherit;color:inherit;max-width:100%}
@@ -169,6 +168,19 @@ header.ust{background:var(--lacivert);color:#fff;position:sticky;top:0;z-index:3
 .resmi a{display:inline-block;margin:4px 6px 0 0;font-size:13px;font-weight:600;color:var(--mavi);text-decoration:none}
 .resmi a:hover{text-decoration:underline}
 footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px solid var(--cizgi)}
+
+.yeniler{margin:4px 0 18px}
+.yeniler .serit-baslik{align-items:center}
+.ky-sayac{font-size:13px;color:var(--soluk);font-weight:600}
+.ky{position:relative}
+.ky-yol{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:4px 2px 12px;scrollbar-width:none;outline:none}
+.ky-yol::-webkit-scrollbar{display:none}
+.ky-yol>.ilan{flex:0 0 min(86vw,390px);scroll-snap-align:start}
+.ky-ok{position:absolute;top:42%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:1px solid var(--cizgi);background:var(--kart);color:var(--yazi);box-shadow:0 4px 14px rgba(0,0,0,.18);cursor:pointer;font-size:24px;line-height:1;z-index:3;display:flex;align-items:center;justify-content:center;padding:0}
+.ky-ok.sol{left:-6px}.ky-ok.sag{right:-6px}
+.ky-ok:disabled{opacity:.3;cursor:default}
+.ky-ok:not(:disabled):hover{background:var(--lacivert);color:#fff}
+.yasal{margin-top:8px;font-size:13px}.yasal a{color:inherit;text-decoration:underline;margin:0 2px}
 </style>
 </head>
 <body>
@@ -204,6 +216,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
 </section>
 
 <main class="kap" id="ilanlar">
+  <div class="yeniler" id="yeniler"></div>
   <div class="arama-kutu">
     <div class="arama"><input id="q" type="search" placeholder="Kurum, unvan veya şehir ara… (örn. belediye, zabıta)" autocomplete="off"><button type="button" id="btnAra">Ara</button></div>
   </div>
@@ -262,7 +275,8 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
     </section>
   </div>
 </main>
-<footer><div class="kap">KamuRadar kişisel bir derleme aracıdır, resmî kurum değildir. Taban puan ve tarihler ilan metninden otomatik okunur ve hatalı olabilir; "İncele" ile resmî ilanı doğrula.</div></footer>
+<footer><div class="kap">KamuRadar bağımsız ve kâr amacı gütmeyen bir derleme aracıdır; hiçbir kamu kurumuyla bağlantısı yoktur, resmî kurum değildir. Taban puan ve tarihler ilan metninden otomatik okunur ve hatalı olabilir; başvurudan önce "İncele" ile resmî ilanı doğrula.
+<div class="yasal"><a href="bilgi.html#hakkinda">Hakkında</a> · <a href="bilgi.html#kosullar">Kullanım koşulları</a> · <a href="bilgi.html#gizlilik">Gizlilik ve KVKK</a> · <a href="bilgi.html#kaynak">Kaynaklar ve telif</a> · <a href="bilgi.html#iletisim">İletişim</a></div></div></footer>
 
 <script>
 window.addEventListener('error',function(e){var c=document.getElementById('canli');if(c)c.innerHTML='⚠ Sayfa kodunda hata: '+String(e.message).replace(/</g,'&lt;')+' (satır '+e.lineno+')'});
@@ -517,11 +531,41 @@ function listele(){
   if(durumFiltre!=='hepsi'&&d.puan>0)A.push('Renk: '+durumFiltre);
   $('aktifBar').innerHTML=A.length?`<div class="aktifbar">🔎 <span>Açık filtreler: <b>${A.map(esc).join(' · ')}</b></span><button type="button" id="btnHepsiniKaldir">Hepsini kaldır</button></div>`:'';
   yaklasanCiz(aday);
+  yenilerCiz();
   cipSayilari(d);
   listele.son=sonuc;
   return sonuc.length;
 }
 
+
+/* ---------- en son eklenen ilanlar (filtreden bağımsız, kaydırmalı kartlar) ---------- */
+function yeniAnahtar(i){return [i.bas?+i.bas:0, Date.parse(i.checked_at)||0]}
+function yenilerCiz(){
+  const kap=$('yeniler'); if(!kap) return;
+  const L=tum.filter(i=>!i.iptal&&!i.akademik&&!String(i.link).includes('#')&&(i.kalan===null||i.kalan>=0))
+    .sort((a,b)=>{const x=yeniAnahtar(a),y=yeniAnahtar(b);return (y[0]-x[0])||(y[1]-x[1])}).slice(0,12);
+  if(!L.length){kap.innerHTML='';return}
+  const eski=kap.querySelector('.ky-yol'), sl=eski?eski.scrollLeft:0;
+  kap.innerHTML=`<div class="serit-baslik"><h2>🆕 En son eklenen ilanlar</h2><span class="ky-sayac" id="kySayac">1 / ${L.length}</span></div>
+  <div class="ky"><button type="button" class="ky-ok sol" data-ky="-1" aria-label="Önceki ilan">‹</button>
+  <div class="ky-yol" tabindex="0" aria-label="En son eklenen ilanlar">${L.map(kart).join('')}</div>
+  <button type="button" class="ky-ok sag" data-ky="1" aria-label="Sonraki ilan">›</button></div>`;
+  const yol=kap.querySelector('.ky-yol');
+  const guncelle=()=>{
+    const k=yol.querySelector('.ilan'); const adim=k?k.getBoundingClientRect().width+14:1;
+    const n=Math.min(L.length,Math.max(1,Math.round(yol.scrollLeft/adim)+1));
+    $('kySayac').textContent=n+' / '+L.length;
+    kap.querySelector('.ky-ok.sol').disabled=yol.scrollLeft<=2;
+    kap.querySelector('.ky-ok.sag').disabled=yol.scrollLeft+yol.clientWidth>=yol.scrollWidth-2;
+  };
+  yol.addEventListener('scroll',guncelle,{passive:true});
+  yol.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();kyKaydir(yol,e.key==='ArrowRight'?1:-1)}});
+  yol.style.scrollBehavior='auto'; yol.scrollLeft=sl; yol.style.scrollBehavior=''; guncelle();
+}
+function kyKaydir(yol,yon){
+  const k=yol.querySelector('.ilan'); if(!k) return;
+  yol.scrollBy({left:yon*(k.getBoundingClientRect().width+14),behavior:'smooth'});
+}
 function yaklasanCiz(aday){
   const y=aday.filter(i=>i.kalan!==null&&i.kalan>=0&&i.kalan<=5).sort((a,b)=>a.kalan-b.kalan).slice(0,12);
   $('yaklasan').innerHTML=y.length?`<div class="serit-baslik"><h2>⏰ Son başvurusu yaklaşanlar</h2></div><div class="serit">${y.map(i=>`<a class="mini" target="_blank" rel="noopener" href="${esc(i.link)}"><b>${esc(i.title)}</b><span>${esc(i.institution)} · ${i.kalan===0?'bugün':i.kalan+' gün'}</span></a>`).join('')}</div>`:'';
@@ -634,7 +678,7 @@ $('cipler').addEventListener('click',e=>{const b=e.target.closest('.cip');if(!b)
   else{cip.has(k)?cip.delete(k):cip.add(k);kaydet()} yenidenCiz()});
 $('durumAlani').addEventListener('click',e=>{const b=e.target.closest('.durum-btn');if(!b)return;durumFiltre=b.dataset.durum;yenidenCiz()});
 $('iller').addEventListener('click',e=>{const b=e.target.closest('.il');if(!b)return;$('fSehir').value=b.dataset.il;kaydet();yenidenCiz();window.scrollTo({top:$('ilanlar').offsetTop,behavior:'smooth'})});
-$('liste').addEventListener('click',e=>{
+const listeTik=e=>{
   const kp=e.target.closest('[data-kopya]');
   if(kp){try{navigator.clipboard.writeText(kp.dataset.kopya)}catch(x){}
     const t=document.createElement('div');t.textContent='Başlık kopyalandı. Açılan sayfada Ctrl+F ile yapıştırıp ilanı bul.';
@@ -643,9 +687,15 @@ $('liste').addEventListener('click',e=>{
   const f=e.target.closest('[data-fav]');
   if(f){const id=f.dataset.fav;favoriler.has(id)?favoriler.delete(id):favoriler.add(id);yaz('k_fav',JSON.stringify([...favoriler]));listele();return}
   const k=e.target.closest('[data-kaydet]');
-  if(k){const id=k.dataset.kaydet,g=$('liste').querySelector(`input[data-id="${CSS.escape(id)}"]`),v=parseFloat(String(g.value).replace(',','.'));
+  if(k){const id=k.dataset.kaydet,g=e.currentTarget.querySelector(`input[data-id="${CSS.escape(id)}"]`),v=parseFloat(String(g.value).replace(',','.'));
     if(!(v>=40&&v<=100)){g.style.borderColor='var(--kirmizi)';return}
     manuel[id]=v;yaz('k_manuel',JSON.stringify(manuel));tum.forEach(i=>{if(String(i.id)===id){i.minP=v;i.pk='manuel'}});listele()}
+};
+$('liste').addEventListener('click',listeTik);
+$('yeniler').addEventListener('click',e=>{
+  const ok=e.target.closest('[data-ky]');
+  if(ok){kyKaydir($('yeniler').querySelector('.ky-yol'),+ok.dataset.ky);return}
+  listeTik(e);
 });
 $('mnIller').addEventListener('click',()=>{iller=!iller;$('iller').classList.toggle('acik',iller);listele();if(iller)$('ilanlar').scrollIntoView()});
 $('mnFav').addEventListener('click',()=>{cip.has('fav')?cip.delete('fav'):cip.add('fav');yenidenCiz();$('ilanlar').scrollIntoView()});
