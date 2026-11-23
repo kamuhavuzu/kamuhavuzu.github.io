@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-23T07:01:33+00:00",
- "son_kontrol": "2026-11-23T07:01:33+00:00",
+ "guncelleme": "2026-11-23T07:15:59+00:00",
+ "son_kontrol": "2026-11-23T07:15:59+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 4,
-   "son_basari": "2026-11-23T07:01:20+00:00",
-   "sayi": 157
+   "yeni": 2,
+   "son_basari": "2026-11-23T07:15:55+00:00",
+   "sayi": 158
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 1,
-   "son_basari": "2026-11-23T07:01:30+00:00",
+   "yeni": 0,
+   "son_basari": "2026-11-23T07:15:56+00:00",
    "sayi": 31
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-23T07:01:33+00:00",
+   "son_basari": "2026-11-23T07:15:59+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -4549,6 +4549,27 @@
    "checked_at": "2026-11-19T09:20:06+00:00",
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 2896741186,
+   "institution": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Ankara Yıldırım Beyazıt Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı",
+   "city": "ANKARA",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "P3",
+   "min_kpss": 70.0,
+   "quota": null,
+   "deadline": "2026-12-07",
+   "application_start": "2026-11-23",
+   "link": "https://www.ilan.gov.tr/ilan/2299686/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ankara-yildirim-beyazit-universitesi-sozlesmeli-bilisim-personeli-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2299686/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ankara-yildirim-beyazit-universitesi-sozlesmeli-bilisim-personeli-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Sözleşmeli personel",
+   "description": "Ankara Yıldırım Beyazıt Üniversitesi Rektörlüğünden SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI Üniversitemiz Bilgi İşlem Daire Başkanlığı’nda tam zamanlı olarak istihdam edilmek üzere, 31/12/2008 tarih ve 27097 sayılı Resmî Gazete'de yayımlanan “Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmelik” in 8 inci maddesi uyarınca, 1 (bir) adet Sözleşmeli Bilişim Personeli alınacaktır. Pozisyon Adı, Sayısı ve Aylık Brüt Sözleşme Ücreti Katsayı Tavanları Sistem Uzmanı (1 Kişi – Tam Zamanlı) : Ücret Tavanının 3 Katına Kadar I. BAŞVURU ŞARTLARI A. GENEL ŞARTLAR İstihdam edilecek personelin; 1. 657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesinde belirtilen şartları taşımak. 2. Yazılım, yazılım tasarımı ve geliştirilmesi ile bu sürecin yönetimi konusunda veya büyük ölçekli ağ sistemlerinin kurulumu ve yönetimi konusunda en az 5 yıllık mesleki tecrübeye sahip bulunması. (Mesleki tecrübenin belirlenmesinde; bilişim personeli olarak 657 sayılı Kanuna tabi kadrolu veya aynı Kanunun 4 üncü maddesinin (B) bendi ya da 399 sayılı Kanun Hükmünde Kararnameye tabi sözleşmeli statüdeki hizmetler ile özel kesimde sosyal güvenlik kurumlarına prim ödenmek suretiyle işçi statüsünde bilişim personeli olarak geçtiği belgelenen hizmet süreleri dikkate alınır.) 3. Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmaları kaydıyla güncel programlama dillerinden en az ikisini bildiğini belgelemek. 4. Yukarıda sayılanlarla birlikte, hizmetin gerektirdiği nitelikler ile muhakeme, temsil, yeni teknolojileri takip etme, öğrenme ve araştırma, hızlı öğrenme ve kendini geliştirme, analitik düşünebilme, takım çalışmasına yatkın olma ve iletişim becerisi yüksek olma, yoğun ve stresli iş temposuna ayak uydurabilme ve belgelemeye (dokümantasyon) önem vererek belgeleme yeteneklerine sahip olmaları beklenmektedir. 5. Erkek adaylar için sınav tarihleri itibarıyla muvazzaf askerlik çağına gelmemiş veya askerlik çağına gelmiş ise muvazzaf askerlik hizmetini yapmış, ertelemiş, muaf veya yedek sınıfa geçirilmiş olmak. B. ÖZEL ŞARTLAR Başvuru genel şartlarına ilave olarak, niteliklerine göre aşağıdaki özel şartlar aranacaktır. İlan edilen pozisyonlara başvurularda adayın hangi unvana başvurduğunu beyan etmesi gerekmektedir. SİSTEM UZMANI (1 Kişi – Tam Zamanlı - Aylık Brüt Sözleşme Ücret Tavanının 3 Katına Kadar) a) Temel Nitelikler 1- Fakültelerin dört yıllık bi",
+   "checked_at": "2026-11-23T07:15:40+00:00",
+   "puanlar": {},
+   "akademik": false
   },
   {
    "id": 2898652675,
