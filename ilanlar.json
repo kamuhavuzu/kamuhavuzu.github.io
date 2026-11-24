@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-24T07:01:20+00:00",
- "son_kontrol": "2026-11-24T07:15:59+00:00",
+ "guncelleme": "2026-11-24T07:31:20+00:00",
+ "son_kontrol": "2026-11-24T07:31:20+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 1,
-   "son_basari": "2026-11-24T07:15:52+00:00",
-   "sayi": 167
+   "yeni": 3,
+   "son_basari": "2026-11-24T07:31:16+00:00",
+   "sayi": 169
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-24T07:15:56+00:00",
+   "son_basari": "2026-11-24T07:31:17+00:00",
    "sayi": 31
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-24T07:15:59+00:00",
+   "son_basari": "2026-11-24T07:31:20+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -1359,6 +1359,31 @@
    "puanlar": {}
   },
   {
+   "id": 782321293,
+   "institution": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Marmara Üniversitesi Öğretim Elemanı Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-08",
+   "application_start": "2026-11-24",
+   "link": "https://www.ilan.gov.tr/ilan/2301240/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301240/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Marmara Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemiz Birimlerine 15.07.2018 tarihli Resmi Gazete'de yayımlanan 10 Sayılı Cumhurbaşkanlığı Kararnamesinin ilgili maddeleri, 10.07.2018 tarihli Resmi Gazete’de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi, 2547 Sayılı Kanunun ilgili maddeleri ve 09.11.2018 tarihli Resmi Gazete’de yayımlanarak yürürlüğe giren “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”in ilgili maddelerine göre Araştırma Görevlisi ve Öğretim Görevlisi alınacaktır. Başvurular https://basvuru.marmara.edu.tr/personel adresi üzerinden istenen belgeler yüklenerek online olarak yapılacaktır. AÇIKLAMALAR -Adayların 657 sayılı Devlet Memurları Kanun'nun 48. maddesinin tüm şartları taşıyor olmaları gerekmektedir. -Adayların Devlet Hizmeti Yükümlülüğü bulunmaması gerekmektedir. -İlan edilen kadrolara müracaat edecek erkek adayların askerlik yönünden mahkeme veya bakaya durumunda olmamaları gerekmektedir. -Aynı tarihli ilanlarda adaylar, ilan edilen kadrolardan yalnızca birine başvurabilirler. -Özel Şartlarda başka bir puan şartı belirtilmemiş ise; ALES’ten en az 70 puan almış olmak gerekir. ALES puanının geçerlilk süresi sınav sonuçlarının açıklandığı tarihinden itibaren 5 yıldır. Mezkur Yönetmelik'in 14.maddesinin 1.fıkrası uyarınca merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir. -İstenilen belgelerde gerçeğe aykırı beyanda bulunduğu tespit edilenlerin sınavı geçersiz sayılacak ve atamaları yapılmayacak, yapılmış olsa dahi iptal edilecektir. -İdarenin uygun gördüğü taktirde ilanın her aşaması iptal edilebilir. -İdare sınav takviminde zorunlu hallerde değişiklik yapma hakkına sahiptir. Aşağıda belirtilen internet adresinden yapılan tüm duyurular tebligat mahiyetinde olup, adaylara ayrıca yazılı tebligat yapılmayacaktır. SINAV TAKVİMİ İLK BAŞVURU TARİHİ : 24.11.2026 SON BAŞVURU TARİHİ : 08.12.2026 ÖN DEĞERLENDİRME TARİHİ : 15.12.2026 SÖZLÜ SINAVA GİRİŞ TARİHİ : 22.12.2026 SONUÇ AÇIKLAMA TARİHİ : 29.12.2026 İLAN NO BİRİM ADI BÖLÜMÜ ANABİLİM DALI KADRO ÜNVANI ADET DRC. BAŞVURU ŞEKLİ ALES PUAN TÜRÜ ÖZEL ŞARTLAR SONUÇLARIN AÇIKLANACAĞI İNTERNET ADRESİ 26.02.008 Yabancı Diller Yüksekokulu - Almanca Hazırlık Birimi Öğr.Gör. (Ders Verecek) 1 4 Online EA/SAY/SÖZ Lisans derecesini Almanca Öğr",
+   "checked_at": "2026-11-24T07:31:00+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
+  },
+  {
    "id": 791739663,
    "institution": "TÜRK AKREDİTASYON KURUMU",
    "title": "TÜRK AKREDİTASYON KURUMU 3 SÖZLEŞMELİ KORUMA VE GÜVENLİK PERSONELİ ALACAK 23 Kasım - 7 Aralık",
@@ -1379,6 +1404,31 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 802968413,
+   "institution": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Marmara Üniversitesi Öğretim Üyesi Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-08",
+   "application_start": "2026-11-24",
+   "link": "https://www.ilan.gov.tr/ilan/2301281/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301281/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Marmara Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz aşağıda belirtilen Birimine 2547 sayılı Kanunun ve Öğretim Üyeliğine Yükseltme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca, Üniversitemiz Öğretim Üyeliğine Yükseltilme ve Atanma Kriterlerini sağlamış olmak koşuluyla Öğretim Üyesi alınacaktır. Başvurular ilanın yayım tarihinden itibaren 15 gün içinde https://basvuru.marmara.edu.tr/personel adresi üzerinden online olarak yapılacaktır. Adaylar aynı ilan dönemi içerisinde başvuru şartlarını sağladığı sadece bir ilana başvurabilecektir. Birden fazla ilana başvuru yapmış olan adayların başvuruları iptal edilecektir. Daha üst akademik ünvana sahip adayların, doktor öğretim üyesi ve doçent kadrolarına başvuruları kabul edilmeyecektir. Yabancı Dille Eğitim yapan Birimlere müracaatlarda Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik uygulanmaktadır. Yurtdışından alınmış diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması gerekmektedir. Belirtilen şartları taşımayan ve süresi içerisinde başvurmayan adayların başvuruları dikkate alınmayacaktır. İlk Başvuru Tarihi: 24.11.2026 Son Başvuru Tarihi: 08.12.2026 İlan No Birim Bölüm Anabilim/Anasanat/Program Kadro Ünvanı Derece İlan Metni 26.01.136 Atatürk Eğitim Fakültesi Eğitim Bilimleri Eğitim Yönetimi Dr.Öğr.Üyesi 1 Eğitim Yönetimi alanında yüksek lisans ve doktora yapmış olmak. Doktora sonrası SSCI kapsamındaki Q1 dergilerde yayımlanmış, en az biri tek yazarlı olmak üzere araştırma makaleleri bulunmak. Uluslararası destekli projelerde görev almış olmak. Yükseköğretim düzeyinde İngilizce ders verme yeterliğine ve deneyimine sahip olmak. 26.01.137 İletişim Fakültesi Halkla İlişkiler ve Tanıtım Kişilerarası İletişim Profesör 1 Doçentliğini Halkla İlişkiler alanında almış olmak, kişilerarası iletişim süreçleri, çatışma yönetimi, örgütsel ve ikna edici iletişim konularında lisans ve lisansüstü düzeyde ders verme tecrübesine sahip olmak, kişilerarası iletişim alanında TÜBİTAK ve Avrupa Birliği tarafından desteklenen ulusal ve uluslararası tamamlanmış araştırma projelerinde yürütücü olarak görev yapmış olmak, yükseköğretim kurumlarında İngilizce ders verebilecek yabancı dil yeterliliğine sahip olmak. 26.01.138 Teknoloji Fakültesi Siber Güvenlik Mühendisliği Siber Güvenlik Mühendisliği Doçent 1 Havacılık Mühendisliği lisans mezunu olmak, Doçentliğini Yönetim Bilişim Sistemleri alanında almış olmak. Lisans ",
+   "checked_at": "2026-11-24T07:30:59+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
   },
   {
    "id": 807563525,
