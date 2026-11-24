@@ -1,18 +1,18 @@
 {
- "guncelleme": "2026-11-24T10:28:17+00:00",
- "son_kontrol": "2026-11-24T12:46:10+00:00",
+ "guncelleme": "2026-11-24T13:01:31+00:00",
+ "son_kontrol": "2026-11-24T13:01:31+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-24T12:46:04+00:00",
+   "son_basari": "2026-11-24T13:01:25+00:00",
    "sayi": 169
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-24T12:46:06+00:00",
-   "sayi": 32
+   "yeni": 1,
+   "son_basari": "2026-11-24T13:01:27+00:00",
+   "sayi": 33
   },
   "Kamu İlan (SBB)": {
    "durum": "eski",
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-24T12:46:10+00:00",
+   "son_basari": "2026-11-24T13:01:30+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -3844,6 +3844,27 @@
     "Lisans"
    ],
    "egitim_tahmin": false
+  },
+  {
+   "id": 2281695877,
+   "institution": "REKABET KURUMU BAŞKANLIĞI",
+   "title": "REKABET UZMAN YARDIMCILIĞI GİRİŞ SINAVI",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-12-07",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Memur",
+   "description": "REKABET KURUMU BAŞKANLIĞI - REKABET UZMAN YARDIMCILIĞI GİRİŞ SINAVI (A Grubu Memur (Kariyer Meslek))",
+   "checked_at": "2026-11-24T13:01:27+00:00",
+   "akademik": false,
+   "puanlar": {}
   },
   {
    "id": 2295777009,
