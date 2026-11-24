@@ -179,6 +179,10 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
 .yeniler{margin:4px 0 18px}
 .yeniler .serit-baslik{align-items:center}
 .ky-sayac{font-size:13px;color:var(--soluk);font-weight:600}
+.ilan.gorulmus{opacity:.55;filter:grayscale(.9);transition:opacity .2s,filter .2s}
+.ilan.gorulmus:hover{opacity:.92;filter:grayscale(.3)}
+.ilan.gorulmus .baslik::before{content:"✓ Baktın";display:inline-block;margin-right:8px;padding:1px 8px;border-radius:99px;background:var(--cizgi);color:var(--soluk);font-size:11px;font-weight:700;vertical-align:2px}
+.ky-sifirla{border:0;background:none;color:var(--soluk);font:inherit;font-size:13px;text-decoration:underline;cursor:pointer;padding:0;margin-left:10px}
 .ky{position:relative}
 .ky-yol{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:4px 2px 12px;scrollbar-width:none;outline:none}
 .ky-yol::-webkit-scrollbar{display:none}
@@ -365,6 +369,7 @@ const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const oku=k=>{try{return localStorage.getItem(k)}catch(e){return null}};
 const yaz=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+const gorulen=new Set((()=>{try{return JSON.parse(oku('k_gorulen')||'[]').map(String)}catch(e){return[]}})());
 const norm=s=>String(s??'').replace(/İ/g,'I').replace(/ı/g,'I').replace(/Ö/g,'O').replace(/ö/g,'O').replace(/Ü/g,'U').replace(/ü/g,'U').replace(/Ş/g,'S').replace(/ş/g,'S').replace(/Ç/g,'C').replace(/ç/g,'C').replace(/Ğ/g,'G').replace(/ğ/g,'G').toUpperCase();
 
 let tum=[], veriMeta={}, gorunen=SAYFA, cip=new Set(), durumFiltre='hepsi', iller=false;
@@ -489,13 +494,13 @@ function kart(i,idx){
   if(String(i.link).includes('#')) rz.push('<span class="rozet r-kontrol" title="Bu kaynağın ilan adresi kalıcı değil">ℹ Açılan listede başlığı ara</span>');
   const giris=(i.durum==='bilinmiyor')?`<div class="sehir">İlan metninde taban puan bulunamadı. Resmî ilana bak, biliyorsan yaz:</div><div class="puan-giris"><input type="number" step="0.01" min="40" max="100" placeholder="Taban puanı biliyorsan yaz" data-id="${esc(i.id)}"><button type="button" data-kaydet="${esc(i.id)}">Kaydet</button></div>`:'';
   const f=favoriler.has(String(i.id));
-  return `<article class="ilan ${i.durum}" style="animation-delay:${Math.min(idx,12)*30}ms">
+  return `<article class="ilan ${i.durum}${gorulen.has(String(i.id))?' gorulmus':''}" style="animation-delay:${Math.min(idx,12)*30}ms">
    <div class="kurum-satir"><div class="avatar" style="background:${renkAvatar(i.institution||'?')}">${esc(bas(i.institution))}</div>
      <div><div class="kurum-ad">${esc(i.institution)}</div><div class="sehir">${esc(i.city||'Şehir belirtilmemiş')} · ${esc(i.tur)}</div></div>
      <button class="fav ${f?'acik':''}" data-fav="${esc(i.id)}" title="Favori">${f?'★':'☆'}</button></div>
    <h3 class="baslik">${esc(i.title)}</h3>
    <div class="rozetler">${rz.join('')}</div>${giris}
-   <div class="alt"><div>${son(i)}<br><span>${esc(i.kaynak)}</span></div><a class="incele" target="_blank" rel="noopener" href="${esc(i.link)}"${String(i.link).includes('#')?` data-kopya="${esc(i.title)}"`:''}>İncele →</a></div></article>`;
+   <div class="alt"><div>${son(i)}<br><span>${esc(i.kaynak)}</span></div><a class="incele" data-gor="${esc(i.id)}" target="_blank" rel="noopener" href="${esc(i.link)}"${String(i.link).includes('#')?` data-kopya="${esc(i.title)}"`:''}>İncele →</a></div></article>`;
 }
 
 function listele(){
@@ -558,7 +563,7 @@ function yenilerCiz(){
     .sort((a,b)=>{const x=yeniAnahtar(a),y=yeniAnahtar(b);return (y[0]-x[0])||(y[1]-x[1])||(y[2]-x[2])}).slice(0,12);
   if(!L.length){kap.innerHTML='';return}
   const eski=kap.querySelector('.ky-yol'), sl=eski?eski.scrollLeft:0;
-  kap.innerHTML=`<div class="serit-baslik"><h2>🆕 En son eklenen ilanlar</h2><span class="ky-sayac" id="kySayac">1 / ${L.length}</span></div>
+  kap.innerHTML=`<div class="serit-baslik"><h2>🆕 En son eklenen ilanlar</h2><span><span class="ky-sayac" id="kySayac">1 / ${L.length}</span>${gorulen.size?'<button type="button" class="ky-sifirla" data-gsifirla>Baktıklarımı sıfırla</button>':''}</span></div>
   <div class="ky"><button type="button" class="ky-ok sol" data-ky="-1" aria-label="Önceki ilan">‹</button>
   <div class="ky-yol" tabindex="0" aria-label="En son eklenen ilanlar">${L.map(kart).join('')}</div>
   <button type="button" class="ky-ok sag" data-ky="1" aria-label="Sonraki ilan">›</button></div>`;
@@ -703,8 +708,17 @@ const listeTik=e=>{
     if(!(v>=40&&v<=100)){g.style.borderColor='var(--kirmizi)';return}
     manuel[id]=v;yaz('k_manuel',JSON.stringify(manuel));tum.forEach(i=>{if(String(i.id)===id){i.minP=v;i.pk='manuel'}});listele()}
 };
+function gorIsaretle(e){
+  const a=e.target.closest('a.incele[data-gor]'); if(!a) return;
+  const id=a.dataset.gor;
+  if(!gorulen.has(id)){gorulen.add(id); yaz('k_gorulen',JSON.stringify([...gorulen].slice(-800)))}
+  document.querySelectorAll('a.incele').forEach(x=>{if(x.dataset.gor===id){const k=x.closest('article'); if(k) k.classList.add('gorulmus')}});
+  if(!document.querySelector('.ky-sifirla')&&$('yeniler').querySelector('.serit-baslik>span')) setTimeout(yenilerCiz,80);
+}
+['click','auxclick'].forEach(t=>{$('liste').addEventListener(t,gorIsaretle);$('yeniler').addEventListener(t,gorIsaretle)});
 $('liste').addEventListener('click',listeTik);
 $('yeniler').addEventListener('click',e=>{
+  if(e.target.closest('[data-gsifirla]')){gorulen.clear();yaz('k_gorulen','[]');document.querySelectorAll('.gorulmus').forEach(x=>x.classList.remove('gorulmus'));yenilerCiz();return}
   const ok=e.target.closest('[data-ky]');
   if(ok){kyKaydir($('yeniler').querySelector('.ky-yol'),+ok.dataset.ky);return}
   listeTik(e);
