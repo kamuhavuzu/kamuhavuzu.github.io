@@ -1,18 +1,18 @@
 {
- "guncelleme": "2026-11-24T07:45:59+00:00",
- "son_kontrol": "2026-11-24T10:01:30+00:00",
+ "guncelleme": "2026-11-24T10:16:01+00:00",
+ "son_kontrol": "2026-11-24T10:16:01+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-24T10:01:24+00:00",
+   "son_basari": "2026-11-24T10:15:56+00:00",
    "sayi": 169
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-24T10:01:27+00:00",
-   "sayi": 31
+   "yeni": 1,
+   "son_basari": "2026-11-24T10:15:58+00:00",
+   "sayi": 32
   },
   "Kamu İlan (SBB)": {
    "durum": "eski",
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-24T10:01:30+00:00",
+   "son_basari": "2026-11-24T10:16:01+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -1477,6 +1477,27 @@
    "akademik": true,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=zoye1geg%2buxDAUIV8HkW%2bwcb0oV3%2bs0HGqqPIgq0EDPGIyokUnvp5IiwmEmE8fx6HupcaF2o3XbNeAFuJ%2fyL8y0zuTDr1S1zUbiMaL996R%2fkvW7lVTgVj7C0ZUKHAxAO",
    "belge_deneme": 2,
+   "puanlar": {}
+  },
+  {
+   "id": 819802814,
+   "institution": "TÜRK-ALMAN ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI 30.11.2026",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-30",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=7cc8cb95-4799-4879-a104-8362bf62ca4d",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=7cc8cb95-4799-4879-a104-8362bf62ca4d",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "TÜRK-ALMAN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI 30.11.2026 (Sözleşmeli Personel İlanları)",
+   "checked_at": "2026-11-24T10:15:58+00:00",
+   "akademik": false,
    "puanlar": {}
   },
   {
