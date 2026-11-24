@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-24T06:31:15+00:00",
- "son_kontrol": "2026-11-24T06:31:15+00:00",
+ "guncelleme": "2026-11-24T06:45:55+00:00",
+ "son_kontrol": "2026-11-24T06:45:55+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 3,
-   "son_basari": "2026-11-24T06:31:08+00:00",
-   "sayi": 165
+   "son_basari": "2026-11-24T06:45:52+00:00",
+   "sayi": 167
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-24T06:31:12+00:00",
+   "son_basari": "2026-11-24T06:45:53+00:00",
    "sayi": 31
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-24T06:31:15+00:00",
+   "son_basari": "2026-11-24T06:45:55+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -923,6 +923,27 @@
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=PzcoBECsrpIOtcZL2%2bPFVmHtPMkVOyF6yTeq7aSIbgY6Cz2UpTVOIfnspoDCYnnJJUYLwpQYRYZN1Lc%2fhhK3udcP9DMVLi8GSttfWgXakp1XhOvmgumY%2bFiDtDsH2YNp",
    "belge_deneme": 2,
    "puanlar": {}
+  },
+  {
+   "id": 507337115,
+   "institution": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "city": "ÇANAKKALE",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2301171/kamu-akademik-personel-akademik-personel-alimlari-canakkale-onsekiz-mart-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301171/kamu-akademik-personel-akademik-personel-alimlari-canakkale-onsekiz-mart-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin çeşitli birimlerine 2547 sayılı Kanunun 23, 24. ve 26. maddeleri, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği ile Üniversitemiz Senatosunca belirlenen Öğretim Üyesi Kadrolarına Başvuru, Görev Süresi Uzatımı, Atanma ve Yükseltilme Kriterleri ( https://cdn.comu.edu.tr/cms/personel/files/1487-01072025-akademik-kadro-atama-kriterleri.pdf ) uyarınca öğretim üyesi alınacaktır. Adayların ilanda açıklama olarak belirtilen şartlar ile 657 sayılı Devlet Memurları Kanununun 48. maddesinde belirtilen şartları taşımaları gerekmektedir. Başvurular ilanın Resmî Gazete'de yayımlandığı tarihten itibaren 15 gün içerisinde sadece online olarak ( https://ilan.comu.edu.tr/ ) adresinden kabul edilecek ve bu link üzerinden işlemler yürütülecektir. Sistem üzerinden tamamlanmayan taslak durumundaki başvurular, belirtilen şartları taşımayan, eksik bilgi/belgesi olan adayların başvuruları kabul edilmeyecektir. (Online olarak yapılan başvurular için istenen tüm bilgi ve belgeler gerektiğinde Rektörlüğümüzce adaylardan fiziksel olarak istenebilecektir.) 1. Profesör ve Doçent kadroları daimi statüde olup, başvuracak adayların anabilim dalı/anasanat dalı/programını belirten dilekçelerini, özgeçmişlerini, diplomalarının tasdikli örneğini, onaylı kimlik kartını, bilimsel çalışma ile yayınlarını, Doçentlik Belgelerini, kamu hizmetinde bulunanların hizmet belgelerini, adli sicil kayıtlarını, Sigortalı çalışanlar için Sosyal Güvenlik Kurumundan alınmış hizmet döküm belgelerini (e-Devletten alınan karekodlu belgeler kabul edilir) online olarak ( https://ilan.comu.edu.tr/ ) adresine yüklemeleri gerekmektedir. Adayların Rektörlüğe hitaben yazdıkları başvuru dilekçelerinde başvurdukları birim ve anabilim dalı/anasanat dalı/program ile ilanın açıklama kısmında ifade edilen ek şart ve çalışma alanlarına ait yeterlikleri sağladıklarını belirtmeleri ve bunları belgelendirmeleri gerekmektedir. 2. Doçent kadrosuna kadrolu profesörler, doktor öğretim üyesi kadrosuna ise kadrolu profesörler ve kadrolu doçentler başvuramaz. İdare uygun gördüğü takdirde söz konusu ilanın her aşamasını iptal edebilir. 3. Doktor Öğretim Üyesi kadrosuna başvuracak adayların anabilim dalı/anasanat dalı/programını belirten dilekçelerini, özgeçmişlerini, diplomalarının tasdikli örneğini, onaylı kimlik kartını, bilimsel çalışma ile yayınlarını, kamu hizmetinde bulunanların hizmet belgelerini, adli sicil kayıtlarını, Sigortalı çalı",
+   "checked_at": "2026-11-24T06:45:38+00:00",
+   "puanlar": {},
+   "akademik": true
   },
   {
    "id": 508468475,
@@ -6088,6 +6109,31 @@
    "employment_type": "Memur",
    "description": "Tarsus Üniversitesi Rektörlüğünden: ÖĞRETİM GÖREVLİSİ ALIM İLANI Üniversitemizin aşağıda belirtilen birimlerine, 10.07.2018 tarihli Resmi Gazete’de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi, 2547 sayılı Yükseköğretim Kanunu’nun 31. maddesi ile “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”in ilgili maddelerine göre Öğretim Görevlisi alınacaktır. GENEL VE ÖZEL ŞARTLAR: 1) 657 sayılı Devlet Memurları Kanunu'nun 48. maddesinde belirtilen şartları taşıyor olmak. 2) 2547 sayılı Yükseköğretim Kanunu ve “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”te yer alan genel ve özel koşulları taşıyor olmak. MÜRACAAT EDECEK ADAYLARDAN İSTENEN BELGELER (Ön Değerlendirme): 1) Başvuru Formu (Üniversitemiz Web Sayfasında Duyurular Alanında) 2) Nüfus Cüzdanı Fotokopisi 3) Özgeçmiş 4) Lisans/Lisansüstü diplomaların veya Geçici mezuniyet belgelerinin onaylı sureti veya e-Devlet üzerinden alınan mezuniyet belgesi (Yabancı öğretim kurumu mezunlarının diplomalarının Yükseköğretim Kurulu Başkanlığınca, doktora için Üniversitelerarası Kurulca denkliğini gösterir belge) 5) Lisans Transkripti onaylı sureti veya e-Devlet üzerinden alınan transkript belgesi (Lisans mezuniyet puanının hesaplanmasında YÖK’ün yayınlamış olduğu 4’lük ve 5’lik sistemin 100’lük Sistemde Eşdeğerliliği tabloları dikkate alınacaktır) 6) Merkezi Sınav (ALES) Belgesi (Son 5 yıl), lisans mezuniyeti hangi alanda ise o alandaki ALES puan türü ya da ilan edilen bölüm/anabilim dalı/program hangi alandan öğrenci alıyorsa o alandaki ALES puan türü kullanılacaktır. 7) 2 adet vesikalık fotoğraf (son altı ay içinde çekilmiş olmalı) 8) Yabancı Dil Belgesi (YÖKDİL, e-YÖKDİL, YDS, e-YDS, ÜDS, e-TEP ve ÖSYM tarafından yayımlanan güncel eş değerlik duyurusunda belirtilen diğer yabancı dil belgeleri geçerli olacaktır. Belge üzerindeki geçerlilik tarihi varsa bu tarih esas alınacaktır.) 9) Herhangi bir adli sicil kaydı olmadığına dair belge (e-Devlet üzerinden alınan belge) NOT: 1) Başvurular, şahsen veya posta yoluyla ilan metninde belirtilen başvuru yerlerine yapılacaktır. İlan edilen kadrolardan sadece birine müracaat edilecektir. Birden fazla kadroya başvuru yapanların başvurusu geçersiz sayılacaktır. Eksik belgeli başvurular ile posta yoluyla yapılan başvu",
    "checked_at": "2026-11-23T08:30:55+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
+  },
+  {
+   "id": 3694009181,
+   "institution": "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "city": "ÇANAKKALE",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-08",
+   "application_start": "2026-11-24",
+   "link": "https://www.ilan.gov.tr/ilan/2301174/kamu-akademik-personel-akademik-personel-alimlari-canakkale-onsekiz-mart-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301174/kamu-akademik-personel-akademik-personel-alimlari-canakkale-onsekiz-mart-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemizin çeşitli birimlerine 2547 sayılı Yükseköğretim Kanunu, 657 sayılı Devlet Memurları Kanununun 48. maddesinde belirtilen genel şartlar, 10/07/2018 tarih ve 30474 sayılı Resmî Gazete'de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi ve Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik uyarınca Öğretim Görevlisi ve Araştırma Görevlisi alınacaktır. Başvurular ilanın Resmî Gazete'de yayımlandığı tarihten itibaren 15 gün içerisinde sadece online olarak ( https://ilan.comu.edu.tr/ ) adresinden kabul edilecek ve bu link üzerinden işlemler yürütülecektir. Sistem üzerinden tamamlanmayan taslak durumundaki başvurular, belirtilen şartları taşımayan, eksik bilgi/belgesi olan adayların başvuruları kabul edilmeyecektir. (Online olarak yapılan başvurular için istenen tüm bilgi ve belgeler gerektiğinde Rektörlüğümüzce adaylardan fiziksel olarak istenebilecektir.) Bir adayın sadece bir kadroya başvurma hakkı vardır. GENEL ŞARTLAR 1. a) 657 sayılı Devlet Memurları Kanununun 48. maddesinde belirtilen şartları taşımak, b) ALES’ten en az 70 Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir. Merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir. Öğretim Görevlisi kadrosuna yapılacak başvurularda; adayın lisans mezuniyeti hangi alanda ise o alandaki ALES puan türü ya da ilan edilen bölüm/anabilim dalı/program hangi alandan öğrenci alıyorsa o alandaki ALES puan türü kullanılacaktır. Araştırma Görevlisi kadrosuna yapılacak başvurularda; ilan edilen bölüm/anabilim dalı/program hangi alandan öğrenci alıyorsa o alandaki ALES puan türü kullanılacaktır. Özel yetenekle öğrenci alan programlar ile yabancı dil puanı ile öğrenci alan programlar için öğretim üyesi dışındaki öğretim elemanı kadrolarına başvurularda herhangi bir ALES puan türü kullanılacaktır. Eğitim Bilimleri bölümleri için (Rehberlik ve Psikolojik Danışmanlık hariç) araştırma görevlisi kadrolarına başvuracak adayın lisans mezuniyeti hangi alanda ise o alandaki ALES puan türü kullanılacaktır. 2. Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesa",
+   "checked_at": "2026-11-24T06:45:36+00:00",
    "puanlar": {},
    "akademik": true,
    "egitimler": [
