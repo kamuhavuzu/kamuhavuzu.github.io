@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-24T01:46:02+00:00",
- "son_kontrol": "2026-11-24T06:16:07+00:00",
+ "guncelleme": "2026-11-24T06:31:15+00:00",
+ "son_kontrol": "2026-11-24T06:31:15+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 1,
-   "son_basari": "2026-11-24T06:15:51+00:00",
-   "sayi": 163
+   "yeni": 3,
+   "son_basari": "2026-11-24T06:31:08+00:00",
+   "sayi": 165
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-24T06:15:59+00:00",
+   "son_basari": "2026-11-24T06:31:12+00:00",
    "sayi": 31
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-24T06:16:07+00:00",
+   "son_basari": "2026-11-24T06:31:15+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -36,9 +36,11 @@
    "Makine Mühendisliği",
    "Maliye",
    "Mimarlık",
+   "Siyaset Bilimi ve Kamu Yönetimi",
    "Uluslararası İlişkiler",
    "Yazılım Mühendisliği",
    "Çalışma Ekonomisi ve Endüstri İlişkileri",
+   "Çevre Mühendisliği",
    "İktisat",
    "İşletme"
   ]
@@ -667,6 +669,32 @@
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=KZrkd6xq7OZuH8mo2FQrTOMcrg7GplzfC1udScRNp1tDR%2bCWXq2PNFkq24gJKLRCNjIfxI8cNwa7ry8gb7log6wjv89OUaMhjg5JzhwczWWQCN4PqW%2bSfcN7ycW7%2bdOS",
    "belge_deneme": 2,
    "puanlar": {}
+  },
+  {
+   "id": 320636633,
+   "institution": "İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "İstanbul Nişantaşı Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-11",
+   "application_start": "2026-12-08",
+   "link": "https://www.ilan.gov.tr/ilan/2301150/kamu-akademik-personel-akademik-personel-alimlari-istanbul-nisantasi-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301150/kamu-akademik-personel-akademik-personel-alimlari-istanbul-nisantasi-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "T.C. İstanbul Nişantaşı Üniversitesi Rektörlüğünden; ÖĞRETİM ELEMANLARI ALINACAKTIR Üniversitemizin aşağıda belirtilen Fakülte/Yüksekokul/Meslek Yüksekokulu bölüm, anabilim dalı ve programlarına 2547 Sayılı Kanun’un ilgili maddeleri hükümlerince öğretim elemanları alınacaktır. Resmî Gazete ’de yayımlanan \"Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği\", 09/11/2018 tarih ve 30590 Sayılı Resmî Gazete ‘de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” ve “İstanbul Nişantaşı Üniversitesi Öğretim Üyesi Atama ve Yükseltme Ölçütleri Yönergesi” hükümleri uyarınca ilandaki \"Aranan Nitelikler\" başlığı altında yer alan koşulları sağlayan öğretim elemanlarından; Profesör kadrolarına başvuracak adaylar; Dijital başvuru sisteminde veya Web sayfamızda yer alan başvuru dilekçesi ve Açık Rıza Metni, YÖK formatında hazırlanmış olan özgeçmişi, vesikalık fotoğrafı, nüfus cüzdan fotokopisi, onaylı öğrenim belgeleri (lisans, yüksek lisans, doktora, doçentlik), (e-devlet üzerinden alınan mezuniyet belgeleri de kabul edilmektedir),(Yurt Dışından alınan diplomaların YÖK tarafından onaylandığını gösterir belge.) adli sicil belgesi, nüfus kayıt örneği belgesi, ikametgah belgesi, askerlik durum belgesi, e-devletten alınan SGK Tescil ve Hizmet Dökümü (barkodlu) belgesi, akademik bilimsel çalışma ve yayınlarını içeren dosyaların online bağlantı linki ve dijital başvuru sisteminde doldurulacak olan “İstanbul Nişantaşı Üniversitesi Öğretim Üyesi Atama ve Yükseltme Ölçütleri Yönergesi” uyarınca “İstanbul Nişantaşı Üniversitesi Profesör/Doçent/Doktor Öğretim Üyesi Kadrolarına Atamada Aranacak Ek Koşullar Puan Sistemi” tablosu ile birlikte aşağıda bağlantı linki belirtilen İnsan Kaynakları Daire Başkanlığı Dijital Başvuru Sistemine başvuru yapılması gerekmektedir. Doçent kadrolarına başvuracak adaylar; Dijital başvuru sisteminde veya Web sayfamızda yer alan başvuru dilekçesi ve Açık Rıza Metni, YÖK formatında hazırlanmış olan özgeçmişi, vesikalık fotoğrafı, nüfus cüzdan fotokopisi, onaylı öğrenim belgeleri (lisans, yüksek lisans, doktora, doçentlik), (e-devlet üzerinden alınan mezuniyet belgeleri de kabul edilmektedir),(Yurt Dışından alınan diplomaların YÖK tarafından onaylandığını gösterir belge.) adli sicil belgesi, nüfus kayıt örneği belgesi, ikametgah belgesi, askerlik durum belgesi, e-devletten alınan SGK Tescil ve Hizmet Dökümü (barkodlu) belgesi, aka",
+   "checked_at": "2026-11-24T06:30:53+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Ön Lisans",
+    "Lisans"
+   ],
+   "egitim_tahmin": false
   },
   {
    "id": 338492290,
@@ -4414,6 +4442,31 @@
    "checked_at": "2026-11-19T09:19:03+00:00",
    "akademik": true,
    "puanlar": {},
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
+  },
+  {
+   "id": 2750195410,
+   "institution": "KÜLTÜR VE TURİZM BAKANLIĞI",
+   "title": "Kültür ve Turizm Bakanlığı Kültür ve Turizm Uzman Yardımcılığı Yarışma Sınav İlanı",
+   "city": "ANKARA",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "P3",
+   "min_kpss": 80.0,
+   "quota": null,
+   "deadline": "2026-12-23",
+   "application_start": "2026-12-09",
+   "link": "https://www.ilan.gov.tr/ilan/2301151/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur-ve-turizm-bakanligi-kultur-ve-turizm-uzman-yardimciligi-yarisma-sinav-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2301151/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur-ve-turizm-bakanligi-kultur-ve-turizm-uzman-yardimciligi-yarisma-sinav-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Kültür ve Turizm Bakanlığından: KÜLTÜR VE TURİZM UZMAN YARDIMCILIĞI YARIŞMA SINAV İLANI Kültür ve Turizm Bakanlığı merkez teşkilatında çalıştırılmak üzere, Genel İdare Hizmetleri Sınıfında 9 uncu dereceden boş bulunan, 20 Kültür ve Turizm Uzman Yardımcısı kadrosuna atama yapmak amacıyla, Kültür ve Turizm Uzmanlığı Yönetmeliği hükümlerine göre, Kültür ve Turizm Uzman Yardımcısı alınacaktır. I– SÖZLÜ SINAVA KATILMA ŞARTLARI: a) 657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesinin birinci fıkrasının (A) bendinde belirtilen genel şartları taşımak, b) Sınavın yapılacağı yılın Ocak ayının ilk günü itibariyle 35 (otuz beş) yaşını doldurmamış olmak, (01/01/1992 ve daha sonra doğanlar başvurabilecektir.) c) İlanda yer alan kadrolar çerçevesinde ilgisine göre en az 4 (dört) yıllık lisans eğitimi veren veya bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki yüksek öğretim kurumlarının; 1. Mimarlık bölümünden mezunu olmak. 2. Şehir ve Bölge Planlama bölümünden mezun olmak. 3. Makine Mühendisliği bölümünden mezun olmak. 4. Çevre Mühendisliği bölümünden mezun olmak. 5. İktisat, İşletme bölümlerinden mezun olmak. 6. Kamu Yönetimi, Siyaset Bilimi ve Kamu Yönetimi bölümlerinden mezun olmak. 7. Uluslararası İlişkiler bölümünden mezun olmak. 8. Sanat Tarihi bölümünden mezun olmak. Ölçme, Seçme ve Yerleştirme Merkezi (ÖSYM) tarafından 2025 ve 2026 yılında yapılmış olan Kamu Personeli Seçme Sınavında; KTU.YRD.1- Mimarlık bölümü mezunları için, a) KPSS P3 puan türünden en az 80 (seksen) puan almak Alınacak personel sayısı; 3 (üç) KTU.YRD.2- Şehir ve Bölge Planlama bölümü mezunları için, a) KPSS P3 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 3 (üç) KTU.YRD.3- Makine Mühendisliği bölümü mezunları için, a) KPSS P3 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 3 (üç) KTU.YRD.4- Çevre Mühendisliği bölümü mezunları için, a) KPSS P3 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 2 (iki) KTU.YRD.5- İktisat, İşletme bölümü mezunları için, a) KPSS P28 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 3 (üç) KTU.YRD.6- Kamu Yönetimi, Siyaset Bilimi ve Kamu Yönetimi bölümleri mezunları için, a) KPSS P29 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 2 (iki) KTU.YRD.7- Uluslararası İlişkiler bölümü mezunları için, a) KPSS P34 puan türünden en az 80 (seksen) puan almak, Alınacak personel sayısı; 3 (üç) KTU.YRD.8- Sanat Tarihi bö",
+   "checked_at": "2026-11-24T06:30:52+00:00",
+   "puanlar": {},
+   "akademik": false,
    "egitimler": [
     "Lisans"
    ],
