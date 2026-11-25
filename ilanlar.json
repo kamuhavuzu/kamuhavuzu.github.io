@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-25T06:15:59+00:00",
- "son_kontrol": "2026-11-25T06:15:59+00:00",
+ "guncelleme": "2026-11-25T06:31:13+00:00",
+ "son_kontrol": "2026-11-25T06:31:13+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 2,
-   "son_basari": "2026-11-25T06:15:54+00:00",
-   "sayi": 172
+   "son_basari": "2026-11-25T06:31:10+00:00",
+   "sayi": 173
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T06:15:56+00:00",
+   "son_basari": "2026-11-25T06:31:12+00:00",
    "sayi": 33
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T06:15:58+00:00",
+   "son_basari": "2026-11-25T06:31:13+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -2727,6 +2727,27 @@
    "checked_at": "2026-11-19T09:20:07+00:00",
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 1535315569,
+   "institution": "REKABET KURUMU BAŞKANLIĞI",
+   "title": "Rekabet Kurumu Başkanlığından Uzman Yardımcısı Alım İlanı",
+   "city": "ANKARA",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": 80.0,
+   "quota": null,
+   "deadline": "2026-12-21",
+   "application_start": "2026-12-07",
+   "link": "https://www.ilan.gov.tr/ilan/2302683/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-rekabet-kurumu-baskanligindan-uzman-yardimcisi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2302683/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-rekabet-kurumu-baskanligindan-uzman-yardimcisi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "REKABET KURUMU BAŞKANLIĞI REKABET UZMAN YARDIMCILIĞI GİRİŞ SINAVI Rekabet Kurumunda (Kurum) çalıştırılmak üzere, Rekabet Kurumu Meslek Personeli Yönetmeliği (Yönetmelik) hükümleri çerçevesinde toplam 55 (elli beş) rekabet uzman yardımcısı alınacaktır. ÖĞRENİM DALLARI VE KONTENJANLAR : En az dört yıllık öğrenim veren yükseköğretim kurumlarının; 1) (15 kişilik) Rekabet uzman yardımcılığı (genel) kadrosu için; iktisat, siyasal bilgiler, işletme, iktisadi ve idari bilimler fakültelerinden veya işletme mühendisliği ya da endüstri mühendisliği bölümlerinden ya da bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmak. 2) (15 kişilik) Rekabet uzman yardımcılığı (iktisat) kadrosu için; iktisat, işletme, ekonometri, istatistik, istatistik ve bilgisayar, matematik ve bilgisayar, matematik mühendisliği bölümlerinden ya da bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmak. 3) (15 kişilik) Rekabet uzman yardımcılığı (hukuk) kadrosu için; hukuk fakültelerinden ya da buna denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmak. 4) (10 kişilik) Rekabet uzman yardımcılığı (bilişim) kadrosu için; bilgisayar mühendisliği, adli bilişim mühendisliği, yazılım mühendisliği, yapay zekâ mühendisliği bölümlerinden ya da bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmak. SINAVA KATILMA KOŞULLARI Sınava katılacak olan adayların; 1) 657 sayılı Devlet Memurları Kanunu’nun 48’inci maddesinde yer alan genel şartları taşımaları, 2) Yukarıda belirtilen yükseköğretim kurumlarından ya da bunlara denkliği Yükseköğretim Kurulu tarafından kabul edilen yurt içindeki veya yurt dışındaki öğretim kurumlarından mezun olmaları, 3) Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 (otuz beş) yaşını doldurmamış olmaları, 4) Görevini devamlı yapmalarına engel olabilecek bir hastalıklarının bulunmaması, 5) Son başvuru tarihi itibarıyla 2025 - 2026 Kamu Personel Seçme Sınavlarından: a) Rekabet uzman yardımcılığı (genel) kadrosu için; KPSS P19, KPSS P24, KPSS P26, KPSS P27, KPSS P28, KPSS P33, KPSS P38 veya KPSS P41 puan türlerinin herhangi birinden en az 80 (seksen) puan almaları ve başvuruda bulunanlardan en yüksek puanlı 300 (üç yüz) kişi içerisinde bulunmaları, b) Rekabet uzman yardımcılığı (ik",
+   "checked_at": "2026-11-25T06:30:56+00:00",
+   "puanlar": {},
+   "akademik": false
   },
   {
    "id": 1571835289,
