@@ -219,6 +219,21 @@ def ilan_gov_tr(session, mevcut, **_):
 
 
 # ---------------------------------------------------------------- 2) Kariyer Kapisi
+KK_LOGO_RE = re.compile(r"(?:https?://(?:www\.)?kariyerkapisi\.gov\.tr)?/UPS/[0-9a-fA-F\-]{30,40}\.(?:png|jpe?g|webp|gif)", re.I)
+
+
+def kk_logo(item):
+    """Kariyer Kapisi RSS ogesinde (enclosure, aciklama, herhangi bir alan) kurum logosu adresi varsa dondurur."""
+    ham = ET.tostring(item, encoding="unicode")
+    for m in KK_LOGO_RE.finditer(ham):
+        u = m.group(0)
+        return ("https://kariyerkapisi.gov.tr" + u) if u.startswith("/") else u.replace("http://", "https://", 1)
+    enc = item.find("enclosure")
+    if enc is not None and str(enc.get("url", "")).lower().startswith("https://kariyerkapisi.gov.tr/"):
+        return enc.get("url")
+    return ""
+
+
 def kariyer_kapisi(session, mevcut, **_):
     r = session.get(ic.KK_RSS_URL, headers={**UA, "accept": "application/rss+xml, application/xml"}, timeout=30)
     r.raise_for_status()
@@ -228,6 +243,10 @@ def kariyer_kapisi(session, mevcut, **_):
     for item in root.iter("item"):
         link = (item.findtext("link") or "").strip()
         baslik = (item.findtext("title") or "").strip()
+        if not getattr(kariyer_kapisi, "_alan_yazildi", False):
+            kariyer_kapisi._alan_yazildi = True
+            print("[kk] ilan alanlari:", sorted({c.tag for c in item}), "| logo:", kk_logo(item) or "yok")
+        logo_kk = kk_logo(item)
         kategori = (item.findtext("category") or "").strip()
         if not link or not baslik or any(w in ic.norm(kategori) for w in ic.KK_ATLA_KATEGORI):
             continue
@@ -236,6 +255,8 @@ def kariyer_kapisi(session, mevcut, **_):
         except (TypeError, ValueError):
             tarih = None
         if link in mevcut:
+            if logo_kk and not mevcut[link].get("logo"):
+                mevcut[link]["logo"] = logo_kk
             if tarih and not mevcut[link].get("application_start"):
                 mevcut[link]["application_start"] = iso(tarih)
             continue
@@ -244,7 +265,7 @@ def kariyer_kapisi(session, mevcut, **_):
         mevcut[link] = temel_satir(
             link, institution=kurum or ilan_basligi, title=ilan_basligi, application_start=iso(tarih),
             source_name="Kariyer Kapısı", employment_type=ic.kk_calisma_turu(kategori),
-            description=f"{baslik} ({kategori})", education_level=ic.parse_education(metin),
+            description=f"{baslik} ({kategori})", education_level=ic.parse_education(metin), logo=logo_kk,
             akademik=any(w in ic.norm(metin) for w in ic.SKIP_WORDS))
         if detay_hak > 0:
             detay_hak -= 1
@@ -468,6 +489,29 @@ def logo_al(ad, session=None):
     return "https://www.ilan.gov.tr/" + _LOGO["taban"].format(p=v)
 
 
+def logo_haritasi(mevcut):
+    """kurum_logolari.json'daki (elle girilen) kurum->logo adreslerini uygular; logosuz kurumlari kayda yazar."""
+    yol = os.path.join(KLASOR, "kurum_logolari.json")
+    harita = {}
+    if os.path.exists(yol):
+        with open(yol, encoding="utf-8") as f:
+            harita = {ic.norm(k): v for k, v in json.load(f).items() if str(v).startswith("https://")}
+    n = 0
+    for r in mevcut.values():
+        if str(r.get("logo") or "").startswith("https://"):
+            continue
+        kurum = ic.norm(r.get("institution", ""))
+        for k, v in harita.items():
+            if k and (k in kurum or kurum in k) and len(kurum) > 8:
+                r["logo"] = v; n += 1; break
+    sayac = {}
+    for r in mevcut.values():
+        if not str(r.get("logo") or "").startswith("https://") and not r.get("akademik"):
+            sayac[r.get("institution", "?")] = sayac.get(r.get("institution", "?"), 0) + 1
+    print(f"Elle girilen logolardan uygulanan: {n}")
+    print("[logo] logosuz kurumlar:", " | ".join(f"{k} ({v})" for k, v in sorted(sayac.items(), key=lambda x: -x[1])[:60]))
+
+
 def adresleri_bul(metin):
     """Ilan metnindeki disari giden (ilan.gov.tr disi) web adreslerini, sirayla en fazla 5 tane dondurur."""
     return [u for u, _ in _urller(metin) if "ilan.gov.tr" not in u.lower()][:5]
@@ -560,6 +604,8 @@ def basvuru_coz(mevcut):
                 adaylar = yakin or adaylar
             if len(adaylar) == 1:
                 link, tur = adaylar[0]["link"], "ozel"
+                if adaylar[0].get("logo") and not str(r.get("logo") or "").startswith("https://"):
+                    r["logo"] = adaylar[0]["logo"]
             elif eposta:
                 link, tur = "mailto:" + eposta, "eposta"
             else:
@@ -649,6 +695,7 @@ def main():
     print(f"Manuel ilan: {manuel_ilanlar(mevcut)}")
     print(f"Puani/tarihi yeni bulunan: {puanlari_yenile(mevcut)}")
     print(f"Basvuru adresi bulunan: {basvuru_coz(mevcut)}")
+    logo_haritasi(mevcut)
     _t = {}
     for _r in mevcut.values():
         _k = _r.get("basvuru_tur") or ("yok" if _r.get("source_name") != "Kariyer Kapısı" else "kk")
