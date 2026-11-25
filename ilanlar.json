@@ -1,44 +1,44 @@
 {
- "guncelleme": "2026-11-25T21:44:19+00:00",
- "son_kontrol": "2026-11-25T21:46:17+00:00",
+ "guncelleme": "2026-11-25T22:00:59+00:00",
+ "son_kontrol": "2026-11-25T22:00:59+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-25T21:46:04+00:00",
+   "son_basari": "2026-11-25T22:00:51+00:00",
    "sayi": 173
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:46:05+00:00",
+   "son_basari": "2026-11-25T22:00:52+00:00",
    "sayi": 35
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:46:07+00:00",
+   "son_basari": "2026-11-25T22:00:53+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "İŞKUR Kamu İşçi Alımı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:46:09+00:00",
+   "son_basari": "2026-11-25T22:00:55+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "TÜBİTAK İlanları": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:46:09+00:00",
+   "son_basari": "2026-11-25T22:00:55+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:46:17+00:00",
+   "son_basari": "2026-11-25T22:00:58+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 42
   }
@@ -514,7 +514,8 @@
    "description": "KARABAĞLAR BELEDİYE BAŞKANLIĞI - Çevre Mühendisi Alımı (2 Adet) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:15+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/edb41e31-f3b8-4462-903f-461794d9c1e7.png"
   },
   {
    "id": 204612279,
@@ -1144,7 +1145,8 @@
    "description": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI (AFAD) - Afet ve Acil Durum Yönetimi Denetçi Yardımcısı Giriş Sınavı İlanı (2026) (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:12+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/7225ed6b-2fe3-4a50-8aa3-3750621cb797.png"
   },
   {
    "id": 720859559,
@@ -1342,7 +1344,8 @@
    "description": "TÜRK-ALMAN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI 30.11.2026 (Sözleşmeli Personel İlanları)",
    "checked_at": "2026-11-24T10:15:58+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/66b94e9f-0d12-4488-8187-a728c816e05c.png"
   },
   {
    "id": 821530939,
@@ -1624,7 +1627,8 @@
    "description": "SAVUNMA SANAYİİ BAŞKANLIĞI - PROJE BAZLI SÖZLEŞMELİ PERSONEL ALIMI GİRİŞ SINAVI 2026 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:17+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/7465ab9a-aa29-4cc0-8a19-ff45950ccac8.png"
   },
   {
    "id": 1001806090,
@@ -1754,7 +1758,8 @@
    "description": "DOĞU KARADENİZ KALKINMA AJANSI - PERSONEL ALIM İLANI-2026 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:15+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/9949a02a-0f7c-4482-a98e-ad720b40b338.png"
   },
   {
    "id": 1048996718,
@@ -2153,7 +2158,8 @@
    "description": "ANADOLU ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIMI İLANI 2026 - 2 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:11+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/a8206e31-c98b-4601-979a-98e1348e4950.png"
   },
   {
    "id": 1330456978,
@@ -2572,7 +2578,7 @@
    "egitim_tahmin": false,
    "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
    "basvuru_tur": "ozel",
-   "logo": ""
+   "logo": "https://kariyerkapisi.gov.tr/UPS/36fcf8d3-82fe-4dee-8f4c-ea235eb82306.png"
   },
   {
    "id": 1763203413,
@@ -2779,7 +2785,8 @@
    "description": "MERSİN ÜNİVERSİTESİ REKTÖRLÜĞÜ - 1 ADET SÖZLEŞMELİ BİLİŞİM PERSONEL ALIM İLANI (Sözleşmeli Personel İlanları)",
    "checked_at": "2026-11-25T21:02:23+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/b72d91a6-8fe9-4802-b7fa-51c51e32e6ae.png"
   },
   {
    "id": 1915452504,
@@ -2855,7 +2862,8 @@
    "description": "SAHİL GÜVENLİK KOMUTANLIĞI - SAHİL GÜVENLİK KOMUTANLIĞI 2026 YILI DEVLET MEMURU TEMİNİ (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:11+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/35684aab-92b3-4736-bd34-715c409e728f.png"
   },
   {
    "id": 1925290483,
@@ -3207,7 +3215,8 @@
    "description": "TÜRKİYE SU ENSTİTÜSÜ BAŞKANLIĞI - SÖZLEŞMELİ PERSONEL ALIM İLANI - BİLGİSAYAR MÜHENDİSİ (İSTANBUL) (Sözleşmeli Personel İlanları)",
    "checked_at": "2026-11-25T21:02:23+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/05de1d5f-4b20-459e-be84-0537c6bea45a.png"
   },
   {
    "id": 2117139872,
@@ -3350,7 +3359,8 @@
    "description": "BARTIN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIM İLANI (2026-4) (Sözleşmeli Personel İlanları)",
    "checked_at": "2026-11-20T08:47:31+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/200cb422-bae2-4b28-82bb-35cf1762a44d.png"
   },
   {
    "id": 2149457990,
@@ -3371,7 +3381,8 @@
    "description": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI - MÜFETTİŞ YARDIMCILIĞI GİRİŞ SINAVI DUYURUSU 2026 (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:17+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/ac2eda6c-56fb-4362-a63a-4fdea86a15c3.png"
   },
   {
    "id": 2155858659,
@@ -3481,7 +3492,8 @@
    "description": "ADLİ TIP KURUMU BAŞKANLIĞI - 2026/2 SÖZLEŞMELİ PERSONEL ALIM İLANI (Sözleşmeli Personel İlanları)",
    "checked_at": "2026-11-20T08:47:31+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/36fcf8d3-82fe-4dee-8f4c-ea235eb82306.png"
   },
   {
    "id": 2227474638,
@@ -3609,7 +3621,8 @@
    "description": "REKABET KURUMU BAŞKANLIĞI - REKABET UZMAN YARDIMCILIĞI GİRİŞ SINAVI (A Grubu Memur (Kariyer Meslek))",
    "checked_at": "2026-11-24T13:01:27+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/fe00d290-7fb1-48fb-97bc-7d8658a2fbd0.png"
   },
   {
    "id": 2295777009,
@@ -4276,7 +4289,8 @@
    "description": "YILDIZ TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ - YILDIZ TEKNİK ÜNİVERSİTESİ SÖZLEŞMELİ BİLİŞİM PERSONELİ İLANI (2026/2) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:13+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/0ea172bd-08f7-4482-835f-2711c50a6173.png"
   },
   {
    "id": 2708449685,
@@ -4576,7 +4590,8 @@
    "description": "ORTA ANADOLU KALKINMA AJANSI - PERSONEL ALIM İLANI - 2026 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:14+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/2cf06ec1-26be-42be-b782-b120d7e2c882.png"
   },
   {
    "id": 2822474287,
@@ -4850,7 +4865,8 @@
    "description": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI (AFAD) - Afet ve Acil Durum Yönetimi Uzman Yardımcısı Giriş Sınavı İlanı (2026) (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:12+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/7225ed6b-2fe3-4a50-8aa3-3750621cb797.png"
   },
   {
    "id": 2970324129,
@@ -4925,7 +4941,8 @@
    "description": "HAZİNE VE MALİYE BAKANLIĞI - 2026 YILI STAJYER HAZİNE KONTROLÖRLÜĞÜ GİRİŞ SINAVI İLANI (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:14+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/38d57cca-b022-47e1-8113-768faac8f241.png"
   },
   {
    "id": 3016627243,
@@ -4998,7 +5015,8 @@
    "description": "İÇİŞLERİ BAKANLIĞI - 2026 YILI MERKEZ VE TAŞRA TEŞKİLATINDA ÇALIŞTIRILMAK ÜZERE 4/B SÖZLEŞMELİ PERSONEL ALIMINA İLİŞKİN SÖZLÜ SINAV DUYURUSU (Sözleşmeli Personel İlanları)",
    "checked_at": "2026-11-23T07:01:30+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/298da548-fabc-4649-adcd-c6da3abec3b7.png"
   },
   {
    "id": 3078242059,
@@ -5426,7 +5444,8 @@
    "description": "ZAFER KALKINMA AJANSI - UZMAN PERSONEL ALIMI (Kasım 2026) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:16+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/21703834-6a2d-4667-8988-0360f3eb3f77.png"
   },
   {
    "id": 3359790515,
@@ -5799,7 +5818,8 @@
    "description": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI (Sözleşmeli Personel İlanları)",
    "checked_at": "2026-11-23T06:01:16+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/9571e4b5-c0f9-4456-ad41-2ac95f38d3ba.png"
   },
   {
    "id": 3676503148,
@@ -6440,7 +6460,8 @@
    "description": "JANDARMA VE SAHİL GÜVENLİK AKADEMİSİ BAŞKANLIĞI - 2027 YILI J.GN.K.LIĞI UZMAN ERBAŞ TEMİNİ (Askeri Personel İlanları)",
    "checked_at": "2026-11-23T06:15:53+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/11ccecda-5dda-4e54-8306-f258a32d237c.png"
   },
   {
    "id": 4079373902,
@@ -6562,7 +6583,8 @@
    "description": "DEVLET TİYATROLARI GENEL MÜDÜRLÜĞÜ - GÖREVDE YÜKSELME SINAVI (Görevde Yükselme ve Unvan Değişikliği İlanları)",
    "checked_at": "2026-11-22T21:01:23+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/c549128e-91aa-4d30-b1b4-d680d6f06336.png"
   },
   {
    "id": 4116356950,
@@ -6583,7 +6605,8 @@
    "description": "BURSA TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ - 1 Sözleşmeli Psikolog Alımı (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:10+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/1aa20c9b-d0d2-4aca-8409-ee7533c07cfe.png"
   },
   {
    "id": 4124985967,
@@ -6714,7 +6737,8 @@
    "description": "TÜRK AKREDİTASYON KURUMU GENEL SEKRETERLİĞİ - TÜRK AKREDİTASYON KURUMU SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ  GİRİŞ SINAVI DUYURUSU (Sözleşmeli Personel İlanları)",
    "checked_at": "2026-11-22T21:15:56+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://kariyerkapisi.gov.tr/UPS/4c0aeb79-161b-49d9-9d0e-64e687679ce2.png"
   },
   {
    "id": 4200037491,
