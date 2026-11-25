@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-25T05:31:10+00:00",
- "son_kontrol": "2026-11-25T05:31:10+00:00",
+ "guncelleme": "2026-11-25T05:45:55+00:00",
+ "son_kontrol": "2026-11-25T05:45:55+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 1,
-   "son_basari": "2026-11-25T05:31:03+00:00",
-   "sayi": 169
+   "yeni": 2,
+   "son_basari": "2026-11-25T05:45:51+00:00",
+   "sayi": 170
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T05:31:08+00:00",
+   "son_basari": "2026-11-25T05:45:53+00:00",
    "sayi": 33
   },
   "Kamu İlan (SBB)": {
@@ -21,10 +21,9 @@
    "sayi": 111
   },
   "Resmî Gazete İlanlar": {
-   "durum": "tamam",
-   "yeni": 0,
+   "durum": "eski",
+   "mesaj": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.resmigazete.gov.tr/ilanlar",
    "son_basari": "2026-11-25T05:31:10+00:00",
-   "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
  },
@@ -5530,6 +5529,31 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 3281215773,
+   "institution": "MANİSA CELAL BAYAR ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Manisa Celal Bayar Üniversitesi Rektörlüğü Akademik Personel Alım İlanı",
+   "city": "MANİSA",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-09",
+   "application_start": "2026-11-25",
+   "link": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Manisa Celal Bayar Üniversitesi Rektörlüğünden: A) ÖĞRETİM ÜYESİ KADROLARINA (PROFESÖR, DOÇENT, DOKTOR ÖĞRETİM ÜYESİ) AİT İLAN Üniversitemiz Akademik birimlerine, 2547 sayılı Yükseköğretim Kanunu ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği’nin ilgili hükümleri ile Manisa Celal Bayar Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Yönergesi hükümleri doğrultusunda Öğretim Üyesi alınacaktır. GEREKLİ BELGELER Lisans, yüksek lisans, doktora mezuniyet belgeleri ile doçentlik belgesi (profesör ve doçent kadroları için), yabancı dil sın av sonuç belgesi, Özgeçmiş, Niyet Mektubu, Başlıca Araştırma Eseri (Profesör kadroları için) ve bilimsel çalışma ve yayınları içeren dosyaların taranarak https://aed-basvuru.mcbu.edu.tr/ web adresine yüklenmesi gerekmektedir. Adayların dosya halinde başvuruda teslim etmesi gerekli belgeler: Öğretim Üyesi Başvuru Dilekçesi (Dilekçe girilen bilgiler doğrultusunda sistem tarafından otomatik üretilmektedir. Oluşan dil ekçe çıktı alınıp imzalanacaktır.), Son 6 (altı) ay içinde çekilmiş bir adet fotoğraf, kimlik fotokopisi, lisans, yüksek lisans, doktora mezuniyet belgeleri ile doçentlik belgesi (profesör ve doçent kadroları için), yabancı dil sınav sonuç belgesi, Özgeçmiş, Niyet Mektubu, Akademik Etkinlik Değerlendirme Beyan Formu (Form girilen yayınlar doğrultusunda sistem tarafından otomatik üretilmektedir. Oluşan form çıktı alınıp imzalanacaktır.) ile Üniversitemiz dışından başvuracak adaylardan herhangi bir kamu kuruluşunda çalışanların (daha önce çalışıp ayrılsalar dahi) e-Devlet üzerinden alacakları \"HİTAP Hizmet Belgesini\" müracaatlarına eklemeleri gerekmekte olup; “Manisa Celal Bayar Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Yönergesi”ne https://personel.mcbu.edu.tr/Sayfa/Ynergeler adresinden, ulaşılabilmektedir. GENEL ŞARTLAR - Adayların 657 sayılı Devlet Memurları Kanunu'nun 48. maddesindeki genel ve ilanda belirtilen diğer koşulları taşımaları gerekmektedir. - Yurt Dışı Kurumlardan alınan diplomaların Üniversitelerarası Kurulca Denkliğinin onaylanmış olması şarttır. - İlan şartlarımızı taşıyan adayların 25.11.2026 tarihinden 09.12.2026 tarihi mesai bitimine kadar https://aed-basvuru.mcbu.edu.tr/ web adresi üzerinden elektronik olarak başvuru yapmaları gerekmekte olup, dosya halinde başvuruda teslim edilmesi gereken belgeleri ise en geç 16.12.2026 tarihi mesai bitimine kadar Profesör ve Doçent adaylarının Üniversitemiz Personel Daire Başkanlığına, Doktor Öğretim Üyesi adaylarının ise kadronun ilan e",
+   "checked_at": "2026-11-25T05:45:37+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
   },
   {
    "id": 3331030616,
