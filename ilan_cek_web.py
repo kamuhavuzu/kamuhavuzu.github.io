@@ -464,6 +464,8 @@ def basvuru_coz(mevcut):
                 link, tur = adaylar[0]["link"], "ozel"
             else:
                 link, tur = genel_kk[0], "genel"
+                if n < 400:
+                    print(f"[basvuru] KK'da eslesme yok/belirsiz ({len(adaylar)} aday): {r.get('institution')}")
         elif adresler:
             link, tur = adresler[0], "diger"
         if link:
