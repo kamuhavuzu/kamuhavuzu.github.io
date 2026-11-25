@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-25T21:02:34+00:00",
- "son_kontrol": "2026-11-25T21:02:34+00:00",
+ "guncelleme": "2026-11-25T21:09:51+00:00",
+ "son_kontrol": "2026-11-25T21:09:51+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-25T21:02:21+00:00",
+   "son_basari": "2026-11-25T21:09:38+00:00",
    "sayi": 173
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 2,
-   "son_basari": "2026-11-25T21:02:23+00:00",
+   "yeni": 0,
+   "son_basari": "2026-11-25T21:09:40+00:00",
    "sayi": 35
   },
   "Kamu İlan (SBB)": {
@@ -23,28 +23,28 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:02:25+00:00",
+   "son_basari": "2026-11-25T21:09:43+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "İŞKUR Kamu İşçi Alımı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:02:27+00:00",
+   "son_basari": "2026-11-25T21:09:44+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "TÜBİTAK İlanları": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:02:28+00:00",
+   "son_basari": "2026-11-25T21:09:45+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:02:34+00:00",
+   "son_basari": "2026-11-25T21:09:50+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 42
   }
@@ -459,7 +459,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.agu.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 163317332,
@@ -485,7 +487,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.ankara.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 170599129,
@@ -1122,7 +1126,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.gaziosmanpasa.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 429709462,
@@ -1170,7 +1176,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.galata.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 448671663,
@@ -1568,7 +1576,9 @@
     "Ön Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.tanoba.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 714594601,
@@ -1642,7 +1652,9 @@
    "egitimler": [
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "basvuru_link": "https://www.beykoz.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 736705048,
@@ -1857,7 +1869,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.seddk.gov.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 815986259,
@@ -2654,7 +2668,9 @@
     "Ön Lisans",
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "basvuru_link": "https://www.bezmialem.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 1111796485,
@@ -4107,7 +4123,9 @@
     "Ön Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.ula.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 1982588695,
@@ -4178,7 +4196,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.akhisar.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 2014351227,
@@ -4252,7 +4272,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.doganyol.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 2041199072,
@@ -4279,7 +4301,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.dogus.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 2046664428,
@@ -4694,7 +4718,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.acibadem.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 2211940954,
@@ -5010,7 +5036,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.gundogmus.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 2311607557,
@@ -5597,7 +5625,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.eyyubiye.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 2603445654,
@@ -6034,7 +6064,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.balikesir.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 2846695435,
@@ -6685,7 +6717,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.akseki.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 3093442735,
@@ -6712,7 +6746,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.belek.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 3103349736,
@@ -6796,7 +6832,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.biruni.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 3128421030,
@@ -7036,7 +7074,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.bozkoy.bel.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 3350891674,
@@ -7410,7 +7450,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.dogus.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 3506873127,
@@ -7737,7 +7779,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.tarsus.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 3694009181,
@@ -8047,7 +8091,9 @@
     "Ön Lisans",
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "basvuru_link": "https://www.hku.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 3818173958,
@@ -8094,7 +8140,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://tga.gov.tr/kariyer",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 3831881075,
@@ -8840,7 +8888,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.agu.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 4204435365,
@@ -8914,7 +8964,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "basvuru_link": "https://www.atlas.edu.tr",
+   "basvuru_tur": "diger"
   },
   {
    "id": 4226020298,
