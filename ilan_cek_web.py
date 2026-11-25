@@ -383,6 +383,27 @@ def puanlari_yenile(mevcut):
     return n
 
 
+def tekillestir(ilanlar):
+    """Ayni kurumun ayni basligi iki kaynaktan geldiyse tek kayit birakir (dogrudan linki olani ve ilk gorulenini)."""
+    import re as _re
+    def anahtar(r):
+        t = f"{r.get('institution', '')}|{r.get('title', '')}".lower()
+        return _re.sub(r"[^0-9a-zçğıöşü]+", "", t)[:140]
+    gruplar = {}
+    for r in ilanlar:
+        gruplar.setdefault(anahtar(r), []).append(r)
+    sonuc = []
+    for g in gruplar.values():
+        if len(g) == 1:
+            sonuc.append(g[0]); continue
+        g.sort(key=lambda r: ("#" in str(r.get("link", "")), str(r.get("checked_at") or "")))
+        ana = dict(g[0])
+        ana["checked_at"] = min([str(x.get("checked_at") or "") for x in g if x.get("checked_at")] or [""]) or ana.get("checked_at")
+        ana["diger_kaynaklar"] = sorted({x.get("source_name", "") for x in g[1:] if x.get("source_name")})
+        sonuc.append(ana)
+    return sonuc
+
+
 def main():
     mevcut, eski_kaynaklar, eski_guncelleme = {}, {}, None
     if os.path.exists(CIKTI):
@@ -449,7 +470,7 @@ def main():
     for ad, d in durumlar.items():
         d["sayi"] = sayilar.get(ad, 0)
 
-    ilanlar = sorted(mevcut.values(), key=lambda r: r["id"])
+    ilanlar = sorted(tekillestir(list(mevcut.values())), key=lambda r: r["id"])
     # ilanlardan yeni bolum adlarini otomatik ogren (kalici; ilanlar silinse de listede kalir)
     try:
         onceki_bolum = {}

@@ -47,5 +47,23 @@
     ],
     "deneme": true,
     "aktif": false
+  },
+  {
+    "ad": "TÜBİTAK İlanları",
+    "tur": "html",
+    "url": "https://tubitak.gov.tr/tr/duyuru/clone-tubitak-ilanlari",
+    "anahtar": [
+      "personel",
+      "alım",
+      "alim",
+      "sözleşmeli",
+      "sozlesmeli",
+      "araştırmacı",
+      "uzman"
+    ],
+    "deneme": true,
+    "aktif": true,
+    "detay": false,
+    "link_liste": true
   }
 ]

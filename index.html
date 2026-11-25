@@ -127,6 +127,23 @@ header.ust{background:var(--lacivert);color:#fff;position:sticky;top:0;z-index:3
 .mini b{display:block;font-size:13px;margin-bottom:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .mini span{color:var(--soluk)}
 
+/* sekmeler, sayaç tıklama, SSS */
+.sekmeler{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.sekme{border:1px solid var(--cizgi);background:var(--kart);color:inherit;border-radius:999px;padding:8px 14px;font-weight:700;font-size:13.5px;cursor:pointer;display:inline-flex;gap:7px;align-items:center}
+.sekme b{background:var(--cizgi);border-radius:999px;padding:0 8px;min-width:22px;text-align:center;font-size:12.5px}
+.sekme.aktif{background:var(--mavi);color:#fff;border-color:var(--mavi)}
+.sekme.aktif b{background:rgba(255,255,255,.28)}
+.sayac[data-sekme]{cursor:pointer}
+.sss{margin:26px auto}
+.sss h2{font-size:20px;margin:0 0 10px}
+.sss .adimlar{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:16px}
+.sss .adim{background:var(--kart);border:1px solid var(--cizgi);border-radius:14px;padding:14px;font-size:14px}
+.sss .adim b{display:block;margin-bottom:4px}
+.sss details{background:var(--kart);border:1px solid var(--cizgi);border-radius:12px;padding:10px 14px;margin-bottom:8px}
+.sss summary{cursor:pointer;font-weight:700}
+.sss details p{margin:8px 0 2px;font-size:14px;color:var(--soluk)}
+.sss .kesfet a{display:inline-block;margin:3px 8px 3px 0}
+
 /* kartlar */
 .ozet{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;color:var(--soluk);font-size:14px}
 .ozet select{padding:7px 10px;border-radius:9px;border:1px solid var(--cizgi);background:var(--kart)}
@@ -204,6 +221,8 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
       <button type="button" id="mnIller">İllere göre</button>
       <button type="button" id="mnFav">⭐ Favorilerim</button>
       <button type="button" id="mnTakvim">📅 Takvime ekle</button>
+      <a href="#sss">Nasıl çalışır?</a>
+      <a href="kesfet/">Keşfet</a>
       <a href="#kaynaklar">Kaynaklar</a>
     </nav>
     <div class="sag">
@@ -221,6 +240,8 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
       <div class="sayac"><b id="sKontenjan">0</b><span>toplam kontenjan</span></div>
       <div class="sayac"><b id="sKurum">0</b><span>kurum</span></div>
       <div class="sayac"><b id="sBugun">0</b><span>bugün/yarın bitiyor</span></div>
+      <div class="sayac" data-sekme="yakin" title="Başvurusu henüz başlamamış ilanlar"><b id="sYakin">0</b><span>yakında açılacak</span></div>
+      <div class="sayac" data-sekme="yeni7" title="Son 7 günde eklenen ilanlar"><b id="sYeni7">0</b><span>son 7 günde eklenen</span></div>
     </div>
     <div class="canli" id="canli">Veriler yükleniyor…</div>
   </div>
@@ -247,6 +268,10 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
           <div class="alan"><label>KPSS puanım</label><input id="fPuan" type="number" step="0.01" min="0" max="100" placeholder="00.0"></div>
         </div>
         <div class="alan"><label>Şehir</label><select id="fSehir"></select></div>
+        <div class="iki">
+          <div class="alan"><label>Yaşım</label><input id="fYas" type="number" min="15" max="70" placeholder="örn. 28"></div>
+          <div class="alan"><label>Sürücü belgem</label><select id="fEhliyet"><option value="">Belirtme</option><option>Var</option><option>Yok</option></select></div>
+        </div>
         <div class="alan"><label>Kurum türü</label><select id="fKurum"></select></div>
         <div class="alan"><label>Çalışma türü</label>
           <select id="fCalisma"><option value="">Hepsi</option><option>Memur</option><option>Sözleşmeli personel</option><option>İşçi</option><option>Diğer</option></select></div>
@@ -260,6 +285,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
     </aside>
 
     <section>
+      <div class="sekmeler" id="sekmeler"></div>
       <div class="iller" id="iller"></div>
       <div id="yaklasan"></div>
       <div id="durumAlani"></div>
@@ -286,6 +312,25 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
     </section>
   </div>
 </main>
+<section class="kap sss" id="sss">
+  <h2>Nasıl çalışır?</h2>
+  <div class="adimlar">
+    <div class="adim"><b>1. İlanlar toplanır</b>Resmî ilan sitelerindeki personel alım ilanları yaklaşık her 15 dakikada bir otomatik taranır.</div>
+    <div class="adim"><b>2. Şartlar okunur</b>İlan metninden eğitim, bölüm, KPSS türü, taban puan, yaş sınırı ve benzeri şartlar okunmaya çalışılır.</div>
+    <div class="adim"><b>3. Sana göre renklenir</b>Soldan eğitim ve KPSS puanını girersen 🟢 uygun, 🟡 yakın, 🔴 düşük diye renklenir. "Bana uygun" sekmesi sadece 🟢🟡 ilanları gösterir.</div>
+    <div class="adim"><b>4. Resmî ilana bak</b>"İncele" düğmesi seni resmî ilana götürür. Başvuru her zaman resmî sitede yapılır.</div>
+  </div>
+  <h2>Sık sorulan sorular</h2>
+  <details><summary>Bu site resmî mi? Başvuru buradan mı yapılıyor?</summary><p>Hayır. KamuRadar bağımsız bir derleme aracıdır, hiçbir kamu kurumuyla bağlantısı yoktur. Başvurular yalnızca resmî ilan sayfasındaki yöntemle yapılır.</p></details>
+  <details><summary>Ücretli mi? Üye olmam gerekiyor mu?</summary><p>Hayır, ücretsiz ve üyelik yok. Puanın, favorilerin ve filtrelerin sadece kendi tarayıcında saklanır, sunucuya gönderilmez.</p></details>
+  <details><summary>Renkler neye göre belirleniyor?</summary><p>Girdiğin KPSS puanı ile ilan metninden okunan taban puan karşılaştırılır. Taban puan okunamadıysa ⚪ görünür; biliyorsan kartın içine elle yazabilirsin. "Tahmin" yazan puanlar mutlaka resmî ilandan kontrol edilmelidir.</p></details>
+  <details><summary>Bilgiler yanlış çıkarsa ne olur?</summary><p>Tarih, puan, bölüm, yaş ve diğer şartlar otomatik okunduğu için hatalı olabilir. Başvurudan önce resmî ilanı oku. Hata görürsen Hakkında bölümündeki iletişim yollarından haber verebilirsin.</p></details>
+  <details><summary>"Yakında açılacak" ne demek?</summary><p>İlan yayımlanmış ama başvuru tarihi henüz gelmemiş demektir. Başvuru tarihi gelmeden önce hazırlık yapman için ayrı gösterilir.</p></details>
+  <details><summary>Bölümüm listede yok, ne yapmalıyım?</summary><p>"Bölüm listede yoksa yaz" kutusuna bölümünün adını yaz. Siteye yeni bölüm adları ilanlardan otomatik eklenir.</p></details>
+  <details><summary>Yaş ve sürücü belgesi filtresi nasıl çalışır?</summary><p>Yaşını yazarsan, ilan metninde yaş sınırı yazan ve senin yaşını aşan ilanlar gizlenir. Sürücü belgem "Yok" dersen, sürücü belgesi şartı yazan ilanlar gizlenir. Okuma otomatik olduğu için ilanı yine de kontrol et.</p></details>
+  <details><summary>Telefonuma nasıl eklerim?</summary><p>Tarayıcı menüsünden "Ana ekrana ekle" seçeneğini kullanabilirsin; site bir uygulama gibi kısayolla açılır.</p></details>
+  <p class="kesfet"><b>Başlığa göre keşfet:</b> <a href="kesfet/">Şehir, eğitim durumu ve KPSS türüne göre ilan sayfaları</a></p>
+</section>
 <footer><div class="kap">KamuRadar bağımsız ve kâr amacı gütmeyen bir derleme aracıdır; hiçbir kamu kurumuyla bağlantısı yoktur, resmî kurum değildir. Taban puan ve tarihler ilan metninden otomatik okunur ve hatalı olabilir; başvurudan önce "İncele" ile resmî ilanı doğrula.
 <div class="yasal"><a href="bilgi.html#hakkinda">Hakkında</a> · <a href="bilgi.html#kosullar">Kullanım koşulları</a> · <a href="bilgi.html#gizlilik">Gizlilik ve KVKK</a> · <a href="bilgi.html#kaynak">Kaynaklar ve telif</a> · <a href="bilgi.html#iletisim">İletişim</a></div></div></footer>
 
@@ -422,7 +467,13 @@ function hazirla(i,bugun){
   const egitimler=Array.isArray(i.egitimler)?i.egitimler:[];
   if(Object.keys(puanlar).length){minP=Math.min(...Object.values(puanlar));pk='ilan'}
   const siralama=!(minP>0)&&/PUAN SIRALAMA|BASARI SIRALAMA|SIRALAMASINA GORE|PUANA GORE SIRALAMA/.test(metin);
-  return {...i,metinN:' '+metin,puanlar,egitimler,siralama,minP,pk,bitis,bas:bas_,kalan,tur:kurumTuru(i),kaynak:i.source_name||'ilan.gov.tr',kpssVar,aranan:norm((i.institution||'')+' '+(i.title||'')+' '+(i.city||'')+' '+(i.department||'')),fark:0,durum:'notr'};
+  const ym=metin.match(/(\d{2})\s*YASINI\s*(?:DOLDURMAMIS|ASMAMIS)|(\d{2})\s*YASINDAN\s*GUN\s*ALMAMIS|EN FAZLA\s*(\d{2})\s*YASINDA|(\d{2})\s*YASINDAN\s*BUYUK\s*OLMAMAK/);
+  let yasMax=ym?parseInt(ym[1]||ym[2]||ym[3]||ym[4]):0; if(yasMax<18||yasMax>60) yasMax=0;
+  const ehlZorunlu=/SURUCU BELGESINE SAHIP|SURUCU BELGESI(?: SAHIBI)? OLMAK|[A-E]\d? SINIFI SURUCU BELGESI|EHLIYETE SAHIP/.test(metin);
+  const ehlSinif=(metin.match(/\b([A-E]\d?) SINIFI SURUCU/)||[])[1]||'';
+  const yds=/\bYDS\b|\bKPDS\b|YABANCI DIL (?:SINAV|PUAN|BELGE)/.test(metin);
+  const deney=/(?:\d+|BIR|IKI|UC|DORT|BES) *(?:\(\d+\))? *YIL[^.]{0,60}(?:DENEYIM|TECRUBE|CALISMIS)|DENEYIM SAHIBI|FIILEN[^.]{0,30}CALISMIS/.test(metin);
+  return {...i,yasMax,ehlZorunlu,ehlSinif,yds,deney,metinN:' '+metin,puanlar,egitimler,siralama,minP,pk,bitis,bas:bas_,kalan,tur:kurumTuru(i),kaynak:i.source_name||'ilan.gov.tr',kpssVar,aranan:norm((i.institution||'')+' '+(i.title||'')+' '+(i.city||'')+' '+(i.department||'')),fark:0,durum:'notr'};
 }
 function durumHesapla(i,puan,tur){
   const k=Object.keys(i.puanlar);
@@ -437,8 +488,8 @@ function durumHesapla(i,puan,tur){
 function durum(){return{
   q:norm($('q').value.trim()), egitim:$('fEgitim').value, bolum:$('fBolum').value, bolumYaz:norm(($('fBolumYaz').value||'').trim()), tur:$('fTur').value,
   puan:parseFloat($('fPuan').value)||0, sehir:$('fSehir').value, kurum:$('fKurum').value, calisma:$('fCalisma').value,
-  kaynak:$('fKaynak').value, akademik:$('fAkademik').checked, bitmis:$('fBitmis').checked, liste:$('fListe').checked}}
-function kaydet(){const d=durum();['egitim','bolum','tur','puan','sehir','kurum','calisma','kaynak'].forEach(k=>yaz('k_'+k,d[k]));yaz('k_cip',JSON.stringify([...cip]))}
+  yas:parseInt($('fYas').value)||0, ehliyet:$('fEhliyet').value, kaynak:$('fKaynak').value, akademik:$('fAkademik').checked, bitmis:$('fBitmis').checked, liste:$('fListe').checked}}
+function kaydet(){const d=durum();['egitim','bolum','tur','puan','sehir','kurum','calisma','kaynak','yas','ehliyet'].forEach(k=>yaz('k_'+k,d[k]));yaz('k_cip',JSON.stringify([...cip]))}
 
 function uygun(i,d,durumHaric){
   if(d.sehir&&d.sehir!=='Tümü'&&i.city!==d.sehir) return false;
@@ -448,6 +499,8 @@ function uygun(i,d,durumHaric){
   if(d.bolum!=='Tümü'&&d.egitim&&bolumBelirtilmis(i,d.egitim)&&!bolumGecer(i,d.bolum)) return false;
   if(d.bolumYaz&&!i.metinN.includes(d.bolumYaz)) return false;
   if(d.puan>0&&d.tur){ if(Object.keys(i.puanlar).length){ if(!i.puanlar[d.tur]) return false } else if(i.kpss_type&&i.kpss_type!==d.tur) return false }
+  if(d.yas>0&&i.yasMax&&d.yas>i.yasMax) return false;
+  if(d.ehliyet==='Yok'&&i.ehlZorunlu) return false;
   if(d.kurum&&d.kurum!=='Tümü'&&i.tur!==d.kurum) return false;
   if(d.calisma&&i.employment_type!==d.calisma) return false;
   if(d.kaynak&&d.kaynak!=='Tümü'&&i.kaynak!==d.kaynak) return false;
@@ -487,6 +540,11 @@ function kart(i,idx){
   if(i.egitimler.length) rz.push(`<span class="rozet ${i.egitim_tahmin?'r-kontrol':''}" title="${i.egitim_tahmin?'Eğitim şartı ilan metninden okunamadı, KPSS türünden tahmin edildi; ilandan kontrol et':'İlan metninde yazan eğitim şartı'}">🎓 ${esc(i.egitimler.join(' / '))}${i.egitim_tahmin?' (kontrol et)':''}</span>`);
   if(i.siralama) rz.push('<span class="rozet r-kontrol" title="Alım KPSS puan sıralamasına göre yapılıyor; sabit bir taban puan yazılmamış">KPSS sıralamasıyla alım</span>');
   if(i.kpssVar===false) rz.push('<span class="rozet r-yesil">KPSS şartsız</span>');
+  if(i.bas&&i.bas>new Date()) rz.push(`<span class="rozet r-mavi">📅 Başvuru ${gunFmt(i.bas)} tarihinde başlıyor</span>`);
+  if(i.yasMax) rz.push(`<span class="rozet r-kontrol" title="İlan metninden okundu; ilandan kontrol et">👤 Yaş sınırı: ${i.yasMax}</span>`);
+  if(i.ehlZorunlu) rz.push(`<span class="rozet r-kontrol" title="İlan metninden okundu; ilandan kontrol et">🚗 Sürücü belgesi${i.ehlSinif?' ('+esc(i.ehlSinif)+')':''}</span>`);
+  if(i.yds) rz.push('<span class="rozet r-kontrol" title="İlanda YDS / yabancı dil geçiyor; şartı ilandan kontrol et">🌐 Yabancı dil şartı olabilir</span>');
+  if(i.deney) rz.push('<span class="rozet r-kontrol" title="İlanda deneyim şartı geçiyor; ilandan kontrol et">💼 Deneyim şartı olabilir</span>');
   rz.push(`<span class="rozet">${esc(i.employment_type||'Diğer')}</span>`);
   if(parseInt(i.quota)>0) rz.push(`<span class="rozet">${parseInt(i.quota)} kişi</span>`);
   if(i.akademik) rz.push('<span class="rozet">Akademik</span>');
@@ -506,7 +564,8 @@ function kart(i,idx){
 function listele(){
   const d=durum(), bugun=new Date(); bugun.setHours(0,0,0,0);
   tum.forEach(i=>{i.kalan=i.bitis?Math.round((i.bitis-bugun)/864e5):null; durumHesapla(i,d.puan,d.tur)});
-  const aday=tum.filter(i=>uygun(i,d));
+  const aday=tum.filter(i=>uygun(i,d)&&sekmeGecer(i,d,bugun,sekme));
+  sekmeCiz(d,bugun);
 
   // il sayıları (şehir süzgeci hariç)
   if(iller){const s={};tum.filter(i=>uygun(i,{...d,sehir:''})).forEach(i=>{if(i.city)s[i.city]=(s[i.city]||0)+1});
@@ -526,13 +585,15 @@ function listele(){
   const sira=$('fSira').value, oncelik={yesil:0,sari:1,kirmizi:2,bilinmiyor:3,notr:0};
   sonuc=[...sonuc].sort((a,b)=>{
     if(sira==='uygun'&&oncelik[a.durum]!==oncelik[b.durum]) return oncelik[a.durum]-oncelik[b.durum];
+    if(sekme==='yakin') return (a.bas||0)-(b.bas||0);
+    if(sekme==='yeni7'){const x=yeniAnahtar(a),y=yeniAnahtar(b);return (y[0]-x[0])||(y[1]-x[1])||(y[2]-x[2])}
     if(sira==='yeni') return (b.bas||0)-(a.bas||0);
     if(sira==='kontenjan') return (parseInt(b.quota)||0)-(parseInt(a.quota)||0);
     return (a.kalan??99999)-(b.kalan??99999);});
 
   $('ozet').textContent=`${sonuc.length} ilan listeleniyor · toplam havuz ${tum.length}`;
   $('liste').innerHTML=sonuc.length?sonuc.slice(0,gorunen).map(kart).join(''):
-    `<div class="bos" style="grid-column:1/-1">${tum.length?'Bu filtrelere uygun ilan yok. Şehri veya eğitimi "Hepsi" yapıp ya da filtreleri temizleyip tekrar dene.':'Henüz ilan yok. Aşağıdaki "Veri kaynakları" bölümünde hangi kaynağın hata verdiğini görebilirsin.'}</div>`;
+    `<div class="bos" style="grid-column:1/-1">${sekme==='uygun'&&!(d.puan>0)?'"Bana uygun" listesi için soldan (telefonda ⚙ Filtreleri aç) eğitim durumunu ve KPSS puanını gir.':tum.length?'Bu filtrelere uygun ilan yok. Şehri veya eğitimi "Hepsi" yapıp ya da filtreleri temizleyip tekrar dene.':'Henüz ilan yok. Aşağıdaki "Veri kaynakları" bölümünde hangi kaynağın hata verdiğini görebilirsin.'}</div>`;
   $('btnDaha').style.display=sonuc.length>gorunen?'block':'none';
   $('btnDaha').textContent=`Daha fazla göster (${sonuc.length-gorunen} ilan daha)`;
   const A=[];
@@ -551,6 +612,20 @@ function listele(){
 
 
 /* ---------- en son eklenen ilanlar (filtreden bağımsız, kaydırmalı kartlar) ---------- */
+let sekme='hepsi';
+const bugunGun=()=>Math.floor(Date.now()/864e5);
+function sekmeGecer(i,d,bugun,s){
+  if(s==='yakin') return !!(i.bas&&i.bas>bugun&&!i.akademik);
+  if(s==='yeni7') return !i.akademik&&yeniAnahtar(i)[0]>=bugunGun()-7;
+  if(s==='uygun') return d.puan>0&&(i.durum==='yesil'||i.durum==='sari'||i.kpssVar===false);
+  return true;
+}
+function sekmeCiz(d,bugun){
+  const T=[['hepsi','Tüm ilanlar'],['uygun','✅ Bana uygun'],['yakin','⏳ Yakında açılacak'],['yeni7','🆕 Son 7 günde']];
+  $('sekmeler').innerHTML=T.map(([k,a])=>{
+    const n=k==='hepsi'?tum.filter(i=>uygun(i,d)).length:tum.filter(i=>uygun(i,d)&&sekmeGecer(i,d,bugun,k)).length;
+    return `<button type="button" class="sekme ${sekme===k?'aktif':''}" data-sekme="${k}">${a}<b>${k==='uygun'&&!(d.puan>0)?'?':n}</b></button>`}).join('');
+}
 function yeniAnahtar(i){
   /* "eklenme günü" = sitenin ilanı ilk gördüğü gün (tarihsiz ilanlar da en üste çıkabilsin); eşitlikte başvuru başlangıcı, sonra saat */
   const ek=Date.parse(i.checked_at), bas=i.bas?+i.bas:0;
@@ -604,6 +679,8 @@ function istatistik(){
   $('sKontenjan').textContent=acik.reduce((t,i)=>t+(parseInt(i.quota)||0),0).toLocaleString('tr-TR')||'—';
   $('sKurum').textContent=new Set(acik.map(i=>i.institution)).size;
   $('sBugun').textContent=acik.filter(i=>i.kalan!==null&&i.kalan<=1).length;
+  $('sYakin').textContent=tum.filter(i=>!i.iptal&&!i.akademik&&i.bas&&i.bas>bugun).length;
+  $('sYeni7').textContent=tum.filter(i=>!i.iptal&&!i.akademik&&(i.kalan===null||i.kalan>=0)&&yeniAnahtar(i)[0]>=bugunGun()-7).length;
 }
 
 /* ---------- seçenekler ---------- */
@@ -685,11 +762,16 @@ $('fEgitim').addEventListener('change',()=>{bolumDoldur();otoTur();yenidenCiz()}
 $('fBolumYaz').addEventListener('input',()=>yenidenCiz());
 ['fBolum','fTur','fSehir','fKurum','fCalisma','fKaynak','fAkademik','fBitmis','fListe','fSira'].forEach(id=>$(id).addEventListener('change',()=>{kaydet();yenidenCiz()}));
 $('fPuan').addEventListener('input',()=>{kaydet();yenidenCiz()});
+$('fYas').addEventListener('input',()=>{kaydet();yenidenCiz()});
+$('fEhliyet').addEventListener('change',()=>{kaydet();yenidenCiz()});
+function sekmeAc(k){sekme=k;yenidenCiz();$('ilanlar').scrollIntoView({behavior:'smooth'})}
+$('sekmeler').addEventListener('click',e=>{const b=e.target.closest('.sekme');if(b)sekmeAc(b.dataset.sekme)});
+document.querySelectorAll('.sayac[data-sekme]').forEach(x=>x.addEventListener('click',()=>sekmeAc(x.dataset.sekme)));
 let zaman; $('q').addEventListener('input',()=>{clearTimeout(zaman);zaman=setTimeout(yenidenCiz,200)});
 $('btnAra').addEventListener('click',yenidenCiz);
 $('btnDaha').addEventListener('click',()=>{gorunen+=SAYFA;listele()});
 $('aktifBar').addEventListener('click',e=>{if(e.target.id==='btnHepsiniKaldir')$('btnTemizle').click()});
-$('btnTemizle').addEventListener('click',()=>{$('q').value='';$('fBolumYaz').value='';$('fEgitim').value='';bolumDoldur();$('fPuan').value='';$('fSehir').value='Tümü';$('fKurum').value='Tümü';$('fCalisma').value='';$('fKaynak').value='Tümü';$('fAkademik').checked=false;$('fBitmis').checked=false;$('fListe').checked=false;cip.clear();durumFiltre='hepsi';kaydet();yenidenCiz()});
+$('btnTemizle').addEventListener('click',()=>{$('q').value='';$('fBolumYaz').value='';$('fEgitim').value='';bolumDoldur();$('fPuan').value='';$('fYas').value='';$('fEhliyet').value='';sekme='hepsi';$('fSehir').value='Tümü';$('fKurum').value='Tümü';$('fCalisma').value='';$('fKaynak').value='Tümü';$('fAkademik').checked=false;$('fBitmis').checked=false;$('fListe').checked=false;cip.clear();durumFiltre='hepsi';kaydet();yenidenCiz()});
 $('cipler').addEventListener('click',e=>{const b=e.target.closest('.cip');if(!b)return;const k=b.dataset.cip;
   if(EG[k]){$('fEgitim').value=$('fEgitim').value===EG[k]?'':EG[k];bolumDoldur();otoTur();kaydet()}
   else{cip.has(k)?cip.delete(k):cip.add(k);kaydet()} yenidenCiz()});
@@ -758,6 +840,15 @@ async function yerelGuncelle(){
   if(oku('k_puan')) $('fPuan').value=oku('k_puan');
   if(oku('k_sehir')) $('fSehir').value=oku('k_sehir');
   if(oku('k_calisma')) $('fCalisma').value=oku('k_calisma');
+  if(oku('k_yas')) $('fYas').value=oku('k_yas');
+  if(oku('k_ehliyet')) $('fEhliyet').value=oku('k_ehliyet');
+  const P=new URLSearchParams(location.search);
+  if(P.get('egitim')){$('fEgitim').value=P.get('egitim');bolumDoldur();otoTur()}
+  if(P.get('tur')) $('fTur').value=P.get('tur');
+  if(P.get('sehir')) $('fSehir').value=P.get('sehir');
+  if(P.get('calisma')) $('fCalisma').value=P.get('calisma');
+  if(P.get('q')) $('q').value=P.get('q').slice(0,80);
+  if(['uygun','yakin','yeni7'].includes(P.get('sekme'))) sekme=P.get('sekme');
   try{JSON.parse(oku('k_cip')||'[]').forEach(k=>CIP_LISTE.some(c=>c[0]===k)&&cip.add(k))}catch(x){}
   cipCiz();
   await veriYenile(true);
