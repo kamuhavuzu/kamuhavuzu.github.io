@@ -168,6 +168,15 @@ def ilan_gov_tr(session, mevcut, **_):
         for ad in ads:
             if ad.get("isArchived") or not ad.get("urlStr"):
                 continue
+            if not getattr(ilan_gov_tr, "_anahtar_yazildi", False):
+                ilan_gov_tr._anahtar_yazildi = True
+                print("[ilan.gov.tr] ilan alanlari:", sorted(ad.keys()))
+            logo = ""
+            for _k, _v in ad.items():
+                if "logo" in str(_k).lower() and isinstance(_v, str) and _v.strip():
+                    logo = _v.strip(); break
+            if logo.startswith("/"):
+                logo = "https://www.ilan.gov.tr" + logo
             akademik = any(w in ic.norm(f"{ad.get('title', '')} {ad.get('advertiserName', '')}") for w in ic.SKIP_WORDS)
             link = ic.build_link(ad["urlStr"])
             if link in mevcut:
@@ -186,7 +195,7 @@ def ilan_gov_tr(session, mevcut, **_):
                 kpss_type=ic.parse_kpss_type(metin), min_kpss=ic.parse_min_kpss(metin),
                 deadline=iso(bit), application_start=iso(bas), puanlar=ic.parse_puan_tablosu(metin),
                 source_name="ilan.gov.tr", employment_type=ic.guess_employment(metin),
-                description=body[:ACIKLAMA_SINIR], akademik=akademik)
+                description=body[:ACIKLAMA_SINIR], akademik=akademik, logo=logo)
             eklenen += 1
             print(f"+ {ad.get('advertiserName')} - {ad.get('title')}")
         time.sleep(ic.DELAY)

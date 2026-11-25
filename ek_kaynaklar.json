@@ -38,15 +38,19 @@
   {
     "ad": "İŞKUR Kamu İşçi Alımı",
     "tur": "html",
-    "url": "https://www.iskur.gov.tr/",
+    "url": "https://www.iskur.gov.tr/ilanlar/",
     "anahtar": [
-      "kamu işçi",
-      "kamu isci",
-      "işçi alım",
-      "isci alim"
+      "kamu",
+      "personel",
+      "işçi",
+      "isci",
+      "alım",
+      "alim"
     ],
     "deneme": true,
-    "aktif": false
+    "aktif": true,
+    "link_liste": true,
+    "detay": false
   },
   {
     "ad": "TÜBİTAK İlanları",
@@ -60,6 +64,25 @@
       "sozlesmeli",
       "araştırmacı",
       "uzman"
+    ],
+    "deneme": true,
+    "aktif": true,
+    "detay": false,
+    "link_liste": true
+  },
+  {
+    "ad": "Aile ve Sosyal Hizmetler Bakanlığı",
+    "tur": "html",
+    "url": "https://www.aile.gov.tr/duyurular",
+    "anahtar": [
+      "personel alım",
+      "personel alim",
+      "sözleşmeli personel",
+      "sozlesmeli personel",
+      "işçi alım",
+      "isci alim",
+      "sınav ilanı",
+      "sinav ilani"
     ],
     "deneme": true,
     "aktif": true,

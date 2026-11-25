@@ -12,7 +12,7 @@
 <meta property="og:type" content="website"><meta property="og:title" content="KamuRadar · Kamu personel alım ilanları">
 <meta property="og:description" content="Tüm kamu alımları tek platformda. Eğitim, KPSS puanı ve şehre göre filtrele.">
 <meta property="og:image" content="https://kamuradar.github.io/logo-yazili.png"><meta property="og:url" content="https://kamuradar.github.io/">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.ilan.gov.tr https://ilan.gov.tr; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <style>
 :root{
@@ -164,6 +164,10 @@ body.modal-acik{overflow:hidden}
 .btn-ana{display:block;text-align:center;background:var(--mavi);color:#fff;text-decoration:none;font-weight:700;padding:13px;border-radius:12px}
 .btn-ikinci{border:1px solid var(--cizgi);background:transparent;color:inherit;border-radius:12px;padding:11px;font-weight:600;cursor:pointer;font-size:14px}
 .m-not{font-size:12px;color:var(--soluk)}
+
+/* kurum logosu */
+.avatar.logolu{background:#fff;padding:3px;border:1px solid var(--cizgi)}
+.avatar.logolu img{width:100%;height:100%;object-fit:contain;border-radius:6px}
 
 /* kartlar */
 .ozet{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;color:var(--soluk);font-size:14px}
@@ -455,6 +459,11 @@ const KURUM_KURALLARI=[
  ['ÖSYM',/OSYM|OLCME, SECME/],
  ['Bakanlık / Genel Müdürlük',/BAKANLIK|GENEL MUDURLUK|BASKANLIGI|BASKANLIK|MUDURLUGU|KURUMU|KURULU|AJANS/],
  ['Oda / Birlik / Borsa',/ODASI|BIRLIGI|BORSASI|BIRLIK/]];
+function logoUrl(u){try{const x=new URL(String(u||''));return (x.protocol==='https:'&&/^(www\.)?ilan\.gov\.tr$/.test(x.hostname))?x.href:''}catch(e){return ''}}
+function avatarHtml(i){const ik=KURUM_IKON[i.tur]||esc(bas(i.institution)),lg=logoUrl(i.logo);
+  return lg?`<div class="avatar logolu" title="${esc(i.tur)}"><img class="logo-img" src="${esc(lg)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-ikon="${ik}"></div>`
+    :`<div class="avatar" title="${esc(i.tur)}" style="background:${renkAvatar(i.institution||'?')}">${ik}</div>`}
+document.addEventListener('error',e=>{const t=e.target;if(t&&t.classList&&t.classList.contains('logo-img')){const p=t.parentNode;p.classList.remove('logolu');p.style.background=renkAvatar('?');p.textContent=t.dataset.ikon}},true);
 const KURUM_IKON={'MSB / TSK':'🎖️','Jandarma / Sahil Güvenlik':'🛡️','Polis / Emniyet':'👮','Üniversite':'🎓','Belediye / İl Özel İdaresi':'🏛️','Hastane / Sağlık':'🏥','Adalet / Mahkeme':'⚖️','İŞKUR':'💼','ÖSYM':'📝','Bakanlık / Genel Müdürlük':'🏢','Oda / Birlik / Borsa':'🤝','Diğer kamu kurumları':'🏢'};
 function kurumTuru(i){
   const k=norm(i.institution||''), t=k+' '+norm(i.title||'');
@@ -569,7 +578,7 @@ function kart(i,idx){
   if(i.bas&&i.bas>new Date()) rz.push(`<span class="rozet r-mavi">📅 ${gunFmt(i.bas)} başlıyor</span>`);
   const f=favoriler.has(String(i.id));
   return `<article class="ilan ${i.durum}${gorulen.has(String(i.id))?' gorulmus':''}" data-id="${esc(i.id)}" tabindex="0" style="animation-delay:${Math.min(idx,12)*30}ms">
-   <div class="kurum-satir"><div class="avatar" title="${esc(i.tur)}" style="background:${renkAvatar(i.institution||'?')}">${KURUM_IKON[i.tur]||esc(bas(i.institution))}</div>
+   <div class="kurum-satir">${avatarHtml(i)}
      <div><div class="kurum-ad">${esc(i.institution)}</div><div class="sehir">${esc(i.city||'Şehir belirtilmemiş')} · ${esc(i.tur)}</div></div>
      <button class="fav ${f?'acik':''}" data-fav="${esc(i.id)}" title="Favori">${f?'★':'☆'}</button></div>
    <h3 class="baslik">${esc(i.title)}</h3>
@@ -604,6 +613,13 @@ function modalAc(id){
   if(i.yds) S.push(['Yabancı dil','İlanda geçiyor, şartı kontrol et']);
   if(i.deney) S.push(['Deneyim','İlanda geçiyor, şartı kontrol et']);
   S.push(['Kaynak',esc(i.kaynak)+((i.diger_kaynaklar||[]).length?' <small>(ayrıca: '+esc(i.diger_kaynaklar.join(', '))+')</small>':'')]);
+  if(i.ai&&typeof i.ai==='object'){
+    const v=x=>{x=String(x||'').trim();return (!x||/^belirtilmemi[sş]/i.test(x))?'':esc(x)};
+    const A=[]; if(v(i.ai.ozet)) A.push(['Özet',v(i.ai.ozet)]);
+    [['Bölüm',i.ai.bolum],['Yaş sınırı',i.ai.yas_siniri],['Ehliyet',i.ai.ehliyet],['Deneyim',i.ai.deneyim]].forEach(([k,x])=>{if(v(x))A.push([k,v(x)])});
+    if(Array.isArray(i.ai.ozel_sartlar)&&i.ai.ozel_sartlar.length) A.push(['Özel şartlar',i.ai.ozel_sartlar.slice(0,5).map(x=>'• '+esc(x)).join('<br>')]);
+    if(A.length){S.push(['🤖 Yapay zekâ özeti','<small>(hatalı olabilir, ilandan kontrol et)</small>']); A.forEach(x=>S.push(x))}
+  }
   const d=durum();
   let fit;
   if(d.puan>0&&i.durum!=='notr'){
