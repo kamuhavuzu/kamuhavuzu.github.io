@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-25T06:01:17+00:00",
- "son_kontrol": "2026-11-25T06:01:17+00:00",
+ "guncelleme": "2026-11-25T06:15:59+00:00",
+ "son_kontrol": "2026-11-25T06:15:59+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 2,
-   "son_basari": "2026-11-25T06:01:13+00:00",
-   "sayi": 171
+   "son_basari": "2026-11-25T06:15:54+00:00",
+   "sayi": 172
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T06:01:15+00:00",
+   "son_basari": "2026-11-25T06:15:56+00:00",
    "sayi": 33
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,7 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T06:01:17+00:00",
+   "son_basari": "2026-11-25T06:15:58+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -3545,6 +3545,32 @@
    "checked_at": "2026-11-19T09:17:52+00:00",
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 2128423999,
+   "institution": "BİRUNİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "İptal İlanı (Biruni Üniversitesi Rektörlüğü)",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2302677/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-biruni-universitesi-rektorlugu-",
+   "source_url": "https://www.ilan.gov.tr/ilan/2302677/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-biruni-universitesi-rektorlugu-",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Biruni Üniversitesi Rektörlüğünden: İPTAL İLANI 13.11.2026 tarihli ve 33429 sayılı Resmî Gazete’de aslına uygun olarak yayımlanan ilanımız aşağıdaki belirtilen kadro ilanı iptal edilmiştir. İlan Başlama Tarihi : 13.11.2026 İlan Bitiş Tarihi : 27.11.2026 FAKÜLTE BÖLÜM / PROGRAM ANABİLİM DALI / BİLİMDALI UZMANLIK ALANI / ARANILAN ŞARTLAR KADRO UNVANI KADRO SAYISI ALES PUANI YABANCI DİL PUANI MESLEK YÜKSEKOKULU Fizyoterapi Fizyoterapi ve Rehabilitasyon alanında tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 - 12156/1-1",
+   "checked_at": "2026-11-25T06:15:39+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Ön Lisans"
+   ],
+   "egitim_tahmin": false,
+   "iptal": true
   },
   {
    "id": 2139189223,
