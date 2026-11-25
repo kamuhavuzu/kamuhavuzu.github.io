@@ -172,16 +172,16 @@ def ilan_gov_tr(session, mevcut, **_):
             if not getattr(ilan_gov_tr, "_anahtar_yazildi", False):
                 ilan_gov_tr._anahtar_yazildi = True
                 print("[ilan.gov.tr] ilan alanlari:", sorted(ad.keys()))
-            logo = ""
-            for _k, _v in ad.items():
-                if "logo" in str(_k).lower() and isinstance(_v, str) and _v.strip():
-                    logo = _v.strip(); break
-            if logo.startswith("/"):
-                logo = "https://www.ilan.gov.tr" + logo
+            if not getattr(ilan_gov_tr, "_logo_yazildi", False):
+                ilan_gov_tr._logo_yazildi = True
+                print("[ilan.gov.tr] logo ornekleri:", {k: str(ad.get(k))[:120] for k in ("advertiserLogo", "adSourceLogoPath", "mainPhoto")})
+            logo = logo_al(ad)
             akademik = any(w in ic.norm(f"{ad.get('title', '')} {ad.get('advertiserName', '')}") for w in ic.SKIP_WORDS)
             link = ic.build_link(ad["urlStr"])
             if link in mevcut:
                 eski_r = mevcut[link]
+                if not eski_r.get("logo"):
+                    eski_r["logo"] = logo_al(ad)
                 if "basvuru_adresleri" not in eski_r and geri_hak > 0:   # eski kayitlara basvuru adresini sonradan ekle
                     geri_hak -= 1
                     time.sleep(ic.DELAY)
@@ -430,6 +430,18 @@ def _urller(metin):
     return sorted(bulunan, key=lambda x: x[1])
 
 
+def logo_al(ad):
+    """Ilani yayimlayan kurumun logosu (advertiserLogo). Goreli yol ise ilan.gov.tr adresine tamamlanir."""
+    v = str(ad.get("advertiserLogo") or "").strip()
+    if not v or v.lower() in ("null", "none"):
+        return ""
+    if v.startswith("//"):
+        return "https:" + v
+    if v.startswith("/"):
+        return "https://www.ilan.gov.tr" + v
+    return v
+
+
 def adresleri_bul(metin):
     """Ilan metnindeki disari giden (ilan.gov.tr disi) web adreslerini, sirayla en fazla 5 tane dondurur."""
     return [u for u, _ in _urller(metin) if "ilan.gov.tr" not in u.lower()][:5]
@@ -450,6 +462,16 @@ def oneri_bul(metin):
     return ""
 
 
+def ana_sayfa_bul(metin):
+    """'Basvuru' kelimesinin yakininda gecen kurum ana sayfasi (yolu olmayan adres); yoksa bos."""
+    for u, konum in _urller(metin):
+        if any(x in u.lower() for x in ONERI_ATLA):
+            continue
+        if "BASVUR" in ic.norm((metin or "")[max(0, konum - 260):konum]):
+            return u
+    return ""
+
+
 def _kurum_anahtar(s):
     t = ic.norm(s or "")
     for w in ("REKTORLUGU", "BASKANLIGI", "MUDURLUGU", "GENEL", "T.C.", "TC"):
@@ -465,6 +487,9 @@ def basvuru_coz(mevcut):
     """Her ilan icin dogrudan basvuru adresini bulur: ilan metnindeki ozel adres > Kariyer Kapisi'ndaki eslesen ilan > genel Kariyer Kapisi adresi."""
     kk = [r for r in mevcut.values() if r.get("source_name") == "Kariyer Kapısı"]
     n = 0
+    for r in mevcut.values():
+        if r.get("basvuru_tur") in ("diger", "genel", "ana"):   # belirsiz olanlar her seferinde yeniden denenir
+            r.pop("basvuru_link", None); r.pop("basvuru_tur", None)
     for r in mevcut.values():
         if r.get("source_name") == "Kariyer Kapısı" or r.get("basvuru_link"):
             continue
@@ -501,8 +526,10 @@ def basvuru_coz(mevcut):
                 link, tur = genel_kk[0], "genel"
                 if n < 400:
                     print(f"[basvuru] KK'da eslesme yok/belirsiz ({len(adaylar)} aday): {r.get('institution')}")
-        elif adresler:
-            link, tur = adresler[0], "diger"
+        else:
+            ana = ana_sayfa_bul(r.get("description", ""))
+            if ana:
+                link, tur = ana, "ana"
         if link:
             r["basvuru_link"], r["basvuru_tur"] = link, tur
             n += 1
