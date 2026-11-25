@@ -144,6 +144,27 @@ header.ust{background:var(--lacivert);color:#fff;position:sticky;top:0;z-index:3
 .sss details p{margin:8px 0 2px;font-size:14px;color:var(--soluk)}
 .sss .kesfet a{display:inline-block;margin:3px 8px 3px 0}
 
+/* ayrıntı penceresi */
+.detay{color:var(--mavi);font-weight:700;font-size:13.5px}
+.ilan{cursor:pointer}
+body.modal-acik{overflow:hidden}
+.modal{position:fixed;inset:0;background:rgba(8,15,30,.62);z-index:100;display:flex;align-items:center;justify-content:center;padding:16px}
+.modal[hidden]{display:none}
+.modal-ic{background:var(--kart);color:var(--yazi,inherit);border:1px solid var(--cizgi);border-radius:18px;max-width:880px;width:100%;max-height:92vh;overflow:auto;padding:22px;position:relative;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.modal-ic h2{margin:0 36px 2px 0;font-size:21px;line-height:1.3}
+.m-kurum{color:var(--soluk);margin-bottom:14px}
+.m-kapat{position:absolute;right:12px;top:12px;border:0;background:var(--cizgi);color:inherit;width:34px;height:34px;border-radius:50%;font-size:16px;cursor:pointer}
+.m-govde{display:grid;grid-template-columns:1.5fr 1fr;gap:18px}
+@media(max-width:700px){.m-govde{grid-template-columns:1fr}.modal{padding:0;align-items:flex-end}.modal-ic{border-radius:18px 18px 0 0;max-height:94vh}}
+.m-satir{display:flex;justify-content:space-between;gap:14px;padding:9px 0;border-bottom:1px solid var(--cizgi);font-size:14px}
+.m-satir span{color:var(--soluk)}.m-satir b{text-align:right;font-weight:600}
+.m-yan{display:flex;flex-direction:column;gap:10px}
+.mfit{border:1px solid var(--cizgi);border-radius:12px;padding:12px;font-size:14px}
+.mfit.r-yesil{border-color:var(--yesil)}.mfit.r-sari{border-color:var(--turuncu)}.mfit.r-kirmizi{border-color:var(--kirmizi)}
+.btn-ana{display:block;text-align:center;background:var(--mavi);color:#fff;text-decoration:none;font-weight:700;padding:13px;border-radius:12px}
+.btn-ikinci{border:1px solid var(--cizgi);background:transparent;color:inherit;border-radius:12px;padding:11px;font-weight:600;cursor:pointer;font-size:14px}
+.m-not{font-size:12px;color:var(--soluk)}
+
 /* kartlar */
 .ozet{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;color:var(--soluk);font-size:14px}
 .ozet select{padding:7px 10px;border-radius:9px;border:1px solid var(--cizgi);background:var(--kart)}
@@ -331,6 +352,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
   <details><summary>Telefonuma nasıl eklerim?</summary><p>Tarayıcı menüsünden "Ana ekrana ekle" seçeneğini kullanabilirsin; site bir uygulama gibi kısayolla açılır.</p></details>
   <p class="kesfet"><b>Başlığa göre keşfet:</b> <a href="kesfet/">Şehir, eğitim durumu ve KPSS türüne göre ilan sayfaları</a></p>
 </section>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="mBaslik"><div class="modal-ic" id="modalIc"></div></div>
 <footer><div class="kap">KamuRadar bağımsız ve kâr amacı gütmeyen bir derleme aracıdır; hiçbir kamu kurumuyla bağlantısı yoktur, resmî kurum değildir. Taban puan ve tarihler ilan metninden otomatik okunur ve hatalı olabilir; başvurudan önce "İncele" ile resmî ilanı doğrula.
 <div class="yasal"><a href="bilgi.html#hakkinda">Hakkında</a> · <a href="bilgi.html#kosullar">Kullanım koşulları</a> · <a href="bilgi.html#gizlilik">Gizlilik ve KVKK</a> · <a href="bilgi.html#kaynak">Kaynaklar ve telif</a> · <a href="bilgi.html#iletisim">İletişim</a></div></div></footer>
 
@@ -527,40 +549,85 @@ function son(i){
   if(i.kalan===1) return '<span class="son acil">⏰ Yarın son gün</span>';
   return `<span class="son ${i.kalan<=3?'acil':''}">Son: ${gunFmt(i.bitis)} · ${i.kalan} gün</span>`;
 }
+const virg=n=>String(n).replace('.',',');
+function fitRozet(i){
+  if(i.durum==='yesil') return '<span class="rozet r-yesil">🟢 Puanın yetiyor</span>';
+  if(i.durum==='sari') return `<span class="rozet r-sari">🟡 ${i.fark.toFixed(2).replace('.',',')} puan eksik</span>`;
+  if(i.durum==='kirmizi') return `<span class="rozet r-kirmizi">🔴 ${i.fark.toFixed(2).replace('.',',')} puan eksik</span>`;
+  if(i.durum==='bilinmiyor') return '<span class="rozet">⚪ Taban puan okunamadı</span>';
+  return '';
+}
 function kart(i,idx){
-  const rz=[];
-  if(i.durum==='yesil') rz.push('<span class="rozet r-yesil">🟢 Puanın yetiyor</span>');
-  if(i.durum==='sari') rz.push(`<span class="rozet r-sari">🟡 ${i.fark.toFixed(2).replace('.',',')} puan eksik</span>`);
-  if(i.durum==='kirmizi') rz.push(`<span class="rozet r-kirmizi">🔴 ${i.fark.toFixed(2).replace('.',',')} puan eksik</span>`);
-  if(i.durum==='bilinmiyor') rz.push('<span class="rozet">⚪ Taban puan okunamadı</span>');
-  if(i.minP>0&&!Object.keys(i.puanlar).length) rz.push(`<span class="rozet r-mavi">Taban ${String(i.minP).replace('.',',')}${i.pk==='tahmin'?' (tahmin)':i.pk==='manuel'?' (elle)':''}</span>`);
+  const rz=[fitRozet(i)];
   const pk_=Object.keys(i.puanlar);
-  if(pk_.length){ rz.push(...pk_.map(t=>`<span class="rozet r-mavi">${esc(t)} ≥ ${String(i.puanlar[t]).replace('.',',')}</span>`)) }
-  else{ if(i.education_level) rz.push(`<span class="rozet">${esc(i.education_level)}</span>`);
-        if(i.kpss_type) rz.push(`<span class="rozet">${esc(i.kpss_type)}</span>`); }
-  if(i.egitimler.length) rz.push(`<span class="rozet ${i.egitim_tahmin?'r-kontrol':''}" title="${i.egitim_tahmin?'Eğitim şartı ilan metninden okunamadı, KPSS türünden tahmin edildi; ilandan kontrol et':'İlan metninde yazan eğitim şartı'}">🎓 ${esc(i.egitimler.join(' / '))}${i.egitim_tahmin?' (kontrol et)':''}</span>`);
-  if(i.siralama) rz.push('<span class="rozet r-kontrol" title="Alım KPSS puan sıralamasına göre yapılıyor; sabit bir taban puan yazılmamış">KPSS sıralamasıyla alım</span>');
+  if(pk_.length) rz.push(...pk_.slice(0,2).map(t=>`<span class="rozet r-mavi">${esc(t)} ≥ ${virg(i.puanlar[t])}</span>`));
+  else if(i.minP>0) rz.push(`<span class="rozet r-mavi">Taban ${virg(i.minP)}${i.pk==='tahmin'?' (tahmin)':i.pk==='manuel'?' (elle)':''}</span>`);
   if(i.kpssVar===false) rz.push('<span class="rozet r-yesil">KPSS şartsız</span>');
-  if(i.bas&&i.bas>new Date()) rz.push(`<span class="rozet r-mavi">📅 Başvuru ${gunFmt(i.bas)} tarihinde başlıyor</span>`);
-  if(i.yasMax) rz.push(`<span class="rozet r-kontrol" title="İlan metninden okundu; ilandan kontrol et">👤 Yaş sınırı: ${i.yasMax}</span>`);
-  if(i.ehlZorunlu) rz.push(`<span class="rozet r-kontrol" title="İlan metninden okundu; ilandan kontrol et">🚗 Sürücü belgesi${i.ehlSinif?' ('+esc(i.ehlSinif)+')':''}</span>`);
-  if(i.yds) rz.push('<span class="rozet r-kontrol" title="İlanda YDS / yabancı dil geçiyor; şartı ilandan kontrol et">🌐 Yabancı dil şartı olabilir</span>');
-  if(i.deney) rz.push('<span class="rozet r-kontrol" title="İlanda deneyim şartı geçiyor; ilandan kontrol et">💼 Deneyim şartı olabilir</span>');
+  if(i.egitimler.length) rz.push(`<span class="rozet">🎓 ${esc(i.egitimler.join(' / '))}</span>`);
+  else if(i.education_level) rz.push(`<span class="rozet">${esc(i.education_level)}</span>`);
   rz.push(`<span class="rozet">${esc(i.employment_type||'Diğer')}</span>`);
-  if(parseInt(i.quota)>0) rz.push(`<span class="rozet">${parseInt(i.quota)} kişi</span>`);
-  if(i.akademik) rz.push('<span class="rozet">Akademik</span>');
-  if(i.kontrol_gerekli) rz.push('<span class="rozet r-kontrol">⚠ Resmî kaynaktan kontrol et</span>');
-  if(String(i.link).includes('#')) rz.push('<span class="rozet r-kontrol" title="Bu kaynağın ilan adresi kalıcı değil">ℹ Açılan listede başlığı ara</span>');
-  const giris=(i.durum==='bilinmiyor')?`<div class="sehir">İlan metninde taban puan bulunamadı. Resmî ilana bak, biliyorsan yaz:</div><div class="puan-giris"><input type="number" step="0.01" min="40" max="100" placeholder="Taban puanı biliyorsan yaz" data-id="${esc(i.id)}"><button type="button" data-kaydet="${esc(i.id)}">Kaydet</button></div>`:'';
+  if(i.bas&&i.bas>new Date()) rz.push(`<span class="rozet r-mavi">📅 ${gunFmt(i.bas)} başlıyor</span>`);
   const f=favoriler.has(String(i.id));
-  return `<article class="ilan ${i.durum}${gorulen.has(String(i.id))?' gorulmus':''}" style="animation-delay:${Math.min(idx,12)*30}ms">
+  return `<article class="ilan ${i.durum}${gorulen.has(String(i.id))?' gorulmus':''}" data-id="${esc(i.id)}" tabindex="0" style="animation-delay:${Math.min(idx,12)*30}ms">
    <div class="kurum-satir"><div class="avatar" title="${esc(i.tur)}" style="background:${renkAvatar(i.institution||'?')}">${KURUM_IKON[i.tur]||esc(bas(i.institution))}</div>
      <div><div class="kurum-ad">${esc(i.institution)}</div><div class="sehir">${esc(i.city||'Şehir belirtilmemiş')} · ${esc(i.tur)}</div></div>
      <button class="fav ${f?'acik':''}" data-fav="${esc(i.id)}" title="Favori">${f?'★':'☆'}</button></div>
    <h3 class="baslik">${esc(i.title)}</h3>
-   <div class="rozetler">${rz.join('')}</div>${giris}
-   <div class="alt"><div>${son(i)}<br><span>${esc(i.kaynak)}</span></div><a class="incele" data-gor="${esc(i.id)}" target="_blank" rel="noopener" href="${esc(i.link)}"${String(i.link).includes('#')?` data-kopya="${esc(i.title)}"`:''}>İncele →</a></div></article>`;
+   <div class="rozetler">${rz.filter(Boolean).join('')}</div>
+   <div class="alt"><div>${son(i)}</div><span class="detay">Detay →</span></div></article>`;
 }
+
+/* ---------- ilan ayrıntı penceresi ---------- */
+function modalAc(id){
+  const i=tum.find(x=>String(x.id)===String(id)); if(!i) return;
+  id=String(i.id);
+  if(!gorulen.has(id)){gorulen.add(id);yaz('k_gorulen',JSON.stringify([...gorulen].slice(-800)));
+    document.querySelectorAll('article.ilan').forEach(x=>{if(x.dataset.id===id)x.classList.add('gorulmus')})}
+  const S=[];
+  const durumMetni=i.kalan!==null&&i.kalan<0?'Süresi doldu':(i.bas&&i.bas>new Date()?'Başvuru henüz başlamadı':'Başvuru açık');
+  S.push(['Durum',durumMetni]);
+  if(i.bas) S.push(['Başvuru başlangıcı',gunFmt(i.bas)]);
+  S.push(['Son başvuru',i.bitis?`${gunFmt(i.bitis)}${i.kalan>=0?` (${i.kalan===0?'bugün':i.kalan+' gün kaldı'})`:''}`:'Belirtilmemiş']);
+  S.push(['Kurum',esc(i.institution)]); S.push(['İl',esc(i.city||'Belirtilmemiş')]); S.push(['Kurum türü',esc(i.tur)]);
+  S.push(['Çalışma türü',esc(i.employment_type||'Diğer')]);
+  let kp;
+  if(Object.keys(i.puanlar).length) kp=Object.entries(i.puanlar).map(([t,v])=>`${esc(t)} ≥ ${virg(v)}`).join(' · ');
+  else if(i.minP>0) kp=`${esc(i.kpss_type||'KPSS')} · taban ${virg(i.minP)}${i.pk==='tahmin'?' (tahmin)':i.pk==='manuel'?' (senin yazdığın)':''}`;
+  else if(i.kpssVar===false) kp='İstenmiyor görünüyor';
+  else if(i.siralama) kp='KPSS puan sıralamasıyla alım (sabit taban puan yok)';
+  else kp='Okunamadı, ilandan bak';
+  S.push(['KPSS',kp]);
+  S.push(['Öğrenim düzeyi',i.egitimler.length?esc(i.egitimler.join(' / '))+(i.egitim_tahmin?' <small>(tahmin, ilandan kontrol et)</small>':''):esc(i.education_level||'Okunamadı')]);
+  if(parseInt(i.quota)>0) S.push(['Kadro sayısı',parseInt(i.quota)]);
+  if(i.yasMax) S.push(['Yaş sınırı',`${i.yasMax} <small>(ilandan kontrol et)</small>`]);
+  if(i.ehlZorunlu) S.push(['Sürücü belgesi','Gerekiyor görünüyor'+(i.ehlSinif?' ('+esc(i.ehlSinif)+' sınıfı)':'')]);
+  if(i.yds) S.push(['Yabancı dil','İlanda geçiyor, şartı kontrol et']);
+  if(i.deney) S.push(['Deneyim','İlanda geçiyor, şartı kontrol et']);
+  S.push(['Kaynak',esc(i.kaynak)+((i.diger_kaynaklar||[]).length?' <small>(ayrıca: '+esc(i.diger_kaynaklar.join(', '))+')</small>':'')]);
+  const d=durum();
+  let fit;
+  if(d.puan>0&&i.durum!=='notr'){
+    const m={yesil:['r-yesil','🟢 Puanın yetiyor',`Taban ${virg(i.minP)}, senin puanın ${virg(d.puan)}.`],
+      sari:['r-sari','🟡 Çok yakın',`${i.fark.toFixed(2).replace('.',',')} puan eksik (taban ${virg(i.minP)}).`],
+      kirmizi:['r-kirmizi','🔴 Puanın düşük',`${i.fark.toFixed(2).replace('.',',')} puan eksik (taban ${virg(i.minP)}).`],
+      bilinmiyor:['','⚪ Taban puan okunamadı','Resmî ilana bak; biliyorsan aşağıya yaz.']}[i.durum];
+    fit=`<div class="mfit ${m[0]}"><b>${m[1]}</b><br>${m[2]}</div>`;
+  } else fit='<div class="mfit"><b>Sana göre değerlendirme</b><br>Soldaki filtrelerden eğitim durumunu ve KPSS puanını girersen burada uygun olup olmadığını görürsün.</div>';
+  const giris=(i.durum==='bilinmiyor')?`<div class="puan-giris"><input type="number" step="0.01" min="40" max="100" placeholder="Taban puanı biliyorsan yaz" data-id="${esc(i.id)}"><button type="button" data-kaydet="${esc(i.id)}">Kaydet</button></div>`:'';
+  const f=favoriler.has(id), kopya=String(i.link).includes('#');
+  $('modalIc').innerHTML=`<button type="button" class="m-kapat" data-mkapat aria-label="Kapat">✕</button>
+   <h2 id="mBaslik">${esc(i.title)}</h2><div class="m-kurum">${esc(i.institution)}</div>
+   <div class="m-govde"><div class="m-tablo">${S.map(([a,b])=>`<div class="m-satir"><span>${a}</span><b>${b}</b></div>`).join('')}</div>
+   <div class="m-yan">${fit}${giris}
+     <a class="btn-ana" target="_blank" rel="noopener" href="${esc(i.link)}"${kopya?` data-kopya="${esc(i.title)}"`:''}>📄 Resmî ilanı aç</a>
+     <button type="button" class="btn-ikinci" data-fav="${esc(i.id)}">${f?'★ Favorilerden çıkar':'☆ Favoriye ekle'}</button>
+     <button type="button" class="btn-ikinci" data-linkkopya="${esc(i.link)}">🔗 Bağlantıyı kopyala</button>
+     <div class="m-not">Bilgiler ilan metninden otomatik okunur ve hatalı olabilir. Başvuru her zaman resmî ilandaki yöntemle yapılır.</div></div></div>`;
+  $('modal').hidden=false; document.body.classList.add('modal-acik'); modalId=id;
+  $('modalIc').scrollTop=0; const k=$('modalIc').querySelector('[data-mkapat]'); if(k) k.focus();
+}
+let modalId=null;
+function modalKapat(){$('modal').hidden=true;document.body.classList.remove('modal-acik');modalId=null}
 
 function listele(){
   const d=durum(), bugun=new Date(); bugun.setHours(0,0,0,0);
@@ -785,11 +852,13 @@ const listeTik=e=>{
     t.style.cssText='position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#0b2a4a;color:#fff;padding:12px 18px;border-radius:12px;z-index:99;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,.3);max-width:90vw';
     document.body.appendChild(t);setTimeout(()=>t.remove(),4500)}
   const f=e.target.closest('[data-fav]');
-  if(f){const id=f.dataset.fav;favoriler.has(id)?favoriler.delete(id):favoriler.add(id);yaz('k_fav',JSON.stringify([...favoriler]));listele();return}
+  if(f){const id=f.dataset.fav;favoriler.has(id)?favoriler.delete(id):favoriler.add(id);yaz('k_fav',JSON.stringify([...favoriler]));listele();if(modalId)modalAc(modalId);return}
   const k=e.target.closest('[data-kaydet]');
   if(k){const id=k.dataset.kaydet,g=e.currentTarget.querySelector(`input[data-id="${CSS.escape(id)}"]`),v=parseFloat(String(g.value).replace(',','.'));
     if(!(v>=40&&v<=100)){g.style.borderColor='var(--kirmizi)';return}
-    manuel[id]=v;yaz('k_manuel',JSON.stringify(manuel));tum.forEach(i=>{if(String(i.id)===id){i.minP=v;i.pk='manuel'}});listele()}
+    manuel[id]=v;yaz('k_manuel',JSON.stringify(manuel));tum.forEach(i=>{if(String(i.id)===id){i.minP=v;i.pk='manuel'}});listele();if(modalId)modalAc(modalId);return}
+  if(e.target.closest('a,button,input,[data-kopya]')) return;
+  const ar=e.target.closest('article.ilan[data-id]'); if(ar) modalAc(ar.dataset.id);
 };
 function gorIsaretle(e){
   const a=e.target.closest('a.incele[data-gor]'); if(!a) return;
@@ -809,6 +878,14 @@ $('yeniler').addEventListener('click',e=>{
 $('mnIller').addEventListener('click',()=>{iller=!iller;$('iller').classList.toggle('acik',iller);listele();if(iller)$('ilanlar').scrollIntoView()});
 $('mnFav').addEventListener('click',()=>{cip.has('fav')?cip.delete('fav'):cip.add('fav');yenidenCiz();$('ilanlar').scrollIntoView()});
 $('mnTakvim').addEventListener('click',ics);
+$('modal').addEventListener('click',e=>{
+  if(e.target.id==='modal'||e.target.closest('[data-mkapat]')){modalKapat();return}
+  const c=e.target.closest('[data-linkkopya]');
+  if(c){try{navigator.clipboard.writeText(c.dataset.linkkopya);c.textContent='✓ Kopyalandı'}catch(x){}return}
+  listeTik({target:e.target,currentTarget:$('modalIc')});
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('modal').hidden)modalKapat();
+  if(e.key==='Enter'&&e.target.matches&&e.target.matches('article.ilan')) modalAc(e.target.dataset.id)});
 $('mobilFiltre').addEventListener('click',()=>$('filtrePanel').classList.toggle('acik'));
 $('btnTema').addEventListener('click',()=>{const r=document.documentElement,k=matchMedia('(prefers-color-scheme:dark)').matches;
   const simdi=r.dataset.tema||(k?'koyu':'acik');const yeni=simdi==='koyu'?'acik':'koyu';r.dataset.tema=yeni;yaz('k_tema',yeni)});
