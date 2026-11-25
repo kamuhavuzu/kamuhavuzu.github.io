@@ -42,7 +42,7 @@ EK_KAYNAK_DOSYASI = os.path.join(KLASOR, "ek_kaynaklar.json")
 MANUEL_DOSYASI = os.path.join(KLASOR, "manuel_ilanlar.json")
 ESKI_GUN = 30            # son basvurusu bu kadar gun once gecenleri sil
 TARIHSIZ_GUN = 60        # son tarihi olmayanlari, ilk gorulmesinden bu kadar gun sonra sil
-ACIKLAMA_SINIR = 2500
+ACIKLAMA_SINIR = 6000
 DETAY_LIMIT = 80         # her kaynakta bir calismada en fazla bu kadar ilan sayfasi acilir
 UA = {"user-agent": "Mozilla/5.0 (compatible; KamuRadar/1.0; kisisel kullanim)"}
 
@@ -195,7 +195,8 @@ def ilan_gov_tr(session, mevcut, **_):
                 kpss_type=ic.parse_kpss_type(metin), min_kpss=ic.parse_min_kpss(metin),
                 deadline=iso(bit), application_start=iso(bas), puanlar=ic.parse_puan_tablosu(metin),
                 source_name="ilan.gov.tr", employment_type=ic.guess_employment(metin),
-                description=body[:ACIKLAMA_SINIR], akademik=akademik, logo=logo)
+                description=body[:ACIKLAMA_SINIR], akademik=akademik, logo=logo,
+                basvuru_adresleri=adresleri_bul(body))
             eklenen += 1
             print(f"+ {ad.get('advertiserName')} - {ad.get('title')}")
         time.sleep(ic.DELAY)
@@ -392,6 +393,74 @@ def puanlari_yenile(mevcut):
     return n
 
 
+URL_RE = re.compile(r"https?://[^\s)\]>\"'«»]+", re.I)
+
+
+def adresleri_bul(metin):
+    """Ilan metnindeki disari giden (ilan.gov.tr disi) web adreslerini, sirayla en fazla 5 tane dondurur."""
+    bulunan = []
+    for u in URL_RE.findall(metin or ""):
+        u = u.rstrip(".,;:")
+        if "ilan.gov.tr" in u.lower() or u in bulunan:
+            continue
+        bulunan.append(u)
+    return bulunan[:5]
+
+
+def _kurum_anahtar(s):
+    t = ic.norm(s or "")
+    for w in ("REKTORLUGU", "BASKANLIGI", "MUDURLUGU", "GENEL", "T.C.", "TC"):
+        t = t.replace(w, " ")
+    return " ".join(t.split())
+
+
+def _kelimeler(s):
+    return {w for w in re.findall(r"[A-Z0-9]{3,}", ic.norm(s or "")) if w not in {"ILANI", "ILAN", "ALIM", "ALIMI", "PERSONEL"}}
+
+
+def basvuru_coz(mevcut):
+    """Her ilan icin dogrudan basvuru adresini bulur: ilan metnindeki ozel adres > Kariyer Kapisi'ndaki eslesen ilan > genel Kariyer Kapisi adresi."""
+    kk = [r for r in mevcut.values() if r.get("source_name") == "Kariyer Kapısı"]
+    n = 0
+    for r in mevcut.values():
+        if r.get("source_name") == "Kariyer Kapısı" or r.get("basvuru_link"):
+            continue
+        adresler = list(r.get("basvuru_adresleri") or []) or adresleri_bul(r.get("description", ""))
+        metin = ic.norm(r.get("description", ""))
+        ozel = [u for u in adresler if "kariyerkapisi.gov.tr" in u.lower() and len(u.split("kariyerkapisi.gov.tr", 1)[1].strip("/")) > 8]
+        genel_kk = [u for u in adresler if "kariyerkapisi.gov.tr" in u.lower()] or (["https://kariyerkapisi.gov.tr/isealim"] if "KARIYER KAPISI" in metin else [])
+        link, tur = "", ""
+        if ozel:
+            link, tur = ozel[0], "ozel"
+        elif genel_kk:
+            # Kariyer Kapisi'ndaki ayni ilani bulmaya calis (kurum + baslik benzerligi + tarih yakinligi)
+            ka = _kurum_anahtar(r.get("institution"))
+            kelime = _kelimeler(r.get("title"))
+            adaylar = []
+            for k in kk:
+                kka = _kurum_anahtar(k.get("institution"))
+                if not ka or not kka or not (ka in kka or kka in ka):
+                    continue
+                kk_kel = _kelimeler(k.get("title"))
+                if kelime and kk_kel and len(kelime & kk_kel) / max(1, min(len(kelime), len(kk_kel))) < 0.5:
+                    continue
+                adaylar.append(k)
+            bas = (r.get("application_start") or "")[:10]
+            if bas and len(adaylar) > 1:
+                yakin = [k for k in adaylar if abs((date.fromisoformat((k.get("application_start") or bas)[:10]) - date.fromisoformat(bas)).days) <= 4]
+                adaylar = yakin or adaylar
+            if len(adaylar) == 1:
+                link, tur = adaylar[0]["link"], "ozel"
+            else:
+                link, tur = genel_kk[0], "genel"
+        elif adresler:
+            link, tur = adresler[0], "diger"
+        if link:
+            r["basvuru_link"], r["basvuru_tur"] = link, tur
+            n += 1
+    return n
+
+
 def tekillestir(ilanlar):
     """Ayni kurumun ayni basligi iki kaynaktan geldiyse tek kayit birakir (dogrudan linki olani ve ilk gorulenini)."""
     import re as _re
@@ -462,6 +531,7 @@ def main():
         del mevcut[l]
     print(f"Manuel ilan: {manuel_ilanlar(mevcut)}")
     print(f"Puani/tarihi yeni bulunan: {puanlari_yenile(mevcut)}")
+    print(f"Basvuru adresi bulunan: {basvuru_coz(mevcut)}")
 
     bugun = date.today()
     for link, r in list(mevcut.items()):
