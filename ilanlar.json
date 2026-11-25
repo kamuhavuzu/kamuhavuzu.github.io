@@ -1,50 +1,44 @@
 {
- "guncelleme": "2026-11-25T21:09:51+00:00",
- "son_kontrol": "2026-11-25T21:16:12+00:00",
+ "guncelleme": "2026-11-25T21:34:01+00:00",
+ "son_kontrol": "2026-11-25T21:34:01+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-25T21:15:55+00:00",
+   "son_basari": "2026-11-25T21:33:49+00:00",
    "sayi": 173
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:15:57+00:00",
+   "son_basari": "2026-11-25T21:33:51+00:00",
    "sayi": 35
-  },
-  "Kamu İlan (SBB)": {
-   "durum": "eski",
-   "mesaj": "HTTPError: 403 Client Error: Forbidden for url: https://kamuilan.sbb.gov.tr/",
-   "son_basari": "2026-11-23T07:45:53+00:00",
-   "sayi": 94
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:16:00+00:00",
+   "son_basari": "2026-11-25T21:33:52+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "İŞKUR Kamu İşçi Alımı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:16:02+00:00",
+   "son_basari": "2026-11-25T21:33:55+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "TÜBİTAK İlanları": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:16:03+00:00",
+   "son_basari": "2026-11-25T21:33:56+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T21:16:12+00:00",
+   "son_basari": "2026-11-25T21:34:00+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 42
   }
@@ -137,30 +131,6 @@
    "puanlar": {}
   },
   {
-   "id": 13355174,
-   "institution": "KAMU DENETÇİLİĞİ KURUMU",
-   "title": "KAMU DENETÇİLİĞİ KURUMU 10 KAMU DENETÇİLİĞİ UZMAN YARDIMCISI ALACAK 9 Kasım - 22 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-22",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#50dcfaad13",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "KAMU DENETÇİLİĞİ KURUMU 10 KAMU DENETÇİLİĞİ UZMAN YARDIMCISI ALACAK 9 Kasım - 22 Kasım",
-   "checked_at": "2026-11-19T09:20:31+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=r1eE89OnyiAb5YcxuVhgAXKbPYxnAqvSzGk%2b2lc49%2b%2fm5nWhEO9yVEdabLgVViuZacqrXMTCstm2ol2RxVtrehjIiWqgHKt0%2bM35UJ2zNDml1iGr8%2bqDLKf1QFJO5P1H",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 27540520,
    "institution": "ERZURUM TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "İptal İlanı (Erzurum Teknik Üniversitesi Rektörlüğü)",
@@ -203,7 +173,7 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://www.sabanciuniv.edu/tr/akademik-pozisyon-ilanlari",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ozel"
   },
   {
    "id": 55212222,
@@ -234,8 +204,7 @@
     "https://ilahiyat.bayburt.edu.tr/tr",
     "https://insantoplumbilimleri.bayburt.edu.tr/tr"
    ],
-   "basvuru_link": "https://ilahiyat.bayburt.edu.tr/tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2427fbe682aa4aabe36.png"
   },
   {
    "id": 59561859,
@@ -258,33 +227,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
-  },
-  {
-   "id": 87665881,
-   "institution": "Kamu İlan (SBB)",
-   "title": "ORTA ANADOLU KALKINMA AJANSI6 UZMAN, 1 DESTEK PERSONELİ ALACAK 9 Kasım - 3 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-03",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#ef082d231a",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ORTA ANADOLU KALKINMA AJANSI6 UZMAN, 1 DESTEK PERSONELİ ALACAK 9 Kasım - 3 Aralık",
-   "checked_at": "2026-11-19T09:20:42+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=nA5ZFeQRrmCLRs9wywySNYkjIGbF0jcbre7RdFtQrVV2%2fE%2bJ7NmQrsKc2RH7u0bNkOBbsTuz4Vtw%2bNST6T38y5rIaq%2fjJRX57cszTqRd9cYSyhSEn2OHx4O4v3oqTK8F",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
   },
   {
    "id": 100894450,
@@ -357,30 +299,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false
-  },
-  {
-   "id": 133496578,
-   "institution": "AKDENİZ ÜNİVERSİTESİ",
-   "title": "AKDENİZ ÜNİVERSİTESİ 3 SüREKLİ İŞÇİ ALACAK 16 Kasım - 20 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#6b5e8d5690",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "İşçi",
-   "description": "AKDENİZ ÜNİVERSİTESİ 3 SüREKLİ İŞÇİ ALACAK 16 Kasım - 20 Kasım",
-   "checked_at": "2026-11-19T09:20:23+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=EVoECUcJEXwLvXqG5K2Mh6hCV5QBqcTR8hoDHpdlyhGlb5qOAVYJRpMQqecNO82CSnOdQ%2bp0H%2bfrH%2bKrIijgMsemqF19MRGg88uiqf7RGc5rjsTXRMRL7%2fGkJ1LjbwWx",
-   "belge_deneme": 2,
-   "puanlar": {}
   },
   {
    "id": 133863775,
@@ -460,8 +378,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2477fbe682aa4aabf0c.png",
    "basvuru_link": "https://www.agu.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 163317332,
@@ -488,33 +407,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa22c7fbe682aa4aab8d6.png",
    "basvuru_link": "https://www.ankara.bel.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 170599129,
-   "institution": "ADLİ TIP KURUMU",
-   "title": "ADLİ TIP KURUMU BAŞKANLIĞI 181 SÖZLEŞMELİ PERSONEL ALACAK ( 30 Kasım - 6 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 181,
-   "deadline": "2026-12-06",
-   "application_start": "2026-11-30",
-   "link": "https://kamuilan.sbb.gov.tr/#447d43c4a9",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "ADLİ TIP KURUMU BAŞKANLIĞI 181 SÖZLEŞMELİ PERSONEL ALACAK ( 30 Kasım - 6 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
+   "basvuru_tur": "ana"
   },
   {
    "id": 195206248,
@@ -538,31 +433,8 @@
    "puanlar": {},
    "basvuru_adresleri": [],
    "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=6a34cb10-0ac0-41e0-a094-3ec83e29a644",
-   "basvuru_tur": "ozel"
-  },
-  {
-   "id": 196637990,
-   "institution": "DOĞU KARADENİZ KALKINMA AJANSI",
-   "title": "DOĞU KARADENİZ KALKINMA AJANSI 1 UZMAN ALACAK 23 Kasım - 6 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-06",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#78fcbe2ae4",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "DOĞU KARADENİZ KALKINMA AJANSI 1 UZMAN ALACAK 23 Kasım - 6 Aralık",
-   "checked_at": "2026-11-19T09:20:39+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=L259ojzR4NRqzyyuoePCpVX4cjjIMQrtwO2Kg3gtaEayb8SBgLPQyh35kRYQMjW0WU6%2fBIhOTQyKqsPXlsuob2rKjV%2f3dLG1mM%2fosjuAgoj8omTjZUono3VI2PqTxW0x",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ozel",
+   "logo": "AdvertiserLogo\\5f5aa22b7fbe682aa4aab82e.png"
   },
   {
    "id": 200732221,
@@ -619,8 +491,9 @@
    "basvuru_adresleri": [
     "https://asarcik.bel.tr"
    ],
-   "basvuru_link": "https://asarcik.bel.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\6493005146bcc25eb012f7be.png",
+   "basvuru_link": "mailto:ik@asarcik.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 202198100,
@@ -663,87 +536,16 @@
    "checked_at": "2026-11-19T09:19:54+00:00",
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr/isealim"
    ],
    "egitimler": [
     "Lisans"
    ],
-   "egitim_tahmin": false
-  },
-  {
-   "id": 208878690,
-   "institution": "ŞIRNAK ÜNİVERSİTESİ",
-   "title": "ŞIRNAK ÜNİVERSİTESİ 1 ÖĞRETİM ÜYESİ ALACAK ( 11 Kasım - 25 Kasım)",
-   "city": "Şırnak",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-25",
-   "application_start": "2026-11-11",
-   "link": "https://kamuilan.sbb.gov.tr/#87381f1e02",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ŞIRNAK ÜNİVERSİTESİ 1 ÖĞRETİM ÜYESİ ALACAK ( 11 Kasım - 25 Kasım)",
-   "checked_at": "2026-11-19T09:21:09+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=vI8TDaESDvqrO7OneV7SklvJIJVNd1O01JZy9h0s278xpz%2f29XcmXD91j7Ek8Piadya%2f3zDU8PgrKTN2hKdC46PhqLsU4rcIWW%2b5bz%2bG45A7G%2f7yFgW6s%2bBIMhZKa9a4",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 213205152,
-   "institution": "DOKUZ EYLÜL ÜNİVERSİTESİ",
-   "title": "DOKUZ EYLÜL ÜNİVERSİTESİ 68 SÖZLEŞMELİ PERSONEL ALACAK 3 Kasım - 19 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 68,
-   "deadline": "2026-11-19",
-   "application_start": "2026-11-03",
-   "link": "https://kamuilan.sbb.gov.tr/#22016669d4",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "DOKUZ EYLÜL ÜNİVERSİTESİ 68 SÖZLEŞMELİ PERSONEL ALACAK 3 Kasım - 19 Kasım",
-   "checked_at": "2026-11-19T09:20:37+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=ht4Nt%2brP1ug9Q3cVxOoefgpve%2fXF4%2fMsYxvoWx6%2fev6VEMR60quBvalgWmHMe7MtJ4FOoT%2fvj5tJ%2bMdaeB%2fJp4kvYWGW4l5DSUrx8VNP4kOD9BiDqZegdPGsMdatBH0B",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 248614328,
-   "institution": "BOĞAZİÇİ ÜNİVERSİTESİ",
-   "title": "BOĞAZİÇİ ÜNİVERSİTESİ 3 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 20 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#4e4d32bc35",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "BOĞAZİÇİ ÜNİVERSİTESİ 3 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 20 Kasım)",
-   "checked_at": "2026-11-19T09:21:27+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=yvmFt1GDSIUb4Jk0zvgagLKdFllKVud%2fkYS%2fbB0lj%2f8h38hnfP5kP2hknkkRai8pjxEv7G90KN05cjhnHcLSOX8xpmqWIW%2b67vSEE4bSGOpvlrUVdsZcVFYe3hLPGUZR",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f5aa2437fbe682aa4aabe58.png",
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 263891273,
@@ -812,28 +614,6 @@
    "puanlar": {}
   },
   {
-   "id": 293922587,
-   "institution": "AKSEKİ BELEDİYE BAŞKANLIĞI",
-   "title": "AKSEKİ BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 21 Aralık - 25 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-25",
-   "application_start": "2026-12-21",
-   "link": "https://kamuilan.sbb.gov.tr/#452acc0cc1",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "AKSEKİ BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 21 Aralık - 25 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 301363562,
    "institution": "GÜMÜŞHANE ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Gümüşhane Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
@@ -858,54 +638,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false
-  },
-  {
-   "id": 304455022,
-   "institution": "ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ",
-   "title": "ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ 9 ÖĞRETİM ÜYESİ ALACAK ( 9 Kasım - 23 Kasım)",
-   "city": "Ankara",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#e74534a3e4",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ 9 ÖĞRETİM ÜYESİ ALACAK ( 9 Kasım - 23 Kasım)",
-   "checked_at": "2026-11-19T09:21:13+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=vb9wn5efKbtOqIhEd%2fXTp7RK43yUQLQtBvrdq4ex69F4Akwp0YIyWKw4jKn0z9BBo7cPGANlkJMvgNoMyPCPfvWjpda0wqgApZ34WJtGo9%2fUM%2bkGnWna%2fF9bUm5GxMzC",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 319285149,
-   "institution": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ",
-   "title": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ 6 ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "city": "Kahramanmaraş",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#980b75d2ad",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ 6 ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "checked_at": "2026-11-19T09:21:16+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=KZrkd6xq7OZuH8mo2FQrTOMcrg7GplzfC1udScRNp1tDR%2bCWXq2PNFkq24gJKLRCNjIfxI8cNwa7ry8gb7log6wjv89OUaMhjg5JzhwczWWQCN4PqW%2bSfcN7ycW7%2bdOS",
-   "belge_deneme": 2,
-   "puanlar": {}
   },
   {
    "id": 320636633,
@@ -935,35 +667,9 @@
    "basvuru_adresleri": [
     "https://insankaynaklari.nisantasi.edu.tr/akademisyen-ilanlari"
    ],
+   "logo": "AdvertiserLogo\\6a913d9846bcc269349f6053.jpg",
    "basvuru_link": "https://insankaynaklari.nisantasi.edu.tr/akademisyen-ilanlari",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 338492290,
-   "institution": "ANADOLU ÜNİVERSİTESİ",
-   "title": "ANADOLU ÜNİVERSİTESİ 1 SÖZLEŞMELİ PERSONEL ALACAK 16 Kasım - 30 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#756d048de7",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "ANADOLU ÜNİVERSİTESİ 1 SÖZLEŞMELİ PERSONEL ALACAK 16 Kasım - 30 Kasım",
-   "checked_at": "2026-11-19T09:20:23+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=VQJAzHJrruhobGLVZZyA0XT6KotBlRwPLhBcCT0iL88Nxa1WuGdvzMcyEpKbKT6D2QMsnig4wD%2bH6dAFFw0aIdD0LhwwSk9rh4yD%2b1lmeZ6li4nV3vR3CjCdlBXQQjmv",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
+   "basvuru_tur": "ozel"
   },
   {
    "id": 348489409,
@@ -994,56 +700,7 @@
    "basvuru_adresleri": [
     "http://personel.icisleri.gov.tr"
    ],
-   "basvuru_link": "http://personel.icisleri.gov.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 355975383,
-   "institution": "MARMARA ÜNİVERSİTESİ",
-   "title": "MARMARA ÜNİVERSİTESİ 10 SÖZLEŞMELİ PERSONEL ALACAK 6 Kasım - 20 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 10,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#b61c6f558b",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "MARMARA ÜNİVERSİTESİ 10 SÖZLEŞMELİ PERSONEL ALACAK 6 Kasım - 20 Kasım",
-   "checked_at": "2026-11-19T09:20:35+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=Vb7nWQUTq3MsH%2fM3qoZzHVIY7FZCQ4Wdz3HBazhT7e9ExxYNaMFev8TppYf1VAiE3tW3arEh6eK5PUnlx%2b1%2fZ7bkC4%2bDUxkuu9g5knYL3NhIsFNzmK611BYRVNhnRKNo",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 357048693,
-   "institution": "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ",
-   "title": "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ 60 ÖĞRETİM ÜYESİ ALACAK ( 18 Kasım - 2 Aralık)",
-   "city": "Burdur",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-02",
-   "application_start": "2026-11-18",
-   "link": "https://kamuilan.sbb.gov.tr/#f3cae64f67",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ 60 ÖĞRETİM ÜYESİ ALACAK ( 18 Kasım - 2 Aralık)",
-   "checked_at": "2026-11-19T09:20:48+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=YND3%2f2z0LQ13nmsRMGlA9rzYiH2d1J4yNIILHfU62UWgW6artpQsxC0Dmk1XyNt8VNNWyfg%2fzTPmMf6p2kN07WGUFRCsFQLNBwwuvMld09fDOZ1xR%2ffluRWhkyPe6oVZ",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "logo": "AdvertiserLogo\\5f5aa22f7fbe682aa4aaba91.png"
   },
   {
    "id": 364388630,
@@ -1069,8 +726,8 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "http://www.samsun.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_link": "https://www.samsun.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 415025480,
@@ -1127,8 +784,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa22d7fbe682aa4aab9d7.jpg",
    "basvuru_link": "https://www.gaziosmanpasa.bel.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 429709462,
@@ -1177,8 +835,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2777fbe682aa4aacaf2.jpg",
    "basvuru_link": "https://www.galata.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 448671663,
@@ -1201,33 +860,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
-  },
-  {
-   "id": 454355384,
-   "institution": "SAYIŞTAY BAŞKANLIĞI",
-   "title": "SAYIŞTAY BAŞKANLIĞI 16 SÖZLEŞMELİ PERSONEL ALACAK 11 Kasım - 25 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 16,
-   "deadline": "2026-11-25",
-   "application_start": "2026-11-11",
-   "link": "https://kamuilan.sbb.gov.tr/#75fa39b33f",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "SAYIŞTAY BAŞKANLIĞI 16 SÖZLEŞMELİ PERSONEL ALACAK 11 Kasım - 25 Kasım",
-   "checked_at": "2026-11-19T09:20:30+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=PzcoBECsrpIOtcZL2%2bPFVmHtPMkVOyF6yTeq7aSIbgY6Cz2UpTVOIfnspoDCYnnJJUYLwpQYRYZN1Lc%2fhhK3udcP9DMVLi8GSttfWgXakp1XhOvmgumY%2bFiDtDsH2YNp",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
   },
   {
    "id": 507337115,
@@ -1258,8 +890,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f5aa2667fbe682aa4aac4f0.png",
    "basvuru_link": "https://cdn.comu.edu.tr/cms/personel/files/1487-01072025-akademik-kadro-atama-kriterleri.pdf",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ozel"
   },
   {
    "id": 508468475,
@@ -1281,78 +914,8 @@
    "checked_at": "2026-11-19T09:19:20+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_link": "http://personel.aksaray.edu.tr/tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 540374237,
-   "institution": "HAZİNE VE MALİYE BAKANLIĞI",
-   "title": "HAZİNE VE MALİYE BAKANLIĞI 10 STAJYER HAZİNE KONTROLÖRÜ ALACAK 23 Kasım - 4 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-04",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#1e34dbde8a",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "HAZİNE VE MALİYE BAKANLIĞI 10 STAJYER HAZİNE KONTROLÖRÜ ALACAK 23 Kasım - 4 Aralık",
-   "checked_at": "2026-11-19T09:20:25+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=WmFrWTTw5KV%2f79DcMH4Co26fOE8LYutpBU9%2fWp5QyTH5pIfXa6EkhTX7aaeYsn9z%2beZJdaAYt0nym5z9by1wbTL7xPehbVKnxhG4DV33jr%2fv8%2b%2b8jt3b4wsC3cvRnjiW",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 543015702,
-   "institution": "SAMSUN ÜNİVERSİTESİ",
-   "title": "SAMSUN ÜNİVERSİTESİ 4 ÖĞRETİM ÜYESİ ALACAK ( 5 Kasım - 19 Kasım)",
-   "city": "Samsun",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-19",
-   "application_start": "2026-11-05",
-   "link": "https://kamuilan.sbb.gov.tr/#0b4b5dea92",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "SAMSUN ÜNİVERSİTESİ 4 ÖĞRETİM ÜYESİ ALACAK ( 5 Kasım - 19 Kasım)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "puanlar": {}
-  },
-  {
-   "id": 547354674,
-   "institution": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI",
-   "title": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI 13 AFET VE ACİL DURUM YÖNETİMİ UZMAN YARDIMCISI ALACAK 23 Kasım - 30 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#467d2b449b",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI 13 AFET VE ACİL DURUM YÖNETİMİ UZMAN YARDIMCISI ALACAK 23 Kasım - 30 Kasım",
-   "checked_at": "2026-11-19T09:20:22+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=JcWNC017dJD4xEDfWx0KZp1i2HHyXWrhcLNpwk9h34wNv7Ahe%2bdkNpNx36d7nZzSwuVyZjm00n4hEH0wSUetJx5XN4SlO5xr2XSyPSJjXnJ7dYgICpRiZ1x0VQ%2byLW0F",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_link": "https://personel.aksaray.edu.tr/tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 553435538,
@@ -1378,30 +941,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false
-  },
-  {
-   "id": 595424095,
-   "institution": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ",
-   "title": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ 7 ÖĞRETİM ELEMANI ALACAK ( 6 Kasım - 21 Kasım)",
-   "city": "Ankara",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-21",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#a025b3c292",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ 7 ÖĞRETİM ELEMANI ALACAK ( 6 Kasım - 21 Kasım)",
-   "checked_at": "2026-11-19T09:21:24+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=S4HOyPkEItG%2bkc1scT2bHS4q8rfmgbylyuWy8XKdnXTLd12GpfHJgTMdiYRdKWXPKMW30XKsMNnO6hagVGa0QixfqeXfB7zmY3PEdRI4d%2fYpKLprkselgLkepHzHa3lJ",
-   "belge_deneme": 2,
-   "puanlar": {}
   },
   {
    "id": 625682332,
@@ -1433,33 +972,9 @@
     "https://www.eleskirt.bel.tr/",
     "https://www.eleskirt.bel.tr"
    ],
+   "logo": "AdvertiserLogo\\5f5aa2717fbe682aa4aac8ed.png",
    "basvuru_link": "https://www.eleskirt.bel.tr/",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 628785846,
-   "institution": "ONDOKUZ MAYIS ÜNİVERSİTESİ",
-   "title": "ONDOKUZ MAYIS ÜNİVERSİTESİ 21 SüREKLİ İŞÇİ ALACAK 23 Kasım - 27 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#afe543088c",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "İşçi",
-   "description": "ONDOKUZ MAYIS ÜNİVERSİTESİ 21 SüREKLİ İŞÇİ ALACAK 23 Kasım - 27 Kasım",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
+   "basvuru_tur": "ana"
   },
   {
    "id": 630132503,
@@ -1481,7 +996,8 @@
    "checked_at": "2026-11-19T09:17:16+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\6050879046bcc211942e1702.jpg"
   },
   {
    "id": 671748609,
@@ -1548,7 +1064,7 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://bogazici.edu.tr/tr/announcements",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ozel"
   },
   {
    "id": 690046593,
@@ -1577,8 +1093,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "basvuru_link": "https://www.tanoba.bel.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\605347a846bcc237bc4f9324.png",
+   "basvuru_link": "mailto:bilgi@tanoba.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 714594601,
@@ -1605,7 +1122,8 @@
     "Ön Lisans",
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\6055aa5246bcc2296c5249cd.png"
   },
   {
    "id": 716165670,
@@ -1653,8 +1171,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f5aa26e7fbe682aa4aac7b6.png",
    "basvuru_link": "https://www.beykoz.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 736705048,
@@ -1683,8 +1202,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f5aa23c7fbe682aa4aabdf9.png",
    "basvuru_link": "https://basvuru.bilecik.edu.tr/",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 757042350,
@@ -1709,55 +1229,7 @@
    "egitimler": [
     "Lisans"
    ],
-   "egitim_tahmin": false,
-   "basvuru_link": "http://yuksekihtisasuniversitesi.edu.tr/tr/",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 770318663,
-   "institution": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ",
-   "title": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ 6 ARAŞTIRMA GÖREVLİSİ ALACAK ( 19 Kasım - 3 Aralık)",
-   "city": "Bilecik",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-03",
-   "application_start": "2026-11-19",
-   "link": "https://kamuilan.sbb.gov.tr/#19b62ab774",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ 6 ARAŞTIRMA GÖREVLİSİ ALACAK ( 19 Kasım - 3 Aralık)",
-   "checked_at": "2026-11-19T09:20:45+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=wmWQDPCkXgeVSsLnNtB9mFclpyc%2b9LZSvk22o8qogvzVDY%2bzIQAuql8v2fY2tug6JCXtCyQcRZCG%2fR2JJXJXt%2fHSh3FRfP7X%2fwzuy1%2b055gaViMCQqtLrJ2UopLiqWmd",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 775151055,
-   "institution": "ASARCIK BELEDİYE BAŞKANLIĞI",
-   "title": "ASARCIK BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 1 Aralık - 3 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-03",
-   "application_start": "2026-12-01",
-   "link": "https://kamuilan.sbb.gov.tr/#08e089d6f0",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "ASARCIK BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 1 Aralık - 3 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
+   "egitim_tahmin": false
   },
   {
    "id": 782321293,
@@ -1787,33 +1259,9 @@
     "https://basvuru.marmara.edu.tr/personel",
     "https://ydil.marmara.edu.tr"
    ],
+   "logo": "AdvertiserLogo\\5f5aa22b7fbe682aa4aab84d.png",
    "basvuru_link": "https://basvuru.marmara.edu.tr/personel",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 791739663,
-   "institution": "TÜRK AKREDİTASYON KURUMU",
-   "title": "TÜRK AKREDİTASYON KURUMU 3 SÖZLEŞMELİ KORUMA VE GÜVENLİK PERSONELİ ALACAK 23 Kasım - 7 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 3,
-   "deadline": "2026-12-07",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#3de2756559",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "TÜRK AKREDİTASYON KURUMU 3 SÖZLEŞMELİ KORUMA VE GÜVENLİK PERSONELİ ALACAK 23 Kasım - 7 Aralık",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
+   "basvuru_tur": "ozel"
   },
   {
    "id": 802968413,
@@ -1842,8 +1290,9 @@
    "basvuru_adresleri": [
     "https://basvuru.marmara.edu.tr/personel"
    ],
+   "logo": "AdvertiserLogo\\5f5aa22b7fbe682aa4aab84d.png",
    "basvuru_link": "https://basvuru.marmara.edu.tr/personel",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ozel"
   },
   {
    "id": 807563525,
@@ -1870,32 +1319,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2487fbe682aa4aabf68.png",
    "basvuru_link": "https://www.seddk.gov.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 815986259,
-   "institution": "AKSARAY ÜNİVERSİTESİ",
-   "title": "AKSARAY ÜNİVERSİTESİ 20 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 21 Kasım)",
-   "city": "Aksaray",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-21",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#d97631a77d",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "AKSARAY ÜNİVERSİTESİ 20 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 21 Kasım)",
-   "checked_at": "2026-11-19T09:21:21+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=zoye1geg%2buxDAUIV8HkW%2bwcb0oV3%2bs0HGqqPIgq0EDPGIyokUnvp5IiwmEmE8fx6HupcaF2o3XbNeAFuJ%2fyL8y0zuTDr1S1zUbiMaL996R%2fkvW7lVTgVj7C0ZUKHAxAO",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 819802814,
@@ -1941,28 +1367,6 @@
    "puanlar": {}
   },
   {
-   "id": 832821558,
-   "institution": "BOZTEPE BELEDİYE BAŞKANLIĞI",
-   "title": "BOZTEPE BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK (MADEN MÜHENDİSİ ) ( 30 Kasım - 2 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-02",
-   "application_start": "2026-11-30",
-   "link": "https://kamuilan.sbb.gov.tr/#1d2e91a9eb",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "BOZTEPE BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK (MADEN MÜHENDİSİ ) ( 30 Kasım - 2 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 858654234,
    "institution": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Gaziantep İslam Bilim ve Teknoloji Üniversitesi Öğretim Üyesi Alım İlanı",
@@ -1991,32 +1395,9 @@
     "https://ubys.gibtu.edu.tr/HRM/AkademikBasvuru/PersonelBasvuru/Giris?sistemgiristip=1",
     "https://www.gibtu.edu.tr/Medya/Birim/Dosya/20260407152754_76c59ec9.pdf"
    ],
+   "logo": "AdvertiserLogo\\68a33b3a46bcc2460cb3bae2.jpg",
    "basvuru_link": "https://www.gibtu.edu.tr/Medya/Birim/Dosya/20261109114643_c75dff4c.xlsx",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 865293204,
-   "institution": "ERZURUM TEKNİK ÜNİVERSİTESİ",
-   "title": "ERZURUM TEKNİK ÜNİVERSİTESİ 7 ÖĞRETİM ELEMANI ALACAK ( 16 Kasım - 30 Kasım)",
-   "city": "Erzurum",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#4c05f1aed4",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ERZURUM TEKNİK ÜNİVERSİTESİ 7 ÖĞRETİM ELEMANI ALACAK ( 16 Kasım - 30 Kasım)",
-   "checked_at": "2026-11-19T09:20:54+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=0bMim1U7vVWE%2fByIZo1efp1YqLe9y3P4eehpwk9xSCSMHSvcZxYY46zqlAll%2fP6WEbybRonSd0EpGCdg42guU0hHCpU506xakWH0OOfUf1p4pc8WcXVUJObxPZ%2fPci1u",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ozel"
   },
   {
    "id": 870737396,
@@ -2042,56 +1423,6 @@
    "basvuru_tur": "ozel"
   },
   {
-   "id": 872788676,
-   "institution": "Kamu İlan (SBB)",
-   "title": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİÖĞRETİM ÜYESİ ALIMI DÜZELTME & İPTAL İLANI ( 14 Kasım - 23 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-14",
-   "link": "https://kamuilan.sbb.gov.tr/#e9eb3ea43c",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİÖĞRETİM ÜYESİ ALIMI DÜZELTME & İPTAL İLANI ( 14 Kasım - 23 Kasım)",
-   "checked_at": "2026-11-19T09:21:00+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=aKT6TdB04N8LBW5vfEVYB8s%2b2JjhrjseFeytWp1dY5jOOPZqbdlnjPU2Akf49ww%2fnZAgRjtxo2Aq3gYrBDfYADsg1hHk9ekJTjKP5BmTVjjEa3cZtJpfyhZzMhWfJThW",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "iptal": true
-  },
-  {
-   "id": 888852222,
-   "institution": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ",
-   "title": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ 1 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK ( 23 Kasım - 7 Aralık)",
-   "city": "Ankara",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-07",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#654781633d",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ 1 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK ( 23 Kasım - 7 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
-  },
-  {
    "id": 901744767,
    "institution": "25 Şubat 2022 Aile ve Sosyal Hizmetler Bakanlığı",
    "title": "25 Şubat 2022 Aile ve Sosyal Hizmetler Bakanlığı Sözleşmeli Personel Sözlü Sınav Duyurusu Aile ve Sosyal Hizmetler Bakanlığı Sözleşmeli Personel Sözlü Sınav Duyurusu",
@@ -2111,30 +1442,6 @@
    "checked_at": "2026-11-25T20:31:32+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 904728919,
-   "institution": "BOZKÖY BELEDİYE BAŞKANLIĞI",
-   "title": "BOZKÖY BELEDİYE BAŞKANLIĞI 1 İTFAİYE ERİ ALACAK ( 21 Aralık - 23 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-23",
-   "application_start": "2026-12-21",
-   "link": "https://kamuilan.sbb.gov.tr/#c33824cd24",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "BOZKÖY BELEDİYE BAŞKANLIĞI 1 İTFAİYE ERİ ALACAK ( 21 Aralık - 23 Aralık)",
-   "checked_at": "2026-11-19T09:21:25+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=NCRqCa0JW5lv26ufntfHJ5F126MG1BVdiAAGS4vUnHd%2bItphV8qsEHEx1ay3ndGNAjeBdNTKUh6VAGO7kwk0v6v6ONUgp2Wjy9bTSicWq2dj5q9DgloME6nqxrOv9tPK",
-   "belge_deneme": 2,
    "puanlar": {}
   },
   {
@@ -2169,30 +1476,7 @@
     "https://saglikhizmetleri.bayburt.edu.tr/tr",
     "https://demirozu.bayburt.edu.tr/tr"
    ],
-   "basvuru_link": "https://www.turkiye.gov.tr/",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 907490665,
-   "institution": "ELEŞKİRT BELEDİYE BAŞKANLIĞI",
-   "title": "ELEŞKİRT BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 9 Aralık - 11 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-11",
-   "application_start": "2026-12-09",
-   "link": "https://kamuilan.sbb.gov.tr/#e3f2c85f55",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "ELEŞKİRT BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 9 Aralık - 11 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
+   "logo": "AdvertiserLogo\\5f5aa2427fbe682aa4aabe36.png"
   },
   {
    "id": 933252446,
@@ -2214,7 +1498,10 @@
    "checked_at": "2026-11-23T07:31:01+00:00",
    "puanlar": {},
    "akademik": true,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa24b7fbe682aa4aabfa2.png",
+   "basvuru_link": "mailto:ik@ozyegin.edu.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 935447689,
@@ -2239,31 +1526,6 @@
    "puanlar": {}
   },
   {
-   "id": 935897442,
-   "institution": "İÇİŞLERİ BAKANLIĞI",
-   "title": "İÇİŞLERİ BAKANLIĞI 1170 SÖZLEŞMELİ PERSONEL ALACAK 7 Aralık - 11 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1170,
-   "deadline": "2026-12-11",
-   "application_start": "2026-12-07",
-   "link": "https://kamuilan.sbb.gov.tr/#f81dc1b56d",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "İÇİŞLERİ BAKANLIĞI 1170 SÖZLEŞMELİ PERSONEL ALACAK 7 Aralık - 11 Aralık",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
-  },
-  {
    "id": 938306272,
    "institution": "KOCAELİ BÜYÜKŞEHİR BELEDİYESİ İSU GENEL MÜDÜRLÜĞÜ",
    "title": "Müfettiş Yardımcılığı Giriş Sınavı Duyurusu",
@@ -2283,36 +1545,12 @@
    "checked_at": "2026-11-19T09:19:32+00:00",
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://basvuru.isu.gov.tr",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://basvuru.isu.gov.tr"
-   ]
-  },
-  {
-   "id": 938959052,
-   "institution": "BARTIN ÜNİVERSİTESİ",
-   "title": "BARTIN ÜNİVERSİTESİ 1 SÖZLEŞMELİ PERSONEL ALACAK ( 20 Kasım - 5 Aralık)",
-   "city": "Bartın",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-05",
-   "application_start": "2026-11-20",
-   "link": "https://kamuilan.sbb.gov.tr/#c683ee8e9f",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "BARTIN ÜNİVERSİTESİ 1 SÖZLEŞMELİ PERSONEL ALACAK ( 20 Kasım - 5 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa2377fbe682aa4aabd64.png",
+   "basvuru_link": "mailto:mkaratas@isu.gov.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 940868118,
@@ -2340,28 +1578,6 @@
    "egitim_tahmin": false
   },
   {
-   "id": 982562953,
-   "institution": "ERZURUM TEKNİK ÜNİVERSİTESİ",
-   "title": "ERZURUM TEKNİK ÜNİVERSİTESİ 14 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 20 Kasım)",
-   "city": "Erzurum",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#d438f773af",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ERZURUM TEKNİK ÜNİVERSİTESİ 14 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 20 Kasım)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "puanlar": {}
-  },
-  {
    "id": 988164881,
    "institution": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
@@ -2387,7 +1603,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://www.ksu.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 995400541,
@@ -2459,13 +1675,14 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://erzurum.edu.tr",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://erzurum.edu.tr",
     "https://iglo.erzurum.edu.tr",
     "https://erzurum.edu.tr/menu/formlar26"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa2317fbe682aa4aabb9c.png",
+   "basvuru_link": "https://erzurum.edu.tr/menu/formlar26",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 1024568078,
@@ -2487,8 +1704,8 @@
    "checked_at": "2026-11-19T09:18:53+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_link": "https://www.ksu.edu.tr/Default?SId=8132",
-   "basvuru_tur": "diger"
+   "basvuru_link": "https://personel.ksu.edu.tr/Default?SId=7582",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 1027607326,
@@ -2510,12 +1727,13 @@
    "checked_at": "2026-11-19T09:17:38+00:00",
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "http://personel.akdeniz.edu.tr",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "http://personel.akdeniz.edu.tr",
     "http://personel.akdeniz.edu.tr/"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa2457fbe682aa4aabea4.png",
+   "basvuru_link": "https://esube.iskur.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1046480897,
@@ -2563,7 +1781,8 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "logo": "AdvertiserLogo\\5f5aa22f7fbe682aa4aabab5.png",
+   "basvuru_link": "https://kariyerkapisi.gov.tr",
    "basvuru_tur": "genel"
   },
   {
@@ -2595,54 +1814,9 @@
    "basvuru_adresleri": [
     "https://mudurnu.bel.tr/"
    ],
-   "basvuru_link": "https://mudurnu.bel.tr/",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 1071098646,
-   "institution": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ",
-   "title": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ 3 ADET ÖĞRETİM ÜYESİ ALIMI ( 25 Eylül - 8 Aralık)",
-   "city": "Eskişehir",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 3,
-   "deadline": "2026-12-08",
-   "application_start": "2026-09-25",
-   "link": "https://kamuilan.sbb.gov.tr/#62430cd988",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ 3 ADET ÖĞRETİM ÜYESİ ALIMI ( 25 Eylül - 8 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "puanlar": {}
-  },
-  {
-   "id": 1092134803,
-   "institution": "KARADENİZ TEKNİK ÜNİVERSİTESİ",
-   "title": "KARADENİZ TEKNİK ÜNİVERSİTESİ 3 ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#1f095d2140",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "KARADENİZ TEKNİK ÜNİVERSİTESİ 3 ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "checked_at": "2026-11-19T09:21:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=X7Unuqk9OGyvxtvkPlZSDkdmkE2LEG4VAgODGCvcWHS4v3h%2fTiAJXhJ%2bBUsqK6Afx8dpuEbVSqoCde%2bJuN2qxOEHqzFSnv%2b8RynY98hBL41ODUDQsqPXH37rjsvt%2f27m",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "logo": "AdvertiserLogo\\66e9303346bcc21154d04b94.png",
+   "basvuru_link": "mailto:mudurnu@mudurnu.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 1092383941,
@@ -2670,34 +1844,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://www.bezmialem.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 1111796485,
-   "institution": "Kamu İlan (SBB)",
-   "title": "NÜKLEER DÜZENLEME KURUMU8 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK 9 Kasım - 23 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 8,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#0132a9f320",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "NÜKLEER DÜZENLEME KURUMU8 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK 9 Kasım - 23 Kasım",
-   "checked_at": "2026-11-19T09:20:41+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=bwkLZwk2w2SYVkFvTMlp6AE1sjMkUQ%2fOjosG5TfF3PqSPzVJOObKOy8X6U4PTKZ4NchMQPGQHO%2ftSzd9QiXaTAZVzHJz1YC6iUZZgA58YwE9JotgsX6HBvj6o0x3qsQx",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
+   "basvuru_tur": "ana"
   },
   {
    "id": 1133720742,
@@ -2742,31 +1889,7 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://akbys.sbu.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 1155073983,
-   "institution": "İÇİŞLERİ BAKANLIĞI",
-   "title": "İÇİŞLERİ BAKANLIĞI 60 KAYMAKAM ADAYI ALACAK 1 Aralık - 7 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-07",
-   "application_start": "2026-12-01",
-   "link": "https://kamuilan.sbb.gov.tr/#987816f59e",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "İÇİŞLERİ BAKANLIĞI 60 KAYMAKAM ADAYI ALACAK 1 Aralık - 7 Aralık",
-   "checked_at": "2026-11-19T09:20:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=x5L3%2ffoOJGYdvOpXjEDQiimcGIQOJbrz6x3Enl0GeORRTANroHBpMnplw139BhxC1sXLM2haZ9O6sOKBW7xJblusYsypEfWaoVziAhJo4mUx63UvRWDQci%2fRwcs6VaW5",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 1156948018,
@@ -2816,31 +1939,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://www.iku.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 1184425535,
-   "institution": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ",
-   "title": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ 3 ÖĞRETİM ELEMANI ALACAK ( 16 Kasım - 30 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#887668e83f",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ 3 ÖĞRETİM ELEMANI ALACAK ( 16 Kasım - 30 Kasım)",
-   "checked_at": "2026-11-19T09:20:59+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=eQgLNmQIjRfpzFjBGA%2b13t14qTRecBCGRmZ9s%2bc6x8%2bIx9rZHIkQzT%2f19cZfNFGrmAIZflUx6pG86ob5SuB613QyO2dnl%2f7ZV0AjrjptKSrDvznTBwzIStTBtpRdhihd",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 1244996835,
@@ -2866,8 +1965,7 @@
     "https://dsi.gov.tr/Sayfa/Detay/2130",
     "http://www.dsi.gov.tr"
    ],
-   "basvuru_link": "https://dsi.gov.tr/Sayfa/Detay/2130",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\662e5ca546bcc257dcfa41f7.jpg"
   },
   {
    "id": 1251021159,
@@ -2914,7 +2012,8 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2717fbe682aa4aac89d.png"
   },
   {
    "id": 1254622502,
@@ -2944,8 +2043,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5fe854e346bcc214bc538408.jpg",
    "basvuru_link": "https://basvuru.mehmetakif.edu.tr/",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 1268490096,
@@ -2971,11 +2071,12 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa2737fbe682aa4aac9be.png",
+   "basvuru_link": "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 1269340650,
@@ -3003,76 +2104,6 @@
    "egitim_tahmin": false
   },
   {
-   "id": 1272073856,
-   "institution": "ULA BELEDİYE BAŞKANLIĞI",
-   "title": "ULA BELEDİYE BAŞKANLIĞI 4 ZABITA MEMURU ALACAK ( 21 Aralık - 23 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-23",
-   "application_start": "2026-12-21",
-   "link": "https://kamuilan.sbb.gov.tr/#4f346065a4",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "ULA BELEDİYE BAŞKANLIĞI 4 ZABITA MEMURU ALACAK ( 21 Aralık - 23 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 1283188285,
-   "institution": "BAYBURT ÜNİVERSİTESİ",
-   "title": "BAYBURT ÜNİVERSİTESİ 11 ÖĞRETİM ÜYESİ ALACAK ( 18 Kasım - 2 Aralık)",
-   "city": "Bayburt",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-02",
-   "application_start": "2026-11-18",
-   "link": "https://kamuilan.sbb.gov.tr/#ce8e3980ee",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "BAYBURT ÜNİVERSİTESİ 11 ÖĞRETİM ÜYESİ ALACAK ( 18 Kasım - 2 Aralık)",
-   "checked_at": "2026-11-19T09:20:49+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=T5e0FjXYICI%2fZIYCvOVBraL1futyTrPoZLZALKJqmJjvKt9cBzJE9m3cAofuiL8nDk6VCQnJHhkHcFA5Ee%2fx1%2bhfCogYpdtuijPjWMRnTRvvTfyWPYPEXzv4b5PT1mSP",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 1304542066,
-   "institution": "ATATÜRK ÜNİVERSİTESİ",
-   "title": "ATATÜRK ÜNİVERSİTESİ 70 ÖĞRETİM ÜYESİ ALACAK ( 16 Kasım - 30 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#469a18a27c",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ATATÜRK ÜNİVERSİTESİ 70 ÖĞRETİM ÜYESİ ALACAK ( 16 Kasım - 30 Kasım)",
-   "checked_at": "2026-11-19T09:20:56+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=A1lcQhEbiTyHQ4nHBmGAGXu6UQ1R6sLLIxowxASxaDf31mqLqtRdp%2bziOvxw5H09MQsEhn5IVFhzk5iZx9%2fNwvg1nRVYMn357LRiS%2bL5vGS7MoNks8D0VMiqzANCITID",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 1326946198,
    "institution": "FENERBAHÇE ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Fenerbahçe Üniversitesi Öğretim Üyesi Alım İlanı",
@@ -3096,11 +2127,12 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa2737fbe682aa4aac9be.png",
+   "basvuru_link": "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 1329382043,
@@ -3173,32 +2205,9 @@
     "https://personel.duzce.edu.tr/duyurular",
     "http://abas.duzce.edu.tr"
    ],
-   "basvuru_link": "https://personel.duzce.edu.tr/duyurular",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 1334352201,
-   "institution": "BAYBURT ÜNİVERSİTESİ",
-   "title": "BAYBURT ÜNİVERSİTESİ 8 ÖĞRETİM ELEMANI ALACAK ( 18 Kasım - 2 Aralık)",
-   "city": "Bayburt",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-02",
-   "application_start": "2026-11-18",
-   "link": "https://kamuilan.sbb.gov.tr/#ecf32d1b19",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "BAYBURT ÜNİVERSİTESİ 8 ÖĞRETİM ELEMANI ALACAK ( 18 Kasım - 2 Aralık)",
-   "checked_at": "2026-11-19T09:20:50+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=UxYIEe%2bOvUNOZVAfB2MwTr4D0xgXERTCStmQZMGyKyjNfeUgrqM7mYFOaLsGLawy%2blD%2btaNB30pAT0RuIzYHQEX5v2xhVwhpcOzb77aT0WwNHR%2bZgFR8qO0cJGAK5Q1C",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "logo": "AdvertiserLogo\\5f5aa23a7fbe682aa4aabddb.png",
+   "basvuru_link": "https://abas.duzce.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1346111265,
@@ -3223,98 +2232,6 @@
    "puanlar": {}
   },
   {
-   "id": 1362526293,
-   "institution": "ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI",
-   "title": "ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI 5 MÜFETTİŞ YARDIMCISI ALACAK ( 23 Kasım - 4 Aralık)",
-   "city": "Ankara",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-04",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#87cbfff249",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI 5 MÜFETTİŞ YARDIMCISI ALACAK ( 23 Kasım - 4 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 1448595054,
-   "institution": "SAKARYA ÜNİVERSİTESİ",
-   "title": "SAKARYA ÜNİVERSİTESİ 8 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 20 Kasım)",
-   "city": "Sakarya",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#2fa74df6bb",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "SAKARYA ÜNİVERSİTESİ 8 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 20 Kasım)",
-   "checked_at": "2026-11-19T09:21:22+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=x3OUqjjUMKXwhTmMAt6DLicgqJKX0ZBuk8CdvzrvbF4Qu1tJQmldvDhUow8QvL3P69tM92lzHqGyHxlbzjgO7npGCRldvK%2bz83ussC4EF0pbwe3z77%2fJKzHCTOTeVSwG",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 1457704173,
-   "institution": "Kamu İlan (SBB)",
-   "title": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİÖĞRETİM ÜYESİ ALIMI İLANI ( 9 Kasım - 23 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#26496d8d8b",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİÖĞRETİM ÜYESİ ALIMI İLANI ( 9 Kasım - 23 Kasım)",
-   "checked_at": "2026-11-19T09:21:13+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=fubqSJbgv3hG%2fjyNgp8OSKm3e2Ovz%2bxDRVVOgC25BXg0VrKeXO%2baQZqZyDGiTZCSBJYfH1EMqJm54kSMNPm%2fJb%2bayfQYpC5OPKFXvWDb7jiyr4q5HOwba7WoF0bYsHLV",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 1459022172,
-   "institution": "AKHİSAR BELEDİYE BAŞKANLIĞI",
-   "title": "AKHİSAR BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 30 Kasım - 11 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-11",
-   "application_start": "2026-11-30",
-   "link": "https://kamuilan.sbb.gov.tr/#0754f8fec7",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "AKHİSAR BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 30 Kasım - 11 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 1461969356,
    "institution": "ÜSKÜDAR ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Üsküdar Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
@@ -3334,15 +2251,16 @@
    "checked_at": "2026-11-19T09:18:02+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_link": "https://uskudar.edu.tr/",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://uskudar.edu.tr/"
    ],
    "egitimler": [
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f5aa2737fbe682aa4aac976.png",
+   "basvuru_link": "https://uskudar.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1512905808,
@@ -3388,6 +2306,7 @@
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr/isealim"
    ],
+   "logo": "AdvertiserLogo\\624fcc4f46bcc24fd43c33cc.jpg",
    "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
    "basvuru_tur": "genel"
   },
@@ -3417,8 +2336,9 @@
     "https://www.youtube.com/watch?v=hf70Qp2W3RA",
     "https://www.youtube.com/watch?v=zBSszCcjVLg"
    ],
-   "basvuru_link": "https://ikbasvuru.sdu.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa22f7fbe682aa4aabac6.png",
+   "basvuru_link": "https://www.youtube.com/watch?v=hf70Qp2W3RA",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 1576426029,
@@ -3469,30 +2389,6 @@
    "puanlar": {}
   },
   {
-   "id": 1592408501,
-   "institution": "GÜMÜŞHANE ÜNİVERSİTESİ",
-   "title": "GÜMÜŞHANE ÜNİVERSİTESİ GÜMÜŞHANE ÜNİVERSİTESİ 20 ADET ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 20 Kasım)",
-   "city": "Gümüşhane",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 20,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#fab73215fa",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "GÜMÜŞHANE ÜNİVERSİTESİ GÜMÜŞHANE ÜNİVERSİTESİ 20 ADET ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 20 Kasım)",
-   "checked_at": "2026-11-19T09:21:20+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=5dghuQDomniz2%2b2R42TQlKwtU8%2bi%2fmGerRumyCwfZxzJXrCNR5ZVhjKaIiDG%2fZ%2fn4r4LgSJTtoovJ0f4KKiakBpaUMw0xmcvTNDOf1H5q0T9ReznAPt2FgYrVhIVn5%2bn",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 1600099011,
    "institution": "T.C.CUMHURBAŞKANLIĞI SAVUNMA SANAYİİ BAŞKANLIĞI",
    "title": "Cumhurbaşkanlığı Savunma Sanayii Başkanlığından Sözleşmeli Personel Alım İlanı",
@@ -3516,35 +2412,12 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr/isealim"
-   ]
-  },
-  {
-   "id": 1612293255,
-   "institution": "Kamu İlan (SBB)",
-   "title": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ 9 ADET ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "city": "İzmir",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 9,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#f3f98dccc4",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ 9 ADET ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "checked_at": "2026-11-19T09:21:15+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=kbXWaDHJx7ZyW4K%2f7rHR1AY2sGO8OyxYOweiKC2ZpYSAj%2fVMd3Kw9tCu%2fdxbrYr3Gb21c4T6SZuuxnFLhNhpX3Mvy1hdMcX%2b46wOjXl8rf92xO731g%2fGG1liZEta5Fgg",
-   "belge_deneme": 2,
-   "puanlar": {}
+   ],
+   "logo": "AdvertiserLogo\\5f5aa22b7fbe682aa4aab843.png",
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 1620571975,
@@ -3594,8 +2467,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "http://www.balikesir.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2327fbe682aa4aabc90.png",
+   "basvuru_link": "https://www.balikesir.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1695557452,
@@ -3624,30 +2498,6 @@
    "egitim_tahmin": false
   },
   {
-   "id": 1703355293,
-   "institution": "GEBZE TEKNİK ÜNİVERSİTESİ",
-   "title": "GEBZE TEKNİK ÜNİVERSİTESİ 4 ADET ÖĞRETİM ELEMANI ALACAK ( 16 Kasım - 30 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 4,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#8448600a1d",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "GEBZE TEKNİK ÜNİVERSİTESİ 4 ADET ÖĞRETİM ELEMANI ALACAK ( 16 Kasım - 30 Kasım)",
-   "checked_at": "2026-11-19T09:20:57+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=cnk5%2b6mgkWFqB5Hr2cR2qPf%2f17eeqf9uVLUaPsDx%2bJEdGfG0bxbjn2NrJdb1%2b8DTMUQW09U%2b0rGO%2beiF3TdSCcEbJOiPzj06OlAL3dwTgD2hP4LCBM7YnT9l4YV0aYgC",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 1723275674,
    "institution": "DOĞANYOL BELEDİYE BAŞKANLIĞI",
    "title": "İptal İlanı (Doğanyol Belediye Başkanlığı)",
@@ -3668,7 +2518,8 @@
    "akademik": false,
    "puanlar": {},
    "iptal": true,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5fc1136946bcc44ed8049782.png"
   },
   {
    "id": 1733287678,
@@ -3720,34 +2571,8 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
-   "basvuru_tur": "ozel"
-  },
-  {
-   "id": 1735312266,
-   "institution": "ZAFER KALKINMA AJANSI",
-   "title": "ZAFER KALKINMA AJANSI 2 SÖZLEŞMELİ PERSONEL ALACAK 25 Kasım - 14 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 2,
-   "deadline": "2026-12-14",
-   "application_start": "2026-11-25",
-   "link": "https://kamuilan.sbb.gov.tr/#5491e48488",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "ZAFER KALKINMA AJANSI 2 SÖZLEŞMELİ PERSONEL ALACAK 25 Kasım - 14 Aralık",
-   "checked_at": "2026-11-19T09:20:36+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=h%2fDpxqxf5BLxASpfQbMM19XbuOk4wCkfFwdR%2b24v5Kut2rHIvBDdVmpJMa675sO5scBNk8v3BFoCRAnWqMsofSsDjX%2bQfR8aaty%2fn%2bnKTJGw8Sx4Y0LULlSmIuRGne%2f7",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
+   "basvuru_tur": "ozel",
+   "logo": "AdvertiserLogo\\5f5aa22f7fbe682aa4aabab6.png"
   },
   {
    "id": 1763203413,
@@ -3777,8 +2602,9 @@
     "https://personelbasvuru.bozok.edu.tr/",
     "https://bozok.edu.tr/"
    ],
+   "logo": "AdvertiserLogo\\5f5aa2397fbe682aa4aabdcd.png",
    "basvuru_link": "https://personelbasvuru.bozok.edu.tr/",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 1767321152,
@@ -3913,28 +2739,6 @@
    "puanlar": {}
   },
   {
-   "id": 1850438710,
-   "institution": "Kamu İlan (SBB)",
-   "title": "KEŞAN BELEDİYE BAŞKANLIĞI2 MEMUR ALACAK ( 16 Kasım - 19 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 2,
-   "deadline": "2026-11-19",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#ade3a527c1",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "KEŞAN BELEDİYE BAŞKANLIĞI2 MEMUR ALACAK ( 16 Kasım - 19 Kasım)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 1873450316,
    "institution": "18 Kasım 2024 AİLE VE SOSYAL HİZMETLER BAKANLIĞI",
    "title": "18 Kasım 2024 AİLE VE SOSYAL HİZMETLER BAKANLIĞI 2390 SÖZLEŞMELİ PERSONEL ALIM SONUÇ DUYURUSU AİLE VE SOSYAL HİZMETLER BAKANLIĞI 2390 SÖZLEŞMELİ PERSONEL ALIM SONUÇ DUYURUSU",
@@ -4002,8 +2806,8 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "http://kmu.edu.tr/personel",
-   "basvuru_tur": "diger"
+   "basvuru_link": "https://kmu.edu.tr/personel",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 1923689356,
@@ -4028,8 +2832,9 @@
    "basvuru_adresleri": [
     "http://www.erbakan.edu.tr"
    ],
-   "basvuru_link": "http://www.erbakan.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2537fbe682aa4aac046.png",
+   "basvuru_link": "https://www.erbakan.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1924687107,
@@ -4073,7 +2878,8 @@
    "akademik": false,
    "puanlar": {},
    "iptal": true,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2337fbe682aa4aabca9.png"
   },
   {
    "id": 1930689836,
@@ -4095,7 +2901,8 @@
    "checked_at": "2026-11-23T07:01:03+00:00",
    "puanlar": {},
    "akademik": true,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2467fbe682aa4aabef7.png"
   },
   {
    "id": 1958452882,
@@ -4124,8 +2931,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5fe902d246bcc214bc538410.png",
    "basvuru_link": "https://www.ula.bel.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 1982588695,
@@ -4197,8 +3005,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "basvuru_link": "https://www.akhisar.bel.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\6a98105e46bcc64420639785.jpg",
+   "basvuru_link": "mailto:insankaynaklari@akhisar.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 2014351227,
@@ -4220,30 +3029,6 @@
    "checked_at": "2026-11-25T20:31:32+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 2019045166,
-   "institution": "ÇANKIRI KARATEKİN ÜNİVERSİTESİ",
-   "title": "ÇANKIRI KARATEKİN ÜNİVERSİTESİ 24 ÖĞRETİM ÜYESİ ALACAK ( 13 Kasım - 27 Kasım)",
-   "city": "Çankırı",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-13",
-   "link": "https://kamuilan.sbb.gov.tr/#1f23b61188",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ÇANKIRI KARATEKİN ÜNİVERSİTESİ 24 ÖĞRETİM ÜYESİ ALACAK ( 13 Kasım - 27 Kasım)",
-   "checked_at": "2026-11-19T09:21:05+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=2Pov%2bypZVJ7Ow5Bs7fxlkyQu4o2ICz2vqGDg53dXktWhirEYFRcvlyEmI6ZOHG7Dt9RU13OqMrHQPnI5YWH7qEWaIMd6fSqt4ZJ76uShLH2UQnODILtyN8HxbOUZup1g",
-   "belge_deneme": 2,
    "puanlar": {}
   },
   {
@@ -4273,8 +3058,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "basvuru_link": "https://www.doganyol.bel.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5fc1136946bcc44ed8049782.png",
+   "basvuru_link": "mailto:bilgi@doganyol.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 2041199072,
@@ -4302,8 +3088,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "basvuru_link": "https://www.dogus.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2727fbe682aa4aac8f7.png"
   },
   {
    "id": 2046664428,
@@ -4400,57 +3185,8 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://basvuru.asbu.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 2062596028,
-   "institution": "SAVUNMA SANAYİİ BAŞKANLIĞI",
-   "title": "SAVUNMA SANAYİİ BAŞKANLIĞI 26 PROJE BAZLI SÖZLEŞMELİ PERSONEL ALACAK 20 Kasım - 21 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-21",
-   "application_start": "2026-11-20",
-   "link": "https://kamuilan.sbb.gov.tr/#6fb875d6bc",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "SAVUNMA SANAYİİ BAŞKANLIĞI 26 PROJE BAZLI SÖZLEŞMELİ PERSONEL ALACAK 20 Kasım - 21 Aralık",
-   "checked_at": "2026-11-19T09:20:29+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=u5jtsKc7rSJwX4tUO5SrjJytWPVU4XITEtBY%2b%2b%2bH1laQx0VW4EhEa5Sma8jBGIs9PFUYiZtwfAMpzf%2b5gEdULuiHuq4qIUn5dhtqSNeT8omc6r9XYiZpJUxr%2fqMowOjL",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
-  },
-  {
-   "id": 2063875429,
-   "institution": "KARŞIYAKA (İZMİR) BELEDİYE BAŞKANLIĞI",
-   "title": "KARŞIYAKA (İZMİR) BELEDİYE BAŞKANLIĞI 6 MEMUR ALACAK ( 30 Kasım - 2 Aralık)",
-   "city": "İzmir",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 6,
-   "deadline": "2026-12-02",
-   "application_start": "2026-11-30",
-   "link": "https://kamuilan.sbb.gov.tr/#58049c3ff6",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "KARŞIYAKA (İZMİR) BELEDİYE BAŞKANLIĞI 6 MEMUR ALACAK ( 30 Kasım - 2 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
+   "basvuru_link": "https://pdb.asbu.edu.tr/tr/asbu-ogretim-uyeligine-atama-ve-yukseltme-esaslari",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 2090934114,
@@ -4493,11 +3229,12 @@
    "checked_at": "2026-11-19T09:17:52+00:00",
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://www.turkiye.gov.tr/sahil-guvenlik-komutanligi-is-basvurusu",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://www.turkiye.gov.tr/sahil-guvenlik-komutanligi-is-basvurusu"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa22b7fbe682aa4aab82f.png",
+   "basvuru_link": "https://www.sg.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2128423999,
@@ -4524,7 +3261,8 @@
    ],
    "egitim_tahmin": false,
    "iptal": true,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2327fbe682aa4aabc9c.png"
   },
   {
    "id": 2139189223,
@@ -4546,8 +3284,8 @@
    "checked_at": "2026-11-19T09:19:07+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_link": "http://www.ilan.sakarya.edu.tr/",
-   "basvuru_tur": "diger"
+   "basvuru_link": "https://www.ilan.sakarya.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2139454715,
@@ -4655,8 +3393,6 @@
    "checked_at": "2026-11-19T09:19:33+00:00",
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr",
-   "basvuru_tur": "genel",
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr",
     "https://www.osym.gov.tr/uluslararasi-yabanci-dil-sinavlari-esdegerlikleri",
@@ -4666,7 +3402,10 @@
     "Ön Lisans",
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f5aa2457fbe682aa4aabe91.png",
+   "basvuru_link": "https://www.osym.gov.tr/uluslararasi-yabanci-dil-sinavlari-esdegerlikleri",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 2184190905,
@@ -4719,32 +3458,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\6055aa5246bcc2296c5249cd.png",
    "basvuru_link": "https://www.acibadem.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 2211940954,
-   "institution": "ORTA KARADENİZ KALKINMA AJANSI",
-   "title": "ORTA KARADENİZ KALKINMA AJANSI 5 ALACAK 2 Kasım - 22 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-22",
-   "application_start": "2026-11-02",
-   "link": "https://kamuilan.sbb.gov.tr/#ae87e7214f",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ORTA KARADENİZ KALKINMA AJANSI 5 ALACAK 2 Kasım - 22 Kasım",
-   "checked_at": "2026-11-19T09:20:43+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=PCt5678i1%2fiAd8LSQ2crbk0T%2bTiV31qWXQe4Bu1wr9Lo5MCY5tvMzhKe466FV6e4twnBBt0t44A4FR4e6xdwnm%2fUFiptfmNA2k5A%2bDhHFt97d0tF%2fIkgcwpsh%2fT0du99",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 2212771587,
@@ -4791,7 +3507,8 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2337fbe682aa4aabca9.png"
   },
   {
    "id": 2234221853,
@@ -4814,30 +3531,6 @@
    "akademik": true,
    "puanlar": {},
    "iptal": true
-  },
-  {
-   "id": 2242059339,
-   "institution": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ",
-   "title": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ 19 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 21 Kasım)",
-   "city": "Ankara",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-21",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#407a41c16b",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ 19 ÖĞRETİM ÜYESİ ALACAK ( 6 Kasım - 21 Kasım)",
-   "checked_at": "2026-11-19T09:21:24+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=qZWPIghQdksqHEiaXqokY%2fr85SVQwOV04kYKgKQjg5eWBRUjO6k2m67vm8E28Nfr6DoL1jWSj5%2fYIfdCQfR3XKI2ysbmJWxhjSxAfp%2f%2beHlGspz9Nex449EvMp1FhEOO",
-   "belge_deneme": 2,
-   "puanlar": {}
   },
   {
    "id": 2261605001,
@@ -4868,8 +3561,9 @@
     "https://www.beykent.edu.tr/yonetmelikler-yonergeler/yonergeler",
     "https://www.beykent.edu.tr/beykent-"
    ],
-   "basvuru_link": "https://www.beykent.edu.tr/yonetmelikler-yonergeler/yonergeler",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa26d7fbe682aa4aac75b.png",
+   "basvuru_link": "https://www.beykent.edu.tr/beykent-",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 2276185489,
@@ -4894,9 +3588,7 @@
    "egitimler": [
     "Lisans"
    ],
-   "egitim_tahmin": false,
-   "basvuru_link": "https://www.gedik.edu.tr/hakkimizda/idari-birimler/personel-daire-baskanligi/dilekce-ve-formlar",
-   "basvuru_tur": "diger"
+   "egitim_tahmin": false
   },
   {
    "id": 2281695877,
@@ -4947,8 +3639,9 @@
    "basvuru_adresleri": [
     "https://www.gtu.edu.tr"
    ],
+   "logo": "AdvertiserLogo\\5f5aa23e7fbe682aa4aabe20.png",
    "basvuru_link": "https://www.gtu.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 2296438475,
@@ -4977,8 +3670,9 @@
    "basvuru_adresleri": [
     "http://personel.erdogan.edu.tr"
    ],
-   "basvuru_link": "http://personel.erdogan.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2397fbe682aa4aabdce.png",
+   "basvuru_link": "https://basvuru.erdogan.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2301480041,
@@ -5004,11 +3698,10 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.okan.edu.tr/sayfa/yonergeler/",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://www.okan.edu.tr/sayfa/yonergeler/"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa26e7fbe682aa4aac7b4.png"
   },
   {
    "id": 2309070407,
@@ -5037,8 +3730,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "basvuru_link": "https://www.gundogmus.bel.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa22b7fbe682aa4aab85d.png",
+   "basvuru_link": "mailto:belediye@gundogmus.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 2311607557,
@@ -5060,11 +3754,12 @@
    "checked_at": "2026-11-19T09:17:59+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_link": "http://www.kmu.edu.tr",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "http://www.kmu.edu.tr"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa23d7fbe682aa4aabe0b.png",
+   "basvuru_link": "https://www.kmu.edu.tr/personel",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 2324891508,
@@ -5158,76 +3853,6 @@
    "puanlar": {}
   },
   {
-   "id": 2351776934,
-   "institution": "TANOBA BELEDİYE BAŞKANLIĞI",
-   "title": "TANOBA BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 16 Aralık - 18 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-18",
-   "application_start": "2026-12-16",
-   "link": "https://kamuilan.sbb.gov.tr/#929e6a8c86",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "TANOBA BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 16 Aralık - 18 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 2380660617,
-   "institution": "SAKARYA ÜNİVERSİTESİ",
-   "title": "SAKARYA ÜNİVERSİTESİ 18 ÖĞRETİM ELEMANI ALACAK ( 6 Kasım - 20 Kasım)",
-   "city": "Sakarya",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#15316641fd",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "SAKARYA ÜNİVERSİTESİ 18 ÖĞRETİM ELEMANI ALACAK ( 6 Kasım - 20 Kasım)",
-   "checked_at": "2026-11-19T09:21:23+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=Qo03CGwNWjlIVYXtLh2LHfLBP7u3N6APLyQUlpL%2f1NFeOqR1J3eL5dI1XRTBajc1v20NHqg1%2b8QWxoIBtqW5Z9%2fQN61uT6b5nB3TZrwBpjwV31lN9sWaO86J3JBaB4XQ",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 2388253966,
-   "institution": "GÜMÜŞHANE ÜNİVERSİTESİ",
-   "title": "GÜMÜŞHANE ÜNİVERSİTESİ GÜMÜŞHANE ÜNİVERSİTESİ 6 ADET ÖĞRETİM ELEMANI ALACAK ( 6 Kasım - 20 Kasım)",
-   "city": "Gümüşhane",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 6,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-06",
-   "link": "https://kamuilan.sbb.gov.tr/#f7128f4505",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "GÜMÜŞHANE ÜNİVERSİTESİ GÜMÜŞHANE ÜNİVERSİTESİ 6 ADET ÖĞRETİM ELEMANI ALACAK ( 6 Kasım - 20 Kasım)",
-   "checked_at": "2026-11-19T09:21:21+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=bNRPySzq3HGSbXcmljjesFaUe4BVnD3bM3UhgG7jVju6Hp83ca8yirnSGNuKitOwRi6UuXgve7SWRXFRrYEDkqpKivOFmhD%2bwXq3b47GO%2bKF8lvgxrNX%2fBunEBFZnJ1E",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 2403259624,
    "institution": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Sözleşmeli Personel Alım İlanı (06.11.2026)",
@@ -5278,8 +3903,9 @@
     "https://kalite.bartin.edu.tr/form-dokumanlari.html",
     "https://w3.bartin.edu.tr/"
    ],
-   "basvuru_link": "http://ubys.bartin.edu.tr/HRM/AkademikBasvuru/PersonelBasvuru/Giris",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2427fbe682aa4aabe31.png",
+   "basvuru_link": "https://kalite.bartin.edu.tr/form-dokumanlari.html",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 2453504558,
@@ -5305,11 +3931,12 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr/isealim"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\634d3ae446bcc2531ce67b14.png",
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2461774953,
@@ -5336,7 +3963,8 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "logo": "AdvertiserLogo\\5f5aa22f7fbe682aa4aabab5.png",
+   "basvuru_link": "https://kariyerkapisi.gov.tr",
    "basvuru_tur": "genel"
   },
   {
@@ -5390,7 +4018,8 @@
     "https://kariyerkapisi.gov.tr/isealim"
    ],
    "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=0dee67ed-656b-4fa2-9ffd-deb7672253b8",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "logo": "AdvertiserLogo\\5f5aa2427fbe682aa4aabe31.png"
   },
   {
    "id": 2506215253,
@@ -5421,8 +4050,9 @@
     "https://sonuc.osym.gov.tr",
     "https://sanalpos.osym.gov.tr"
    ],
+   "logo": "AdvertiserLogo\\5f5aa22f7fbe682aa4aaba91.png",
    "basvuru_link": "https://ais.osym.gov.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 2535304754,
@@ -5452,29 +4082,8 @@
     "https://kariyerkapisi.gov.tr/isealim"
    ],
    "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1",
-   "basvuru_tur": "ozel"
-  },
-  {
-   "id": 2554902302,
-   "institution": "EYYÜBİYE BELEDİYE BAŞKANLIĞI",
-   "title": "EYYÜBİYE BELEDİYE BAŞKANLIĞI 9 MEMUR ALACAK ( 7 Aralık - 10 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 9,
-   "deadline": "2026-12-10",
-   "application_start": "2026-12-07",
-   "link": "https://kamuilan.sbb.gov.tr/#b62e7f15b9",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "EYYÜBİYE BELEDİYE BAŞKANLIĞI 9 MEMUR ALACAK ( 7 Aralık - 10 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
+   "basvuru_tur": "ozel",
+   "logo": "AdvertiserLogo\\688b088c46bcc21ae843410e.png"
   },
   {
    "id": 2559031223,
@@ -5497,7 +4106,8 @@
    "akademik": false,
    "puanlar": {},
    "iptal": true,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa22b7fbe682aa4aab84f.png"
   },
   {
    "id": 2565115511,
@@ -5543,33 +4153,6 @@
    "puanlar": {},
    "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
    "basvuru_tur": "genel"
-  },
-  {
-   "id": 2580177285,
-   "institution": "DİCLE KALKINMA AJANSI",
-   "title": "DİCLE KALKINMA AJANSI 4 SÖZLEŞMELİ UZMAN PERSONEL ALACAK 4 Aralık - 18 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 4,
-   "deadline": "2026-12-18",
-   "application_start": "2026-12-04",
-   "link": "https://kamuilan.sbb.gov.tr/#c489aa0705",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "DİCLE KALKINMA AJANSI 4 SÖZLEŞMELİ UZMAN PERSONEL ALACAK 4 Aralık - 18 Aralık",
-   "checked_at": "2026-11-19T09:20:24+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=ZnceEJbLJD6SXpAchKFKa%2bEcB9hXteppoUX5qbuCBxEWfmwEfMtVlHY50FaFx9ahXLBEjcDGzi%2fLSuFZpVDFwg8cWQiOFMiLz%2bGQoY3983Lf1fEy2r5mP6T%2fI%2b2rmbXA",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
   },
   {
    "id": 2600960678,
@@ -5626,35 +4209,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa22c7fbe682aa4aab8bf.jpg",
    "basvuru_link": "https://www.eyyubiye.bel.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 2603445654,
-   "institution": "BURSA TEKNİK ÜNİVERSİTESİ",
-   "title": "BURSA TEKNİK ÜNİVERSİTESİ 1 SÖZLEŞMELİ PSİKOLOG ALACAK 13 Kasım - 27 Kasım",
-   "city": "Bursa",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-13",
-   "link": "https://kamuilan.sbb.gov.tr/#f6bca7dc53",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "BURSA TEKNİK ÜNİVERSİTESİ 1 SÖZLEŞMELİ PSİKOLOG ALACAK 13 Kasım - 27 Kasım",
-   "checked_at": "2026-11-19T09:20:27+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=05k0cSeRANXzLwJTURP%2ft7BctCZuZL0FxeGLNqFVeSEwipsdAYcctcZ7BSc9XGgc3hquXvMwZMcXIytXOUatmAPUljABgVHSdyFFq2AKqaKgSxPsHjgwQfhfVYnmUmC9",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
+   "basvuru_tur": "ana"
   },
   {
    "id": 2604176811,
@@ -5750,8 +4307,9 @@
     "http://abas.duzce.edu.tr",
     "https://personel.duzce.edu.tr/duyurular"
    ],
-   "basvuru_link": "http://abas.duzce.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa23a7fbe682aa4aabddb.png",
+   "basvuru_link": "https://personel.duzce.edu.tr/duyurular",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 2710402227,
@@ -5799,7 +4357,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://basvuru.asbu.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 2732246920,
@@ -5872,6 +4430,7 @@
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr/isealim"
    ],
+   "logo": "AdvertiserLogo\\5f5aa22f7fbe682aa4aaba7a.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
    "basvuru_tur": "genel"
   },
@@ -5904,8 +4463,9 @@
     "http://www.elazigozelidaresi.gov.tr",
     "http://www.elazıgozeli"
    ],
-   "basvuru_link": "http://www.elazıgozelidaresi.gov.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2307fbe682aa4aabafe.jpg",
+   "basvuru_link": "mailto:ozelidare@elazig.gov.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 2759304105,
@@ -5972,7 +4532,8 @@
    "akademik": true,
    "puanlar": {},
    "iptal": true,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa25d7fbe682aa4aac1c5.png"
   },
   {
    "id": 2802511906,
@@ -6065,30 +4626,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2327fbe682aa4aabc90.png",
    "basvuru_link": "https://www.balikesir.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 2846695435,
-   "institution": "KARABAĞLAR BELEDİYE BAŞKANLIĞI",
-   "title": "KARABAĞLAR BELEDİYE BAŞKANLIĞI 2 SÖZLEŞMELİ PERSONEL ALACAK ( 30 Kasım - 4 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 2,
-   "deadline": "2026-12-04",
-   "application_start": "2026-11-30",
-   "link": "https://kamuilan.sbb.gov.tr/#7dd86c8859",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "KARABAĞLAR BELEDİYE BAŞKANLIĞI 2 SÖZLEŞMELİ PERSONEL ALACAK ( 30 Kasım - 4 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 2892509700,
@@ -6157,7 +4697,8 @@
     "https://aybu.edu.tr/pdb"
    ],
    "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=a75fb51f-19e0-4d1e-95fe-1e52774310c2",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "logo": "AdvertiserLogo\\5f5aa2467fbe682aa4aabeef.png"
   },
   {
    "id": 2898652675,
@@ -6184,7 +4725,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ozel"
   },
   {
    "id": 2932148612,
@@ -6208,30 +4749,6 @@
    "puanlar": {}
   },
   {
-   "id": 2940699124,
-   "institution": "İZMİR DEMOKRASİ ÜNİVERSİTESİ",
-   "title": "İZMİR DEMOKRASİ ÜNİVERSİTESİ 2 SÖZLEŞMELİ PERSONEL ALACAK 7 Kasım - 20 Kasım",
-   "city": "İzmir",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 2,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-07",
-   "link": "https://kamuilan.sbb.gov.tr/#7fe5dc984a",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "İZMİR DEMOKRASİ ÜNİVERSİTESİ 2 SÖZLEŞMELİ PERSONEL ALACAK 7 Kasım - 20 Kasım",
-   "checked_at": "2026-11-19T09:20:32+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=DdxeuINtmmHwuLKgaFpp6VADlbEQ0Q7IZec5ivSvK1FiG5Exi0vURBDfekeyp1f19Ad058s1JDVkLy3iRkJJeCGc3yZfKEnPmi2dzwOgXKh8RMQfgq7oZmSfU7v6A3zX",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 2941603685,
    "institution": "BİRUNİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Biruni Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
@@ -6251,31 +4768,8 @@
    "checked_at": "2026-11-19T09:18:05+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_adresleri": []
-  },
-  {
-   "id": 2941793472,
-   "institution": "SOSYAL GÜVENLİK KURUMU",
-   "title": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI 100 SOSYAL GÜVENLİK DENETMEN YARDIMCISI ALACAK 9 Kasım - 22 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-22",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#298db1110e",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI 100 SOSYAL GÜVENLİK DENETMEN YARDIMCISI ALACAK 9 Kasım - 22 Kasım",
-   "checked_at": "2026-11-19T09:20:33+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=1nQ2rytWhwpkFdYm6bMRe%2bitZefIV89JptfQ3PHg8ZvagWA71%2b3KvuKYiuGekqmaWVk%2fs8X7fljcI%2bJKlvA2FHG3qgklqqApWz2nbKDNZv8NLVTXhwR2nnui4t4RFUrI",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2327fbe682aa4aabc9c.png"
   },
   {
    "id": 2949452909,
@@ -6301,8 +4795,7 @@
     "https://personel.karatekin.edu.tr",
     "https://ilan.karatekin.edu.tr"
    ],
-   "basvuru_link": "https://personel.karatekin.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa23c7fbe682aa4aabdfc.png"
   },
   {
    "id": 2954666588,
@@ -6324,8 +4817,6 @@
    "checked_at": "2026-11-19T09:17:43+00:00",
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr",
-   "basvuru_tur": "genel",
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr",
     "https://www.dika.org.tr",
@@ -6335,7 +4826,10 @@
    "egitimler": [
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f5aa2467fbe682aa4aabeda.png",
+   "basvuru_link": "https://kariyerkapisi.gov.tr",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2959190128,
@@ -6386,32 +4880,9 @@
     "https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/",
     "https://personel.hku.edu.tr/"
    ],
+   "logo": "AdvertiserLogo\\5f5aa2437fbe682aa4aabe4f.png",
    "basvuru_link": "https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 2986274911,
-   "institution": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ",
-   "title": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ 5 ÖĞRETİM ÜYESİ ALACAK ( 13 Kasım - 27 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-13",
-   "link": "https://kamuilan.sbb.gov.tr/#0f95af05a6",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ 5 ÖĞRETİM ÜYESİ ALACAK ( 13 Kasım - 27 Kasım)",
-   "checked_at": "2026-11-19T09:21:06+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=1vAczNv2Xkkb2aUVDQg9ERUqeChNiwmquXtZx%2fQyRjjIoDbMx7S7peOZE%2fAvFAm8b527Z%2bJe2dvANSGWjjin0o1X%2fNH5uYGWcxMsbKWMH8GSmhZvBNev6x3RP84YE16U",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ozel"
   },
   {
    "id": 2997591906,
@@ -6433,52 +4904,6 @@
    "checked_at": "2026-11-25T20:31:25+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 2999257872,
-   "institution": "İZMİR BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI",
-   "title": "İZMİR BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI 90 ZABITA MEMURU ALACAK ( 30 Kasım - 4 Aralık)",
-   "city": "İzmir",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-04",
-   "application_start": "2026-11-30",
-   "link": "https://kamuilan.sbb.gov.tr/#ffe45d8f22",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "İZMİR BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI 90 ZABITA MEMURU ALACAK ( 30 Kasım - 4 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 3005872534,
-   "institution": "SOSYAL GÜVENLİK KURUMU",
-   "title": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI 50 MÜFETTİŞ YARDIMCISI ALACAK 7 Aralık - 18 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-18",
-   "application_start": "2026-12-07",
-   "link": "https://kamuilan.sbb.gov.tr/#c75c776785",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI 50 MÜFETTİŞ YARDIMCISI ALACAK 7 Aralık - 18 Aralık",
-   "checked_at": "2026-11-19T09:20:19+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=OctOyALNg19zbFFR%2btaqbx9759j4Uzv269BnN1aaoAR0TopE7AHuHTrFP0NWo5k8Y893GQ0VZ%2bEaSwqqt7YJx9zDPMvxf67h7jjxHcZTEeIyIH%2bJV0MCGZ6stzvcSLnx",
-   "belge_deneme": 2,
    "puanlar": {}
   },
   {
@@ -6525,30 +4950,6 @@
    "puanlar": {}
   },
   {
-   "id": 3036480927,
-   "institution": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ",
-   "title": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ 5 ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#574e7f0182",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ 5 ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "checked_at": "2026-11-19T09:21:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=L8EkyK%2f4Em01Gehzl26R0D82Gs9Es7%2fSXIcS9q8VaK7C1u%2fYmz1zLGMAwoa4LICIcAJi%2fYFBf2XNJG9LB5H5gJfV2yCQaUeNbG%2bGrux1NSy3u3YQPWes8xjnNB5iypBd",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 3052936487,
    "institution": "İSTANBUL MEDİPOL ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "İstanbul Medipol Üniversitesi Öğretim Üyesi Alım İlanı",
@@ -6576,35 +4977,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://kms.kaysis.gov.tr/Home/Kurum/26626960",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 3059431661,
-   "institution": "YILDIZ TEKNİK ÜNİVERSİTESİ",
-   "title": "YILDIZ TEKNİK ÜNİVERSİTESİ 2 BİLİŞİM PERSONELİ ALACAK 2 Kasım - 1 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-01",
-   "application_start": "2026-11-02",
-   "link": "https://kamuilan.sbb.gov.tr/#0bad378e4e",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "YILDIZ TEKNİK ÜNİVERSİTESİ 2 BİLİŞİM PERSONELİ ALACAK 2 Kasım - 1 Aralık",
-   "checked_at": "2026-11-19T09:20:38+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=wIwY%2bSxMi7W7QOOB5VWQ9cpgWGnbOROq4tZyyIgJfrbfJisNUvAG8Yj770m4vXhN2FNk38u%2bdaYpI%2f31zRIREDaTkSzhx9y2ufDfC%2fffHiWUEOrsxpWWed6nRmiiYZb8",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
+   "logo": "AdvertiserLogo\\5f5aa26d7fbe682aa4aac729.png"
   },
   {
    "id": 3062184412,
@@ -6651,11 +5024,10 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.galata.edu.tr/mevzuat",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://www.galata.edu.tr/mevzuat"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa2777fbe682aa4aacaf2.jpg"
   },
   {
    "id": 3078409578,
@@ -6688,8 +5060,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f97bdbd46bcc242e4cb7c06.png",
    "basvuru_link": "https://apbs.iuc.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 3093268089,
@@ -6718,8 +5091,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "basvuru_link": "https://www.akseki.bel.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\60432e6646bcc21f2c29022f.png",
+   "basvuru_link": "mailto:insankaynaklari@akseki.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 3093442735,
@@ -6747,8 +5121,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "basvuru_link": "https://www.belek.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\646b66cb46bcc20c54000098.png"
   },
   {
    "id": 3103349736,
@@ -6778,8 +5151,9 @@
    "basvuru_adresleri": [
     "https://basvuru.bilecik.edu.tr/"
    ],
+   "logo": "AdvertiserLogo\\5f5aa23c7fbe682aa4aabdf9.png",
    "basvuru_link": "https://basvuru.bilecik.edu.tr/",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 3119974907,
@@ -6804,9 +5178,7 @@
    "egitimler": [
     "Lisans"
    ],
-   "egitim_tahmin": false,
-   "basvuru_link": "https://akds.erbakan.edu.tr",
-   "basvuru_tur": "diger"
+   "egitim_tahmin": false
   },
   {
    "id": 3126046601,
@@ -6833,30 +5205,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2327fbe682aa4aabc9c.png",
    "basvuru_link": "https://www.biruni.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 3128421030,
-   "institution": "KARATAY BELEDİYE BAŞKANLIĞI",
-   "title": "KARATAY BELEDİYE BAŞKANLIĞI 9 MEMUR ALACAK ( 14 Aralık - 18 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 9,
-   "deadline": "2026-12-18",
-   "application_start": "2026-12-14",
-   "link": "https://kamuilan.sbb.gov.tr/#a7b5655f8f",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "KARATAY BELEDİYE BAŞKANLIĞI 9 MEMUR ALACAK ( 14 Aralık - 18 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 3144325897,
@@ -6883,32 +5234,8 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.gedik.edu.tr/hakkimizda/idari-birimler/personel-daire-baskanligi/kvkk-aydinlatma-metinleri",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 3165361027,
-   "institution": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI",
-   "title": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI 7 AFET VE ACİL DURUM YÖNETİMİ DENETÇİ YARDIMCISI ALACAK 23 Kasım - 30 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#8e366276c2",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI 7 AFET VE ACİL DURUM YÖNETİMİ DENETÇİ YARDIMCISI ALACAK 23 Kasım - 30 Kasım",
-   "checked_at": "2026-11-19T09:20:21+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=8WV9TfArypGN4QcOJ5PoNhTzPZZue1Um%2bAKQwzBLvx5Vf5VOStUf%2bk8eurw7U%2fx8HuR3O6m8FHpPm2l1rXSwDwwojmHmZayOblHXtXunYQ5gaWV23QrBdmUwpw95zNmW",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_link": "https://www.gedik.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3191832862,
@@ -6965,7 +5292,8 @@
     "https://www.anadolu.edu.tr/duyurular"
    ],
    "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=31b4b404-05cb-4298-9460-1ab3b13b33e8",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "logo": "AdvertiserLogo\\5f5aa23a7fbe682aa4aabde5.png"
   },
   {
    "id": 3281215773,
@@ -6996,8 +5324,7 @@
     "https://personel.mcbu.edu.tr/Sayfa/Ynergeler",
     "https://personel.mcbu.edu.tr/Sayfa/formlartm#baslangic"
    ],
-   "basvuru_link": "https://aed-basvuru.mcbu.edu.tr/",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2467fbe682aa4aabf05.png"
   },
   {
    "id": 3301425721,
@@ -7041,12 +5368,13 @@
    "checked_at": "2026-11-19T09:17:45+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_link": "https://atama.atauni.edu.tr",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://atama.atauni.edu.tr",
     "https://www.atauni.edu.tr"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa2337fbe682aa4aabca9.png",
+   "basvuru_link": "https://atama.atauni.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3340762410,
@@ -7075,8 +5403,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\65313a9246bcc21144cbf927.jpg",
    "basvuru_link": "https://www.bozkoy.bel.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 3350891674,
@@ -7142,53 +5471,7 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://erzurum.edu.tr/menu/formlar26",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 3378193780,
-   "institution": "NECMETTİN ERBAKAN ÜNİVERSİTESİ",
-   "title": "NECMETTİN ERBAKAN ÜNİVERSİTESİ 4 ARAŞTIRMA GÖREVLİSİ ALACAK ( 5 Kasım - 20 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-05",
-   "link": "https://kamuilan.sbb.gov.tr/#5ce671dd0e",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "NECMETTİN ERBAKAN ÜNİVERSİTESİ 4 ARAŞTIRMA GÖREVLİSİ ALACAK ( 5 Kasım - 20 Kasım)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "puanlar": {}
-  },
-  {
-   "id": 3378499888,
-   "institution": "MUDURNU BELEDİYE BAŞKANLIĞI",
-   "title": "MUDURNU BELEDİYE BAŞKANLIĞI 1 SÖZLEŞMELİ PERSONEL ALACAK ( 14 Aralık - 25 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-25",
-   "application_start": "2026-12-14",
-   "link": "https://kamuilan.sbb.gov.tr/#05b2a5f2f4",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "MUDURNU BELEDİYE BAŞKANLIĞI 1 SÖZLEŞMELİ PERSONEL ALACAK ( 14 Aralık - 25 Aralık)",
-   "checked_at": "2026-11-19T09:20:51+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=fdTwq0yInrcBz7EhLzY5UasvJ%2fPtsBHazddZb2Uzogqkd9b2HAkwaswcVRRVo1o9VTdGpQNFLs3%2bIhe4K27lETHvV58Jc9NpZQsuG09V3qiV754VZ5%2ff0qdZjC4uQO5k",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ozel"
   },
   {
    "id": 3386656862,
@@ -7245,30 +5528,7 @@
     "https://www.turkiye.gov.tr/",
     "https://www.turkiye.gov.tr/sosyal-guvenlik-hitap-hizmet-dokumu"
    ],
-   "basvuru_link": "https://www.turkiye.gov.tr/",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 3414236054,
-   "institution": "DOĞANYOL BELEDİYE BAŞKANLIĞI",
-   "title": "DOĞANYOL BELEDİYE BAŞKANLIĞI 2 SÖZLEŞMELİ PERSONEL ALACAK ( 2 Aralık - 4 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 2,
-   "deadline": "2026-12-04",
-   "application_start": "2026-12-02",
-   "link": "https://kamuilan.sbb.gov.tr/#9389a3db57",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "DOĞANYOL BELEDİYE BAŞKANLIĞI 2 SÖZLEŞMELİ PERSONEL ALACAK ( 2 Aralık - 4 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
+   "logo": "AdvertiserLogo\\5f5aa2427fbe682aa4aabe36.png"
   },
   {
    "id": 3431789897,
@@ -7298,8 +5558,9 @@
    "basvuru_adresleri": [
     "https://www.ozyegin.edu.tr"
    ],
-   "basvuru_link": "https://www.ozyegin.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa24b7fbe682aa4aabfa2.png",
+   "basvuru_link": "mailto:ik@ozyegin.edu.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 3437608518,
@@ -7343,31 +5604,6 @@
    "checked_at": "2026-11-19T09:20:03+00:00",
    "akademik": false,
    "puanlar": {}
-  },
-  {
-   "id": 3461137998,
-   "institution": "HAZİNE VE MALİYE BAKANLIĞI",
-   "title": "HAZİNE VE MALİYE BAKANLIĞI 10 STAJYER HAZİNE KONTROLÖRÜ ALACAK - DÜZELTME İLANI 23 Kasım - 4 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-04",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#32cb05e24a",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "HAZİNE VE MALİYE BAKANLIĞI 10 STAJYER HAZİNE KONTROLÖRÜ ALACAK - DÜZELTME İLANI 23 Kasım - 4 Aralık",
-   "checked_at": "2026-11-19T09:20:20+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=wdS4rEawH377zABfxkIh21DxtJLbdc7lvUawu%2bfZlHkZleBolRq0V9sG9wWBZDkOuPT8b6QTUTD1ehburVziAglfV28X%2bXtDQQ6uIWLqwyRGpcJDOLN45lJYGiliEPyR",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "iptal": true
   },
   {
    "id": 3467094297,
@@ -7423,8 +5659,9 @@
    "basvuru_adresleri": [
     "http://www.omu.edu.tr"
    ],
-   "basvuru_link": "http://www.omu.edu.tr",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2337fbe682aa4aabcab.png",
+   "basvuru_link": "https://esube.iskur.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3477691014,
@@ -7451,30 +5688,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2727fbe682aa4aac8f7.png",
    "basvuru_link": "https://www.dogus.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 3506873127,
-   "institution": "ELAZIĞ İL ÖZEL İDARESİ",
-   "title": "ELAZIĞ İL ÖZEL İDARESİ 3 SÖZLEŞMELİ PERSONEL ALACAK ( 30 Kasım - 9 Aralık)",
-   "city": "Elazığ",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 3,
-   "deadline": "2026-12-09",
-   "application_start": "2026-11-30",
-   "link": "https://kamuilan.sbb.gov.tr/#4443cf1444",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "ELAZIĞ İL ÖZEL İDARESİ 3 SÖZLEŞMELİ PERSONEL ALACAK ( 30 Kasım - 9 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 3554684416,
@@ -7494,28 +5710,6 @@
    "employment_type": "Memur",
    "description": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI - 2026/2 SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI - SOSYAL GÜVENLİK DENETMEN YARDIMCILIĞI / ( (Hukuk, Siyasal Bilgiler, İktisadi ve İdari Bilimler, İktisat, İşletme) (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:05+00:00",
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 3581404173,
-   "institution": "SARIİDRİS BELEDİYE BAŞKANLIĞI",
-   "title": "SARIİDRİS BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 18 Kasım - 20 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-18",
-   "link": "https://kamuilan.sbb.gov.tr/#0c4e2c8368",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "SARIİDRİS BELEDİYE BAŞKANLIĞI 1 MEMUR ALACAK ( 18 Kasım - 20 Kasım)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
   },
@@ -7562,80 +5756,7 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://personelilan.mgu.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 3604474030,
-   "institution": "YÜKSEKÖĞRETİM KALİTE KURULU",
-   "title": "YÜKSEKÖĞRETİM KALİTE KURULU 5 UZMAN YARDIMCISI ALACAK 1 Aralık - 14 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-14",
-   "application_start": "2026-12-01",
-   "link": "https://kamuilan.sbb.gov.tr/#259e54e2ba",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "YÜKSEKÖĞRETİM KALİTE KURULU 5 UZMAN YARDIMCISI ALACAK 1 Aralık - 14 Aralık",
-   "checked_at": "2026-11-19T09:20:26+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=I5NsfDJ8a1odjNRzbkaRcBIe7nrnEdAMk5YryCArRxZFj5v2yXlGtAxohzJjwcD7qf6TrgQD8cK%2fFnPXKpbzL4J%2fRQ1m7mHGLDaDre8F%2fkKOMX%2bYylQy4FFsjCKCc4zH",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 3612094330,
-   "institution": "Kamu İlan (SBB)",
-   "title": "MİLLİ SAVUNMA BAKANLIĞIENGELLİ VE TERÖRLE MÜCADELEDE MALUL SAYILMAYACAK ŞEKİLDE YARALANANLARDAN SÜREKLİ İŞÇİ TEMİNİ İLANI 23 Kasım - 27 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#7de6587159",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "İşçi",
-   "description": "MİLLİ SAVUNMA BAKANLIĞIENGELLİ VE TERÖRLE MÜCADELEDE MALUL SAYILMAYACAK ŞEKİLDE YARALANANLARDAN SÜREKLİ İŞÇİ TEMİNİ İLANI 23 Kasım - 27 Kasım",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
-  },
-  {
-   "id": 3617053955,
-   "institution": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ",
-   "title": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ 2 ÖĞRETİM ÜYESİ ALACAK ( 16 Kasım - 30 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#a772db68bc",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ 2 ÖĞRETİM ÜYESİ ALACAK ( 16 Kasım - 30 Kasım)",
-   "checked_at": "2026-11-19T09:20:58+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=ji9jDQHJOAIlSL%2feD%2fnYg59aaEqnZGOyY%2bj9NV18GWlHH3zIGGZu80b8dkz8H4a0a1UJ9DZ6i9zNap1xP0MlBxMCAV4P1twkVJIYJPXsnU%2f01OC0YhFLz1xMfsoZOGw0",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 3620733757,
@@ -7681,28 +5802,6 @@
    "puanlar": {}
   },
   {
-   "id": 3661902158,
-   "institution": "GÜNDOĞMUŞ BELEDİYE BAŞKANLIĞI",
-   "title": "GÜNDOĞMUŞ BELEDİYE BAŞKANLIĞI 4 MEMUR ALACAK ( 21 Aralık - 5 Ocak)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 4,
-   "deadline": "2027-01-05",
-   "application_start": "2026-12-21",
-   "link": "https://kamuilan.sbb.gov.tr/#8534909e3f",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "GÜNDOĞMUŞ BELEDİYE BAŞKANLIĞI 4 MEMUR ALACAK ( 21 Aralık - 5 Ocak)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 3676503148,
    "institution": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Sağlık Bilimleri Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
@@ -7728,31 +5827,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://www.sbu.edu.tr/",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 3676917238,
-   "institution": "İSTANBUL KALKINMA AJANSI",
-   "title": "İSTANBUL KALKINMA AJANSI 5 UZMAN ALACAK 2 Kasım - 22 Kasım",
-   "city": "İstanbul",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-22",
-   "application_start": "2026-11-02",
-   "link": "https://kamuilan.sbb.gov.tr/#194b81d356",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "İSTANBUL KALKINMA AJANSI 5 UZMAN ALACAK 2 Kasım - 22 Kasım",
-   "checked_at": "2026-11-19T09:20:44+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=ZVBZqRVVzAd1SbxDkM0J4bBbajHUNFZCrl4dGyEwguHGeEimSRE1FrFiNqcMElCnz8blZKlcqPEXJq3gphCAOYwW6iyv4rF9HMCKdUyxHglY0H1ZpyJLSzUgkXCxXNY5",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 3683843016,
@@ -7780,8 +5855,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2717fbe682aa4aac8cd.png",
    "basvuru_link": "https://www.tarsus.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 3694009181,
@@ -7811,8 +5887,9 @@
    "basvuru_adresleri": [
     "https://ilan.comu.edu.tr/"
    ],
+   "logo": "AdvertiserLogo\\5f5aa2667fbe682aa4aac4f0.png",
    "basvuru_link": "https://ilan.comu.edu.tr/",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 3717998634,
@@ -7838,7 +5915,8 @@
    "egitimler": [
     "Ön Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f5aa2327fbe682aa4aabc5a.png"
   },
   {
    "id": 3720363153,
@@ -7858,28 +5936,6 @@
    "employment_type": "Sözleşmeli personel",
    "description": "19 Nisan 2021 Aile, Çalışma ve Sosyal Hizmetler Bakanlığı Sözleşmeli Personel Alımı Sözlü Sınavı Sonuç Duyurusu",
    "checked_at": "2026-11-25T20:31:32+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 3725657156,
-   "institution": "BERGAMA BELEDİYE BAŞKANLIĞI",
-   "title": "BERGAMA BELEDİYE BAŞKANLIĞI 4 MEMUR ALACAK ( 9 Aralık - 11 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 4,
-   "deadline": "2026-12-11",
-   "application_start": "2026-12-09",
-   "link": "https://kamuilan.sbb.gov.tr/#c1ce858099",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "BERGAMA BELEDİYE BAŞKANLIĞI 4 MEMUR ALACAK ( 9 Aralık - 11 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
@@ -7909,7 +5965,8 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2327fbe682aa4aabc5a.png"
   },
   {
    "id": 3742336863,
@@ -7962,8 +6019,9 @@
     "https://w3.bartin.edu.tr/",
     "http://ubys.bartin.edu.tr/HRM/AkademikBasvuru/PersonelBasvuru/Giris"
    ],
-   "basvuru_link": "https://w3.bartin.edu.tr/",
-   "basvuru_tur": "diger"
+   "logo": "AdvertiserLogo\\5f5aa2427fbe682aa4aabe31.png",
+   "basvuru_link": "https://ubys.bartin.edu.tr/HRM/AkademikBasvuru/PersonelBasvuru/Giris",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 3764314302,
@@ -7989,7 +6047,8 @@
     "https://kariyerkapisi.gov.tr/isealim"
    ],
    "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "logo": "AdvertiserLogo\\5f5aa22a7fbe682aa4aab7f9.png"
   },
   {
    "id": 3768096656,
@@ -8016,7 +6075,8 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2327fbe682aa4aabc88.png"
   },
   {
    "id": 3775037191,
@@ -8065,7 +6125,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://personel.gumushane.edu.tr/sayfa/formlar",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ozel"
   },
   {
    "id": 3815940582,
@@ -8093,7 +6153,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://www.hku.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 3818173958,
@@ -8142,31 +6202,8 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "basvuru_link": "https://tga.gov.tr/kariyer",
-   "basvuru_tur": "ozel"
-  },
-  {
-   "id": 3831881075,
-   "institution": "SÜLEYMAN DEMİREL ÜNİVERSİTESİ",
-   "title": "SÜLEYMAN DEMİREL ÜNİVERSİTESİ 23 ÖĞRETİM ÜYESİ ALACAK ( 16 Kasım - 30 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#e6cd01be3b",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "SÜLEYMAN DEMİREL ÜNİVERSİTESİ 23 ÖĞRETİM ÜYESİ ALACAK ( 16 Kasım - 30 Kasım)",
-   "checked_at": "2026-11-19T09:20:57+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=vYBYr4k2bybWrJISfKY3y08nusK%2b6ejCaSDIc0yXw0Ah5m0HMyToXyuwgatoBMTFS%2frHXJaTSqrW1PK4eoko%2foNQ0FP23yB8Eajzx%2fMbxuLr%2bpgUxn0B5mtUVfetnmKa",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ozel",
+   "logo": "AdvertiserLogo\\635a592146bcc237cc3457da.jpg"
   },
   {
    "id": 3884482648,
@@ -8192,12 +6229,13 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://kariyerkapisi.gov.tr",
-   "basvuru_tur": "genel",
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr",
     "https://www.hmb.gov.tr"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa22b7fbe682aa4aab84f.png",
+   "basvuru_link": "https://kariyerkapisi.gov.tr",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3916003829,
@@ -8222,30 +6260,6 @@
    "iptal": true
   },
   {
-   "id": 3919603505,
-   "institution": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ",
-   "title": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ 4 ÖĞRETİM ELEMANI ALACAK ( 10 Kasım - 24 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-24",
-   "application_start": "2026-11-10",
-   "link": "https://kamuilan.sbb.gov.tr/#d12892046a",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ 4 ÖĞRETİM ELEMANI ALACAK ( 10 Kasım - 24 Kasım)",
-   "checked_at": "2026-11-19T09:21:12+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=w6GvnRczG%2bvnSrgEj8m7ThxyrhOQOh5HUMI6SrlaNTCK32qLyczwuFngKoxUdJ1AJHTr4kc9wqgEoCTY3G465PbwyJPFMCfDNH8mstRY%2b2azvd6uPb5qgzkR3DvbS1p8",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 3928778421,
    "institution": "TÜRMOB TÜRKİYE SERBEST MUHASEBECİ MALİ MÜŞAVİRLER VE YEMİNLİ MALİ  MÜŞAVİRLER ODALARI BİRLİĞİ",
    "title": "TÜRMOB'dan Yeminli Mali Müşavirlik Sınav Duyurusu",
@@ -8265,12 +6279,13 @@
    "checked_at": "2026-11-19T09:20:00+00:00",
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://login.tesmer.org.tr",
-   "basvuru_tur": "diger",
    "basvuru_adresleri": [
     "https://login.tesmer.org.tr",
     "http://belge.tesmer.org.tr"
-   ]
+   ],
+   "logo": "AdvertiserLogo\\5f5aa22f7fbe682aa4aaba8c.png",
+   "basvuru_link": "https://login.tesmer.org.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3962043203,
@@ -8315,7 +6330,8 @@
    "akademik": true,
    "puanlar": {},
    "iptal": true,
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2477fbe682aa4aabf10.png"
   },
   {
    "id": 3988086724,
@@ -8345,6 +6361,7 @@
     "https://kariyerkapisi.gov.tr",
     "http://www.turkak.org.tr"
    ],
+   "logo": "AdvertiserLogo\\5f5aa2377fbe682aa4aabd22.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr",
    "basvuru_tur": "genel"
   },
@@ -8379,32 +6396,9 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
+   "logo": "",
    "basvuru_link": "https://apbs.iuc.edu.tr",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 4004683318,
-   "institution": "MUNZUR ÜNİVERSİTESİ",
-   "title": "MUNZUR ÜNİVERSİTESİ 12 ÖĞRETİM ELEMANI ALACAK ( 10 Kasım - 25 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-25",
-   "application_start": "2026-11-10",
-   "link": "https://kamuilan.sbb.gov.tr/#0250eb8329",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "MUNZUR ÜNİVERSİTESİ 12 ÖĞRETİM ELEMANI ALACAK ( 10 Kasım - 25 Kasım)",
-   "checked_at": "2026-11-19T09:21:10+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=fjy%2bQKpp6dQ0j0mo5%2bjS1lP%2fcTU5T38ndh4NNVn6t0RMdKEszlVPOn4UBYADIMlZhqr%2f3XMma2hFMnKRFGpi0EZP285flz%2bok6CgxmWwJFPClmliqPkOYJxs0s4pnQxJ",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "basvuru_tur": "ana"
   },
   {
    "id": 4026213190,
@@ -8425,9 +6419,7 @@
    "description": "İstanbul Beykent Üniversitesi Rektörlüğünden: Üniversitemize 2547 sayılı Yükseköğretim Kanunu ve \"Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği” ile “İstanbul Beykent Üniversitesi Öğretim Üyeliğine Yükseltme ve Atama Yönergesi” ( https://www.beykent.edu.tr/yonetmelikler-yonergeler/yonergeler ) hükümlerinde aranan koşulları yerine getirmiş olmak kaydı ile aylık ve özlük hakları yönünden 4857 sayılı İş Kanunu hükümlerine tabi Mühendislik-Mimarlık Fakültesi, Fen-Edebiyat Fakültesi, Tıp Fakültesi ve Diş Hekimliği Fakültesi bünyesinde çeşitli alanlarda; 12 Öğretim Üyesi alınacaktır. İlana konu olan kadrolar tam zamanlıdır. İSTENEN BELGELER Profesör Kadrosuna Başvuracaklar; 1.Islak imzalı “Öğretim Üyesi Başvuru Formu”, 2.YÖK formatlı özgeçmiş, 3.Öğrenim durumunu gösteren belgeler (onaylı suret ve yurt dışından alınan diplomalar için denklik belgesi) ile doçentlik belgesi (e- Devlet üzerinden alınan belge), 4.Bilimsel yayın ve çalışmalarını kapsayan dosya (6 takım halinde cd ya da flash bellek olacak şekilde) 5.6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metnini vermeleri gerekmektedir. Doçent Kadrosuna Başvuracaklar; 1.Islak imzalı “Öğretim Üyesi Başvuru Formu”, 2.YÖK formatlı özgeçmiş, 3.Öğrenim durumunu gösteren belgeler (onaylı suret ve yurt dışından alınan diplomalar için denklik belgesi) ile doçentlik belgesi (e- Devlet üzerinden alınan belge), 4.Bilimsel yayın ve çalışmalarını kapsayan dosya (4 takım halinde cd ya da flash bellek olacak şekilde) 5.6698 Sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metnini vermeleri gerekmektedir. Doktor Öğretim Üyesi Kadrosuna Başvuracaklar; 1.“Islak imzalı Öğretim Üyesi Başvuru Formu”, 2.YÖK formatlı özgeçmiş, 3.Öğrenim durumunu gösteren belgeler (onaylı suret ve yurt dışından alınan diplomalar için denklik belgesi) ile doçentlik belgesi (e- Devlet üzerinden alınan belge), 4.Bilimsel yayın ve çalışmalarını kapsayan dosya (4 takım halinde cd ya da flash bellek olacak şekilde) 5.6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metnini vermeleri gerekmektedir. Başvurular bu ilanın Resmi Gazete’de yayım tarihinden itibaren 15 gün içinde İstanbul Beykent Üniversitesi Yazı İşleri Müdürlüğü’ne şahsen veya posta aracılığı ile yapılabilir. Postadaki gecikmeler ve eksik belge ile yapılan başvurular dikkate alınmaz. İnternet üzerinden başvurular kabul edilmez. Başvuru için gerekli belgeler ve diğe",
    "checked_at": "2026-11-19T09:18:16+00:00",
    "akademik": true,
-   "puanlar": {},
-   "basvuru_link": "https://www.beykent.edu.tr/yonetmelikler-yonergeler/yonergeler",
-   "basvuru_tur": "diger"
+   "puanlar": {}
   },
   {
    "id": 4054288854,
@@ -8473,30 +6465,6 @@
    "puanlar": {}
   },
   {
-   "id": 4079446297,
-   "institution": "KAMU İHALE KURUMU",
-   "title": "KAMU İHALE KURUMU 25 KAMU İHALE UZMAN YARDIMCISI ALACAK 9 Kasım - 20 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-20",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#584da230f6",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "KAMU İHALE KURUMU 25 KAMU İHALE UZMAN YARDIMCISI ALACAK 9 Kasım - 20 Kasım",
-   "checked_at": "2026-11-19T09:20:40+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=8UgZDE%2fJOvXir1dOwDPqAHt2Vl3utmnrDcUCkFpkwQueCqsGYFHFk0UkMpNGe%2bHc2eRz8qmCIcqBuN5wjZpGafexe0usMXQ7EOLT7JciX0KnW3IYsamQzT8XByd7yR%2fp",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 4090809752,
    "institution": "DOĞU KARADENİZ KALKINMA AJANSI GENEL SEKRETERLİĞİ (DOKA)",
    "title": "Doğu Karadeniz Kalkınma Ajansından (DOKA) Personel Alım İlanı",
@@ -8516,39 +6484,16 @@
    "checked_at": "2026-11-19T09:19:41+00:00",
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr",
-   "basvuru_tur": "genel",
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr"
    ],
    "egitimler": [
     "Lisans"
    ],
-   "egitim_tahmin": false
-  },
-  {
-   "id": 4092482962,
-   "institution": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ",
-   "title": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ 20 ÖĞRETİM ÜYESİ ALACAK ( 16 Kasım - 30 Kasım)",
-   "city": "Gaziantep",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#9e6ae32396",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ 20 ÖĞRETİM ÜYESİ ALACAK ( 16 Kasım - 30 Kasım)",
-   "checked_at": "2026-11-19T09:20:53+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=I1Nv6QJPjL%2fsw0RHNbvLRdKAodFTB3vLr2Jlh65CYePrpguDgmAx27g2lVoGIrTYWsiIRZcBN9PdMO%2f4SeOaJvu4VbzQAtPMsB6rNYsLQekxRsAsEVCKAD52%2fwQ87DJ4",
-   "belge_deneme": 2,
-   "puanlar": {}
+   "egitim_tahmin": false,
+   "logo": "AdvertiserLogo\\5f5aa2447fbe682aa4aabe6f.png",
+   "basvuru_link": "mailto:doka@doka.org.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 4101190687,
@@ -8595,7 +6540,8 @@
    "checked_at": "2026-11-19T09:17:44+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_adresleri": []
+   "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2327fbe682aa4aabc9c.png"
   },
   {
    "id": 4115964073,
@@ -8669,8 +6615,9 @@
     "https://personeltemin.jandarma.gov.tr",
     "https://kamuilan.sbb.gov.tr"
    ],
+   "logo": "AdvertiserLogo\\5f5aa22f7fbe682aa4aaba84.png",
    "basvuru_link": "https://personeltemin.jandarma.gov.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 4125586643,
@@ -8697,7 +6644,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://bogazici.edu.tr/tr/pages/formlar/343",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ozel"
   },
   {
    "id": 4137251901,
@@ -8727,30 +6674,6 @@
    "egitim_tahmin": false
   },
   {
-   "id": 4143782232,
-   "institution": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ",
-   "title": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ 15 ÖĞRETİM ÜYESİ ALACAK ( 18 Kasım - 2 Aralık)",
-   "city": "Bilecik",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-02",
-   "application_start": "2026-11-18",
-   "link": "https://kamuilan.sbb.gov.tr/#06b68a8770",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ 15 ÖĞRETİM ÜYESİ ALACAK ( 18 Kasım - 2 Aralık)",
-   "checked_at": "2026-11-19T09:20:50+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=iAprK2XolxeMBkPW56r9FRFDTntQ2DxaAx9O60eS64BKGvDryurSqq5ZIfXHefpCNWYxOcJ8XmPuBk0s7nbbZ66TH2BG6nDyflfjcHyDMcez7EuqWv%2fZM5brvFZ0LQY8",
-   "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
    "id": 4152703431,
    "institution": "01 Haziran 2026 AİLE VE SOSYAL HİZMETLER BAKANLIĞI",
    "title": "01 Haziran 2026 AİLE VE SOSYAL HİZMETLER BAKANLIĞI 680 SÖZLEŞMELİ PERSONEL ALIM SONUÇ DUYURUSU",
@@ -8771,77 +6694,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
-  },
-  {
-   "id": 4165782655,
-   "institution": "BOĞAZİÇİ ÜNİVERSİTESİ",
-   "title": "BOĞAZİÇİ ÜNİVERSİTESİ 1 ÖĞRETİM GÖREVLİSİ ALACAK ( 30 Ekim - 25 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-25",
-   "application_start": "2026-10-30",
-   "link": "https://kamuilan.sbb.gov.tr/#68a6b93a9d",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "BOĞAZİÇİ ÜNİVERSİTESİ 1 ÖĞRETİM GÖREVLİSİ ALACAK ( 30 Ekim - 25 Kasım)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "puanlar": {}
-  },
-  {
-   "id": 4175851599,
-   "institution": "GAZİOSMANPAŞA BELEDİYE BAŞKANLIĞI",
-   "title": "GAZİOSMANPAŞA BELEDİYE BAŞKANLIĞI 36 ZABITA MEMURU ALACAK ( 7 Aralık - 11 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-11",
-   "application_start": "2026-12-07",
-   "link": "https://kamuilan.sbb.gov.tr/#d35f02a676",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "GAZİOSMANPAŞA BELEDİYE BAŞKANLIĞI 36 ZABITA MEMURU ALACAK ( 7 Aralık - 11 Aralık)",
-   "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 4178218567,
-   "institution": "SAHİL GÜVENLİK KOMUTANLIĞI",
-   "title": "SAHİL GÜVENLİK KOMUTANLIĞI 10 MEMUR ALACAK 16 Kasım - 27 Kasım",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 10,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#1abceaf919",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "SAHİL GÜVENLİK KOMUTANLIĞI 10 MEMUR ALACAK 16 Kasım - 27 Kasım",
-   "checked_at": "2026-11-19T09:20:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=Y2GqRS5elRZtOelf5y5K3DlLXxVnH6AgKKz6jh2U9MAiNOid5iqacIyVhBaAuzx8YFwfCKhig%2b%2bjEGtFH4LdHYTry7Log39YGwXrhXOBSa8oh5zm4T%2bdoJcfBXGDWspC",
-   "belge_deneme": 2,
-   "puanlar": {},
-   "diger_kaynaklar": [
-    "Kamu İlan (SBB)"
-   ]
   },
   {
    "id": 4184738143,
@@ -8889,8 +6741,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\5f5aa2477fbe682aa4aabf0c.png",
    "basvuru_link": "https://www.agu.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 4204435365,
@@ -8965,8 +6818,9 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
+   "logo": "AdvertiserLogo\\6050879046bcc211942e1702.jpg",
    "basvuru_link": "https://www.atlas.edu.tr",
-   "basvuru_tur": "diger"
+   "basvuru_tur": "ana"
   },
   {
    "id": 4226020298,
@@ -9079,32 +6933,6 @@
    "description": "Sakarya Üniversitesi Rektörlüğünden Üniversitemiz birimlerine, “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri, 2547 Sayılı Yükseköğretim Kanunu ile 657 Sayılı Devlet Memurları Kanununun 48. maddesi hükümleri uyarınca Öğretim Elemanı alınacaktır. Adaylar ilan edilen kadrolardan ancak birine başvuru yapabilir, aynı ilan dönemi içinde birden fazla kadroya başvurusu bulunduğu tespit edilen adayların tüm başvuruları geçersiz sayılacaktır. Başvurular şahsen veya posta ile yapılacak olup süresi içinde yapılmayan ya da eksik belgeli yapılan başvurular değerlendirmeye alınmayacaktır. Postadaki gecikmelerden Üniversitemiz sorumlu değildir. İstenilen belgelerde gerçeğe aykırı beyanda bulunduğu tespit edilenlerin sınavı geçersiz sayılacak ve atamaları yapılmayacaktır. Bunların atamaları yapılmış olsa dahi iptal edilecek ve hiçbir hak talep edemeyeceklerdir. Bu kişiler hakkında yasal işlem yapılacaktır. Üniversitemiz sınav takviminde zorunlu hallerde değişiklik yapma hakkını saklı tutar ve ilanın her aşamasını iptal edebilir. http://www.ilan.sakarya.edu.tr/ adresinden yapılan tüm duyurular tebligat mahiyetindedir. Kişilere ayrıca yazılı tebligat yapılmayacaktır. Aşağıda belirtilen durumda bulunan adaylar Araştırma Görevlisi ilanlarına başvuru yapamazlar. 1) 06/02/2013 tarihinde Resmî Gazete’de yayımlanan Lisansüstü Eğitim Yönetmeliğinde tanımlanan azami öğrenim süresini dolduran ancak 2016-2017 eğitim öğretim güz yarıyılından itibaren azami süreleri tekrar başlatılan öğrenciler. 2) Lisansüstü Eğitim Yönetmeliğinin yayımlandığı 20/04/2016 tarihinden itibaren 2017 güz dönemine kadar geçen sürede azami öğrenim sürelerinin dolması nedeniyle kadro ile ilişikleri kesilen araştırma görevlilerinden, 2016-2017 güz döneminde azami öğrenim süresi yeniden başlayan öğrenciler. Araştırma görevlisi kadrosuna atamalar 2547 sayılı Yükseköğretim Kanunun 50/d maddesi uyarınca yapılacaktır. Araştırma Görevlisi kadrolarına başvuracak adaylar için Lisansüstü Eğitim ve Öğretim Yönetmeliğinde belirtilen “Azami Öğrenim Sürelerini” doldurmamış olmak şartı aranır. A) GENEL ve ÖZEL ŞARTLAR 1- 657 Sayılı Kanunun 48. maddesinde belirtilen şartları taşımak. 2- ALES’ten en az 70, Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir. Merkezi sınav mua",
    "checked_at": "2026-11-19T09:19:06+00:00",
    "akademik": true,
-   "puanlar": {},
-   "basvuru_link": "http://www.ilan.sakarya.edu.tr/",
-   "basvuru_tur": "diger"
-  },
-  {
-   "id": 4292145799,
-   "institution": "KIRIKKALE ÜNİVERSİTESİ",
-   "title": "KIRIKKALE ÜNİVERSİTESİ 1 ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "city": "Kırıkkale",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#111f8a22a3",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "KIRIKKALE ÜNİVERSİTESİ 1 ÖĞRETİM ELEMANI ALACAK ( 9 Kasım - 23 Kasım)",
-   "checked_at": "2026-11-19T09:21:14+00:00",
-   "kontrol_gerekli": true,
-   "akademik": true,
-   "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=FGC1s%2bew%2fm%2fqQYrbB1QylKGdORKvraeJNw09myJdPFOdQKi5kJDCV%2fIq3Fjzr%2bfds5A%2bYiw8%2fZeXnP6kDPuInue7yMAFzvPTrtoyCpx5eYypeAswda8HqtleLoAwOUX%2b",
-   "belge_deneme": 2,
    "puanlar": {}
   },
   {
