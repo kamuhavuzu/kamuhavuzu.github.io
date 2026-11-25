@@ -151,7 +151,7 @@ def ilan_gov_tr(session, mevcut, **_):
         print("[ilan.gov.tr] SSL sertifika hatasi, eksik ara sertifika araniyor...")
         session.verify = ek_sertifika_paketi("www.ilan.gov.tr")
     eklenen = 0
-    geri_hak = 60
+    geri_hak = 250
     for page in range(ic.MAX_PAGES):
         keys = {"ats": [ic.AD_TYPE_PERSONEL]}
         if page > 0:
@@ -188,6 +188,7 @@ def ilan_gov_tr(session, mevcut, **_):
                     try:
                         govde, _d = ic.fetch_detail(session, ad.get("id"))
                         eski_r["basvuru_adresleri"] = adresleri_bul(govde)
+                        eski_r["basvuru_oneri"] = oneri_bul(govde)
                         eski_r["description"] = govde[:ACIKLAMA_SINIR] or eski_r.get("description", "")
                     except (requests.RequestException, ValueError):
                         pass
@@ -207,7 +208,7 @@ def ilan_gov_tr(session, mevcut, **_):
                 deadline=iso(bit), application_start=iso(bas), puanlar=ic.parse_puan_tablosu(metin),
                 source_name="ilan.gov.tr", employment_type=ic.guess_employment(metin),
                 description=body[:ACIKLAMA_SINIR], akademik=akademik, logo=logo,
-                basvuru_adresleri=adresleri_bul(body))
+                basvuru_adresleri=adresleri_bul(body), basvuru_oneri=oneri_bul(body))
             eklenen += 1
             print(f"+ {ad.get('advertiserName')} - {ad.get('title')}")
         time.sleep(ic.DELAY)
@@ -405,17 +406,48 @@ def puanlari_yenile(mevcut):
 
 
 URL_RE = re.compile(r"https?://[^\s)\]>\"'«»]+", re.I)
+BOSLUK_ALAN_RE = re.compile(r"(?<![/\w@.\-])((?:www\.)?[a-z0-9\-]+(?:\.[a-z0-9\-]+)*\.(?:gov|edu|bel|org|com|net)\.tr(?:/[^\s)\]>\"'«»]*)?)", re.I)
+ONERI_ATLA = ("ilan.gov.tr", "mevzuat.gov.tr", "resmigazete.gov.tr", "turkiye.gov.tr", "kariyerkapisi.gov.tr")
+
+
+def _duzelt(u):
+    u = u.strip().rstrip(".,;:")
+    if not re.match(r"https?://", u, re.I):
+        u = "https://" + u
+    return re.sub(r"^http://", "https://", u, flags=re.I)
+
+
+def _urller(metin):
+    """(adres, metindeki konum) listesi; https olmayanlar https'e cevrilir, ayni adres tekrar edilmez."""
+    bulunan, gorulen = [], set()
+    for m in list(URL_RE.finditer(metin or "")) + list(BOSLUK_ALAN_RE.finditer(metin or "")):
+        u = _duzelt(m.group(0) if m.re is URL_RE else m.group(1))
+        anahtar = re.sub(r"^https://(www\.)?", "", u.lower()).rstrip("/")
+        if anahtar in gorulen:
+            continue
+        gorulen.add(anahtar)
+        bulunan.append((u, m.start()))
+    return sorted(bulunan, key=lambda x: x[1])
 
 
 def adresleri_bul(metin):
     """Ilan metnindeki disari giden (ilan.gov.tr disi) web adreslerini, sirayla en fazla 5 tane dondurur."""
-    bulunan = []
-    for u in URL_RE.findall(metin or ""):
-        u = u.rstrip(".,;:")
-        if "ilan.gov.tr" in u.lower() or u in bulunan:
+    return [u for u, _ in _urller(metin) if "ilan.gov.tr" not in u.lower()][:5]
+
+
+def oneri_bul(metin):
+    """'Basvuru' kelimesinin yakininda gecen, yolu olan (ana sayfa olmayan) kurum adresi; yoksa bos."""
+    for u, konum in _urller(metin):
+        dusuk = u.lower()
+        if any(x in dusuk for x in ONERI_ATLA):
             continue
-        bulunan.append(u)
-    return bulunan[:5]
+        yol = re.sub(r"^https://[^/]+", "", u).strip("/")
+        if len(yol) < 3:
+            continue
+        onceki = ic.norm((metin or "")[max(0, konum - 260):konum])
+        if "BASVUR" in onceki:
+            return u
+    return ""
 
 
 def _kurum_anahtar(s):
@@ -441,8 +473,11 @@ def basvuru_coz(mevcut):
         ozel = [u for u in adresler if "kariyerkapisi.gov.tr" in u.lower() and len(u.split("kariyerkapisi.gov.tr", 1)[1].strip("/")) > 8]
         genel_kk = [u for u in adresler if "kariyerkapisi.gov.tr" in u.lower()] or (["https://kariyerkapisi.gov.tr/isealim"] if "KARIYER KAPISI" in metin else [])
         link, tur = "", ""
+        oneri = r.get("basvuru_oneri") or oneri_bul(r.get("description", ""))
         if ozel:
             link, tur = ozel[0], "ozel"
+        elif oneri:
+            link, tur = oneri, "ozel"
         elif genel_kk:
             # Kariyer Kapisi'ndaki ayni ilani bulmaya calis (kurum + baslik benzerligi + tarih yakinligi)
             ka = _kurum_anahtar(r.get("institution"))
@@ -545,6 +580,11 @@ def main():
     print(f"Manuel ilan: {manuel_ilanlar(mevcut)}")
     print(f"Puani/tarihi yeni bulunan: {puanlari_yenile(mevcut)}")
     print(f"Basvuru adresi bulunan: {basvuru_coz(mevcut)}")
+    _t = {}
+    for _r in mevcut.values():
+        _k = _r.get("basvuru_tur") or ("yok" if _r.get("source_name") != "Kariyer Kapısı" else "kk")
+        _t[_k] = _t.get(_k, 0) + 1
+    print("Basvuru adresi durumu:", _t)
 
     bugun = date.today()
     for link, r in list(mevcut.items()):
