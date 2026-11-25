@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-25T05:45:55+00:00",
- "son_kontrol": "2026-11-25T05:45:55+00:00",
+ "guncelleme": "2026-11-25T06:01:17+00:00",
+ "son_kontrol": "2026-11-25T06:01:17+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 2,
-   "son_basari": "2026-11-25T05:45:51+00:00",
-   "sayi": 170
+   "son_basari": "2026-11-25T06:01:13+00:00",
+   "sayi": 171
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T05:45:53+00:00",
+   "son_basari": "2026-11-25T06:01:15+00:00",
    "sayi": 33
   },
   "Kamu İlan (SBB)": {
@@ -21,9 +21,10 @@
    "sayi": 111
   },
   "Resmî Gazete İlanlar": {
-   "durum": "eski",
-   "mesaj": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.resmigazete.gov.tr/ilanlar",
-   "son_basari": "2026-11-25T05:31:10+00:00",
+   "durum": "tamam",
+   "yeni": 0,
+   "son_basari": "2026-11-25T06:01:17+00:00",
+   "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
  },
@@ -2309,6 +2310,31 @@
    "checked_at": "2026-11-19T09:20:06+00:00",
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 1252114584,
+   "institution": "ÇAĞ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Çağ Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "city": "MERSİN",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-14",
+   "application_start": "2026-12-09",
+   "link": "https://www.ilan.gov.tr/ilan/2302666/kamu-akademik-personel-akademik-personel-alimlari-cag-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2302666/kamu-akademik-personel-akademik-personel-alimlari-cag-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Çağ Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemize 2547 sayılı Yükseköğretim Kanununu ve Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik uyarınca aşağıda belirtilen kadrolara tam gün statüde çalışacak öğretim elemanları alınacaktır. Başvurular bu ilanın aşağıda belirtilen son başvuru tarihine kadar istenen belgelerle birlikte Çağ Üniversitesi İnsan Kaynakları Direktörlüğüne şahsen veya posta aracılığı ile yapılabilir. Postadaki gecikmeler ve eksik belge ile yapılan başvurular dikkate alınmaz. İnternet üzerinden başvurular kabul edilmez. Akademik Birim Bölüm/ Program/ Anabilim Dalı Kadro Sayısı Ünvan ALES ve Merkezi Yabancı Dil Aranan Koşullar Sınav Takvimi İktisadi ve İdari Bilimler Fakültesi Uluslararası Finans ve Bankacılık 1 Arş. Gör. ALES (EA) 70 Yabancı Dil 85 Finans, Bankacılık, Finans ve Bankacılık, Finansal Ekonomi, Finansal Teknolojiler veya Sermaye Piyasaları alanlarının birinde tezli yüksek lisans mezunu veya öğrencisi olmak. Duyuru Başlama Tarihi : 25.11.2026 Son Başvuru Tarihi : 09.12.2026 Ön Değerlendirme Tarihi: 14.12.2026 Sınav Giriş Tarihi : 21.12.2026 Sonuç Açıklama Tarihi :25.12.2026 İktisadi ve İdari Bilimler Fakültesi Uluslararası Ticaret ve Lojistik 1 Arş. Gör. ALES (EA) 70 Yabancı Dil 85 Uluslararası ticaret ve lojistik, lojistik, lojistik yönetimi, tedarik zinciri yönetimi, endüstri mühendisliği alanlarının birinde tezli yüksek lisans mezunu veya öğrencisi olmak. İSTENEN BELGELER 1- Başvuru Formu (FRM-0113-Öğretim Görevlisi/Araştırma Görevlisi Başvuru Formu) 2- YÖK Formatlı Özgeçmiş. 3- Nüfus Cüzdanı Fotokopisi, 4- 1 Adet Fotoğraf 5- Adli Sicil Kaydı 6- Lisans/Yüksek Lisans /Doktora Diploması, Öğrenci ise Öğrenci Belgesi (Diploma Yurt Dışından Alınmış İse YÖK Denklik Belgesi) 7- Lisans Transkripti 8- ALES Belgesi 9- Yabancı Dil Belgesi Başvuru Adresi: Çağ Üniversitesi İnsan Kaynakları Direktörlüğü Yaşar Bayboğan Kampüsü Çukurova Uluslararası Havalimanı Yolu Üzeri 33800 Yenice-MERSİN",
+   "checked_at": "2026-11-25T06:00:58+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false
   },
   {
    "id": 1254622502,
