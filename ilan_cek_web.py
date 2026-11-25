@@ -189,6 +189,7 @@ def ilan_gov_tr(session, mevcut, **_):
                         govde, _d = ic.fetch_detail(session, ad.get("id"))
                         eski_r["basvuru_adresleri"] = adresleri_bul(govde)
                         eski_r["basvuru_oneri"] = oneri_bul(govde)
+                        eski_r["basvuru_eposta"] = eposta_bul(govde)
                         eski_r["description"] = govde[:ACIKLAMA_SINIR] or eski_r.get("description", "")
                     except (requests.RequestException, ValueError):
                         pass
@@ -208,7 +209,7 @@ def ilan_gov_tr(session, mevcut, **_):
                 deadline=iso(bit), application_start=iso(bas), puanlar=ic.parse_puan_tablosu(metin),
                 source_name="ilan.gov.tr", employment_type=ic.guess_employment(metin),
                 description=body[:ACIKLAMA_SINIR], akademik=akademik, logo=logo,
-                basvuru_adresleri=adresleri_bul(body), basvuru_oneri=oneri_bul(body))
+                basvuru_adresleri=adresleri_bul(body), basvuru_oneri=oneri_bul(body), basvuru_eposta=eposta_bul(body))
             eklenen += 1
             print(f"+ {ad.get('advertiserName')} - {ad.get('title')}")
         time.sleep(ic.DELAY)
@@ -462,6 +463,17 @@ def oneri_bul(metin):
     return ""
 
 
+EPOSTA_RE = re.compile(r"[A-Za-z0-9._%+\-]+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}")
+
+
+def eposta_bul(metin):
+    """'Basvuru' kelimesinin yakininda gecen e-posta adresi (e-postayla basvuru yapilan ilanlar icin); yoksa bos."""
+    for m in EPOSTA_RE.finditer(metin or ""):
+        if "BASVUR" in ic.norm((metin or "")[max(0, m.start() - 400):m.start()]):
+            return m.group(0).strip(".,;:").lower()
+    return ""
+
+
 def ana_sayfa_bul(metin):
     """'Basvuru' kelimesinin yakininda gecen kurum ana sayfasi (yolu olmayan adres); yoksa bos."""
     for u, konum in _urller(metin):
@@ -488,7 +500,7 @@ def basvuru_coz(mevcut):
     kk = [r for r in mevcut.values() if r.get("source_name") == "Kariyer Kapısı"]
     n = 0
     for r in mevcut.values():
-        if r.get("basvuru_tur") in ("diger", "genel", "ana"):   # belirsiz olanlar her seferinde yeniden denenir
+        if r.get("basvuru_tur") in ("diger", "genel", "ana", "eposta"):   # belirsiz olanlar her seferinde yeniden denenir
             r.pop("basvuru_link", None); r.pop("basvuru_tur", None)
     for r in mevcut.values():
         if r.get("source_name") == "Kariyer Kapısı" or r.get("basvuru_link"):
@@ -499,6 +511,7 @@ def basvuru_coz(mevcut):
         genel_kk = [u for u in adresler if "kariyerkapisi.gov.tr" in u.lower()] or (["https://kariyerkapisi.gov.tr/isealim"] if "KARIYER KAPISI" in metin else [])
         link, tur = "", ""
         oneri = r.get("basvuru_oneri") or oneri_bul(r.get("description", ""))
+        eposta = r.get("basvuru_eposta") or eposta_bul(r.get("description", ""))
         if ozel:
             link, tur = ozel[0], "ozel"
         elif oneri:
@@ -522,13 +535,17 @@ def basvuru_coz(mevcut):
                 adaylar = yakin or adaylar
             if len(adaylar) == 1:
                 link, tur = adaylar[0]["link"], "ozel"
+            elif eposta:
+                link, tur = "mailto:" + eposta, "eposta"
             else:
                 link, tur = genel_kk[0], "genel"
                 if n < 400:
                     print(f"[basvuru] KK'da eslesme yok/belirsiz ({len(adaylar)} aday): {r.get('institution')}")
         else:
             ana = ana_sayfa_bul(r.get("description", ""))
-            if ana:
+            if eposta:
+                link, tur = "mailto:" + eposta, "eposta"
+            elif ana:
                 link, tur = ana, "ana"
         if link:
             r["basvuru_link"], r["basvuru_tur"] = link, tur
