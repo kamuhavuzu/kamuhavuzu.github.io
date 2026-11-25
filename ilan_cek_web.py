@@ -175,13 +175,13 @@ def ilan_gov_tr(session, mevcut, **_):
             if not getattr(ilan_gov_tr, "_logo_yazildi", False):
                 ilan_gov_tr._logo_yazildi = True
                 print("[ilan.gov.tr] logo ornekleri:", {k: str(ad.get(k))[:120] for k in ("advertiserLogo", "adSourceLogoPath", "mainPhoto")})
-            logo = logo_al(ad)
+            logo = logo_al(ad, session)
             akademik = any(w in ic.norm(f"{ad.get('title', '')} {ad.get('advertiserName', '')}") for w in ic.SKIP_WORDS)
             link = ic.build_link(ad["urlStr"])
             if link in mevcut:
                 eski_r = mevcut[link]
-                if not eski_r.get("logo"):
-                    eski_r["logo"] = logo_al(ad)
+                if not str(eski_r.get("logo") or "").startswith("https://"):
+                    eski_r["logo"] = logo_al(ad, session)
                 if "basvuru_adresleri" not in eski_r and geri_hak > 0:   # eski kayitlara basvuru adresini sonradan ekle
                     geri_hak -= 1
                     time.sleep(ic.DELAY)
@@ -431,16 +431,41 @@ def _urller(metin):
     return sorted(bulunan, key=lambda x: x[1])
 
 
-def logo_al(ad):
-    """Ilani yayimlayan kurumun logosu (advertiserLogo). Goreli yol ise ilan.gov.tr adresine tamamlanir."""
-    v = str(ad.get("advertiserLogo") or "").strip()
+_LOGO = {"taban": None, "kontrol": False}
+LOGO_ADAYLARI = ["{p}", "Uploads/{p}", "uploads/{p}", "upload/{p}", "Upload/{p}", "files/{p}", "Files/{p}", "images/{p}",
+                 "Content/{p}", "content/{p}", "assets/{p}", "assets/img/{p}", "api/{p}", "ilan-api/{p}", "Resimler/{p}", "static/{p}"]
+
+
+def logo_taban_bul(session, yol):
+    """Ilan.gov.tr'de logo dosyalari hangi klasorden sunuluyor? Adaylari tek tek dener, calisani hatirlar."""
+    _LOGO["kontrol"] = True
+    for kalip in LOGO_ADAYLARI:
+        url = "https://www.ilan.gov.tr/" + kalip.format(p=yol)
+        try:
+            r = session.get(url, headers=UA, timeout=15, stream=True)
+            tip = (r.headers.get("content-type") or "").lower()
+            r.close()
+            print(f"[logo] {r.status_code} {tip[:20]} {url}")
+            if r.status_code == 200 and tip.startswith("image/"):
+                _LOGO["taban"] = kalip
+                return
+        except requests.RequestException as e:
+            print(f"[logo] hata {type(e).__name__} {url}")
+    print("[logo] calisan adres bulunamadi, logolar eklenmeyecek")
+
+
+def logo_al(ad, session=None):
+    """Ilani yayimlayan kurumun logosu (advertiserLogo) icin tam adres; bulunamazsa bos."""
+    v = str(ad.get("advertiserLogo") or "").strip().replace("\\", "/").lstrip("/")
     if not v or v.lower() in ("null", "none"):
         return ""
-    if v.startswith("//"):
-        return "https:" + v
-    if v.startswith("/"):
-        return "https://www.ilan.gov.tr" + v
-    return v
+    if v.lower().startswith(("http://", "https://")):
+        return v.replace("http://", "https://", 1)
+    if not _LOGO["kontrol"] and session is not None:
+        logo_taban_bul(session, v)
+    if not _LOGO["taban"]:
+        return ""
+    return "https://www.ilan.gov.tr/" + _LOGO["taban"].format(p=v)
 
 
 def adresleri_bul(metin):
