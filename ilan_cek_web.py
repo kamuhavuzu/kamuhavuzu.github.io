@@ -151,6 +151,7 @@ def ilan_gov_tr(session, mevcut, **_):
         print("[ilan.gov.tr] SSL sertifika hatasi, eksik ara sertifika araniyor...")
         session.verify = ek_sertifika_paketi("www.ilan.gov.tr")
     eklenen = 0
+    geri_hak = 60
     for page in range(ic.MAX_PAGES):
         keys = {"ats": [ic.AD_TYPE_PERSONEL]}
         if page > 0:
@@ -180,6 +181,16 @@ def ilan_gov_tr(session, mevcut, **_):
             akademik = any(w in ic.norm(f"{ad.get('title', '')} {ad.get('advertiserName', '')}") for w in ic.SKIP_WORDS)
             link = ic.build_link(ad["urlStr"])
             if link in mevcut:
+                eski_r = mevcut[link]
+                if "basvuru_adresleri" not in eski_r and geri_hak > 0:   # eski kayitlara basvuru adresini sonradan ekle
+                    geri_hak -= 1
+                    time.sleep(ic.DELAY)
+                    try:
+                        govde, _d = ic.fetch_detail(session, ad.get("id"))
+                        eski_r["basvuru_adresleri"] = adresleri_bul(govde)
+                        eski_r["description"] = govde[:ACIKLAMA_SINIR] or eski_r.get("description", "")
+                    except (requests.RequestException, ValueError):
+                        pass
                 continue
             time.sleep(ic.DELAY)
             try:
