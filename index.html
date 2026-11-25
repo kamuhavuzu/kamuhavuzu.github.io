@@ -433,6 +433,7 @@ const KURUM_KURALLARI=[
  ['ÖSYM',/OSYM|OLCME, SECME/],
  ['Bakanlık / Genel Müdürlük',/BAKANLIK|GENEL MUDURLUK|BASKANLIGI|BASKANLIK|MUDURLUGU|KURUMU|KURULU|AJANS/],
  ['Oda / Birlik / Borsa',/ODASI|BIRLIGI|BORSASI|BIRLIK/]];
+const KURUM_IKON={'MSB / TSK':'🎖️','Jandarma / Sahil Güvenlik':'🛡️','Polis / Emniyet':'👮','Üniversite':'🎓','Belediye / İl Özel İdaresi':'🏛️','Hastane / Sağlık':'🏥','Adalet / Mahkeme':'⚖️','İŞKUR':'💼','ÖSYM':'📝','Bakanlık / Genel Müdürlük':'🏢','Oda / Birlik / Borsa':'🤝','Diğer kamu kurumları':'🏢'};
 function kurumTuru(i){
   const k=norm(i.institution||''), t=k+' '+norm(i.title||'');
   for(const [a,re] of KURUM_KURALLARI) if(re.test(k)) return a;
@@ -553,7 +554,7 @@ function kart(i,idx){
   const giris=(i.durum==='bilinmiyor')?`<div class="sehir">İlan metninde taban puan bulunamadı. Resmî ilana bak, biliyorsan yaz:</div><div class="puan-giris"><input type="number" step="0.01" min="40" max="100" placeholder="Taban puanı biliyorsan yaz" data-id="${esc(i.id)}"><button type="button" data-kaydet="${esc(i.id)}">Kaydet</button></div>`:'';
   const f=favoriler.has(String(i.id));
   return `<article class="ilan ${i.durum}${gorulen.has(String(i.id))?' gorulmus':''}" style="animation-delay:${Math.min(idx,12)*30}ms">
-   <div class="kurum-satir"><div class="avatar" style="background:${renkAvatar(i.institution||'?')}">${esc(bas(i.institution))}</div>
+   <div class="kurum-satir"><div class="avatar" title="${esc(i.tur)}" style="background:${renkAvatar(i.institution||'?')}">${KURUM_IKON[i.tur]||esc(bas(i.institution))}</div>
      <div><div class="kurum-ad">${esc(i.institution)}</div><div class="sehir">${esc(i.city||'Şehir belirtilmemiş')} · ${esc(i.tur)}</div></div>
      <button class="fav ${f?'acik':''}" data-fav="${esc(i.id)}" title="Favori">${f?'★':'☆'}</button></div>
    <h3 class="baslik">${esc(i.title)}</h3>
