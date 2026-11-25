@@ -1,17 +1,17 @@
 {
- "guncelleme": "2026-11-25T08:45:53+00:00",
- "son_kontrol": "2026-11-25T10:01:18+00:00",
+ "guncelleme": "2026-11-25T10:15:56+00:00",
+ "son_kontrol": "2026-11-25T10:15:56+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 1,
-   "son_basari": "2026-11-25T10:01:15+00:00",
+   "son_basari": "2026-11-25T10:15:50+00:00",
    "sayi": 173
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T10:01:16+00:00",
+   "son_basari": "2026-11-25T10:15:51+00:00",
    "sayi": 33
   },
   "Kamu İlan (SBB)": {
@@ -23,7 +23,14 @@
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-25T10:01:18+00:00",
+   "son_basari": "2026-11-25T10:15:54+00:00",
+   "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
+   "sayi": 0
+  },
+  "TÜBİTAK İlanları": {
+   "durum": "tamam",
+   "yeni": 0,
+   "son_basari": "2026-11-25T10:15:56+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -161,7 +168,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=nA5ZFeQRrmCLRs9wywySNYkjIGbF0jcbre7RdFtQrVV2%2fE%2bJ7NmQrsKc2RH7u0bNkOBbsTuz4Vtw%2bNST6T38y5rIaq%2fjJRX57cszTqRd9cYSyhSEn2OHx4O4v3oqTK8F",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 100894450,
@@ -360,7 +370,10 @@
    "checked_at": "2026-11-23T06:01:18+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 195206248,
@@ -718,7 +731,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=VQJAzHJrruhobGLVZZyA0XT6KotBlRwPLhBcCT0iL88Nxa1WuGdvzMcyEpKbKT6D2QMsnig4wD%2bH6dAFFw0aIdD0LhwwSk9rh4yD%2b1lmeZ6li4nV3vR3CjCdlBXQQjmv",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 348489409,
@@ -922,7 +938,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=PzcoBECsrpIOtcZL2%2bPFVmHtPMkVOyF6yTeq7aSIbgY6Cz2UpTVOIfnspoDCYnnJJUYLwpQYRYZN1Lc%2fhhK3udcP9DMVLi8GSttfWgXakp1XhOvmgumY%2bFiDtDsH2YNp",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 507337115,
@@ -1132,7 +1151,10 @@
    "checked_at": "2026-11-23T06:01:18+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 630132503,
@@ -1403,7 +1425,10 @@
    "checked_at": "2026-11-23T06:01:18+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 802968413,
@@ -1637,7 +1662,10 @@
    "checked_at": "2026-11-23T06:01:18+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 904728919,
@@ -1752,7 +1780,10 @@
    "checked_at": "2026-11-23T06:01:18+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 938306272,
@@ -1795,7 +1826,10 @@
    "checked_at": "2026-11-23T06:01:18+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 940868118,
@@ -2129,28 +2163,6 @@
    "egitim_tahmin": false
   },
   {
-   "id": 1098411762,
-   "institution": "SAVUNMA SANAYİİ BAŞKANLIĞI",
-   "title": "SAVUNMA SANAYİİ BAŞKANLIĞI 26 PROJE BAZLI SÖZLEŞMELİ PERSONEL ALACAK ( 20 Kasım - 21 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-21",
-   "application_start": "2026-11-20",
-   "link": "https://kamuilan.sbb.gov.tr/#aee4975c4e",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "SAVUNMA SANAYİİ BAŞKANLIĞI 26 PROJE BAZLI SÖZLEŞMELİ PERSONEL ALACAK ( 20 Kasım - 21 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 1111796485,
    "institution": "Kamu İlan (SBB)",
    "title": "NÜKLEER DÜZENLEME KURUMU8 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK 9 Kasım - 23 Kasım",
@@ -2172,7 +2184,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=bwkLZwk2w2SYVkFvTMlp6AE1sjMkUQ%2fOjosG5TfF3PqSPzVJOObKOy8X6U4PTKZ4NchMQPGQHO%2ftSzd9QiXaTAZVzHJz1YC6iUZZgA58YwE9JotgsX6HBvj6o0x3qsQx",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 1147734015,
@@ -2501,28 +2516,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false
-  },
-  {
-   "id": 1328442923,
-   "institution": "BURSA TEKNİK ÜNİVERSİTESİ",
-   "title": "BURSA TEKNİK ÜNİVERSİTESİ 1 SÖZLEŞMELİ PSİKOLOG ALACAK ( 13 Kasım - 27 Kasım)",
-   "city": "Bursa",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-13",
-   "link": "https://kamuilan.sbb.gov.tr/#e5dcb1b04d",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "BURSA TEKNİK ÜNİVERSİTESİ 1 SÖZLEŞMELİ PSİKOLOG ALACAK ( 13 Kasım - 27 Kasım)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
   },
   {
    "id": 1329382043,
@@ -3026,7 +3019,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=h%2fDpxqxf5BLxASpfQbMM19XbuOk4wCkfFwdR%2b24v5Kut2rHIvBDdVmpJMa675sO5scBNk8v3BFoCRAnWqMsofSsDjX%2bQfR8aaty%2fn%2bnKTJGw8Sx4Y0LULlSmIuRGne%2f7",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 1763203413,
@@ -3052,28 +3048,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false
-  },
-  {
-   "id": 1830952022,
-   "institution": "DİCLE KALKINMA AJANSI",
-   "title": "DİCLE KALKINMA AJANSI 4 SÖZLEŞMELİ UZMAN PERSONEL ALACAK ( 4 Aralık - 18 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 4,
-   "deadline": "2026-12-18",
-   "application_start": "2026-12-04",
-   "link": "https://kamuilan.sbb.gov.tr/#27c7b21289",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "DİCLE KALKINMA AJANSI 4 SÖZLEŞMELİ UZMAN PERSONEL ALACAK ( 4 Aralık - 18 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
   },
   {
    "id": 1850438710,
@@ -3122,28 +3096,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false
-  },
-  {
-   "id": 1923190969,
-   "institution": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ",
-   "title": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ 1 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK 23 Kasım - 7 Aralık",
-   "city": "Ankara",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-07",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#a7e8fa4352",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ 1 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK 23 Kasım - 7 Aralık",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
   },
   {
    "id": 1923689356,
@@ -3500,7 +3452,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=u5jtsKc7rSJwX4tUO5SrjJytWPVU4XITEtBY%2b%2b%2bH1laQx0VW4EhEa5Sma8jBGIs9PFUYiZtwfAMpzf%2b5gEdULuiHuq4qIUn5dhtqSNeT8omc6r9XYiZpJUxr%2fqMowOjL",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 2063875429,
@@ -3520,28 +3475,6 @@
    "employment_type": "Memur",
    "description": "KARŞIYAKA (İZMİR) BELEDİYE BAŞKANLIĞI 6 MEMUR ALACAK ( 30 Kasım - 2 Aralık)",
    "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 2101783614,
-   "institution": "BARTIN ÜNİVERSİTESİ",
-   "title": "BARTIN ÜNİVERSİTESİ 1 SÖZLEŞMELİ PERSONEL ALACAK 20 Kasım - 5 Aralık",
-   "city": "Bartın",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-12-05",
-   "application_start": "2026-11-20",
-   "link": "https://kamuilan.sbb.gov.tr/#b95fa05186",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "BARTIN ÜNİVERSİTESİ 1 SÖZLEŞMELİ PERSONEL ALACAK 20 Kasım - 5 Aralık",
-   "checked_at": "2026-11-23T06:01:18+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
@@ -4062,28 +3995,6 @@
    "puanlar": {}
   },
   {
-   "id": 2315055990,
-   "institution": "Kamu İlan (SBB)",
-   "title": "NÜKLEER DÜZENLEME KURUMU8 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK ( 9 Kasım - 23 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 8,
-   "deadline": "2026-11-23",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#899217607a",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "NÜKLEER DÜZENLEME KURUMU8 SÖZLEŞMELİ BİLİŞİM PERSONELİ ALACAK ( 9 Kasım - 23 Kasım)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 2324891508,
    "institution": "BEZMİÂLEM VAKIF ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "Bezmiâlem Vakıf Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
@@ -4458,7 +4369,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=ZnceEJbLJD6SXpAchKFKa%2bEcB9hXteppoUX5qbuCBxEWfmwEfMtVlHY50FaFx9ahXLBEjcDGzi%2fLSuFZpVDFwg8cWQiOFMiLz%2bGQoY3983Lf1fEy2r5mP6T%2fI%2b2rmbXA",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 2600960678,
@@ -4537,7 +4451,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=05k0cSeRANXzLwJTURP%2ft7BctCZuZL0FxeGLNqFVeSEwipsdAYcctcZ7BSc9XGgc3hquXvMwZMcXIytXOUatmAPUljABgVHSdyFFq2AKqaKgSxPsHjgwQfhfVYnmUmC9",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 2663254066,
@@ -4703,28 +4620,6 @@
    "akademik": true,
    "puanlar": {},
    "iptal": true
-  },
-  {
-   "id": 2806112578,
-   "institution": "İÇİŞLERİ BAKANLIĞI",
-   "title": "İÇİŞLERİ BAKANLIĞI 1170 SÖZLEŞMELİ PERSONEL ALACAK ( 7 Aralık - 11 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1170,
-   "deadline": "2026-12-11",
-   "application_start": "2026-12-07",
-   "link": "https://kamuilan.sbb.gov.tr/#0e5385c5a6",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "İÇİŞLERİ BAKANLIĞI 1170 SÖZLEŞMELİ PERSONEL ALACAK ( 7 Aralık - 11 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
   },
   {
    "id": 2807956769,
@@ -5131,28 +5026,6 @@
    "puanlar": {}
   },
   {
-   "id": 3009229386,
-   "institution": "SAHİL GÜVENLİK KOMUTANLIĞI",
-   "title": "SAHİL GÜVENLİK KOMUTANLIĞI 10 MEMUR ALACAK ( 16 Kasım - 27 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 10,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#590d92eb12",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Memur",
-   "description": "SAHİL GÜVENLİK KOMUTANLIĞI 10 MEMUR ALACAK ( 16 Kasım - 27 Kasım)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 3012786875,
    "institution": "HAZİNE VE MALİYE BAKANLIĞI",
    "title": "2026 YILI STAJYER HAZİNE KONTROLÖRLÜĞÜ GİRİŞ SINAVI İLANI",
@@ -5240,7 +5113,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=wIwY%2bSxMi7W7QOOB5VWQ9cpgWGnbOROq4tZyyIgJfrbfJisNUvAG8Yj770m4vXhN2FNk38u%2bdaYpI%2f31zRIREDaTkSzhx9y2ufDfC%2fffHiWUEOrsxpWWed6nRmiiYZb8",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 3062184412,
@@ -5509,28 +5385,6 @@
    "puanlar": {}
   },
   {
-   "id": 3168057196,
-   "institution": "YILDIZ TEKNİK ÜNİVERSİTESİ",
-   "title": "YILDIZ TEKNİK ÜNİVERSİTESİ 2 BİLİŞİM PERSONELİ ALACAK ( 2 Kasım - 1 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-01",
-   "application_start": "2026-11-02",
-   "link": "https://kamuilan.sbb.gov.tr/#1b5253ab9d",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "YILDIZ TEKNİK ÜNİVERSİTESİ 2 BİLİŞİM PERSONELİ ALACAK ( 2 Kasım - 1 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 3191832862,
    "institution": "SAYIŞTAY BAŞKANLIĞI",
    "title": "Sayıştay Başkanlığından Sözleşmeli Çözümleyici ve Programcı Alım İlanı",
@@ -5580,28 +5434,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false
-  },
-  {
-   "id": 3244291857,
-   "institution": "ZAFER KALKINMA AJANSI",
-   "title": "ZAFER KALKINMA AJANSI 2 SÖZLEŞMELİ PERSONEL ALACAK ( 25 Kasım - 14 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 2,
-   "deadline": "2026-12-14",
-   "application_start": "2026-11-25",
-   "link": "https://kamuilan.sbb.gov.tr/#4b1f080870",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "ZAFER KALKINMA AJANSI 2 SÖZLEŞMELİ PERSONEL ALACAK ( 25 Kasım - 14 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
   },
   {
    "id": 3281215773,
@@ -6117,7 +5949,10 @@
    "checked_at": "2026-11-23T06:01:18+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 3617053955,
@@ -6141,28 +5976,6 @@
    "akademik": true,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=ji9jDQHJOAIlSL%2feD%2fnYg59aaEqnZGOyY%2bj9NV18GWlHH3zIGGZu80b8dkz8H4a0a1UJ9DZ6i9zNap1xP0MlBxMCAV4P1twkVJIYJPXsnU%2f01OC0YhFLz1xMfsoZOGw0",
    "belge_deneme": 2,
-   "puanlar": {}
-  },
-  {
-   "id": 3640482820,
-   "institution": "ADLİ TIP KURUMU",
-   "title": "ADLİ TIP KURUMU BAŞKANLIĞI 181 SÖZLEŞMELİ PERSONEL ALACAK 30 Kasım - 6 Aralık",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 181,
-   "deadline": "2026-12-06",
-   "application_start": "2026-11-30",
-   "link": "https://kamuilan.sbb.gov.tr/#89caddb9d0",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "ADLİ TIP KURUMU BAŞKANLIĞI 181 SÖZLEŞMELİ PERSONEL ALACAK 30 Kasım - 6 Aralık",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
    "puanlar": {}
   },
   {
@@ -6204,28 +6017,6 @@
    "employment_type": "Memur",
    "description": "GÜNDOĞMUŞ BELEDİYE BAŞKANLIĞI 4 MEMUR ALACAK ( 21 Aralık - 5 Ocak)",
    "checked_at": "2026-11-19T09:21:28+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 3664136094,
-   "institution": "TÜRK AKREDİTASYON KURUMU",
-   "title": "TÜRK AKREDİTASYON KURUMU 3 SÖZLEŞMELİ KORUMA VE GÜVENLİK PERSONELİ ALACAK ( 23 Kasım - 7 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 3,
-   "deadline": "2026-12-07",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#9bd7724ce6",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "TÜRK AKREDİTASYON KURUMU 3 SÖZLEŞMELİ KORUMA VE GÜVENLİK PERSONELİ ALACAK ( 23 Kasım - 7 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
@@ -6398,28 +6189,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false
-  },
-  {
-   "id": 3745968012,
-   "institution": "SAYIŞTAY BAŞKANLIĞI",
-   "title": "SAYIŞTAY BAŞKANLIĞI 16 SÖZLEŞMELİ PERSONEL ALACAK ( 11 Kasım - 25 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 16,
-   "deadline": "2026-11-25",
-   "application_start": "2026-11-11",
-   "link": "https://kamuilan.sbb.gov.tr/#20635b1938",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "SAYIŞTAY BAŞKANLIĞI 16 SÖZLEŞMELİ PERSONEL ALACAK ( 11 Kasım - 25 Kasım)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
   },
   {
    "id": 3763246659,
@@ -6616,72 +6385,6 @@
    "puanlar": {}
   },
   {
-   "id": 3856056492,
-   "institution": "ANADOLU ÜNİVERSİTESİ",
-   "title": "ANADOLU ÜNİVERSİTESİ 1 SÖZLEŞMELİ PERSONEL ALACAK ( 16 Kasım - 30 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": 1,
-   "deadline": "2026-11-30",
-   "application_start": "2026-11-16",
-   "link": "https://kamuilan.sbb.gov.tr/#dda9417397",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Sözleşmeli personel",
-   "description": "ANADOLU ÜNİVERSİTESİ 1 SÖZLEŞMELİ PERSONEL ALACAK ( 16 Kasım - 30 Kasım)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 3866499301,
-   "institution": "Kamu İlan (SBB)",
-   "title": "MİLLİ SAVUNMA BAKANLIĞIENGELLİ VE TERÖRLE MÜCADELEDE MALUL SAYILMAYACAK ŞEKİLDE YARALANANLARDAN SÜREKLİ İŞÇİ TEMİNİ İLANI ( 23 Kasım - 27 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#e73838fc38",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "İşçi",
-   "description": "MİLLİ SAVUNMA BAKANLIĞIENGELLİ VE TERÖRLE MÜCADELEDE MALUL SAYILMAYACAK ŞEKİLDE YARALANANLARDAN SÜREKLİ İŞÇİ TEMİNİ İLANI ( 23 Kasım - 27 Kasım)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
-   "id": 3870651247,
-   "institution": "Kamu İlan (SBB)",
-   "title": "ORTA ANADOLU KALKINMA AJANSI6 UZMAN, 1 DESTEK PERSONELİ ALACAK ( 9 Kasım - 3 Aralık)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-12-03",
-   "application_start": "2026-11-09",
-   "link": "https://kamuilan.sbb.gov.tr/#0cbfed37ff",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "Diğer",
-   "description": "ORTA ANADOLU KALKINMA AJANSI6 UZMAN, 1 DESTEK PERSONELİ ALACAK ( 9 Kasım - 3 Aralık)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
-  },
-  {
    "id": 3884482648,
    "institution": "HAZİNE KONTROLÖRLERİ KURULU BAŞKANLIĞI",
    "title": "Stajyer Hazine Kontrolörlüğü Giriş Sınavı İlanı",
@@ -6705,28 +6408,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false
-  },
-  {
-   "id": 3907840167,
-   "institution": "ONDOKUZ MAYIS ÜNİVERSİTESİ",
-   "title": "ONDOKUZ MAYIS ÜNİVERSİTESİ 21 SüREKLİ İŞÇİ ALACAK ( 23 Kasım - 27 Kasım)",
-   "city": "",
-   "department": "Herhangi",
-   "education_level": "",
-   "kpss_type": "",
-   "min_kpss": null,
-   "quota": null,
-   "deadline": "2026-11-27",
-   "application_start": "2026-11-23",
-   "link": "https://kamuilan.sbb.gov.tr/#6693fa4cd2",
-   "source_url": "https://kamuilan.sbb.gov.tr/",
-   "source_name": "Kamu İlan (SBB)",
-   "employment_type": "İşçi",
-   "description": "ONDOKUZ MAYIS ÜNİVERSİTESİ 21 SüREKLİ İŞÇİ ALACAK ( 23 Kasım - 27 Kasım)",
-   "checked_at": "2026-11-23T06:01:18+00:00",
-   "kontrol_gerekli": true,
-   "akademik": false,
-   "puanlar": {}
   },
   {
    "id": 3916003829,
@@ -7277,7 +6958,10 @@
    "akademik": false,
    "orijinal_link": "https://kamuilan.sbb.gov.tr/ilanDetay.aspx?kod=Y2GqRS5elRZtOelf5y5K3DlLXxVnH6AgKKz6jh2U9MAiNOid5iqacIyVhBaAuzx8YFwfCKhig%2b%2bjEGtFH4LdHYTry7Log39YGwXrhXOBSa8oh5zm4T%2bdoJcfBXGDWspC",
    "belge_deneme": 2,
-   "puanlar": {}
+   "puanlar": {},
+   "diger_kaynaklar": [
+    "Kamu İlan (SBB)"
+   ]
   },
   {
    "id": 4184738143,
