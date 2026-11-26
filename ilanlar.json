@@ -1,30 +1,30 @@
 {
  "guncelleme": "2026-11-26T09:36:04+00:00",
- "son_kontrol": "2026-11-26T10:30:04+00:00",
+ "son_kontrol": "2026-11-26T10:31:16+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 4,
-   "son_basari": "2026-11-26T10:29:59+00:00",
+   "son_basari": "2026-11-26T10:31:11+00:00",
    "sayi": 188
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T10:30:01+00:00",
+   "son_basari": "2026-11-26T10:31:13+00:00",
    "sayi": 35
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T10:30:02+00:00",
+   "son_basari": "2026-11-26T10:31:15+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "TÜBİTAK İlanları": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T10:30:03+00:00",
+   "son_basari": "2026-11-26T10:31:15+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
