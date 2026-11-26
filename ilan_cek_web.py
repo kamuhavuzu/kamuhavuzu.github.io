@@ -100,7 +100,7 @@ def _pdf_metinini_oku(session, url):
                     sayfalar.append(metin)
             except Exception:
                 continue
-        metin = "\\n".join(sayfalar)
+        metin = "\n".join(sayfalar)
         # Taranmis/goruntu tabanli PDF'lerde metin katmani bos olabilir.
         # KPSS puani normal metin katmanindan cikmadiysa sayfalari Turkce OCR ile tara.
         puan_var = (ic.parse_min_kpss(metin) is not None or bool(ic.parse_puan_tablosu(metin)))
@@ -110,20 +110,22 @@ def _pdf_metinini_oku(session, url):
                 from PIL import Image
                 import pytesseract
                 ocr_sayfalar = []
-                for sayfa in reader.pages[:20]:
-                    # PDF sayfasini 180-200 DPI civarinda rasterize et.
-                    doc = fitz.open(stream=bytes(parca), filetype="pdf")
-                    page = doc[sayfa.number]
-                    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), alpha=False)
-                    image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                    ocr = pytesseract.image_to_string(image, lang="tur+eng", config="--psm 6")
-                    if ocr.strip():
-                        ocr_sayfalar.append(ocr)
+                doc = fitz.open(stream=bytes(parca), filetype="pdf")
+                try:
+                    for page_index in range(min(len(doc), 20)):
+                        # PDF sayfasini 180-200 DPI civarinda rasterize et.
+                        page = doc.load_page(page_index)
+                        pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), alpha=False)
+                        image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                        ocr = pytesseract.image_to_string(image, lang="tur+eng", config="--psm 6")
+                        if ocr.strip():
+                            ocr_sayfalar.append(ocr)
+                finally:
                     doc.close()
                 if ocr_sayfalar:
-                    ocr_metin = "\\n".join(ocr_sayfalar)
+                    ocr_metin = "\n".join(ocr_sayfalar)
                     print(f"[PDF-OCR] {len(ocr_sayfalar)} sayfa tarandi: {url}")
-                    metin = metin + "\\n[OCR METNI]\\n" + ocr_metin
+                    metin = metin + "\n[OCR METNI]\n" + ocr_metin
             except Exception as ocr_hata:
                 print(f"[PDF-OCR] kullanilamadi: {type(ocr_hata).__name__}: {url}")
         return metin[:DETAY_METIN_LIMIT]
