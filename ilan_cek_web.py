@@ -568,7 +568,7 @@ def puan_bulunamayanlari_yenile(session, mevcut, limit=24):
             if deger.startswith("http") and deger not in url_adaylari:
                 url_adaylari.append(deger)
         aciklama = str(row.get("description") or "")
-        for eslesme in re.finditer(r"https?://[^\\s]+", aciklama, re.I):
+        for eslesme in re.finditer(r"https?://[^\s]+", aciklama, re.I):
             deger = eslesme.group(0).rstrip(".,;:)]}\\\"'")
             if deger.lower().endswith(".pdf") and deger not in url_adaylari:
                 url_adaylari.insert(0, deger)
