@@ -916,6 +916,14 @@ function son(i){
   return `<span class="son ${i.kalan<=3?'acil':''}">Son: ${gunFmt(i.bitis)} · ${i.kalan} gün</span>`;
 }
 const virg=n=>String(n).replace('.',',');
+function profilUyumu(i,d){
+ const kriter=[];
+ if(d.egitim){if(i.egitimler.length)kriter.push(i.egitimler.includes(d.egitim)?1:0);else if(i.education_level)kriter.push(i.education_level===d.egitim?1:0)}
+ if(d.sehir&&d.sehir!=="Tümü"&&i.city)kriter.push(i.city===d.sehir?1:0);
+ if(d.puan>0&&d.tur){const taban=i.puanlar[d.tur]||((i.kpss_type===d.tur)?i.minP:0);if(taban>0)kriter.push(d.puan>=taban?1:0)}
+ if(d.bolumYaz){const b=norm(d.bolumYaz);if(i.ai&&i.ai.bolum)kriter.push(norm(i.ai.bolum).includes(b)?1:0);else if(i.description||i.title)kriter.push(norm((i.title||"")+" "+(i.description||"")).includes(b)?1:0)}
+ return kriter.length?Math.round(kriter.reduce((a,b)=>a+b,0)/kriter.length*100):null;
+}
 function fitRozet(i){
   if(i.durum==='yesil') return '<span class="rozet r-yesil">🟢 Puanın yetiyor</span>';
   if(i.durum==='sari') return `<span class="rozet r-sari">🟡 ${i.fark.toFixed(2).replace('.',',')} puan eksik</span>`;
@@ -934,6 +942,8 @@ function kart(i,idx){
   rz.push(`<span class="rozet">${esc(i.employment_type||'Diğer')}</span>`);
   if(i.bas&&i.bas>new Date()) rz.push(`<span class="rozet r-mavi">📅 ${gunFmt(i.bas)} başlıyor</span>`);
   rz.push(kaynakDurumRozeti(i));
+  const profilSkor=profilUyumu(i,durum());
+  if(profilSkor!==null) rz.push('<span class="kr-fit-score">Profil eşleşmesi %'+profilSkor+'</span>');
   const f=favoriler.has(String(i.id)), secili=karsilastirma.has(String(i.id));
   return `<article class="ilan ${i.durum}${gorulen.has(String(i.id))?' gorulmus':''}" data-id="${esc(i.id)}" tabindex="0" style="animation-delay:${Math.min(idx,12)*30}ms">
    <div class="kurum-satir">${avatarHtml(i)}
@@ -942,6 +952,51 @@ function kart(i,idx){
    <h3 class="baslik">${esc(i.title)}</h3>
    <div class="rozetler">${rz.filter(Boolean).join('')}</div>
    <div class="alt"><div>${son(i)}</div><button type="button" class="btn-karsilastir" data-compare="${esc(i.id)}">${secili?"✓ Seçildi":"＋ Karşılaştır"}</button><span class="detay">Detay →</span></div></article>`;
+}
+
+
+const checklistAdimlari=["Resmî ilan metnini ve tüm eklerini okudum","Eğitim, bölüm ve KPSS şartlarını kontrol ettim","İstenen belgeleri hazırladım","Başvuruyu resmî kanaldan tamamladım","Başvuru onayı / evrak numarasını sakladım"];
+function checklistHtml(i){
+ let done={};try{done=JSON.parse(oku("k_check_"+i.id)||"{}")}catch(e){}
+ const n=checklistAdimlari.filter((x,k)=>done[k]).length;
+ return '<div class="kr-checklist"><h3>☑ Başvuru kontrol listem</h3>'+checklistAdimlari.map((x,k)=>'<label><input type="checkbox" data-check="'+k+'" '+(done[k]?'checked':'')+'>'+x+'</label>').join('')+'<div class="kr-check-progress">'+n+'/'+checklistAdimlari.length+' adım tamamlandı · yalnızca bu cihazda saklanır</div></div>';
+}
+function ilanSoruCevap(i,k){
+ const ai=i.ai||{};
+ if(k==="kpss")return ai.kpss_turu||i.kpss_type||Object.keys(i.puanlar||{}).join(", ")||(i.kpssVar===false?"İlan açıklamasında KPSS şartı görünmüyor.":"KPSS türü ve taban puan güvenilir biçimde okunamadı. Resmî metni kontrol et.");
+ if(k==="egitim")return [ai.egitim||i.education_level||(i.egitimler||[]).join(", "),ai.bolum].filter(Boolean).join(" · ")||"Eğitim ve bölüm şartı veri kaydında net değil. Resmî ilanın özel şartlarını kontrol et.";
+ if(k==="belge")return (ai.ozel_sartlar||[]).length?ai.ozel_sartlar.join("; "):"Belgeler için ilanın başvuru kılavuzunu ve eklerini incele. Sistem belge listesi uydurmaz.";
+ return "Bu yanıtlar ilandan çıkarılan mevcut verilere dayanır; kesin başvuru şartı için resmî ilanı aç.";
+}
+function hizliProfilDoldur(){
+ const edu=$("krQuickEdu").value,city=$("krQuickCity").value,score=$("krQuickScore").value,dept=$("krQuickDept").value;
+ $("fEgitim").value=edu;bolumDoldur();otoTur();$("fSehir").value=city||"Tümü";$("fPuan").value=score;$("fBolumYaz").value=dept;
+ kaydet();yaz("k_quick_edu",edu);yaz("k_quick_city",city);yaz("k_quick_score",score);yaz("k_quick_dept",dept);
+ yenidenCiz();$("ilanlar").scrollIntoView({behavior:"smooth"});
+}
+function kayitliAramaCiz(){
+ const el=$("krSavedSearches");if(!el)return;let a=[];try{a=JSON.parse(oku("k_saved_searches")||"[]")}catch(e){}
+ el.innerHTML='<option value="">Kayıtlı aramalar</option>'+a.map((x,i)=>'<option value="'+i+'">'+esc(x.name)+'</option>').join('');
+}
+function aramaAnlikDurum(){
+ return {name:"Aramam "+new Date().toLocaleDateString("tr-TR"),q:$("q").value,egitim:$("fEgitim").value,bolum:$("fBolum").value,bolumYaz:$("fBolumYaz").value,tur:$("fTur").value,puan:$("fPuan").value,sehir:$("fSehir").value,kurum:$("fKurum").value,calisma:$("fCalisma").value,kaynak:$("fKaynak").value,yas:$("fYas").value,ehliyet:$("fEhliyet").value,akademik:$("fAkademik").checked,bitmis:$("fBitmis").checked,cip:[...cip]};
+}
+function aramaUygula(x){
+ $("q").value=x.q||"";$("fEgitim").value=x.egitim||"";bolumDoldur(x.bolum);$("fBolumYaz").value=x.bolumYaz||"";
+ $("fTur").value=x.tur||OTO_TUR[$("fEgitim").value]||"P3";$("fPuan").value=x.puan||"";$("fSehir").value=x.sehir||"Tümü";
+ $("fKurum").value=x.kurum||"Tümü";$("fCalisma").value=x.calisma||"";$("fKaynak").value=x.kaynak||"Tümü";
+ $("fYas").value=x.yas||"";$("fEhliyet").value=x.ehliyet||"";$("fAkademik").checked=!!x.akademik;$("fBitmis").checked=!!x.bitmis;
+ cip=new Set(x.cip||[]);kaydet();cipCiz();yenidenCiz();
+}
+function analitikCiz(){
+ const el=$("krAnalytics");if(!el)return;
+ const acik=tum.filter(i=>!i.iptal&&(i.kalan===null||i.kalan>=0));
+ const groups=[["Eğitim düzeyi",i=>i.egitimler[0]||i.education_level||"Belirtilmemiş"],["Kurum türü",i=>i.tur||"Diğer"],["Şehir",i=>i.city||"Belirtilmemiş"]];
+ el.innerHTML='<div class="kr-analytics-grid">'+groups.map(([title,fn])=>{
+  const counts={};acik.forEach(i=>{const k=fn(i);counts[k]=(counts[k]||0)+1});
+  const top=Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,6),max=Math.max(1,...top.map(x=>x[1]));
+  return '<section><h3>'+title+'</h3>'+top.map(([k,v])=>'<div class="kr-bar-row"><div><div>'+esc(k)+'</div><div class="kr-bar-track"><div class="kr-bar-fill" style="width:'+(v/max*100)+'%"></div></div></div><b>'+v+'</b></div>').join('')+'</section>';
+ }).join('')+'</div>';
 }
 
 /* ---------- ilan ayrıntı penceresi ---------- */
@@ -1000,6 +1055,8 @@ function modalAc(id){
      :`<a class="btn-ana" target="_blank" rel="noopener" href="${esc(i.link)}"${kopya?` data-kopya="${esc(i.title)}"`:''}>📄 Resmî ilanı aç</a>`}
      <button type="button" class="btn-ikinci" data-fav="${esc(i.id)}">${f?'★ Favorilerden çıkar':'☆ Favoriye ekle'}</button>
      <button type="button" class="btn-ikinci" data-linkkopya="${esc(i.link)}">🔗 Bağlantıyı kopyala</button>
+     ${checklistHtml(i)}
+     <div class="kr-ai-help"><b>İlan danışmanı</b><p>İlan verilerinden hızlı yanıt al. Eksik bilgi tahmin edilmez.</p><div class="kr-ai-questions"><button type="button" data-aiq="kpss">KPSS şartı ne?</button><button type="button" data-aiq="egitim">Eğitim / bölüm şartı?</button><button type="button" data-aiq="belge">Özel şartlar / belgeler?</button></div><div class="kr-ai-answer" id="krAiAnswer" aria-live="polite">Bir konu seç. Yapay zekâ analizinin bulunmadığı alanlarda resmî ilanı kontrol etmen istenir.</div></div>
      <div class="m-not">Bilgiler ilan metninden otomatik okunur ve hatalı olabilir. Başvuru her zaman resmî ilandaki yöntemle yapılır.</div></div></div>`;
   $('modal').hidden=false; document.body.classList.add('modal-acik'); modalId=id;
   $('modalIc').scrollTop=0; const k=$('modalIc').querySelector('[data-mkapat]'); if(k) k.focus();
@@ -1031,6 +1088,7 @@ function listele(){
   const sira=$('fSira').value, oncelik={yesil:0,sari:1,kirmizi:2,bilinmiyor:3,notr:0};
   sonuc=[...sonuc].sort((a,b)=>{
     if(sira==='uygun'&&oncelik[a.durum]!==oncelik[b.durum]) return oncelik[a.durum]-oncelik[b.durum];
+    if(sira==='uygun'){const x=profilUyumu(a,d),y=profilUyumu(b,d);if(x!==null&&y!==null&&x!==y)return y-x;}
     if(sekme==='yakin') return (a.bas||0)-(b.bas||0);
     if(sekme==='yeni7'){const x=yeniAnahtar(a),y=yeniAnahtar(b);return (y[0]-x[0])||(y[1]-x[1])||(y[2]-x[2])}
     if(sira==='yeni') return (b.bas||0)-(a.bas||0);
@@ -1131,6 +1189,7 @@ function istatistik(){
   $('sYakin').textContent=tum.filter(i=>!i.iptal&&!i.akademik&&i.bas&&i.bas>bugun).length;
   $('sYeni7').textContent=tum.filter(i=>!i.iptal&&!i.akademik&&(i.kalan===null||i.kalan>=0)&&yeniAnahtar(i)[0]>=bugunGun()-7).length;
   $('sArsiv').textContent=tum.filter(i=>!i.iptal&&i.kalan!==null&&i.kalan<0).length;
+  analitikCiz();
 }
 
 /* ---------- seçenekler ---------- */
