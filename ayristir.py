@@ -20,7 +20,7 @@ HEADERS = {
     "referer": BASE + "/ilan/tum-ilanlar",
     "x-request-origin": "IGT-UI",
     "x-requested-with": "XMLHttpRequest",
-    "user-agent": "KamuRadar/1.0 (kisisel kullanim)",
+    "user-agent": "KamuHavuzu/1.0 (kisisel kullanim)",
 }
 
 _TR = str.maketrans("İıÖöÜüŞşÇçĞğ", "IiOoUuSsCcGg")
