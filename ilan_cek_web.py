@@ -720,6 +720,31 @@ def tekillestir(ilanlar):
     return sonuc
 
 
+_AY = {"ocak":1,"şubat":2,"subat":2,"mart":3,"nisan":4,"mayıs":5,"mayis":5,"haziran":6,"temmuz":7,"ağustos":8,"agustos":8,"eylül":9,"eylul":9,"ekim":10,"kasım":11,"kasim":11,"aralık":12,"aralik":12}
+_ILAN_DISI = re.compile(r"sonu[çc]|yerle[şs]tirme|sözlü sınav|sozlu sinav|yazılı sınav|yazili sinav|tercih duyuru|taban ve tavan|tavan ve taban|erteleme|sınav tarihi|hak kazanan|değerlendirme sonu|yedek ol|atanmaya", re.I)
+
+def ilan_disi_temizle(mevcut):
+    """Ek kaynaklardaki (bakanlik duyuru sayfalari) sonuc/sinav duyurularini ve eski ilanlari havuzdan cikarir."""
+    bugun = date.today()
+    silinecek = []
+    for k, r in mevcut.items():
+        if r.get("source_name") in ("ilan.gov.tr", "Kariyer Kapısı"):
+            continue
+        b = str(r.get("title") or "")
+        m = re.match(r"\s*(\d{1,2})\s+([A-Za-zÇĞİÖŞÜçğıöşü]+)\s+(\d{4})", b)
+        eski = False
+        if m and m.group(2).lower() in _AY:
+            try:
+                eski = (bugun - date(int(m.group(3)), _AY[m.group(2).lower()], int(m.group(1)))).days > 45
+            except ValueError:
+                pass
+        if _ILAN_DISI.search(b) or (eski and not str(r.get("deadline") or "")[:10] >= bugun.isoformat()):
+            silinecek.append(k)
+    for k in silinecek:
+        del mevcut[k]
+    return len(silinecek)
+
+
 def main():
     mevcut, eski_kaynaklar, eski_guncelleme = {}, {}, None
     if os.path.exists(CIKTI):
@@ -772,6 +797,7 @@ def main():
     print(f"Puani/tarihi yeni bulunan: {puanlari_yenile(mevcut)}")
     print(f"Basvuru adresi bulunan: {basvuru_coz(mevcut)}")
     logo_haritasi(mevcut)
+    print(f"Ilan disi/eski duyuru temizlendi: {ilan_disi_temizle(mevcut)}")
     _t = {}
     for _r in mevcut.values():
         _k = _r.get("basvuru_tur") or ("yok" if _r.get("source_name") != "Kariyer Kapısı" else "kk")

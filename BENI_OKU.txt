@@ -1,7 +1,0 @@
-KAMURADAR - KISA NOT
-1) Bu klasorun ICINDEKI dosyalari GitHub'a yukle (klasorun kendisini degil).
-2) .github klasoru gorunmez; onun yerine guncelle.yml.txt icindeki yaziyi GitHub'da
-   "Create new file" ile  .github/workflows/guncelle.yml  adiyla olustur.
-3) ilan.gov.tr Turkiye disindan okunamayabilir: bilgisayarinda ilanlari_hazirla.bat dosyasina cift tikla,
-   sonra acilan sayfaya ilanlar.json dosyasini surukle.
-Yeni kaynak eklemek icin ek_kaynaklar.json, elle ilan eklemek icin manuel_ilanlar.json dosyasini kullan.

@@ -552,6 +552,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 </style>
 
 <style>#krInstallApp[hidden]{display:none}#krInstallApp{border:1px solid #b8cce0!important;border-radius:8px!important;background:#edf4fb!important;color:#174d7a!important;font-weight:750!important}@media(max-width:600px){#krInstallApp{white-space:nowrap}}</style>
+<style>body .mini{flex:0 0 260px}body .mini b{font-size:13px;font-weight:700;line-height:1.35;color:var(--yazi)}body .mini span{display:block;font-size:12px;line-height:1.4;text-transform:none;letter-spacing:0;font-weight:500;color:var(--soluk)}.ikon-btn{display:inline-flex;align-items:center;justify-content:center;padding:0}</style>
 </head>
 <body class="kr-yeni">
 <div class="duyuru"><span>Bilgilendirme:</span> KamuRadar resmî kurum sitesi değildir. Başvurunu mutlaka resmî kaynaktan yap.</div>
@@ -569,7 +570,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
       <button type="button" id="mnBildirim">Son gün bildirimleri</button>
       <button type="button" id="krInstallApp" hidden>Uygulamayı yükle</button>
     </nav>
-    <div class="sag"><div class="sosyal" id="sosyal"></div><button class="ikon-btn" id="btnTema" title="Açık / koyu tema" aria-label="Temayı değiştir">◐</button></div>
+    <div class="sag"><div class="sosyal" id="sosyal"></div><button class="ikon-btn" id="btnTema" title="Açık / koyu tema" aria-label="Temayı değiştir"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button></div>
   </div>
 </header>
 
@@ -1381,23 +1382,6 @@ $('mobilFiltre').addEventListener('click',()=>$('filtrePanel').classList.toggle(
 $('btnTema').addEventListener('click',()=>{const r=document.documentElement,k=matchMedia('(prefers-color-scheme:dark)').matches;
   const simdi=r.dataset.tema||(k?'koyu':'acik');const yeni=simdi==='koyu'?'acik':'koyu';r.dataset.tema=yeni;yaz('k_tema',yeni)});
 
-/* ---------- XAMPP (localhost): sayfa açılınca ilanları kendisi çeker ---------- */
-async function yerelGuncelle(){
-  if(!['localhost','127.0.0.1'].includes(location.hostname)) return;
-  const kutu=document.createElement('div');kutu.className='canli';$('canli').after(kutu);
-  try{
-    let r=await (await fetch('guncelle.php?islem=baslat',{cache:'no-store'})).json();
-    if(r.durum==='hata'){kutu.innerHTML='⚠ Otomatik güncelleme çalışmadı: '+esc(r.mesaj||'');return}
-    if(r.durum==='taze'){kutu.innerHTML='✅ Veriler yakın zamanda güncellenmiş.';return}
-    kutu.innerHTML='⏳ Yeni ilanlar resmî sitelerden alınıyor… (birkaç dakika sürebilir, sayfayı kapatma)';
-    for(let n=0;n<240;n++){
-      await new Promise(t=>setTimeout(t,5000));
-      r=await (await fetch('guncelle.php?islem=durum',{cache:'no-store'})).json();
-      if(r.durum==='bitti'){await veriYenile(false);kutu.innerHTML='✅ Güncelleme tamamlandı.';return}
-    }
-  }catch(e){kutu.innerHTML='ℹ guncelle.php bulunamadı; otomatik güncelleme kapalı.'}
-}
-
 /* ---------- uygulama kurulumu ve bağlantı durumu ---------- */
 let krInstallPrompt=null;
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();krInstallPrompt=e;$('krInstallApp').hidden=false});
@@ -1431,7 +1415,6 @@ window.addEventListener('online',()=>veriYenile(false));
   await veriYenile(true);
   if(oku('k_kurum')) $('fKurum').value=oku('k_kurum'); if(oku('k_kaynak')) $('fKaynak').value=oku('k_kaynak');
   listele();
-  yerelGuncelle();
   if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('./sw.js').catch(()=>{});
   setInterval(()=>veriYenile(false),5*60*1000);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)veriYenile(false)});
