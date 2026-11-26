@@ -48,7 +48,7 @@
       "alim"
     ],
     "deneme": true,
-    "aktif": true,
+    "aktif": false,
     "link_liste": true,
     "detay": false
   },
@@ -85,7 +85,7 @@
       "sinav ilani"
     ],
     "deneme": true,
-    "aktif": true,
+    "aktif": false,
     "detay": false,
     "link_liste": true
   }

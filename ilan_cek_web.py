@@ -452,7 +452,7 @@ def _urller(metin):
     return sorted(bulunan, key=lambda x: x[1])
 
 
-_LOGO = {"taban": None, "kontrol": False}
+_LOGO = {"taban": None, "kontrol": True}   # ilan.gov.tr logo klasoru bulunamadi (16 aday 404); yoklama kapali
 LOGO_ADAYLARI = ["{p}", "Uploads/{p}", "uploads/{p}", "upload/{p}", "Upload/{p}", "files/{p}", "Files/{p}", "images/{p}",
                  "Content/{p}", "content/{p}", "assets/{p}", "assets/img/{p}", "api/{p}", "ilan-api/{p}", "Resimler/{p}", "static/{p}"]
 
@@ -489,26 +489,36 @@ def logo_al(ad, session=None):
     return "https://www.ilan.gov.tr/" + _LOGO["taban"].format(p=v)
 
 
+def _ayni_kurum(a, b):
+    """Iki kurum adi ayni kurumu mu gosteriyor? (gurultu kelimeleri atilip belirteclerin ortusmesine bakilir)"""
+    ka, kb = set(_kurum_anahtar(a).split()), set(_kurum_anahtar(b).split())
+    if len(ka) < 2 or len(kb) < 2:
+        return False
+    return ka == kb or len(ka & kb) / len(ka | kb) >= 0.75
+
+
 def logo_haritasi(mevcut):
-    """kurum_logolari.json'daki (elle girilen) kurum->logo adreslerini uygular; logosuz kurumlari kayda yazar."""
+    """Logosu olmayan ilanlara: (1) kurum_logolari.json, (2) ayni kurumun baska ilanindan/Kariyer Kapisi'ndan ogrenilen logo uygulanir."""
     yol = os.path.join(KLASOR, "kurum_logolari.json")
-    harita = {}
+    bilinen = []   # (kurum adi, logo)
     if os.path.exists(yol):
         with open(yol, encoding="utf-8") as f:
-            harita = {ic.norm(k): v for k, v in json.load(f).items() if str(v).startswith("https://")}
+            bilinen += [(k, v) for k, v in json.load(f).items() if str(v).startswith("https://")]
+    for r in mevcut.values():
+        if str(r.get("logo") or "").startswith("https://") and r.get("institution"):
+            bilinen.append((r["institution"], r["logo"]))
     n = 0
     for r in mevcut.values():
-        if str(r.get("logo") or "").startswith("https://"):
+        if str(r.get("logo") or "").startswith("https://") or not r.get("institution"):
             continue
-        kurum = ic.norm(r.get("institution", ""))
-        for k, v in harita.items():
-            if k and (k in kurum or kurum in k) and len(kurum) > 8:
+        for k, v in bilinen:
+            if _ayni_kurum(k, r["institution"]):
                 r["logo"] = v; n += 1; break
     sayac = {}
     for r in mevcut.values():
         if not str(r.get("logo") or "").startswith("https://") and not r.get("akademik"):
             sayac[r.get("institution", "?")] = sayac.get(r.get("institution", "?"), 0) + 1
-    print(f"Elle girilen logolardan uygulanan: {n}")
+    print(f"Logo uygulanan: {n}; logolu ilan: {sum(1 for r in mevcut.values() if str(r.get('logo') or '').startswith('https://'))}/{len(mevcut)}")
     print("[logo] logosuz kurumlar:", " | ".join(f"{k} ({v})" for k, v in sorted(sayac.items(), key=lambda x: -x[1])[:60]))
 
 
