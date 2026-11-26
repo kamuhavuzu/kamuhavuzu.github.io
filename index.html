@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KamuRadar · Kamu personel alım ilanları</title>
+<title>KamuHavuzu · Kamu personel alım ilanları</title>
 <meta name="description" content="Bakanlık, kurum, belediye, üniversite ve diğer kamu personel alım ilanları tek yerde. Eğitim, KPSS puanı ve şehre göre filtrele.">
 <meta name="theme-color" content="#173e66">
 <link rel="manifest" href="manifest.webmanifest">
@@ -12,7 +12,7 @@
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta property="og:type" content="website"><meta property="og:title" content="KamuRadar · Kamu personel alım ilanları">
+<meta property="og:type" content="website"><meta property="og:title" content="KamuHavuzu · Kamu personel alım ilanları">
 <meta property="og:description" content="Tüm kamu alımları tek platformda. Eğitim, KPSS puanı ve şehre göre filtrele.">
 <meta property="og:image" content="https://kamuradar.github.io/logo-yazili.png"><meta property="og:url" content="https://kamuradar.github.io/">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.ilan.gov.tr https://ilan.gov.tr https://kariyerkapisi.gov.tr https://medya.ilan.gov.tr; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
@@ -238,7 +238,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
 .ky-ok:not(:disabled):hover{background:var(--lacivert);color:#fff}
 .yasal{margin-top:8px;font-size:13px}.yasal a{color:inherit;text-decoration:underline;margin:0 2px}
 
-/* KamuRadar yeni görsel kimliği: kömür siyahı + radar sarısı */
+/* KamuHavuzu yeni görsel kimliği: kömür siyahı + radar sarısı */
 :root{
   --bg:#f6f6f2;--kart:#fff;--yazi:#191919;--soluk:#666b73;--cizgi:#e7e5dc;
   --lacivert:#171717;--sari:#f5c400;--mavi:#b88900;
@@ -321,7 +321,7 @@ header.ust{background:#111;box-shadow:0 3px 18px rgba(0,0,0,.14);border-bottom:1
 }
 
 
-/* KamuRadar kurumsal tema: gündüz lacivert-beyaz, gece koyu lacivert */
+/* KamuHavuzu kurumsal tema: gündüz lacivert-beyaz, gece koyu lacivert */
 :root{
  --bg:#f4f7fb;--kart:#fff;--yazi:#17243a;--soluk:#66758b;--cizgi:#e2e9f2;
  --lacivert:#102a4c;--sari:#e8b923;--mavi:#2563a6;
@@ -386,7 +386,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 </style>
 <style>
 
-/* Baştan düzenlenen sade KamuRadar arayüzü */
+/* Baştan düzenlenen sade KamuHavuzu arayüzü */
 :root{--bg:#f4f7fb;--kart:#fff;--yazi:#17243a;--soluk:#65758b;--cizgi:#e2e9f2;--lacivert:#102a4c;--mavi:#28669f;--sari:#e8b923;--gol:0 8px 28px rgba(16,42,76,.065)}
 @media(prefers-color-scheme:dark){:root:not([data-tema="acik"]){--bg:#0b1424;--kart:#142238;--yazi:#edf4ff;--soluk:#a8b8ce;--cizgi:#293b54;--lacivert:#081426;--mavi:#83b9f2;--gol:0 8px 28px rgba(0,0,0,.2)}}
 :root[data-tema="koyu"]{--bg:#0b1424;--kart:#142238;--yazi:#edf4ff;--soluk:#a8b8ce;--cizgi:#293b54;--lacivert:#081426;--mavi:#83b9f2;--gol:0 8px 28px rgba(0,0,0,.2)}
@@ -564,10 +564,10 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 </style>
 </head>
 <body class="kr-yeni">
-<div class="duyuru"><span>Bilgilendirme:</span> KamuRadar resmî kurum sitesi değildir. Başvurunu mutlaka resmî kaynaktan yap.</div>
+<div class="duyuru"><span>Bilgilendirme:</span> KamuHavuzu resmî kurum sitesi değildir. Başvurunu mutlaka resmî kaynaktan yap.</div>
 <header class="ust">
   <div class="kap">
-    <a class="logo" href="#" aria-label="KamuRadar ana sayfa"><img src="logo-simge.png" alt="" width="36" height="36"> <span>KamuRadar</span></a>
+    <a class="logo" href="#" aria-label="KamuHavuzu ana sayfa"><img src="logo-simge.png" alt="" width="36" height="36"> <span>KamuHavuzu</span></a>
     <nav class="menu" aria-label="Ana menü">
       <a href="#ilanlar">İlanlar</a>
       <a href="#sss">Nasıl çalışır?</a>
@@ -675,7 +675,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
       </section>
       <aside class="kr-side-note">
         <div class="kr-help-card"><span class="kr-help-icon">✦</span><b>Sana uygun ilanı bul</b><p>KPSS puanını ve eğitim bilgini girerek ilan şartlarını karşılaştırabilirsin.</p><a href="#filtrePanel">Filtreleri kullan →</a></div>
-        <div class="kr-help-card kr-official-card"><b>Başvurunu güvenle yap</b><p>KamuRadar ilanları keşfetmene yardımcı olur. Başvuru işlemleri ilgili kurumun resmî sitesinde yapılır.</p></div>
+        <div class="kr-help-card kr-official-card"><b>Başvurunu güvenle yap</b><p>KamuHavuzu ilanları keşfetmene yardımcı olur. Başvuru işlemleri ilgili kurumun resmî sitesinde yapılır.</p></div>
       </aside>
     </div>
   </section>
@@ -707,20 +707,20 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
     <div class="adim"><b>4. Resmî ilana bak</b>"İncele" düğmesi seni resmî ilana götürür. Başvuru her zaman resmî sitede yapılır.</div>
   </div>
   <h2>Sık sorulan sorular</h2>
-  <details><summary>Bu site resmî mi? Başvuru buradan mı yapılıyor?</summary><p>Hayır. KamuRadar bağımsız bir derleme aracıdır, hiçbir kamu kurumuyla bağlantısı yoktur. Başvurular yalnızca resmî ilan sayfasındaki yöntemle yapılır.</p></details>
+  <details><summary>Bu site resmî mi? Başvuru buradan mı yapılıyor?</summary><p>Hayır. KamuHavuzu bağımsız bir derleme aracıdır, hiçbir kamu kurumuyla bağlantısı yoktur. Başvurular yalnızca resmî ilan sayfasındaki yöntemle yapılır.</p></details>
   <details><summary>Ücretli mi? Üye olmam gerekiyor mu?</summary><p>Hayır, ücretsiz ve üyelik yok. Puanın, favorilerin ve filtrelerin sadece kendi tarayıcında saklanır, sunucuya gönderilmez.</p></details>
   <details><summary>Renkler neye göre belirleniyor?</summary><p>Girdiğin KPSS puanı ile ilan metninden okunan taban puan karşılaştırılır. Taban puan okunamadıysa ⚪ görünür; biliyorsan kartın içine elle yazabilirsin. "Tahmin" yazan puanlar mutlaka resmî ilandan kontrol edilmelidir.</p></details>
   <details><summary>Bilgiler yanlış çıkarsa ne olur?</summary><p>Tarih, puan, bölüm, yaş ve diğer şartlar otomatik okunduğu için hatalı olabilir. Başvurudan önce resmî ilanı oku. Hata görürsen Hakkında bölümündeki iletişim yollarından haber verebilirsin.</p></details>
   <details><summary>"Yakında açılacak" ne demek?</summary><p>İlan yayımlanmış ama başvuru tarihi henüz gelmemiş demektir. Başvuru tarihi gelmeden önce hazırlık yapman için ayrı gösterilir.</p></details>
   <details><summary>Bölümüm listede yok, ne yapmalıyım?</summary><p>"Bölüm listede yoksa yaz" kutusuna bölümünün adını yaz. Siteye yeni bölüm adları ilanlardan otomatik eklenir.</p></details>
   <details><summary>Yaş ve sürücü belgesi filtresi nasıl çalışır?</summary><p>Yaşını yazarsan, ilan metninde yaş sınırı yazan ve senin yaşını aşan ilanlar gizlenir. Sürücü belgem "Yok" dersen, sürücü belgesi şartı yazan ilanlar gizlenir. Okuma otomatik olduğu için ilanı yine de kontrol et.</p></details>
-  <details><summary>KPSS puan türleri nasıl kullanılır?</summary><p>Lisans, ön lisans ve ortaöğretim alımlarında farklı KPSS puan türleri kullanılabilir. İlanın istediği puan türü ve taban puan esas alınmalıdır; yalnızca puanının yüksek olması farklı puan türü istenen bir ilana başvurabileceğin anlamına gelmez. KamuRadar, ilan metninde açıkça bulunan bilgileri gösterir; emin olmadığın durumda resmî ilanı kontrol et.</p></details>
+  <details><summary>KPSS puan türleri nasıl kullanılır?</summary><p>Lisans, ön lisans ve ortaöğretim alımlarında farklı KPSS puan türleri kullanılabilir. İlanın istediği puan türü ve taban puan esas alınmalıdır; yalnızca puanının yüksek olması farklı puan türü istenen bir ilana başvurabileceğin anlamına gelmez. KamuHavuzu, ilan metninde açıkça bulunan bilgileri gösterir; emin olmadığın durumda resmî ilanı kontrol et.</p></details>
   <details><summary>Akademik kadrolar nerede?</summary><p>Gelişmiş filtrelerden "Akademik kadroları da göster" seçeneğini aç. Üniversitelerin araştırma görevlisi, öğretim görevlisi ve diğer akademik personel ilanları bu şekilde listelenir.</p></details>
   <details><summary>Telefonuma nasıl eklerim?</summary><p>Tarayıcı menüsünden "Ana ekrana ekle" seçeneğini kullanabilirsin; site bir uygulama gibi kısayolla açılır.</p></details>
   <p class="kesfet"><b>Başlığa göre keşfet:</b> <a href="kesfet/">Şehir, eğitim durumu ve KPSS türüne göre ilan sayfaları</a></p>
 </section>
 <div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="mBaslik"><div class="modal-ic" id="modalIc"></div></div>
-<footer><div class="kap">KamuRadar bağımsız ve kâr amacı gütmeyen bir derleme aracıdır; hiçbir kamu kurumuyla bağlantısı yoktur, resmî kurum değildir. Taban puan ve tarihler ilan metninden otomatik okunur ve hatalı olabilir; başvurudan önce "İncele" ile resmî ilanı doğrula.
+<footer><div class="kap">KamuHavuzu bağımsız ve kâr amacı gütmeyen bir derleme aracıdır; hiçbir kamu kurumuyla bağlantısı yoktur, resmî kurum değildir. Taban puan ve tarihler ilan metninden otomatik okunur ve hatalı olabilir; başvurudan önce "İncele" ile resmî ilanı doğrula.
 <div class="yasal"><a href="bilgi.html#hakkinda">Hakkında</a> · <a href="bilgi.html#kosullar">Kullanım koşulları</a> · <a href="bilgi.html#gizlilik">Gizlilik ve KVKK</a> · <a href="bilgi.html#kaynak">Kaynaklar ve telif</a> · <a href="bilgi.html#iletisim">İletişim</a></div></div></footer>
 
 <script>
@@ -1253,7 +1253,7 @@ function favoriBildirimleriniGoster(){
  if(!('Notification' in window)||Notification.permission!=='granted'||oku('k_bildirim')!=='1')return;
  tum.filter(i=>favoriler.has(String(i.id))&&i.bitis&&i.kalan!==null&&i.kalan>=0&&i.kalan<=2).forEach(i=>{
   const ana='k_bildirim_'+i.id+'_'+i.deadline;if(oku(ana))return;
-  try{new Notification('KamuRadar · Son başvuru yaklaşıyor',{body:(i.institution||'Kamu ilanı')+' — '+i.title+' · '+(i.kalan===0?'Bugün son gün':i.kalan+' gün kaldı')});yaz(ana,'1')}catch(e){}
+  try{new Notification('KamuHavuzu · Son başvuru yaklaşıyor',{body:(i.institution||'Kamu ilanı')+' — '+i.title+' · '+(i.kalan===0?'Bugün son gün':i.kalan+' gün kaldı')});yaz(ana,'1')}catch(e){}
  });
 }
 function kaynakCiz(k){
@@ -1271,11 +1271,11 @@ function ics(){
   if(!s.length){alert('Takvime eklenecek, son tarihi belli ilan yok.');return}
   const p=n=>String(n).padStart(2,'0'), z=d=>`${d.getFullYear()}${p(d.getMonth()+1)}${p(d.getDate())}`;
   const kac=t=>String(t||'').replace(/[\\;,]/g,m=>'\\'+m).replace(/\n/g,' ');
-  let o='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//KamuRadar//TR\r\nCALSCALE:GREGORIAN\r\n';
+  let o='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//KamuHavuzu//TR\r\nCALSCALE:GREGORIAN\r\n';
   s.forEach(i=>{const e=new Date(i.bitis);e.setDate(e.getDate()+1);
-    o+=`BEGIN:VEVENT\r\nUID:${i.id}@kamuradar\r\nDTSTAMP:${z(new Date())}T000000Z\r\nDTSTART;VALUE=DATE:${z(i.bitis)}\r\nDTEND;VALUE=DATE:${z(e)}\r\nSUMMARY:${kac('Son başvuru: '+i.institution)}\r\nDESCRIPTION:${kac(i.title+' '+i.link)}\r\nURL:${i.link}\r\nEND:VEVENT\r\n`});
+    o+=`BEGIN:VEVENT\r\nUID:${i.id}@kamuhavuzu\r\nDTSTAMP:${z(new Date())}T000000Z\r\nDTSTART;VALUE=DATE:${z(i.bitis)}\r\nDTEND;VALUE=DATE:${z(e)}\r\nSUMMARY:${kac('Son başvuru: '+i.institution)}\r\nDESCRIPTION:${kac(i.title+' '+i.link)}\r\nURL:${i.link}\r\nEND:VEVENT\r\n`});
   o+='END:VCALENDAR';
-  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([o],{type:'text/calendar'}));a.download='kamuradar-takvim.ics';a.click();
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([o],{type:'text/calendar'}));a.download='kamuhavuzu-takvim.ics';a.click();
 }
 
 function karsilastirmaCubugu(){
