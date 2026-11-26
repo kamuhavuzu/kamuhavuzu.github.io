@@ -1,44 +1,44 @@
 {
- "guncelleme": "2026-11-26T06:31:40+00:00",
- "son_kontrol": "2026-11-26T06:31:40+00:00",
+ "guncelleme": "2026-11-26T06:46:23+00:00",
+ "son_kontrol": "2026-11-26T06:46:23+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 7,
-   "son_basari": "2026-11-26T06:31:28+00:00",
-   "sayi": 187
+   "yeni": 5,
+   "son_basari": "2026-11-26T06:46:12+00:00",
+   "sayi": 188
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:31:29+00:00",
+   "son_basari": "2026-11-26T06:46:14+00:00",
    "sayi": 35
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:31:31+00:00",
+   "son_basari": "2026-11-26T06:46:15+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "İŞKUR Kamu İşçi Alımı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:31:32+00:00",
+   "son_basari": "2026-11-26T06:46:16+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "TÜBİTAK İlanları": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:31:33+00:00",
+   "son_basari": "2026-11-26T06:46:17+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:31:40+00:00",
+   "son_basari": "2026-11-26T06:46:22+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 42
   }
@@ -1248,6 +1248,40 @@
    "diger_kaynaklar": [
     "ilan.gov.tr"
    ]
+  },
+  {
+   "id": 728913613,
+   "institution": "TÜRKİYE SU ENSTİTÜSÜ",
+   "title": "Tarım ve Orman Bakanlığı Türkiye Su Enstitüsü Başkanlığı Sözleşmeli Personel Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "P3",
+   "min_kpss": 60.0,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2304234/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tarim-ve-orman-bakanligi-turkiye-su-enstitusu-baskanligi-sozlesmeli-personel-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304234/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tarim-ve-orman-bakanligi-turkiye-su-enstitusu-baskanligi-sozlesmeli-personel-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Sözleşmeli personel",
+   "description": "Tarım ve Orman Bakanlığı Türkiye Su Enstitüsü Başkanlığından: SÖZLEŞMELİ PERSONEL ALIM İLANI 15/7/2018 tarihli ve 30479 sayılı Resmî Gazete’de yayımlanan 4 sayılı Cumhurbaşkanlığı Kararnamesi’nin 33’üncü Bölümü ile 375 sayılı Kanun Hükmünde Kararname’nin Ek 27’nci maddesi kapsamında, idari hizmet sözleşmesiyle Türkiye Su Enstitüsü’nde istihdam edilmek üzere; Türkiye Su Enstitüsü Sözleşmeli Personel Yönetmeliği hükümleri uyarınca, unvan ve nitelikleri aşağıda belirtilen 1 (bir) Mühendis (Bilgisayar Mühendisi) pozisyonuna sözleşmeli personel alımı yapılacaktır. I. BAŞVURU GENEL ŞARTLARI 1. 657 sayılı Devlet Memurları Kanunu’nun 48’inci maddesinde belirtilen şartları taşımak: a) Türkiye Cumhuriyeti vatandaşı olmak, b) Başvuru tarihi itibarıyla 18 yaşını tamamlamış olmak, c) Kamu haklarından mahrum bulunmamak, d) Türk Ceza Kanunu’nun 53’üncü maddesinde belirtilen süreler geçmiş olsa bile; kasten işlenen bir suçtan dolayı bir yıl veya daha fazla süreyle hapis cezasına ya da affa uğramış olsa bile devletin güvenliğine karşı suçlar, Anayasal düzene ve bu düzenin işleyişine karşı suçlar, zimmet, irtikâp, rüşvet, hırsızlık, dolandırıcılık, sahtecilik, güveni kötüye kullanma, hileli iflas, ihaleye fesat karıştırma, edimin ifasına fesat karıştırma, suçtan kaynaklanan malvarlığı değerlerini aklama veya kaçakçılık suçlarından mahkûm olmamak, 2) Görevini devamlı yapmasına engel olabilecek herhangi bir sağlık sorunu bulunmamak. 3) Güvenlik soruşturması ve/veya arşiv araştırması sonucu olumlu olmak. 4) Erkek adaylar için askerlik hizmetini yapmış, muaf veya başvuru tarihi itibarıyla askerliği tecilli olmak. 5) Çeşitli Kanun Hükmünde Kararnamelerle kamu görevinden çıkarılmamış olmak. II. ÖZEL ŞARTLAR 1 (Bir) Mühendis (Bilgisayar Mühendisi) 1) Üniversitelerin Bilgisayar Mühendisliği lisans programından mezun olmak. 2) KPSS (P3) puan türünden geçerli sonuç belgesi ile en az 70 puan almış olmak. 3) İngilizce dilinden YDS/e-YDS veya ÖSYM tarafından denk kabul edilen uluslararası geçerliliği bulunan yabancı dil sınavlarının geçerli sonuç belgesinden en az 60 puan almış olmak. III. BAŞVURU TARİHİ, YERİ VE ŞEKLİ Adaylar, ilanın Resmî Gazete’de yayımlandığı tarihten itibaren 30 gün içerisinde e-Devlet Kapısı üzerinden “Türkiye Su Enstitüsü – Kariyer Kapısı Kamu İşe Alım” hizmeti veya Kariyer Kapısı ( https://kariyerkapisi.gov.tr/isealim ) platformu üzerinden başvuru yapabileceklerdir. Başvurular yalnızca elektronik ortamda alınacak olup, posta yolu veya şahsen yapılan müracaatlar kabul edilmeyecektir. Adayların başvuru işlemini tamamladıktan sonra “Başvurularım” ekranından başvurularının tamamlanıp tamamlanmadığını kontrol etmeleri gerekmektedir. “Başvurularım” ekranında “Başvuru Alındı” ibaresi görülmeyen hiçbir başvuru değerlendirmeye alınmayacaktır. IV. İSTENİLEN BELGELER 1) Diploma veya mezuniyet belgesi (sistemden otomatik aktarılacaktır; aktarılmaması durumunda yüklenmesi gerekmektedir). 2) Denklik belgesi (yurt dışındaki yükseköğretim kurumlarından mezun olan adaylar için YÖK tarafından düzenlenen belge). 3) KPSS sonuç belgesi (ÖSYM tarafından yapılan geçerli sınav sonuç belgesi, sistemden otomatik aktarılacaktır). 4) Yabancı dil belgesi (YDS/e-YDS veya ÖSYM tarafından denk kabul edilen geçerli sonuç belgesi). 5) Fotoğraflı detaylı özgeçmiş (başvuru sırasında e-Devlet üzerinden yüklenecektir). 6) Erkek adaylar için askerlik durum bilgisi (sistemden otomatik aktarılacaktır). 7) Vesikalık fotoğraf (son 6 ay içinde çekilmiş, sistemden otomatik aktarılacak; aktarılmaması halinde yüklenmesi gerekmektedir). 8) Mezuniyet bilgileri otomatik aktarılmayan adayların onaylı diploma örneği veya mezuniyet belgesi yüklemeleri zorunludur. 9) Gerekli durumlarda sisteme yüklenen belgelerin asılları istenebilecektir. V. BAŞVURULARIN DEĞERLENDİRİLMESİ VE SONUÇLAR 1) Süresi içerisinde başvuruda bulunan ve gerekli şartları sağlayan adaylar, başvuru süresi bittikten sonra KPSS (P3) puanları esas alınmak suretiyle en yüksek puandan başlanarak sıralamaya tabi tutulacaktır. 2) Giriş sınavına çağrılacak aday sayısı, alım yapılacak her bir pozisyon için ayrı ayrı olmak üzere ilan edilen pozisyon sayısının on (10) katı olacaktır. Son çağrılacak adayla aynı puana sahip adaylar da giriş sınavına çağrılacaktır. 3) Sınava (yazılı/sözlü) girmeye hak kazanan adayların listesi, sınav tarih ve saatleri ile sınav sonuçları Türkiye Su Enstitüsü’nün ( www.suen.gov.tr ) internet adresinde ve Kariyer Kapısı Kamu İşe Alım Platformundan ( https://kariyerkapisi.gov.tr/isealim ) ilan edilecek olup adaylara ayrıca yazılı tebligat yapılmayacaktır. 4) Adayların başvuruda belirttikleri bilgilerin doğruluğu kendi sorumluluklarındadır. Eksik, yanlış ve/veya hatalı bilgi veya belge verilmesi nedeniyle doğacak tüm sonuçlardan adayların kendileri sorumludur. Gerçeğe aykırı beyanda bulunduğu veya belge verdiği tespit edilen adayların başvuruları geçersiz sayılacak, sınavı kazanmış olsalar dahi hakları iptal edilecektir. VI. GİRİŞ SINAVI 1) Giriş sınavı, İstanbul’da yazılı ve sözlü olarak yapılacak olup, sınavın yeri ve tarihi Türkiye Su Enstitüsü’nün (www.suen.gov.tr) internet adresinde ve Kariyer Kapısı Kamu İşe Alım Platformundan duyurulacaktır. Adaylara ayrıca yazılı tebligat yapılmayacaktır. 2) Yazılı sınav konuları: 1. İşletim Sistemleri • Windows 10/11 • Windows Server • Linux temel bilgisi • Kullanıcı ve yetki yönetimi 2. Sunucu ve Sistem Yönetimi • Active Directory ve Group Policy • DNS, DHCP • Sunucu rolleri (Dosya ve Yazıcı Sunucuları) 3. Bilgisayar Ağları • TCP/IP protokolü • Switching, Routing ve VLAN • VPN ve Firewall • Ağ güvenliği ve ağ arızalarının tespiti ve giderilmesi 4. Bilgi Güvenliği ve Siber Güvenlik • Zararlı yazılımlar ve korunma yöntemleri (antivirüs, fidye yazılımları) • Kimlik doğrulama ve yetkilendirme • Yedekleme politikaları • KVKK kapsamında temel bilgi güvenliği 5. Teknik Destek ve Donanım • Bilgisayar kurulumu • Format ve imaj alma • Sürücü ve çevre birimleri (yazıcı vb.) kurulumu • Donanım arızalarının tespiti • Kullanıcı des",
+   "checked_at": "2026-11-26T06:45:54+00:00",
+   "puanlar": {},
+   "akademik": false,
+   "logo": "",
+   "basvuru_adresleri": [
+    "https://kariyerkapisi.gov.tr/isealim",
+    "https://www.suen.gov.tr"
+   ],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false,
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 736705048,
