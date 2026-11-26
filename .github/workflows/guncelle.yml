@@ -120,4 +120,70 @@ jobs:
           git config user.name "kamuradar-bot"
           git config user.email "bot@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || (git commit -m "Ilanlar guncellendi" && git pull --rebase origin main && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "Ilanlar guncellendi"
+            if ! git pull --rebase origin main; then
+              echo "ilanlar.json cakismasi bulundu; iki veri kumesi birlestiriliyor."
+              python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+
+          def read_stage(stage):
+              raw = subprocess.check_output(["git", "show", f":{stage}:ilanlar.json"])
+              return json.loads(raw.decode("utf-8-sig"))
+
+          try:
+              remote = read_stage(2)  # rebase'in yeni main surumu
+              scanned = read_stage(3) # bu calismanin taradigi surum
+          except Exception as exc:
+              raise SystemExit(f"JSON cakisma surumleri okunamadi: {exc}")
+
+          def key(row):
+              if not isinstance(row, dict):
+                  return None
+              for field in ("id", "link", "url", "source_url"):
+                  value = row.get(field)
+                  if value:
+                      return f"{field}:{value}"
+              return None
+
+          def merge(a, b):
+              if isinstance(a, dict) and isinstance(b, dict):
+                  out = dict(a)
+                  for k, v in b.items():
+                      out[k] = merge(out[k], v) if k in out else v
+                  return out
+              if isinstance(a, list) and isinstance(b, list):
+                  if all(isinstance(x, dict) for x in a + b):
+                      out, positions = [], {}
+                      for item in a + b:
+                          ident = key(item)
+                          if ident is not None and ident in positions:
+                              idx = positions[ident]
+                              out[idx] = merge(out[idx], item)
+                          else:
+                              if ident is not None:
+                                  positions[ident] = len(out)
+                              out.append(item)
+                      return out
+                  out = list(a)
+                  for item in b:
+                      if item not in out:
+                          out.append(item)
+                  return out
+              # Taranan surumun dolu/yeni bilgisi tercih edilir; bos alan
+              # remote main'deki mevcut degeri silmez.
+              return b if b not in (None, "", [], {}) else a
+
+          merged = merge(remote, scanned)
+          Path("ilanlar.json").write_text(
+              json.dumps(merged, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+          print("JSON birlestirildi; ana daldaki ilanlar ve yeni tarama korunuyor.")
+          PY
+              git add ilanlar.json
+              GIT_EDITOR=true git rebase --continue
+            fi
+            git push origin HEAD:main
+          fi
