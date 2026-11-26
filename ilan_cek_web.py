@@ -228,6 +228,13 @@ def ilan_gov_tr(session, mevcut, **_):
         for ad in ads:
             if ad.get("isArchived") or not ad.get("urlStr"):
                 continue
+            # Sonuc duyurulari ve kamu alimi olmayan mesleki sinavlari detay
+            # sayfasini indirmeden ele; asil personel alimi ilanlari korunur.
+            baslik_on = str(ad.get("title") or "")
+            kurum_on = str(ad.get("advertiserName") or "")
+            duz_on = ic.norm(baslik_on + " " + kurum_on)
+            if _TURMOB_RE.search(duz_on) or _ILAN_DISI.search(duz_on):
+                continue
             if not getattr(ilan_gov_tr, "_anahtar_yazildi", False):
                 ilan_gov_tr._anahtar_yazildi = True
                 print("[ilan.gov.tr] ilan alanlari:", sorted(ad.keys()))
@@ -308,6 +315,8 @@ def kariyer_kapisi(session, mevcut, **_):
         logo_kk = kk_logo(item)
         kategori = (item.findtext("category") or "").strip()
         if not link or not baslik or any(w in ic.norm(kategori) for w in ic.KK_ATLA_KATEGORI):
+            continue
+        if _ILAN_DISI.search(ic.norm(baslik)):
             continue
         try:
             tarih = parsedate_to_datetime(item.findtext("pubDate") or "").date()
@@ -390,6 +399,9 @@ def ek_kaynak(session, mevcut, kaynak=None, **_):
         if anahtar and not any(k in ic.norm(baslik) for k in anahtar):
             continue
         baslik = ic.baslik_duzelt(baslik)
+        duz_baslik = ic.norm(baslik)
+        if _TURMOB_RE.search(duz_baslik) or _ILAN_DISI.search(duz_baslik):
+            continue
         link = (url + "#" + hashlib.md5(baslik.encode("utf-8")).hexdigest()[:10]) if link_liste else gercek
         if link in mevcut:
             # Daha once eklenen ilanlarda da eksik KPSS puanlarini yeniden tara.
