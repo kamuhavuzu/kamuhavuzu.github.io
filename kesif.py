@@ -1,17 +1,12 @@
-import requests, json, sys
-sys.path.insert(0, ".")
-import ayristir as ic
-s = requests.Session()
-for ats in range(1, 16):
+import requests, re
+UA = {"user-agent": "Mozilla/5.0 (compatible; KamuRadar/1.0; kisisel kullanim)"}
+for u in ["https://kariyerkapisi.gov.tr/", "https://kariyerkapisi.gov.tr/isealim", "https://kariyerkapisi.gov.tr/IlanListe", "https://kariyerkapisi.gov.tr/Ilanlar"]:
     try:
-        r = s.post(ic.SEARCH_URL, json={"keys": {"ats": [ats]}, "skipCount": 0, "maxResultCount": 3}, headers=ic.HEADERS, timeout=30)
-        d = r.json().get("result", {})
-        items = d.get("ads") or d.get("items") or []
-        print(f"ats={ats} toplam={d.get('totalCount')} ornek={[ (a.get('title') or '')[:50] for a in items][:3]}")
+        r = requests.get(u, headers=UA, timeout=30)
     except Exception as e:
-        print("ats", ats, "hata", type(e).__name__)
-# kategori anahtarlari: ilk personel ilanindaki categories
-r = s.post(ic.SEARCH_URL, json={"keys": {"ats": [5]}, "skipCount": 0, "maxResultCount": 2}, headers=ic.HEADERS, timeout=30)
-d = r.json().get("result", {})
-print("KATEGORI", json.dumps([a.get("categories") for a in (d.get("ads") or d.get("items") or [])], ensure_ascii=False)[:800])
-print("ADTYPEFILTERS", json.dumps([a.get("adTypeFilters") for a in (d.get("ads") or d.get("items") or [])], ensure_ascii=False)[:800])
+        print("HATA", u, type(e).__name__); continue
+    print("DURUM", r.status_code, u, len(r.text))
+    t = r.text
+    for pat in [r"ajax\s*:\s*\{[^}]{0,300}", r"url\s*:\s*['\"][^'\"]+['\"]", r"href=\"(/[A-Za-z][^\"#?]{2,40})\"", r"IlanDetay[^\"' ]{0,80}", r"fetch\(['\"][^'\"]+", r"\$\.(?:get|post|ajax)\(['\"][^'\"]+"]:
+        bul = list(dict.fromkeys(re.findall(pat, t)))[:25]
+        if bul: print("  ", pat[:22], bul)
