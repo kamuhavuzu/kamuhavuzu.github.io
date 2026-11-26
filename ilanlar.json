@@ -1,44 +1,44 @@
 {
- "guncelleme": "2026-11-26T15:41:29+00:00",
- "son_kontrol": "2026-11-26T15:41:29+00:00",
+ "guncelleme": "2026-11-26T15:51:24+00:00",
+ "son_kontrol": "2026-11-26T15:51:24+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 3,
-   "son_basari": "2026-11-26T15:34:12+00:00",
+   "son_basari": "2026-11-26T15:45:54+00:00",
    "sayi": 188
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T15:34:14+00:00",
+   "son_basari": "2026-11-26T15:45:55+00:00",
    "sayi": 35
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T15:34:16+00:00",
+   "son_basari": "2026-11-26T15:45:57+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T15:41:05+00:00",
+   "son_basari": "2026-11-26T15:50:13+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "Çalışma ve Sosyal Güvenlik Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T15:41:10+00:00",
+   "son_basari": "2026-11-26T15:50:20+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 7
   },
   "Ulaştırma ve Altyapı Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T15:41:20+00:00",
+   "son_basari": "2026-11-26T15:50:28+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 6
   },
@@ -257,7 +257,25 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "metinde_bulunamadi",
-   "puan_kontrol_at": "2026-11-26T15:23:18+00:00"
+   "puan_kontrol_at": "2026-11-26T15:23:18+00:00",
+   "ai": {
+    "ozet": "Kahramanmaraş Sütçü İmam Üniversitesi çeşitli fakültelere öğretim üyesi alımı yapacaktır.",
+    "bolum": "Ziraat Fakültesi ve Tıp Fakültesi",
+    "egitim": "Doktora / Uzmanlık / Doçentlik",
+    "kpss_turu": "belirtilmemis",
+    "taban_puan": "belirtilmemis",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "6",
+    "ozel_sartlar": [
+     "657 sayılı Kanunun 48. maddesindeki genel şartları taşımak",
+     "YDS veya YÖKDİL sınavından en az istenen puanı almış olmak",
+     "İlgili alanda doçentlik unvanı almış olmak",
+     "Yabancı ülkelerden alınan diplomalar için denkliğe sahip olmak",
+     "Çevrim içi başvuru sistemine gerekli belgeleri eksiksiz yüklemek"
+    ]
+   }
   },
   {
    "id": 80653654,
@@ -565,10 +583,10 @@
     }
    ],
    "diger_kaynaklar": [],
-   "basvuru_link": "https://www.ankara.bel.tr",
-   "basvuru_tur": "ana",
    "puan_kontrol_durumu": "metinde_bulunamadi",
-   "puan_kontrol_at": "2026-11-26T15:41:22+00:00"
+   "puan_kontrol_at": "2026-11-26T15:41:22+00:00",
+   "basvuru_link": "https://www.ankara.bel.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 195206248,
@@ -944,10 +962,10 @@
     }
    ],
    "diger_kaynaklar": [],
-   "basvuru_link": "https://www.samsun.edu.tr",
-   "basvuru_tur": "ana",
    "puan_kontrol_durumu": "metinde_bulunamadi",
-   "puan_kontrol_at": "2026-11-26T15:41:24+00:00"
+   "puan_kontrol_at": "2026-11-26T15:41:24+00:00",
+   "basvuru_link": "https://www.samsun.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 384478357,
@@ -1108,10 +1126,10 @@
     }
    ],
    "diger_kaynaklar": [],
-   "basvuru_link": "https://www.galata.edu.tr",
-   "basvuru_tur": "ana",
    "puan_kontrol_durumu": "metinde_bulunamadi",
-   "puan_kontrol_at": "2026-11-26T15:41:24+00:00"
+   "puan_kontrol_at": "2026-11-26T15:41:24+00:00",
+   "basvuru_link": "https://www.galata.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 481021483,
@@ -1259,7 +1277,25 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "metinde_bulunamadi",
-   "puan_kontrol_at": "2026-11-26T15:41:28+00:00"
+   "puan_kontrol_at": "2026-11-26T15:41:28+00:00",
+   "ai": {
+    "ozet": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğü çeşitli fakültelere 2547 sayılı Kanun uyarınca öğretim üyesi alımı yapacaktır.",
+    "bolum": "Çeşitli Anabilim Dalları",
+    "egitim": "Doktora / Uzmanlık",
+    "kpss_turu": "belirtilmemis",
+    "taban_puan": "belirtilmemis",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "belirtilmemis",
+    "ozel_sartlar": [
+     "657 sayılı Kanunun 48. maddesindeki şartları taşımak",
+     "Yabancı diplomalar için YÖK denkligi almak",
+     "İlana online olarak süresi içinde başvurmak",
+     "Erkek adaylar için askerlik durum belgesi sunmak",
+     "Yalnızca bir kadroya başvuru yapmak"
+    ]
+   }
   },
   {
    "id": 508468475,
@@ -1374,7 +1410,9 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "metinde_bulunamadi",
-   "puan_kontrol_at": "2026-11-26T15:41:28+00:00"
+   "puan_kontrol_at": "2026-11-26T15:41:28+00:00",
+   "basvuru_link": "https://İlan.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 571281516,
@@ -1488,7 +1526,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2296715/kamu-akademik-personel-akademik-personel-alimlari-atlas-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "puan_kontrol_durumu": "metinde_bulunamadi",
+   "puan_kontrol_at": "2026-11-26T15:50:30+00:00"
   },
   {
    "id": 689532636,
@@ -1506,7 +1546,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2280927/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Boğaziçi Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz Fakültelerinde açık bulunan Profesör ve Doçent kadrolarına 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri, 657 sayılı Devlet Memurları Kanunu’nun 48. maddesindeki genel şartları ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği’nin ilgili maddeleri ile Boğaziçi Üniversitesi Öğretim Üyeliğine Atanma ve Yükseltilme Esasları uyarınca Profesör ve Doçent (devamlı statüde) alınacaktır. * Profesör kadrosuna başvuracak adayların; ilana başvuru dilekçelerini, özgeçmişlerini, lisansüstü tezlerini, bilimsel yayınlarını, kongre ve konferans tebliğlerini, bunlara yapılan atıfların listesini, yönetimlerinde devam eden ve tamamlanan doktora ve yüksek lisans tez çalışmalarının listesini, verdiği derslerin listesini, yürüttüğü projelerin listesini ve araştırma faaliyetlerinin kurumsallaştırılmasına katkıları, araştırma ve eğitim faaliyetlerine üniversite dışından sağladıkları kaynaklar ve üstlendikleri idari görevler ile ilgili bilgileri kapsayan belgeleri içeren 1 adet USB ile ilanın yayım tarihinden itibaren 15 gün içinde Personel Daire Başkanlığı’na, * Doçent kadrosuna başvuracak adayların; ilana başvuru dilekçelerini, özgeçmişlerini, Üniversitelerarası Kurul Başkanlığı’ndan alınmış doçentlik belgesini, lisansüstü tezlerini, bilimsel yayınlarını, kongre ve konferans tebliğlerini, bunlara yapılan atıfların listesini, yönetimlerinde devam eden ve tamamlanan doktora ve yüksek lisans tez çalışmalarının listesini, verdiği derslerin listesini, yürüttüğü projelerin listesini ve araştırma faaliyetlerinin kurumsallaştırılmasına katkıları, araştırma ve eğitim faaliyetlerine üniversite dışından sağladıkları kaynaklar ve üstlendikleri idari görevler ile ilgili bilgileri kapsayan belgeleri içeren 1 adet USB ile ilanın yayım tarihinden itibaren 15 gün içinde Personel Daire Başkanlığı’na başvurmaları duyurulur. İlana başvuracak adayların, https://bogazici.edu.tr/tr/announcements adresindeki “Öğretim Üyesi Alım İlanı” başlıklı duyuruda bulunan formları da doldurarak ilgili birime ıslak imzalı dilekçe ve kimlik kartı fotokopisi ile teslim etmesi gerekmektedir. Üniversitemiz öğretim üyesi kadrolarına yapılacak ilk başvurularda yabancı dil koşuluna ilişkin olarak, “Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik”in 8. maddesinin 7. fıkrasında belirtilen şartlardan en az birinin sağlandığına dair belgenin ibraz edilmesi gerekmek",
+   "description": "Boğaziçi Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz Fakültelerinde açık bulunan Profesör ve Doçent kadrolarına 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri, 657 sayılı Devlet Memurları Kanunu’nun 48. maddesindeki genel şartları ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği’nin ilgili maddeleri ile Boğaziçi Üniversitesi Öğretim Üyeliğine Atanma ve Yükseltilme Esasları uyarınca Profesör ve Doçent (devamlı statüde) alınacaktır. * Profesör kadrosuna başvuracak adayların; ilana başvuru dilekçelerini, özgeçmişlerini, lisansüstü tezlerini, bilimsel yayınlarını, kongre ve konferans tebliğlerini, bunlara yapılan atıfların listesini, yönetimlerinde devam eden ve tamamlanan doktora ve yüksek lisans tez çalışmalarının listesini, verdiği derslerin listesini, yürüttüğü projelerin listesini ve araştırma faaliyetlerinin kurumsallaştırılmasına katkıları, araştırma ve eğitim faaliyetlerine üniversite dışından sağladıkları kaynaklar ve üstlendikleri idari görevler ile ilgili bilgileri kapsayan belgeleri içeren 1 adet USB ile ilanın yayım tarihinden itibaren 15 gün içinde Personel Daire Başkanlığı’na, * Doçent kadrosuna başvuracak adayların; ilana başvuru dilekçelerini, özgeçmişlerini, Üniversitelerarası Kurul Başkanlığı’ndan alınmış doçentlik belgesini, lisansüstü tezlerini, bilimsel yayınlarını, kongre ve konferans tebliğlerini, bunlara yapılan atıfların listesini, yönetimlerinde devam eden ve tamamlanan doktora ve yüksek lisans tez çalışmalarının listesini, verdiği derslerin listesini, yürüttüğü projelerin listesini ve araştırma faaliyetlerinin kurumsallaştırılmasına katkıları, araştırma ve eğitim faaliyetlerine üniversite dışından sağladıkları kaynaklar ve üstlendikleri idari görevler ile ilgili bilgileri kapsayan belgeleri içeren 1 adet USB ile ilanın yayım tarihinden itibaren 15 gün içinde Personel Daire Başkanlığı’na başvurmaları duyurulur. İlana başvuracak adayların, https://bogazici.edu.tr/tr/announcements adresindeki “Öğretim Üyesi Alım İlanı” başlıklı duyuruda bulunan formları da doldurarak ilgili birime ıslak imzalı dilekçe ve kimlik kartı fotokopisi ile teslim etmesi gerekmektedir. Üniversitemiz öğretim üyesi kadrolarına yapılacak ilk başvurularda yabancı dil koşuluna ilişkin olarak, “Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik”in 8. maddesinin 7. fıkrasında belirtilen şartlardan en az birinin sağlandığına dair belgenin ibraz edilmesi gerekmek | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n",
    "checked_at": "2026-11-19T09:19:21+00:00",
    "akademik": true,
    "puanlar": {},
@@ -1521,7 +1561,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2280927/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "puan_kontrol_durumu": "metinde_bulunamadi",
+   "puan_kontrol_at": "2026-11-26T15:50:31+00:00"
   },
   {
    "id": 690046593,
@@ -1579,7 +1621,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2288344/kamu-akademik-personel-akademik-personel-alimlari-acibadem-mehmet-ali-aydinlar-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Diğer",
-   "description": "Acıbadem Mehmet Ali Aydınlar Üniversitesi Rektörlüğünden: Üniversitemizin aşağıda belirtilen birimleri için 2547 sayılı Kanunun 26. 24. ve 23. maddesinde belirtilen asgari koşulların yanında, Üniversitemiz web sayfasında yayımlanan Acıbadem Mehmet Ali Aydınlar Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atama Kriterlerini sağlamış olmak koşuluyla Profesör, Doçent ve Doktor Öğretim Üyesi alınacaktır. Profesör kadrosu daimi statüde olup, başvuracak adayların Anabilim Dalı/Bölüm ile “Başlıca Araştırma Eserini” belirttiği dilekçesine YÖK formatında özgeçmişini, noterden tasdikli doçentlik belgesi ve diğer diplomalarını, yayın listesini, tebliğleri ile bunlara yapılan atıfları, yönettiği doktora çalışmalarını, Üniversiteye katkılarını kapsayan ve belgeleyen 6 takım yayınlarını USB taşınabilir belleğe ekleyerek Rektörlüğümüze ilan tarihinden itibaren on beş (15) gün içinde bizzat başvurmaları gerekmektedir. Doçent kadrosu daimi statüde olup, atanmak isteyen adayların YÖK formatında özgeçmişlerini, noterden tasdikli doçentlik belgesi ve diğer diplomalarını, bilimsel çalışma ve yayın listesini 4 takım halinde USB taşınabilir belleğe ekleyerek dilekçeyle birlikte ilan tarihinden itibaren Rektörlüğümüze on beş (15) gün içinde bizzat başvurmaları, ayrıca Doçent kadrosuna başvuracak adayların Üniversitelerarası Kurul tarafından değişecek bilim alanları için ayrı ayrı belirlenen ve halen yürürlükte olan Doçentlik kriterlerini sağlamış olmaları gerekmektedir. Doktor Öğretim Üyesi kadrosuna başvuracak adayların YÖK formatında özgeçmişlerini, noter tasdikli doktora belgeleri ve diğer diplomalarını, bilimsel çalışma ve yayınlarını 4 takım hâlinde USB taşınabilir belleğe ekleyerek dilekçe ile birlikte ilan tarihinden itibaren on beş (15) gün içinde ilgili birime bizzat başvurmaları gerekmektedir. Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmeliğin 8. Maddesinin 7. Fıkrasının (ç) bendi uyarınca Üniversitemizin yabancı dille eğitim veren birimleri için yabancı dil şartı aranmaktadır. Yurt dışından alınmış diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması gerekmektedir. Belirtilen şartları taşımayan ve süresi içerisinde başvurmayan adayların başvuruları ile postayla yapılan başvurular dikkate alınmayacaktır. TIP FAKÜLTESİ Anabilim Dalı Kadro Ünvanı Adet Aranan Şartlar Genel Cerrahi Profesör 2 - Genel Cerrahi Doçenti olmak, - Organ Nakli alanında çalışmalar yapmış olmak, - Hepatobiliyer alanında çalışmalar yapmış olmak. Ortopedi ve Travmatoloji Profesör 1 - El Cerrahisi Doçenti olmak. - El cerrahisi ve mikrocerrahi alanında çalışmalar yapmış olmak. Kulak, Burun Boğaz Hastalıkları Profesör 1 - Kulak Burun Boğaz Hastalıkları Doçenti olmak. - Laringoloji alanında çalışmalar yapmış olmak. Çocuk Sağlığı ve Hastalıkları Doçent 1 - Çocuk Hematolojisi ve Onkolojisi (Çocuk Sağlığı ve Hastalıkları) Doçenti olmak. Genel Cerrahi Doçent 1 - Genel Cerrahi Doçenti olmak, - Endokrin Cerrahisi alanında çalışmalar yapmış olmak. Kardiyoloji Doçent 1 - Kardiyoloji Doçenti olmak. - Kardiyak görüntüleme, intravasküler ultrasonografi (IVUS) ve Optik Koherens Tomografi (OCT) alanlarında çalışmalar yapmış olmak. ECZACILIK FAKÜLTESİ Anabilim Dalı Kadro Ünvanı Adet Aranan Şartlar Farmasötik Teknoloji Dr. Öğr. Üyesi 1 - Farmasötik Teknoloji alanında doktora yapmış olmak. MÜHENDİSLİK VE DOĞA BİLİMLERİ FAKÜLTESİ Bölüm Kadro Ünvanı Adet Aranan Şartlar Moleküler Biyoloji ve Genetik Profesör 1 - Moleküler Biyoloji ve Genetik veya Biyoloji Doçenti olmak, - Sinirbilim alanında deneysel hayvan modelleri (Zebra balığı) ile çalışmalar yapmış olmak Bilgisayar Mühendisliği Dr. Öğr. Üyesi 1 - Matematik alanında lisans ve doktora derecesine sahip olmak, - Dinamik sistemler matematiksel modellemesi konusunda çalışmalar yapmış olmak. SAĞLIK BİLİMLERİ FAKÜLTESİ Bölüm Kadro Ünvanı Adet Aranan Şartlar Beslenme ve Diyetetik (İngilizce) Dr. Öğr. Üyesi 1 - Beslenme ve Diyetetik alanında doktora yapmış olmak - Beslenme Bilimleri alanında çalışmalar yapmış olmak. MESLEK YÜKSEKOKULU Kadro Ünvanı Adet Aranan Şartlar Dr. Öğr. Üyesi 3 - Gastronomi alanında doktora yapmış olmak. Dr. Öğr. Üyesi 1 - Beslenme ve Diyetetik alanında doktora yapmış olmak. SAĞLIK HİZMETLERİ MESLEK YÜKSEKOKULU Kadro Ünvanı Adet Aranan Şartlar Profesör 1 - İç Hastalıkları Doçenti olmak. - İç Hastalıklarında yapay zeka uygulamaları konusunda çalışmalar yapmış olmak Profesör 1 - Genel Cerrahi Doçenti olmak. REKTÖRLÜK Bölüm Kadro Unvanı Adet Aranan Şartlar Ortak Dersler Dr. Öğr. Üyesi 1 - Müzik ve Sahne Sanatları alanında doktora yapmış olmak. - Yüksek lisans eğitiminden sonra Yükseköğretim Kurumlarında en az 5 yıl ders verme deneyimine sahip olmak BAŞVURU ADRESİ: Acıbadem Mehmet Ali Aydınlar Üniversitesi Kerem Aydınlar Kampüsü, Kayışdağı Cad. No:32 Ataşehir-İSTANBUL Tel: 0216 500 44 44 11470/1/1-1",
+   "description": "Acıbadem Mehmet Ali Aydınlar Üniversitesi Rektörlüğünden: Üniversitemizin aşağıda belirtilen birimleri için 2547 sayılı Kanunun 26. 24. ve 23. maddesinde belirtilen asgari koşulların yanında, Üniversitemiz web sayfasında yayımlanan Acıbadem Mehmet Ali Aydınlar Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atama Kriterlerini sağlamış olmak koşuluyla Profesör, Doçent ve Doktor Öğretim Üyesi alınacaktır. Profesör kadrosu daimi statüde olup, başvuracak adayların Anabilim Dalı/Bölüm ile “Başlıca Araştırma Eserini” belirttiği dilekçesine YÖK formatında özgeçmişini, noterden tasdikli doçentlik belgesi ve diğer diplomalarını, yayın listesini, tebliğleri ile bunlara yapılan atıfları, yönettiği doktora çalışmalarını, Üniversiteye katkılarını kapsayan ve belgeleyen 6 takım yayınlarını USB taşınabilir belleğe ekleyerek Rektörlüğümüze ilan tarihinden itibaren on beş (15) gün içinde bizzat başvurmaları gerekmektedir. Doçent kadrosu daimi statüde olup, atanmak isteyen adayların YÖK formatında özgeçmişlerini, noterden tasdikli doçentlik belgesi ve diğer diplomalarını, bilimsel çalışma ve yayın listesini 4 takım halinde USB taşınabilir belleğe ekleyerek dilekçeyle birlikte ilan tarihinden itibaren Rektörlüğümüze on beş (15) gün içinde bizzat başvurmaları, ayrıca Doçent kadrosuna başvuracak adayların Üniversitelerarası Kurul tarafından değişecek bilim alanları için ayrı ayrı belirlenen ve halen yürürlükte olan Doçentlik kriterlerini sağlamış olmaları gerekmektedir. Doktor Öğretim Üyesi kadrosuna başvuracak adayların YÖK formatında özgeçmişlerini, noter tasdikli doktora belgeleri ve diğer diplomalarını, bilimsel çalışma ve yayınlarını 4 takım hâlinde USB taşınabilir belleğe ekleyerek dilekçe ile birlikte ilan tarihinden itibaren on beş (15) gün içinde ilgili birime bizzat başvurmaları gerekmektedir. Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmeliğin 8. Maddesinin 7. Fıkrasının (ç) bendi uyarınca Üniversitemizin yabancı dille eğitim veren birimleri için yabancı dil şartı aranmaktadır. Yurt dışından alınmış diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması gerekmektedir. Belirtilen şartları taşımayan ve süresi içerisinde başvurmayan adayların başvuruları ile postayla yapılan başvurular dikkate alınmayacaktır. TIP FAKÜLTESİ Anabilim Dalı Kadro Ünvanı Adet Aranan Şartlar Genel Cerrahi Profesör 2 - Genel Cerrahi Doçenti olmak, - Organ Nakli alanında çalışmalar yapmış olmak, - Hepatobiliyer alanında çalışmalar yapmış olmak. Ortopedi ve Travmatoloji Profesör 1 - El Cerrahisi Doçenti olmak. - El cerrahisi ve mikrocerrahi alanında çalışmalar yapmış olmak. Kulak, Burun Boğaz Hastalıkları Profesör 1 - Kulak Burun Boğaz Hastalıkları Doçenti olmak. - Laringoloji alanında çalışmalar yapmış olmak. Çocuk Sağlığı ve Hastalıkları Doçent 1 - Çocuk Hematolojisi ve Onkolojisi (Çocuk Sağlığı ve Hastalıkları) Doçenti olmak. Genel Cerrahi Doçent 1 - Genel Cerrahi Doçenti olmak, - Endokrin Cerrahisi alanında çalışmalar yapmış olmak. Kardiyoloji Doçent 1 - Kardiyoloji Doçenti olmak. - Kardiyak görüntüleme, intravasküler ultrasonografi (IVUS) ve Optik Koherens Tomografi (OCT) alanlarında çalışmalar yapmış olmak. ECZACILIK FAKÜLTESİ Anabilim Dalı Kadro Ünvanı Adet Aranan Şartlar Farmasötik Teknoloji Dr. Öğr. Üyesi 1 - Farmasötik Teknoloji alanında doktora yapmış olmak. MÜHENDİSLİK VE DOĞA BİLİMLERİ FAKÜLTESİ Bölüm Kadro Ünvanı Adet Aranan Şartlar Moleküler Biyoloji ve Genetik Profesör 1 - Moleküler Biyoloji ve Genetik veya Biyoloji Doçenti olmak, - Sinirbilim alanında deneysel hayvan modelleri (Zebra balığı) ile çalışmalar yapmış olmak Bilgisayar Mühendisliği Dr. Öğr. Üyesi 1 - Matematik alanında lisans ve doktora derecesine sahip olmak, - Dinamik sistemler matematiksel modellemesi konusunda çalışmalar yapmış olmak. SAĞLIK BİLİMLERİ FAKÜLTESİ Bölüm Kadro Ünvanı Adet Aranan Şartlar Beslenme ve Diyetetik (İngilizce) Dr. Öğr. Üyesi 1 - Beslenme ve Diyetetik alanında doktora yapmış olmak - Beslenme Bilimleri alanında çalışmalar yapmış olmak. MESLEK YÜKSEKOKULU Kadro Ünvanı Adet Aranan Şartlar Dr. Öğr. Üyesi 3 - Gastronomi alanında doktora yapmış olmak. Dr. Öğr. Üyesi 1 - Beslenme ve Diyetetik alanında doktora yapmış olmak. SAĞLIK HİZMETLERİ MESLEK YÜKSEKOKULU Kadro Ünvanı Adet Aranan Şartlar Profesör 1 - İç Hastalıkları Doçenti olmak. - İç Hastalıklarında yapay zeka uygulamaları konusunda çalışmalar yapmış olmak Profesör 1 - Genel Cerrahi Doçenti olmak. REKTÖRLÜK Bölüm Kadro Unvanı Adet Aranan Şartlar Ortak Dersler Dr. Öğr. Üyesi 1 - Müzik ve Sahne Sanatları alanında doktora yapmış olmak. - Yüksek lisans eğitiminden sonra Yükseköğretim Kurumlarında en az 5 yıl ders verme deneyimine sahip olmak BAŞVURU ADRESİ: Acıbadem Mehmet Ali Aydınlar Üniversitesi Kerem Aydınlar Kampüsü, Kayışdağı Cad. No:32 Ataşehir-İSTANBUL Tel: 0216 500 44 44 11470/1/1-1 | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n",
    "checked_at": "2026-11-19T09:18:13+00:00",
    "akademik": true,
    "puanlar": {},
@@ -1598,7 +1640,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2288344/kamu-akademik-personel-akademik-personel-alimlari-acibadem-mehmet-ali-aydinlar-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "puan_kontrol_durumu": "metinde_bulunamadi",
+   "puan_kontrol_at": "2026-11-26T15:50:31+00:00"
   },
   {
    "id": 716165670,
@@ -1667,7 +1711,9 @@
    ],
    "diger_kaynaklar": [],
    "basvuru_link": "https://www.beykoz.edu.tr",
-   "basvuru_tur": "ana"
+   "basvuru_tur": "ana",
+   "puan_kontrol_durumu": "metinde_bulunamadi",
+   "puan_kontrol_at": "2026-11-26T15:50:32+00:00"
   },
   {
    "id": 724681860,
@@ -1758,8 +1804,6 @@
     }
    ],
    "diger_kaynaklar": [],
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "ai": {
     "ozet": "Türkiye Su Enstitüsü, KPSS P3 puanı ve YDS şartıyla Bilgisayar Mühendisi unvanında 1 sözleşmeli personel alacaktır.",
     "bolum": "Bilgisayar Mühendisliği",
@@ -1777,7 +1821,9 @@
      "657 sayılı Kanun'un 48. maddesindeki şartları taşımak.",
      "Görevini devamlı yapmasına engel sağlık sorunu bulunmamak."
     ]
-   }
+   },
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 736705048,
@@ -1817,7 +1863,9 @@
    ],
    "diger_kaynaklar": [],
    "basvuru_link": "https://basvuru.bilecik.edu.tr/",
-   "basvuru_tur": "ana"
+   "basvuru_tur": "ana",
+   "puan_kontrol_durumu": "metinde_bulunamadi",
+   "puan_kontrol_at": "2026-11-26T15:50:32+00:00"
   },
   {
    "id": 757042350,
@@ -1898,7 +1946,9 @@
     "deneyim": "belirtilmemis",
     "kontenjan": "belirtilmemis",
     "ozel_sartlar": []
-   }
+   },
+   "puan_kontrol_durumu": "metinde_bulunamadi",
+   "puan_kontrol_at": "2026-11-26T15:51:23+00:00"
   },
   {
    "id": 782321293,
@@ -1916,7 +1966,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2301240/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-elemani-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Marmara Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemiz Birimlerine 15.07.2018 tarihli Resmi Gazete'de yayımlanan 10 Sayılı Cumhurbaşkanlığı Kararnamesinin ilgili maddeleri, 10.07.2018 tarihli Resmi Gazete’de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi, 2547 Sayılı Kanunun ilgili maddeleri ve 09.11.2018 tarihli Resmi Gazete’de yayımlanarak yürürlüğe giren “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”in ilgili maddelerine göre Araştırma Görevlisi ve Öğretim Görevlisi alınacaktır. Başvurular https://basvuru.marmara.edu.tr/personel adresi üzerinden istenen belgeler yüklenerek online olarak yapılacaktır. AÇIKLAMALAR -Adayların 657 sayılı Devlet Memurları Kanun'nun 48. maddesinin tüm şartları taşıyor olmaları gerekmektedir. -Adayların Devlet Hizmeti Yükümlülüğü bulunmaması gerekmektedir. -İlan edilen kadrolara müracaat edecek erkek adayların askerlik yönünden mahkeme veya bakaya durumunda olmamaları gerekmektedir. -Aynı tarihli ilanlarda adaylar, ilan edilen kadrolardan yalnızca birine başvurabilirler. -Özel Şartlarda başka bir puan şartı belirtilmemiş ise; ALES’ten en az 70 puan almış olmak gerekir. ALES puanının geçerlilk süresi sınav sonuçlarının açıklandığı tarihinden itibaren 5 yıldır. Mezkur Yönetmelik'in 14.maddesinin 1.fıkrası uyarınca merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir. -İstenilen belgelerde gerçeğe aykırı beyanda bulunduğu tespit edilenlerin sınavı geçersiz sayılacak ve atamaları yapılmayacak, yapılmış olsa dahi iptal edilecektir. -İdarenin uygun gördüğü taktirde ilanın her aşaması iptal edilebilir. -İdare sınav takviminde zorunlu hallerde değişiklik yapma hakkına sahiptir. Aşağıda belirtilen internet adresinden yapılan tüm duyurular tebligat mahiyetinde olup, adaylara ayrıca yazılı tebligat yapılmayacaktır. SINAV TAKVİMİ İLK BAŞVURU TARİHİ : 24.11.2026 SON BAŞVURU TARİHİ : 08.12.2026 ÖN DEĞERLENDİRME TARİHİ : 15.12.2026 SÖZLÜ SINAVA GİRİŞ TARİHİ : 22.12.2026 SONUÇ AÇIKLAMA TARİHİ : 29.12.2026 İLAN NO BİRİM ADI BÖLÜMÜ ANABİLİM DALI KADRO ÜNVANI ADET DRC. BAŞVURU ŞEKLİ ALES PUAN TÜRÜ ÖZEL ŞARTLAR SONUÇLARIN AÇIKLANACAĞI İNTERNET ADRESİ 26.02.008 Yabancı Diller Yüksekokulu - Almanca Hazırlık Birimi Öğr.Gör. (Ders Verecek) 1 4 Online EA/SAY/SÖZ Lisans derecesini Almanca Öğretmenliği, Alman Dili ve Edebiyatı veya Almanca Mütercim ve Tercümanlık bölümlerinden birinden almış olmak. Alanında tezli yüksek lisans derecesine sahip bulunmak. Merkezi bir Yabancı Dil (Almanca) sınavından 85 ve üstü veya eşdeğerliği ÖSYM tarafından kabul edilen bir sınavdan bu puana denk bir puan almış olmak. https://ydil.marmara.edu.tr 26.02.009 Yabancı Diller Yüksekokulu - Fransızca Hazırlık Birimi Öğr.Gör. (Ders Verecek) 1 4 Online EA/SAY/SÖZ Lisans derecesini Fransızca Öğretmenliği, Fransız Dili ve Edebiyatı veya Fransızca Mütercim ve Tercümanlık bölümlerinden birinden almış olmak. Alanında tezli yüksek lisans derecesine sahip bulunmak. Merkezi bir Yabancı Dil (Fransızca) sınavından 85 ve üstü veya eşdeğerliği ÖSYM tarafından kabul edilen bir sınavdan bu puana denk bir puan almış olmak. Kamu kurum ve kuruluşlarında alanında en az 1 yıl tecrübe sahibi olmak. https://ydil.marmara.edu.tr 26.02.010 Yabancı Diller Yüksekokulu - İngilizce Hazırlık Birimi Öğr.Gör. (Ders Verecek) 2 4 Online EA/SAY/SÖZ Lisans derecesini İngilizce Öğretmenliği, İngiliz Dili ve Edebiyatı, İngiliz Dilbilimi, Amerikan Kültürü ve Edebiyatı, İngilizce Mütercim ve Tercümanlık veya Çeviribilimi Bölümlerinden birinden almış olmak. Alanında Tezli yüksek lisans derecesine sahip bulunmak. Merkezi bir Yabancı Dil (İngilizce) sınavından 85 ve üstü veya eşdeğerliği ÖSYM tarafından kabul edilen bir sınavdan bu puana denk bir puan almış olmak. https://ydil.marmara.edu.tr 12091/1-1",
+   "description": "Marmara Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemiz Birimlerine 15.07.2018 tarihli Resmi Gazete'de yayımlanan 10 Sayılı Cumhurbaşkanlığı Kararnamesinin ilgili maddeleri, 10.07.2018 tarihli Resmi Gazete’de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi, 2547 Sayılı Kanunun ilgili maddeleri ve 09.11.2018 tarihli Resmi Gazete’de yayımlanarak yürürlüğe giren “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”in ilgili maddelerine göre Araştırma Görevlisi ve Öğretim Görevlisi alınacaktır. Başvurular https://basvuru.marmara.edu.tr/personel adresi üzerinden istenen belgeler yüklenerek online olarak yapılacaktır. AÇIKLAMALAR -Adayların 657 sayılı Devlet Memurları Kanun'nun 48. maddesinin tüm şartları taşıyor olmaları gerekmektedir. -Adayların Devlet Hizmeti Yükümlülüğü bulunmaması gerekmektedir. -İlan edilen kadrolara müracaat edecek erkek adayların askerlik yönünden mahkeme veya bakaya durumunda olmamaları gerekmektedir. -Aynı tarihli ilanlarda adaylar, ilan edilen kadrolardan yalnızca birine başvurabilirler. -Özel Şartlarda başka bir puan şartı belirtilmemiş ise; ALES’ten en az 70 puan almış olmak gerekir. ALES puanının geçerlilk süresi sınav sonuçlarının açıklandığı tarihinden itibaren 5 yıldır. Mezkur Yönetmelik'in 14.maddesinin 1.fıkrası uyarınca merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir. -İstenilen belgelerde gerçeğe aykırı beyanda bulunduğu tespit edilenlerin sınavı geçersiz sayılacak ve atamaları yapılmayacak, yapılmış olsa dahi iptal edilecektir. -İdarenin uygun gördüğü taktirde ilanın her aşaması iptal edilebilir. -İdare sınav takviminde zorunlu hallerde değişiklik yapma hakkına sahiptir. Aşağıda belirtilen internet adresinden yapılan tüm duyurular tebligat mahiyetinde olup, adaylara ayrıca yazılı tebligat yapılmayacaktır. SINAV TAKVİMİ İLK BAŞVURU TARİHİ : 24.11.2026 SON BAŞVURU TARİHİ : 08.12.2026 ÖN DEĞERLENDİRME TARİHİ : 15.12.2026 SÖZLÜ SINAVA GİRİŞ TARİHİ : 22.12.2026 SONUÇ AÇIKLAMA TARİHİ : 29.12.2026 İLAN NO BİRİM ADI BÖLÜMÜ ANABİLİM DALI KADRO ÜNVANI ADET DRC. BAŞVURU ŞEKLİ ALES PUAN TÜRÜ ÖZEL ŞARTLAR SONUÇLARIN AÇIKLANACAĞI İNTERNET ADRESİ 26.02.008 Yabancı Diller Yüksekokulu - Almanca Hazırlık Birimi Öğr.Gör. (Ders Verecek) 1 4 Online EA/SAY/SÖZ Lisans derecesini Almanca Öğretmenliği, Alman Dili ve Edebiyatı veya Almanca Mütercim ve Tercümanlık bölümlerinden birinden almış olmak. Alanında tezli yüksek lisans derecesine sahip bulunmak. Merkezi bir Yabancı Dil (Almanca) sınavından 85 ve üstü veya eşdeğerliği ÖSYM tarafından kabul edilen bir sınavdan bu puana denk bir puan almış olmak. https://ydil.marmara.edu.tr 26.02.009 Yabancı Diller Yüksekokulu - Fransızca Hazırlık Birimi Öğr.Gör. (Ders Verecek) 1 4 Online EA/SAY/SÖZ Lisans derecesini Fransızca Öğretmenliği, Fransız Dili ve Edebiyatı veya Fransızca Mütercim ve Tercümanlık bölümlerinden birinden almış olmak. Alanında tezli yüksek lisans derecesine sahip bulunmak. Merkezi bir Yabancı Dil (Fransızca) sınavından 85 ve üstü veya eşdeğerliği ÖSYM tarafından kabul edilen bir sınavdan bu puana denk bir puan almış olmak. Kamu kurum ve kuruluşlarında alanında en az 1 yıl tecrübe sahibi olmak. https://ydil.marmara.edu.tr 26.02.010 Yabancı Diller Yüksekokulu - İngilizce Hazırlık Birimi Öğr.Gör. (Ders Verecek) 2 4 Online EA/SAY/SÖZ Lisans derecesini İngilizce Öğretmenliği, İngiliz Dili ve Edebiyatı, İngiliz Dilbilimi, Amerikan Kültürü ve Edebiyatı, İngilizce Mütercim ve Tercümanlık veya Çeviribilimi Bölümlerinden birinden almış olmak. Alanında Tezli yüksek lisans derecesine sahip bulunmak. Merkezi bir Yabancı Dil (İngilizce) sınavından 85 ve üstü veya eşdeğerliği ÖSYM tarafından kabul edilen bir sınavdan bu puana denk bir puan almış olmak. https://ydil.marmara.edu.tr 12091/1-1 | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n",
    "checked_at": "2026-11-24T07:31:00+00:00",
    "puanlar": {},
    "akademik": true,
@@ -1939,7 +1989,27 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2301240/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "puan_kontrol_durumu": "metinde_bulunamadi",
+   "puan_kontrol_at": "2026-11-26T15:51:23+00:00",
+   "ai": {
+    "ozet": "Marmara Üniversitesi Rektörlüğü, Yabancı Diller Yüksekokulu birimlerine çeşitli alanlarda öğretim görevlisi alımı yapacağını duyurdu.",
+    "bolum": "Almanca, Fransızca ve İngilizce Hazırlık Birimleri",
+    "egitim": "Lisans ve Tezli Yüksek Lisans",
+    "kpss_turu": "ALES",
+    "taban_puan": "70",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "4",
+    "ozel_sartlar": [
+     "657 sayılı Kanun'un 48. maddesindeki şartları taşımak",
+     "Devlet hizmeti yükümlülüğü bulunmamak",
+     "Erkek adaylar için askerlik durumu olmamak",
+     "İlgili dillerde lisans ve tezli yüksek lisans derecesine sahip olmak",
+     "Merkezi yabancı dil sınavından en az 85 puan almış olmak"
+    ]
+   }
   },
   {
    "id": 802968413,
@@ -1957,7 +2027,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2301281/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Diğer",
-   "description": "Marmara Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz aşağıda belirtilen Birimine 2547 sayılı Kanunun ve Öğretim Üyeliğine Yükseltme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca, Üniversitemiz Öğretim Üyeliğine Yükseltilme ve Atanma Kriterlerini sağlamış olmak koşuluyla Öğretim Üyesi alınacaktır. Başvurular ilanın yayım tarihinden itibaren 15 gün içinde https://basvuru.marmara.edu.tr/personel adresi üzerinden online olarak yapılacaktır. Adaylar aynı ilan dönemi içerisinde başvuru şartlarını sağladığı sadece bir ilana başvurabilecektir. Birden fazla ilana başvuru yapmış olan adayların başvuruları iptal edilecektir. Daha üst akademik ünvana sahip adayların, doktor öğretim üyesi ve doçent kadrolarına başvuruları kabul edilmeyecektir. Yabancı Dille Eğitim yapan Birimlere müracaatlarda Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik uygulanmaktadır. Yurtdışından alınmış diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması gerekmektedir. Belirtilen şartları taşımayan ve süresi içerisinde başvurmayan adayların başvuruları dikkate alınmayacaktır. İlk Başvuru Tarihi: 24.11.2026 Son Başvuru Tarihi: 08.12.2026 İlan No Birim Bölüm Anabilim/Anasanat/Program Kadro Ünvanı Derece İlan Metni 26.01.136 Atatürk Eğitim Fakültesi Eğitim Bilimleri Eğitim Yönetimi Dr.Öğr.Üyesi 1 Eğitim Yönetimi alanında yüksek lisans ve doktora yapmış olmak. Doktora sonrası SSCI kapsamındaki Q1 dergilerde yayımlanmış, en az biri tek yazarlı olmak üzere araştırma makaleleri bulunmak. Uluslararası destekli projelerde görev almış olmak. Yükseköğretim düzeyinde İngilizce ders verme yeterliğine ve deneyimine sahip olmak. 26.01.137 İletişim Fakültesi Halkla İlişkiler ve Tanıtım Kişilerarası İletişim Profesör 1 Doçentliğini Halkla İlişkiler alanında almış olmak, kişilerarası iletişim süreçleri, çatışma yönetimi, örgütsel ve ikna edici iletişim konularında lisans ve lisansüstü düzeyde ders verme tecrübesine sahip olmak, kişilerarası iletişim alanında TÜBİTAK ve Avrupa Birliği tarafından desteklenen ulusal ve uluslararası tamamlanmış araştırma projelerinde yürütücü olarak görev yapmış olmak, yükseköğretim kurumlarında İngilizce ders verebilecek yabancı dil yeterliliğine sahip olmak. 26.01.138 Teknoloji Fakültesi Siber Güvenlik Mühendisliği Siber Güvenlik Mühendisliği Doçent 1 Havacılık Mühendisliği lisans mezunu olmak, Doçentliğini Yönetim Bilişim Sistemleri alanında almış olmak. Lisans eğitimini İngilizce veren bir kurumda tamamlamış olmak ve İngilizce ders verme tecrübesine sahip olmak. Siber savaş, yüz tanıma yöntemleri, kişi ve nesne takibine yönelik algoritmalar üzerine çalışmaları bulunmak. 26.01.139 Tıp Fakültesi Dahili Tıp Bilimleri İç Hastalıkları Doçent 1 Endokrinoloji ve Metabolizma Hastalıkları yan dal uzmanı ve doçenti olmak, diyabetik hastalarda kas gücü ve diyabetik ayak ile ilgili SCI/SCI expanded kapsamında dergilerde yayınları olmak. 26.01.140 Tıp Fakültesi Dahili Tıp Bilimleri İç Hastalıkları Doçent 1 Geriatri yan dal uzmanı ve doçenti olmak, alanında ulusal yeterlik belgesi sahibi olmak, yaşlıda düşme konusunda SCI/SCI expanded kapsamıda çalışması olmak, deney hayvanları kullanım sertifikasına sahip olmak. 26.01.141 Tıp Fakültesi Dahili Tıp Bilimleri İç Hastalıkları Dr.Öğr.Üyesi 1 Nefroloji yan dal uzmanı olmak,alanında ulusal yeterlik belgesi sahibi olmak, diyabetik nefropati alanında SCI/SCI expanded kapsamında dergilerde yayınları olmak. 26.01.142 Uygulamalı Bilimler Fakültesi Turizm ve Gastronomi Yönetimi Turizm İşletmeciliği Profesör 1 Mali İktisat alanında doktorasını yapmış olmak, maliye bilim alanında doçent ünvanı almış olmak. Yurtdışı araştırma tecrübesi olup İngilizce ders verebilecek yeterliliğe sahip olmak. Turizm ekonomisi ve sağlık ekonomisi konularında çalışması bulunmak. İlan olunur. 12092/1-1",
+   "description": "Marmara Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz aşağıda belirtilen Birimine 2547 sayılı Kanunun ve Öğretim Üyeliğine Yükseltme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca, Üniversitemiz Öğretim Üyeliğine Yükseltilme ve Atanma Kriterlerini sağlamış olmak koşuluyla Öğretim Üyesi alınacaktır. Başvurular ilanın yayım tarihinden itibaren 15 gün içinde https://basvuru.marmara.edu.tr/personel adresi üzerinden online olarak yapılacaktır. Adaylar aynı ilan dönemi içerisinde başvuru şartlarını sağladığı sadece bir ilana başvurabilecektir. Birden fazla ilana başvuru yapmış olan adayların başvuruları iptal edilecektir. Daha üst akademik ünvana sahip adayların, doktor öğretim üyesi ve doçent kadrolarına başvuruları kabul edilmeyecektir. Yabancı Dille Eğitim yapan Birimlere müracaatlarda Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik uygulanmaktadır. Yurtdışından alınmış diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması gerekmektedir. Belirtilen şartları taşımayan ve süresi içerisinde başvurmayan adayların başvuruları dikkate alınmayacaktır. İlk Başvuru Tarihi: 24.11.2026 Son Başvuru Tarihi: 08.12.2026 İlan No Birim Bölüm Anabilim/Anasanat/Program Kadro Ünvanı Derece İlan Metni 26.01.136 Atatürk Eğitim Fakültesi Eğitim Bilimleri Eğitim Yönetimi Dr.Öğr.Üyesi 1 Eğitim Yönetimi alanında yüksek lisans ve doktora yapmış olmak. Doktora sonrası SSCI kapsamındaki Q1 dergilerde yayımlanmış, en az biri tek yazarlı olmak üzere araştırma makaleleri bulunmak. Uluslararası destekli projelerde görev almış olmak. Yükseköğretim düzeyinde İngilizce ders verme yeterliğine ve deneyimine sahip olmak. 26.01.137 İletişim Fakültesi Halkla İlişkiler ve Tanıtım Kişilerarası İletişim Profesör 1 Doçentliğini Halkla İlişkiler alanında almış olmak, kişilerarası iletişim süreçleri, çatışma yönetimi, örgütsel ve ikna edici iletişim konularında lisans ve lisansüstü düzeyde ders verme tecrübesine sahip olmak, kişilerarası iletişim alanında TÜBİTAK ve Avrupa Birliği tarafından desteklenen ulusal ve uluslararası tamamlanmış araştırma projelerinde yürütücü olarak görev yapmış olmak, yükseköğretim kurumlarında İngilizce ders verebilecek yabancı dil yeterliliğine sahip olmak. 26.01.138 Teknoloji Fakültesi Siber Güvenlik Mühendisliği Siber Güvenlik Mühendisliği Doçent 1 Havacılık Mühendisliği lisans mezunu olmak, Doçentliğini Yönetim Bilişim Sistemleri alanında almış olmak. Lisans eğitimini İngilizce veren bir kurumda tamamlamış olmak ve İngilizce ders verme tecrübesine sahip olmak. Siber savaş, yüz tanıma yöntemleri, kişi ve nesne takibine yönelik algoritmalar üzerine çalışmaları bulunmak. 26.01.139 Tıp Fakültesi Dahili Tıp Bilimleri İç Hastalıkları Doçent 1 Endokrinoloji ve Metabolizma Hastalıkları yan dal uzmanı ve doçenti olmak, diyabetik hastalarda kas gücü ve diyabetik ayak ile ilgili SCI/SCI expanded kapsamında dergilerde yayınları olmak. 26.01.140 Tıp Fakültesi Dahili Tıp Bilimleri İç Hastalıkları Doçent 1 Geriatri yan dal uzmanı ve doçenti olmak, alanında ulusal yeterlik belgesi sahibi olmak, yaşlıda düşme konusunda SCI/SCI expanded kapsamıda çalışması olmak, deney hayvanları kullanım sertifikasına sahip olmak. 26.01.141 Tıp Fakültesi Dahili Tıp Bilimleri İç Hastalıkları Dr.Öğr.Üyesi 1 Nefroloji yan dal uzmanı olmak,alanında ulusal yeterlik belgesi sahibi olmak, diyabetik nefropati alanında SCI/SCI expanded kapsamında dergilerde yayınları olmak. 26.01.142 Uygulamalı Bilimler Fakültesi Turizm ve Gastronomi Yönetimi Turizm İşletmeciliği Profesör 1 Mali İktisat alanında doktorasını yapmış olmak, maliye bilim alanında doçent ünvanı almış olmak. Yurtdışı araştırma tecrübesi olup İngilizce ders verebilecek yeterliliğe sahip olmak. Turizm ekonomisi ve sağlık ekonomisi konularında çalışması bulunmak. İlan olunur. 12092/1-1 | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n",
    "checked_at": "2026-11-24T07:30:59+00:00",
    "puanlar": {},
    "akademik": true,
@@ -1979,7 +2049,27 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2301281/kamu-akademik-personel-akademik-personel-alimlari-marmara-universitesi-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "puan_kontrol_durumu": "metinde_bulunamadi",
+   "puan_kontrol_at": "2026-11-26T15:51:24+00:00",
+   "ai": {
+    "ozet": "Marmara Üniversitesi Rektörlüğü çeşitli fakültelere 2547 sayılı Kanun uyarınca öğretim üyesi alacaktır.",
+    "bolum": "belirtilmemis",
+    "egitim": "Doktora",
+    "kpss_turu": "belirtilmemis",
+    "taban_puan": "belirtilmemis",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "7",
+    "ozel_sartlar": [
+     "Adaylar sadece bir ilana basvuru yapabilir.",
+     "Yurtdisindan alinmis diplomalar icin denklik gereklidir.",
+     "Ilan sartlarini tasimayanlarin basvurulari kabul edilmeyecektir.",
+     "Basvurular online olarak yapilacaktir.",
+     "Akademik unvan sartlarina uygunluk aranmaktadir."
+    ]
+   }
   },
   {
    "id": 807563525,
@@ -2972,7 +3062,25 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2302666/kamu-akademik-personel-akademik-personel-alimlari-cag-universitesi-rektorlugunden-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "ai": {
+    "ozet": "Çağ Üniversitesi bünyesinde istihdam edilmek üzere 2547 sayılı kanun kapsamında 2 araştırma görevlisi alınacaktır.",
+    "bolum": "Uluslararası Finans ve Bankacılık, Uluslararası Ticaret ve Lojistik",
+    "egitim": "Lisans mezunu, tezli yüksek lisans mezunu veya öğrencisi",
+    "kpss_turu": "ALES (EA)",
+    "taban_puan": "70",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "2",
+    "ozel_sartlar": [
+     "Merkezi yabancı dil puanı en az 85 olmak.",
+     "İlgili alanların birinde tezli yüksek lisans mezunu veya öğrencisi olmak.",
+     "Başvurular şahsen veya posta yoluyla yapılmalıdır.",
+     "İnternet üzerinden başvurular kabul edilmemektedir.",
+     "Eksik belge ile yapılan başvurular dikkate alınmayacaktır."
+    ]
+   }
   },
   {
    "id": 1254622502,
@@ -3397,7 +3505,25 @@
    ],
    "egitim_tahmin": true,
    "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel"
+   "basvuru_tur": "genel",
+   "ai": {
+    "ozet": "Rekabet Kurumu Başkanlığı, çeşitli lisans bölümlerinden mezun toplam 55 rekabet uzman yardımcısı alacaktır.",
+    "bolum": "İktisat, siyasal bilgiler, işletme, işletme mühendisliği, endüstri mühendisliği, ekonometri, istatistik, matematik, hukuk, bilgisayar mühendisliği, adli bilişim mühendisliği, yazılım mühendisliği, yapay zekâ mühendisliği",
+    "egitim": "Lisans",
+    "kpss_turu": "KPSS P1, P4, P5, P6, P7, P12, P13, P14, P15, P16, P19, P24, P26, P27, P28, P33, P38, P41",
+    "taban_puan": "80",
+    "yas_siniri": "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 yaşını doldurmamış olmak",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "55",
+    "ozel_sartlar": [
+     "657 sayılı Kanun'un 48'inci maddesindeki genel şartları taşımak",
+     "Sınavın yapıldığı yılın Ocak ayının birinci günü itibarıyla 35 yaşını doldurmamış olmak",
+     "Belirtilen KPSS puan türlerinden en az 80 puan almış olmak",
+     "Yabancı dil (İngilizce) yazılı sınavından en az 70 puan almak",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığı bulunmamak"
+    ]
+   }
   },
   {
    "id": 1540004042,
@@ -4511,7 +4637,21 @@
      "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "ai": {
+    "ozet": "Türkiye Su Enstitüsü Başkanlığı İstanbul'da istihdam edilmek üzere sözleşmeli Bilgisayar Mühendisi alım ilanını duyurmuştur.",
+    "bolum": "Bilgisayar Mühendisliği",
+    "egitim": "Lisans",
+    "kpss_turu": "belirtilmemis",
+    "taban_puan": "belirtilmemis",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "belirtilmemis",
+    "ozel_sartlar": [
+     "belirtilmemis"
+    ]
+   }
   },
   {
    "id": 2117139872,
@@ -5883,7 +6023,24 @@
    ],
    "diger_kaynaklar": [],
    "basvuru_link": "https://basvuru.ksu.edu.tr",
-   "basvuru_tur": "ana"
+   "basvuru_tur": "ana",
+   "ai": {
+    "ozet": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü 2547 sayılı Kanun kapsamında öğretim görevlisi alacaktır.",
+    "bolum": "belirtilmemis",
+    "egitim": "Yüksek Lisans",
+    "kpss_turu": "ALES",
+    "taban_puan": "70",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "belirtilmemis",
+    "ozel_sartlar": [
+     "En az tezli yüksek lisans derecesine sahip olmak veya lisans ve yüksek lisans derecesini birlikte veren programlardan mezun olmak.",
+     "657 sayılı Kanun'un 48 inci maddesindeki şartları taşımak.",
+     "ALES'ten en az 70 puan almak.",
+     "Yabancı dil sınavından en az 50 puan veya eşdeğer puan almak."
+    ]
+   }
   },
   {
    "id": 2600960678,
@@ -6033,8 +6190,6 @@
     }
    ],
    "diger_kaynaklar": [],
-   "basvuru_link": "https://www.afsu.edu.tr",
-   "basvuru_tur": "ana",
    "ai": {
     "ozet": "Afyonkarahisar Sağlık Bilimleri Üniversitesi, çeşitli fakülte ve meslek yüksekokullarına 3 öğretim görevlisi alacaktır.",
     "bolum": "Dişçilik Hizmetleri, Tıbbi Hizmetler ve Teknikler",
@@ -6052,7 +6207,9 @@
      "Adaylar ilan edilen kadrolardan yalnızca birine başvurabilir",
      "Yurtdışı diplomalar için YÖK denklik belgesi gereklidir"
     ]
-   }
+   },
+   "basvuru_link": "https://www.afsu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2702241632,
@@ -6095,7 +6252,25 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2304201/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugunden-arastirma-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "ai": {
+    "ozet": "Boğaziçi Üniversitesi Rektörlüğü, farklı birimlerine 2547 sayılı Kanun uyarınca toplam 2 araştırma görevlisi alacaktır.",
+    "bolum": "Felsefe / Yapay Zeka",
+    "egitim": "Lisansüstü",
+    "kpss_turu": "ALES",
+    "taban_puan": "70",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "2",
+    "ozel_sartlar": [
+     "657 sayılı Kanun'un 48. maddesindeki şartları taşımak",
+     "Felsefe veya Yapay Zeka alanında tezli yüksek lisans veya doktora yapıyor olmak",
+     "ALES'ten ilgili puan türünden en az 70 veya 80 almış olmak",
+     "YDS veya eşdeğerliliği kabul edilen sınavdan en az 85 puan almış olmak",
+     "Başvuru için gerekli belgeleri şahsen veya posta ile süresi içinde teslim etmek"
+    ]
+   }
   },
   {
    "id": 2708449685,
@@ -7431,7 +7606,25 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "ai": {
+    "ozet": "Manisa Celal Bayar Universitesi, cesitli fakültelerine 2547 sayili Kanun ve ilgili yonetmelikler kapsaminda ogretim uyesi alacaktir.",
+    "bolum": "Cesitli Bolumler",
+    "egitim": "Doktora",
+    "kpss_turu": "belirtilmemis",
+    "taban_puan": "belirtilmemis",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "10",
+    "ozel_sartlar": [
+     "657 sayili Kanun'un 48. maddesindeki şartları tasimak.",
+     "Yurt disi diplomalar icin Universitelerarasi Kurul denkligi almak.",
+     "Ilgili ana bilim dalinda docentlik unvanina sahip olmak.",
+     "Basvuru yapilacak kadro unvanina uygun akademik calismalara sahip olmak.",
+     "Sadece bir kadroya basvuru yapmak."
+    ]
+   }
   },
   {
    "id": 3331030616,
@@ -7734,7 +7927,25 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2304212/kamu-akademik-personel-akademik-personel-alimlari-istanbul-beykent-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "ai": {
+    "ozet": "İstanbul Beykent Üniversitesi Rektörlüğü, TÖMER bünyesinde görevlendirilmek üzere 2 öğretim görevlisi alımı yapacağını duyurdu.",
+    "bolum": "Türkçe Öğretimi Uygulama ve Araştırma Merkezi",
+    "egitim": "Lisans",
+    "kpss_turu": "ALES",
+    "taban_puan": "70",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "En az iki akademik dönem yabancı dil olarak Türkçe dersleri vermiş olmak",
+    "kontenjan": "2",
+    "ozel_sartlar": [
+     "Türkçe Öğretmenliği, Türk Dili ve Edebiyatı Öğretmenliği veya Türk Dili ve Edebiyatı lisans mezunu olmak",
+     "İlgili alanlardan birinde veya Yabancı Dil Olarak Türkçe Öğretimi alanında tezli yüksek lisans yapmış olmak",
+     "Pedagojik formasyon eğitimi sertifikasına sahip olmak",
+     "Yabancı Dil Olarak Türkçe Öğretimi Sertifikası'na sahip olmak",
+     "Yükseköğretim kurumlarında en az 2 akademik dönem yabancı dil olarak Türkçe dersleri verdiğini belgelendirmek"
+    ]
+   }
   },
   {
    "id": 3449808621,
@@ -8219,7 +8430,25 @@
    ],
    "diger_kaynaklar": [],
    "basvuru_link": "https://ilan.comu.edu.tr/",
-   "basvuru_tur": "ana"
+   "basvuru_tur": "ana",
+   "ai": {
+    "ozet": "Çanakkale Onsekiz Mart Üniversitesi, çeşitli birimlerine öğretim görevlisi ve araştırma görevlisi alacaktır.",
+    "bolum": "belirtilmemis",
+    "egitim": "Lisans / Yüksek Lisans / Doktora",
+    "kpss_turu": "ALES",
+    "taban_puan": "70",
+    "yas_siniri": "35 yaşini doldurmamis olmak",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "belirtilmemis",
+    "ozel_sartlar": [
+     "Öğretim görevlisi kadrosuna başvuracak adaylarda en az tezli yüksek lisans derecesine sahip olmak.",
+     "Araştırma görevlisi kadrosu için tezli yüksek lisans, doktora veya sanatta yeterlilik eğitimi öğrencisi olmak.",
+     "Araştırma görevlisi kadrosuna başvuracak adayların 35 yaşını doldurmamış olması.",
+     "Meslek yüksekokulları için belirli alanlarda en az iki veya dört yıl mesleki tecrübe sahibi olmak.",
+     "Yabancı dille eğitim yapılan programlar için en az 85 puan yabancı dil şartı."
+    ]
+   }
   },
   {
    "id": 3717998634,
