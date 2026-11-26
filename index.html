@@ -515,6 +515,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 </style>
 <style>.kr-yeni .btn-karsilastir{border:1px solid var(--cizgi);background:var(--bg);color:var(--mavi);border-radius:8px;padding:6px;font-size:10px;font-weight:700;cursor:pointer}.kr-compare-dock{display:flex;gap:10px;align-items:center;padding:12px;margin-bottom:12px;border:1px solid var(--cizgi);border-radius:12px;background:var(--kart)}.kr-compare-dock button{border:0;border-radius:8px;background:#245b91;color:white;padding:8px 10px;font-weight:700}.kr-compare-dock button:disabled{opacity:.4}.kr-compare-table-wrap{overflow:auto}.kr-compare-table{border-collapse:collapse;min-width:500px;width:100%;font-size:13px}.kr-compare-table th,.kr-compare-table td{padding:9px;border-bottom:1px solid var(--cizgi);text-align:left;vertical-align:top}</style>
 <style>.rozet.r-resmi{background:rgba(22,163,74,.11);color:#15803d;border-color:rgba(22,163,74,.22)}#mnBildirim{white-space:nowrap}@media(max-width:700px){#mnBildirim{font-size:11px}}</style>
+<style>.kr-kurum-rehberi{margin:0 0 18px;border:1px solid var(--cizgi);border-radius:13px;background:var(--kart);padding:12px 14px}.kr-kurum-rehberi summary{cursor:pointer;color:var(--yazi);font-size:13px}.kr-kurum-rehberi summary span{color:var(--soluk);font-size:11px;margin-left:6px}.kr-kurum-grid{display:flex;flex-wrap:wrap;gap:7px;padding-top:12px}.kr-kurum-grid button{border:1px solid var(--cizgi);background:var(--bg);color:var(--yazi);border-radius:999px;padding:7px 11px;font-size:11px;font-weight:650;cursor:pointer}.kr-kurum-grid button:hover{border-color:var(--mavi);color:var(--mavi)}</style>
 </head>
 <body class="kr-yeni">
 <div class="duyuru"><span>Bilgilendirme:</span> KamuRadar resmî kurum sitesi değildir. Başvurunu mutlaka resmî kaynaktan yap.</div>
@@ -569,6 +570,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
     <div><span class="kr-kicker">SANA UYGUN İLANLAR</span><h2>Aramaya başla</h2><p>Önce ilanları keşfet, istersen kişisel bilgilerine göre daralt.</p></div>
   </div>
   <div class="cipler" id="cipler"></div>
+  <details class="kr-kurum-rehberi"><summary><b>Kurum türüne göre keşfet</b><span> Bakanlık · Üniversite · Belediye · Sağlık · Adalet · Güvenlik</span></summary><div class="kr-kurum-grid"><button type="button" data-kurum-sec="Bakanlık / Genel Müdürlük">Bakanlık / Genel Müdürlük</button><button type="button" data-kurum-sec="Üniversite">Üniversite</button><button type="button" data-kurum-sec="Belediye / İl Özel İdaresi">Belediye / İl Özel İdaresi</button><button type="button" data-kurum-sec="Hastane / Sağlık">Hastane / Sağlık</button><button type="button" data-kurum-sec="Adalet / Mahkeme">Adalet / Mahkeme</button><button type="button" data-kurum-sec="MSB / TSK">MSB / TSK</button><button type="button" data-kurum-sec="Jandarma / Sahil Güvenlik">Jandarma / Sahil Güvenlik</button><button type="button" data-kurum-sec="Polis / Emniyet">Polis / Emniyet</button></div></details>
 
   <div class="kr-filter-card">
     <button class="mobil-filtre" id="mobilFiltre" type="button">Filtreleri aç / kapat</button>
@@ -653,6 +655,8 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
   <details><summary>"Yakında açılacak" ne demek?</summary><p>İlan yayımlanmış ama başvuru tarihi henüz gelmemiş demektir. Başvuru tarihi gelmeden önce hazırlık yapman için ayrı gösterilir.</p></details>
   <details><summary>Bölümüm listede yok, ne yapmalıyım?</summary><p>"Bölüm listede yoksa yaz" kutusuna bölümünün adını yaz. Siteye yeni bölüm adları ilanlardan otomatik eklenir.</p></details>
   <details><summary>Yaş ve sürücü belgesi filtresi nasıl çalışır?</summary><p>Yaşını yazarsan, ilan metninde yaş sınırı yazan ve senin yaşını aşan ilanlar gizlenir. Sürücü belgem "Yok" dersen, sürücü belgesi şartı yazan ilanlar gizlenir. Okuma otomatik olduğu için ilanı yine de kontrol et.</p></details>
+  <details><summary>KPSS puan türleri nasıl kullanılır?</summary><p>Lisans, ön lisans ve ortaöğretim alımlarında farklı KPSS puan türleri kullanılabilir. İlanın istediği puan türü ve taban puan esas alınmalıdır; yalnızca puanının yüksek olması farklı puan türü istenen bir ilana başvurabileceğin anlamına gelmez. KamuRadar, ilan metninde açıkça bulunan bilgileri gösterir; emin olmadığın durumda resmî ilanı kontrol et.</p></details>
+  <details><summary>Akademik kadrolar nerede?</summary><p>Gelişmiş filtrelerden "Akademik kadroları da göster" seçeneğini aç. Üniversitelerin araştırma görevlisi, öğretim görevlisi ve diğer akademik personel ilanları bu şekilde listelenir.</p></details>
   <details><summary>Telefonuma nasıl eklerim?</summary><p>Tarayıcı menüsünden "Ana ekrana ekle" seçeneğini kullanabilirsin; site bir uygulama gibi kısayolla açılır.</p></details>
   <p class="kesfet"><b>Başlığa göre keşfet:</b> <a href="kesfet/">Şehir, eğitim durumu ve KPSS türüne göre ilan sayfaları</a></p>
 </section>
@@ -923,9 +927,9 @@ function modalAc(id){
   if(i.ai&&typeof i.ai==='object'){
     const v=x=>{x=String(x||'').trim();return (!x||/^belirtilmemi[sş]/i.test(x))?'':esc(x)};
     const A=[]; if(v(i.ai.ozet)) A.push(['Özet',v(i.ai.ozet)]);
-    [['Bölüm',i.ai.bolum],['Yaş sınırı',i.ai.yas_siniri],['Ehliyet',i.ai.ehliyet],['Deneyim',i.ai.deneyim]].forEach(([k,x])=>{if(v(x))A.push([k,v(x)])});
+    [['Bölüm',i.ai.bolum],['Eğitim',i.ai.egitim],['KPSS türü',i.ai.kpss_turu],['Taban puan',i.ai.taban_puan],['Kontenjan',i.ai.kontenjan],['Yaş sınırı',i.ai.yas_siniri],['Ehliyet',i.ai.ehliyet],['Deneyim',i.ai.deneyim]].forEach(([k,x])=>{if(v(x))A.push([k,v(x)])});
     if(Array.isArray(i.ai.ozel_sartlar)&&i.ai.ozel_sartlar.length) A.push(['Özel şartlar',i.ai.ozel_sartlar.slice(0,5).map(x=>'• '+esc(x)).join('<br>')]);
-    if(A.length){S.push(['🤖 Yapay zekâ özeti','<small>(hatalı olabilir, ilandan kontrol et)</small>']); A.forEach(x=>S.push(x))}
+    if(A.length){S.push(['🤖 Yapay zekâ özeti','<small>(otomatik çıkarım; resmî ilanla karşılaştır)</small>']); A.forEach(x=>S.push(x))}
   }
   const d=durum();
   let fit;
@@ -1185,6 +1189,7 @@ $('btnTamam').addEventListener('click',()=>{
     setTimeout(()=>{b.classList.remove('tamam');ik.textContent='🔍';mt.textContent='Tamam / Filtrele'},1700)},450);
 });
 $('fEgitim').addEventListener('change',()=>{bolumDoldur();otoTur();yenidenCiz()});
+$('cipler').parentNode.addEventListener('click',e=>{const b=e.target.closest('[data-kurum-sec]');if(!b)return;$('fKurum').value=b.dataset.kurumSec;kaydet();yenidenCiz();$('ilanlar').scrollIntoView({behavior:'smooth'})});
 $('fBolumYaz').addEventListener('input',()=>yenidenCiz());
 ['fBolum','fTur','fSehir','fKurum','fCalisma','fKaynak','fAkademik','fBitmis','fListe','fSira'].forEach(id=>$(id).addEventListener('change',()=>{kaydet();yenidenCiz()}));
 $('fPuan').addEventListener('input',()=>{kaydet();yenidenCiz()});
