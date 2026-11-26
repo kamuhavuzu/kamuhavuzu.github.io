@@ -58,11 +58,12 @@ jobs:
           kayitlar = {
               "sonuc": {"title": "29 Mart 2023 Çalışma Uzman Yardımcılığı Giriş Sınavı Sonuçları Duyuru", "institution": "Çalışma ve Sosyal Güvenlik Bakanlığı", "source_name": "Çalışma ve Sosyal Güvenlik Bakanlığı"},
               "turmob": {"title": "TÜRMOB'dan Yeminli Mali Müşavirlik Sınav Duyurusu", "institution": "TÜRMOB", "source_name": "ilan.gov.tr"},
+              "puan_duyuru": {"title": "Aile Bakanlığı Sözleşmeli Personel Alımı Taban ve Tavan Puanları Hakkında Duyuru", "institution": "Aile ve Sosyal Hizmetler Bakanlığı", "source_name": "Aile ve Sosyal Hizmetler Bakanlığı"},
               "eski_alim": {"title": "02 Aralık 2022 Aile ve Sosyal Hizmetler Bakanlığı Sözleşmeli Personel Alım İlanı", "institution": "Aile ve Sosyal Hizmetler Bakanlığı", "source_name": "Aile ve Sosyal Hizmetler Bakanlığı"},
               "guncel_mufettis": {"title": "Sosyal Güvenlik Kurumu Müfettiş Yardımcılığı Giriş Sınavı İlanı", "institution": "Sosyal Güvenlik Kurumu", "source_name": "ilan.gov.tr"}
           }
           cikarilan = ilan_disi_temizle(kayitlar)
-          assert cikarilan == 2, (cikarilan, kayitlar)
+          assert cikarilan == 3, (cikarilan, kayitlar)
           assert "eski_alim" in kayitlar and kayitlar["eski_alim"].get("durum") == "arsiv"
           assert "guncel_mufettis" in kayitlar
           print("Yanlış duyuru filtreleri: OK")
