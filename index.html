@@ -1051,7 +1051,7 @@ function modalAc(id){
     const m={yesil:['r-yesil','🟢 Puanın yetiyor',`Taban ${virg(i.minP)}, senin puanın ${virg(d.puan)}.`],
       sari:['r-sari','🟡 Çok yakın',`${i.fark.toFixed(2).replace('.',',')} puan eksik (taban ${virg(i.minP)}).`],
       kirmizi:['r-kirmizi','🔴 Puanın düşük',`${i.fark.toFixed(2).replace('.',',')} puan eksik (taban ${virg(i.minP)}).`],
-      bilinmiyor:['','⚪ Taban puan okunamadı','Resmî ilana bak; biliyorsan aşağıya yaz.']}[i.durum];
+      bilinmiyor:['','⚪ Taban puan henüz okunamadı','Sistem resmî ilanı ve PDF eklerini yeniden tarıyor. İlanda puan belirtilmemişse tahmin edilmez.']}[i.durum];
     fit=`<div class="mfit ${m[0]}"><b>${m[1]}</b><br>${m[2]}</div>`;
   } else fit='<div class="mfit"><b>Sana göre değerlendirme</b><br>Soldaki filtrelerden eğitim durumunu ve KPSS puanını girersen burada uygun olup olmadığını görürsün.</div>';
   const giris=(i.durum==='bilinmiyor')?`<div class="puan-giris"><input type="number" step="0.01" min="40" max="100" placeholder="Taban puanı biliyorsan yaz" data-id="${esc(i.id)}"><button type="button" data-kaydet="${esc(i.id)}">Kaydet</button></div>`:'';
