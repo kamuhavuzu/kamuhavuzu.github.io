@@ -46,7 +46,7 @@ def sor_gemini(row):
             return json.loads(yanit["candidates"][0]["content"]["parts"][0]["text"])
         except urllib.error.HTTPError as e:
             hata = e
-            print("model", m, "HTTP", e.code)
+            print("model", m, "HTTP", e.code, e.read().decode("utf-8","ignore")[:700].replace("\n"," ") if e.code != 404 else "")
             if e.code not in (404, 429, 500, 503):
                 raise
             time.sleep(3)
