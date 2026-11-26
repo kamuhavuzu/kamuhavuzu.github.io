@@ -550,39 +550,57 @@ def puanlari_yenile(mevcut):
     return n
 
 
-def puan_bulunamayanlari_yenile(session, mevcut, limit=16):
+def puan_bulunamayanlari_yenile(session, mevcut, limit=24):
     """Daha once puani bulunamayan ilanlarin resmi detay sayfasini/PDF eklerini yeniden tarar."""
     bugun = date.today().isoformat()
     aday = []
     for row in mevcut.values():
         if row.get("iptal") or row.get("min_kpss") or row.get("puanlar") or row.get("durum") == "arsiv":
             continue
-        if row.get("source_name") == "Kariyer Kapısı":
-            continue  # RSS ilan sayfasinin icerigi oturum/JS arkasinda; bos yere tekrar cekme
         son = str(row.get("deadline") or "")[:10]
         if son and son < bugun:
             continue
-        link = str(row.get("link") or "")
-        if not link.startswith("http"):
+        # Kariyer Kapisi kayitlarini da atlama: source_url veya aciklamada
+        # kurumun asil ilan/PDF adresi bulunabilir.
+        url_adaylari = []
+        for alan in ("source_url", "official_url", "document_url", "pdf_url", "link"):
+            deger = str(row.get(alan) or "").strip()
+            if deger.startswith("http") and deger not in url_adaylari:
+                url_adaylari.append(deger)
+        aciklama = str(row.get("description") or "")
+        for eslesme in re.finditer(r"https?://[^\\s]+", aciklama, re.I):
+            deger = eslesme.group(0).rstrip(".,;:)]}\\\"'")
+            if deger.lower().endswith(".pdf") and deger not in url_adaylari:
+                url_adaylari.insert(0, deger)
+        if not url_adaylari:
             continue
+        row["_puan_kontrol_url_adaylari"] = url_adaylari
         aday.append(row)
     # En uzun suredir kontrol edilmeyen ilanlari once al; her calismada farkli bir grup ilerler.
     aday.sort(key=lambda r: str(r.get("puan_kontrol_at") or ""))
     bulunan = 0
     for row in aday[:limit]:
         try:
-            metin = detay_oku(session, row.get("source_url") or row["link"])
+            metin = ""
+            kullanilan_url = ""
+            for kontrol_url in row.pop("_puan_kontrol_url_adaylari", [row.get("link")]):
+                metin = detay_oku(session, kontrol_url)
+                if metin:
+                    kullanilan_url = kontrol_url
+                    detaydan_doldur(row, metin)
+                    if row.get("min_kpss") or row.get("puanlar"):
+                        break
             if metin:
-                onceki = row.get("min_kpss")
-                detaydan_doldur(row, metin)
                 if row.get("min_kpss") or row.get("puanlar"):
                     bulunan += 1
                     row["puan_kontrol_durumu"] = "bulundu"
                     row["puan_kontrol_kaynagi"] = "Resmî ilan sayfası/PDF eki"
+                    row["puan_kontrol_url"] = kullanilan_url
                 else:
                     row["puan_kontrol_durumu"] = "resmi_metinde_puan_yok"
+                    row["puan_kontrol_url"] = kullanilan_url
             else:
-                row["puan_kontrol_durumu"] = "sayfa_okunamadi"
+                row["puan_kontrol_durumu"] = "resmi_kaynak_okunamadi"
             row["puan_kontrol_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
         except Exception as e:
             row["puan_kontrol_durumu"] = "kontrol_hatasi"
