@@ -6,7 +6,7 @@ from datetime import date
 K = os.path.dirname(os.path.abspath(__file__))
 TOKEN, KANAL = os.environ.get("TELEGRAM_TOKEN", ""), os.environ.get("TELEGRAM_KANAL", "")
 GONDERILEN = os.path.join(K, "gonderilen.json")
-SITE = "https://kamuradar.github.io/"
+SITE = "https://kamuhavuzu.github.io/"
 
 def main():
     if not TOKEN or not KANAL:

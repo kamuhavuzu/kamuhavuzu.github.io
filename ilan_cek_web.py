@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KamuRadar toplayici: birden cok kaynaktan ilan toplar, ilanlar.json'a yazar.
+"""KamuHavuzu toplayici: birden cok kaynaktan ilan toplar, ilanlar.json'a yazar.
 
 Her kaynak ayri calisir; biri hata verirse digerleri devam eder. Sonuc durumu
 (tamam / hata / kontrol-edilmeli) ilanlar.json icindeki "kaynaklar" alanina yazilir,
@@ -48,7 +48,7 @@ DETAY_METIN_LIMIT = 30000
 PDF_EK_LIMIT = 3
 PDF_BOYUT_LIMIT = 12 * 1024 * 1024
 DETAY_LIMIT = 80         # her kaynakta bir calismada en fazla bu kadar ilan sayfasi acilir
-UA = {"user-agent": "Mozilla/5.0 (compatible; KamuRadar/1.0; kisisel kullanim)"}
+UA = {"user-agent": "Mozilla/5.0 (compatible; KamuHavuzu/1.0; kisisel kullanim)"}
 
 
 def iso(d):
@@ -239,7 +239,7 @@ def ek_sertifika_paketi(host):
         except ValueError:
             cert = x509.load_pem_x509_certificate(veri)
         pemler.append(cert.public_bytes(serialization.Encoding.PEM))
-    yol = os.path.join(tempfile.gettempdir(), "kamuradar_ca.pem")
+    yol = os.path.join(tempfile.gettempdir(), "kamuhavuzu_ca.pem")
     with open(certifi.where(), "rb") as f:
         temel = f.read()
     with open(yol, "wb") as f:

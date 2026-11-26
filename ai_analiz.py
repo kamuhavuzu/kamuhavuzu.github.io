@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""KamuRadar ilanlarini birden fazla yapay zeka saglayicisiyle analiz eder.
+"""KamuHavuzu ilanlarini birden fazla yapay zeka saglayicisiyle analiz eder.
 Saglayicilar sirayla denenir; birinin kotasi/hizmeti yoksa digerine gecilir.
 API anahtarlari yalnizca GitHub Actions Secrets ortam degiskenlerinden okunur.
 """
@@ -131,7 +131,7 @@ def openrouter(row):
     return openai_uyumlu("OpenRouter", os.environ.get("OPENROUTER_API_KEY", ""),
         "https://openrouter.ai/api/v1/chat/completions",
         os.environ.get("OPENROUTER_MODEL", "openrouter/free"), row,
-        {"HTTP-Referer": "https://kamuradar.github.io", "X-Title": "KamuRadar"})
+        {"HTTP-Referer": "https://kamuhavuzu.github.io", "X-Title": "KamuHavuzu"})
 
 def openai(row):
     return openai_uyumlu("OpenAI", os.environ.get("OPENAI_API_KEY", ""),

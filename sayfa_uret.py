@@ -4,7 +4,7 @@ import json, os, re, html
 from datetime import date
 
 KLASOR = os.path.dirname(os.path.abspath(__file__))
-SITE = "https://kamuradar.github.io"
+SITE = "https://kamuhavuzu.github.io"
 TR = str.maketrans("çğıöşüÇĞİÖŞÜ", "cgiosuCGIOSU")
 
 def slug(s):
