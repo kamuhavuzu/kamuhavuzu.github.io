@@ -381,110 +381,255 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 }
 
 </style>
+<style>
+
+/* Baştan düzenlenen sade KamuRadar arayüzü */
+:root{--bg:#f4f7fb;--kart:#fff;--yazi:#17243a;--soluk:#65758b;--cizgi:#e2e9f2;--lacivert:#102a4c;--mavi:#28669f;--sari:#e8b923;--gol:0 8px 28px rgba(16,42,76,.065)}
+@media(prefers-color-scheme:dark){:root:not([data-tema="acik"]){--bg:#0b1424;--kart:#142238;--yazi:#edf4ff;--soluk:#a8b8ce;--cizgi:#293b54;--lacivert:#081426;--mavi:#83b9f2;--gol:0 8px 28px rgba(0,0,0,.2)}}
+:root[data-tema="koyu"]{--bg:#0b1424;--kart:#142238;--yazi:#edf4ff;--soluk:#a8b8ce;--cizgi:#293b54;--lacivert:#081426;--mavi:#83b9f2;--gol:0 8px 28px rgba(0,0,0,.2)}
+.kr-yeni .duyuru{background:#edf3f9;color:#4b6078;font-size:11px;font-weight:600;padding:7px 12px}
+.kr-yeni .duyuru span{color:#9a6c00}
+.kr-yeni header.ust{background:#fff;color:#17243a;border-bottom:1px solid #e7edf4;box-shadow:0 2px 12px rgba(16,42,76,.035)}
+:root[data-tema="koyu"] .kr-yeni header.ust{background:#101d31;color:#edf4ff;border-color:#293b54}
+.kr-yeni .ust .kap{height:68px}
+.kr-yeni .logo{color:var(--lacivert);font-size:21px;letter-spacing:-.6px}
+:root[data-tema="koyu"] .kr-yeni .logo{color:#edf4ff}
+.kr-yeni .menu{margin-left:26px;gap:5px}
+.kr-yeni .menu a,.kr-yeni .menu button{color:var(--soluk);font-size:13px;padding:9px 11px}
+.kr-yeni .menu a:hover,.kr-yeni .menu button:hover{background:#edf3f9;color:#173b63}
+:root[data-tema="koyu"] .kr-yeni .menu a:hover,:root[data-tema="koyu"] .kr-yeni .menu button:hover{background:#1c3554;color:#fff}
+.kr-yeni .ikon-btn{background:#f0f4f8;color:#173b63;border:1px solid #e1e8f0}
+.kr-yeni .hero.kr-hero{padding:58px 0 78px;background:radial-gradient(ellipse at 82% 8%,rgba(91,153,216,.2),transparent 35%),linear-gradient(125deg,#0c2340,#173e66 72%,#1d4c78);color:#fff}
+.kr-hero-inner{max-width:900px;text-align:center}
+.kr-eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:7px 12px;color:#d5e5f6;font-size:10px;font-weight:800;letter-spacing:1.25px}
+.kr-pulse{width:7px;height:7px;border-radius:50%;background:#e8bf4a;box-shadow:0 0 0 4px rgba(232,191,74,.15)}
+.kr-yeni .hero h1{font-size:clamp(34px,5vw,54px);line-height:1.08;letter-spacing:-1.8px;margin:19px 0 12px}
+.kr-yeni .hero h1 em{font-style:normal;color:#b9d9fb}
+.kr-yeni .hero p{font-size:16px;color:#d2dfed;margin:0 auto;max-width:590px}
+.kr-search-wrap{max-width:720px;margin:28px auto 0}
+.kr-yeni .arama{align-items:center;padding:6px;background:#fff;border:1px solid rgba(255,255,255,.4);border-radius:15px;box-shadow:0 16px 44px rgba(0,0,0,.22)}
+.kr-search-icon{color:#75869a;font-size:28px;padding:0 8px 4px 12px}
+.kr-yeni .arama input{padding:13px 8px;color:#17243a;font-size:15px}
+.kr-yeni .arama input::placeholder{color:#8795a7}
+.kr-yeni .arama button{background:#245b91;color:#fff;border-radius:10px;padding:14px 19px;font-size:13px;white-space:nowrap}
+.kr-yeni .arama button:hover{background:#194875}
+.kr-search-hint{color:#c4d5e7;font-size:11px;text-align:left;margin:9px 6px 0}
+.kr-trust{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-top:20px;color:#d6e3f0;font-size:11px}
+.kr-main{padding-top:24px}
+.kr-stats{display:grid;grid-template-columns:1.35fr repeat(6,1fr);gap:0;background:var(--kart);border:1px solid var(--cizgi);border-radius:15px;box-shadow:var(--gol);overflow:hidden;margin:0 0 30px}
+.kr-stat,.kr-stat-primary{padding:16px 14px;border-right:1px solid var(--cizgi);display:flex;flex-direction:column;justify-content:center;gap:3px;min-width:0}
+.kr-stat:last-of-type{border-right:0}
+.kr-stat b,.kr-stat-primary b{font-size:22px;line-height:1.15;color:var(--yazi)}
+.kr-stat-primary b{font-size:28px;color:#28669f}
+.kr-stat span,.kr-stat-primary span{font-size:10px;color:var(--soluk);line-height:1.3}
+.kr-stat-deadline b{color:#b7791f}
+.kr-stat-link{cursor:pointer;transition:background .15s}
+.kr-stat-link:hover{background:rgba(40,102,159,.07)}
+.kr-live{grid-column:1/-1;padding:7px 14px;background:rgba(40,102,159,.045);border-top:1px solid var(--cizgi);font-size:10px;color:var(--soluk)}
+.kr-section-heading{display:flex;justify-content:space-between;align-items:end;margin:10px 0 13px}
+.kr-kicker{display:block;color:#3977ad;font-size:10px;font-weight:800;letter-spacing:1.15px;margin-bottom:4px}
+.kr-section-heading h2,.kr-results-head h2{font-size:23px;letter-spacing:-.6px;margin:0;color:var(--yazi)}
+.kr-section-heading p{margin:4px 0 0;color:var(--soluk);font-size:13px}
+.kr-yeni .cipler{gap:7px;margin:0 0 14px}
+.kr-yeni .cip{background:var(--kart);border-color:var(--cizgi);color:var(--soluk);font-size:12px;padding:7px 12px}
+.kr-yeni .cip.aktif{background:#eaf2fa;color:#1e5687;border-color:#c8dced}
+:root[data-tema="koyu"] .kr-yeni .cip.aktif{background:#1d3b5d;color:#d8eaff;border-color:#31577e}
+.kr-filter-card{margin:0 0 30px}
+.kr-yeni .panel.filtre{display:block;background:var(--kart);border:1px solid var(--cizgi);border-radius:14px;padding:0;box-shadow:none}
+.kr-yeni .mobil-filtre{display:none}
+.kr-advanced>summary{list-style:none;display:flex;align-items:center;gap:12px;padding:15px 18px;cursor:pointer}
+.kr-advanced>summary::-webkit-details-marker{display:none}
+.kr-filter-symbol{width:36px;height:36px;border-radius:11px;background:#edf3f9;color:#28669f;display:grid;place-items:center;font-size:20px}
+:root[data-tema="koyu"] .kr-filter-symbol{background:#203a58;color:#b9d9fb}
+.kr-advanced summary b{display:block;font-size:13px;color:var(--yazi)}
+.kr-advanced summary small{display:block;font-size:11px;color:var(--soluk);margin-top:2px}
+.kr-summary-end{margin-left:auto;color:var(--soluk);font-size:11px}
+.kr-filter-grid{padding:4px 18px 12px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px 12px}
+.kr-yeni .alan{margin:0}
+.kr-yeni .alan label{font-size:10px;letter-spacing:.35px}
+.kr-yeni .alan select,.kr-yeni .alan input[type=number],.kr-yeni .alan input[type=text]{background:var(--bg);color:var(--yazi);padding:10px;border-radius:9px;font-size:12px}
+.kr-filter-checks{grid-column:1/-1;display:flex;gap:16px;flex-wrap:wrap;border-top:1px solid var(--cizgi);padding-top:10px}
+.kr-filter-checks .onay{font-size:11px;color:var(--soluk);margin:0}
+.kr-filter-actions{display:flex;justify-content:flex-end;gap:8px;padding:0 18px 15px}
+.kr-filter-actions .btn-tamam{width:auto;padding:10px 18px;font-size:12px;background:#245b91;box-shadow:none}
+.kr-filter-actions .cip{margin:0}
+.kr-results{margin:0 0 34px}
+.kr-results-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:15px}
+.kr-results-head h2{font-size:24px}
+.kr-results-note{font-size:11px;color:var(--soluk)}
+.kr-yeni .duzen{display:block;margin:0;gap:0}
+.kr-results-main{min-width:0}
+.kr-yeni .sekmeler{gap:7px;margin-bottom:12px}
+.kr-yeni .sekme{font-size:12px;padding:8px 13px;background:var(--kart);color:var(--soluk)}
+.kr-yeni .sekme.aktif{background:#245b91;color:#fff;border-color:#245b91}
+.kr-yeni .ozet{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--cizgi);font-size:12px;color:var(--soluk)}
+.kr-yeni .ozet select{background:var(--kart);color:var(--yazi);border:1px solid var(--cizgi);border-radius:9px;padding:8px 10px;font-size:11px}
+.kr-side-note{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}
+.kr-help-card{background:var(--kart);border:1px solid var(--cizgi);border-radius:13px;padding:17px;display:grid;grid-template-columns:auto 1fr;column-gap:10px;align-content:start}
+.kr-help-icon{grid-row:span 2;color:#28669f;font-size:20px}
+.kr-help-card b{font-size:13px}
+.kr-help-card p{grid-column:2;margin:5px 0 0;color:var(--soluk);font-size:11px}
+.kr-help-card a{grid-column:2;margin-top:9px;color:#28669f;font-size:11px;font-weight:700;text-decoration:none}
+.kr-official-card{display:block}
+.kr-yeni .kaynak-panel{margin:20px 0 30px}
+.kr-yeni .kaynak-panel>details>summary{font-weight:700;font-size:13px;cursor:pointer}
+.kr-yeni .sss{margin-top:36px}
+:root[data-tema="koyu"] .kr-yeni .arama button,:root[data-tema="koyu"] .kr-yeni .kr-filter-actions .btn-tamam{background:#326fa7;color:#fff}
+@media(max-width:900px){.kr-stats{grid-template-columns:repeat(4,minmax(0,1fr))}.kr-stat:nth-of-type(4){border-right:0}.kr-stat:nth-of-type(n+5){border-top:1px solid var(--cizgi)}.kr-filter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.kr-yeni .menu{margin-left:auto}.kr-yeni .sosyal{display:none}}
+@media(max-width:600px){
+ .kr-yeni .ust .kap{height:auto;min-height:60px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px;gap:5px}
+ .kr-yeni .logo{font-size:18px}.kr-yeni .menu{order:3;width:100%;overflow-x:auto;margin:0;gap:2px}
+ .kr-yeni .menu a,.kr-yeni .menu button{font-size:11px;padding:7px 9px}
+ .kr-yeni .hero.kr-hero{padding:42px 0 58px}
+ .kr-yeni .hero h1{font-size:37px}
+ .kr-yeni .hero p{font-size:13px;padding:0 12px}
+ .kr-yeni .arama{padding:4px;border-radius:12px}
+ .kr-yeni .arama input{font-size:13px;padding:11px 4px}
+ .kr-search-icon{font-size:22px;padding-left:8px;padding-right:4px}
+ .kr-yeni .arama button{font-size:11px;padding:12px 10px}
+ .kr-trust{gap:10px;font-size:9px}
+ .kr-main{padding:16px 12px 0}
+ .kr-stats{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:24px}
+ .kr-stat,.kr-stat-primary{padding:12px;border-right:1px solid var(--cizgi);border-top:1px solid var(--cizgi)}
+ .kr-stat-primary{grid-column:span 2;border-top:0}
+ .kr-stat:nth-of-type(2n+1){border-right:0}
+ .kr-stat b{font-size:19px}
+ .kr-stat-primary b{font-size:26px}
+ .kr-stat span,.kr-stat-primary span{font-size:10px}
+ .kr-section-heading h2,.kr-results-head h2{font-size:21px}
+ .kr-section-heading p{font-size:11px}
+ .kr-filter-grid{grid-template-columns:1fr 1fr;padding:4px 12px 12px;gap:8px}
+ .kr-advanced>summary{padding:12px}
+ .kr-summary-end{font-size:9px}
+ .kr-filter-checks{display:grid;gap:8px}
+ .kr-filter-actions{padding:0 12px 12px}
+ .kr-results-head{align-items:start;gap:8px;flex-direction:column}
+ .kr-results-note{font-size:10px}
+ .kr-yeni .sekme{font-size:10px;padding:7px 9px}
+ .kr-yeni .ozet{align-items:flex-start;flex-direction:column}
+ .kr-yeni .ozet select{width:100%}
+ .kr-side-note{grid-template-columns:1fr}
+ .kr-yeni .liste{min-width:0}
+}
+
+</style>
 </head>
-<body>
-<div class="duyuru">Bu site resmî bir kurum sitesi değildir. Başvurudan önce ilanı mutlaka resmî kaynaktan kontrol et.</div>
+<body class="kr-yeni">
+<div class="duyuru"><span>Bilgilendirme:</span> KamuRadar resmî kurum sitesi değildir. Başvurunu mutlaka resmî kaynaktan yap.</div>
 <header class="ust">
   <div class="kap">
-    <a class="logo" href="#"><img src="logo-simge.png" alt="" width="36" height="36"> KamuRadar</a>
-    <nav class="menu">
+    <a class="logo" href="#" aria-label="KamuRadar ana sayfa"><img src="logo-simge.png" alt="" width="36" height="36"> <span>KamuRadar</span></a>
+    <nav class="menu" aria-label="Ana menü">
       <a href="#ilanlar">İlanlar</a>
-      <button type="button" id="mnIller">İllere göre</button>
-      <button type="button" id="mnFav">⭐ Favorilerim</button>
-      <button type="button" id="mnTakvim">📅 Takvime ekle</button>
       <a href="#sss">Nasıl çalışır?</a>
       <a href="kesfet/">Keşfet</a>
       <a href="#kaynaklar">Kaynaklar</a>
+      <button type="button" id="mnIller">Şehirlere göre</button>
+      <button type="button" id="mnFav">Favorilerim</button>
     </nav>
-    <div class="sag">
-      <div class="sosyal" id="sosyal"></div>
-      <button class="ikon-btn" id="btnTema" title="Açık / koyu tema">🌓</button></div>
+    <div class="sag"><div class="sosyal" id="sosyal"></div><button class="ikon-btn" id="btnTema" title="Açık / koyu tema" aria-label="Temayı değiştir">◐</button></div>
   </div>
 </header>
 
-<section class="hero">
-  <div class="kap">
-    <h1>Kamu personel alım ilanları, tek yerde</h1>
-    <p>Bakanlıklar, kurumlar, belediyeler, üniversiteler, TSK, Jandarma, Polis, İŞKUR ve daha fazlası. Eğitimine, KPSS puanına ve şehrine göre süz.</p>
-    <div class="sayaclar">
-      <div class="sayac"><b id="sAcik">0</b><span>açık ilan</span></div>
-      <div class="sayac"><b id="sKontenjan">0</b><span>toplam kontenjan</span></div>
-      <div class="sayac"><b id="sKurum">0</b><span>kurum</span></div>
-      <div class="sayac"><b id="sBugun">0</b><span>bugün/yarın bitiyor</span></div>
-      <div class="sayac" data-sekme="yakin" title="Başvurusu henüz başlamamış ilanlar"><b id="sYakin">0</b><span>yakında açılacak</span></div>
-      <div class="sayac" data-sekme="yeni7" title="Son 7 günde eklenen ilanlar"><b id="sYeni7">0</b><span>son 7 günde eklenen</span></div>
-      <div class="sayac" data-arsiv="1" title="Süresi dolan ilanları arşiv filtresiyle göster"><b id="sArsiv">0</b><span>arşivdeki ilan</span></div>
+<section class="hero kr-hero">
+  <div class="kap kr-hero-inner">
+    <div class="kr-eyebrow"><span class="kr-pulse"></span> TÜRKİYE GENELİNDE KAMU ALIMLARI</div>
+    <h1>Kamuya açılan fırsatları<br><em>kaçırma.</em></h1>
+    <p>Bakanlık, üniversite, belediye ve diğer kamu kurumlarının personel alımlarını tek yerde bul.</p>
+    <div class="arama-kutu kr-search-wrap">
+      <div class="arama kr-search">
+        <span class="kr-search-icon" aria-hidden="true">⌕</span>
+        <input id="q" type="search" placeholder="Meslek, kurum veya şehir ara..." autocomplete="off" aria-label="İlan ara">
+        <button type="button" id="btnAra">İlanları bul <span aria-hidden="true">→</span></button>
+      </div>
+      <div class="kr-search-hint">Örn. büro personeli, hemşire, mühendis, zabıta...</div>
     </div>
-    <div class="canli" id="canli">Veriler yükleniyor…</div>
+    <div class="kr-trust"><span>✓ Ücretsiz</span><span>✓ Üyelik gerekmez</span><span>✓ Resmî ilan kaynakları</span></div>
   </div>
 </section>
 
-<main class="kap" id="ilanlar">
+<main class="kap kr-main" id="ilanlar">
+  <div class="kr-stats">
+    <div class="kr-stat-primary"><b id="sAcik">0</b><span>başvurusu açık ilan</span></div>
+    <div class="kr-stat"><b id="sKontenjan">0</b><span>toplam kontenjan</span></div>
+    <div class="kr-stat"><b id="sKurum">0</b><span>kurum</span></div>
+    <div class="kr-stat kr-stat-deadline"><b id="sBugun">0</b><span>bugün / yarın bitiyor</span></div>
+    <div class="kr-stat kr-stat-link" data-sekme="yakin" title="Başvurusu henüz başlamamış ilanlar"><b id="sYakin">0</b><span>yakında açılacak</span></div>
+    <div class="kr-stat kr-stat-link" data-sekme="yeni7" title="Son 7 günde eklenen ilanlar"><b id="sYeni7">0</b><span>yeni eklenen</span></div>
+    <div class="kr-stat kr-stat-link" data-arsiv="1" title="Arşiv ilanlarını göster"><b id="sArsiv">0</b><span>arşiv</span></div>
+    <div class="kr-live" id="canli">İlan verileri yükleniyor…</div>
+  </div>
+
   <div class="yeniler" id="yeniler"></div>
-  <div class="arama-kutu">
-    <div class="arama"><input id="q" type="search" placeholder="Kurum, unvan veya şehir ara… (örn. belediye, zabıta)" autocomplete="off"><button type="button" id="btnAra">Ara</button></div>
+  <div class="kr-section-heading">
+    <div><span class="kr-kicker">SANA UYGUN İLANLAR</span><h2>Aramaya başla</h2><p>Önce ilanları keşfet, istersen kişisel bilgilerine göre daralt.</p></div>
   </div>
   <div class="cipler" id="cipler"></div>
 
-  <div class="duzen">
-    <aside>
-      <button class="mobil-filtre" id="mobilFiltre">⚙ Filtreleri aç / kapat</button>
-      <div class="panel filtre" id="filtrePanel">
-        <h3>Profilim ve filtreler</h3>
-        <div class="alan"><label>Eğitim durumu</label>
-          <select id="fEgitim"><option value="">Hepsi</option><option>Ortaöğretim</option><option>Ön Lisans</option><option>Lisans</option></select></div>
-        <div class="alan"><label>Bölüm</label><select id="fBolum"><option value="Tümü">Tümü</option></select></div>
-        <div class="alan"><label>Bölüm listede yoksa yaz</label><input id="fBolumYaz" placeholder="örn. harita, veteriner"></div>
-        <div class="iki">
+  <div class="kr-filter-card">
+    <button class="mobil-filtre" id="mobilFiltre" type="button">Filtreleri aç / kapat</button>
+    <div class="panel filtre" id="filtrePanel">
+      <details class="kr-advanced">
+        <summary><span class="kr-filter-symbol">☷</span><span><b>Gelişmiş filtreler</b><small>KPSS, eğitim, şehir ve diğer şartlara göre daralt</small></span><span class="kr-summary-end">İsteğe bağlı　⌄</span></summary>
+        <div class="kr-filter-grid">
+          <div class="alan"><label>Eğitim durumu</label><select id="fEgitim"><option value="">Hepsi</option><option>Ortaöğretim</option><option>Ön Lisans</option><option>Lisans</option></select></div>
+          <div class="alan"><label>Bölüm</label><select id="fBolum"><option value="Tümü">Tümü</option></select></div>
+          <div class="alan"><label>Bölüm listede yoksa yaz</label><input id="fBolumYaz" placeholder="Örn. harita, veteriner"></div>
+          <div class="alan"><label>Şehir</label><select id="fSehir"></select></div>
           <div class="alan"><label>KPSS türü</label><select id="fTur"></select></div>
-          <div class="alan"><label>KPSS puanım</label><input id="fPuan" type="number" step="0.01" min="0" max="100" placeholder="00.0"></div>
-        </div>
-        <div class="alan"><label>Şehir</label><select id="fSehir"></select></div>
-        <div class="iki">
-          <div class="alan"><label>Yaşım</label><input id="fYas" type="number" min="15" max="70" placeholder="örn. 28"></div>
+          <div class="alan"><label>KPSS puanım</label><input id="fPuan" type="number" step="0.01" min="0" max="100" placeholder="Örn. 78,50"></div>
+          <div class="alan"><label>Yaşım</label><input id="fYas" type="number" min="15" max="70" placeholder="Yaş"></div>
           <div class="alan"><label>Sürücü belgem</label><select id="fEhliyet"><option value="">Belirtme</option><option>Var</option><option>Yok</option></select></div>
+          <div class="alan"><label>Kurum türü</label><select id="fKurum"></select></div>
+          <div class="alan"><label>Çalışma türü</label><select id="fCalisma"><option value="">Hepsi</option><option>Memur</option><option>Sözleşmeli personel</option><option>İşçi</option><option>Diğer</option></select></div>
+          <div class="alan"><label>Kaynak</label><select id="fKaynak"></select></div>
+          <div class="kr-filter-checks">
+            <label class="onay"><input type="checkbox" id="fAkademik"> Akademik kadroları da göster</label>
+            <label class="onay"><input type="checkbox" id="fBitmis"> Arşiv ilanlarını da göster</label>
+            <label class="onay" title="Bu ilanlar doğrudan ilana değil, kaynak sitenin listesine gider"><input type="checkbox" id="fListe"> Kaynak listesine yönlendiren ilanları da göster</label>
+          </div>
         </div>
-        <div class="alan"><label>Kurum türü</label><select id="fKurum"></select></div>
-        <div class="alan"><label>Çalışma türü</label>
-          <select id="fCalisma"><option value="">Hepsi</option><option>Memur</option><option>Sözleşmeli personel</option><option>İşçi</option><option>Diğer</option></select></div>
-        <div class="alan"><label>Kaynak</label><select id="fKaynak"></select></div>
-        <label class="onay"><input type="checkbox" id="fAkademik"> Akademik kadroları da göster</label>
-        <label class="onay"><input type="checkbox" id="fBitmis"> Arşiv ilanlarını da göster</label>
-        <label class="onay" title="Bu ilanlar doğrudan ilana değil, kaynak sitenin listesine gider"><input type="checkbox" id="fListe"> Doğrudan açılmayan ilanları da göster (Kamu İlan)</label>
-        <button type="button" class="btn-tamam" id="btnTamam"><span class="ik">🔍</span><span class="mt">Tamam / Filtrele</span></button>
-        <div style="margin-top:10px"><button type="button" class="cip" id="btnTemizle" style="width:100%;justify-content:center">Filtreleri temizle</button></div>
-      </div>
-    </aside>
+        <div class="kr-filter-actions"><button type="button" class="cip" id="btnTemizle">Temizle</button><button type="button" class="btn-tamam" id="btnTamam"><span class="ik">⌕</span><span class="mt">Filtreleri uygula</span></button></div>
+      </details>
+    </div>
+  </div>
 
-    <section>
-      <div class="sekmeler" id="sekmeler"></div>
-      <div class="iller" id="iller"></div>
-      <div id="yaklasan"></div>
-      <div id="durumAlani"></div>
-      <div id="aktifBar"></div>
-      <div class="ozet"><span id="ozet"></span>
-        <select id="fSira"><option value="uygun">Sıralama: Önce uygun olanlar</option><option value="yakin">Son başvurusu yakın olan</option><option value="yeni">En yeni</option><option value="kontenjan">Kontenjan (çok → az)</option></select></div>
-      <div class="liste" id="liste"></div>
-      <button class="daha" id="btnDaha" style="display:none">Daha fazla göster</button>
+  <section class="kr-results">
+    <div class="kr-results-head"><div><span class="kr-kicker">GÜNCEL FIRSATLAR</span><h2>Yayındaki ilanlar</h2></div><span class="kr-results-note">Başvuruya açık ilanlar önce gösterilir</span></div>
+    <div class="duzen">
+      <section class="kr-results-main">
+        <div class="sekmeler" id="sekmeler"></div>
+        <div class="iller" id="iller"></div>
+        <div id="yaklasan"></div>
+        <div id="durumAlani"></div>
+        <div id="aktifBar"></div>
+        <div class="ozet kr-sort-row"><span id="ozet"></span><select id="fSira"><option value="uygun">Önce uygun olanlar</option><option value="yakin">Son başvurusu yakın olan</option><option value="yeni">En yeni</option><option value="kontenjan">Kontenjan (çok → az)</option></select></div>
+        <div class="liste" id="liste"></div>
+        <button class="daha" id="btnDaha" style="display:none">Daha fazla göster</button>
+      </section>
+      <aside class="kr-side-note">
+        <div class="kr-help-card"><span class="kr-help-icon">✦</span><b>Sana uygun ilanı bul</b><p>KPSS puanını ve eğitim bilgini girerek ilan şartlarını karşılaştırabilirsin.</p><a href="#filtrePanel">Filtreleri kullan →</a></div>
+        <div class="kr-help-card kr-official-card"><b>Başvurunu güvenle yap</b><p>KamuRadar ilanları keşfetmene yardımcı olur. Başvuru işlemleri ilgili kurumun resmî sitesinde yapılır.</p></div>
+      </aside>
+    </div>
+  </section>
 
-      <div class="panel kaynak-panel" id="kaynaklar">
-        <details open><summary>Veri kaynakları ve durumları</summary><div id="kaynakDurum"></div></details>
-        <div class="resmi" style="margin-top:12px"><b style="font-size:13px">Resmî siteler:</b><br>
-          <a target="_blank" rel="noopener" href="https://www.ilan.gov.tr/ilan/tum-ilanlar?ats=5">ilan.gov.tr</a>
-          <a target="_blank" rel="noopener" href="https://kariyerkapisi.gov.tr/">Kariyer Kapısı</a>
-          <a target="_blank" rel="noopener" href="https://kamuilan.sbb.gov.tr/">Kamu İlan (SBB)</a>
-          <a target="_blank" rel="noopener" href="https://www.iskur.gov.tr/">İŞKUR</a>
-          <a target="_blank" rel="noopener" href="https://www.resmigazete.gov.tr/ilanlar">Resmî Gazete İlanlar</a>
-          <a target="_blank" rel="noopener" href="https://www.osym.gov.tr/">ÖSYM</a>
-          <a target="_blank" rel="noopener" href="https://personeltemin.msb.gov.tr/">MSB Personel Temin</a>
-          <a target="_blank" rel="noopener" href="https://www.jandarma.gov.tr/">Jandarma</a>
-          <a target="_blank" rel="noopener" href="https://www.egm.gov.tr/">Emniyet (EGM)</a>
-          <a target="_blank" rel="noopener" href="https://www.aile.gov.tr/duyurular/">Aile ve Sosyal Hizmetler Bakanlığı</a>
-          <a target="_blank" rel="noopener" href="https://www.csgb.gov.tr/duyurular">Çalışma ve Sosyal Güvenlik Bakanlığı</a>
-          <a target="_blank" rel="noopener" href="https://www.uab.gov.tr/duyurular">Ulaştırma ve Altyapı Bakanlığı</a>
-        </div>
-      </div>
-    </section>
+  <div class="panel kaynak-panel" id="kaynaklar">
+    <details><summary>Veri kaynakları ve güncelleme durumu</summary><div id="kaynakDurum"></div></details>
+    <div class="resmi" style="margin-top:12px"><b style="font-size:13px">Resmî siteler:</b><br>
+      <a target="_blank" rel="noopener" href="https://www.ilan.gov.tr/ilan/tum-ilanlar?ats=5">ilan.gov.tr</a>
+      <a target="_blank" rel="noopener" href="https://kariyerkapisi.gov.tr/">Kariyer Kapısı</a>
+      <a target="_blank" rel="noopener" href="https://kamuilan.sbb.gov.tr/">Kamu İlan (SBB)</a>
+      <a target="_blank" rel="noopener" href="https://www.iskur.gov.tr/">İŞKUR</a>
+      <a target="_blank" rel="noopener" href="https://www.resmigazete.gov.tr/ilanlar">Resmî Gazete İlanlar</a>
+      <a target="_blank" rel="noopener" href="https://www.osym.gov.tr/">ÖSYM</a>
+      <a target="_blank" rel="noopener" href="https://personeltemin.msb.gov.tr/">MSB Personel Temin</a>
+      <a target="_blank" rel="noopener" href="https://www.jandarma.gov.tr/">Jandarma</a>
+      <a target="_blank" rel="noopener" href="https://www.egm.gov.tr/">Emniyet (EGM)</a>
+      <a target="_blank" rel="noopener" href="https://www.aile.gov.tr/duyurular/">Aile ve Sosyal Hizmetler Bakanlığı</a>
+      <a target="_blank" rel="noopener" href="https://www.csgb.gov.tr/duyurular">Çalışma ve Sosyal Güvenlik Bakanlığı</a>
+      <a target="_blank" rel="noopener" href="https://www.uab.gov.tr/duyurular">Ulaştırma ve Altyapı Bakanlığı</a>
+    </div>
   </div>
 </main>
 <section class="kap sss" id="sss">
