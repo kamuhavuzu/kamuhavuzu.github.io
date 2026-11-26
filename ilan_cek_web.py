@@ -40,8 +40,8 @@ KLASOR = os.path.dirname(os.path.abspath(__file__))
 CIKTI = os.path.join(KLASOR, "ilanlar.json")
 EK_KAYNAK_DOSYASI = os.path.join(KLASOR, "ek_kaynaklar.json")
 MANUEL_DOSYASI = os.path.join(KLASOR, "manuel_ilanlar.json")
-ESKI_GUN = 30            # son basvurusu bu kadar gun once gecenleri sil
-TARIHSIZ_GUN = 60        # son tarihi olmayanlari, ilk gorulmesinden bu kadar gun sonra sil
+ESKI_GUN = 30            # geriye donuk uyumluluk: ilanlar silinmez, arsivlenir
+TARIHSIZ_GUN = 60        # tarihsiz ilanlar silinmez; kontrol gerektiren olarak korunur
 ACIKLAMA_SINIR = 6000
 DETAY_LIMIT = 80         # her kaynakta bir calismada en fazla bu kadar ilan sayfasi acilir
 UA = {"user-agent": "Mozilla/5.0 (compatible; KamuRadar/1.0; kisisel kullanim)"}
@@ -321,9 +321,8 @@ def ek_kaynak(session, mevcut, kaynak=None, **_):
             if href and not href.startswith(("#", "javascript:", "mailto:")):
                 bulunan.append((urljoin(url, href), metin, None))
     link_liste = bool(kaynak.get("link_liste", False))   # detay adresi gecici ise listeye yonlendir
-    if link_liste:   # eski (gecersiz detay adresli) kayitlari temizle
-        for l in [l for l, r_ in mevcut.items() if r_.get("source_name") == ad and "#" not in l]:
-            del mevcut[l]
+    # Liste adresi kullanan kaynaklarin eski ilanlarini silme.
+    # Kaynaktaki ilan gecici olarak listeden kalksa bile kayit arsivde korunur.
     eklenen = 0
     detay_hak = DETAY_LIMIT if kaynak.get("detay") else 0
     for gercek, baslik, tarih in bulunan:
@@ -685,10 +684,11 @@ def main():
             else:
                 durumlar[ad] = {"durum": "hata", "mesaj": mesaj}
 
-    pasif = {k["ad"] for k in (json.load(open(EK_KAYNAK_DOSYASI, encoding="utf-8")) if os.path.exists(EK_KAYNAK_DOSYASI) else [])
-             if not k.get("aktif", True)}
-    for l in [l for l, r_ in mevcut.items() if r_.get("source_name") in pasif]:
-        del mevcut[l]
+    pasif_kaynaklar = [k for k in (json.load(open(EK_KAYNAK_DOSYASI, encoding="utf-8")) if os.path.exists(EK_KAYNAK_DOSYASI) else [])
+                       if not k.get("aktif", True)]
+    # Pasif kaynak sadece yeni taramayi durdurur; daha once bulunan ilanlar korunur.
+    for k in pasif_kaynaklar:
+        durumlar.setdefault(k["ad"], {"durum": "pasif", "mesaj": "Kaynak taramasi ayarlardan kapali; eski ilanlar korunuyor."})
     print(f"Manuel ilan: {manuel_ilanlar(mevcut)}")
     print(f"Puani/tarihi yeni bulunan: {puanlari_yenile(mevcut)}")
     print(f"Basvuru adresi bulunan: {basvuru_coz(mevcut)}")
@@ -700,14 +700,22 @@ def main():
     print("Basvuru adresi durumu:", _t)
 
     bugun = date.today()
-    for link, r in list(mevcut.items()):
-        if r.get("deadline"):
-            if r["deadline"] < (bugun - timedelta(days=ESKI_GUN)).isoformat():
-                del mevcut[link]
+    for r in mevcut.values():
+        son = str(r.get("deadline") or "")[:10]
+        if son:
+            if son < bugun.isoformat():
+                r["durum"] = "arsiv"
+                r["arsiv_nedeni"] = "Basvuru son tarihi gecti"
+                r.setdefault("archived_at", datetime.now(timezone.utc).isoformat(timespec="seconds"))
+            else:
+                r["durum"] = "aktif"
+                r.pop("arsiv_nedeni", None)
+                r.pop("archived_at", None)
         else:
-            ilk = (r.get("application_start") or r.get("checked_at") or "")[:10]
-            if ilk and ilk < (bugun - timedelta(days=TARIHSIZ_GUN)).isoformat():
-                del mevcut[link]
+            # Son tarihi belirtilmeyen ilanlarin kapandigini varsayma; kaydi koru ve kontrol iste.
+            r.setdefault("durum", "tarih_belirsiz")
+            if r.get("durum") == "arsiv" and not r.get("arsiv_nedeni"):
+                r["arsiv_nedeni"] = "Son tarih bilgisi bulunamadigi icin manuel kontrol gerekli"
 
     sayilar = {}
     for r in mevcut.values():
