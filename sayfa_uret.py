@@ -46,7 +46,7 @@ a{{color:var(--vurgu)}}h1{{font-size:24px;margin:8px 0}}
 .dis{{font-size:13px;color:var(--soluk);margin-top:22px}}
 nav a{{margin-right:10px;font-size:14px}}
 </style></head><body><div class="k">
-<nav><a href="../">← KamuHavuzu</a><a href="./">Tüm başlıklar</a></nav>
+<nav><a href="../">← KamuHavuzu</a><a href="./">Tüm başlıklar</a><a href="../rehber/">Rehber</a></nav>
 <h1>{baslik}</h1>
 <p>{aciklama}</p>
 <a class="btn" href="../{sorgu}">Puanıma göre süz (🟢🟡🔴)</a>
@@ -121,6 +121,9 @@ def main():
         f.write(SAYFA.format(baslik="Kamu ilanlarını başlığa göre keşfet", aciklama="Şehir, eğitim durumu, KPSS türü ve çalışma türüne göre açık kamu personel alım ilanları.", site=SITE, dosya="", sorgu="", liste=govde, tarih=gun(bugun)))
 
     urls = [f"{SITE}/", f"{SITE}/kesfet/", f"{SITE}/bilgi.html"] + [f"{SITE}/kesfet/{d}" for _, _, d, n in girisler if n]
+    rk = os.path.join(KLASOR, "rehber")
+    if os.path.isdir(rk):
+        urls += [f"{SITE}/rehber/" + ("" if f == "index.html" else f) for f in sorted(os.listdir(rk)) if f.endswith(".html")]
     with open(os.path.join(KLASOR, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
                 "".join(f"<url><loc>{u}</loc><lastmod>{bugun}</lastmod></url>\n" for u in urls) + "</urlset>\n")
