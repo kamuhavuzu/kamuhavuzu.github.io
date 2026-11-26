@@ -38,7 +38,7 @@
   {
     "ad": "İŞKUR Kamu İşçi Alımı",
     "tur": "html",
-    "url": "https://www.iskur.gov.tr/ilanlar/",
+    "url": "https://www.iskur.gov.tr/ilanlar/kamu-memur-alim-ilanlari/",
     "anahtar": [
       "kamu",
       "personel",
@@ -55,7 +55,7 @@
   {
     "ad": "TÜBİTAK İlanları",
     "tur": "html",
-    "url": "https://tubitak.gov.tr/tr/duyuru/clone-tubitak-ilanlari",
+    "url": "https://tubitak.gov.tr/tr/insan-kaynaklari",
     "anahtar": [
       "personel",
       "alım",
@@ -66,14 +66,14 @@
       "uzman"
     ],
     "deneme": true,
-    "aktif": true,
+    "aktif": false,
     "detay": false,
     "link_liste": true
   },
   {
     "ad": "Aile ve Sosyal Hizmetler Bakanlığı",
     "tur": "html",
-    "url": "https://www.aile.gov.tr/duyurular",
+    "url": "https://www.aile.gov.tr/duyurular/",
     "anahtar": [
       "personel alım",
       "personel alim",
@@ -85,8 +85,42 @@
       "sinav ilani"
     ],
     "deneme": true,
-    "aktif": false,
-    "detay": false,
-    "link_liste": true
+    "aktif": true,
+    "detay": true
+  },
+  {
+    "ad": "Çalışma ve Sosyal Güvenlik Bakanlığı",
+    "tur": "html",
+    "url": "https://www.csgb.gov.tr/duyurular",
+    "anahtar": [
+      "sözleşmeli bilişim personeli alım",
+      "sozlesmeli bilisim personeli alim",
+      "iş müfettişi yardımcılığı giriş sınavı",
+      "is mufettisi yardimciligi giris sinavi",
+      "çalışma uzman yardımcılığı giriş sınavı",
+      "calisma uzman yardimciligi giris sinavi",
+      "personel alım ilanı",
+      "personel alim ilani"
+    ],
+    "deneme": true,
+    "aktif": true,
+    "detay": true
+  },
+  {
+    "ad": "Ulaştırma ve Altyapı Bakanlığı",
+    "tur": "html",
+    "url": "https://www.uab.gov.tr/duyurular",
+    "anahtar": [
+      "personel alım",
+      "personel alim",
+      "işçi alım",
+      "isci alim",
+      "sözleşmeli personel alımı",
+      "sozlesmeli personel alimi",
+      "personel dairesi başkanlığı açıktan personel"
+    ],
+    "deneme": true,
+    "aktif": true,
+    "detay": true
   }
 ]
