@@ -1,44 +1,44 @@
 {
- "guncelleme": "2026-11-26T13:03:23+00:00",
- "son_kontrol": "2026-11-26T13:03:23+00:00",
+ "guncelleme": "2026-11-26T13:16:19+00:00",
+ "son_kontrol": "2026-11-26T13:16:19+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 4,
-   "son_basari": "2026-11-26T13:01:23+00:00",
+   "yeni": 3,
+   "son_basari": "2026-11-26T13:16:01+00:00",
    "sayi": 189
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T13:01:24+00:00",
+   "son_basari": "2026-11-26T13:16:02+00:00",
    "sayi": 35
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T13:01:26+00:00",
+   "son_basari": "2026-11-26T13:16:04+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
-   "yeni": 40,
-   "son_basari": "2026-11-26T13:02:58+00:00",
+   "yeni": 0,
+   "son_basari": "2026-11-26T13:16:11+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 40
   },
   "Çalışma ve Sosyal Güvenlik Bakanlığı": {
    "durum": "tamam",
-   "yeni": 19,
-   "son_basari": "2026-11-26T13:03:15+00:00",
+   "yeni": 0,
+   "son_basari": "2026-11-26T13:16:14+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 19
   },
   "Ulaştırma ve Altyapı Bakanlığı": {
    "durum": "tamam",
-   "yeni": 6,
-   "son_basari": "2026-11-26T13:03:22+00:00",
+   "yeni": 0,
+   "son_basari": "2026-11-26T13:16:17+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 6
   },
@@ -337,8 +337,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -347,7 +345,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 100894450,
@@ -547,8 +547,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2477fbe682aa4aabf0c.png",
-   "basvuru_link": "https://www.agu.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -557,7 +555,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2298111/kamu-akademik-personel-akademik-personel-alimlari-abdullah-gul-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.agu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 163317332,
@@ -585,8 +585,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22c7fbe682aa4aab8d6.png",
-   "basvuru_link": "https://www.ankara.bel.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -595,7 +593,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2257554/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ankara-buyuksehir-belediye-baskanligi-mufettis-yardimcisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.ankara.bel.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 195206248,
@@ -696,8 +696,6 @@
     "https://asarcik.bel.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6493005146bcc25eb012f7be.png",
-   "basvuru_link": "mailto:ik@asarcik.bel.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -706,7 +704,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2272749/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-asarcik-belediye-baskanligi-memur-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:ik@asarcik.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 202198100,
@@ -767,8 +767,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://kariyerkapisi.gov.tr/UPS/2cf06ec1-26be-42be-b782-b120d7e2c882.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -777,7 +775,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2261343/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-orta-anadolu-kalkinma-ajansindan-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 263539063,
@@ -800,8 +800,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -812,7 +810,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 301363562,
@@ -872,8 +872,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -882,7 +880,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 320636633,
@@ -989,8 +989,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.samsun.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -999,7 +997,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2279176/kamu-akademik-personel-akademik-personel-alimlari-samsun-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.samsun.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 384478357,
@@ -1022,8 +1022,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -1034,7 +1032,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 415025480,
@@ -1103,8 +1103,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22d7fbe682aa4aab9d7.jpg",
-   "basvuru_link": "https://www.gaziosmanpasa.bel.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -1113,7 +1111,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2274518/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-gaziosmanpasa-belediye-baskanligi-zabita-memuru-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.gaziosmanpasa.bel.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 430748705,
@@ -1141,8 +1141,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2777fbe682aa4aacaf2.jpg",
-   "basvuru_link": "https://www.galata.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -1151,7 +1149,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2293631/kamu-akademik-personel-akademik-personel-alimlari-galata-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.galata.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 481021483,
@@ -1277,8 +1277,6 @@
    "checked_at": "2026-11-19T09:19:20+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_link": "https://personel.aksaray.edu.tr/tr",
-   "basvuru_tur": "ana",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -1289,7 +1287,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2280929/kamu-akademik-personel-akademik-personel-alimlari-aksaray-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://personel.aksaray.edu.tr/tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 549703738,
@@ -1312,8 +1312,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -1324,7 +1322,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 553435538,
@@ -1418,8 +1418,6 @@
     "Ortaöğretim"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -1428,7 +1426,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 625682332,
@@ -1461,8 +1461,6 @@
     "https://www.eleskirt.bel.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2717fbe682aa4aac8ed.png",
-   "basvuru_link": "https://www.eleskirt.bel.tr/",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -1471,7 +1469,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2279181/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-eleskirt-belediye-baskanligi-itfaiye-eri-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.eleskirt.bel.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 629883455,
@@ -1494,8 +1494,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -1504,7 +1502,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 630132503,
@@ -1559,8 +1559,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -1569,7 +1567,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 689532636,
@@ -1632,8 +1632,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/605347a846bcc237bc4f9324.png",
-   "basvuru_link": "mailto:bilgi@tanoba.bel.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -1642,7 +1640,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2283099/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tanoba-belediye-baskanligi-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:bilgi@tanoba.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 714594601,
@@ -1733,8 +1733,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -1743,7 +1741,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 720859559,
@@ -1771,8 +1771,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa26e7fbe682aa4aac7b6.png",
-   "basvuru_link": "https://www.beykoz.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -1781,7 +1779,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2298200/kamu-akademik-personel-akademik-personel-alimlari-beykoz-universitesi-rektorlugu-ogretim-uyesi-ogretim-gorevlisi-arastirma-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.beykoz.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 724681860,
@@ -1861,8 +1861,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -1871,7 +1869,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2304234/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tarim-ve-orman-bakanligi-turkiye-su-enstitusu-baskanligi-sozlesmeli-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 736705048,
@@ -1901,8 +1901,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23c7fbe682aa4aabdf9.png",
-   "basvuru_link": "https://basvuru.bilecik.edu.tr/",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -1911,7 +1909,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2296737/kamu-akademik-personel-akademik-personel-alimlari-bilecik-seyh-edebali-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://basvuru.bilecik.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 757042350,
@@ -2087,8 +2087,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2487fbe682aa4aabf68.png",
-   "basvuru_link": "https://www.seddk.gov.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -2097,7 +2095,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/1973572/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-2026-yili-aktuerlik-sinavlari-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.seddk.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 819802814,
@@ -2182,8 +2182,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -2194,7 +2192,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 854206241,
@@ -2290,8 +2290,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -2302,7 +2300,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 870737396,
@@ -2404,8 +2404,6 @@
    "akademik": true,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa24b7fbe682aa4aabfa2.png",
-   "basvuru_link": "mailto:ik@ozyegin.edu.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -2414,7 +2412,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2299718/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:ik@ozyegin.edu.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 938306272,
@@ -2440,8 +2440,6 @@
     "https://basvuru.isu.gov.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2377fbe682aa4aabd64.png",
-   "basvuru_link": "mailto:mkaratas@isu.gov.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -2450,7 +2448,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2276025/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-mufettis-yardimciligi-giris-sinavi-duyurusu"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:mkaratas@isu.gov.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 940868118,
@@ -2514,8 +2514,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabaca.png",
-   "basvuru_link": "https://www.ksu.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -2524,7 +2522,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2283103/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.ksu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 995400541,
@@ -2693,8 +2693,6 @@
     "http://personel.akdeniz.edu.tr/"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2457fbe682aa4aabea4.png",
-   "basvuru_link": "https://esube.iskur.gov.tr",
-   "basvuru_tur": "ana",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -2705,7 +2703,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2293735/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-akdeniz-universitesi-surekli-isci-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://esube.iskur.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1046480897,
@@ -2764,8 +2764,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabab5.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -2774,7 +2772,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2292280/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-afet-ve-acil-durum-yonetimi-baskanligi-denetci-yardimcisi-giris-sinavi-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr",
+   "basvuru_tur": "genel"
   },
   {
    "id": 1054894225,
@@ -2797,8 +2797,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -2809,7 +2807,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 1063508801,
@@ -2841,8 +2841,6 @@
     "https://mudurnu.bel.tr/"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/66e9303346bcc21154d04b94.png",
-   "basvuru_link": "mailto:mudurnu@mudurnu.bel.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -2851,7 +2849,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2296742/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-bolu-ili-mudurnu-belediye-baskanligi-sozlesmeli-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:mudurnu@mudurnu.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 1092383941,
@@ -2878,8 +2878,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.bezmialem.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -2888,7 +2886,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2283118/kamu-akademik-personel-akademik-personel-alimlari-bezmialem-vakif-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.bezmialem.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1104796194,
@@ -2911,8 +2911,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -2921,7 +2919,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 1133928533,
@@ -2975,8 +2975,6 @@
    "akademik": true,
    "puanlar": {},
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/689b50e246bcc24c2cc73a2f.jpg",
-   "basvuru_link": "https://akbys.sbu.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -2985,7 +2983,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2283213/kamu-akademik-personel-akademik-personel-alimlari-saglik-bilimleri-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://akbys.sbu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1170020802,
@@ -3012,8 +3012,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.iku.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -3024,7 +3022,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2279175/kamu-akademik-personel-akademik-personel-alimlari-istanbul-kultur-universitesi-rektorlugunden-arastirma-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.iku.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1196459446,
@@ -3047,8 +3047,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -3059,7 +3057,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 1244996835,
@@ -3224,8 +3224,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5fe854e346bcc214bc538408.jpg",
-   "basvuru_link": "https://basvuru.mehmetakif.edu.tr/",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -3234,7 +3232,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2295227/kamu-akademik-personel-akademik-personel-alimlari-mehmet-akif-ersoy-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://basvuru.mehmetakif.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1268490096,
@@ -3412,8 +3412,6 @@
     "http://abas.duzce.edu.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23a7fbe682aa4aabddb.png",
-   "basvuru_link": "https://abas.duzce.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -3422,7 +3420,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2299646/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://abas.duzce.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1351301501,
@@ -3545,8 +3545,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2737fbe682aa4aac976.png",
-   "basvuru_link": "https://uskudar.edu.tr/",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -3555,7 +3553,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2289990/kamu-akademik-personel-akademik-personel-alimlari-uskudar-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://uskudar.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1472028482,
@@ -3642,8 +3642,6 @@
     "https://kariyerkapisi.gov.tr/isealim"
    ],
    "logo": "https://kariyerkapisi.gov.tr/UPS/fe00d290-7fb1-48fb-97bc-7d8658a2fbd0.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -3652,7 +3650,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2302683/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-rekabet-kurumu-baskanligindan-uzman-yardimcisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 1540004042,
@@ -3791,8 +3791,6 @@
     "https://kariyerkapisi.gov.tr/isealim"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab843.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -3801,7 +3799,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2288341/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-cumhurbaskanligi-savunma-sanayii-baskanligindan-sozlesmeli-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 1620571975,
@@ -3863,8 +3863,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc90.png",
-   "basvuru_link": "https://www.balikesir.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -3873,7 +3871,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2298129/kamu-akademik-personel-akademik-personel-alimlari-balikesir-universitesi-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.balikesir.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1675639385,
@@ -4045,8 +4045,6 @@
     "https://bozok.edu.tr/"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2397fbe682aa4aabdcd.png",
-   "basvuru_link": "https://personelbasvuru.bozok.edu.tr/",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -4055,7 +4053,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2299680/kamu-akademik-personel-akademik-personel-alimlari-yozgat-bozok-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://personelbasvuru.bozok.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1818138595,
@@ -4109,8 +4109,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -4121,7 +4119,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 1893787374,
@@ -4253,8 +4253,6 @@
     "http://www.erbakan.edu.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2537fbe682aa4aac046.png",
-   "basvuru_link": "https://www.erbakan.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -4263,7 +4261,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2298217/kamu-akademik-personel-akademik-personel-alimlari-necmettin-erbakan-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.erbakan.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1924687107,
@@ -4389,8 +4389,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5fe902d246bcc214bc538410.png",
-   "basvuru_link": "https://www.ula.bel.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -4399,7 +4397,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2283208/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ula-belediye-baskanligi-zabita-memuru-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.ula.bel.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 1995806081,
@@ -4452,8 +4452,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -4464,7 +4462,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2009478711,
@@ -4494,8 +4494,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6a98105e46bcc64420639785.jpg",
-   "basvuru_link": "mailto:insankaynaklari@akhisar.bel.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -4504,7 +4502,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2266555/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-manisa-ili-akhisar-belediye-baskanligindan-memur-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:insankaynaklari@akhisar.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 2021302083,
@@ -4534,8 +4534,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5fc1136946bcc44ed8049782.png",
-   "basvuru_link": "mailto:bilgi@doganyol.bel.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -4544,7 +4542,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2263556/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-doganyol-belediye-baskanligi-sozlesmeli-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:bilgi@doganyol.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 2033159354,
@@ -4805,8 +4805,6 @@
     "https://www.turkiye.gov.tr/sahil-guvenlik-komutanligi-is-basvurusu"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab82f.png",
-   "basvuru_link": "https://www.sg.gov.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -4815,7 +4813,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2286929/kamu-akademik-personel-askeri-personel-alimlari-10-devlet-memuru-istihdam-edilecek"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.sg.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2118770629,
@@ -4869,8 +4869,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://www.csgb.gov.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -4879,7 +4877,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.csgb.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2128423999,
@@ -4939,8 +4939,6 @@
    "akademik": true,
    "puanlar": {},
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2447fbe682aa4aabe79.png",
-   "basvuru_link": "https://www.ilan.sakarya.edu.tr/",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -4949,7 +4947,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2281028/kamu-akademik-personel-akademik-personel-alimlari-sakarya-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.ilan.sakarya.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2143535443,
@@ -5140,8 +5140,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -5152,7 +5150,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2184190905,
@@ -5217,8 +5217,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6055aa5246bcc2296c5249cd.png",
-   "basvuru_link": "https://www.acibadem.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -5227,7 +5225,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2288354/kamu-akademik-personel-akademik-personel-alimlari-acibadem-mehmet-ali-aydinlar-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.acibadem.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2212771587,
@@ -5472,8 +5472,6 @@
     "https://www.gtu.edu.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23e7fbe682aa4aabe20.png",
-   "basvuru_link": "https://www.gtu.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -5482,7 +5480,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2293833/kamu-akademik-personel-akademik-personel-alimlari-gebze-teknik-universitesi-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.gtu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2296438475,
@@ -5512,8 +5512,6 @@
     "http://personel.erdogan.edu.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2397fbe682aa4aabdce.png",
-   "basvuru_link": "https://basvuru.erdogan.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -5522,7 +5520,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2293869/kamu-akademik-personel-akademik-personel-alimlari-recep-tayyip-erdogan-universitesi-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://basvuru.erdogan.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2301480041,
@@ -5590,8 +5590,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab85d.png",
-   "basvuru_link": "mailto:belediye@gundogmus.bel.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -5600,7 +5598,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2283105/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-gundogmus-belediye-baskanligi-memur-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:belediye@gundogmus.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 2311607557,
@@ -5908,8 +5908,6 @@
     "https://kariyerkapisi.gov.tr/isealim"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/634d3ae446bcc2531ce67b14.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -5918,7 +5916,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2290015/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-yuksekogretim-kalite-kurulu-baskanligi-uzman-yardimcisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2461774953,
@@ -5946,8 +5946,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabab5.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -5956,7 +5954,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2292235/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-afet-ve-acil-durum-yonetimi-baskanligi-uzman-yardimcisi-giris-sinavi-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2476664262,
@@ -6072,8 +6072,6 @@
     "https://sanalpos.osym.gov.tr"
    ],
    "logo": "https://kariyerkapisi.gov.tr/UPS/298da548-fabc-4649-adcd-c6da3abec3b7.png",
-   "basvuru_link": "https://ais.osym.gov.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -6082,7 +6080,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2293975/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-icisleri-bakanligi-kaymakam-adayligi-sinav-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://ais.osym.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2535304754,
@@ -6177,8 +6177,6 @@
    "checked_at": "2026-11-19T09:19:58+00:00",
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -6189,7 +6187,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2252974/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-istanbul-kalkinma-ajansi-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2591476913,
@@ -6223,8 +6223,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://basvuru.ksu.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -6233,7 +6231,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2304210/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://basvuru.ksu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2600960678,
@@ -6300,8 +6300,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22c7fbe682aa4aab8bf.jpg",
-   "basvuru_link": "https://www.eyyubiye.bel.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -6310,7 +6308,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2274512/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-eyyubiye-belediye-baskanligi-zabita-memuru-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.eyyubiye.bel.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2663254066,
@@ -6374,8 +6374,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.afsu.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -6384,7 +6382,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2304205/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.afsu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2702241632,
@@ -6525,8 +6525,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://basvuru.asbu.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -6535,7 +6533,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2281103/kamu-akademik-personel-akademik-personel-alimlari-ankarasosyal-bilimler-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://basvuru.asbu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2733299419,
@@ -6558,8 +6558,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -6570,7 +6568,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2750195410,
@@ -6600,8 +6600,6 @@
     "https://kariyerkapisi.gov.tr/isealim"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aaba7a.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -6610,7 +6608,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2301151/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur-ve-turizm-bakanligi-kultur-ve-turizm-uzman-yardimciligi-yarisma-sinav-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2750305930,
@@ -6642,8 +6642,6 @@
     "http://www.elazıgozeli"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2307fbe682aa4aabafe.jpg",
-   "basvuru_link": "mailto:ozelidare@elazig.gov.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -6652,7 +6650,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2271463/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-elazig-il-ozel-idaresi-sozlesmeli-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:ozelidare@elazig.gov.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 2783965687,
@@ -6712,8 +6712,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -6724,7 +6722,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2807956769,
@@ -6784,8 +6784,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc90.png",
-   "basvuru_link": "https://www.balikesir.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -6794,7 +6792,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2298155/kamu-akademik-personel-akademik-personel-alimlari-balikesir-universitesi-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.balikesir.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2878880681,
@@ -6817,8 +6817,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -6829,7 +6827,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2892509700,
@@ -7126,8 +7126,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2467fbe682aa4aabeda.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -7136,7 +7134,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2292490/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-dicle-kalkinma-ajansi-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr",
+   "basvuru_tur": "genel"
   },
   {
    "id": 2959190128,
@@ -7398,8 +7398,6 @@
     "Ortaöğretim"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -7408,7 +7406,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3078242059,
@@ -7480,8 +7480,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f97bdbd46bcc242e4cb7c06.png",
-   "basvuru_link": "https://apbs.iuc.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -7490,7 +7488,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2298201/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://apbs.iuc.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3093268089,
@@ -7520,8 +7520,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/60432e6646bcc21f2c29022f.png",
-   "basvuru_link": "mailto:insankaynaklari@akseki.bel.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -7530,7 +7528,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2283081/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-akseki-belediye-baskanligi-memur-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:insankaynaklari@akseki.bel.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 3093442735,
@@ -7598,8 +7598,6 @@
     "https://basvuru.bilecik.edu.tr/"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23c7fbe682aa4aabdf9.png",
-   "basvuru_link": "https://basvuru.bilecik.edu.tr/",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -7608,7 +7606,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2295214/kamu-akademik-personel-akademik-personel-alimlari-bilecik-seyh-edebali-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://basvuru.bilecik.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3119974907,
@@ -7673,8 +7673,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc9c.png",
-   "basvuru_link": "https://www.biruni.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -7683,7 +7681,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2289988/kamu-akademik-personel-akademik-personel-alimlari-biruni-universitesi-rektorlugunden-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.biruni.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3144325897,
@@ -7710,8 +7710,6 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://www.gedik.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -7722,7 +7720,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2281012/kamu-akademik-personel-akademik-personel-alimlari-istanbul-gedik-universitesi-rektorlugunden-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.gedik.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3153111171,
@@ -7821,8 +7821,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -7831,7 +7829,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3196297608,
@@ -7901,8 +7901,6 @@
     "Ortaöğretim"
    ],
    "egitim_tahmin": false,
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -7911,7 +7909,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3281215773,
@@ -7974,8 +7974,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -7984,7 +7982,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3331030616,
@@ -8011,8 +8011,6 @@
     "https://www.atauni.edu.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2337fbe682aa4aabca9.png",
-   "basvuru_link": "https://atama.atauni.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -8021,7 +8019,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2292344/kamu-akademik-personel-akademik-personel-alimlari-ataturk-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://atama.atauni.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3340762410,
@@ -8051,8 +8051,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/65313a9246bcc21144cbf927.jpg",
-   "basvuru_link": "https://www.bozkoy.bel.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -8061,7 +8059,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2283096/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-bozkoy-belediye-baskanligi-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.bozkoy.bel.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3350891674,
@@ -8115,8 +8115,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -8127,7 +8125,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3364637068,
@@ -8183,8 +8183,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -8193,7 +8191,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3386656862,
@@ -8300,8 +8300,6 @@
     "https://www.ozyegin.edu.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa24b7fbe682aa4aabfa2.png",
-   "basvuru_link": "mailto:ik@ozyegin.edu.tr",
-   "basvuru_tur": "eposta",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -8310,7 +8308,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2299720/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:ik@ozyegin.edu.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 3446972257,
@@ -8498,8 +8498,6 @@
     "http://www.omu.edu.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2337fbe682aa4aabcab.png",
-   "basvuru_link": "https://esube.iskur.gov.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -8508,7 +8506,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2299634/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ondokuz-mayis-universitesi-rektorlugu-surekli-isci-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://esube.iskur.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3477691014,
@@ -8536,8 +8536,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2727fbe682aa4aac8f7.png",
-   "basvuru_link": "https://www.dogus.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -8546,7 +8544,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2288414/kamu-akademik-personel-akademik-personel-alimlari-dogus-universitesi-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.dogus.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3554684416,
@@ -8599,8 +8599,6 @@
    "checked_at": "2026-11-19T09:18:48+00:00",
    "akademik": true,
    "puanlar": {},
-   "basvuru_link": "https://personelilan.mgu.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -8609,7 +8607,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2283108/kamu-akademik-personel-akademik-personel-alimlari-ankara-muzik-ve-guzel-sanatlar-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://personelilan.mgu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3639435162,
@@ -8703,8 +8703,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/689b50e246bcc24c2cc73a2f.jpg",
-   "basvuru_link": "https://www.sbu.edu.tr/",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -8713,7 +8711,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2284939/kamu-akademik-personel-akademik-personel-alimlari-saglik-bilimleri-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.sbu.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3683843016,
@@ -8742,8 +8742,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2717fbe682aa4aac8cd.png",
-   "basvuru_link": "https://www.tarsus.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -8752,7 +8750,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2299827/kamu-akademik-personel-akademik-personel-alimlari-tarsus-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.tarsus.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3688155691,
@@ -8775,8 +8775,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -8785,7 +8783,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3692159197,
@@ -8808,8 +8808,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -8818,7 +8816,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3692411521,
@@ -8880,8 +8880,6 @@
     "https://ilan.comu.edu.tr/"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2667fbe682aa4aac4f0.png",
-   "basvuru_link": "https://ilan.comu.edu.tr/",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -8890,7 +8888,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2301174/kamu-akademik-personel-akademik-personel-alimlari-canakkale-onsekiz-mart-universitesi-rektorlugunden-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://ilan.comu.edu.tr/",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3717998634,
@@ -9175,8 +9175,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2437fbe682aa4aabe4f.png",
-   "basvuru_link": "https://www.hku.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -9187,7 +9185,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2281218/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-rektorlugunden-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.hku.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3818173958,
@@ -9278,8 +9278,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -9290,7 +9288,9 @@
      "source_url": "https://www.csgb.gov.tr/duyurular"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3884482648,
@@ -9321,8 +9321,6 @@
     "https://www.hmb.gov.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab84f.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -9331,7 +9329,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2289997/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-stajyer-hazine-kontrolorlugu-giris-sinavi-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3916003829,
@@ -9389,8 +9389,6 @@
     "http://belge.tesmer.org.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aaba8c.png",
-   "basvuru_link": "https://login.tesmer.org.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -9399,7 +9397,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2176784/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turmobdan-yeminli-mali-musavirlik-sinav-duyurusu"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://login.tesmer.org.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 3962043203,
@@ -9517,8 +9517,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "arsiv",
    "arsiv_nedeni": "Basvuru son tarihi gecti",
    "archived_at": "2026-11-26T13:03:23+00:00",
@@ -9529,7 +9527,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3988086724,
@@ -9560,8 +9560,6 @@
     "http://www.turkak.org.tr"
    ],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2377fbe682aa4aabd22.png",
-   "basvuru_link": "https://kariyerkapisi.gov.tr",
-   "basvuru_tur": "genel",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -9570,7 +9568,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2299654/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk-akreditasyon-kurumundan-sozlesmeli-koruma-ve-guvenlik-gorevlisi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr",
+   "basvuru_tur": "genel"
   },
   {
    "id": 3993297745,
@@ -9604,8 +9604,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "",
-   "basvuru_link": "https://apbs.iuc.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -9614,7 +9612,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2298278/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-uyesi-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://apbs.iuc.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 4026213190,
@@ -9708,8 +9708,6 @@
    ],
    "egitim_tahmin": false,
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2447fbe682aa4aabe6f.png",
-   "basvuru_link": "mailto:doka@doka.org.tr",
-   "basvuru_tur": "eposta",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -9718,7 +9716,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2274511/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-dogu-karadeniz-kalkinma-ajansindan--doka-personel-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "mailto:doka@doka.org.tr",
+   "basvuru_tur": "eposta"
   },
   {
    "id": 4101190687,
@@ -9924,8 +9924,6 @@
     "https://kamuilan.sbb.gov.tr"
    ],
    "logo": "https://kariyerkapisi.gov.tr/UPS/11ccecda-5dda-4e54-8306-f258a32d237c.png",
-   "basvuru_link": "https://personeltemin.jandarma.gov.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -9934,7 +9932,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2299648/kamu-akademik-personel-askeri-personel-alimlari-icisleri-bakanligi-jandarma-ve-sahil-guvenlik-akademisi-baskanligindan-uzman-erbas-temin-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://personeltemin.jandarma.gov.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 4125586643,
@@ -10106,8 +10106,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2477fbe682aa4aabf0c.png",
-   "basvuru_link": "https://www.agu.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -10116,7 +10114,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2298116/kamu-akademik-personel-akademik-personel-alimlari-abdullah-gul-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.agu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 4204435365,
@@ -10206,8 +10206,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -10216,7 +10214,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 4225758032,
@@ -10245,8 +10245,6 @@
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
    "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6050879046bcc211942e1702.jpg",
-   "basvuru_link": "https://www.atlas.edu.tr",
-   "basvuru_tur": "ana",
    "durum": "aktif",
    "kaynak_baglantilari": [
     {
@@ -10255,7 +10253,9 @@
      "source_url": "https://www.ilan.gov.tr/ilan/2296717/kamu-akademik-personel-akademik-personel-alimlari-atlas-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://www.atlas.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 4226020298,
@@ -10316,8 +10316,6 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {},
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -10326,7 +10324,9 @@
      "source_url": "https://www.aile.gov.tr/duyurular/"
     }
    ],
-   "diger_kaynaklar": []
+   "diger_kaynaklar": [],
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel"
   },
   {
    "id": 4290021107,
