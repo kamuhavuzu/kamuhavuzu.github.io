@@ -392,6 +392,13 @@ def ek_kaynak(session, mevcut, kaynak=None, **_):
         baslik = ic.baslik_duzelt(baslik)
         link = (url + "#" + hashlib.md5(baslik.encode("utf-8")).hexdigest()[:10]) if link_liste else gercek
         if link in mevcut:
+            # Daha once eklenen ilanlarda da eksik KPSS puanlarini yeniden tara.
+            # Yeni uzun-metin/PDF okuyucusu eski kayitlari da geriye donuk tamamlar.
+            eski_row = mevcut[link]
+            if detay_hak > 0 and (not eski_row.get("min_kpss") or not eski_row.get("puanlar")):
+                detay_hak -= 1
+                time.sleep(0.25)
+                detaydan_doldur(eski_row, detay_oku(session, gercek))
             continue
         bas, bit = ic.parse_tarih_araligi(baslik)
         if not bit:
