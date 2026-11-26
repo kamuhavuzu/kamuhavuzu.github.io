@@ -30,7 +30,7 @@ SAYFA = """<!doctype html><html lang="tr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
-<title>{baslik} | KamuRadar</title>
+<title>{baslik} | KamuHavuzu</title>
 <meta name="description" content="{aciklama}">
 <link rel="canonical" href="{site}/kesfet/{dosya}">
 <link rel="icon" href="../favicon-32.png">
@@ -46,12 +46,12 @@ a{{color:var(--vurgu)}}h1{{font-size:24px;margin:8px 0}}
 .dis{{font-size:13px;color:var(--soluk);margin-top:22px}}
 nav a{{margin-right:10px;font-size:14px}}
 </style></head><body><div class="k">
-<nav><a href="../">← KamuRadar</a><a href="./">Tüm başlıklar</a></nav>
+<nav><a href="../">← KamuHavuzu</a><a href="./">Tüm başlıklar</a></nav>
 <h1>{baslik}</h1>
 <p>{aciklama}</p>
 <a class="btn" href="../{sorgu}">Puanıma göre süz (🟢🟡🔴)</a>
 {liste}
-<p class="dis">KamuRadar resmî bir kurum sitesi değildir. Bilgiler ilan metinlerinden otomatik okunur ve hatalı olabilir; başvurudan önce resmî ilanı kontrol edin. Son güncelleme: {tarih}.</p>
+<p class="dis">KamuHavuzu resmî bir kurum sitesi değildir. Bilgiler ilan metinlerinden otomatik okunur ve hatalı olabilir; başvurudan önce resmî ilanı kontrol edin. Son güncelleme: {tarih}.</p>
 </div></body></html>"""
 
 def kart(r):
