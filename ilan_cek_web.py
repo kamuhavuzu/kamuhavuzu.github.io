@@ -727,15 +727,15 @@ _AY_NUM = {
 # Sonuç/yerleştirme ve sınav sonrası duyuruları yeni personel alımı değildir.
 # "Müfettiş yardımcılığı giriş sınavı ilanı" gibi ilk alım ilanları özellikle korunur.
 _ILAN_DISI = re.compile(
-    r"\bSONUC\b|\bYERLESTIRME\b|\bYERLESEN ADAY|\bYEDEK SIRADAN\b|"
-    r"\bHAK KAZANAN\b|\bKAZANANLARA ILISKIN\b|\bISTENILEN BELGELER\b|"
+    r"\bSONUC(?:LAR(?:I|INA|INDA|INDAN)?)?\b|\bYERLESTIRME\b|\bYERLESTIRILEN ADAY|\bYERLESEN ADAY|\bYEDEK SIRADAN\b|"
+    r"\bHAK KAZANAN\b|\bKAZANANLARA ILISKIN\b|\bISTENILEN BELGELER\b|\bBASARILI OLANLAR\b|"
     r"\bSINAV GIRIS BELGESI\b|\bSINAV YERI\b|\bSINAV TAKVIMI\b|"
     r"\bSINAVINDA BASARILI OLANLAR\b|\bSINAVININ .* BASARILI OLANLAR\b|"
     r"\bERTELEME\b|\bTERCIH DUYURUSU\b|\bTABAN VE TAVAN PUAN\b|"
     r"\bTAVAN VE TABAN PUAN\b|\bATANMAYA HAK\b",
     re.I
 )
-_TURMOB_RE = re.compile(r"\bTURMOB\b|YEMINLI MALI MUSAVIRLIK SINAV", re.I)
+_TURMOB_RE = re.compile(r"\bTURMOB(?:'?(?:DAN|UN|A|DA))?\b|YEMINLI MALI MUSAVIRLIK SINAV", re.I)
 
 
 def ilan_disi_temizle(mevcut):
