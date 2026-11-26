@@ -1,44 +1,44 @@
 {
-  "guncelleme": "2026-11-26T20:10:31+00:00",
-  "son_kontrol": "2026-11-26T20:10:31+00:00",
+  "guncelleme": "2026-11-26T20:18:16+00:00",
+  "son_kontrol": "2026-11-26T20:18:16+00:00",
   "kaynaklar": {
     "ilan.gov.tr": {
       "durum": "tamam",
       "yeni": 3,
-      "son_basari": "2026-11-26T20:04:34+00:00",
+      "son_basari": "2026-11-26T20:12:00+00:00",
       "sayi": 188
     },
     "Kariyer Kapısı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T20:04:36+00:00",
+      "son_basari": "2026-11-26T20:12:01+00:00",
       "sayi": 35
     },
     "Resmî Gazete İlanlar": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T20:04:37+00:00",
+      "son_basari": "2026-11-26T20:12:03+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 0
     },
     "Aile ve Sosyal Hizmetler Bakanlığı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T20:10:05+00:00",
+      "son_basari": "2026-11-26T20:17:51+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 16
     },
     "Çalışma ve Sosyal Güvenlik Bakanlığı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T20:10:09+00:00",
+      "son_basari": "2026-11-26T20:17:56+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 7
     },
     "Ulaştırma ve Altyapı Bakanlığı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T20:10:17+00:00",
+      "son_basari": "2026-11-26T20:18:03+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 6
     },
@@ -863,7 +863,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
-      "puan_kontrol_at": "2026-11-26T19:51:56+00:00"
+      "puan_kontrol_at": "2026-11-26T20:03:07+00:00"
     },
     {
       "id": 204612279,
@@ -1362,8 +1362,8 @@
       "basvuru_link": "https://www.galata.edu.tr",
       "basvuru_tur": "ana",
       "ai": {
-        "ozet": "İstanbul Galata Üniversitesi, Sağlık Bilimleri ve Sanat ve Sosyal Bilimler fakültelerine ALES ve ilgili şartları taşıyan toplam 2 araştırma görevlisi alacaktır.",
-        "bolum": "Hemşirelik, İç Mimarlık ve Çevre Tasarımı",
+        "ozet": "Istanbul Galata Universitesi Cesitli Fakultelere Arastirma Gorevlisi Alacaktir",
+        "bolum": "Hemsirelik ile Ic Mimarlik ve Cevre Tasarimi",
         "egitim": "Lisans",
         "kpss_turu": "ALES",
         "taban_puan": "70",
@@ -1376,7 +1376,12 @@
           "İç Mimarlık, İç Mimarlık ve Çevre Tasarımı veya Mimarlık bölümlerinin birinden lisans mezunu olmak",
           "İlgili anabilim dallarının birinde doktora yapıyor olmak",
           "ALES'in ilgili puan türünden en az 70 puan almış olmak",
-          "657 sayılı Kanunun 48 inci maddesindeki şartları taşımak"
+          "657 sayılı Kanunun 48 inci maddesindeki şartları taşımak",
+          "Hemsirelik alaninda doktora yapiyor olmak",
+          "Ilgili bolumlerin birinden lisans mezunu olmak",
+          "Ilgili anabilim dallarinin birinde doktora yapiyor olmak",
+          "ALES'in ilgili puan turunden en az 70 puan almis olmak",
+          "657 sayili Kanunun 48 inci maddesindeki sartlari tasimak"
         ]
       }
     },
@@ -2049,7 +2054,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f82ad1a8-39b9-4732-acb4-be6cbe8f772e",
-      "puan_kontrol_at": "2026-11-26T19:51:56+00:00"
+      "puan_kontrol_at": "2026-11-26T20:03:07+00:00"
     },
     {
       "id": 720859559,
@@ -2562,7 +2567,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=7cc8cb95-4799-4879-a104-8362bf62ca4d",
-      "puan_kontrol_at": "2026-11-26T20:10:21+00:00",
+      "puan_kontrol_at": "2026-11-26T20:18:07+00:00",
       "ai": {
         "ozet": "Türk-Alman Üniversitesi Rektörlüğü 30.11.2026 tarihinde sözleşmeli bilişim personeli alım ilanı yayımlamıştır.",
         "bolum": "Bilişim",
@@ -2700,21 +2705,26 @@
       "puan_kontrol_at": "2026-11-26T18:30:26+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293815/kamu-akademik-personel-akademik-personel-alimlari-gaziantep-islam-bilim-ve-teknoloji-universitesi-ogretim-uyesi-alim-ilani",
       "ai": {
-        "ozet": "Gaziantep İslam Bilim ve Teknoloji Üniversitesi, Tıp Fakültesi'nin çeşitli anabilim dallarına profesör, doçent ve doktor öğretim üyesi alacaktır.",
-        "bolum": "Tıp Fakültesi",
-        "egitim": "Doktora / Tıpta Uzmanlık",
+        "ozet": "Gaziantep İslam Bilim ve Teknoloji Üniversitesi, Tıp Fakültesi bünyesindeki çeşitli anabilim dallarına öğretim üyesi alımı yapacaktır.",
+        "bolum": "Tıp Fakültesi (Dahili, Temel ve Cerrahi Tıp Bilimleri)",
+        "egitim": "Doktora, Tıpta Uzmanlık",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
         "yas_siniri": "belirtilmemis",
         "ehliyet": "belirtilmemis",
         "deneyim": "belirtilmemis",
-        "kontenjan": "10",
+        "kontenjan": "23",
         "ozel_sartlar": [
           "657 sayılı Kanun'un 48. maddesindeki şartları taşımak.",
           "Yabancı diplomalar için denklik belgesine sahip olmak.",
           "Başvuruların ÜBYS üzerinden elektronik olarak yapılması gerekmektedir.",
           "Adaylar şartları uygun olan kadrolardan yalnızca birine başvurabilecektir.",
-          "Özel kadro gereklilikleri ilgili ilan numarasındaki alan şartlarını sağlamalıdır."
+          "Özel kadro gereklilikleri ilgili ilan numarasındaki alan şartlarını sağlamalıdır.",
+          "657 sayılı Kanun'un 48. maddesindeki şartları taşımak",
+          "YÖK tarafından onaylı akademik atama kriterlerini sağlamak",
+          "Başvuruları ÜBYS üzerinden elektronik olarak gerçekleştirmek",
+          "İlan edilen kadrolar için belirtilen özel bilimsel çalışma ve sertifika şartlarını karşılamak",
+          "Yabancı ülkelerden alınan diplomalar için denklik belgesine sahip olmak"
         ]
       }
     },
@@ -3084,7 +3094,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
-      "puan_kontrol_at": "2026-11-26T20:10:21+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:07+00:00"
     },
     {
       "id": 1001806090,
@@ -3174,14 +3184,17 @@
         "taban_puan": "70",
         "yas_siniri": "belirtilmemis",
         "ehliyet": "belirtilmemis",
-        "deneyim": "En az 2 ile 4 yıl arasında değişen alan deneyimi",
+        "deneyim": "Belirtilen alanlarda en az 2 veya 4 yıl çalışma deneyimi",
         "kontenjan": "7",
         "ozel_sartlar": [
           "657 Sayılı Kanunun 48 inci maddesindeki şartları taşımak.",
           "ALES'ten en az 70 puan almış olmak.",
           "İlgili lisans ve lisansüstü programlarda mezun veya öğrencilik şartını sağlamak.",
           "İstenilen pozisyonlar için tecrübe, sertifika ve belgelere sahip olmak.",
-          "Yabancı dil sınavından en az 50 puan veya eşdeğer bir puan almış olmak."
+          "Yabancı dil sınavından en az 50 puan veya eşdeğer bir puan almış olmak.",
+          "İlgili kadrolara göre tezli yüksek lisans veya doktora yapıyor/yapmış olmak.",
+          "İstenilen sertifika, belge ve deneyimleri resmi olarak belgelendirmek.",
+          "Başvuruların elektronik ortamda https://iglo.erzurum.edu.tr adresinden yapılması gerekmektedir."
         ]
       }
     },
@@ -3328,7 +3341,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=35749108-46fb-4b62-bc89-3700f1525802",
-      "puan_kontrol_at": "2026-11-26T20:10:22+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:08+00:00"
     },
     {
       "id": 1048996718,
@@ -3370,10 +3383,10 @@
       "basvuru_link": "https://kariyerkapisi.gov.tr",
       "basvuru_tur": "genel",
       "ai": {
-        "ozet": "Afet ve Acil Durum Yönetimi Başkanlığı merkez teşkilatında istihdam edilmek üzere sözlü sınavla 7 denetçi yardımcısı alınacaktır.",
+        "ozet": "Afet ve Acil Durum Yönetimi Başkanlığı, merkez teşkilatında istihdam edilmek üzere sözlü sınavla 7 denetçi yardımcısı alacaktır.",
         "bolum": "İktisat, İşletme, Kamu Yönetimi, Siyaset Bilimi ve Kamu Yönetimi, Siyaset Bilimi ve Uluslararası İlişkiler, Uluslararası İlişkiler, Maliye, Çalışma Ekonomisi ve Endüstri İlişkileri, Bilgisayar Mühendisliği, Yazılım Mühendisliği, Endüstri Mühendisliği, Matematik Mühendisliği",
         "egitim": "Lisans",
-        "kpss_turu": "KPSSP3, KPSSP13, KPSSP33, KPSSP48",
+        "kpss_turu": "KPSSP13, KPSSP33, KPSSP48, KPSSP3",
         "taban_puan": "80",
         "yas_siniri": "35",
         "ehliyet": "belirtilmemis",
@@ -3721,7 +3734,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
-      "puan_kontrol_at": "2026-11-26T20:10:22+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:08+00:00"
     },
     {
       "id": 1252114584,
@@ -3826,7 +3839,7 @@
       "basvuru_link": "https://basvuru.mehmetakif.edu.tr/",
       "basvuru_tur": "ana",
       "ai": {
-        "ozet": "Burdur Mehmet Akif Ersoy Üniversitesi çeşitli birimlerine 2547 sayılı Kanun kapsamında öğretim üyesi alacaktır.",
+        "ozet": "Burdur Mehmet Akif Ersoy Üniversitesi çeşitli birimlerine 2547 ve 2914 sayılı kanunlar kapsamında öğretim üyesi alacaktır.",
         "bolum": "belirtilmemis",
         "egitim": "Doktora / Uzmanlık / Sanatta Yeterlilik / Doçentlik",
         "kpss_turu": "belirtilmemis",
@@ -3840,7 +3853,12 @@
           "Doktor öğretim üyesi kadroları için en az 60, doçent ve profesör kadroları için en az 65 yabancı dil puanı almak.",
           "Adaylar yalnızca tek bir kadro için başvuruda bulunabilir.",
           "Başvurular e-devlet kimlik doğrulaması ile elektronik ortamda yapılacaktır.",
-          "Yabancı ülkelerden alınan diplomalar için denklik belgesi gereklidir."
+          "Yabancı ülkelerden alınan diplomalar için denklik belgesi gereklidir.",
+          "657 sayılı Kanun'un 48. maddesindeki genel şartları taşımak",
+          "Doktor öğretim üyesi için en az 60, doçent ve profesör için en az 65 yabancı dil puanı almak",
+          "Adaylar yalnızca tek bir kadro için başvuruda bulunabilir",
+          "Başvurular e-devlet kimlik doğrulaması ile elektronik ortamda yapılacaktır",
+          "Yabancı ülkelerden alınan diplomalar için denk belgesi gereklidir"
         ]
       }
     },
@@ -3887,21 +3905,26 @@
       "puan_kontrol_at": "2026-11-26T18:30:31+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293761/kamu-akademik-personel-akademik-personel-alimlari-fenerbahce-universitesi-ogretim-elemani-alim-ilani",
       "ai": {
-        "ozet": "Fenerbahçe Üniversitesi Rektörlüğü, Yabancı Diller birimine en az 70 ALES puanı ve 85 yabancı dil puanı ile 1 öğretim elemanı alacaktır.",
+        "ozet": "Fenerbahçe Üniversitesi Rektörlüğü, Yabancı Diller bölümüne 1 öğretim görevlisi alımı yapacaktır.",
         "bolum": "Yabancı Diller",
-        "egitim": "Lisans",
-        "kpss_turu": "ALES SÖZ",
+        "egitim": "İngiliz Dili ve Edebiyatı lisans mezunu ve aynı alanda tezli yüksek lisans sahibi olmak",
+        "kpss_turu": "ALES",
         "taban_puan": "70",
         "yas_siniri": "belirtilmemis",
         "ehliyet": "belirtilmemis",
-        "deneyim": "Yükseköğretim kurumlarının İngilizce Hazırlık Programlarında en az 5 yıl deneyim sahibi olmak.",
+        "deneyim": "Yükseköğretim kurumlarının İngilizce Hazırlık Programlarında en az 5 yıl deneyim sahibi olmak",
         "kontenjan": "1",
         "ozel_sartlar": [
           "İngiliz Dili ve Edebiyatı lisans programından mezun olmak.",
           "Aynı alanda tezli yüksek lisans eğitimini tamamlamış olmak.",
           "Yükseköğretim kurumlarının İngilizce Hazırlık Programlarında en az 5 yıl deneyim sahibi olmak.",
           "En az 70 ALES puanına sahip olmak.",
-          "En az 85 YDS veya eşdeğeri yabancı dil puanına sahip olmak."
+          "En az 85 YDS veya eşdeğeri yabancı dil puanına sahip olmak.",
+          "İngiliz Dili ve Edebiyatı lisans mezunu olmak",
+          "İngiliz Dili ve Edebiyatı alanında tezli yüksek lisans yapmış olmak",
+          "İngilizce hazırlık programlarında en az 5 yıl deneyimli olmak",
+          "YDS veya eşdeğeri sınavdan en az 85 puan almış olmak",
+          "ALES SÖZ puan türünden en az 70 puan almış olmak"
         ]
       }
     },
@@ -3984,9 +4007,9 @@
       "puan_kontrol_at": "2026-11-26T18:30:32+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293740/kamu-akademik-personel-akademik-personel-alimlari-fenerbahce-universitesi-ogretim-uyesi-alim-ilani",
       "ai": {
-        "ozet": "Fenerbahçe Üniversitesi, çeşitli fakültelerine 2547 sayılı kanun uyarınca e-posta yoluyla öğretim üyesi alımı yapacaktır.",
+        "ozet": "Fenerbahçe Üniversitesi, mühendislik, sağlık ve sosyal bilimler fakültelerine çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
         "bolum": "Elektrik-Elektronik Mühendisliği, Yazılım Mühendisliği, Hemşirelik, Yönetim Bilişim Sistemleri",
-        "egitim": "Doktora / Lisans",
+        "egitim": "Doktora / Tıpta Uzmanlık / Sanatta Yeterlik",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
         "yas_siniri": "belirtilmemis",
@@ -3998,7 +4021,12 @@
           "Posta veya sahsen yapilan basvurular kabul edilmeyecektir.",
           "Ingilizce programlar icin ilgili yonetmelikteki dil yeterliligi saglanmalidir.",
           "Yurt disindan alinan diplomalar icin onayli denklik belgesi gereklidir.",
-          "Ilgili kadro unvanlarina gore istenen doktora veya docentlik unvanlarina sahip olmak."
+          "Ilgili kadro unvanlarina gore istenen doktora veya docentlik unvanlarina sahip olmak.",
+          "İngilizce programlar için YÖK mevzuatına uygun yabancı dil yeterliliğini sağlamak.",
+          "Başvuruları akademikbasvuru@fbu.edu.tr adresine e-posta ile göndermek.",
+          "Posta yoluyla veya şahsen yapılan başvurular kabul edilmemektedir.",
+          "İlgili kadroların alan şartlarına ve unvan kriterlerine uygun akademik unvana sahip olmak.",
+          "İstenen tüm belge ve formları başvuru süresi içerisinde eksiksiz iletmek."
         ]
       }
     },
@@ -4046,7 +4074,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=31b4b404-05cb-4298-9460-1ab3b13b33e8",
-      "puan_kontrol_at": "2026-11-26T20:10:22+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:09+00:00"
     },
     {
       "id": 1330583618,
@@ -4308,7 +4336,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
-      "puan_kontrol_at": "2026-11-26T20:10:23+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:09+00:00"
     },
     {
       "id": 1535315569,
@@ -4445,9 +4473,9 @@
       "puan_kontrol_at": "2026-11-26T18:30:33+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293884/kamu-akademik-personel-akademik-personel-alimlari-suleyman-demirel-universitesi-ogretim-uyesi-alim-ilani",
       "ai": {
-        "ozet": "Süleyman Demirel Üniversitesi, çeşitli birimlerine 2547 sayılı Kanun ve ilgili yönetmelikler kapsamında öğretim üyesi alımı yapacaktır.",
-        "bolum": "Sosyal Bilgiler Eğitimi",
-        "egitim": "Doktora / Tıpta Uzmanlık / Sanatta Yeterlik",
+        "ozet": "Süleyman Demirel Üniversitesi, Eğitim Fakültesi Sosyal Bilgiler Eğitimi Anabilim Dalına profesör unvanıyla 1 öğretim üyesi alacaktır.",
+        "bolum": "Türkçe ve Sosyal Bilgiler Eğitimi",
+        "egitim": "Doktora",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
         "yas_siniri": "belirtilmemis",
@@ -4456,7 +4484,8 @@
         "kontenjan": "1",
         "ozel_sartlar": [
           "Sosyal Bilgiler Eğitimi alanında doçentlik unvanına sahip olmak.",
-          "Beklenti-değer motivasyon teorisi alanında çalışmalar yapmış olmak."
+          "Beklenti-değer motivasyon teorisi alanında çalışmalar yapmış olmak.",
+          "Beklenti-değer motivasyon teorisi alanında çalışmalarda bulunmuş olmak."
         ]
       }
     },
@@ -4999,7 +5028,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
-      "puan_kontrol_at": "2026-11-26T20:10:23+00:00",
+      "puan_kontrol_at": "2026-11-26T20:18:09+00:00",
       "ai": {
         "ozet": "Mersin Üniversitesi Rektörlüğü, Kariyer Kapısı üzerinden 1 adet sözleşmeli bilişim personeli alacağını duyurmuştur.",
         "bolum": "Bilişim",
@@ -5165,7 +5194,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=069150d6-ad89-4973-9410-25ae1fa56d67",
-      "puan_kontrol_at": "2026-11-26T20:10:24+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:10+00:00"
     },
     {
       "id": 1925290483,
@@ -5361,7 +5390,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0",
-      "puan_kontrol_at": "2026-11-26T20:10:24+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:10+00:00"
     },
     {
       "id": 1997920134,
@@ -5654,7 +5683,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f657a20b-5132-4e3a-8b1e-131e031f065b",
-      "puan_kontrol_at": "2026-11-26T20:10:25+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:11+00:00"
     },
     {
       "id": 2048870705,
@@ -5853,7 +5882,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e",
-      "puan_kontrol_at": "2026-11-26T20:10:25+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:11+00:00"
     },
     {
       "id": 2117139872,
@@ -5894,10 +5923,10 @@
       "basvuru_link": "https://www.sg.gov.tr",
       "basvuru_tur": "ana",
       "ai": {
-        "ozet": "Sahil Güvenlik Komutanlığı, karargah ve birliklerinde istihdam edilmek üzere 2026 yılı için 10 devlet memuru temin edecektir.",
+        "ozet": "Sahil Güvenlik Komutanlığı, karargahı ve bağlı birliklerinde istihdam edilmek üzere 2026 yılı için 10 devlet memuru temin edecektir.",
         "bolum": "Mali İşler, Psikoloji, İngilizce Öğretmenliği, Tedarik, Video Montaj, Muhasebe",
         "egitim": "belirtilmemis",
-        "kpss_turu": "KPSSP03 ve KPSSP93",
+        "kpss_turu": "KPSSP03, KPSSP93",
         "taban_puan": "belirtilmemis",
         "yas_siniri": "18 yaşını tamamlamış ve 36 yaşından gün almamış olmak",
         "ehliyet": "belirtilmemis",
@@ -6072,7 +6101,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0dee67ed-656b-4fa2-9ffd-deb7672253b8",
-      "puan_kontrol_at": "2026-11-26T20:10:25+00:00",
+      "puan_kontrol_at": "2026-11-26T20:18:11+00:00",
       "ai": {
         "ozet": "Bartın Üniversitesi Rektörlüğü tarafından 2026 yılı dördüncü dönem sözleşmeli personel alım ilanı Kariyer Kapısı üzerinden yayımlanmıştır.",
         "bolum": "belirtilmemis",
@@ -6134,7 +6163,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6a34cb10-0ac0-41e0-a094-3ec83e29a644",
-      "puan_kontrol_at": "2026-11-26T20:10:26+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:12+00:00"
     },
     {
       "id": 2155858659,
@@ -6365,7 +6394,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
-      "puan_kontrol_at": "2026-11-26T20:10:26+00:00",
+      "puan_kontrol_at": "2026-11-26T20:18:12+00:00",
       "ai": {
         "ozet": "Adli Tıp Kurumu Başkanlığı tarafından 2026/2 dönemi için sözleşmeli personel alım ilanı yayımlanmıştır.",
         "bolum": "belirtilmemis",
@@ -6589,7 +6618,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
-      "puan_kontrol_at": "2026-11-26T20:10:27+00:00",
+      "puan_kontrol_at": "2026-11-26T20:18:13+00:00",
       "ai": {
         "ozet": "Rekabet Kurumu Başkanlığı tarafından Rekabet Uzman Yardımcılığı giriş sınavı yapılacağı duyurulmuştur.",
         "bolum": "belirtilmemis",
@@ -6649,21 +6678,26 @@
       "basvuru_link": "https://www.gtu.edu.tr",
       "basvuru_tur": "ana",
       "ai": {
-        "ozet": "Gebze Teknik Üniversitesi bünyesinde istihdam edilmek üzere, 2547 sayılı Kanun ve ilgili yönetmelik hükümleri uyarınca çeşitli fakültelere öğretim elemanı alınacaktır.",
-        "bolum": "Malzeme Bilimi ve Mühendisliği, Endüstriyel Tasarım, Yabancı Diller Bölümü, Müzik",
+        "ozet": "Gebze Teknik Üniversitesi bünyesinde istihdam edilmek üzere, ilgili mevzuat kapsamında çeşitli fakültelere toplam 4 öğretim elemanı alımı yapılacaktır.",
+        "bolum": "Malzeme Bilimi ve Mühendisliği, Endüstriyel Tasarım, Yabancı Diller, Müzik",
         "egitim": "Lisans ve Yüksek Lisans",
         "kpss_turu": "ALES",
         "taban_puan": "70",
         "yas_siniri": "belirtilmemis",
         "ehliyet": "belirtilmemis",
-        "deneyim": "Çeşitli kadrolar için 1 ile 5 yıl arasında değişmektedir",
+        "deneyim": "En az 1 ila 5 yıl değişen sürelerde tecrübe şartı aranmaktadır",
         "kontenjan": "4",
         "ozel_sartlar": [
           "İlgili lisans programlarından mezun olmak",
           "İlgili anabilim dallarında yüksek lisans öğrencisi veya mezunu olmak",
           "İngilizce alanındaki kadrolar için en az 85 yabancı dil puanına sahip olmak",
           "Yükseköğretim kurumlarında en az 1 yıl ders verme tecrübesine sahip olmak",
-          "Müzik alanı için ilgili konularda 5 yıl tecrübe sahibi olmak"
+          "Müzik alanı için ilgili konularda 5 yıl tecrübe sahibi olmak",
+          "İlgili lisans ve yüksek lisans programlarından mezun veya öğrenci olmak",
+          "ALES'ten en az 70 puan almış olmak",
+          "Yabancı dil sınavından kadro unvanına göre en az 50, 65 veya 85 puan almış olmak",
+          "Bazı kadrolar için pedagojik formasyona sahip olmak",
+          "İlgili alanlarda lisans mezuniyetinden sonra tecrübe şartını taşımak"
         ]
       }
     },
@@ -6710,7 +6744,7 @@
       "basvuru_link": "https://basvuru.erdogan.edu.tr",
       "basvuru_tur": "ana",
       "ai": {
-        "ozet": "Recep Tayyip Erdoğan Üniversitesi, çeşitli fakültelerine 2547 sayılı Kanun kapsamında çevrim içi başvuru yoluyla araştırma görevlisi alacaktır.",
+        "ozet": "Recep Tayyip Erdoğan Üniversitesi bünyesinde istihdam edilmek üzere çeşitli fakültelere 3 araştırma görevlisi alınacaktır.",
         "bolum": "Bilgisayar Mühendisliği ve Spor Yöneticiliği",
         "egitim": "Lisans",
         "kpss_turu": "ALES",
@@ -6724,7 +6758,8 @@
           "Bilgisayar Mühendisliği lisans mezunu olup Bilgisayar Mühendisliği alanında yüksek lisans yapıyor olmak.",
           "Spor Yöneticiliği Bölümü lisans mezunu olup Spor Yönetimi veya Beden Eğitimi ve Spor Ana Bilim Dalında tezli yüksek lisans yapıyor olmak.",
           "İlgili puan türünden en az 70 ALES puanına sahip olmak.",
-          "Yabancı dil sınavından en az 50 puan almış olmak."
+          "Yabancı dil sınavından en az 50 puan almış olmak.",
+          "657 sayılı Kanunun 48’inci maddesinde belirtilen şartları taşımak."
         ]
       }
     },
@@ -6769,9 +6804,9 @@
       "puan_kontrol_at": "2026-11-26T19:43:41+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2289991/kamu-akademik-personel-akademik-personel-alimlari-istanbul-okan-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
       "ai": {
-        "ozet": "İstanbul Okan Üniversitesi Rektörlüğü Tıp Fakültesi bünyesinde istihdam edilmek üzere çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
-        "bolum": "Anesteziyoloji ve Reanimasyon, Göz Hastalıkları, Kadın Hastalıkları ve Doğum, Ortopedi ve Travmatoloji, Radyoloji, İç Hastalıkları, Acil Tıp, Kalp ve Damar Cerrahisi, Plastik Rekonstrüktif ve Estetik Cerrahi, Kulak Burun ve Boğaz Hastalıkları",
-        "egitim": "Tıpta Uzmanlık, Doktora",
+        "ozet": "İstanbul Okan Üniversitesi çeşitli fakültelere öğretim üyeleri alacaktır.",
+        "bolum": "Tıp Fakültesi",
+        "egitim": "Doktora",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
         "yas_siniri": "belirtilmemis",
@@ -6887,9 +6922,9 @@
       "puan_kontrol_at": "2026-11-26T19:43:42+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2289992/kamu-akademik-personel-akademik-personel-alimlari-karamanoglu-mehmetbey-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
       "ai": {
-        "ozet": "Karamanoğlu Mehmetbey Üniversitesi Rektörlüğü çeşitli fakültelere Doktor Öğretim Üyesi alımı yapacaktır.",
+        "ozet": "Karamanoğlu Mehmetbey Üniversitesi Rektörlüğü, çeşitli fakültelere 2547 sayılı Kanun kapsamında toplam 5 doktor öğretim üyesi alacaktır.",
         "bolum": "Ağız Diş ve Çene Cerrahisi, Ortodonti, Çocuk Sağlığı ve Hastalıkları, Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji",
-        "egitim": "Doktora / Uzmanlık",
+        "egitim": "Doktora",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
         "yas_siniri": "belirtilmemis",
@@ -7138,7 +7173,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=84e11358-b080-4b29-ae1e-3ab83bd8f689",
-      "puan_kontrol_at": "2026-11-26T20:10:27+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:13+00:00"
     },
     {
       "id": 2448076826,
@@ -7528,10 +7563,10 @@
       ],
       "diger_kaynaklar": [],
       "ai": {
-        "ozet": "Bursa Teknik Üniversitesi Rektörlüğü 2026 KPSS (B) grubu puan sıralaması ile 1 adet sözleşmeli psikolog alacaktır.",
+        "ozet": "Bursa Teknik Üniversitesi Rektörlüğü, 2026 KPSS (P3) puan sıralamasına göre 1 adet sözleşmeli psikolog alacaktır.",
         "bolum": "Psikoloji",
         "egitim": "Lisans",
-        "kpss_turu": "KPSS(P3)",
+        "kpss_turu": "KPSS (B)",
         "taban_puan": "70",
         "yas_siniri": "35 yaşından gün almamış olmak",
         "ehliyet": "belirtilmemis",
@@ -7828,7 +7863,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd",
-      "puan_kontrol_at": "2026-11-26T20:10:28+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:14+00:00"
     },
     {
       "id": 2692716982,
@@ -8069,7 +8104,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
-      "puan_kontrol_at": "2026-11-26T20:10:28+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:14+00:00"
     },
     {
       "id": 2716000765,
@@ -8105,7 +8140,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:45+00:00",
+      "puan_kontrol_at": "2026-11-26T20:02:55+00:00",
       "ai": {
         "ozet": "Ankara Sosyal Bilimler Üniversitesi, çeşitli fakültelere 2547 sayılı Kanun ve ilgili yönetmelikler kapsamında araştırma görevlisi ve öğretim görevlisi alacaktır.",
         "bolum": "belirtilmemis",
@@ -8228,7 +8263,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:46+00:00",
+      "puan_kontrol_at": "2026-11-26T20:02:56+00:00",
       "ai": {
         "ozet": "Elazığ İl Özel İdaresi, KPSS P3 skoru ile en az 60 puan şartıyla psikolog ve sosyal çalışmacı unvanlarında sözleşmeli personel alacaktır.",
         "bolum": "Psikoloji veya Sosyal Hizmetler",
@@ -8373,7 +8408,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
-      "puan_kontrol_at": "2026-11-26T20:10:29+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:14+00:00"
     },
     {
       "id": 2827453833,
@@ -8435,7 +8470,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:46+00:00",
+      "puan_kontrol_at": "2026-11-26T20:02:56+00:00",
       "basvuru_link": "https://www.balikesir.edu.tr",
       "basvuru_tur": "ana",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298155/kamu-akademik-personel-akademik-personel-alimlari-balikesir-universitesi-ogretim-elemani-alim-ilani"
@@ -8530,7 +8565,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=ff6084a1-bbdd-45d7-b62e-a649a026a2b2",
-      "puan_kontrol_at": "2026-11-26T20:10:29+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:15+00:00"
     },
     {
       "id": 2896109489,
@@ -8578,7 +8613,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
-      "puan_kontrol_at": "2026-11-26T20:10:30+00:00"
+      "puan_kontrol_at": "2026-11-26T20:18:15+00:00"
     },
     {
       "id": 2896741186,
@@ -8672,7 +8707,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:47+00:00",
+      "puan_kontrol_at": "2026-11-26T20:02:57+00:00",
       "ai": {
         "ozet": "Hasan Kalyoncu Universitesi Rektorfugu cesitli akademik birimlere 2547 sayili kanun kapsaminda tam zamanli ogretim uyesi alacaktir.",
         "bolum": "belirtilmemis",
@@ -8757,7 +8792,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:47+00:00",
+      "puan_kontrol_at": "2026-11-26T20:02:57+00:00",
       "ai": {
         "ozet": "Biruni Üniversitesi, Diş Hekimliği, Eczacılık, Eğitim ve Meslek Yüksekokulu fakültelerine çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
         "bolum": "Çeşitli Bölümler ve Anabilim Dalları",
@@ -8815,7 +8850,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T20:10:30+00:00",
+      "puan_kontrol_at": "2026-11-26T20:18:16+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2289989/kamu-akademik-personel-akademik-personel-alimlari-cankiri-karatekin-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
       "ai": {
         "ozet": "Çankırı Karatekin Üniversitesi farklı fakültelere 19 Dr. Öğr. Üyesi alacaktır.",
@@ -8882,8 +8917,8 @@
       "basvuru_link": "https://kariyerkapisi.gov.tr",
       "basvuru_tur": "genel",
       "ai": {
-        "ozet": "Dicle Kalkınma Ajansı Mardin, Batman, Siirt ve Şırnak illerinde istihdam edilmek üzere 4 uzman personel alacaktır.",
-        "bolum": "İktisat, İşletme, Maliye, Siyaset Bilimi ve Kamu Yönetimi, Kamu Yönetimi, Çalışma Ekonomisi ve Endüstri İlişkileri, Uluslararası İlişkiler, Hukuk, İstatistik, Matematik, Şehir ve Bölge Planlama, Mühendislik bölümleri",
+        "ozet": "Dicle Kalkınma Ajansı, Mardin, Batman, Siirt ve Şırnak illerinde istihdam edilmek üzere KPSS ve YDS şartıyla 4 uzman personel alacaktır.",
+        "bolum": "İktisat, İşletme, Maliye, Siyaset Bilimi ve Kamu Yönetimi, Çalışma Ekonomisi ve Endüstri İlişkileri, Uluslararası İlişkiler, Hukuk, İstatistik, Matematik, Şehir ve Bölge Planlama, Mühendislikler",
         "egitim": "Lisans",
         "kpss_turu": "KPSS",
         "taban_puan": "80",
@@ -9011,7 +9046,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:48+00:00",
+      "puan_kontrol_at": "2026-11-26T20:02:58+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298169/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-ogretim-uyesi-alim-ilani"
     },
     {
@@ -9101,7 +9136,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:48+00:00",
+      "puan_kontrol_at": "2026-11-26T20:02:58+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2296783/kamu-akademik-personel-akademik-personel-alimlari-istanbul-medipol-universitesi-ogretim-uyesi-alim-ilani"
     },
     {
@@ -9221,24 +9256,29 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:49+00:00",
+      "puan_kontrol_at": "2026-11-26T20:02:59+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293626/kamu-akademik-personel-akademik-personel-alimlari-galata-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
       "ai": {
-        "ozet": "İstanbul Galata Üniversitesi çeşitli fakülte ve Anabilim Dallarına 2547 sayılı kanun uyarınca öğretim üyeleri alacaktır.",
-        "bolum": "Klinik Bilimler ve Temel Bilimler",
-        "egitim": "Doktora / Uzmanlık / Doçentlik",
+        "ozet": "İstanbul Galata Üniversitesi, Diş Hekimliği Fakültesi bünyesinde çeşitli anabilim dallarında görevlendirilmek üzere toplam 13 öğretim üyesi alımı yapacaktır.",
+        "bolum": "Diş Hekimliği Fakültesi (Klinik ve Temel Bilimler)",
+        "egitim": "Doktora veya Uzmanlık",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
         "yas_siniri": "belirtilmemis",
         "ehliyet": "belirtilmemis",
         "deneyim": "belirtilmemis",
-        "kontenjan": "12",
+        "kontenjan": "13",
         "ozel_sartlar": [
           "Basvurular sahsen elden yapilmalidir.",
           "Bazi kadrolar icin YDS veya esdegerinden en az 85 puan almis olmak gerekir.",
           "Bir kisi birden fazla kadroya basvuru yapamaz.",
           "Ilgili Anabilim Dalinda doktorali, uzmanlikli veya docentlik unvanina sahip olmak gerekir.",
-          "Basvuru dosyalarinda istenen belgelerin eksiksiz sunulmasi zorunludur."
+          "Basvuru dosyalarinda istenen belgelerin eksiksiz sunulmasi zorunludur.",
+          "İngilizce programlar için 85 ve üzeri dil puanı şartı",
+          "Başvuruların şahsen elden yapılması zorunludur",
+          "Bir kişi yalnızca bir kadroya başvurabilir",
+          "İlgili anabilim dallarında doktora veya uzmanlık derecesi",
+          "Akademik Personel Adayı Açık Rıza Metni imzalanmalıdır"
         ]
       }
     },
@@ -9305,7 +9345,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:49+00:00",
+      "puan_kontrol_at": "2026-11-26T20:02:59+00:00",
       "basvuru_link": "https://apbs.iuc.edu.tr",
       "basvuru_tur": "ana",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298201/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-elemani-alim-ilani"
@@ -9422,7 +9462,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:50+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:00+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299717/kamu-akademik-personel-akademik-personel-alimlari-antalya-belek-universitesi-ogretim-uyesi-disindaki-kadrolara-personel-alim-ilani"
     },
     {
@@ -9464,13 +9504,13 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:50+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:00+00:00",
       "basvuru_link": "https://basvuru.bilecik.edu.tr/",
       "basvuru_tur": "ana",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2295214/kamu-akademik-personel-akademik-personel-alimlari-bilecik-seyh-edebali-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
       "ai": {
-        "ozet": "Bilecik Şeyh Edebali Üniversitesi farklı birimlerine 2547 sayılı Kanun hükümlerine göre çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
-        "bolum": "Çeşitli Bölümler",
+        "ozet": "Bilecik Şeyh Edebali Üniversitesi, çeşitli fakülte ve bölümlere 2547 sayılı kanun kapsamında profesör unvanında öğretim üyesi alımı yapacaktır.",
+        "bolum": "Finans, Bankacılık ve Sigortacılık, Fizik, Kimya Mühendisliği, Metalurji ve Malzeme Mühendisliği, Tıbbi Laboratuvar Teknikleri",
         "egitim": "Doktora",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
@@ -9483,7 +9523,12 @@
           "İlgili alanda doçentliğini almış olmak",
           "Belirtilen konularda hakemli dergilerde yayımlanmış makalelere sahip olmak",
           "Yurtdışı diplomalar için YÖK denklik belgesi almak",
-          "Başvuruları sadece çevrim içi sistem üzerinden yapmak"
+          "Başvuruları sadece çevrim içi sistem üzerinden yapmak",
+          "İlgili alanlarda doçentlik unvanına sahip olmak.",
+          "Belirtilen spesifik konularda hakemli dergilerde yayımlanmış makalelere sahip olmak.",
+          "657 sayılı kanunun 48. maddesindeki şartları taşımak.",
+          "Üniversitenin atama yönergesindeki kriterleri sağlamak.",
+          "Yabancı ülkelerden alınan diplomalar için denklik belgesi sunmak."
         ]
       }
     },
@@ -9560,7 +9605,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:51+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:01+00:00",
       "ai": {
         "ozet": "Biruni Universitesi Rektörlügücesitli fakülte ve meslek yüksekokullarına 2547 sayılı kanun uyarınca ogretim elemani alacaktir.",
         "bolum": "Çeşitli Bölümler",
@@ -9748,7 +9793,7 @@
       ],
       "diger_kaynaklar": [],
       "ai": {
-        "ozet": "Anadolu Üniversitesi Rektörlüğü, 657 sayılı Kanun'un 4/B maddesi uyarınca 2026-KPSS KPSSP3 puanına göre 1 Çevre Mühendisi alacaktır.",
+        "ozet": "Anadolu Üniversitesi Rektörlüğü, 2026-KPSS P3 puan sıralamasına göre 1 adet Çevre Mühendisi sözleşmeli personel alacaktır.",
         "bolum": "Çevre Mühendisliği",
         "egitim": "Lisans",
         "kpss_turu": "KPSSP3",
@@ -9824,7 +9869,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:51+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:02+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani"
     },
     {
@@ -9862,12 +9907,12 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:52+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:02+00:00",
       "basvuru_link": "https://atama.atauni.edu.tr",
       "basvuru_tur": "ana",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2292344/kamu-akademik-personel-akademik-personel-alimlari-ataturk-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
       "ai": {
-        "ozet": "Atatürk Üniversitesi çeşitli fakültelere 2547 sayılı Kanun kapsamında profesör kadrolarında öğretim üyesi alımı yapacaktır.",
+        "ozet": "Atatürk Üniversitesi çeşitli fakültelere 2547 sayılı Kanun kapsamında profesör kadrosunda öğretim üyesi alımı yapacaktır.",
         "bolum": "Çeşitli Bölümler",
         "egitim": "Doktora",
         "kpss_turu": "belirtilmemis",
@@ -10032,7 +10077,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:52+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:03+00:00",
       "ai": {
         "ozet": "Erzurum Teknik Üniversitesi Rektörlüğü, ilgili kanun ve yönetmelikler kapsamında profesör, doçent ve doktor öğretim üyesi kadrolarına öğretim üyesi alacaktır.",
         "bolum": "belirtilmemis",
@@ -10129,11 +10174,11 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:53+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:03+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2295253/kamu-akademik-personel-akademik-personel-alimlari-bayburt-universitesi-ogretim-uyesi-alim-ilani",
       "ai": {
-        "ozet": "Bayburt Üniversitesi, çeşitli fakülte ve meslek yüksekokullarına 2547 sayılı Kanun hükümlerine göre öğretim üyesi alımı yapacağını duyurmuştur.",
-        "bolum": "Çeşitli Akademik Birimler",
+        "ozet": "Bayburt Üniversitesi, 2547 sayılı Kanun hükümlerine göre çeşitli fakülte ve meslek yüksekokullarına profesör, doçent ve doktor öğretim üyesi alacaktır.",
+        "bolum": "Çeşitli Bölümler",
         "egitim": "Doktora",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
@@ -10146,7 +10191,11 @@
           "Yükseköğretim Kurulu tarafından kabul edilen yabancı dil sınavından en az 55 puan almış olmak.",
           "İlgili anabilim dalı ve unvan için aranan özel alan çalışmalarına ve tez şartlarına sahip olmak.",
           "Yabancı ülkelerden alınan diplomalar için denkliğe sahip olmak.",
-          "Bayburt Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Ölçütleri Yönergesi şartlarını sağlamak."
+          "Bayburt Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Ölçütleri Yönergesi şartlarını sağlamak.",
+          "2547 Sayılı Kanun'un ilgili maddelerinde belirtilen şartları taşımak.",
+          "Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 55 puan almış olmak.",
+          "İlgili anabilim dalı veya alanda doçentlik ya da doktora unvanına sahip olmak.",
+          "Başvuru dosyalarını USB bellek olarak ilgili birime teslim etmek."
         ]
       }
     },
@@ -10207,7 +10256,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:53+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:04+00:00",
       "basvuru_link": "mailto:ik@ozyegin.edu.tr",
       "basvuru_tur": "eposta",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299720/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani"
@@ -10275,7 +10324,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:53+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:04+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304212/kamu-akademik-personel-akademik-personel-alimlari-istanbul-beykent-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani"
     },
     {
@@ -10462,7 +10511,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:54+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:05+00:00",
       "basvuru_link": "https://esube.iskur.gov.tr",
       "basvuru_tur": "ana",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299634/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ondokuz-mayis-universitesi-rektorlugu-surekli-isci-alim-ilani"
@@ -10503,7 +10552,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T19:51:54+00:00",
+      "puan_kontrol_at": "2026-11-26T20:03:05+00:00",
       "ai": {
         "ozet": "Dogus Universitesi farkli fakulte ve yuksekokullara profesor ve doktor ogretim uyesi alimi yapacagini duyurdu.",
         "bolum": "Cesitli Bolumler",
@@ -11489,7 +11538,7 @@
       "basvuru_link": "https://kariyerkapisi.gov.tr",
       "basvuru_tur": "genel",
       "ai": {
-        "ozet": "Hazine ve Maliye Bakanlığı, Hukuk, İktisat, İşletme ve Siyasal Bilgiler mezunu en fazla 10 Stajyer Hazine Kontrolörü alacaktır.",
+        "ozet": "Hazine ve Maliye Bakanlığı, Hukuk, İktisat ve İdari Bilimler fakültelerinden mezun adaylar arasından 10 Stajyer Hazine Kontrolörü alacaktır.",
         "bolum": "Hukuk, İktisat, Siyasal Bilgiler, İşletme, İktisadi ve İdari Bilimler Fakülteleri",
         "egitim": "Lisans",
         "kpss_turu": "KPSSP17, KPSSP18, KPSSP22, KPSSP23, KPSSP28, KPSSP47, KPSSP48",
@@ -11991,8 +12040,8 @@
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2292392/kamu-akademik-personel-akademik-personel-alimlari-biruni-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
       "puan_kontrol_at": "2026-11-26T17:53:54+00:00",
       "ai": {
-        "ozet": "Biruni Üniversitesi Rektörlüğü, Tıp Fakültesi'nin çeşitli Anabilim Dallarına 2547 sayılı Kanun uyarınca öğretim üyesi alacaktır.",
-        "bolum": "Cerrahi Tıp Bilimleri, Dahili Tıp Bilimleri, Temel Tıp Bilimleri",
+        "ozet": "Biruni Üniversitesi Rektörlüğü, Tıp Fakültesi bünyesinde çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
+        "bolum": "Tıp Fakültesi",
         "egitim": "Lisans",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
