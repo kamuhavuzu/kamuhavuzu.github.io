@@ -1,4 +1,4 @@
-const CACHE_NAME="kamuhavuzu-shell-v3";
+const CACHE_NAME="kamuhavuzu-shell-v4";
 const SHELL=["./","./index.html","./bilgi.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./logo-simge.png"];
 self.addEventListener("install",event=>{
  event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));
@@ -11,11 +11,11 @@ self.addEventListener("fetch",event=>{
  if(req.method!=="GET")return;
  const url=new URL(req.url);
  if(url.origin!==self.location.origin)return;
- if(url.pathname.endsWith("/ilanlar.json")){
+ if(url.pathname.endsWith("/ilanlar.json")||url.pathname.endsWith("/ilanlar-site.json")){
   event.respondWith(fetch(req).then(res=>{
-   if(res.ok){const copy=res.clone();caches.open(CACHE_NAME).then(cache=>cache.put("./ilanlar.json",copy));}
+   if(res.ok){const copy=res.clone();caches.open(CACHE_NAME).then(cache=>cache.put("./"+url.pathname.split("/").pop(),copy));}
    return res;
-  }).catch(()=>caches.match("./ilanlar.json")));
+  }).catch(()=>caches.match("./"+url.pathname.split("/").pop())));
   return;
  }
  if(req.mode==="navigate"){

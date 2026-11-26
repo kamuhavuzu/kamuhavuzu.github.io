@@ -126,6 +126,16 @@ def main():
                 "".join(f"<url><loc>{u}</loc><lastmod>{bugun}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     with open(os.path.join(KLASOR, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+    # Ziyaretci tarayicisi icin hafif veri: uzun ilan metinleri kisaltilir, bosluksuz yazilir.
+    hafif = dict(veri)
+    hafif["ilanlar"] = []
+    for r in veri.get("ilanlar", []):
+        r = dict(r)
+        if len(str(r.get("description") or "")) > 1500:
+            r["description"] = str(r["description"])[:1500]
+        hafif["ilanlar"].append(r)
+    with open(os.path.join(KLASOR, "ilanlar-site.json"), "w", encoding="utf-8") as f:
+        json.dump(hafif, f, ensure_ascii=False, separators=(",", ":"))
     print(f"{len(girisler)} sayfa uretildi")
 
 if __name__ == "__main__":

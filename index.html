@@ -1230,8 +1230,8 @@ function secenekler(){
 function veriAdresleri(){
   const a=[];
   const m=location.hostname.match(/^(.+)\.github\.io$/), yol=location.pathname.split('/')[1]||location.hostname;
-  if(m) a.push(`https://raw.githubusercontent.com/${m[1]}/${yol}/main/ilanlar.json`);
-  a.push('ilanlar.json');
+  if(m) a.push(`https://raw.githubusercontent.com/${m[1]}/${yol}/main/ilanlar-site.json`);
+  a.push('ilanlar-site.json'); a.push('ilanlar.json');
   return a;
 }
 async function yukle(){
