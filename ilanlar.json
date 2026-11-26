@@ -1,44 +1,44 @@
 {
- "guncelleme": "2026-11-26T06:01:35+00:00",
- "son_kontrol": "2026-11-26T06:01:35+00:00",
+ "guncelleme": "2026-11-26T06:16:39+00:00",
+ "son_kontrol": "2026-11-26T06:16:39+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 3,
-   "son_basari": "2026-11-26T06:01:22+00:00",
-   "sayi": 175
+   "yeni": 11,
+   "son_basari": "2026-11-26T06:16:25+00:00",
+   "sayi": 184
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:01:23+00:00",
+   "son_basari": "2026-11-26T06:16:26+00:00",
    "sayi": 35
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:01:25+00:00",
+   "son_basari": "2026-11-26T06:16:28+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "İŞKUR Kamu İşçi Alımı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:01:26+00:00",
+   "son_basari": "2026-11-26T06:16:30+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "TÜBİTAK İlanları": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:01:27+00:00",
+   "son_basari": "2026-11-26T06:16:31+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:01:34+00:00",
+   "son_basari": "2026-11-26T06:16:38+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 42
   }
@@ -82,7 +82,8 @@
    "Makine Mühendisliği",
    "Mekatronik Mühendisliği",
    "Yazılım Mühendisliği",
-   "Yönetim Bilişim Sistemleri"
+   "Yönetim Bilişim Sistemleri",
+   "İmalat Mühendisliği"
   ]
  },
  "ilanlar": [
@@ -227,6 +228,43 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 68831512,
+   "institution": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "city": "KAHRAMANMARAŞ",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2304213/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304213/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI • Üniversitemizin aşağıda belirtilen birimlerine, 2547 sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Atanma ve Yükseltilme Yönetmeliği ile Üniversitemiz Öğretim Üyeliğine Atama, Yükseltme Ölçütleri ve Uygulama Yönergesine uygun olarak, 657 sayılı Kanunun 48. maddesindeki genel şartları ve ilanda belirtilen şartları sağlamaları kaydıyla öğretim üyesi alınacaktır • Öğretim Üyeliğine Öğretim Üyeliğine Atama, Yükseltme Ölçütleri ve Uygulama Yönergesi; Üniversitemiz web sayfasındaki mevzuat menüsünden yönergeler başlığı altındaki https://www.ksu.edu.tr/Default?SId=8132 bağlantısından; Başvurularda esas alınacak puanlama tablosuna ise Üniversitemiz Personel Daire Başkanlığının Belgeler ve Formlar menüsü altındaki https://personel.ksu.edu.tr/Default?SId=7582 bağlantısından dijital doküman olarak erişim sağlanmaktadır. • Üniversitemiz Öğretim Üyeliğine Atama, Yükseltme Ölçütleri ve Uygulama Yönergesi 9. Maddesinin 3. fıkrasının b) bendi uyarınca, ilgili kadrolara başvuran adayların bu Yönergede belirlenen atama şartlarını sağlayıp sağlamadığı, doktor öğretim üyesi kadrosuna başvuranlar için ilgili fakültelerde dekan, diğer birimlerde müdür; doçent ve profesörlük kadrosuna başvuranlar için Rektör tarafından belirlenecek 3 (üç) öğretim üyesinden oluşan bir komisyon tarafından değerlendirilir ve rapora bağlanır. Atama şartlarını sağlamadığı tespit edilen adayların başvuruları kabul edilmez. • Başvuran adaylarda Yükseköğretim Kurumları Yabancı Dil (YÖKDİL), YDS sınavından, Profesör ve Doçentler için en az 60 (altmış) Dr. Öğretim Üyeleri için en az 55 (elli beş) puan veya eşdeğeri kabul edilen merkezi bir yabancı dil sınavından bu puanın muadili bir puan almış olmak şartı aranır. Çalışma alanı bir yabancı dille ilgili olan bölümlerde ayrıca ilgili dilde YÖKDİL sınavından veya YDS’den en az Profesör ve Doçent ve Dr. Öğr. Üyeleri için 85 (seksen beş) puan veya eşdeğeri kabul edilen merkezi bir yabancı dil sınavından bu puanın muadili bir puan almış olmak şartı aranır. • Başvurular https://basvuru.ksu.edu.tr çevrim içi ortam üzerinden başvuru yapılacaktır. • Başvuru yapan öğretim üyesi adayları, ilan edilen kadrolardan yalnız birine müracaatta bulunabilirler. Şahsen veya posta ile yapılan başvurular geçersiz sayılacaktır. • İlan, Üniversitemiz (www.ksu.edu.tr) web sayfasının Duyurular kısmında mevcut olup, Üniversitemiz web sitesinde yapılacak olan duyurular tebligat niteliğindedir. • Profesörler, Doçent kadrosuna, Doçentler ise Dr. Öğretim Üyesi kadrosuna başvuru yapamazlar. • Yabancı ülkelerden alınan diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması şarttır. Başvuru süresi ilanın Resmî Gazetede yayımlandığı tarihten itibaren 15 (on beş) gün olup, başvuru takvimi Üniversitemiz web sayfasında yayımlanacaktır. • İlanda belirtilen yayın koşullarının ilan tarihinden önce sağlanmış olması zorunludur. • Güvenlik Soruşturması ve Arşiv Araştırması sonucu olumlu olan adayların atamaları yapılacaktır. • Başvuran adayların koşullarının sonradan uygun olmadığının anlaşılması halinde atamaları yapılmayacak ve/veya yapılmış olsa dahi iptal edilecektir. • Üniversitemiz Rektörlüğü gerekli gördüğü durumlarda ilanı her aşamasında kısmen veya tamamen iptal etme hakkını saklı tutar. • Başvurularda, https://basvuru.ksu.edu.tr çevrim içi ortam üzerinden aşağıdaki evrakların eksiksiz yüklenilmesi zorunludur. 1) Öz Geçmiş ve Eserler Listesi (YÖK Formatında), 2) Bilimsel çalışma ve yayınlarını kapsayan bilgi belge ve dokümanlar ile bunlara ait PDF formatında hazırlanmış sıralı halde (index) içerik listesi ilgili alandan sisteme yüklenmek zorundadır. (Not: Tek seferde maksimum 50 adet belge yüklenebilir.) 3) Akademik Puanlama tablosu (https://personel.ksu.edu.tr/Default.aspx?SId=7582 adresi üzerinden erişim sağlanabilir.) (Tablodaki ilgili alanlar Üniversitemiz Öğretim Üyeliğine Atama, Yükseltme Ölçütleri ve Uygulama Yönergesine uygun olarak doldurulacak), 4) İlanın nitelikler kısmında belirtilen alanlarda çalıştığını gösterir belge, 5) Lisans, Yüksek Lisans, Doktora/Sanatta Yeterlik/Uzmanlık ve Doçentlik/Sanatta Yeterlik belgelerinin sisteme yüklenmesi, 6) Yabancı Dil Sonuç Belgesi, 7) Nüfus Cüzdan Sureti (taranmış kimlik belgesi veya e-devlet üzerinden alınmış nüfus kayıt örneği), 8) Erkek Adaylar İçin Askerlik Durum Belgesi, 9) Fotoğraf (Son 6 ay içerisinde çekilmiş 1 adet), 10) Adli Sicil Kaydı, 11) Profesör kadrosuna başvurularda eserlerden bir tanesi başlıca eser olarak gösterilecektir. KOD Birimi Ünvanı K/D Adet Niteliği ZİRAAT FAKÜLTESİ ZF01 Biyosistem Mühendisliği Bölümü Tarımsal Yapılar Ana Bilim Dalı Profesör 1 1 Doçentlik unvanını Biyosistem Mühendisliği alanında almış olmak; tarımsal yapılarda çevre koşulları ve denetimi konularında çalışmaları bulunmak ZF02 Tarla Bitkileri Bölümü Çayır, Mera ve Yem Bitkileri Ana Bilim Dalı Profesör 1 1 Doçentlik ünvanını Tarla Bitkileri Yetiştirme ve Islahı Bilim alanında almış olmak. Mera ıslahı, yem bitkileri yetiştiriciliği ve yem bitkilerinde karışık ekim konularında çalışmalar yapmış olmak ZF03 Zootekni Bölümü Hayvan Yetiştirme Ana Bilim Dalı Profesör 1 1 Doçentlik ünvanını Zootekni alanında almış olmak, yerli tavuk ıslahı ve yerli ebeveyn tavuklar konularında çalışmaları olmak ZF04 Zootekni Bölümü Yemler ve Hayvan Besleme Ana Bilim Dalı Profesör 1 1 Doçentlik unvanını Su Ürünleri alanında almış olmak; balık patojenleri ve bakteriyofaj konularında çalışmalar yapmış olmak TIP FAKÜLTESİ TF01 Cerrahi Tıp Bilimleri Bölümü Anesteziyoloji ve Reanimasyon Ana Bilim Dalı Profesör 1 1 Doçentlik ünvanını Anesteziyoloji ve Reanimasyon alanında almış olmak, ürolojik cerrahilerde postoperatif analjezi uygulamalari hakkinda çalışmaları olmak TF02 Cerrahi Tıp Bilimleri Bölümü Anesteziyoloji ve Reanimasyon Ana Bilim Dalı Doçent 1 1 Doçentlik ünvanını Anesteziyoloji ve Reanimasyon alanında almış olmak, anestezi uygulamalarında ultrasonografi kullanımı ve gastrik ultrasonografi konularında bilim",
+   "checked_at": "2026-11-26T06:15:57+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "logo": "",
+   "basvuru_adresleri": [
+    "https://www.ksu.edu.tr/Default?SId=8132",
+    "https://personel.ksu.edu.tr/Default?SId=7582",
+    "https://basvuru.ksu.edu.tr",
+    "https://www.ksu.edu.tr",
+    "https://personel.ksu.edu.tr/Default.aspx?SId=7582"
+   ],
+   "basvuru_oneri": "https://personel.ksu.edu.tr/Default?SId=7582",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false,
+   "basvuru_link": "https://personel.ksu.edu.tr/Default?SId=7582",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 100894450,
@@ -1176,6 +1214,40 @@
    "logo": "",
    "basvuru_link": "https://www.beykoz.edu.tr",
    "basvuru_tur": "ana"
+  },
+  {
+   "id": 724681860,
+   "institution": "DÜZCE ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Düzeltme İlanı (Düzce Üniversitesi Rektörlüğünden)",
+   "city": "DÜZCE",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2304204/kamu-akademik-personel-akademik-personel-alimlari-duzeltme-ilani-duzce-universitesi-rektorlugunden-",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304204/kamu-akademik-personel-akademik-personel-alimlari-duzeltme-ilani-duzce-universitesi-rektorlugunden-",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Düzce Üniversitesi Rektörlüğünden DÜZELTME İLANI 23.11.2026 tarihli ve 33439 sayılı Resmî Gazete’de aslına uygun olarak yayımlanan üniversitemizin Öğretim Elemanı ilanında 4.sırada yer alan Öğretim Görevlisi kadro ilanımız aşağıdaki şekilde düzeltilmiştir. İLANA ÇIKILAN BİRİM BÖLÜM ANABİLİM DALI ÜNVAN DERECE ADET ALES PUAN BARAJI Y. DİL PUAN BARAJI İLAN ŞARTI Sağlık Hizmetleri Meslek Yüksekokulu Çocuk Bakımı ve Gençlik Hizmetleri Çocuk Gelişimi Öğretim Görevlisi 1 1 70 Muaf Çocuk Gelişimi Bölümü lisans mezunu, Çocuk Gelişimi alanında tezli yüksek lisans yapmış olmak.",
+   "checked_at": "2026-11-26T06:16:05+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "logo": "",
+   "basvuru_adresleri": [],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Ön Lisans",
+    "Lisans"
+   ],
+   "egitim_tahmin": false,
+   "iptal": true,
+   "diger_kaynaklar": [
+    "ilan.gov.tr"
+   ]
   },
   {
    "id": 736705048,
@@ -3575,7 +3647,10 @@
    ],
    "logo": "",
    "basvuru_link": "https://www.beykent.edu.tr/beykent-",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "diger_kaynaklar": [
+    "ilan.gov.tr"
+   ]
   },
   {
    "id": 2276185489,
@@ -3794,6 +3869,38 @@
    "checked_at": "2026-11-19T09:18:47+00:00",
    "akademik": true,
    "puanlar": {}
+  },
+  {
+   "id": 2327041090,
+   "institution": "AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Afyonkarahisar Sağlık Bilimleri Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "city": "AFYONKARAHİSAR",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2304203/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304203/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Afyonkarahisar Sağlık Bilimleri Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda belirtilen birimlerine 2547 sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği ve Afyonkarahisar Sağlık Bilimleri Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Yönergesinin ilgili maddelerine göre öğretim üyesi alınacaktır. İlan edilen kadrolar aşağıda belirtilmiş olup, istenen evraklara ilişkin detaylı bilgilere www.afsu.edu.tr web sayfasından erişilebilecektir. GENEL AÇIKLAMALAR: 1. Yabancı ülkelerden alınan diplomaların denkliğinin (lisans ve yüksek lisans YÖK tarafından, doktora ÜAK tarafından) onaylanmış olması şarttır. 2. Adayların 657 Sayılı Kanun’un 48.maddesinin tüm şartlarını taşıyor olmaları gerekmektedir. 3. Müracaat eden adayların aranan koşullara uyup uymadığı Üniversitemizce oluşturulacak “Ön İnceleme ve Değerlendirme Komisyonu” tarafından ön incelemeye alınacak olup, bu inceleme sonucunda aranan koşulları taşıdığı tespit edilen adayların müracaatları kabul edilecektir. 4. Adaylar ilan edilen kadrolardan sadece bir tanesine başvuru yapabilirler. 5. Adayların başvuru yaptıkları ilandaki kadro derecelerine atanma şartlarına sahip olması gerekir. 6. Başvuru süresi bu ilanın Resmî Gazetede yayın tarihinden itibaren 15 gün olup, başvuru evrakları geri iade edilmeyecektir. 7. Başvurular Rektörlük Personel Daire Başkanlığı’na şahsen (08:30 – 17:00 saatleri arasında) yapılacak olup süresi içinde yapılmayan ya da eksik belgeli yapılan başvurular değerlendirmeye alınmayacaktır. 8. Başvuran adayların koşullarının sonradan uygun olmadığının anlaşılması halinde atamaları yapılmayacak veya iptal edilecektir. İLAN NO BİRİMİ BÖLÜMÜ ANABİLİM DALI/ PROGRAMI ÜNVANI DERECE ADET AÇIKLAMA 1. Atatürk Sağlık Hizmetleri Meslek Yüksekokulu Bitkisel ve Hayvansal Üretim Tıbbi ve Aromatik Bitkiler Doçent 3 1 Doçentliğini Tarla Bitkileri Yetiştirme ve Islahı bilim alanında almış olmak. Tıbbi ve aromatik bitkiler konusunda bilimsel çalışmalar yapmış olmak. 2. Atatürk Sağlık Hizmetleri Meslek Yüksekokulu Sağlık Bakım Hizmetleri Hasta Bakımı Dr. Öğr. Üyesi 3 1 Hemşirelik alanında doktora yapmış olmak. Jinekolojik kanserde palyatif bakım ile ilgili bilimsel çalışmaları olmak. Yüksek lisans derecesi sonrasında yükseköğretim kurumlarında en az 2 (iki) yıl ders verme deneyimine sahip olmak. 3. Diş Hekimliği Fakültesi Klinik Bilimler Ortodonti Doçent 3 1 Doçentliğini Ortodonti alanında almış olmak. Ortodonti alanında üç boyutlu teknolojilerin uygulamaları konusunda bilimsel çalışmaları olmak. 4. Sağlık Bilimleri Fakültesi Beslenme ve Diyetetik Diyetetik Doçent 1 1 Doçentliğini Beslenme ve Diyetetik bilim alanında almış olmak. Gastrointestinal sistemde mikrobiyal değişimler ile ilgili genetik çalışmalar yapmış olmak. 5. Sağlık Bilimleri Fakültesi Beslenme ve Diyetetik Toplu Beslenme Sistemleri Doçent 3 1 Doçentliğini Biyomühendislik alanında almış olmak. Gastrointestinal sistemde biyoerişilebilirlik ve stabilite konuları ile ilgili bilimsel çalışmaları olmak. 6. Sağlık Bilimleri Fakültesi Fizyoterapi ve Rehabilitasyon Muskuloskeletal Fizyoterapi Doçent 1 1 Fizik Tedavi ve Rehabilitasyon lisans mezunu olup, doçentliğini Anatomi (Tıp) bilim alanında almış olmak. Kas-iskelet sistemi ile ilgili bilimsel çalışmaları olmak. 7. Sağlık Bilimleri Fakültesi Hemşirelik Halk Sağlığı Hemşireliği Doçent 1 1 Doçentliğini Halk Sağlığı Hemşireliği alanında almış olmak. Bağımlılık ve koruyucu sağlık hizmetleri ile ilgili bilimsel çalışmaları olmak. 8. Tıp Fakültesi Cerrahi Tıp Bilimleri Göğüs Cerrahisi Doçent 1 1 Doçentliğini Göğüs Cerrahisi alanında almış olmak. Akciğer kanserinde yapay zekâ kullanımı ile ilgili bilimsel çalışmaları olmak. 9. Tıp Fakültesi Cerrahi Tıp Bilimleri Kadın Hastalıkları ve Doğum Doçent 1 1 Doçentliğini Kadın Hastalıkları ve Doğum alanında almış olmak. Gestasyonel diyabet ve preeklampsi konularında bilimsel çalışmaları olmak. 10. Tıp Fakültesi Cerrahi Tıp Bilimleri Çocuk Cerrahisi Dr. Öğr. Üyesi 3 1 Çocuk Cerrahisi Uzmanı olmak. Gastroşizis konusunda çalışmaları olmak. 11. Tıp Fakültesi Dahili Tıp Bilimleri Radyodiagnostik Doçent 1 1 Doçentliğini Radyoloji alanında almış olmak. Yüksek gradeli tümörlerde yapay zekâ ile ilgili bilimsel çalışmaları olmak. 12. Tıp Fakültesi Dahili Tıp Bilimleri İç Hastalıkları Dr. Öğr. Üyesi 3 1 İç Hastalıkları Uzmanı olmak. Geriatri Yan Dal Uzmanı olmak. 13. Tıp Fakültesi Dahili Tıp Bilimleri Çocuk Sağlığı ve Hastalıkları Dr. Öğr. Üyesi 4 1 Yenidoğan Yoğun Bakım alanında Yan Dal uzmanlığını almış olmak. 14. Tıp Fakültesi Dahili Tıp Bilimleri Çocuk Sağlığı ve Hastalıkları Dr. Öğr. Üyesi 4 1 Çocuk Nefroloji alanında Yan Dal Uzmanlığını almış olmak. 15. Tıp Fakültesi Dahili Tıp Bilimleri Çocuk Sağlığı ve Hastalıkları Dr. Öğr. Üyesi 4 1 Çocuk Yoğun Bakım alanında Yan Dal Uzmanlığını almış olmak. 16. Tıp Fakültesi Dahili Tıp Bilimleri Çocuk Sağlığı ve Hastalıkları Dr. Öğr. Üyesi 4 1 Çocuk Alerjisi alanında Yan Dal Uzmanlığını almış olmak. 17. Tıp Fakültesi Dahili Tıp Bilimleri Nöroloji Dr. Öğr. Üyesi 3 1 Nöroloji Uzmanı olup uyku bozuklukları konusunda deneyimli olmak. 18. Tıp Fakültesi Dahili Tıp Bilimleri Nükleer Tıp Dr. Öğr. Üyesi 3 1 Uzmanlığını Nükleer Tıp alanında almış olmak. SPECT-BT konusunda bilimsel çalışmaları olmak. 19. Tıp Fakültesi Dahili Tıp Bilimleri Adli Tıp Dr. Öğr. Üyesi 3 1 Adli Tıp uzmanı olmak. Derin öğrenme ve ölüm sonrasına ait radyolojik bilimsel çalışmaları olmak. Telefon : 0 272 330 11 39/11 36 Adres : AFSÜ Rektörlüğü Personel Daire Başkanlığı Zafer Sağlık Külliyesi Dörtyol Mahallesi 2078 Sokak No:3 Afyonkarahisar 11975/1/1-1",
+   "checked_at": "2026-11-26T06:16:06+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "logo": "",
+   "basvuru_adresleri": [
+    "https://www.afsu.edu.tr"
+   ],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Ön Lisans",
+    "Lisans"
+   ],
+   "egitim_tahmin": false
   },
   {
    "id": 2329684501,
@@ -4168,6 +4275,41 @@
    "basvuru_tur": "genel"
   },
   {
+   "id": 2591476913,
+   "institution": "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü Öğretim Görevlisi Alım İlanı",
+   "city": "KAHRAMANMARAŞ",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-24",
+   "application_start": "2026-11-26",
+   "link": "https://www.ilan.gov.tr/ilan/2304210/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304210/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden: ÖĞRETİM GÖREVLİSİ ALIM İLANI 2547 sayılı Yükseköğretim Kanunu ile Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliğin ilgili hükümleri çerçevesinde, Üniversitemizin aşağıda belirtilen akademik birimlerine 2547 sayılı Kanunun 31. maddesi kapsamında istihdam edilmek üzere, Öğretim Görevlisi alınacaktır. Başvuru Başlangıç Tarihi 26.11.2026 Yazılı Sınava Giriş Tarihi 24.12.2026 Son Başvuru Tarihi 10.12.2026 Sonuç Açıklama Tarihi 31.12.2026 Ön Değerlendirme Sonucu Açıklama Tarihi 17.12.2026 Sonuçların Açıklanacağı İnternet Adresi https://basvuru.ksu.edu.tr https://www.ksu.edu.tr Başvuru Yeri ve Şekli https://basvuru.ksu.edu.tr Çevrim içi ortam üzerinden başvuru - İrtibat Tel : 0 344 300 1203 Merkezi sınav (1) Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavına, bir lisans programından mezun olabilecek durumda olanlar, lisans mezunu olanlar ve denklik belgesi almış olmak kaydıyla yurtdışında lisans öğrenimini tamamlamış olanlar müracaat edebilirler. Alanlarındaki puan türünde 100 üzerinden 70 puan alanlar sınavda başarılı sayılırlar. Bu sınavın sonuçları, açıklandığı tarihten itibaren beş yıl için geçerlidir. Genel şartlar A)– (1) Bu Yönetmelik kapsamındaki öğretim elemanı kadrolarına yapılacak atamalarda; a)657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesinde belirtilen şartları taşımak, b) ALES’ten en az 70, Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir. Merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir. (2) Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesaplanmasında kullanılacak 4’lük ve 5’lik not sistemlerinin 100’lük not sistemine eşdeğerliği Yükseköğretim Kurulu kararıyla belirlenir. Diğer not sistemlerinin 100’lük not sistemine eşdeğerliğine yükseköğretim kurumlarının senatoları karar verir. (3) Alanında tecrübe sahibi olma şartı (istenmişse) , lisans mezuniyet tarihinden itibaren geçerlidir. B)- Özel Şartlar (1) (Değişik: RG-3/10/2019-30907) Öğretim görevlisi kadrosuna başvuracak adaylarda en az tezli yüksek lisans derecesine sahip olmak veya lisans ve yüksek lisans derecesini birlikte veren programlardan mezun olmak şartı aranır. (2) İlanda belirtilen şartları taşımak. C) - Ön Değerlendirme (1) Sınav jürisi; başvuran adaylar arasından ilan edilen kadro sayısının on katına kadar adayı, meslek yüksekokullarında bu kadrolarda istihdam edilecekler de dâhil olmak üzere bu Yönetmeliğin 6 ncı maddesinin dördüncü fıkrası kapsamındaki öğretim görevlisi kadrolarında ALES puanının %40’ını ve yabancı dil puanının %60’ını; bu Yönetmelik kapsamındaki diğer kadrolarda ALES puanının %60’ını ve yabancı dil puanının %40’ını; meslek yüksekokullarına müracaatlarda ise ALES puanının %70’ini ve lisans mezuniyet notunun %30’unu dikkate alarak belirler ve kadro ilanında belirtilen internet adresinde ilan eder. Bu sıralamaya göre son sırada aynı puana sahip birden fazla adayın olması halinde, bu kişilerin tamamı sınava çağrılır. Başvuru sayısının ilan edilen kadronun on katından az olması halinde, adayların tamamı giriş sınavına alınır. Adayların ön değerlendirmede dikkate alınan puanları ile lisans mezuniyet notları, kadro ilanında belirtilen internet adresinde ilan edilir. D)- Nihai Değerlendirme (1) Sınav jürisinin değerlendirmesinde; bu Yönetmeliğin 6 ncı maddesinin dördüncü fıkrası kapsamındaki öğretim görevlisi kadrolarında, meslek yüksekokullarında bu kadrolarda istihdam edilecekler de dâhil olmak üzere ALES puanının %30’unu, lisans mezuniyet notunun %10’unu, yabancı dil puanının %30’unu ve giriş sınavı notunun %30’unu; bu Yönetmelik kapsamındaki diğer kadrolarda ALES puanının %30’unu, lisans mezuniyet notunun %30’unu, yabancı dil puanının %10’unu ve giriş sınavı notunun %30’unu; meslek yüksekokullarında ise ALES notunun %35’ini, lisans mezuniyet notunun %30’unu ve giriş sınavı notunun %35’ini hesaplayarak ilan edilen kadro sayısı kadar adayı başarı sırasına göre belirler. Değerlendirme puanı 65 puanın altında olanlar sınavlarda başarısız sayılır. Adayların değerlendirmede dikkate alınan puanları ile lisans mezuniyet notları, kadro ilanında belirtilen internet adresinde ilan edilir. E)- Sınavlarda Başarılı Olanların Atanması (1) Sınavlarda başarılı olan adaylar, başarı puanları esas alınarak ilan edilir. İlan edilen kadro sayısı kadar yedek aday da ilan edilir. Atamalar yürürlükteki mevzuata göre yapılır. F)- Muafiyet (1) Doktora veya tıpta, diş hekimliğinde, eczacılıkta ve veteriner hekimlikte uzmanlık ya da sanatta yeterlik eğitimini tamamlamış olanlarda, (Değişik ibare: RG-3/3/2022-31767) yükseköğretim kurumlarında öğretim elemanı kadrolarında çalışmış veya çalışmakta olanlarda merkezi sınav şartı aranmaz. G)- Öğretim Görevlisi Kadrosuna Müracaat Edecek Adaylar; Üniversitemiz https://basvuru.ksu.edu.tr adresinde yayınlanan çevrim içi başvuru sayfasında; 1.Nüfus Cüzdanı Fotokopisi, 2.Özgeçmiş 3.Erkek Adaylar için askerlikle ilgili terhis, tecil veya muaf olduğunu belirten belge, (e-Devletten alınabilir.) (Askerlik yönünden mahkeme veya bakaya durumunda olmamaları gerekmektedir.) 4.Lisans / Lisansüstü mezuniyet belgesi (Yabancı yükseköğretim kurumu mezunlarının diplomalarının Üniversitelerarası Kurulca denkliğinin onaylanmış olması zorunludur.) 5.Onaylı Resmi Transkriptler (Lisans ve Lisansüstü) 6.ALES belgesi (sonuçların açıklandığı tarihten itibaren beş yıl geçerliliği olan, ÖSYM’nin internet sayfasından alınan tarih ve doğrulama kodu bulunan orijinal belge) 7.Deneyim belgesi (deneyim istenmişse, istenilen alanda çalıştığını gösterir ilgili kurumdan alınmış belge) ile SGK hizmet dökümü 8.Sertifika (İstenmişse) 9.Yabancı Dil Sınav Sonuç Belgesi (Yükseköğretim Kurulunca e",
+   "checked_at": "2026-11-26T06:16:00+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "logo": "",
+   "basvuru_adresleri": [
+    "https://basvuru.ksu.edu.tr",
+    "https://www.ksu.edu.tr"
+   ],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Ön Lisans",
+    "Lisans"
+   ],
+   "egitim_tahmin": false,
+   "basvuru_link": "https://basvuru.ksu.edu.tr",
+   "basvuru_tur": "ana"
+  },
+  {
    "id": 2600960678,
    "institution": "SARIİDRİS BELEDİYE BAŞKANLIĞI",
    "title": "Düzeltme İlanı (Sarıidris Belediye Başkanlığı)",
@@ -4291,6 +4433,40 @@
    "akademik": false,
    "puanlar": {},
    "logo": "https://kariyerkapisi.gov.tr/UPS/0ea172bd-08f7-4482-835f-2711c50a6173.png"
+  },
+  {
+   "id": 2692716982,
+   "institution": "AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Afyonkarahisar Sağlık Bilimleri Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "city": "AFYONKARAHİSAR",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-10",
+   "application_start": "2026-11-26",
+   "link": "https://www.ilan.gov.tr/ilan/2304205/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304205/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Memur",
+   "description": "Afyonkarahisar Sağlık Bilimleri Üniversitesi Rektörlüğünden: ÖĞRETİM ELEMANI ALIM İLANI Üniversitemiz birimlerine Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik’in ilgili hükümleri uyarınca akademik personel alınacaktır. İLAN NO BİRİMİ BÖLÜMÜ ANABİLİM DALI/ PROGRAMI KADRO ADEDİ KADRO DERECESİ ALES PUAN TÜRÜ ASGARİ YABANCI DİL PUANI KADRO ÜNVANI AÇIKLAMA 1. Atatürk Sağlık Hizmetleri Meslek Yüksekokul Dişçilik Hizmetleri Ağız ve Diş Sağlığı Pr. 1 5 SAY - Öğretim Görevlisi (Ders Vermekle Görevli) Diş Hekimliği Fakültesinden mezun olmak. Alanında 5 yıl tecrübeye sahip olmak. 2. Şuhut Sağlık Hizmetleri Meslek Yüksekokulu Tıbbi Hizmetler ve Teknikler Bölümü İlk ve Acil Yardım Pr. 1 5 SAY - Öğretim Görevlisi (Ders Vermekle Görevli) Hemşirelik lisans mezunu olup Cerrahi Hastalıklar Hemşireliği alanında Tezli Yüksek Lisans yapmış olmak. Alanında 5 yıl tecrübeye sahip olmak. 3. Şuhut Sağlık Hizmetleri Meslek Yüksekokulu Tıbbi Hizmetler ve Teknikler Bölümü Patoloji Laboratuvar Teknikleri Pr. 1 5 SAY - Öğretim Görevlisi (Ders Vermekle Görevli) Biyoloji lisans mezunu olmak. Biyoteknoloji alanında doktora yapmış olmak. Kanser biyolojisi ile ilgili bilimsel çalışmalar yapmış olmak. GENEL ŞARTLAR: • 657 sayılı Devlet Memurları Kanunu’nun 48’inci maddesinde belirtilen şartları taşımak, • ALES’in ilgili puan türünden en az 70 puan almış olmak, (Merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak kabul edilir.) • Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesaplanmasında kullanılacak 4’lük ve 5’lik not sistemlerinin 100’lük not sistemine eşdeğerliği Yükseköğretim Kurulu kararıyla belirlenir. MUAFİYET: Doktora veya tıpta, diş hekimliğinde, eczacılıkta ve veteriner hekimlikte uzmanlık ya da sanatta yeterlik eğitimini tamamlamış olanlarda, meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanlarına atanacak olanlarda, yükseköğretim kurumlarında öğretim elemanı kadrolarında çalışmış veya çalışmakta olanlarda merkezi sınav şartı aranmaz. BAŞVURUDA İSTENEN BELGELER: 1) Öğr_Elemanı_Başvuru_Formu 2) Özgeçmiş, 3) İki adet vesikalık fotoğraf. 4) Öğrenci Belgesi, 5) Lisans Mezuniyet Belgesi ve Transkript Fotokopisi, 6) Yüksek Lisans / Doktora (varsa) Mezuniyet Belgesi Fotokopisi, 7) Yurtdışından alınmış diplomaların Yükseköğretim Kurulu Başkanlığınca denkliğinin onaylandığını gösterir belgenin aslının veya onaylı suretinin başvurulara eklenmesi gerekmektedir. 8) ALES Sonuç Belgesi, 9) Yabancı Dil Sonuç Belgesi, 10) Erkek Adaylar için Askerlik Durumlarını Gösteren Belge, 11) Hizmet Belgesi (Halen bir kamu kurumunda çalışmakta olanlar ile ayrılmış olanlar getireceklerdir), 12) Nüfus Cüzdan Fotokopisi, 13) Adli sicil kaydı olmadığına dair belge (e-Devlet’ten alınabilir). 14) Vukuatlı Nüfus Kayıt Örneği (e-Devlet’ten alınabilir). ÖNEMLİ NOTLAR: Başvurular şahsen veya posta ile yapılabilir. Posta ile yapılacak başvuruların son başvuru tarihine kadar başvuru yapılacak Personel Daire Başkanlığı’na ulaşması gerekmektedir. Süresi içinde yapılmayan başvurulardan, eksik belgeli başvurulardan ve postada meydana gelen gecikmelerden Üniversitemiz sorumlu değildir. Ön değerlendirme ve nihai değerlendirme sonuçları http://www.afsu.edu.tr internet adresinde ilan edilecek olup adaylara ayrıca tebligat yapılmayacaktır. Adaylar ilan edilen kadrolardan yalnızca birine başvuracaklardır. Birden fazla başvuru yaptığı tespit edilen adayların başvuruları dikkate alınmayacaktır. İstenilen belgelerde gerçeğe aykırı beyanda bulunduğu tespit edilenlerin sınavı geçersiz sayılacak ve atamaları yapılmayacaktır. Bunların atamaları yapılmış olsa dahi iptal edilecek ve hiçbir hak talep edemeyeceklerdir. BAŞVURU YERİ: Afyonkarahisar Sağlık Bilimleri Üniversitesi Rektörlüğü Personel Daire Başkanlığı Zafer Sağlık Külliyesi Dörtyol Mahallesi 2078 Sokak No: 3 AFYONKARAHİSAR Üniversitemiz irtibat numarası : 0272 330 11 41/11 36 BAŞVURU VE DEĞERLENDİRME TAKVİMİ: İlk Başvuru Tarihi : 26.11.2026 Son Başvuru Tarihi : 10.12.2026 Ön Değerlendirme İlan Tarihi : 17.12.2026 Sınav Giriş Tarihi : 24.12.2026 Sonuç Açıklama Tarihi : 31.12.2026 11975/2/1-1",
+   "checked_at": "2026-11-26T06:16:03+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "logo": "",
+   "basvuru_adresleri": [
+    "https://www.afsu.edu.tr"
+   ],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Ön Lisans",
+    "Lisans"
+   ],
+   "egitim_tahmin": false,
+   "basvuru_link": "https://www.afsu.edu.tr",
+   "basvuru_tur": "ana"
   },
   {
    "id": 2702241632,
@@ -5290,6 +5466,36 @@
    "basvuru_tur": "ana"
   },
   {
+   "id": 3153111171,
+   "institution": "KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "İptal İlanı (Karamanoğlu Mehmetbey Üniversitesi Rektörlüğü)",
+   "city": "KARAMAN",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2304206/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-karamanoglu-mehmetbey-universitesi-rektorlugu-",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304206/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-karamanoglu-mehmetbey-universitesi-rektorlugu-",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Karamanoğlu Mehmetbey Üniversitesi Rektörlüğünden: İPTAL İLANI 09/11/2026 tarihinde Resmi Gazete’de yayımlanan aşağıdaki öğretim elemanı kadrosu ilanı iptal edilmiştir. S.NO BİRİMİ BÖLÜMÜ ANABİLİM DALI/PROGRAM UNVANI DERECE AÇIKLAMA 5 Teknik Bilimler Meslek Yüksekokulu Makine ve Metal Teknolojileri Üretimde Kalite Kontrol Öğretim Görevlisi (Ders verecek) 5 Makine Mühendisliği, İmalat Mühendisliği, Maden Mühendisliği, Kamu Yönetimi, İşletme veya Uluslararası Ticaret ve Lojistik bölümlerinin birinden mezun olup bu alanların birinde tezli yüksek lisans yapmış olmak. Belgelendirmek kaydıyla yükseköğretim kurumlarında ders verme deneyimine sahip olmak. İlan olunur. 12191/1-1",
+   "checked_at": "2026-11-26T06:16:02+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "logo": "",
+   "basvuru_adresleri": [],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Ön Lisans"
+   ],
+   "egitim_tahmin": false,
+   "iptal": true
+  },
+  {
    "id": 3191832862,
    "institution": "SAYIŞTAY BAŞKANLIĞI",
    "title": "Sayıştay Başkanlığından Sözleşmeli Çözümleyici ve Programcı Alım İlanı",
@@ -5636,6 +5842,42 @@
    "kontrol_gerekli": true,
    "akademik": false,
    "puanlar": {}
+  },
+  {
+   "id": 3446972257,
+   "institution": "İSTANBUL BEYKENT ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "İstanbul Beykent Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
+   "city": "İSTANBUL",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-10",
+   "application_start": "2026-11-26",
+   "link": "https://www.ilan.gov.tr/ilan/2304212/kamu-akademik-personel-akademik-personel-alimlari-istanbul-beykent-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304212/kamu-akademik-personel-akademik-personel-alimlari-istanbul-beykent-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "İstanbul Beykent Üniversitesi Rektörlüğünden ÖĞRETİM GÖREVLİSİ ALIM İLANI Üniversitemizin aşağıda belirtilen Fakülte/Yüksekokul, 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri ile 09.11.2018 tarih ve 30590 sayılı Resmi Gazete’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri uyarınca 2 Öğretim Görevlisi alınacaktır. Duyurulur. Fakülte / Yüksekokul Bölüm / Program Kadro Sayısı Kadro Unvanı Özel Koşullar ALES/YDS Eş Değeri Puanı ALES Puan Türü Rektörlük - 2 Öğretim Görevlisi İstanbul Beykent Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi (IBU-TÖMER) bünyesinde görevlendirilmek üzere; üniversitelerin Türkçe Öğretmenliği, Türk Dili ve Edebiyatı Öğretmenliği veya Türk Dili ve Edebiyatı lisans programlarından birinden mezun olmak; söz konusu alanlardan birinde veya Yabancı Dil Olarak Türkçe Öğretimi alanında tezli yüksek lisans derecesine sahip olmak; pedagojik formasyon eğitimi sertifikasına sahip olmak (Türkçe Öğretmenliği ve Türk Dili ve Edebiyatı öğretmenliği lisans programlarından mezun olan adaylarda bu şart aranmaz); Yabancı Dil Olarak Türkçe Öğretimi Sertifikası'na sahip olmak (Yabancı Dil Olarak Türkçe Öğretimi alanında tezli yüksek lisans derecesine sahip olan adaylarda bu şart aranmaz); yükseköğretim kurumlarına bağlı Türkçe öğretim merkezlerinde veya ilgili akademik birimlerde en az iki (2) akademik dönem yabancı dil olarak Türkçe dersleri vermiş olmak ve bu deneyimi resmî belgelerle belgelendirmek. ALES: 70 YDS: 50 SÖZ BAŞVURU VE SINAV TAKVİMİ Duyuru Başlangıç Tarihi : 26.11.2026 Son Başvuru Tarihi : 10.12.2026 Ön Değerlendirme Sonuçlarının İlanı : 15.12.2026 Yazılı Sınav Tarihi : 17.12.2026 Nihai Değerlendirme Tarihi : 25.12.2026 Başvurular Yazı İşleri Müdürlüğü’ne şahsen ve/veya posta yoluyla yapılmalıdır. Süresi içerisinde yapılmayan ya da eksik belgeli başvurular işleme alınmayacak olup, posta ile yapılan başvuruların son başvuru tarihine kadar ulaşmış olması gerekmektedir. Postada yaşanan gecikmeler dikkate alınmayacaktır. Adayların yukarıda belirtilen genel koşullara ek olarak tabloda yer alan özel koşulları da sağlamaları gerekmektedir. Belirtilen şartları taşımayan ve alan dışı olan başvurular dikkate alınmayacaktır. İSTENEN BELGELER 1. İstanbul Beykent Üniversitesi Rektörlüğüne hitaben yazılmış, başvurulan kadroyu ve iletişim bilgilerini içeren ıslak imzalı başvuru dilekçesi, 2. YÖK formatlı özgeçmiş, 3. Nüfus Cüzdanı Fotokopisi, 4. 2 Adet fotoğraf (son altı ay içinde çekilmiş olmalı), 5. Adli Sicil Kaydı Belgesi (e-Devlet üzerinden alınan belge), 6. Lisans /Yüksek Lisans /Doktora Diploması onaylı örneği (Diploma Yurt Dışından Alınmış İse YÖK Denklik Belgesi) (e-Devlet üzerinden alınan belge) 7. Lisans Transkript belgesinin aslı ya da onaylı örneği (e-Devlet üzerinden alınan belge), 8. ALES Belgesi, 9. Yabancı Dil Belgesi, 10. ALES muafiyeti için, görev yapılan yükseköğretim kurumlarından alınacak hizmet belgesi ve atama olur yazısı, 11. Öğrenci olanlardan Lisansüstü Eğitim gördüğüne dair öğrenci belgesi (e-Devlet üzerinden alınan belge), 12. Deneyim şartını sağladığını gösterir hizmet belgesi, 13. Erkek adaylar için askerlikle ilgili terhis, tecil veya muaf olduğunu belirten belge (e-Devlet üzerinden alınan belge), 14. 6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metni. Ön Değerlendirme Sonuçları ve Nihai değerlendirme Sonuçları Üniversitemizin www.beykent.edu.tr web adresinde yayınlanacak olup, bu aynı zamanda tebligat niteliğinde olacaktır. Ayrıca tebligat yapılmayacaktır. Aday Başvuruları: İstanbul Beykent Üniversitesi Beylikdüzü Yerleşkesi Beylikdüzü Rektörlük Binası Cumhuriyet Mahallesi, Lise Sokak No:5 Beykent, Büyükçekmece/ İstanbul Not: 6698 sayılı Kişisel Verilerin Korunması Mevzuatı uyarınca hazırlanan Aydınlatma Metnine https://www.beykent.edu.tr/beykent-hakkinda/kisisel-verilerin- korunmasi/kvk-mevzuat-uyarinca-akademik-personel-adayi-aydinlatma-metni linkinden erişim sağlanabilmektedir. 6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metnine https://www.beykent.edu.tr/beykent-hakkinda/kisisel- verilerin-korunmasi/kvk-mevzuat-uyarinca-akademik-personel-adayi-acik-riza-metni linkinden erişim sağlanabilmektedir. Duyurulur. İLGİLİ BİRİM TELEFON / DAHİLİ MAİL ADRESİ Rektörlük 444 1997 / 6424 yaziisleri@beykent.edu.tr",
+   "checked_at": "2026-11-26T06:15:58+00:00",
+   "puanlar": {},
+   "akademik": true,
+   "logo": "",
+   "basvuru_adresleri": [
+    "https://www.beykent.edu.tr",
+    "https://www.beykent.edu.tr/beykent-hakkinda/kisisel-verilerin-",
+    "https://www.beykent.edu.tr/beykent-hakkinda/kisisel-"
+   ],
+   "basvuru_oneri": "https://www.beykent.edu.tr/beykent-hakkinda/kisisel-verilerin-",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Lisans",
+    "Ortaöğretim"
+   ],
+   "egitim_tahmin": false,
+   "basvuru_link": "https://www.beykent.edu.tr/beykent-hakkinda/kisisel-verilerin-",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 3455815537,
