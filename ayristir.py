@@ -373,7 +373,11 @@ def parse_puan_tablosu(text):
     # asagidaki genel sartlarda gecer. Ayni metin blogundaki tur-puani bagla.
     tur_re = re.compile(r"KPSS\s*\(?\s*(P\s?(?:93|94|3))\s*\)?")
     for mt in tur_re.finditer(t):
-        pencere = t[mt.start():mt.start() + 260]
+        pencere = t[mt.start():mt.start() + 1200]
+        # Farkli bir KPSS turu baslarsa bu tur icin aramayi orada durdur.
+        sonraki = tur_re.search(t, mt.end())
+        if sonraki and sonraki.group(1).replace(" ", "") != mt.group(1).replace(" ", ""):
+            pencere = t[mt.start():sonraki.start()]
         puan_eslesme = re.search(
             r"(?:EN AZ|EN DUSUK|ASGARI)\s*(\d{2}(?:[.,]\d{1,2})?)\s*(?:PUAN)?",
             pencere
