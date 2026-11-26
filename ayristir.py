@@ -360,13 +360,30 @@ _ASGARI_RE = re.compile(r"(?:ASGARI|EN AZ)\s+(?:[A-Z]{3,12}\s*)?\(?(\d{2}(?:[.,]
 
 
 def parse_puan_tablosu(text):
-    """{'P3': 65.0, 'P93': 65.0} ya da {} (ilanda satir satir yazan puanlar)."""
+    """KPSS puan turu ve esigini tablodan veya aciklama cumlesinden eslestirir."""
+    t = norm(text)
     sonuc = {}
-    for m in _TABLO_RE.finditer(norm(text)):
-        t = m.group(1).replace(" ", "")
+    for m in _TABLO_RE.finditer(t):
+        tur = m.group(1).replace(" ", "")
         v = float(m.group(2).replace(",", "."))
         if 40 <= v <= 100:
-            sonuc[t] = min(sonuc.get(t, v), v)
+            sonuc[tur] = min(sonuc.get(tur, v), v)
+
+    # Bazi ilanlarda tablo yalnizca KPSSP3/P93 turunu yazar; asgari puan
+    # asagidaki genel sartlarda gecer. Ayni metin blogundaki tur-puani bagla.
+    tur_re = re.compile(r"KPSS\s*\(?\s*(P\s?(?:93|94|3))\s*\)?")
+    for mt in tur_re.finditer(t):
+        pencere = t[mt.start():mt.start() + 260]
+        puan_eslesme = re.search(
+            r"(?:EN AZ|EN DUSUK|ASGARI)\s*(\d{2}(?:[.,]\d{1,2})?)\s*(?:PUAN)?",
+            pencere
+        )
+        if not puan_eslesme:
+            continue
+        deger = float(puan_eslesme.group(1).replace(",", "."))
+        if 40 <= deger <= 100:
+            tur = mt.group(1).replace(" ", "")
+            sonuc[tur] = min(sonuc.get(tur, deger), deger)
     return sonuc
 
 
