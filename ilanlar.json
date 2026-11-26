@@ -1,30 +1,30 @@
 {
- "guncelleme": "2026-11-26T09:28:58+00:00",
- "son_kontrol": "2026-11-26T09:31:15+00:00",
+ "guncelleme": "2026-11-26T09:36:04+00:00",
+ "son_kontrol": "2026-11-26T09:36:04+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 4,
-   "son_basari": "2026-11-26T09:31:10+00:00",
+   "son_basari": "2026-11-26T09:36:00+00:00",
    "sayi": 188
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T09:31:12+00:00",
+   "son_basari": "2026-11-26T09:36:01+00:00",
    "sayi": 35
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T09:31:13+00:00",
+   "son_basari": "2026-11-26T09:36:03+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "TÜBİTAK İlanları": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T09:31:14+00:00",
+   "son_basari": "2026-11-26T09:36:03+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   }
@@ -93,7 +93,8 @@
    "checked_at": "2026-11-19T09:17:53+00:00",
    "akademik": true,
    "puanlar": {},
-   "iptal": true
+   "iptal": true,
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2317fbe682aa4aabb9c.png"
   },
   {
    "id": 47430314,
@@ -147,7 +148,7 @@
     "https://ilahiyat.bayburt.edu.tr/tr",
     "https://insantoplumbilimleri.bayburt.edu.tr/tr"
    ],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2427fbe682aa4aabe36.png"
   },
   {
    "id": 68831512,
@@ -169,7 +170,7 @@
    "checked_at": "2026-11-26T06:15:57+00:00",
    "puanlar": {},
    "akademik": true,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabaca.png",
    "basvuru_adresleri": [
     "https://www.ksu.edu.tr/Default?SId=8132",
     "https://personel.ksu.edu.tr/Default?SId=7582",
@@ -314,7 +315,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2477fbe682aa4aabf0c.png",
    "basvuru_link": "https://www.agu.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -343,7 +344,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22c7fbe682aa4aab8d6.png",
    "basvuru_link": "https://www.ankara.bel.tr",
    "basvuru_tur": "ana"
   },
@@ -427,7 +428,7 @@
    "basvuru_adresleri": [
     "https://asarcik.bel.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6493005146bcc25eb012f7be.png",
    "basvuru_link": "mailto:ik@asarcik.bel.tr",
    "basvuru_tur": "eposta"
   },
@@ -538,7 +539,7 @@
    "basvuru_adresleri": [
     "https://insankaynaklari.nisantasi.edu.tr/akademisyen-ilanlari"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6a913d9846bcc269349f6053.jpg",
    "basvuru_link": "https://insankaynaklari.nisantasi.edu.tr/akademisyen-ilanlari",
    "basvuru_tur": "ozel"
   },
@@ -655,7 +656,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22d7fbe682aa4aab9d7.jpg",
    "basvuru_link": "https://www.gaziosmanpasa.bel.tr",
    "basvuru_tur": "ana"
   },
@@ -684,7 +685,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2777fbe682aa4aacaf2.jpg",
    "basvuru_link": "https://www.galata.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -717,7 +718,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2667fbe682aa4aac4f0.png",
    "basvuru_link": "https://cdn.comu.edu.tr/cms/personel/files/1487-01072025-akademik-kadro-atama-kriterleri.pdf",
    "basvuru_tur": "ozel"
   },
@@ -799,7 +800,7 @@
     "https://www.eleskirt.bel.tr/",
     "https://www.eleskirt.bel.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2717fbe682aa4aac8ed.png",
    "basvuru_link": "https://www.eleskirt.bel.tr/",
    "basvuru_tur": "ana"
   },
@@ -824,7 +825,7 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6050879046bcc211942e1702.jpg"
   },
   {
    "id": 689532636,
@@ -847,7 +848,8 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://bogazici.edu.tr/tr/announcements",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2307fbe682aa4aabb05.png"
   },
   {
    "id": 690046593,
@@ -876,7 +878,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/605347a846bcc237bc4f9324.png",
    "basvuru_link": "mailto:bilgi@tanoba.bel.tr",
    "basvuru_tur": "eposta"
   },
@@ -906,7 +908,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6055aa5246bcc2296c5249cd.png"
   },
   {
    "id": 716165670,
@@ -955,7 +957,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa26e7fbe682aa4aac7b6.png",
    "basvuru_link": "https://www.beykoz.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -979,7 +981,7 @@
    "checked_at": "2026-11-26T06:16:05+00:00",
    "puanlar": {},
    "akademik": true,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23a7fbe682aa4aabddb.png",
    "basvuru_adresleri": [],
    "basvuru_oneri": "",
    "basvuru_eposta": "",
@@ -1054,7 +1056,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23c7fbe682aa4aabdf9.png",
    "basvuru_link": "https://basvuru.bilecik.edu.tr/",
    "basvuru_tur": "ana"
   },
@@ -1111,7 +1113,7 @@
     "https://basvuru.marmara.edu.tr/personel",
     "https://ydil.marmara.edu.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab84d.png",
    "basvuru_link": "https://basvuru.marmara.edu.tr/personel",
    "basvuru_tur": "ozel"
   },
@@ -1142,7 +1144,7 @@
    "basvuru_adresleri": [
     "https://basvuru.marmara.edu.tr/personel"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab84d.png",
    "basvuru_link": "https://basvuru.marmara.edu.tr/personel",
    "basvuru_tur": "ozel"
   },
@@ -1171,7 +1173,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2487fbe682aa4aabf68.png",
    "basvuru_link": "https://www.seddk.gov.tr",
    "basvuru_tur": "ana"
   },
@@ -1226,7 +1228,7 @@
     "https://ubys.gibtu.edu.tr/HRM/AkademikBasvuru/PersonelBasvuru/Giris?sistemgiristip=1",
     "https://www.gibtu.edu.tr/Medya/Birim/Dosya/20260407152754_76c59ec9.pdf"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/68a33b3a46bcc2460cb3bae2.jpg",
    "basvuru_link": "https://www.gibtu.edu.tr/Medya/Birim/Dosya/20261109114643_c75dff4c.xlsx",
    "basvuru_tur": "ozel"
   },
@@ -1286,7 +1288,7 @@
     "https://saglikhizmetleri.bayburt.edu.tr/tr",
     "https://demirozu.bayburt.edu.tr/tr"
    ],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2427fbe682aa4aabe36.png"
   },
   {
    "id": 933252446,
@@ -1309,7 +1311,7 @@
    "puanlar": {},
    "akademik": true,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa24b7fbe682aa4aabfa2.png",
    "basvuru_link": "mailto:ik@ozyegin.edu.tr",
    "basvuru_tur": "eposta"
   },
@@ -1336,7 +1338,7 @@
    "basvuru_adresleri": [
     "https://basvuru.isu.gov.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2377fbe682aa4aabd64.png",
    "basvuru_link": "mailto:mkaratas@isu.gov.tr",
    "basvuru_tur": "eposta"
   },
@@ -1391,7 +1393,8 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://www.ksu.edu.tr",
-   "basvuru_tur": "ana"
+   "basvuru_tur": "ana",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabaca.png"
   },
   {
    "id": 995400541,
@@ -1469,7 +1472,7 @@
     "https://iglo.erzurum.edu.tr",
     "https://erzurum.edu.tr/menu/formlar26"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2317fbe682aa4aabb9c.png",
    "basvuru_link": "https://erzurum.edu.tr/menu/formlar26",
    "basvuru_tur": "ozel"
   },
@@ -1494,7 +1497,8 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://personel.ksu.edu.tr/Default?SId=7582",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabaca.png"
   },
   {
    "id": 1027607326,
@@ -1520,7 +1524,7 @@
     "http://personel.akdeniz.edu.tr",
     "http://personel.akdeniz.edu.tr/"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2457fbe682aa4aabea4.png",
    "basvuru_link": "https://esube.iskur.gov.tr",
    "basvuru_tur": "ana"
   },
@@ -1571,7 +1575,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabab5.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr",
    "basvuru_tur": "genel"
   },
@@ -1604,7 +1608,7 @@
    "basvuru_adresleri": [
     "https://mudurnu.bel.tr/"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/66e9303346bcc21154d04b94.png",
    "basvuru_link": "mailto:mudurnu@mudurnu.bel.tr",
    "basvuru_tur": "eposta"
   },
@@ -1657,7 +1661,8 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://akbys.sbu.edu.tr",
-   "basvuru_tur": "ana"
+   "basvuru_tur": "ana",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/689b50e246bcc24c2cc73a2f.jpg"
   },
   {
    "id": 1170020802,
@@ -1711,7 +1716,7 @@
     "https://dsi.gov.tr/Sayfa/Detay/2130",
     "http://www.dsi.gov.tr"
    ],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/662e5ca546bcc257dcfa41f7.jpg"
   },
   {
    "id": 1251021159,
@@ -1759,7 +1764,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2717fbe682aa4aac89d.png"
   },
   {
    "id": 1254622502,
@@ -1789,7 +1794,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5fe854e346bcc214bc538408.jpg",
    "basvuru_link": "https://basvuru.mehmetakif.edu.tr/",
    "basvuru_tur": "ana"
   },
@@ -1820,7 +1825,7 @@
    "basvuru_adresleri": [
     "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2737fbe682aa4aac9be.png",
    "basvuru_link": "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari",
    "basvuru_tur": "ozel"
   },
@@ -1876,7 +1881,7 @@
    "basvuru_adresleri": [
     "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2737fbe682aa4aac9be.png",
    "basvuru_link": "https://www.fbu.edu.tr/fbuhakkinda/254/Insan-kaynaklari",
    "basvuru_tur": "ozel"
   },
@@ -1930,7 +1935,7 @@
     "https://personel.duzce.edu.tr/duyurular",
     "http://abas.duzce.edu.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23a7fbe682aa4aabddb.png",
    "basvuru_link": "https://abas.duzce.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -1961,7 +1966,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2737fbe682aa4aac976.png",
    "basvuru_link": "https://uskudar.edu.tr/",
    "basvuru_tur": "ana"
   },
@@ -2039,7 +2044,7 @@
     "https://www.youtube.com/watch?v=hf70Qp2W3RA",
     "https://www.youtube.com/watch?v=zBSszCcjVLg"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabac6.png",
    "basvuru_link": "https://www.youtube.com/watch?v=hf70Qp2W3RA",
    "basvuru_tur": "ozel"
   },
@@ -2096,7 +2101,7 @@
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr/isealim"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab843.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
    "basvuru_tur": "genel"
   },
@@ -2148,7 +2153,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc90.png",
    "basvuru_link": "https://www.balikesir.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -2200,7 +2205,7 @@
    "puanlar": {},
    "iptal": true,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5fc1136946bcc44ed8049782.png"
   },
   {
    "id": 1734221859,
@@ -2261,7 +2266,7 @@
     "https://personelbasvuru.bozok.edu.tr/",
     "https://bozok.edu.tr/"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2397fbe682aa4aabdcd.png",
    "basvuru_link": "https://personelbasvuru.bozok.edu.tr/",
    "basvuru_tur": "ana"
   },
@@ -2313,7 +2318,8 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://kmu.edu.tr/personel",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23d7fbe682aa4aabe0b.png"
   },
   {
    "id": 1923689356,
@@ -2338,7 +2344,7 @@
    "basvuru_adresleri": [
     "http://www.erbakan.edu.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2537fbe682aa4aac046.png",
    "basvuru_link": "https://www.erbakan.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -2386,7 +2392,7 @@
    "puanlar": {},
    "iptal": true,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2337fbe682aa4aabca9.png"
   },
   {
    "id": 1930689836,
@@ -2409,7 +2415,7 @@
    "puanlar": {},
    "akademik": true,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2467fbe682aa4aabef7.png"
   },
   {
    "id": 1958452882,
@@ -2438,7 +2444,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5fe902d246bcc214bc538410.png",
    "basvuru_link": "https://www.ula.bel.tr",
    "basvuru_tur": "ana"
   },
@@ -2490,7 +2496,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6a98105e46bcc64420639785.jpg",
    "basvuru_link": "mailto:insankaynaklari@akhisar.bel.tr",
    "basvuru_tur": "eposta"
   },
@@ -2521,7 +2527,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5fc1136946bcc44ed8049782.png",
    "basvuru_link": "mailto:bilgi@doganyol.bel.tr",
    "basvuru_tur": "eposta"
   },
@@ -2551,7 +2557,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2727fbe682aa4aac8f7.png"
   },
   {
    "id": 2046664428,
@@ -2696,7 +2702,7 @@
    "basvuru_adresleri": [
     "https://www.turkiye.gov.tr/sahil-guvenlik-komutanligi-is-basvurusu"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab82f.png",
    "basvuru_link": "https://www.sg.gov.tr",
    "basvuru_tur": "ana"
   },
@@ -2726,7 +2732,7 @@
    "egitim_tahmin": false,
    "iptal": true,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc9c.png"
   },
   {
    "id": 2139189223,
@@ -2749,7 +2755,8 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://www.ilan.sakarya.edu.tr/",
-   "basvuru_tur": "ana"
+   "basvuru_tur": "ana",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2447fbe682aa4aabe79.png"
   },
   {
    "id": 2147766442,
@@ -2771,7 +2778,8 @@
    "checked_at": "2026-11-19T09:18:19+00:00",
    "akademik": false,
    "puanlar": {},
-   "iptal": true
+   "iptal": true,
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6493005146bcc25eb012f7be.png"
   },
   {
    "id": 2148466449,
@@ -2902,7 +2910,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6055aa5246bcc2296c5249cd.png",
    "basvuru_link": "https://www.acibadem.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -2953,7 +2961,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2337fbe682aa4aabca9.png"
   },
   {
    "id": 2234221853,
@@ -3006,7 +3014,7 @@
     "https://www.beykent.edu.tr/yonetmelikler-yonergeler/yonergeler",
     "https://www.beykent.edu.tr/beykent-"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa26d7fbe682aa4aac75b.png",
    "basvuru_link": "https://www.beykent.edu.tr/beykent-",
    "basvuru_tur": "ozel",
    "diger_kaynaklar": [
@@ -3088,7 +3096,7 @@
    "basvuru_adresleri": [
     "https://www.gtu.edu.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23e7fbe682aa4aabe20.png",
    "basvuru_link": "https://www.gtu.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -3119,7 +3127,7 @@
    "basvuru_adresleri": [
     "http://personel.erdogan.edu.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2397fbe682aa4aabdce.png",
    "basvuru_link": "https://basvuru.erdogan.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -3150,7 +3158,7 @@
    "basvuru_adresleri": [
     "https://www.okan.edu.tr/sayfa/yonergeler/"
    ],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa26e7fbe682aa4aac7b4.png"
   },
   {
    "id": 2309070407,
@@ -3179,7 +3187,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab85d.png",
    "basvuru_link": "mailto:belediye@gundogmus.bel.tr",
    "basvuru_tur": "eposta"
   },
@@ -3206,7 +3214,7 @@
    "basvuru_adresleri": [
     "http://www.kmu.edu.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23d7fbe682aa4aabe0b.png",
    "basvuru_link": "https://www.kmu.edu.tr/personel",
    "basvuru_tur": "ozel"
   },
@@ -3251,7 +3259,7 @@
    "checked_at": "2026-11-26T06:16:06+00:00",
    "puanlar": {},
    "akademik": true,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/689b50e246bcc24c2cc73a2f.jpg",
    "basvuru_adresleri": [
     "https://www.afsu.edu.tr"
    ],
@@ -3308,7 +3316,8 @@
    "description": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ - Sözleşmeli Personel Alım İlanı (06.11.2026) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
    "checked_at": "2026-11-19T09:20:04+00:00",
    "akademik": false,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab84d.png"
   },
   {
    "id": 2448076826,
@@ -3371,7 +3380,7 @@
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr/isealim"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/634d3ae446bcc2531ce67b14.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
    "basvuru_tur": "genel"
   },
@@ -3400,7 +3409,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabab5.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr",
    "basvuru_tur": "genel"
   },
@@ -3424,7 +3433,7 @@
    "checked_at": "2026-11-26T06:31:08+00:00",
    "puanlar": {},
    "akademik": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6ac738ea46bcc24304995fa5.png",
    "basvuru_adresleri": [
     "https://esube.iskur.gov.tr",
     "https://www.ozburun.bel.tr"
@@ -3554,7 +3563,7 @@
    "puanlar": {},
    "iptal": true,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab84f.png"
   },
   {
    "id": 2576694472,
@@ -3599,7 +3608,7 @@
    "checked_at": "2026-11-26T06:16:00+00:00",
    "puanlar": {},
    "akademik": true,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabaca.png",
    "basvuru_adresleri": [
     "https://basvuru.ksu.edu.tr",
     "https://www.ksu.edu.tr"
@@ -3669,7 +3678,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22c7fbe682aa4aab8bf.jpg",
    "basvuru_link": "https://www.eyyubiye.bel.tr",
    "basvuru_tur": "ana"
   },
@@ -3715,7 +3724,7 @@
    "checked_at": "2026-11-26T06:16:03+00:00",
    "puanlar": {},
    "akademik": true,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/689b50e246bcc24c2cc73a2f.jpg",
    "basvuru_adresleri": [
     "https://www.afsu.edu.tr"
    ],
@@ -3749,7 +3758,7 @@
    "checked_at": "2026-11-26T06:01:07+00:00",
    "puanlar": {},
    "akademik": true,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2307fbe682aa4aabb05.png",
    "basvuru_adresleri": [
     "https://www.bogazici.edu.tr",
     "https://bogazici.edu.tr/tr/pages/formlar/343"
@@ -3792,7 +3801,7 @@
     "http://abas.duzce.edu.tr",
     "https://personel.duzce.edu.tr/duyurular"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23a7fbe682aa4aabddb.png",
    "basvuru_link": "https://personel.duzce.edu.tr/duyurular",
    "basvuru_tur": "ozel"
   },
@@ -3871,7 +3880,7 @@
    "basvuru_adresleri": [
     "https://kariyerkapisi.gov.tr/isealim"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aaba7a.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
    "basvuru_tur": "genel"
   },
@@ -3904,7 +3913,7 @@
     "http://www.elazigozelidaresi.gov.tr",
     "http://www.elazıgozeli"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2307fbe682aa4aabafe.jpg",
    "basvuru_link": "mailto:ozelidare@elazig.gov.tr",
    "basvuru_tur": "eposta"
   },
@@ -3930,7 +3939,7 @@
    "puanlar": {},
    "iptal": true,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa25d7fbe682aa4aac1c5.png"
   },
   {
    "id": 2807956769,
@@ -3980,7 +3989,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc90.png",
    "basvuru_link": "https://www.balikesir.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -4079,7 +4088,8 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2437fbe682aa4aabe4f.png"
   },
   {
    "id": 2932148612,
@@ -4123,7 +4133,7 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc9c.png"
   },
   {
    "id": 2949452909,
@@ -4149,7 +4159,7 @@
     "https://personel.karatekin.edu.tr",
     "https://ilan.karatekin.edu.tr"
    ],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23c7fbe682aa4aabdfc.png"
   },
   {
    "id": 2954666588,
@@ -4181,7 +4191,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2467fbe682aa4aabeda.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr",
    "basvuru_tur": "genel"
   },
@@ -4235,7 +4245,7 @@
     "https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/",
     "https://personel.hku.edu.tr/"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2437fbe682aa4aabe4f.png",
    "basvuru_link": "https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/",
    "basvuru_tur": "ozel"
   },
@@ -4289,7 +4299,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa26d7fbe682aa4aac729.png"
   },
   {
    "id": 3062184412,
@@ -4340,7 +4350,7 @@
    "basvuru_adresleri": [
     "https://www.galata.edu.tr/mevzuat"
    ],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2777fbe682aa4aacaf2.jpg"
   },
   {
    "id": 3078409578,
@@ -4373,7 +4383,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f97bdbd46bcc242e4cb7c06.png",
    "basvuru_link": "https://apbs.iuc.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -4404,7 +4414,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/60432e6646bcc21f2c29022f.png",
    "basvuru_link": "mailto:insankaynaklari@akseki.bel.tr",
    "basvuru_tur": "eposta"
   },
@@ -4434,7 +4444,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/646b66cb46bcc20c54000098.png"
   },
   {
    "id": 3103349736,
@@ -4464,7 +4474,7 @@
    "basvuru_adresleri": [
     "https://basvuru.bilecik.edu.tr/"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23c7fbe682aa4aabdf9.png",
    "basvuru_link": "https://basvuru.bilecik.edu.tr/",
    "basvuru_tur": "ana"
   },
@@ -4491,7 +4501,8 @@
    "egitimler": [
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2537fbe682aa4aac046.png"
   },
   {
    "id": 3126046601,
@@ -4518,7 +4529,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc9c.png",
    "basvuru_link": "https://www.biruni.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -4570,7 +4581,7 @@
    "checked_at": "2026-11-26T06:16:02+00:00",
    "puanlar": {},
    "akademik": true,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa23d7fbe682aa4aabe0b.png",
    "basvuru_adresleri": [],
    "basvuru_oneri": "",
    "basvuru_eposta": "",
@@ -4667,7 +4678,7 @@
     "https://personel.mcbu.edu.tr/Sayfa/Ynergeler",
     "https://personel.mcbu.edu.tr/Sayfa/formlartm#baslangic"
    ],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2467fbe682aa4aabf05.png"
   },
   {
    "id": 3331030616,
@@ -4693,7 +4704,7 @@
     "https://atama.atauni.edu.tr",
     "https://www.atauni.edu.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2337fbe682aa4aabca9.png",
    "basvuru_link": "https://atama.atauni.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -4724,7 +4735,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/65313a9246bcc21144cbf927.jpg",
    "basvuru_link": "https://www.bozkoy.bel.tr",
    "basvuru_tur": "ana"
   },
@@ -4771,7 +4782,8 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_link": "https://erzurum.edu.tr/menu/formlar26",
-   "basvuru_tur": "ozel"
+   "basvuru_tur": "ozel",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2317fbe682aa4aabb9c.png"
   },
   {
    "id": 3386656862,
@@ -4798,7 +4810,8 @@
     "Ön Lisans",
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabaca.png"
   },
   {
    "id": 3403115874,
@@ -4828,7 +4841,7 @@
     "https://www.turkiye.gov.tr/",
     "https://www.turkiye.gov.tr/sosyal-guvenlik-hitap-hizmet-dokumu"
    ],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2427fbe682aa4aabe36.png"
   },
   {
    "id": 3431789897,
@@ -4858,7 +4871,7 @@
    "basvuru_adresleri": [
     "https://www.ozyegin.edu.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa24b7fbe682aa4aabfa2.png",
    "basvuru_link": "mailto:ik@ozyegin.edu.tr",
    "basvuru_tur": "eposta"
   },
@@ -4882,7 +4895,7 @@
    "checked_at": "2026-11-26T06:15:58+00:00",
    "puanlar": {},
    "akademik": true,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa26d7fbe682aa4aac75b.png",
    "basvuru_adresleri": [
     "https://www.beykent.edu.tr",
     "https://www.beykent.edu.tr/beykent-hakkinda/kisisel-verilerin-",
@@ -4973,7 +4986,7 @@
    "basvuru_adresleri": [
     "http://www.omu.edu.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2337fbe682aa4aabcab.png",
    "basvuru_link": "https://esube.iskur.gov.tr",
    "basvuru_tur": "ana"
   },
@@ -5002,7 +5015,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2727fbe682aa4aac8f7.png",
    "basvuru_link": "https://www.dogus.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -5071,7 +5084,7 @@
    "checked_at": "2026-11-26T06:31:07+00:00",
    "puanlar": {},
    "akademik": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2447fbe682aa4aabe79.png",
    "basvuru_adresleri": [],
    "basvuru_oneri": "",
    "basvuru_eposta": "",
@@ -5125,7 +5138,8 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://www.sbu.edu.tr/",
-   "basvuru_tur": "ana"
+   "basvuru_tur": "ana",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/689b50e246bcc24c2cc73a2f.jpg"
   },
   {
    "id": 3683843016,
@@ -5153,7 +5167,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2717fbe682aa4aac8cd.png",
    "basvuru_link": "https://www.tarsus.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -5185,7 +5199,7 @@
    "basvuru_adresleri": [
     "https://ilan.comu.edu.tr/"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2667fbe682aa4aac4f0.png",
    "basvuru_link": "https://ilan.comu.edu.tr/",
    "basvuru_tur": "ana"
   },
@@ -5214,7 +5228,7 @@
     "Ön Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc5a.png"
   },
   {
    "id": 3729998838,
@@ -5242,7 +5256,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc5a.png"
   },
   {
    "id": 3763246659,
@@ -5330,7 +5344,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc88.png"
   },
   {
    "id": 3810384037,
@@ -5385,7 +5399,8 @@
    ],
    "egitim_tahmin": false,
    "basvuru_link": "https://www.hku.edu.tr",
-   "basvuru_tur": "ana"
+   "basvuru_tur": "ana",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2437fbe682aa4aabe4f.png"
   },
   {
    "id": 3818173958,
@@ -5435,7 +5450,7 @@
    "basvuru_adresleri": [],
    "basvuru_link": "https://tga.gov.tr/kariyer",
    "basvuru_tur": "ozel",
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/635a592146bcc237cc3457da.jpg"
   },
   {
    "id": 3884482648,
@@ -5465,7 +5480,7 @@
     "https://kariyerkapisi.gov.tr",
     "https://www.hmb.gov.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab84f.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr",
    "basvuru_tur": "genel"
   },
@@ -5515,7 +5530,7 @@
     "https://login.tesmer.org.tr",
     "http://belge.tesmer.org.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aaba8c.png",
    "basvuru_link": "https://login.tesmer.org.tr",
    "basvuru_tur": "ana"
   },
@@ -5563,7 +5578,7 @@
    "puanlar": {},
    "iptal": true,
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2477fbe682aa4aabf10.png"
   },
   {
    "id": 3988086724,
@@ -5593,7 +5608,7 @@
     "https://kariyerkapisi.gov.tr",
     "http://www.turkak.org.tr"
    ],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2377fbe682aa4aabd22.png",
    "basvuru_link": "https://kariyerkapisi.gov.tr",
    "basvuru_tur": "genel"
   },
@@ -5651,7 +5666,8 @@
    "description": "İstanbul Beykent Üniversitesi Rektörlüğünden: Üniversitemize 2547 sayılı Yükseköğretim Kanunu ve \"Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği” ile “İstanbul Beykent Üniversitesi Öğretim Üyeliğine Yükseltme ve Atama Yönergesi” ( https://www.beykent.edu.tr/yonetmelikler-yonergeler/yonergeler ) hükümlerinde aranan koşulları yerine getirmiş olmak kaydı ile aylık ve özlük hakları yönünden 4857 sayılı İş Kanunu hükümlerine tabi Mühendislik-Mimarlık Fakültesi, Fen-Edebiyat Fakültesi, Tıp Fakültesi ve Diş Hekimliği Fakültesi bünyesinde çeşitli alanlarda; 12 Öğretim Üyesi alınacaktır. İlana konu olan kadrolar tam zamanlıdır. İSTENEN BELGELER Profesör Kadrosuna Başvuracaklar; 1.Islak imzalı “Öğretim Üyesi Başvuru Formu”, 2.YÖK formatlı özgeçmiş, 3.Öğrenim durumunu gösteren belgeler (onaylı suret ve yurt dışından alınan diplomalar için denklik belgesi) ile doçentlik belgesi (e- Devlet üzerinden alınan belge), 4.Bilimsel yayın ve çalışmalarını kapsayan dosya (6 takım halinde cd ya da flash bellek olacak şekilde) 5.6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metnini vermeleri gerekmektedir. Doçent Kadrosuna Başvuracaklar; 1.Islak imzalı “Öğretim Üyesi Başvuru Formu”, 2.YÖK formatlı özgeçmiş, 3.Öğrenim durumunu gösteren belgeler (onaylı suret ve yurt dışından alınan diplomalar için denklik belgesi) ile doçentlik belgesi (e- Devlet üzerinden alınan belge), 4.Bilimsel yayın ve çalışmalarını kapsayan dosya (4 takım halinde cd ya da flash bellek olacak şekilde) 5.6698 Sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metnini vermeleri gerekmektedir. Doktor Öğretim Üyesi Kadrosuna Başvuracaklar; 1.“Islak imzalı Öğretim Üyesi Başvuru Formu”, 2.YÖK formatlı özgeçmiş, 3.Öğrenim durumunu gösteren belgeler (onaylı suret ve yurt dışından alınan diplomalar için denklik belgesi) ile doçentlik belgesi (e- Devlet üzerinden alınan belge), 4.Bilimsel yayın ve çalışmalarını kapsayan dosya (4 takım halinde cd ya da flash bellek olacak şekilde) 5.6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metnini vermeleri gerekmektedir. Başvurular bu ilanın Resmi Gazete’de yayım tarihinden itibaren 15 gün içinde İstanbul Beykent Üniversitesi Yazı İşleri Müdürlüğü’ne şahsen veya posta aracılığı ile yapılabilir. Postadaki gecikmeler ve eksik belge ile yapılan başvurular dikkate alınmaz. İnternet üzerinden başvurular kabul edilmez. Başvuru için gerekli belgeler ve diğe",
    "checked_at": "2026-11-19T09:18:16+00:00",
    "akademik": true,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa26d7fbe682aa4aac75b.png"
   },
   {
    "id": 4054288854,
@@ -5702,7 +5718,7 @@
     "Lisans"
    ],
    "egitim_tahmin": false,
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2447fbe682aa4aabe6f.png",
    "basvuru_link": "mailto:doka@doka.org.tr",
    "basvuru_tur": "eposta"
   },
@@ -5752,7 +5768,7 @@
    "akademik": true,
    "puanlar": {},
    "basvuru_adresleri": [],
-   "logo": ""
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2327fbe682aa4aabc9c.png"
   },
   {
    "id": 4115964073,
@@ -5894,7 +5910,8 @@
    "basvuru_tur": "ozel",
    "diger_kaynaklar": [
     "ilan.gov.tr"
-   ]
+   ],
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2307fbe682aa4aabb05.png"
   },
   {
    "id": 4137251901,
@@ -5970,7 +5987,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2477fbe682aa4aabf0c.png",
    "basvuru_link": "https://www.agu.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -6025,7 +6042,7 @@
    ],
    "egitim_tahmin": false,
    "basvuru_adresleri": [],
-   "logo": "",
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6050879046bcc211942e1702.jpg",
    "basvuru_link": "https://www.atlas.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -6053,7 +6070,8 @@
     "Ön Lisans",
     "Lisans"
    ],
-   "egitim_tahmin": false
+   "egitim_tahmin": false,
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22b7fbe682aa4aab84d.png"
   },
   {
    "id": 4290021107,
@@ -6074,7 +6092,8 @@
    "description": "Sakarya Üniversitesi Rektörlüğünden Üniversitemiz birimlerine, “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri, 2547 Sayılı Yükseköğretim Kanunu ile 657 Sayılı Devlet Memurları Kanununun 48. maddesi hükümleri uyarınca Öğretim Elemanı alınacaktır. Adaylar ilan edilen kadrolardan ancak birine başvuru yapabilir, aynı ilan dönemi içinde birden fazla kadroya başvurusu bulunduğu tespit edilen adayların tüm başvuruları geçersiz sayılacaktır. Başvurular şahsen veya posta ile yapılacak olup süresi içinde yapılmayan ya da eksik belgeli yapılan başvurular değerlendirmeye alınmayacaktır. Postadaki gecikmelerden Üniversitemiz sorumlu değildir. İstenilen belgelerde gerçeğe aykırı beyanda bulunduğu tespit edilenlerin sınavı geçersiz sayılacak ve atamaları yapılmayacaktır. Bunların atamaları yapılmış olsa dahi iptal edilecek ve hiçbir hak talep edemeyeceklerdir. Bu kişiler hakkında yasal işlem yapılacaktır. Üniversitemiz sınav takviminde zorunlu hallerde değişiklik yapma hakkını saklı tutar ve ilanın her aşamasını iptal edebilir. http://www.ilan.sakarya.edu.tr/ adresinden yapılan tüm duyurular tebligat mahiyetindedir. Kişilere ayrıca yazılı tebligat yapılmayacaktır. Aşağıda belirtilen durumda bulunan adaylar Araştırma Görevlisi ilanlarına başvuru yapamazlar. 1) 06/02/2013 tarihinde Resmî Gazete’de yayımlanan Lisansüstü Eğitim Yönetmeliğinde tanımlanan azami öğrenim süresini dolduran ancak 2016-2017 eğitim öğretim güz yarıyılından itibaren azami süreleri tekrar başlatılan öğrenciler. 2) Lisansüstü Eğitim Yönetmeliğinin yayımlandığı 20/04/2016 tarihinden itibaren 2017 güz dönemine kadar geçen sürede azami öğrenim sürelerinin dolması nedeniyle kadro ile ilişikleri kesilen araştırma görevlilerinden, 2016-2017 güz döneminde azami öğrenim süresi yeniden başlayan öğrenciler. Araştırma görevlisi kadrosuna atamalar 2547 sayılı Yükseköğretim Kanunun 50/d maddesi uyarınca yapılacaktır. Araştırma Görevlisi kadrolarına başvuracak adaylar için Lisansüstü Eğitim ve Öğretim Yönetmeliğinde belirtilen “Azami Öğrenim Sürelerini” doldurmamış olmak şartı aranır. A) GENEL ve ÖZEL ŞARTLAR 1- 657 Sayılı Kanunun 48. maddesinde belirtilen şartları taşımak. 2- ALES’ten en az 70, Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir. Merkezi sınav mua",
    "checked_at": "2026-11-19T09:19:06+00:00",
    "akademik": true,
-   "puanlar": {}
+   "puanlar": {},
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa2447fbe682aa4aabe79.png"
   },
   {
    "id": 4294596246,
