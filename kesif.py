@@ -1,7 +1,7 @@
 # Gecici kesif: ilan.gov.tr ve kariyerkapisi.gov.tr sayfalarindaki JS dosyalarinda logo/veri adreslerini arar.
 import re, sys, requests
 UA = {"user-agent": "Mozilla/5.0 (compatible; KamuRadar/1.0; kisisel kullanim)"}
-HEDEF = [("https://www.ilan.gov.tr/", ["AdvertiserLogo", "advertiserLogo", "adSourceLogoPath"]),
+HEDEF = [("https://www.ilan.gov.tr/", ["cdnBaseUrl:", "cdnBaseUrl=", "cdnBaseUrl\""]),
          ("https://kariyerkapisi.gov.tr/", ["/UPS/", "UPS/", "IlanListe", "api/", "Logo"])]
 for kok, anahtarlar in HEDEF:
     print("=====", kok)
