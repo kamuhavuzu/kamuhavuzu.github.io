@@ -106,16 +106,16 @@ def _pdf_metinini_oku(session, url):
         puan_var = (ic.parse_min_kpss(metin) is not None or bool(ic.parse_puan_tablosu(metin)))
         if not puan_var:
             try:
-                import fitz
+                import pymupdf as fitz
                 from PIL import Image
                 import pytesseract
                 ocr_sayfalar = []
                 doc = fitz.open(stream=bytes(parca), filetype="pdf")
                 try:
-                    for page_index in range(min(len(doc), 20)):
+                    for page_index in range(min(len(doc), 10)):
                         # PDF sayfasini 180-200 DPI civarinda rasterize et.
                         page = doc.load_page(page_index)
-                        pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), alpha=False)
+                        pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5), alpha=False)
                         image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
                         ocr = pytesseract.image_to_string(image, lang="tur+eng", config="--psm 6")
                         if ocr.strip():
@@ -532,7 +532,7 @@ def puanlari_yenile(mevcut):
     return n
 
 
-def puan_bulunamayanlari_yenile(session, mevcut, limit=35):
+def puan_bulunamayanlari_yenile(session, mevcut, limit=8):
     """Daha once puani bulunamayan ilanlarin resmi detay sayfasini/PDF eklerini yeniden tarar."""
     bugun = date.today().isoformat()
     aday = []
