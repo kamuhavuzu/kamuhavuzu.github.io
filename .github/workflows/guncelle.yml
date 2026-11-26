@@ -62,6 +62,14 @@ jobs:
           assert parse_min_kpss(ornek) == 70.0
           tablo = parse_puan_tablosu("KPSS P93 EN AZ 65 PUAN")
           assert tablo.get("P93") == 65.0, tablo
+          # PDF/HTML tablo metninde KPSS puan turu ile esik arasinda
+          # 1200 karakterden fazla bosluk olsa da ayni tur eslesmeli.
+          uzak = "KPSS P93" + (" TABLO SATIRI" * 140) + " EN AZ 68 PUAN"
+          assert parse_puan_tablosu(uzak).get("P93") == 68.0, parse_puan_tablosu(uzak)
+          # Farkli puan turunun esigi onceki turle karistirilmamali.
+          ayri = "KPSS P93" + (" A" * 80) + " KPSS P3 EN AZ 75 PUAN"
+          assert parse_puan_tablosu(ayri).get("P93") is None, parse_puan_tablosu(ayri)
+          assert parse_puan_tablosu(ayri).get("P3") == 75.0, parse_puan_tablosu(ayri)
           print("KPSS puan testleri: OK")
           PY
       - name: Yanlis duyuru filtreleme testi
