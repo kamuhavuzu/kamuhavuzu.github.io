@@ -267,6 +267,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
       <div class="sayac"><b id="sBugun">0</b><span>bugün/yarın bitiyor</span></div>
       <div class="sayac" data-sekme="yakin" title="Başvurusu henüz başlamamış ilanlar"><b id="sYakin">0</b><span>yakında açılacak</span></div>
       <div class="sayac" data-sekme="yeni7" title="Son 7 günde eklenen ilanlar"><b id="sYeni7">0</b><span>son 7 günde eklenen</span></div>
+      <div class="sayac" data-arsiv="1" title="Süresi dolan ilanları arşiv filtresiyle göster"><b id="sArsiv">0</b><span>arşivdeki ilan</span></div>
     </div>
     <div class="canli" id="canli">Veriler yükleniyor…</div>
   </div>
@@ -302,7 +303,7 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
           <select id="fCalisma"><option value="">Hepsi</option><option>Memur</option><option>Sözleşmeli personel</option><option>İşçi</option><option>Diğer</option></select></div>
         <div class="alan"><label>Kaynak</label><select id="fKaynak"></select></div>
         <label class="onay"><input type="checkbox" id="fAkademik"> Akademik kadroları da göster</label>
-        <label class="onay"><input type="checkbox" id="fBitmis"> Süresi dolanları da göster</label>
+        <label class="onay"><input type="checkbox" id="fBitmis"> Arşiv ilanlarını da göster</label>
         <label class="onay" title="Bu ilanlar doğrudan ilana değil, kaynak sitenin listesine gider"><input type="checkbox" id="fListe"> Doğrudan açılmayan ilanları da göster (Kamu İlan)</label>
         <button type="button" class="btn-tamam" id="btnTamam"><span class="ik">🔍</span><span class="mt">Tamam / Filtrele</span></button>
         <div style="margin-top:10px"><button type="button" class="cip" id="btnTemizle" style="width:100%;justify-content:center">Filtreleri temizle</button></div>
@@ -771,6 +772,7 @@ function istatistik(){
   $('sBugun').textContent=acik.filter(i=>i.kalan!==null&&i.kalan<=1).length;
   $('sYakin').textContent=tum.filter(i=>!i.iptal&&!i.akademik&&i.bas&&i.bas>bugun).length;
   $('sYeni7').textContent=tum.filter(i=>!i.iptal&&!i.akademik&&(i.kalan===null||i.kalan>=0)&&yeniAnahtar(i)[0]>=bugunGun()-7).length;
+  $('sArsiv').textContent=tum.filter(i=>!i.iptal&&i.kalan!==null&&i.kalan<0).length;
 }
 
 /* ---------- seçenekler ---------- */
@@ -858,6 +860,9 @@ $('fEhliyet').addEventListener('change',()=>{kaydet();yenidenCiz()});
 function sekmeAc(k){sekme=k;yenidenCiz();$('ilanlar').scrollIntoView({behavior:'smooth'})}
 $('sekmeler').addEventListener('click',e=>{const b=e.target.closest('.sekme');if(b)sekmeAc(b.dataset.sekme)});
 document.querySelectorAll('.sayac[data-sekme]').forEach(x=>x.addEventListener('click',()=>sekmeAc(x.dataset.sekme)));
+document.querySelectorAll('.sayac[data-arsiv]').forEach(x=>x.addEventListener('click',()=>{
+  $('fBitmis').checked=true; kaydet(); yenidenCiz(); $('ilanlar').scrollIntoView({behavior:'smooth'});
+}));
 let zaman; $('q').addEventListener('input',()=>{clearTimeout(zaman);zaman=setTimeout(yenidenCiz,200)});
 $('btnAra').addEventListener('click',yenidenCiz);
 $('btnDaha').addEventListener('click',()=>{gorunen+=SAYFA;listele()});
