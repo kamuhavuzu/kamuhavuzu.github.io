@@ -1,44 +1,44 @@
 {
  "guncelleme": "2026-11-26T07:01:51+00:00",
- "son_kontrol": "2026-11-26T07:01:51+00:00",
+ "son_kontrol": "2026-11-26T07:16:16+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 4,
-   "son_basari": "2026-11-26T07:01:34+00:00",
+   "son_basari": "2026-11-26T07:16:03+00:00",
    "sayi": 188
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T07:01:37+00:00",
+   "son_basari": "2026-11-26T07:16:05+00:00",
    "sayi": 35
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T07:01:39+00:00",
+   "son_basari": "2026-11-26T07:16:06+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "İŞKUR Kamu İşçi Alımı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T07:01:41+00:00",
+   "son_basari": "2026-11-26T07:16:07+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "TÜBİTAK İlanları": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T07:01:42+00:00",
+   "son_basari": "2026-11-26T07:16:08+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T07:01:50+00:00",
+   "son_basari": "2026-11-26T07:16:16+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 42
   }
