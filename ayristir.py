@@ -373,8 +373,10 @@ def parse_puan_tablosu(text):
     # asagidaki genel sartlarda gecer. Ayni metin blogundaki tur-puani bagla.
     tur_re = re.compile(r"KPSS\s*\(?\s*(P\s?(?:93|94|3))\s*\)?")
     for mt in tur_re.finditer(t):
-        pencere = t[mt.start():mt.start() + 1200]
-        # Farkli bir KPSS turu baslarsa bu tur icin aramayi orada durdur.
+        # Ilan.gov.tr tablolari duz metne cevrilirken satirlar arasi bosluk
+        # cok buyuyebiliyor. Ayni KPSS turu icin daha genis bolge tara; baska
+        # bir KPSS turu basladiginda eslestirmeyi kesin olarak durdur.
+        pencere = t[mt.start():mt.start() + 5000]
         sonraki = tur_re.search(t, mt.end())
         if sonraki and sonraki.group(1).replace(" ", "") != mt.group(1).replace(" ", ""):
             pencere = t[mt.start():sonraki.start()]
