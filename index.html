@@ -12,7 +12,7 @@
 <meta property="og:type" content="website"><meta property="og:title" content="KamuRadar · Kamu personel alım ilanları">
 <meta property="og:description" content="Tüm kamu alımları tek platformda. Eğitim, KPSS puanı ve şehre göre filtrele.">
 <meta property="og:image" content="https://kamuradar.github.io/logo-yazili.png"><meta property="og:url" content="https://kamuradar.github.io/">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.ilan.gov.tr https://ilan.gov.tr https://kariyerkapisi.gov.tr; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.ilan.gov.tr https://ilan.gov.tr https://kariyerkapisi.gov.tr https://medya.ilan.gov.tr; connect-src 'self' https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <style>
 :root{
@@ -459,7 +459,7 @@ const KURUM_KURALLARI=[
  ['ÖSYM',/OSYM|OLCME, SECME/],
  ['Bakanlık / Genel Müdürlük',/BAKANLIK|GENEL MUDURLUK|BASKANLIGI|BASKANLIK|MUDURLUGU|KURUMU|KURULU|AJANS/],
  ['Oda / Birlik / Borsa',/ODASI|BIRLIGI|BORSASI|BIRLIK/]];
-function logoUrl(u){try{const x=new URL(String(u||''));return (x.protocol==='https:'&&/^((www\.)?ilan|kariyerkapisi)\.gov\.tr$/.test(x.hostname))?x.href:''}catch(e){return ''}}
+function logoUrl(u){try{const x=new URL(String(u||''));return (x.protocol==='https:'&&/^((www\.)?ilan|kariyerkapisi|medya\.ilan)\.gov\.tr$/.test(x.hostname))?x.href:''}catch(e){return ''}}
 function avatarHtml(i){const ik=KURUM_IKON[i.tur]||esc(bas(i.institution)),lg=logoUrl(i.logo);
   return lg?`<div class="avatar logolu" title="${esc(i.tur)}"><img class="logo-img" src="${esc(lg)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-ikon="${ik}"></div>`
     :`<div class="avatar" title="${esc(i.tur)}" style="background:${renkAvatar(i.institution||'?')}">${ik}</div>`}

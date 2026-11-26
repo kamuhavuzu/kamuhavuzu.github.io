@@ -452,41 +452,28 @@ def _urller(metin):
     return sorted(bulunan, key=lambda x: x[1])
 
 
-_LOGO = {"taban": None, "kontrol": True}   # ilan.gov.tr logo klasoru bulunamadi (16 aday 404); yoklama kapali
-LOGO_ADAYLARI = ["{p}", "Uploads/{p}", "uploads/{p}", "upload/{p}", "Upload/{p}", "files/{p}", "Files/{p}", "images/{p}",
-                 "Content/{p}", "content/{p}", "assets/{p}", "assets/img/{p}", "api/{p}", "ilan-api/{p}", "Resimler/{p}", "static/{p}"]
-
-
-def logo_taban_bul(session, yol):
-    """Ilan.gov.tr'de logo dosyalari hangi klasorden sunuluyor? Adaylari tek tek dener, calisani hatirlar."""
-    _LOGO["kontrol"] = True
-    for kalip in LOGO_ADAYLARI:
-        url = "https://www.ilan.gov.tr/" + kalip.format(p=yol)
-        try:
-            r = session.get(url, headers=UA, timeout=15, stream=True)
-            tip = (r.headers.get("content-type") or "").lower()
-            r.close()
-            print(f"[logo] {r.status_code} {tip[:20]} {url}")
-            if r.status_code == 200 and tip.startswith("image/"):
-                _LOGO["taban"] = kalip
-                return
-        except requests.RequestException as e:
-            print(f"[logo] hata {type(e).__name__} {url}")
-    print("[logo] calisan adres bulunamadi, logolar eklenmeyecek")
+LOGO_CDN = "https://medya.ilan.gov.tr/"   # ilan.gov.tr/assets/appconfig.production.json -> cdnBaseUrl
+_LOGO = {"test": False}
 
 
 def logo_al(ad, session=None):
-    """Ilani yayimlayan kurumun logosu (advertiserLogo) icin tam adres; bulunamazsa bos."""
+    """Ilani yayimlayan kurumun logosu (advertiserLogo) icin tam adres; yoksa bos."""
     v = str(ad.get("advertiserLogo") or "").strip().replace("\\", "/").lstrip("/")
     if not v or v.lower() in ("null", "none"):
         return ""
     if v.lower().startswith(("http://", "https://")):
-        return v.replace("http://", "https://", 1)
-    if not _LOGO["kontrol"] and session is not None:
-        logo_taban_bul(session, v)
-    if not _LOGO["taban"]:
-        return ""
-    return "https://www.ilan.gov.tr/" + _LOGO["taban"].format(p=v)
+        url = v.replace("http://", "https://", 1)
+    else:
+        url = LOGO_CDN + v
+    if not _LOGO["test"] and session is not None:   # ilk logoyu bir kez dene, sonucu kayda yaz
+        _LOGO["test"] = True
+        try:
+            r = session.get(url, headers=UA, timeout=15, stream=True)
+            print(f"[logo] test {r.status_code} {(r.headers.get('content-type') or '')[:20]} {url}")
+            r.close()
+        except requests.RequestException as e:
+            print(f"[logo] test hata {type(e).__name__} {url}")
+    return url
 
 
 def _ayni_kurum(a, b):
