@@ -100,7 +100,33 @@ def _pdf_metinini_oku(session, url):
                     sayfalar.append(metin)
             except Exception:
                 continue
-        return "\n".join(sayfalar)[:DETAY_METIN_LIMIT]
+        metin = "\\n".join(sayfalar)
+        # Taranmis/goruntu tabanli PDF'lerde metin katmani bos olabilir.
+        # KPSS puani normal metin katmanindan cikmadiysa sayfalari Turkce OCR ile tara.
+        puan_var = (ic.parse_min_kpss(metin) is not None or bool(ic.parse_puan_tablosu(metin)))
+        if not puan_var:
+            try:
+                import fitz
+                from PIL import Image
+                import pytesseract
+                ocr_sayfalar = []
+                for sayfa in reader.pages[:20]:
+                    # PDF sayfasini 180-200 DPI civarinda rasterize et.
+                    doc = fitz.open(stream=bytes(parca), filetype="pdf")
+                    page = doc[sayfa.number]
+                    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), alpha=False)
+                    image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    ocr = pytesseract.image_to_string(image, lang="tur+eng", config="--psm 6")
+                    if ocr.strip():
+                        ocr_sayfalar.append(ocr)
+                    doc.close()
+                if ocr_sayfalar:
+                    ocr_metin = "\\n".join(ocr_sayfalar)
+                    print(f"[PDF-OCR] {len(ocr_sayfalar)} sayfa tarandi: {url}")
+                    metin = metin + "\\n[OCR METNI]\\n" + ocr_metin
+            except Exception as ocr_hata:
+                print(f"[PDF-OCR] kullanilamadi: {type(ocr_hata).__name__}: {url}")
+        return metin[:DETAY_METIN_LIMIT]
     except Exception as e:
         print(f"[PDF] metin okunamadi: {type(e).__name__}: {url}")
         return ""
@@ -504,6 +530,49 @@ def puanlari_yenile(mevcut):
     return n
 
 
+def puan_bulunamayanlari_yenile(session, mevcut, limit=35):
+    """Daha once puani bulunamayan ilanlarin resmi detay sayfasini/PDF eklerini yeniden tarar."""
+    bugun = date.today().isoformat()
+    aday = []
+    for row in mevcut.values():
+        if row.get("iptal") or row.get("min_kpss") or row.get("puanlar"):
+            continue
+        if row.get("source_name") == "Kariyer Kapısı":
+            continue  # RSS ilan sayfasinin icerigi oturum/JS arkasinda; bos yere tekrar cekme
+        son = str(row.get("deadline") or "")[:10]
+        if son and son < bugun:
+            continue
+        link = str(row.get("link") or "")
+        if not link.startswith("http"):
+            continue
+        aday.append(row)
+    # En uzun suredir kontrol edilmeyen ilanlari once al; her calismada farkli bir grup ilerler.
+    aday.sort(key=lambda r: str(r.get("puan_kontrol_at") or ""))
+    bulunan = 0
+    for row in aday[:limit]:
+        try:
+            metin = detay_oku(session, row["link"])
+            if metin:
+                onceki = row.get("min_kpss")
+                detaydan_doldur(row, metin)
+                if row.get("min_kpss") or row.get("puanlar"):
+                    bulunan += 1
+                    row["puan_kontrol_durumu"] = "bulundu"
+                    row["puan_kontrol_kaynagi"] = "Resmî ilan sayfası/PDF eki"
+                else:
+                    row["puan_kontrol_durumu"] = "metinde_bulunamadi"
+            else:
+                row["puan_kontrol_durumu"] = "sayfa_okunamadi"
+            row["puan_kontrol_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        except Exception as e:
+            row["puan_kontrol_durumu"] = "kontrol_hatasi"
+            row["puan_kontrol_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            print(f"[PUAN-TEKRAR] {row.get('title','')}: {type(e).__name__}")
+        time.sleep(0.25)
+    print(f"[PUAN-TEKRAR] kontrol edilen: {min(len(aday), limit)}, yeni puan bulunan: {bulunan}, kuyruk: {max(0,len(aday)-limit)}")
+    return bulunan
+
+
 URL_RE = re.compile(r"https?://[^\s)\]>\"'«»]+", re.I)
 BOSLUK_ALAN_RE = re.compile(r"(?<![/\w@.\-])((?:www\.)?[a-z0-9\-]+(?:\.[a-z0-9\-]+)*\.(?:gov|edu|bel|org|com|net)\.tr(?:/[^\s)\]>\"'«»]*)?)", re.I)
 ONERI_ATLA = ("ilan.gov.tr", "mevzuat.gov.tr", "resmigazete.gov.tr", "turkiye.gov.tr", "kariyerkapisi.gov.tr")
@@ -845,6 +914,7 @@ def main():
     print(f"Manuel ilan: {manuel_ilanlar(mevcut)}")
     print(f"Puani/tarihi yeni bulunan: {puanlari_yenile(mevcut)}")
     print(f"Basvuru adresi bulunan: {basvuru_coz(mevcut)}")
+    print(f"Eski puanlari resmi sayfa/PDF/OCR ile yeniden tarama: {puan_bulunamayanlari_yenile(session, mevcut)}")
     logo_haritasi(mevcut)
     print(f"Ilan disi/eski duyuru temizlendi: {ilan_disi_temizle(mevcut)}")
     _t = {}
