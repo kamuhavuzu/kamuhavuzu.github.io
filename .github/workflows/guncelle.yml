@@ -20,6 +20,19 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Kod ve veri dosyalarini dogrula
+        run: |
+          python -m compileall -q .
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for name in ("ek_kaynaklar.json", "ilanlar.json", "manuel_ilanlar.json"):
+              path = Path(name)
+              if path.exists():
+                  with path.open(encoding="utf-8-sig") as f:
+                      data = json.load(f)
+                  print(f"{name}: JSON OK")
+          PY
       - run: python ilan_cek_web.py
       - name: Yapay zeka ilan okuma
         env:
