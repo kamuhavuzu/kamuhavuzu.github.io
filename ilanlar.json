@@ -1,44 +1,44 @@
 {
-  "guncelleme": "2026-11-26T17:35:17+00:00",
-  "son_kontrol": "2026-11-26T17:35:17+00:00",
+  "guncelleme": "2026-11-26T17:44:53+00:00",
+  "son_kontrol": "2026-11-26T17:44:53+00:00",
   "kaynaklar": {
     "ilan.gov.tr": {
       "durum": "tamam",
       "yeni": 3,
-      "son_basari": "2026-11-26T17:26:01+00:00",
+      "son_basari": "2026-11-26T17:37:28+00:00",
       "sayi": 188
     },
     "Kariyer Kapısı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T17:26:03+00:00",
+      "son_basari": "2026-11-26T17:37:29+00:00",
       "sayi": 35
     },
     "Resmî Gazete İlanlar": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T17:26:06+00:00",
+      "son_basari": "2026-11-26T17:37:31+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 0
     },
     "Aile ve Sosyal Hizmetler Bakanlığı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T17:34:07+00:00",
+      "son_basari": "2026-11-26T17:44:25+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 16
     },
     "Çalışma ve Sosyal Güvenlik Bakanlığı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T17:34:12+00:00",
+      "son_basari": "2026-11-26T17:44:31+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 7
     },
     "Ulaştırma ve Altyapı Bakanlığı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-26T17:35:01+00:00",
+      "son_basari": "2026-11-26T17:44:40+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 6
     },
@@ -741,7 +741,25 @@
       ],
       "diger_kaynaklar": [],
       "basvuru_link": "mailto:ik@asarcik.bel.tr",
-      "basvuru_tur": "eposta"
+      "basvuru_tur": "eposta",
+      "ai": {
+        "ozet": "Asarcık Belediye Başkanlığı, 657 sayılı Kanuna tabi istihdam edilmek üzere mimar kadrosuna KPSS ile memur alacaktır.",
+        "bolum": "mimarlık",
+        "egitim": "Lisans",
+        "kpss_turu": "P3",
+        "taban_puan": "70",
+        "yas_siniri": "belirtilmemis",
+        "ehliyet": "B sınıfı",
+        "deneyim": "belirtilmemis",
+        "kontenjan": "1",
+        "ozel_sartlar": [
+          "Lisans düzeyinde eğitim veren fakültelerin mimarlık programından mezun olmak",
+          "En az B sınıfı sürücü belgesine sahip olmak",
+          "2026 yılı KPSS (B) grubu P3 puan türünden en az 70 puan almış olmak",
+          "657 sayılı Kanunun 48. maddesindeki genel şartları taşımak",
+          "Süresi içinde istenilen belgelerle birlikte başvuruyu tamamlamak"
+        ]
+      }
     },
     {
       "id": 202198100,
@@ -790,7 +808,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
-      "puan_kontrol_at": "2026-11-26T17:35:04+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:42+00:00"
     },
     {
       "id": 204612279,
@@ -1203,7 +1221,25 @@
       ],
       "diger_kaynaklar": [],
       "basvuru_link": "https://www.gaziosmanpasa.bel.tr",
-      "basvuru_tur": "ana"
+      "basvuru_tur": "ana",
+      "ai": {
+        "ozet": "Gaziosmanpaşa Belediye Başkanlığı, 657 sayılı Kanuna tabi istihdam edilmek üzere çeşitli lisans ve önlisans mezuniyetlerine sahip zabıta memurları alacaktır.",
+        "bolum": "Kamu yönetimi, yerel yönetimler, işletme, siyaset bilimi, inşaat mühendisliği, çevre mühendisliği, veteriner, gıda mühendisliği, halkla ilişkiler, adalet, acil durum ve afet yönetimi",
+        "egitim": "Lisans ve Önlisans",
+        "kpss_turu": "P3 ve P93",
+        "taban_puan": "65",
+        "yas_siniri": "30 yaşını doldurmamış olmak",
+        "ehliyet": "En az B sınıfı sürücü belgesi",
+        "deneyim": "belirtilmemis",
+        "kontenjan": "36",
+        "ozel_sartlar": [
+          "Erkeklerde en az 1.67 m, kadınlarda en az 1.60 m boyunda olmak ve boy-kilo şartını taşımak.",
+          "Sınavın yapıldığı tarihte 30 yaşını doldurmamış olmak.",
+          "En az (B) sınıfı sürücü belgesine sahip olmak.",
+          "Belirtilen lisans veya önlisans programlarının birinden mezun olmak.",
+          "2026 yılı KPSS'den ilgili puan türünden en az 65 almış olmak."
+        ]
+      }
     },
     {
       "id": 430748705,
@@ -1806,7 +1842,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f82ad1a8-39b9-4732-acb4-be6cbe8f772e",
-      "puan_kontrol_at": "2026-11-26T17:35:04+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:43+00:00"
     },
     {
       "id": 720859559,
@@ -2314,9 +2350,9 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=7cc8cb95-4799-4879-a104-8362bf62ca4d",
-      "puan_kontrol_at": "2026-11-26T17:35:05+00:00",
+      "puan_kontrol_at": "2026-11-26T17:44:43+00:00",
       "ai": {
-        "ozet": "Türk-Alman Üniversitesi Rektörlüğü 30.11.2026 tarihinde sözleşmeli bilişim personeli alım ilanı yayımlamıştır.",
+        "ozet": "Türk-Alman Üniversitesi Rektörlüğü 2026 yılı sözleşmeli bilişim personeli alım ilanı yayınlamıştır.",
         "bolum": "Bilişim",
         "egitim": "belirtilmemis",
         "kpss_turu": "belirtilmemis",
@@ -2778,7 +2814,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
-      "puan_kontrol_at": "2026-11-26T17:35:05+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:44+00:00"
     },
     {
       "id": 1001806090,
@@ -2980,7 +3016,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=35749108-46fb-4b62-bc89-3700f1525802",
-      "puan_kontrol_at": "2026-11-26T17:35:06+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:44+00:00"
     },
     {
       "id": 1048996718,
@@ -3289,7 +3325,7 @@
       ],
       "diger_kaynaklar": [],
       "ai": {
-        "ozet": "Kamu Denetçiliği Kurumu tarafından A Grubu kariyer meslek statüsünde uzman yardımcısı alımı için giriş sınavı düzenleneceği duyurulmuştur.",
+        "ozet": "Kamu Denetçiliği Kurumu tarafından Kamu Denetçiliği Uzman Yardımcılığı giriş sınavı yapılacağı duyurulmuştur.",
         "bolum": "belirtilmemis",
         "egitim": "belirtilmemis",
         "kpss_turu": "belirtilmemis",
@@ -3304,7 +3340,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
-      "puan_kontrol_at": "2026-11-26T17:35:06+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:45+00:00"
     },
     {
       "id": 1252114584,
@@ -3571,7 +3607,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=31b4b404-05cb-4298-9460-1ab3b13b33e8",
-      "puan_kontrol_at": "2026-11-26T17:35:07+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:45+00:00"
     },
     {
       "id": 1330583618,
@@ -3808,7 +3844,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
-      "puan_kontrol_at": "2026-11-26T17:35:07+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:46+00:00"
     },
     {
       "id": 1535315569,
@@ -4458,7 +4494,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
-      "puan_kontrol_at": "2026-11-26T17:35:08+00:00",
+      "puan_kontrol_at": "2026-11-26T17:44:46+00:00",
       "ai": {
         "ozet": "Mersin Üniversitesi Rektörlüğü, Kariyer Kapısı üzerinden 1 adet sözleşmeli bilişim personeli alacağını duyurmuştur.",
         "bolum": "Bilişim",
@@ -4471,7 +4507,8 @@
         "kontenjan": "1",
         "ozel_sartlar": [
           "Kariyer Kapisi uzerinden basvuru yapmak",
-          "Ilan sartlarini saglamak"
+          "Ilan sartlarini saglamak",
+          "Kariyer Kapisi uzerinden basvuru yapilmalidir."
         ]
       }
     },
@@ -4622,7 +4659,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=069150d6-ad89-4973-9410-25ae1fa56d67",
-      "puan_kontrol_at": "2026-11-26T17:35:08+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:46+00:00"
     },
     {
       "id": 1925290483,
@@ -4779,7 +4816,7 @@
       ],
       "diger_kaynaklar": [],
       "ai": {
-        "ozet": "Nükleer Düzenleme Kurumu Başkanlığı tarafından sözleşmeli bilişim personeli giriş sınavı ilanı yayımlanmıştır.",
+        "ozet": "Nükleer Düzenleme Kuruluş Başkanlığı sözleşmeli bilişim personeli alımına ilişkin giriş sınavı ilanını duyurmuştur.",
         "bolum": "belirtilmemis",
         "egitim": "belirtilmemis",
         "kpss_turu": "belirtilmemis",
@@ -4794,7 +4831,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0",
-      "puan_kontrol_at": "2026-11-26T17:35:09+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:47+00:00"
     },
     {
       "id": 1997920134,
@@ -4869,7 +4906,24 @@
       ],
       "diger_kaynaklar": [],
       "basvuru_link": "mailto:insankaynaklari@akhisar.bel.tr",
-      "basvuru_tur": "eposta"
+      "basvuru_tur": "eposta",
+      "ai": {
+        "ozet": "Akhisar Belediye Başkanlığı, 657 sayılı Kanuna tabi istihdam edilmek üzere KPSS taban puanı 70 olan 1 makine mühendisi alacaktır.",
+        "bolum": "Makine Mühendisliği",
+        "egitim": "Lisans",
+        "kpss_turu": "P3",
+        "taban_puan": "70",
+        "yas_siniri": "belirtilmemis",
+        "ehliyet": "En az (B) sınıfı sürücü belgesi",
+        "deneyim": "belirtilmemis",
+        "kontenjan": "1",
+        "ozel_sartlar": [
+          "Lisans düzeyinde makine mühendisliği programından mezun olmak.",
+          "2026 yılı KPSS (B) grubu P3 puan türünden en az 70 puan almış olmak.",
+          "En az (B) sınıfı sürücü belgesine sahip olmak.",
+          "657 sayılı Kanunun 48. maddesindeki genel şartları taşımak."
+        ]
+      }
     },
     {
       "id": 2021302083,
@@ -5031,7 +5085,7 @@
       ],
       "diger_kaynaklar": [],
       "ai": {
-        "ozet": "Kamu İhale Kurumu, 2026 yılı Kamu İhale Uzman Yardımcılığı giriş sınavı duyurusunu yayımlamıştır.",
+        "ozet": "Kamu İhale Kurumu 2026 yılı Kamu İhale Uzman Yardımcılığı giriş sınavı duyurusu yayımlanmıştır.",
         "bolum": "belirtilmemis",
         "egitim": "belirtilmemis",
         "kpss_turu": "belirtilmemis",
@@ -5046,7 +5100,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f657a20b-5132-4e3a-8b1e-131e031f065b",
-      "puan_kontrol_at": "2026-11-26T17:35:09+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:47+00:00"
     },
     {
       "id": 2048870705,
@@ -5204,7 +5258,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e",
-      "puan_kontrol_at": "2026-11-26T17:35:10+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:48+00:00"
     },
     {
       "id": 2117139872,
@@ -5380,7 +5434,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0dee67ed-656b-4fa2-9ffd-deb7672253b8",
-      "puan_kontrol_at": "2026-11-26T17:35:10+00:00",
+      "puan_kontrol_at": "2026-11-26T17:44:48+00:00",
       "ai": {
         "ozet": "Bartın Üniversitesi Rektörlüğü tarafından 2026 yılı dördüncü dönem sözleşmeli personel alım ilanı Kariyer Kapısı üzerinden yayımlanmıştır.",
         "bolum": "belirtilmemis",
@@ -5442,7 +5496,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6a34cb10-0ac0-41e0-a094-3ec83e29a644",
-      "puan_kontrol_at": "2026-11-26T17:35:11+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:49+00:00"
     },
     {
       "id": 2155858659,
@@ -5631,7 +5685,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
-      "puan_kontrol_at": "2026-11-26T17:35:11+00:00",
+      "puan_kontrol_at": "2026-11-26T17:44:49+00:00",
       "ai": {
         "ozet": "Adli Tıp Kurumu Başkanlığı tarafından 2026/2 dönemi için sözleşmeli personel alım ilanı yayımlanmıştır.",
         "bolum": "belirtilmemis",
@@ -5853,9 +5907,9 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
-      "puan_kontrol_at": "2026-11-26T17:35:12+00:00",
+      "puan_kontrol_at": "2026-11-26T17:44:50+00:00",
       "ai": {
-        "ozet": "Rekabet Kurumu Başkanlığı tarafından Rekabet Uzman Yardımcılığı giriş sınavı yapılacağı duyurulmuştur.",
+        "ozet": "Rekabet Kurumu Başkanlığı tarafından Rekabet Uzman Yardımcılığı giriş sınavı için personel alım ilanı yayımlanmıştır.",
         "bolum": "belirtilmemis",
         "egitim": "belirtilmemis",
         "kpss_turu": "belirtilmemis",
@@ -6264,7 +6318,7 @@
       ],
       "diger_kaynaklar": [],
       "ai": {
-        "ozet": "Marmara Üniversitesi Rektörlüğü tarafından yayımlanan sözleşmeli personel alım ilanında başvuru detaylarına dair herhangi bir bilgi yer almamaktadır.",
+        "ozet": "Marmara Üniversitesi Rektörlüğü tarafından 06.11.2026 tarihinde sözleşmeli personel alım ilanı yayımlanmıştır.",
         "bolum": "belirtilmemis",
         "egitim": "belirtilmemis",
         "kpss_turu": "belirtilmemis",
@@ -6279,7 +6333,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=84e11358-b080-4b29-ae1e-3ab83bd8f689",
-      "puan_kontrol_at": "2026-11-26T17:35:12+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:50+00:00"
     },
     {
       "id": 2448076826,
@@ -6826,7 +6880,25 @@
       ],
       "diger_kaynaklar": [],
       "basvuru_link": "https://www.eyyubiye.bel.tr",
-      "basvuru_tur": "ana"
+      "basvuru_tur": "ana",
+      "ai": {
+        "ozet": "Eyyübiye Belediye Başkanlığı, 657 sayılı Kanuna tabi istihdam edilmek üzere lisans mezunu 9 zabıta memuru alacağını açıkladı.",
+        "bolum": "Herhangi bir lisans programı",
+        "egitim": "Lisans",
+        "kpss_turu": "P3",
+        "taban_puan": "60",
+        "yas_siniri": "30 yaşını doldurmamış olmak",
+        "ehliyet": "En az (B) sınıfı sürücü belgesi",
+        "deneyim": "belirtilmemis",
+        "kontenjan": "9",
+        "ozel_sartlar": [
+          "Erkeklerde en az 1.67 m, kadınlarda en az 1.60 m boyunda olmak",
+          "Boyun 1 metreden fazla olan kısmı ile kilosu arasında (+,-) 10 kg'dan fazla fark olmamak",
+          "2026 yılı KPSS (B) grubu P3 puan türünden en az 60 puan almış olmak",
+          "En az (B) sınıfı sürücü belgesine sahip olmak",
+          "Başvuruları şahsen Eyyübiye Belediyesi Millet Bahçesi Konferans salonuna yapmak"
+        ]
+      }
     },
     {
       "id": 2663254066,
@@ -6874,7 +6946,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a1ba338b-81ac-4dfb-9cc3-dc53c4c438cd",
-      "puan_kontrol_at": "2026-11-26T17:35:13+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:51+00:00"
     },
     {
       "id": 2692716982,
@@ -7094,7 +7166,7 @@
       ],
       "diger_kaynaklar": [],
       "ai": {
-        "ozet": "İzmir Demokrasi Üniversitesi Rektörlüğü tarafından Kariyer Kapısı üzerinden sözleşmeli avukat alımı yapılacağı duyurulmuştur.",
+        "ozet": "Izmir Demokrasi Universitesi Rektorlugu sozlesmeli avukat alim ilani yayinlamistir.",
         "bolum": "Hukuk",
         "egitim": "Lisans",
         "kpss_turu": "belirtilmemis",
@@ -7112,7 +7184,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=26f5b7a7-865c-483f-9045-2f77e5e7fb9d",
-      "puan_kontrol_at": "2026-11-26T17:35:13+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:51+00:00"
     },
     {
       "id": 2716000765,
@@ -7254,7 +7326,25 @@
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_at": "2026-11-26T17:08:30+00:00",
       "basvuru_link": "mailto:ozelidare@elazig.gov.tr",
-      "basvuru_tur": "eposta"
+      "basvuru_tur": "eposta",
+      "ai": {
+        "ozet": "Elazığ İl Özel İdaresi, KPSS P3 puan türünden en az 60 puan şartıyla lisans mezunu 3 sözleşmeli personel alacaktır.",
+        "bolum": "Psikoloji veya Sosyal Hizmetler",
+        "egitim": "Lisans",
+        "kpss_turu": "P3",
+        "taban_puan": "60",
+        "yas_siniri": "belirtilmemis",
+        "ehliyet": "belirtilmemis",
+        "deneyim": "belirtilmemis",
+        "kontenjan": "3",
+        "ozel_sartlar": [
+          "Üniversitelerin ilgili lisans bölümlerinden mezun olmak",
+          "2026 yılı KPSS P3 puan türünden en az 60 puan almış olmak",
+          "Daha önce çalıştığı kamu kurum ve kuruluşlarından disiplinsizlik veya ahlaki nedenlerle çıkarılmamış olmak",
+          "657 sayılı Kanun'un 48. maddesindeki genel şartları taşımak",
+          "Görevini devamlı yapmasına engel akıl veya bedensel engeli bulunmamak"
+        ]
+      }
     },
     {
       "id": 2783965687,
@@ -7374,7 +7464,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4850e095-8b16-4aba-9956-555740a41146",
-      "puan_kontrol_at": "2026-11-26T17:35:14+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:51+00:00"
     },
     {
       "id": 2827453833,
@@ -7530,7 +7620,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=ff6084a1-bbdd-45d7-b62e-a649a026a2b2",
-      "puan_kontrol_at": "2026-11-26T17:35:14+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:52+00:00"
     },
     {
       "id": 2896109489,
@@ -7562,7 +7652,7 @@
       ],
       "diger_kaynaklar": [],
       "ai": {
-        "ozet": "İstanbul Kalkınma Ajansı, Kariyer Kapısı üzerinden sözleşmeli statüde istihdam edilmek üzere toplam 5 uzman alacağını duyurdu.",
+        "ozet": "İstanbul Kalkınma Ajansı, Kariyer Kapısı üzerinden sözleşmeli statüde 5 uzman personel alımı yapacağını duyurdu.",
         "bolum": "belirtilmemis",
         "egitim": "belirtilmemis",
         "kpss_turu": "belirtilmemis",
@@ -7578,7 +7668,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=c1ab5cba-d22b-40ab-b89b-1d27431a422c",
-      "puan_kontrol_at": "2026-11-26T17:35:15+00:00"
+      "puan_kontrol_at": "2026-11-26T17:44:52+00:00"
     },
     {
       "id": 2896741186,
@@ -7775,7 +7865,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-26T17:35:16+00:00",
+      "puan_kontrol_at": "2026-11-26T17:23:32+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2289989/kamu-akademik-personel-akademik-personel-alimlari-cankiri-karatekin-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani"
     },
     {
@@ -7837,7 +7927,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=8892720e-d38e-46f8-994e-138c6d4b7d81",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Memur",
-      "description": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI (AFAD) - Afet ve Acil Durum Yönetimi Uzman Yardımcısı Giriş Sınavı İlanı (2026) (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı",
+      "description": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI (AFAD) - Afet ve Acil Durum Yönetimi Uzman Yardımcısı Giriş Sınavı İlanı (2026) (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:12+00:00",
       "akademik": false,
       "puanlar": {},
@@ -7864,7 +7954,10 @@
         "ozel_sartlar": [
           "belirtilmemis"
         ]
-      }
+      },
+      "puan_kontrol_durumu": "resmi_metinde_puan_yok",
+      "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=8892720e-d38e-46f8-994e-138c6d4b7d81",
+      "puan_kontrol_at": "2026-11-26T17:44:53+00:00"
     },
     {
       "id": 2970324129,
@@ -7882,7 +7975,7 @@
       "source_url": "https://www.ilan.gov.tr/ilan/2298169/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-ogretim-uyesi-alim-ilani",
       "source_name": "ilan.gov.tr",
       "employment_type": "Diğer",
-      "description": "Hasan Kalyoncu Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimine; 2547 sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili hükümlerinde aranan genel koşulları sağlamış olmak kaydıyla, tam zamanlı öğretim üyesi alınacaktır. BAŞVURU ŞARTLARI: • İlan edilen kadrolara başvuracak adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinden bir örneğini temin edebilecekleri başvuru dilekçelerinin ekinde olmak üzere; özgeçmiş, 2 adet vesikalık fotoğraf, fotokopileri noterden veya resmi kurumlarca onaylanmış lisans, yüksek lisans, doktora diplomaları, nüfus cüzdanı ile bilimsel çalışma ve yayınlarını kapsayan yayın listesi ve eserlerinden oluşan dosyasının (profesör kadrosuna başvuracak adayların başlıca eserlerini belirtmesi ve profesör/doçent kadrolarına başvuracak adayların doçentlik belgelerini ayrıca dosyalarına eklemiş olmaları gerekmektedir) 1 nüshasını basılı olarak, jüri üyelerine gönderilecek nüshalarını ise (profesör kadroları için 6 nüsha, doçent ve doktor öğretim üyesi kadroları için ise 4 nüsha) CD/flashdisk ortamında (profesör/doçent kadroları için Personel Müdürlüğüne, doktor öğretim üyesi kadroları için ise ilgili Fakülte Dekanlığına olmak üzere) şahsen veya posta ile başvuru yapılması gerekmektedir. • Profesör adayları; özgeçmişlerini, bilimsel yayınlarını kongre ve konferans tebliğleri ile bunlara yapılan atıfları, sanat eserlerini, icralarını ve bunlara ilişkin dokümanı, eğitim-öğretim faaliyetlerini, yönetimlerinde devam eden ve biten doktora, sanatta yeterlik veya yüksek lisans çalışmalarını kapsayan dosyada bu başvurularında yayınlarından birini başlıca araştırma eseri olarak göstermeleri gerekmektedir. • Müracaat edecek adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinde yer alan “Başvuru Beyan Formu ve Evrak Kontrol Listesi”ni doldurarak, başvuru dilekçesi ekinde imzalı olarak sunması gerekmektedir. Ayrıca, jüri üyelerine gönderilecek dosyalarda da imzalı şekilde bu belgenin eklenmesi gerekmektedir. • Tüm adayların, gelecekte yapmayı planladıkları eğitim / öğretim / araştırma / geliştirme faaliyetleri ve bunların çıktıları ile Üniversitemizin vizyonuna nasıl entegre olabileceklerini ve kısa/orta/uzun vadede bilimsel literatüre ve üniversite-iş dünyası-kamu-toplum işbirliğine nasıl katkıda bulunabileceklerini açıklayan bir “özgelecek /niyet mektubu /iş planı/kariyer planı” hazırlamaları ve 3 farklı kişiden alınacak referans mektuplarını da müracaat dosyalarına eklemeleri gerekmektedir. • Erkek adayların askerlikle ilişiğinin olmaması gerekmektedir. • Yabancı ülkelerden alınmış lisans ve lisansüstü diploma ve derecelerin denkliği ile akademik ünvanların eşdeğerliliğinin Yükseköğretim Kurulu (YÖK)/Üniversitelerarası Kurul (ÜAK) tarafından onaylanmış olması ve belgelendirilmesi şarttır. • Adayların, ilan tablosunda ‘Açıklama’ sütununda belirtilen şartları sağlamaları gerekmektedir. • Adayların müracaat dilekçelerinde herhangi bir kurum ya da kuruluşa karşı mecburi hizmet yükümlülüklerinin bulunup bulunmadığını, varsa hangi kuruma olduğunu belirtmeleri gerekmektedir. • Adayların müracaat dilekçelerinde; başvuruda verdikleri tüm bilgilerin doğru olduğunu, aksi takdirde başvurularının ve atamalarının iptalini kabul ve taahhüt ettiklerini belirtmeleri gerekmektedir. • Son müracaat tarihi 04 Aralık 2026 mesai bitimidir. • Postadaki gecikmeler nedeniyle ilanda belirtilen süre içinde yapılamayan başvurular dikkate alınmayacaktır. • İlanda belirtilen koşulları taşımayan müracaatlar değerlendirmeye alınmayacaktır. • İhtiyaç duyulması halinde; adayları ilgilendiren başvuru ve atama süreci ile ilgili tüm bilgilendirmeler Üniversitemiz Personel Müdürlüğü web sayfasından https://personel.hku.edu.tr/ yapılacak olup, ayrıca yazılı olarak bildirim yapılmayacaktır. • Tüm başvuru evraklarının güncel tarihli olması gerekmektedir. Güncel tarihli olmayan evraklar değerlendirmeye alınmayacaktır. • İdare gerekli gördüğü takdirde ilanın her aşamasını ve ilan edilen pozisyonu iptal edebilir. FAKÜLTE/ YÜKSEKOKUL BÖLÜM/ PROGRAM ÜNVAN KADRO SAYISI AÇIKLAMA HUKUK FAKÜLTESİ ÖZEL HUKUK PROFESÖR 1 Hukuk Fakültesi lisans mezunu olmak, Özel Hukuk alanında doktora derecesine sahip olmak, İş ve Sosyal Güvenlik Hukuku Bilim Dalında Doçent unvanını almış olmak; 2547 sayılı Kanun'un 26. maddesinde belirtilen yasal asgari süre ve yayın koşullarını sağlamış olmak, bu alanda başlıca araştırma eserine sahip olmak. ÖZEL HUKUK DOÇENT Hukuk Fakültesi lisans mezunu olmak, Özel Hukuk alanında doktora derecesine sahip olmak, Üniversitelerarası Kurul (ÜAK) tarafından İş ve Sosyal Güvenlik Hukuku Bilim Dalında verilmiş Doçent unvanına sahip olmak ve İş ve Sosyal Güvenlik Hukuku alanında nitelikli özgün bilimsel eserleri bulunmak. ÖZEL HUKUK DR. ÖĞR. ÜYESİ Hukuk Fakültesi lisans mezunu olmak, Özel Hukuk alanında doktora derecesine sahip olmak. Bireysel iş hukuku, toplu iş hukuku veya sosyal güvenlik hukuku alanlarında TR dizin/uluslararası hakemli dergilerde yayımlanmış en az 2 makalesi olmak. 11981/1-1",
+      "description": "Hasan Kalyoncu Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimine; 2547 sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili hükümlerinde aranan genel koşulları sağlamış olmak kaydıyla, tam zamanlı öğretim üyesi alınacaktır. BAŞVURU ŞARTLARI: • İlan edilen kadrolara başvuracak adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinden bir örneğini temin edebilecekleri başvuru dilekçelerinin ekinde olmak üzere; özgeçmiş, 2 adet vesikalık fotoğraf, fotokopileri noterden veya resmi kurumlarca onaylanmış lisans, yüksek lisans, doktora diplomaları, nüfus cüzdanı ile bilimsel çalışma ve yayınlarını kapsayan yayın listesi ve eserlerinden oluşan dosyasının (profesör kadrosuna başvuracak adayların başlıca eserlerini belirtmesi ve profesör/doçent kadrolarına başvuracak adayların doçentlik belgelerini ayrıca dosyalarına eklemiş olmaları gerekmektedir) 1 nüshasını basılı olarak, jüri üyelerine gönderilecek nüshalarını ise (profesör kadroları için 6 nüsha, doçent ve doktor öğretim üyesi kadroları için ise 4 nüsha) CD/flashdisk ortamında (profesör/doçent kadroları için Personel Müdürlüğüne, doktor öğretim üyesi kadroları için ise ilgili Fakülte Dekanlığına olmak üzere) şahsen veya posta ile başvuru yapılması gerekmektedir. • Profesör adayları; özgeçmişlerini, bilimsel yayınlarını kongre ve konferans tebliğleri ile bunlara yapılan atıfları, sanat eserlerini, icralarını ve bunlara ilişkin dokümanı, eğitim-öğretim faaliyetlerini, yönetimlerinde devam eden ve biten doktora, sanatta yeterlik veya yüksek lisans çalışmalarını kapsayan dosyada bu başvurularında yayınlarından birini başlıca araştırma eseri olarak göstermeleri gerekmektedir. • Müracaat edecek adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinde yer alan “Başvuru Beyan Formu ve Evrak Kontrol Listesi”ni doldurarak, başvuru dilekçesi ekinde imzalı olarak sunması gerekmektedir. Ayrıca, jüri üyelerine gönderilecek dosyalarda da imzalı şekilde bu belgenin eklenmesi gerekmektedir. • Tüm adayların, gelecekte yapmayı planladıkları eğitim / öğretim / araştırma / geliştirme faaliyetleri ve bunların çıktıları ile Üniversitemizin vizyonuna nasıl entegre olabileceklerini ve kısa/orta/uzun vadede bilimsel literatüre ve üniversite-iş dünyası-kamu-toplum işbirliğine nasıl katkıda bulunabileceklerini açıklayan bir “özgelecek /niyet mektubu /iş planı/kariyer planı” hazırlamaları ve 3 farklı kişiden alınacak referans mektuplarını da müracaat dosyalarına eklemeleri gerekmektedir. • Erkek adayların askerlikle ilişiğinin olmaması gerekmektedir. • Yabancı ülkelerden alınmış lisans ve lisansüstü diploma ve derecelerin denkliği ile akademik ünvanların eşdeğerliliğinin Yükseköğretim Kurulu (YÖK)/Üniversitelerarası Kurul (ÜAK) tarafından onaylanmış olması ve belgelendirilmesi şarttır. • Adayların, ilan tablosunda ‘Açıklama’ sütununda belirtilen şartları sağlamaları gerekmektedir. • Adayların müracaat dilekçelerinde herhangi bir kurum ya da kuruluşa karşı mecburi hizmet yükümlülüklerinin bulunup bulunmadığını, varsa hangi kuruma olduğunu belirtmeleri gerekmektedir. • Adayların müracaat dilekçelerinde; başvuruda verdikleri tüm bilgilerin doğru olduğunu, aksi takdirde başvurularının ve atamalarının iptalini kabul ve taahhüt ettiklerini belirtmeleri gerekmektedir. • Son müracaat tarihi 04 Aralık 2026 mesai bitimidir. • Postadaki gecikmeler nedeniyle ilanda belirtilen süre içinde yapılamayan başvurular dikkate alınmayacaktır. • İlanda belirtilen koşulları taşımayan müracaatlar değerlendirmeye alınmayacaktır. • İhtiyaç duyulması halinde; adayları ilgilendiren başvuru ve atama süreci ile ilgili tüm bilgilendirmeler Üniversitemiz Personel Müdürlüğü web sayfasından https://personel.hku.edu.tr/ yapılacak olup, ayrıca yazılı olarak bildirim yapılmayacaktır. • Tüm başvuru evraklarının güncel tarihli olması gerekmektedir. Güncel tarihli olmayan evraklar değerlendirmeye alınmayacaktır. • İdare gerekli gördüğü takdirde ilanın her aşamasını ve ilan edilen pozisyonu iptal edebilir. FAKÜLTE/ YÜKSEKOKUL BÖLÜM/ PROGRAM ÜNVAN KADRO SAYISI AÇIKLAMA HUKUK FAKÜLTESİ ÖZEL HUKUK PROFESÖR 1 Hukuk Fakültesi lisans mezunu olmak, Özel Hukuk alanında doktora derecesine sahip olmak, İş ve Sosyal Güvenlik Hukuku Bilim Dalında Doçent unvanını almış olmak; 2547 sayılı Kanun'un 26. maddesinde belirtilen yasal asgari süre ve yayın koşullarını sağlamış olmak, bu alanda başlıca araştırma eserine sahip olmak. ÖZEL HUKUK DOÇENT Hukuk Fakültesi lisans mezunu olmak, Özel Hukuk alanında doktora derecesine sahip olmak, Üniversitelerarası Kurul (ÜAK) tarafından İş ve Sosyal Güvenlik Hukuku Bilim Dalında verilmiş Doçent unvanına sahip olmak ve İş ve Sosyal Güvenlik Hukuku alanında nitelikli özgün bilimsel eserleri bulunmak. ÖZEL HUKUK DR. ÖĞR. ÜYESİ Hukuk Fakültesi lisans mezunu olmak, Özel Hukuk alanında doktora derecesine sahip olmak. Bireysel iş hukuku, toplu iş hukuku veya sosyal güvenlik hukuku alanlarında TR dizin/uluslararası hakemli dergilerde yayımlanmış en az 2 makalesi olmak. 11981/1-1 | Hasan Kalyoncu Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimine; 2547 sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili hükümlerinde aranan genel koşulları sağlamış olmak kaydıyla, tam zamanlı öğretim üyesi alınacaktır. BAŞVURU ŞARTLARI: • İlan edilen kadrolara başvuracak adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinden bir örneğini temin edebilecekleri başvuru dilekçelerinin ekinde olmak üzere; özgeçmiş, 2 adet vesikalık fotoğraf, fotokopileri noterden veya resmi kurumlarca onaylanmış lisans, yüksek lisans, doktora diplomaları, nüfus cüzdanı ile bilimsel çalışma ve yayınlarını kapsayan yayın listesi ve eserlerinden oluşan dosyasının (profesör kadrosuna başvuracak adayların başlıca eserlerini belirtmesi ve profesör/doçent kadrolarına başvuracak adayların do",
       "checked_at": "2026-11-20T08:47:05+00:00",
       "puanlar": {},
       "akademik": true,
@@ -8107,7 +8200,7 @@
       "source_url": "https://www.ilan.gov.tr/ilan/2293626/kamu-akademik-personel-akademik-personel-alimlari-galata-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
       "source_name": "ilan.gov.tr",
       "employment_type": "Diğer",
-      "description": "İstanbul Galata Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin çeşitli bölüm ve programlarında görev yapmak üzere 2547 sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği, İstanbul Galata Üniversitesi Akademik Atama ve Yükseltme Yönergesi ( https://www.galata.edu.tr/mevzuat ) ile Vakıf Yükseköğretim Kurumları Yönetmeliği’nin ilgili maddeleri uyarınca, aşağıda nitelikleri belirtilen kadrolara öğretim üyeleri alınacaktır. Başvuru süresi, ilan tarihinden itibaren 15 gündür. Postayla veya elektronik ortamda yapılan başvurular dikkate alınmayacaktır. Adayların, 6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca, Akademik Personel Adayı Açık Rıza Metnini (Form Müracaat esnasında verilmektedir.) imzalamaları gerekmektedir. Başvurmak istedikleri bölüm ve kadro ünvanının yer aldığı imzalı başvuru dilekçesi, nüfus cüzdanı fotokopisi, Bir adet fotoğraf (Son altı ay içinde çekilmiş), e-Devlet kapısından alınan ikametgâh belgesi, e-Devlet kapısından “Resmi Kuruma” Hitaben Alınacak Adli Sicil ve Arşiv Kaydı Sorgulaması Sonuç Belgesi (Belgede “Adli Sicil Kaydı Yoktur” ve “Adli Sicil Arşiv Kaydı Yoktur” İbaresini Gösterir Olması Gerekmektedir.) YÖK formatlı özgeçmiş, e-Devlet kapısından alınan lisans, yüksek lisans ve doktora (uzmanlık), doçentlik mezuniyet belgeleri, yabancı ülkelerden alınmış diplomalar için YÖK denklik belgesi, İngilizce dil belgesi (YÖKDİL/YDS ya da ÖSYM tarafından eşdeğer kabul edilen yabancı dil sınavı) ile yayın dosyalarını, Profesör kadrosuna müracaat edecek adaylar, 1 adet basılı kopya ve 5 adet dijital kopya (PDF formatında USB Flash Bellek) olarak, Doçent ve Doktor öğretim Üyesi kadrosuna müracaat edecek adaylar, 1 adet basılı kopya ve 3 adet dijital kopya (PDF formatında USB Flash Bellek) olarak başvuru dosyalarını Personel Daire Başkanlığına şahsen elden teslim etmeleri gerekmektedir. Başvuru süresi içinde başvuru yapılmayan, eksik belgeli başvurular dikkate alınmayacak olup, başvuru yapan adaylara eksik evrakları ile ilgili Üniversite tarafından evrakların tamamlanması hususunda geri dönüş sağlanmayacaktır. Bir kişi, birden fazla kadroya başvuramaz. Fakülte Bölüm/Program Aranan Şartlar Kadro Unvanı Kadro Sayısı Diş Hekimliği Fakültesi Klinik Bilimler Doçentliğini Ağız, Diş ve Çene Cerrahisi Anabilim Dalında yapmış olmak. Profesör 1 Diş Hekimliği Fakültesi Klinik Bilimler Uzmanlığını Ağız, Diş ve Çene Cerrahisi Anabilim Dalında yapmış olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi (İngilizce) Klinik Bilimler Doktorasını veya Uzmanlığını Ağız, Diş ve Çene Cerrahisi Anabilim Dalında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi Klinik Bilimler Uzmanlığını Periodontoloji Anabilim Dalında yapmış almış olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi Klinik Bilimler Doktorasını veya Uzmanlığını Restoratif Diş Tedavisi Anabilim Dalında yapmış olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi (İngilizce) Klinik Bilimler Doktorasını veya Uzmanlığını Restoratif Diş Tedavisi Anabilim Dalında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi Klinik Bilimler Uzmanlığını Ortodonti Anabilim Dalında yapmış almış olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi (İngilizce) Klinik Bilimler Doktorasını veya Uzmanlığını Ortodonti Anabilim Dalında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi Klinik Bilimler Doktorasını veya Uzmanlığını Ağız, Diş ve Çene Radyolojisi Anabilim Dalında yapmış olmak. Doktor Öğretim Üyesi 2 Diş Hekimliği Fakültesi (İngilizce) Klinik Bilimler Doktorasını veya Uzmanlığını Ağız, Diş ve Çene Radyolojisi Anabilim Dalında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi (İngilizce) Temel Bilimler Doçentliğini Fizyoloji alanında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Profesör 1 Diş Hekimliği Fakültesi (İngilizce) Temel Bilimler Doçentliğini Patoloji alanında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doçent 1 Diş Hekimliği Fakültesi (İngilizce) Temel Bilimler Doktorasını veya Uzmanlığını Patoloji alanında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 11795/1/1-1",
+      "description": "İstanbul Galata Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin çeşitli bölüm ve programlarında görev yapmak üzere 2547 sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği, İstanbul Galata Üniversitesi Akademik Atama ve Yükseltme Yönergesi ( https://www.galata.edu.tr/mevzuat ) ile Vakıf Yükseköğretim Kurumları Yönetmeliği’nin ilgili maddeleri uyarınca, aşağıda nitelikleri belirtilen kadrolara öğretim üyeleri alınacaktır. Başvuru süresi, ilan tarihinden itibaren 15 gündür. Postayla veya elektronik ortamda yapılan başvurular dikkate alınmayacaktır. Adayların, 6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca, Akademik Personel Adayı Açık Rıza Metnini (Form Müracaat esnasında verilmektedir.) imzalamaları gerekmektedir. Başvurmak istedikleri bölüm ve kadro ünvanının yer aldığı imzalı başvuru dilekçesi, nüfus cüzdanı fotokopisi, Bir adet fotoğraf (Son altı ay içinde çekilmiş), e-Devlet kapısından alınan ikametgâh belgesi, e-Devlet kapısından “Resmi Kuruma” Hitaben Alınacak Adli Sicil ve Arşiv Kaydı Sorgulaması Sonuç Belgesi (Belgede “Adli Sicil Kaydı Yoktur” ve “Adli Sicil Arşiv Kaydı Yoktur” İbaresini Gösterir Olması Gerekmektedir.) YÖK formatlı özgeçmiş, e-Devlet kapısından alınan lisans, yüksek lisans ve doktora (uzmanlık), doçentlik mezuniyet belgeleri, yabancı ülkelerden alınmış diplomalar için YÖK denklik belgesi, İngilizce dil belgesi (YÖKDİL/YDS ya da ÖSYM tarafından eşdeğer kabul edilen yabancı dil sınavı) ile yayın dosyalarını, Profesör kadrosuna müracaat edecek adaylar, 1 adet basılı kopya ve 5 adet dijital kopya (PDF formatında USB Flash Bellek) olarak, Doçent ve Doktor öğretim Üyesi kadrosuna müracaat edecek adaylar, 1 adet basılı kopya ve 3 adet dijital kopya (PDF formatında USB Flash Bellek) olarak başvuru dosyalarını Personel Daire Başkanlığına şahsen elden teslim etmeleri gerekmektedir. Başvuru süresi içinde başvuru yapılmayan, eksik belgeli başvurular dikkate alınmayacak olup, başvuru yapan adaylara eksik evrakları ile ilgili Üniversite tarafından evrakların tamamlanması hususunda geri dönüş sağlanmayacaktır. Bir kişi, birden fazla kadroya başvuramaz. Fakülte Bölüm/Program Aranan Şartlar Kadro Unvanı Kadro Sayısı Diş Hekimliği Fakültesi Klinik Bilimler Doçentliğini Ağız, Diş ve Çene Cerrahisi Anabilim Dalında yapmış olmak. Profesör 1 Diş Hekimliği Fakültesi Klinik Bilimler Uzmanlığını Ağız, Diş ve Çene Cerrahisi Anabilim Dalında yapmış olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi (İngilizce) Klinik Bilimler Doktorasını veya Uzmanlığını Ağız, Diş ve Çene Cerrahisi Anabilim Dalında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi Klinik Bilimler Uzmanlığını Periodontoloji Anabilim Dalında yapmış almış olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi Klinik Bilimler Doktorasını veya Uzmanlığını Restoratif Diş Tedavisi Anabilim Dalında yapmış olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi (İngilizce) Klinik Bilimler Doktorasını veya Uzmanlığını Restoratif Diş Tedavisi Anabilim Dalında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi Klinik Bilimler Uzmanlığını Ortodonti Anabilim Dalında yapmış almış olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi (İngilizce) Klinik Bilimler Doktorasını veya Uzmanlığını Ortodonti Anabilim Dalında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi Klinik Bilimler Doktorasını veya Uzmanlığını Ağız, Diş ve Çene Radyolojisi Anabilim Dalında yapmış olmak. Doktor Öğretim Üyesi 2 Diş Hekimliği Fakültesi (İngilizce) Klinik Bilimler Doktorasını veya Uzmanlığını Ağız, Diş ve Çene Radyolojisi Anabilim Dalında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 Diş Hekimliği Fakültesi (İngilizce) Temel Bilimler Doçentliğini Fizyoloji alanında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Profesör 1 Diş Hekimliği Fakültesi (İngilizce) Temel Bilimler Doçentliğini Patoloji alanında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doçent 1 Diş Hekimliği Fakültesi (İngilizce) Temel Bilimler Doktorasını veya Uzmanlığını Patoloji alanında yapmış olmak. YDS veya eşdeğerliliği YÖK tarafından kabul edilen dil sınavlarından 85 ve üzeri İngilizce dil puanına sahip olmak. Doktor Öğretim Üyesi 1 11795/1/1-1 | İstanbul Galata Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin çeşitli bölüm ve programlarında görev yapmak üzere 2547 sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği, İstanbul Galata Üniversitesi Akademik Atama ve Yükseltme Yönergesi ( https://www.galata.edu.tr/mevzuat ) ile Vakıf Yükseköğretim Kurumları Yönetmeliği’nin ilgili maddeleri uyarınca, aşağıda nitelikleri belirtilen kadrolara öğretim üyeleri alınacaktır. Başvuru süresi, ilan tarihinden itibaren 15 gündür. Postayla veya elektronik ortamda yapılan başvurular dikkate alınmayacaktır. Adayların, 6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca, Akademik Personel Adayı Açık Rıza Metnini (Form Müracaat esnasında verilmektedir.) imzalamaları gerekmektedir. Başvurmak istedikleri bölüm ve kadro ünvanının yer aldığı imzalı başvuru dilekçesi, nüfus cüzdanı fotokopisi, Bir adet fotoğraf (Son altı ay içinde çekilmiş), e-Devlet kapısından alınan ikametgâh belgesi, e-Devlet kapısından “Resmi Kuruma” Hitaben Alınacak Adli Sicil ve Arşiv Kaydı Sorgulaması Sonuç Belgesi (Belgede “Adli Sicil Kaydı Yoktur” ve “Adli Sicil Arşiv Kaydı Yoktur” İ",
       "checked_at": "2026-11-19T09:17:40+00:00",
       "akademik": true,
       "puanlar": {},
@@ -8391,7 +8484,7 @@
       "source_url": "https://www.ilan.gov.tr/ilan/2289988/kamu-akademik-personel-akademik-personel-alimlari-biruni-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
       "source_name": "ilan.gov.tr",
       "employment_type": "Diğer",
-      "description": "Biruni Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemize 2547 Sayılı Yükseköğretim Kanunu'nun Ve Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul Ve Esaslar hakkında Yönetmelik'in İlgili Maddeleri Uyarınca \"Öğretim Elemanı\" Alınacaktır. Başvurular, belirtilen süreler içerisinde, Üniversitemiz İnsan Kaynakları Direktörlüğü'ne şahsen/posta yolu ile yapılabilir. Postadaki gecikmeler, eksik belge ile yapılan veya süresi içinde yapılmayan başvurular dikkate alınmayacaktır. Duyuru Başlama Tarihi : 13.11.2026 Son Başvuru Tarihi : 27.11.2026 Ön Değerlendirme Tarihi : 30.11.2026 Sınav Giriş Tarihi : 02.12.2026 Sonuç Açıklama Tarihi : 04.12.2026 Sonuçların Açıklanacağı İnternet Adresi : www.biruni.edu.tr FAKÜLTE BÖLÜM / PROGRAM ANABİLİM DALI / BİLİMDALI UZMANLIK ALANI / ARANILAN ŞARTLAR KADRO ÜNVANI KADRO SAYISI ALES PUANI YABANCI DİL PUANI ECZACILIK FAKÜLTESİ (İNGİLİZCE) Temel Eczacılık Bilimleri Biyokimya Eczacılık Fakültesi mezunu olmak ve Biyokimya alanında tezli yüksek lisans veya doktora yapıyor olmak. Araştırma Görevlisi 1 SAY-70 85 ECZACILIK FAKÜLTESİ (İNGİLİZCE) Temel Eczacılık Bilimleri Farmasötik Mikrobiyoloji Eczacılık Fakültesi mezunu olmak ve Farmasötik Mikrobiyoloji alanında tezli yüksek lisans veya doktora yapıyor olmak. Araştırma Görevlisi 1 SAY-70 85 EĞİTİM FAKÜLTESİ Temel Eğitim Okul Öncesi Öğretmenliği Okul Öncesi Öğretmenliği alanında lisans mezunu olmak. Araştırma Görevlisi 1 SÖZ-70 85 EĞİTİM FAKÜLTESİ Eğitim Bilimleri Rehberlik ve Psikolojik Danışmanlık Rehberlik ve Psikolojik Danışmanlık alanında lisans mezunu olmak. Araştırma Görevlisi 1 EA-70 85 MESLEKYÜKSEKOKULU Acil Durum ve Afet Yönetimi Afet Eğitimi ve Yönetimi alanında tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 _ MESLEKYÜKSEKOKULU Fizyoterapi Fizyoterapi ve Rehabilitasyon alanında tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 _ MESLEKYÜKSEKOKULU Optisyenlik Optik ve Fotonik Mühendisliği veya Sağlık Yönetimi alanlarından birinde tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 _ MÜHENDİSLİK VE DOĞA BİLİMLERİ FAKÜLTESİ Yazılım Mühendisliği Yazılım Mühendisliği veya Bilgisayar Mühendisliği alanlarından birinde lisans mezunu olmak. Araştırma Görevlisi 1 SAY-70 85 SAĞLIK BİLİMLERİ FAKÜLTESİ Dil ve Konuşma Terapisi (İngilizce) Dil ve Konuşma Terapisi alanında lisans mezunu olmak. Araştırma Görevlisi 1 SAY-70 85 SAĞLIK BİLİMLERİ FAKÜLTESİ Fizyoterapi ve Rehabilitasyon (İngilizce) Fizyoterapi ve Rehabilitasyon alanında lisans mezunu olmak. Araştırma Görevlisi 1 SAY-70 85 UYGULAMALI BİLİMLER FAKÜLTESİ Yazılım Geliştirme Bilgisayar Mühendisliği, Yazılım Mühendisliği, Yapay Zeka ve Veri Bilimi, Bilgisayar Bilimleri, Bilgisayar Eğitimi, Bilgisayar ve Öğretim Teknolojileri, Bilişim Sistemleri, Bilişim Teknolojileri, Bilişim Uygulamaları veya Yönetim Bilişim Sistemleri alanlarından birinden lisans mezunu olmak. Araştırma Görevlisi 1 SAY-70 85 BAŞVURU EVRAKLARI * Başvuru Dilekçesi ve Formu * Özgeçmiş (YÖK Formatında) * T.C. Kimlik Kartı Fotokopisi * Fotoğraf (2 Adet) * ALES Belgesinin Fotokopi veya İnternet Çıktısı * Yabancı Dil Sınav Sonuç Belgesi veya İnternet Çıktısı * Diploma Örnekleri ve Transkript Örneği (Atanmaya hak kazanılması halinde, ilgili belgelerin noter onaylı nüshaları teslim edilmelidir) * Lisansüstü Öğrenimine Devam Edenler İçin Öğrenci Belgesi * Yurt Dışından Diplomalar İçin Yükseköğretim Kurulu Başkanlığınca diploma denkliğinin onaylandığını gösterir belge (Noter Onaylı) * Akademik Personel Aydınlatma Metni * Akademik Personel Adayı Açık Rıza Metni * Evrak Teslim ve Tesellüm Formu * Eksik belge ile yapılan, süresi içinde yapılmayan veya imzasız gönderilen başvurular dikkate alınmayacaktır.",
+      "description": "Biruni Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemize 2547 Sayılı Yükseköğretim Kanunu'nun Ve Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul Ve Esaslar hakkında Yönetmelik'in İlgili Maddeleri Uyarınca \"Öğretim Elemanı\" Alınacaktır. Başvurular, belirtilen süreler içerisinde, Üniversitemiz İnsan Kaynakları Direktörlüğü'ne şahsen/posta yolu ile yapılabilir. Postadaki gecikmeler, eksik belge ile yapılan veya süresi içinde yapılmayan başvurular dikkate alınmayacaktır. Duyuru Başlama Tarihi : 13.11.2026 Son Başvuru Tarihi : 27.11.2026 Ön Değerlendirme Tarihi : 30.11.2026 Sınav Giriş Tarihi : 02.12.2026 Sonuç Açıklama Tarihi : 04.12.2026 Sonuçların Açıklanacağı İnternet Adresi : www.biruni.edu.tr FAKÜLTE BÖLÜM / PROGRAM ANABİLİM DALI / BİLİMDALI UZMANLIK ALANI / ARANILAN ŞARTLAR KADRO ÜNVANI KADRO SAYISI ALES PUANI YABANCI DİL PUANI ECZACILIK FAKÜLTESİ (İNGİLİZCE) Temel Eczacılık Bilimleri Biyokimya Eczacılık Fakültesi mezunu olmak ve Biyokimya alanında tezli yüksek lisans veya doktora yapıyor olmak. Araştırma Görevlisi 1 SAY-70 85 ECZACILIK FAKÜLTESİ (İNGİLİZCE) Temel Eczacılık Bilimleri Farmasötik Mikrobiyoloji Eczacılık Fakültesi mezunu olmak ve Farmasötik Mikrobiyoloji alanında tezli yüksek lisans veya doktora yapıyor olmak. Araştırma Görevlisi 1 SAY-70 85 EĞİTİM FAKÜLTESİ Temel Eğitim Okul Öncesi Öğretmenliği Okul Öncesi Öğretmenliği alanında lisans mezunu olmak. Araştırma Görevlisi 1 SÖZ-70 85 EĞİTİM FAKÜLTESİ Eğitim Bilimleri Rehberlik ve Psikolojik Danışmanlık Rehberlik ve Psikolojik Danışmanlık alanında lisans mezunu olmak. Araştırma Görevlisi 1 EA-70 85 MESLEKYÜKSEKOKULU Acil Durum ve Afet Yönetimi Afet Eğitimi ve Yönetimi alanında tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 _ MESLEKYÜKSEKOKULU Fizyoterapi Fizyoterapi ve Rehabilitasyon alanında tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 _ MESLEKYÜKSEKOKULU Optisyenlik Optik ve Fotonik Mühendisliği veya Sağlık Yönetimi alanlarından birinde tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 _ MÜHENDİSLİK VE DOĞA BİLİMLERİ FAKÜLTESİ Yazılım Mühendisliği Yazılım Mühendisliği veya Bilgisayar Mühendisliği alanlarından birinde lisans mezunu olmak. Araştırma Görevlisi 1 SAY-70 85 SAĞLIK BİLİMLERİ FAKÜLTESİ Dil ve Konuşma Terapisi (İngilizce) Dil ve Konuşma Terapisi alanında lisans mezunu olmak. Araştırma Görevlisi 1 SAY-70 85 SAĞLIK BİLİMLERİ FAKÜLTESİ Fizyoterapi ve Rehabilitasyon (İngilizce) Fizyoterapi ve Rehabilitasyon alanında lisans mezunu olmak. Araştırma Görevlisi 1 SAY-70 85 UYGULAMALI BİLİMLER FAKÜLTESİ Yazılım Geliştirme Bilgisayar Mühendisliği, Yazılım Mühendisliği, Yapay Zeka ve Veri Bilimi, Bilgisayar Bilimleri, Bilgisayar Eğitimi, Bilgisayar ve Öğretim Teknolojileri, Bilişim Sistemleri, Bilişim Teknolojileri, Bilişim Uygulamaları veya Yönetim Bilişim Sistemleri alanlarından birinden lisans mezunu olmak. Araştırma Görevlisi 1 SAY-70 85 BAŞVURU EVRAKLARI * Başvuru Dilekçesi ve Formu * Özgeçmiş (YÖK Formatında) * T.C. Kimlik Kartı Fotokopisi * Fotoğraf (2 Adet) * ALES Belgesinin Fotokopi veya İnternet Çıktısı * Yabancı Dil Sınav Sonuç Belgesi veya İnternet Çıktısı * Diploma Örnekleri ve Transkript Örneği (Atanmaya hak kazanılması halinde, ilgili belgelerin noter onaylı nüshaları teslim edilmelidir) * Lisansüstü Öğrenimine Devam Edenler İçin Öğrenci Belgesi * Yurt Dışından Diplomalar İçin Yükseköğretim Kurulu Başkanlığınca diploma denkliğinin onaylandığını gösterir belge (Noter Onaylı) * Akademik Personel Aydınlatma Metni * Akademik Personel Adayı Açık Rıza Metni * Evrak Teslim ve Tesellüm Formu * Eksik belge ile yapılan, süresi içinde yapılmayan veya imzasız gönderilen başvurular dikkate alınmayacaktır. | Biruni Üniversitesi Rektörlüğünden ÖĞRETİM ELEMANI ALIM İLANI Üniversitemize 2547 Sayılı Yükseköğretim Kanunu'nun Ve Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul Ve Esaslar hakkında Yönetmelik'in İlgili Maddeleri Uyarınca \"Öğretim Elemanı\" Alınacaktır. Başvurular, belirtilen süreler içerisinde, Üniversitemiz İnsan Kaynakları Direktörlüğü'ne şahsen/posta yolu ile yapılabilir. Postadaki gecikmeler, eksik belge ile yapılan veya süresi içinde yapılmayan başvurular dikkate alınmayacaktır. Duyuru Başlama Tarihi : 13.11.2026 Son Başvuru Tarihi : 27.11.2026 Ön Değerlendirme Tarihi : 30.11.2026 Sınav Giriş Tarihi : 02.12.2026 Sonuç Açıklama Tarihi : 04.12.2026 Sonuçların Açıklanacağı İnternet Adresi : www.biruni.edu.tr FAKÜLTE BÖLÜM / PROGRAM ANABİLİM DALI / BİLİMDALI UZMANLIK ALANI / ARANILAN ŞARTLAR KADRO ÜNVANI KADRO SAYISI ALES PUANI YABANCI DİL PUANI ECZACILIK FAKÜLTESİ (İNGİLİZCE) Temel Eczacılık Bilimleri Biyokimya Eczacılık Fakültesi mezunu olmak ve Biyokimya alanında tezli yüksek lisans veya doktora yapıyor olmak. Araştırma Görevlisi 1 SAY-70 85 ECZACILIK FAKÜLTESİ (İNGİLİZCE) Temel Eczacılık Bilimleri Farmasötik Mikrobiyoloji Eczacılık Fakültesi mezunu olmak ve Farmasötik Mikrobiyoloji alanında tezli yüksek lisans veya doktora yapıyor olmak. Araştırma Görevlisi 1 SAY-70 85 EĞİTİM FAKÜLTESİ Temel Eğitim Okul Öncesi Öğretmenliği Okul Öncesi Öğretmenliği alanında lisans mezunu olmak. Araştırma Görevlisi 1 SÖZ-70 85 EĞİTİM FAKÜLTESİ Eğitim Bilimleri Rehberlik ve Psikolojik Danışmanlık Rehberlik ve Psikolojik Danışmanlık alanında lisans mezunu olmak. Araştırma Görevlisi 1 EA-70 85 MESLEKYÜKSEKOKULU Acil Durum ve Afet Yönetimi Afet Eğitimi ve Yönetimi alanında tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 _ MESLEKYÜKSEKOKULU Fizyoterapi Fizyoterapi ve Rehabilitasyon alanında tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 _ MESLEKYÜKSEKOKULU Optisyenlik Optik ve Fotonik Mühendisliği veya Sağlık Yönetimi alanlarından birinde tezli yüksek lisans mezunu olmak. Öğretim Görevlisi 1 SAY-70 _ MÜHENDİSLİK VE DOĞA BİLİMLERİ FAKÜLTESİ Yazılım Mühendisliği Yazılım Mühendisliği v",
       "checked_at": "2026-11-19T09:18:04+00:00",
       "akademik": true,
       "puanlar": {},
@@ -8776,7 +8869,7 @@
       "source_url": "https://www.ilan.gov.tr/ilan/2280947/kamu-akademik-personel-akademik-personel-alimlari-erzurum-teknik-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
       "source_name": "ilan.gov.tr",
       "employment_type": "Memur",
-      "description": "Erzurum Teknik Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemize aşağıda ünvanı, derecesi ve nitelikleri belirtilen kadrolara; 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri ile bu Kanun’a dayanılarak Yükseköğretim Kurulu Başkanlığınca yayınlanan Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca, Erzurum Teknik Üniversitesi Öğretim Üyesi Kadrolarına Atama ve Yükseltme Kriterleri’nde belirtilen şartları sağlamış olmak koşuluyla öğretim üyesi alınacaktır. Başvuru Şartları: • Profesör kadroları daimi statüdedir. Profesör kadrosuna müracaat eden adayların https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilecekleri başvuru formunu doldurmaları ayrıca başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine özgeçmişlerini, Doçentlik belgesinin resmi kurumlardan alınan onaylı örneğini, vesikalık fotoğrafını, nüfus cüzdanının fotokopisini, yabancı dil belgesini, bilimsel çalışma ile yayınlarını ve bu yayınlara yapılan atıfların listelerini, eğitim-öğretim faaliyetlerini, yönetimlerinde biten ve devam eden yüksek lisans ve doktora çalışmalarının listelerini içeren dosyaya Öğretim Üyeliğine Atama ve Yükseltme Kriterlerine göre word formatında hazırlanmış puan cetvelini ekleyip, elektronik başvuru dosyasını oluşturacaklardır. Adaylar, başvurularında yayınlarından birini başlıca araştırma eseri olarak gösterecekler. Adayların, doçentlik ünvanını aldıktan sonra en az beş yıl, açık bulunan profesörlük kadrosu ile ilgili bilim alanında çalışmış olduklarını belgelendirmeleri gerekmektedir. • Doçent kadroları daimi statüdedir. Doçent kadrosuna müracaat eden adayların https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilecekleri başvuru formunu doldurmaları, ayrıca başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine; özgeçmişlerini, doçentlik belgesinin onaylı örneğini, vesikalık fotoğrafını, nüfus cüzdanının fotokopisini, yabancı dil belgesini, bilimsel çalışma ve yayınlarını, eğitim-öğretim faaliyetlerini ve yönetimlerinde biten ve devam eden yüksek lisans ve doktora çalışmalarının listelerini içeren dosyaya Öğretim Üyeliğine Atama ve Yükseltme Kriterlerine göre word formatında hazırlanmış puan cetvelini ekleyip, elektronik başvuru dosyasını oluşturacaklardır. • Doktor Öğretim Üyesi kadroları için müracaat edecek adayların, başvuru formuna https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilir. Başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine; ",
+      "description": "Erzurum Teknik Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemize aşağıda ünvanı, derecesi ve nitelikleri belirtilen kadrolara; 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri ile bu Kanun’a dayanılarak Yükseköğretim Kurulu Başkanlığınca yayınlanan Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca, Erzurum Teknik Üniversitesi Öğretim Üyesi Kadrolarına Atama ve Yükseltme Kriterleri’nde belirtilen şartları sağlamış olmak koşuluyla öğretim üyesi alınacaktır. Başvuru Şartları: • Profesör kadroları daimi statüdedir. Profesör kadrosuna müracaat eden adayların https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilecekleri başvuru formunu doldurmaları ayrıca başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine özgeçmişlerini, Doçentlik belgesinin resmi kurumlardan alınan onaylı örneğini, vesikalık fotoğrafını, nüfus cüzdanının fotokopisini, yabancı dil belgesini, bilimsel çalışma ile yayınlarını ve bu yayınlara yapılan atıfların listelerini, eğitim-öğretim faaliyetlerini, yönetimlerinde biten ve devam eden yüksek lisans ve doktora çalışmalarının listelerini içeren dosyaya Öğretim Üyeliğine Atama ve Yükseltme Kriterlerine göre word formatında hazırlanmış puan cetvelini ekleyip, elektronik başvuru dosyasını oluşturacaklardır. Adaylar, başvurularında yayınlarından birini başlıca araştırma eseri olarak gösterecekler. Adayların, doçentlik ünvanını aldıktan sonra en az beş yıl, açık bulunan profesörlük kadrosu ile ilgili bilim alanında çalışmış olduklarını belgelendirmeleri gerekmektedir. • Doçent kadroları daimi statüdedir. Doçent kadrosuna müracaat eden adayların https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilecekleri başvuru formunu doldurmaları, ayrıca başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine; özgeçmişlerini, doçentlik belgesinin onaylı örneğini, vesikalık fotoğrafını, nüfus cüzdanının fotokopisini, yabancı dil belgesini, bilimsel çalışma ve yayınlarını, eğitim-öğretim faaliyetlerini ve yönetimlerinde biten ve devam eden yüksek lisans ve doktora çalışmalarının listelerini içeren dosyaya Öğretim Üyeliğine Atama ve Yükseltme Kriterlerine göre word formatında hazırlanmış puan cetvelini ekleyip, elektronik başvuru dosyasını oluşturacaklardır. • Doktor Öğretim Üyesi kadroları için müracaat edecek adayların, başvuru formuna https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilir. Başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine;  | \n",
       "checked_at": "2026-11-19T09:19:16+00:00",
       "akademik": true,
       "puanlar": {},
@@ -8889,7 +8982,7 @@
       "source_url": "https://www.ilan.gov.tr/ilan/2299720/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
       "source_name": "ilan.gov.tr",
       "employment_type": "Diğer",
-      "description": "Özyeğin Üniversitesi Rektörlüğünden: ÖĞRETİM ELEMANI ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimlerine, 2547 sayılı Yükseköğretim Kanunu’nun 31. maddesi ile Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliği’nin ilgili maddelerine göre Öğretim Elemanları alınacaktır. Başvuracak adayların, 09.11.2018 tarih ve 30590 sayılı Resmî Gazete ’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” kapsamındaki koşulları taşıması ve istenen belgeleri tamamlaması gerekmektedir. Vakıf yükseköğretim kurumlarının öğretim elemanı ve idari personel istihdamında 7315 sayılı Kanun kapsamında arşiv araştırması ve/veya güvenlik soruşturması yaptırması gerekmektedir. İlan sonucunda başarılı olan adaylar arşiv araştırması süreci başlatılacak ve araştırma olumlu sonuçlandığında atama gerçekleştirilebilecektir. Başvuru İçin İstenen Belgeler: 1. Başvuru dilekçesi (serbest formatta fakülte, bölüm ve unvan bilgisi yer alacak şekilde olmalıdır) 2. Özgeçmiş ya da YÖK Formatlı Özgeçmiş (Dört A4 sayfayı geçmemelidir ve varsa en az bir referans e-posta ve iletişim bilgileri ile belirtilmelidir.) 3. Nüfus Cüzdanı Fotokopisi 4. Öğrenim Belgeleri (Lisans Diploması, Lisans Transkript Belgesi (Diplomaların yerine e-Devlet Yükseköğretim Kurulu Başkanlığından alınan mezun belgeleri de kabul edilir. Nihai değerlendirme aşamasında Lisans Eğitimi ile ilgili GPA notu için e-Devlet lisans mezuniyet belgesi mezuniyet notu esas alınır.) Tezli Yüksek Lisans diploması ve Doktora Diploması (Yabancı ülkelerden alınan diplomaların denkliğinin onaylanmış olması, denklik belgesinin ibrazı gerekmektedir.) 5. ALES Belgesinin Fotokopisi (Belgenin kontrol kodlu ve barkodlu olması gerekmektedir.): Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkındaki Yönetmelik'in \"MUAFİYET\" başlıklı 14'üncü maddesinin 1'inci fıkrasında; \" Doktora veya tıpta, diş hekimliğinde, eczacılıkta ve veteriner hekimlikte uzmanlık ya da sanatta yeterlik eğitimini tamamlamış olanlarda, meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanlarına atanacak olanlarda, yükseköğretim kurumlarında öğretim elemanı kadrolarında çalışmış veya çalışmakta olanlarda merkezi sınav şartı aranmaz.\" hükmüne dayanarak ALES merkezi sınav muafiyetinden yararlanmayı talep edecek olan adayların, bu konuda dilekçe yazarak başvuru belgeleri ile iletmeleri gerekmektedir. 6. YDS ve dengi Yabancı Dil Belgeleri fotokopileri (Belgenin kontrol kodlu ve barkodlu olması gerekmektedir.) 7. Adli Sicil Kaydı Belgesi (e-Devletten alınan belgeler geçerlidir.) 8. Varsa yayınların kopyası 9. Erkek adayların askerlikle ilişiğinin olmadığına dair terhis veya muaf olduğunu gösterir belge. İlana ilişkin takvim aşağıdaki tabloda verilmiştir. Takvime oradan ulaşılması beklenmektedir. Adayların son başvuru tarihi mesai bitimine kadar (saat 17.00’a) yukarıda belirtilen evrakları e-posta yoluyla, ik@ozyegin.edu.tr adresine ulaştırmaları gerekmektedir: Başvuru dosyasında talep edilen belgelerin güncel olması gerekmektedir. Güncel olmayan ve eksik belge ile yapılan başvurular değerlendirmeye alınmaz ve başvuran kişi bundan doğan bir hak iddia edemez. Postayla ya da şahsen yapılan müracaatlar kabul edilmeyecektir. Ön değerlendirme sonuçları ve kesin sonuçlar Üniversitemizin web adresinde ( https://www.ozyegin.edu.tr ) yayınlanacak olup tebligat niteliğinde olacaktır. Ayrıca tebligat yapılmayacaktır. Fakülte Bölüm / Anabilim Dalı Ünvan Sayı Aranan Şartlar ALES Puanı YDS / Eş Değeri İlan Takvimi Sosyal Bilimler Fakültesi İnsan ve Toplum Bilimleri Öğretim Görevlisi (Ders Verecek) 1 Psikoloji veya Psikolojik Danışmanlık alanında Yüksek Lisans derecesine sahip olmak, İngilizce Eğitim veren Öğrenme Bilimleri alanında doktora derecesine sahip olmak. 70 (SÖZ) 85 İlan Başlangıç Tarihi: 23.11.2026 İlan Bitiş Tarihi: 08.12.2026 Ön Değerlendirme Tarihi: 10.12.2026 Sınav Giriş Tarihi: 18.12.2026 Sonuç Açıklama Tarihi: 22.12.2026 Duyurulur. 11927/2/1-1",
+      "description": "Özyeğin Üniversitesi Rektörlüğünden: ÖĞRETİM ELEMANI ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimlerine, 2547 sayılı Yükseköğretim Kanunu’nun 31. maddesi ile Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliği’nin ilgili maddelerine göre Öğretim Elemanları alınacaktır. Başvuracak adayların, 09.11.2018 tarih ve 30590 sayılı Resmî Gazete ’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” kapsamındaki koşulları taşıması ve istenen belgeleri tamamlaması gerekmektedir. Vakıf yükseköğretim kurumlarının öğretim elemanı ve idari personel istihdamında 7315 sayılı Kanun kapsamında arşiv araştırması ve/veya güvenlik soruşturması yaptırması gerekmektedir. İlan sonucunda başarılı olan adaylar arşiv araştırması süreci başlatılacak ve araştırma olumlu sonuçlandığında atama gerçekleştirilebilecektir. Başvuru İçin İstenen Belgeler: 1. Başvuru dilekçesi (serbest formatta fakülte, bölüm ve unvan bilgisi yer alacak şekilde olmalıdır) 2. Özgeçmiş ya da YÖK Formatlı Özgeçmiş (Dört A4 sayfayı geçmemelidir ve varsa en az bir referans e-posta ve iletişim bilgileri ile belirtilmelidir.) 3. Nüfus Cüzdanı Fotokopisi 4. Öğrenim Belgeleri (Lisans Diploması, Lisans Transkript Belgesi (Diplomaların yerine e-Devlet Yükseköğretim Kurulu Başkanlığından alınan mezun belgeleri de kabul edilir. Nihai değerlendirme aşamasında Lisans Eğitimi ile ilgili GPA notu için e-Devlet lisans mezuniyet belgesi mezuniyet notu esas alınır.) Tezli Yüksek Lisans diploması ve Doktora Diploması (Yabancı ülkelerden alınan diplomaların denkliğinin onaylanmış olması, denklik belgesinin ibrazı gerekmektedir.) 5. ALES Belgesinin Fotokopisi (Belgenin kontrol kodlu ve barkodlu olması gerekmektedir.): Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkındaki Yönetmelik'in \"MUAFİYET\" başlıklı 14'üncü maddesinin 1'inci fıkrasında; \" Doktora veya tıpta, diş hekimliğinde, eczacılıkta ve veteriner hekimlikte uzmanlık ya da sanatta yeterlik eğitimini tamamlamış olanlarda, meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanlarına atanacak olanlarda, yükseköğretim kurumlarında öğretim elemanı kadrolarında çalışmış veya çalışmakta olanlarda merkezi sınav şartı aranmaz.\" hükmüne dayanarak ALES merkezi sınav muafiyetinden yararlanmayı talep edecek olan adayların, bu konuda dilekçe yazarak başvuru belgeleri ile iletmeleri gerekmektedir. 6. YDS ve dengi Yabancı Dil Belgeleri fotokopileri (Belgenin kontrol kodlu ve barkodlu olması gerekmektedir.) 7. Adli Sicil Kaydı Belgesi (e-Devletten alınan belgeler geçerlidir.) 8. Varsa yayınların kopyası 9. Erkek adayların askerlikle ilişiğinin olmadığına dair terhis veya muaf olduğunu gösterir belge. İlana ilişkin takvim aşağıdaki tabloda verilmiştir. Takvime oradan ulaşılması beklenmektedir. Adayların son başvuru tarihi mesai bitimine kadar (saat 17.00’a) yukarıda belirtilen evrakları e-posta yoluyla, ik@ozyegin.edu.tr adresine ulaştırmaları gerekmektedir: Başvuru dosyasında talep edilen belgelerin güncel olması gerekmektedir. Güncel olmayan ve eksik belge ile yapılan başvurular değerlendirmeye alınmaz ve başvuran kişi bundan doğan bir hak iddia edemez. Postayla ya da şahsen yapılan müracaatlar kabul edilmeyecektir. Ön değerlendirme sonuçları ve kesin sonuçlar Üniversitemizin web adresinde ( https://www.ozyegin.edu.tr ) yayınlanacak olup tebligat niteliğinde olacaktır. Ayrıca tebligat yapılmayacaktır. Fakülte Bölüm / Anabilim Dalı Ünvan Sayı Aranan Şartlar ALES Puanı YDS / Eş Değeri İlan Takvimi Sosyal Bilimler Fakültesi İnsan ve Toplum Bilimleri Öğretim Görevlisi (Ders Verecek) 1 Psikoloji veya Psikolojik Danışmanlık alanında Yüksek Lisans derecesine sahip olmak, İngilizce Eğitim veren Öğrenme Bilimleri alanında doktora derecesine sahip olmak. 70 (SÖZ) 85 İlan Başlangıç Tarihi: 23.11.2026 İlan Bitiş Tarihi: 08.12.2026 Ön Değerlendirme Tarihi: 10.12.2026 Sınav Giriş Tarihi: 18.12.2026 Sonuç Açıklama Tarihi: 22.12.2026 Duyurulur. 11927/2/1-1 | Özyeğin Üniversitesi Rektörlüğünden: ÖĞRETİM ELEMANI ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimlerine, 2547 sayılı Yükseköğretim Kanunu’nun 31. maddesi ile Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliği’nin ilgili maddelerine göre Öğretim Elemanları alınacaktır. Başvuracak adayların, 09.11.2018 tarih ve 30590 sayılı Resmî Gazete ’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” kapsamındaki koşulları taşıması ve istenen belgeleri tamamlaması gerekmektedir. Vakıf yükseköğretim kurumlarının öğretim elemanı ve idari personel istihdamında 7315 sayılı Kanun kapsamında arşiv araştırması ve/veya güvenlik soruşturması yaptırması gerekmektedir. İlan sonucunda başarılı olan adaylar arşiv araştırması süreci başlatılacak ve araştırma olumlu sonuçlandığında atama gerçekleştirilebilecektir. Başvuru İçin İstenen Belgeler: 1. Başvuru dilekçesi (serbest formatta fakülte, bölüm ve unvan bilgisi yer alacak şekilde olmalıdır) 2. Özgeçmiş ya da YÖK Formatlı Özgeçmiş (Dört A4 sayfayı geçmemelidir ve varsa en az bir referans e-posta ve iletişim bilgileri ile belirtilmelidir.) 3. Nüfus Cüzdanı Fotokopisi 4. Öğrenim Belgeleri (Lisans Diploması, Lisans Transkript Belgesi (Diplomaların yerine e-Devlet Yükseköğretim Kurulu Başkanlığından alınan mezun belgeleri de kabul edilir. Nihai değerlendirme aşamasında Lisans Eğitimi ile ilgili GPA notu için e-Devlet lisans mezuniyet belgesi mezuniyet notu esas alınır.) Tezli Yüksek Lisans diploması ve Doktora Diploması (Yabancı ü",
       "checked_at": "2026-11-23T07:31:00+00:00",
       "puanlar": {},
       "akademik": true,
@@ -8950,7 +9043,7 @@
       "source_url": "https://www.ilan.gov.tr/ilan/2304212/kamu-akademik-personel-akademik-personel-alimlari-istanbul-beykent-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
       "source_name": "ilan.gov.tr",
       "employment_type": "Diğer",
-      "description": "İstanbul Beykent Üniversitesi Rektörlüğünden ÖĞRETİM GÖREVLİSİ ALIM İLANI Üniversitemizin aşağıda belirtilen Fakülte/Yüksekokul, 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri ile 09.11.2018 tarih ve 30590 sayılı Resmi Gazete’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri uyarınca 2 Öğretim Görevlisi alınacaktır. Duyurulur. Fakülte / Yüksekokul Bölüm / Program Kadro Sayısı Kadro Unvanı Özel Koşullar ALES/YDS Eş Değeri Puanı ALES Puan Türü Rektörlük - 2 Öğretim Görevlisi İstanbul Beykent Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi (IBU-TÖMER) bünyesinde görevlendirilmek üzere; üniversitelerin Türkçe Öğretmenliği, Türk Dili ve Edebiyatı Öğretmenliği veya Türk Dili ve Edebiyatı lisans programlarından birinden mezun olmak; söz konusu alanlardan birinde veya Yabancı Dil Olarak Türkçe Öğretimi alanında tezli yüksek lisans derecesine sahip olmak; pedagojik formasyon eğitimi sertifikasına sahip olmak (Türkçe Öğretmenliği ve Türk Dili ve Edebiyatı öğretmenliği lisans programlarından mezun olan adaylarda bu şart aranmaz); Yabancı Dil Olarak Türkçe Öğretimi Sertifikası'na sahip olmak (Yabancı Dil Olarak Türkçe Öğretimi alanında tezli yüksek lisans derecesine sahip olan adaylarda bu şart aranmaz); yükseköğretim kurumlarına bağlı Türkçe öğretim merkezlerinde veya ilgili akademik birimlerde en az iki (2) akademik dönem yabancı dil olarak Türkçe dersleri vermiş olmak ve bu deneyimi resmî belgelerle belgelendirmek. ALES: 70 YDS: 50 SÖZ BAŞVURU VE SINAV TAKVİMİ Duyuru Başlangıç Tarihi : 26.11.2026 Son Başvuru Tarihi : 10.12.2026 Ön Değerlendirme Sonuçlarının İlanı : 15.12.2026 Yazılı Sınav Tarihi : 17.12.2026 Nihai Değerlendirme Tarihi : 25.12.2026 Başvurular Yazı İşleri Müdürlüğü’ne şahsen ve/veya posta yoluyla yapılmalıdır. Süresi içerisinde yapılmayan ya da eksik belgeli başvurular işleme alınmayacak olup, posta ile yapılan başvuruların son başvuru tarihine kadar ulaşmış olması gerekmektedir. Postada yaşanan gecikmeler dikkate alınmayacaktır. Adayların yukarıda belirtilen genel koşullara ek olarak tabloda yer alan özel koşulları da sağlamaları gerekmektedir. Belirtilen şartları taşımayan ve alan dışı olan başvurular dikkate alınmayacaktır. İSTENEN BELGELER 1. İstanbul Beykent Üniversitesi Rektörlüğüne hitaben yazılmış, başvurulan kadroyu ve iletişim bilgilerini içeren ıslak imzalı başvuru dilekçesi, 2. YÖK formatlı özgeçmiş, 3. Nüfus Cüzdanı Fotokopisi, 4. 2 Adet fotoğraf (son altı ay içinde çekilmiş olmalı), 5. Adli Sicil Kaydı Belgesi (e-Devlet üzerinden alınan belge), 6. Lisans /Yüksek Lisans /Doktora Diploması onaylı örneği (Diploma Yurt Dışından Alınmış İse YÖK Denklik Belgesi) (e-Devlet üzerinden alınan belge) 7. Lisans Transkript belgesinin aslı ya da onaylı örneği (e-Devlet üzerinden alınan belge), 8. ALES Belgesi, 9. Yabancı Dil Belgesi, 10. ALES muafiyeti için, görev yapılan yükseköğretim kurumlarından alınacak hizmet belgesi ve atama olur yazısı, 11. Öğrenci olanlardan Lisansüstü Eğitim gördüğüne dair öğrenci belgesi (e-Devlet üzerinden alınan belge), 12. Deneyim şartını sağladığını gösterir hizmet belgesi, 13. Erkek adaylar için askerlikle ilgili terhis, tecil veya muaf olduğunu belirten belge (e-Devlet üzerinden alınan belge), 14. 6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metni. Ön Değerlendirme Sonuçları ve Nihai değerlendirme Sonuçları Üniversitemizin www.beykent.edu.tr web adresinde yayınlanacak olup, bu aynı zamanda tebligat niteliğinde olacaktır. Ayrıca tebligat yapılmayacaktır. Aday Başvuruları: İstanbul Beykent Üniversitesi Beylikdüzü Yerleşkesi Beylikdüzü Rektörlük Binası Cumhuriyet Mahallesi, Lise Sokak No:5 Beykent, Büyükçekmece/ İstanbul Not: 6698 sayılı Kişisel Verilerin Korunması Mevzuatı uyarınca hazırlanan Aydınlatma Metnine https://www.beykent.edu.tr/beykent-hakkinda/kisisel-verilerin- korunmasi/kvk-mevzuat-uyarinca-akademik-personel-adayi-aydinlatma-metni linkinden erişim sağlanabilmektedir. 6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metnine https://www.beykent.edu.tr/beykent-hakkinda/kisisel- verilerin-korunmasi/kvk-mevzuat-uyarinca-akademik-personel-adayi-acik-riza-metni linkinden erişim sağlanabilmektedir. Duyurulur. İLGİLİ BİRİM TELEFON / DAHİLİ MAİL ADRESİ Rektörlük 444 1997 / 6424 yaziisleri@beykent.edu.tr",
+      "description": "İstanbul Beykent Üniversitesi Rektörlüğünden ÖĞRETİM GÖREVLİSİ ALIM İLANI Üniversitemizin aşağıda belirtilen Fakülte/Yüksekokul, 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri ile 09.11.2018 tarih ve 30590 sayılı Resmi Gazete’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri uyarınca 2 Öğretim Görevlisi alınacaktır. Duyurulur. Fakülte / Yüksekokul Bölüm / Program Kadro Sayısı Kadro Unvanı Özel Koşullar ALES/YDS Eş Değeri Puanı ALES Puan Türü Rektörlük - 2 Öğretim Görevlisi İstanbul Beykent Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi (IBU-TÖMER) bünyesinde görevlendirilmek üzere; üniversitelerin Türkçe Öğretmenliği, Türk Dili ve Edebiyatı Öğretmenliği veya Türk Dili ve Edebiyatı lisans programlarından birinden mezun olmak; söz konusu alanlardan birinde veya Yabancı Dil Olarak Türkçe Öğretimi alanında tezli yüksek lisans derecesine sahip olmak; pedagojik formasyon eğitimi sertifikasına sahip olmak (Türkçe Öğretmenliği ve Türk Dili ve Edebiyatı öğretmenliği lisans programlarından mezun olan adaylarda bu şart aranmaz); Yabancı Dil Olarak Türkçe Öğretimi Sertifikası'na sahip olmak (Yabancı Dil Olarak Türkçe Öğretimi alanında tezli yüksek lisans derecesine sahip olan adaylarda bu şart aranmaz); yükseköğretim kurumlarına bağlı Türkçe öğretim merkezlerinde veya ilgili akademik birimlerde en az iki (2) akademik dönem yabancı dil olarak Türkçe dersleri vermiş olmak ve bu deneyimi resmî belgelerle belgelendirmek. ALES: 70 YDS: 50 SÖZ BAŞVURU VE SINAV TAKVİMİ Duyuru Başlangıç Tarihi : 26.11.2026 Son Başvuru Tarihi : 10.12.2026 Ön Değerlendirme Sonuçlarının İlanı : 15.12.2026 Yazılı Sınav Tarihi : 17.12.2026 Nihai Değerlendirme Tarihi : 25.12.2026 Başvurular Yazı İşleri Müdürlüğü’ne şahsen ve/veya posta yoluyla yapılmalıdır. Süresi içerisinde yapılmayan ya da eksik belgeli başvurular işleme alınmayacak olup, posta ile yapılan başvuruların son başvuru tarihine kadar ulaşmış olması gerekmektedir. Postada yaşanan gecikmeler dikkate alınmayacaktır. Adayların yukarıda belirtilen genel koşullara ek olarak tabloda yer alan özel koşulları da sağlamaları gerekmektedir. Belirtilen şartları taşımayan ve alan dışı olan başvurular dikkate alınmayacaktır. İSTENEN BELGELER 1. İstanbul Beykent Üniversitesi Rektörlüğüne hitaben yazılmış, başvurulan kadroyu ve iletişim bilgilerini içeren ıslak imzalı başvuru dilekçesi, 2. YÖK formatlı özgeçmiş, 3. Nüfus Cüzdanı Fotokopisi, 4. 2 Adet fotoğraf (son altı ay içinde çekilmiş olmalı), 5. Adli Sicil Kaydı Belgesi (e-Devlet üzerinden alınan belge), 6. Lisans /Yüksek Lisans /Doktora Diploması onaylı örneği (Diploma Yurt Dışından Alınmış İse YÖK Denklik Belgesi) (e-Devlet üzerinden alınan belge) 7. Lisans Transkript belgesinin aslı ya da onaylı örneği (e-Devlet üzerinden alınan belge), 8. ALES Belgesi, 9. Yabancı Dil Belgesi, 10. ALES muafiyeti için, görev yapılan yükseköğretim kurumlarından alınacak hizmet belgesi ve atama olur yazısı, 11. Öğrenci olanlardan Lisansüstü Eğitim gördüğüne dair öğrenci belgesi (e-Devlet üzerinden alınan belge), 12. Deneyim şartını sağladığını gösterir hizmet belgesi, 13. Erkek adaylar için askerlikle ilgili terhis, tecil veya muaf olduğunu belirten belge (e-Devlet üzerinden alınan belge), 14. 6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metni. Ön Değerlendirme Sonuçları ve Nihai değerlendirme Sonuçları Üniversitemizin www.beykent.edu.tr web adresinde yayınlanacak olup, bu aynı zamanda tebligat niteliğinde olacaktır. Ayrıca tebligat yapılmayacaktır. Aday Başvuruları: İstanbul Beykent Üniversitesi Beylikdüzü Yerleşkesi Beylikdüzü Rektörlük Binası Cumhuriyet Mahallesi, Lise Sokak No:5 Beykent, Büyükçekmece/ İstanbul Not: 6698 sayılı Kişisel Verilerin Korunması Mevzuatı uyarınca hazırlanan Aydınlatma Metnine https://www.beykent.edu.tr/beykent-hakkinda/kisisel-verilerin- korunmasi/kvk-mevzuat-uyarinca-akademik-personel-adayi-aydinlatma-metni linkinden erişim sağlanabilmektedir. 6698 sayılı Kişisel Verilerin Korunması Mevzuatı Uyarınca Akademik Personel Adayı Açık Rıza Metnine https://www.beykent.edu.tr/beykent-hakkinda/kisisel- verilerin-korunmasi/kvk-mevzuat-uyarinca-akademik-personel-adayi-acik-riza-metni linkinden erişim sağlanabilmektedir. Duyurulur. İLGİLİ BİRİM TELEFON / DAHİLİ MAİL ADRESİ Rektörlük 444 1997 / 6424 yaziisleri@beykent.edu.tr | İstanbul Beykent Üniversitesi Rektörlüğünden ÖĞRETİM GÖREVLİSİ ALIM İLANI Üniversitemizin aşağıda belirtilen Fakülte/Yüksekokul, 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri ile 09.11.2018 tarih ve 30590 sayılı Resmi Gazete’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri uyarınca 2 Öğretim Görevlisi alınacaktır. Duyurulur. Fakülte / Yüksekokul Bölüm / Program Kadro Sayısı Kadro Unvanı Özel Koşullar ALES/YDS Eş Değeri Puanı ALES Puan Türü Rektörlük - 2 Öğretim Görevlisi İstanbul Beykent Üniversitesi Türkçe Öğretimi Uygulama ve Araştırma Merkezi (IBU-TÖMER) bünyesinde görevlendirilmek üzere; üniversitelerin Türkçe Öğretmenliği, Türk Dili ve Edebiyatı Öğretmenliği veya Türk Dili ve Edebiyatı lisans programlarından birinden mezun olmak; söz konusu alanlardan birinde veya Yabancı Dil Olarak Türkçe Öğretimi alanında tezli yüksek lisans derecesine sahip olmak; pedagojik formasyon eğitimi sertifikasına sahip olmak (Türkçe Öğretmenliği ve Türk Dili ve Edebiyatı öğretmenliği lisans programlarından mezun olan adaylarda bu şart aranmaz); Yabancı Dil Olarak Türkçe Öğretimi Sertifikası'na sahip olmak (Yabancı Dil Olarak Türkçe Öğretimi alanında tezli yüksek lisans derecesine sahip olan adaylarda bu şart aranmaz); yükseköğretim kurumlarına bağlı Türkçe öğretim merkezlerinde veya ilgili akademik birimlerde en az iki (2) akademik dönem yabancı dil olarak Türkçe dersleri",
       "checked_at": "2026-11-26T06:15:58+00:00",
       "puanlar": {},
       "akademik": true,
@@ -9255,8 +9348,8 @@
       ],
       "diger_kaynaklar": [],
       "ai": {
-        "ozet": "Sosyal Guvenlik Kurumu Baskanligi, belirtilmemis sayida Sosyal Guvenlik Denetmen Yardimcisi alimi yapacagini duyurmustur.",
-        "bolum": "Hukuk, Siyasal Bilgiler, Iktisadi ve Idari Bilimler, Iktisat, Isletme",
+        "ozet": "Sosyal Güvenlik Kurumu Başkanlığı, Hukuk, Siyasal Bilgiler ve İİBF mezunları arasından Sosyal Güvenlik Denetmen Yardımcısı alımı yapacaktır.",
+        "bolum": "Hukuk, Siyasal Bilgiler, İktisadi ve İdari Bilimler, İktisat, İşletme",
         "egitim": "Lisans",
         "kpss_turu": "belirtilmemis",
         "taban_puan": "belirtilmemis",
@@ -10410,7 +10503,25 @@
       ],
       "diger_kaynaklar": [],
       "basvuru_link": "mailto:doka@doka.org.tr",
-      "basvuru_tur": "eposta"
+      "basvuru_tur": "eposta",
+      "ai": {
+        "ozet": "Doğu Karadeniz Kalkınma Ajansı, TR90 Bölgesi'nde istihdam edilmek üzere en az 80 KPSS puanı ile 1 uzman personel alacaktır.",
+        "bolum": "İktisat, Ekonomi, İşletme, Kamu Yönetimi, Uluslararası İlişkiler, İstatistik, Siyaset Bilimi ve Kamu Yönetimi, Siyaset Bilimi ve Uluslararası İlişkiler",
+        "egitim": "Lisans",
+        "kpss_turu": "KPSS P12, P14, P24, P29, P34",
+        "taban_puan": "80",
+        "yas_siniri": "belirtilmemis",
+        "ehliyet": "belirtilmemis",
+        "deneyim": "belirtilmemis",
+        "kontenjan": "1",
+        "ozel_sartlar": [
+          "Son beş yıl içinde YDS/e-YDS İngilizce dilinden en az C düzeyinde puan almış olmak",
+          "En az dört yıllık lisans eğitimi veren ilgili yükseköğretim kurumlarından mezun olmak",
+          "Başvuru tarihleri arasında Kariyer Kapısı üzerinden elektronik ortamda başvuruyu tamamlamak",
+          "Güvenlik soruşturması ve/veya arşiv araştırması yapılmış olmak",
+          "Askerlikle ilgisi bulunmamak"
+        ]
+      }
     },
     {
       "id": 4101190687,
@@ -10720,7 +10831,22 @@
           "link": "https://www.ilan.gov.tr/ilan/2304191/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
           "source_url": "https://www.ilan.gov.tr/ilan/2304191/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani"
         }
-      ]
+      ],
+      "ai": {
+        "ozet": "Boğaziçi Üniversitesi Rektörlüğü, Yabancı Diller Yüksekokuluna 2547 ve 657 sayılı kanunlar kapsamında 1 öğretim görevlisi alacaktır.",
+        "bolum": "Yabancı Diller",
+        "egitim": "Lisans",
+        "kpss_turu": "ALES",
+        "taban_puan": "70",
+        "yas_siniri": "belirtilmemis",
+        "ehliyet": "belirtilmemis",
+        "deneyim": "belirtilmemis",
+        "kontenjan": "1",
+        "ozel_sartlar": [
+          "Almanca Öğretmenliği, Alman Dili ve Edebiyatı veya Almanca Mütercim ve Tercümanlık programlarından birinden lisans derecesi almak",
+          "YDS veya eşdeğerliliği kabul edilen bir sınavdan en az 93 puan almış olmak"
+        ]
+      }
     },
     {
       "id": 4137251901,
