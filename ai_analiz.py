@@ -50,6 +50,13 @@ def sor_gemini(row):
             if e.code not in (404, 429, 500, 503):
                 raise
             time.sleep(3)
+    try:
+        lr = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=100", headers={"x-goog-api-key": GEMINI})
+        with urllib.request.urlopen(lr, timeout=30) as r:
+            adlar = [x["name"].split("/")[-1] for x in json.loads(r.read()).get("models", []) if "generateContent" in x.get("supportedGenerationMethods", [])]
+        print("kullanilabilir modeller:", ", ".join(adlar))
+    except Exception as e2:
+        print("model listesi alinamadi", type(e2).__name__)
     raise hata
 
 def sor(row):
