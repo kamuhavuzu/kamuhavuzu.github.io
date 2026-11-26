@@ -45,7 +45,7 @@ ESKI_GUN = 30            # geriye donuk uyumluluk: ilanlar silinmez, arsivlenir
 TARIHSIZ_GUN = 60        # tarihsiz ilanlar silinmez; kontrol gerektiren olarak korunur
 ACIKLAMA_SINIR = 6000
 DETAY_METIN_LIMIT = 30000
-PDF_EK_LIMIT = 5
+PDF_EK_LIMIT = 3
 PDF_BOYUT_LIMIT = 12 * 1024 * 1024
 DETAY_LIMIT = 80         # her kaynakta bir calismada en fazla bu kadar ilan sayfasi acilir
 UA = {"user-agent": "Mozilla/5.0 (compatible; KamuRadar/1.0; kisisel kullanim)"}
@@ -104,7 +104,7 @@ def _pdf_metinini_oku(session, url):
         # Taranmis/goruntu tabanli PDF'lerde metin katmani bos olabilir.
         # KPSS puani normal metin katmanindan cikmadiysa sayfalari Turkce OCR ile tara.
         puan_var = (ic.parse_min_kpss(metin) is not None or bool(ic.parse_puan_tablosu(metin)))
-        if not puan_var:
+        if not puan_var and len(metin.strip()) < 300:
             try:
                 import pymupdf as fitz
                 from PIL import Image
@@ -112,7 +112,7 @@ def _pdf_metinini_oku(session, url):
                 ocr_sayfalar = []
                 doc = fitz.open(stream=bytes(parca), filetype="pdf")
                 try:
-                    for page_index in range(min(len(doc), 10)):
+                    for page_index in range(min(len(doc), 4)):
                         # PDF sayfasini 180-200 DPI civarinda rasterize et.
                         page = doc.load_page(page_index)
                         pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5), alpha=False)
