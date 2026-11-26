@@ -238,7 +238,7 @@ def ilan_gov_tr(session, mevcut, **_):
         print("[ilan.gov.tr] SSL sertifika hatasi, eksik ara sertifika araniyor...")
         session.verify = ek_sertifika_paketi("www.ilan.gov.tr")
     eklenen = 0
-    geri_hak = 250
+    geri_hak = 25  # Eski ilanlarin basvuru adresleri parca parca tamamlanir; tarama uzamaz.
     for page in range(ic.MAX_PAGES):
         keys = {"ats": [ic.AD_TYPE_PERSONEL]}
         if page > 0:
