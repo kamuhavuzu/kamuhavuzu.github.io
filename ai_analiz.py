@@ -8,9 +8,10 @@ K = os.path.dirname(os.path.abspath(__file__))
 DOSYA = os.path.join(K, "ilanlar.json")
 ANAHTAR = os.environ.get("OPENAI_API_KEY", "")
 GEMINI = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+GEMINI_MODELLER = [m for m in [os.environ.get("GEMINI_MODEL", ""), "gemini-3.8-flash-lite", "gemini-3.8-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"] if m]
+GEMINI_MODEL = GEMINI_MODELLER[0]
 MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
-LIMIT = int(os.environ.get("AI_LIMIT", "20"))
+LIMIT = int(os.environ.get("AI_LIMIT", "12"))
 
 SEMA = {"name": "ilan_oku", "strict": True, "schema": {
     "type": "object", "additionalProperties": False,
@@ -33,12 +34,23 @@ def sor_gemini(row):
     veri = json.dumps({"systemInstruction": {"parts": [{"text": SISTEM}]},
                        "contents": [{"role": "user", "parts": [{"text": metin}]}],
                        "generationConfig": {"temperature": 0, "maxOutputTokens": 800, "responseMimeType": "application/json", "responseSchema": _gsema()}}).encode()
-    istek = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent", data=veri,
-                                   headers={"x-goog-api-key": GEMINI, "content-type": "application/json"})
-    with urllib.request.urlopen(istek, timeout=90) as r:
-        yanit = json.loads(r.read())
-    time.sleep(6)   # ucretsiz katman dakika siniri icin
-    return json.loads(yanit["candidates"][0]["content"]["parts"][0]["text"])
+    hata = None
+    for m in list(GEMINI_MODELLER):
+        istek = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent", data=veri,
+                                       headers={"x-goog-api-key": GEMINI, "content-type": "application/json"})
+        try:
+            with urllib.request.urlopen(istek, timeout=90) as r:
+                yanit = json.loads(r.read())
+            time.sleep(6)   # ucretsiz katman dakika siniri icin
+            GEMINI_MODELLER[:] = [m] + [x for x in GEMINI_MODELLER if x != m]
+            return json.loads(yanit["candidates"][0]["content"]["parts"][0]["text"])
+        except urllib.error.HTTPError as e:
+            hata = e
+            print("model", m, "HTTP", e.code)
+            if e.code not in (404, 429, 500, 503):
+                raise
+            time.sleep(3)
+    raise hata
 
 def sor(row):
     if GEMINI:
