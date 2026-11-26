@@ -526,6 +526,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
       <a href="#kaynaklar">Kaynaklar</a>
       <button type="button" id="mnIller">Şehirlere göre</button>
       <button type="button" id="mnFav">Favorilerim</button>
+      <button type="button" id="mnTakvim">Takvime ekle</button>
     </nav>
     <div class="sag"><div class="sosyal" id="sosyal"></div><button class="ikon-btn" id="btnTema" title="Açık / koyu tema" aria-label="Temayı değiştir">◐</button></div>
   </div>
@@ -550,13 +551,13 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 
 <main class="kap kr-main" id="ilanlar">
   <div class="kr-stats">
-    <div class="kr-stat-primary"><b id="sAcik">0</b><span>başvurusu açık ilan</span></div>
-    <div class="kr-stat"><b id="sKontenjan">0</b><span>toplam kontenjan</span></div>
-    <div class="kr-stat"><b id="sKurum">0</b><span>kurum</span></div>
-    <div class="kr-stat kr-stat-deadline"><b id="sBugun">0</b><span>bugün / yarın bitiyor</span></div>
-    <div class="kr-stat kr-stat-link" data-sekme="yakin" title="Başvurusu henüz başlamamış ilanlar"><b id="sYakin">0</b><span>yakında açılacak</span></div>
-    <div class="kr-stat kr-stat-link" data-sekme="yeni7" title="Son 7 günde eklenen ilanlar"><b id="sYeni7">0</b><span>yeni eklenen</span></div>
-    <div class="kr-stat kr-stat-link" data-arsiv="1" title="Arşiv ilanlarını göster"><b id="sArsiv">0</b><span>arşiv</span></div>
+    <div class="sayac kr-stat-primary"><b id="sAcik">0</b><span>başvurusu açık ilan</span></div>
+    <div class="sayac kr-stat"><b id="sKontenjan">0</b><span>toplam kontenjan</span></div>
+    <div class="sayac kr-stat"><b id="sKurum">0</b><span>kurum</span></div>
+    <div class="sayac kr-stat kr-stat-deadline"><b id="sBugun">0</b><span>bugün / yarın bitiyor</span></div>
+    <div class="sayac kr-stat kr-stat-link" data-sekme="yakin" title="Başvurusu henüz başlamamış ilanlar"><b id="sYakin">0</b><span>yakında açılacak</span></div>
+    <div class="sayac kr-stat kr-stat-link" data-sekme="yeni7" title="Son 7 günde eklenen ilanlar"><b id="sYeni7">0</b><span>yeni eklenen</span></div>
+    <div class="sayac kr-stat kr-stat-link" data-arsiv="1" title="Arşiv ilanlarını göster"><b id="sArsiv">0</b><span>arşiv</span></div>
     <div class="kr-live" id="canli">İlan verileri yükleniyor…</div>
   </div>
 
