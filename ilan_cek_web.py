@@ -135,18 +135,36 @@ def _pdf_metinini_oku(session, url):
 
 
 def detay_oku(session, url):
-    """Ilan sayfasini ve bagli PDF eklerini okuyup tam metni dondurur."""
+    """Ilan sayfasini ve bagli PDF eklerini okuyup tam metni dondurur.
+    ilan.gov.tr kayitlarinda web sayfasi yerine sitenin resmi detay API'si kullanilir.
+    """
     try:
-        r = session.get(url, headers=UA, timeout=25)
-        if r.status_code != 200:
-            return ""
-        ham = r.content.decode(r.encoding or "utf-8", "replace")
-        metin = ic.duz_metin(ham)
-        # Ilan sayfasindaki PDF eklerini de oku; metin ana sayfa metninin
-        # arkasina eklenir, boylece ust menu puan bilgisini gizleyemez.
+        ham = ""
+        m_id = re.search(r"/ilan/(\d+)", url, re.I)
+        if "ilan.gov.tr" in url.lower() and m_id:
+            # Ilan.gov.tr sayfasinin asil ilan metni API'den geliyor; HTML kabugu
+            # bazen bos/eksik oldugu icin dogrudan ayni resmi API'yi kullan.
+            govde, veri = ic.fetch_detail(session, m_id.group(1))
+            ham = json.dumps(veri, ensure_ascii=False)
+            icerik = (veri.get("result") or {}).get("content", "") if isinstance(veri, dict) else ""
+            metin = govde or ic.duz_metin(icerik)
+            ham += "\n" + str(icerik)
+        else:
+            r = session.get(url, headers=UA, timeout=20)
+            if r.status_code != 200:
+                return ""
+            ham = r.content.decode(r.encoding or "utf-8", "replace")
+            metin = ic.duz_metin(ham)
+
         pdfler = []
-        for m in re.finditer(r"""href\s*=\s*["']([^"']+\.pdf(?:\?[^"']*)?)["']""", ham, re.I):
+        for m in re.finditer(r"""(?:href|url|fileUrl|documentUrl)\s*["']?\s*[:=]\s*["']([^"']+\.pdf(?:\?[^"']*)?)["']""", ham, re.I):
             pdf_url = urljoin(url, html.unescape(m.group(1)))
+            if pdf_url not in pdfler:
+                pdfler.append(pdf_url)
+            if len(pdfler) >= PDF_EK_LIMIT:
+                break
+        for m in re.finditer(r"""https?://[^\s"'<>]+\.pdf(?:\?[^\s"'<>]*)?""", ham, re.I):
+            pdf_url = html.unescape(m.group(0)).rstrip("),;")
             if pdf_url not in pdfler:
                 pdfler.append(pdf_url)
             if len(pdfler) >= PDF_EK_LIMIT:
@@ -157,9 +175,9 @@ def detay_oku(session, url):
             if pdf_metin:
                 ekler.append(f"\n[PDF EKI: {pdf_url}]\n{pdf_metin}")
         return (metin + "\n" + "\n".join(ekler))[:DETAY_METIN_LIMIT]
-    except requests.RequestException:
+    except (requests.RequestException, ValueError, TypeError) as e:
+        print(f"[DETAY] okunamadi {url}: {type(e).__name__}")
         return ""
-
 
 def detaydan_doldur(row, metin):
     """Detay metninden bos kalan alanlari doldurur."""
@@ -532,12 +550,12 @@ def puanlari_yenile(mevcut):
     return n
 
 
-def puan_bulunamayanlari_yenile(session, mevcut, limit=8):
+def puan_bulunamayanlari_yenile(session, mevcut, limit=16):
     """Daha once puani bulunamayan ilanlarin resmi detay sayfasini/PDF eklerini yeniden tarar."""
     bugun = date.today().isoformat()
     aday = []
     for row in mevcut.values():
-        if row.get("iptal") or row.get("min_kpss") or row.get("puanlar"):
+        if row.get("iptal") or row.get("min_kpss") or row.get("puanlar") or row.get("durum") == "arsiv":
             continue
         if row.get("source_name") == "Kariyer Kapısı":
             continue  # RSS ilan sayfasinin icerigi oturum/JS arkasinda; bos yere tekrar cekme
@@ -553,7 +571,7 @@ def puan_bulunamayanlari_yenile(session, mevcut, limit=8):
     bulunan = 0
     for row in aday[:limit]:
         try:
-            metin = detay_oku(session, row["link"])
+            metin = detay_oku(session, row.get("source_url") or row["link"])
             if metin:
                 onceki = row.get("min_kpss")
                 detaydan_doldur(row, metin)
@@ -562,7 +580,7 @@ def puan_bulunamayanlari_yenile(session, mevcut, limit=8):
                     row["puan_kontrol_durumu"] = "bulundu"
                     row["puan_kontrol_kaynagi"] = "Resmî ilan sayfası/PDF eki"
                 else:
-                    row["puan_kontrol_durumu"] = "metinde_bulunamadi"
+                    row["puan_kontrol_durumu"] = "resmi_metinde_puan_yok"
             else:
                 row["puan_kontrol_durumu"] = "sayfa_okunamadi"
             row["puan_kontrol_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
