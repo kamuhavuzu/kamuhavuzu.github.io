@@ -1,44 +1,44 @@
 {
- "guncelleme": "2026-11-26T06:16:39+00:00",
- "son_kontrol": "2026-11-26T06:16:39+00:00",
+ "guncelleme": "2026-11-26T06:31:40+00:00",
+ "son_kontrol": "2026-11-26T06:31:40+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 11,
-   "son_basari": "2026-11-26T06:16:25+00:00",
-   "sayi": 184
+   "yeni": 7,
+   "son_basari": "2026-11-26T06:31:28+00:00",
+   "sayi": 187
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:16:26+00:00",
+   "son_basari": "2026-11-26T06:31:29+00:00",
    "sayi": 35
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:16:28+00:00",
+   "son_basari": "2026-11-26T06:31:31+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "İŞKUR Kamu İşçi Alımı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:16:30+00:00",
+   "son_basari": "2026-11-26T06:31:32+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "TÜBİTAK İlanları": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:16:31+00:00",
+   "son_basari": "2026-11-26T06:31:33+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-26T06:16:38+00:00",
+   "son_basari": "2026-11-26T06:31:40+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 42
   }
@@ -4088,6 +4088,38 @@
    "basvuru_tur": "genel"
   },
   {
+   "id": 2476664262,
+   "institution": "ÖZBURUN BELEDİYE BAŞKANLIĞI",
+   "title": "Özburun Belediye Başkanlığı Sürekli İşçi Alım İlanı",
+   "city": "AFYONKARAHİSAR",
+   "department": "Herhangi",
+   "education_level": "Ortaöğretim",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": "2026-12-04",
+   "application_start": "2026-12-03",
+   "link": "https://www.ilan.gov.tr/ilan/2304217/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ozburun-belediye-baskanligi-surekli-isci-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304217/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ozburun-belediye-baskanligi-surekli-isci-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "İşçi",
+   "description": "Afyonkarahisar İli Özburun Belediye Başkanlığından: SÜREKLİ İŞÇİ ALIM İLANI Özburun Belediye Başkanlığı ve bağlı birimlerde istihdam edilmek üzere 657 sayılı Devlet Memurları Kanunun 4/D maddesi ve 4857 sayılı İş Kanunu ve ilgili yönetmelik hükümleri kapsamında Türkiye İş Kurumu (İŞKUR) üzerinden sürekli işçi alınacaktır. Aranan şartlar ve sayılar aşağıda belirtilmiştir. ÇALIŞMA YERİ: ÖZBURUN BELEDİYE BAŞKANLIĞI Sürekli İşçi Talep Edilen Kadrolar Alınacak Personel Sayısı Cinsiyet Alınacak Personelin Öğrenim Durumu İl / İlçe Yöntem Beko Loder (Kazıcı - Yükleyici) Operatörü 8342.26 1 Erkek/Kadın En Az Öğrenim Seviyesi: Ortaöğretim (Lise ve Dengi) En Fazla Öğrenim Seviyesi: Ortaöğretim (Lise ve Dengi) Afyonkarahisar/ Bolvadin İlçe Geneli Noter Kurası, Sözlü Sınav ve Uygulamalı Sınav Kara Tankeri Operatörü (Tehlikeli Madde Taşımacılığı) 8332.05 1 Erkek/Kadın En Az Öğrenim Seviyesi: Ortaöğretim (Lise ve Dengi) En Fazla Öğrenim Seviyesi: Ortaöğretim (Lise ve Dengi) Afyonkarahisar/ Bolvadin İlçe Geneli Noter Kurası, Sözlü Sınav ve Uygulamalı Sınav Toplam 2 AÇIKLAMALAR 1. İlan şartlarını taşıyan adaylar; ilanın yayımlandığı tarihten itibaren 5 gün içinde esube.iskur.gov.tr internet adresinden “İş Arayan” linki üzerinden kullanıcı girişi yaparak başvuru yapabilir. Ayrıca Çalışma ve İş Kurumu İl Müdürlükleri/Hizmet Merkezleri, İŞKUR hizmet noktaları ve Alo 170 hattı üzerinden de başvurular yapılabilir. Son başvuru tarihi tatil gününe rastladığında başvurular takip eden ilk iş günü sonuna kadar uzatılır. 2. Aynı kamu kurum ve kuruluşunun başvuru başlangıç tarihleri aynı olan ilanlarından sadece birine başvuru kabul edilir. 3. İlana başvuru yapacak öncelikli adaylar, başvuru yapacakları listeyi (öncelikli liste veya genel liste) başvuru esnasında işaretleyerek seçer. Başvuru süresi bittikten sonra liste değişikliği talepleri kabul edilmez. 4. Başvuru yapan iş arayanların öncelikliler de dâhil olmak üzere tamamı kura çekimi için ilanı veren kamu kurum ve kuruluşuna gönderilir. Kamu kurum ve kuruluşu tarafından düzenlenen noter kurası ile genel listeden ve öncelikli listeden açık iş sayısının dörder katı kadar asıl ve yedek aday belirlenir. 5. Belge teslimi ve kontrolü işçi alımını yapacak kamu kurum ve kuruluşunun tercihine göre kura çekiminden önce veya sonra yapılabilir. 6. Listelere giren adaylar, ilan şartlarına ilişkin olarak; eğitim durumu, tecrübe, öncelik durumu, mesleki belge, yabancı dil şartı vb. belgelerini ilanı veren kamu kurum ve kuruluşuna ibraz eder. Belge teslim tarihi ve yeri, ilanda ya da kamu kurum ve kuruluşunun internet sitesinde adaylara duyurulur. Durumlarını belgeleyemeyenler veya yanlış beyanda bulunanlar listelerden çıkarılır. 7. Sınav günü, saati, yeri ve sınava katılmaya hak kazanan adaylar, işçi alımını yapacak kamu kurum ve kuruluşunun internet sitesinde duyurulacaktır. Bu duyuru, tebliğ mahiyetinde kabul edilecek, adayların adresine posta yolu ile ayrıca tebligat yapılmayacaktır. 8. Öncelik hakkına sahip olanlardan, başvuruda bulunduğu ilana işverence davet edildiği hâlde mücbir sebepler dışında icabet etmeyen, belge teslim etmeyen, sınava katılmayan, işi reddeden veya kamuda sürekli işçi statüsünde işe yerleşenlerin öncelik hakkı ortadan kalkar. 9. Kamu kurum ve kuruluşlarının işçi taleplerine yapılan başvurularda kişilerin Adres Kayıt Sisteminde kayıtlı olan yerleşim yeri adresi dikkate alınır. İlçe, il veya bölge düzeyinde yayımlanan işçi taleplerinin başvuru süresi içerisinde yerleşim yeri adresini talebin karşılanacağı yere taşıyan adayların başvurusu kabul edilmez. Adres değişikliklerinde adayların e-Devlet üzerinden veya Nüfus Müdürlüklerinden alacakları Tarihçeli Yerleşim Yeri Bilgileri Belgesinde kayıtlı olan taşınma tarihi esas alınır. İkametini talebin karşılanacağı yer içerisinde değiştiren adayların Tarihçeli Yerleşim Yeri Bilgileri Belgesini İŞKUR birimlerine ibraz etmeleri halinde ilgili ilana başvuruları yapılır. 10. Gerçeğe aykırı belge verenlerin ya da beyanda bulunanların başvurusunun geçersiz hale getirilmesi ve işe alınma işleminin iptaline ilişkin İŞKUR ile ilanı veren kamu kurum ve kuruluşlarının yasal işlem yapma hakları saklıdır. DİĞER HUSUSULAR 1. Özburun Belediye Başkanlığı ALINACAK OLAN SÜREKLİ İŞÇİ NOTER KURASI USULÜNE TABİ TALEPLERDEN; Beko Loder (Kazıcı-Yükleyici) Operatörü ve Kara Tankeri Operatörü(Tehlikeli Madde Taşımacılığı) personeline ilişkin başvuru listesi, İŞKUR tarafından Özburun Belediye Başkanlığı’na gönderilmesine müteakip Türkiye İş Kurumu (İŞKUR)’nun gönderdiği ve talep şartlarına uyan başvuru sahiplerinin tamamının yer aldığı listeler esas alınmak suretiyle noter huzurunda kura ile belirlenecek olup boş kadronun 4 (dört) katı asil ve 4 (dört) katı yedek aday listesi oluşturulacaktır. Belirlenen asil ve yedek aday listeleri Özburun Belediye Başkanlığı web sayfasında ( www.ozburun.bel.tr ) ilan edilecektir. 2. Özburun Belediye Başkanlığı web sayfasında (www.ozburun.bel.tr) ilan edilen adaylar, Noter kurasından önce Özburun Belediye Başkanlığı web sayfasında (www.ozburun.bel.tr) belirtilen tarihlerde Özburun Belediye Başkanlığı’na başvuru evraklarını ibraz etmek zorundadır. Belirtilen tarihlerde başvuru evraklarını ibraz etmeyen adaylar, eksik belge tespiti yapılan adaylar, başvuru niteliklerini taşımayan, gerçeğe aykırı ve yanıltıcı beyanda bulunan adaylar Noter kurasına alınmayacaktır. 3. 657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesinin birinci fıkrasının (A) bendinin (1), (4) ve (7) numaralı alt bentlerinde belirtilen şartları taşımak. 4. Kamu kurum ve kuruluşlarının özel kanunlarında yer alan özel şartları taşımak. 5. Herhangi bir sosyal güvenlik kurumundan emeklilik, yaşlılık veya malullük aylığı almıyor olmak. 6. Deneme süresi bir ay olup, bu süre içerisinde başarısız olanların iş akitleri feshedilecektir. 7. Göreve başlayacak personelin görevini devamlı yapmasına engel (ruhsal ve fiziksel) sorununun olmadığını belgelemeleri gerekmektedir. Başvuran adaylar bunu kabul etmiş sayılacaktır. (Atanmaya hak kazanan a",
+   "checked_at": "2026-11-26T06:31:08+00:00",
+   "puanlar": {},
+   "akademik": false,
+   "logo": "",
+   "basvuru_adresleri": [
+    "https://esube.iskur.gov.tr",
+    "https://www.ozburun.bel.tr"
+   ],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Ortaöğretim"
+   ],
+   "egitim_tahmin": false
+  },
+  {
    "id": 2478798190,
    "institution": "İŞKUR Kamu İşçi Alımı",
    "title": "Sözleşmeli Büro Personeli...",
@@ -6076,6 +6108,32 @@
    "puanlar": {}
   },
   {
+   "id": 3639435162,
+   "institution": "SAKARYA ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "İptal İlanı (Sakarya Üniversitesi Rektörlüğü)",
+   "city": "SAKARYA",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2304230/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-sakarya-universitesi-rektorlugu-",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304230/kamu-akademik-personel-akademik-personel-alimlari-iptal-ilani-sakarya-universitesi-rektorlugu-",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Sakarya Üniversitesi Rektörlüğünden: İPTAL İLANI 06.11.2026 tarihli ve 33422 sayılı Resmî Gazete’de aslına uygun olarak yayımlanan İktisadi Gelişme ve Uluslararası İktisat Anabilim Dalı Profesör kadro ilan metni iptal edilmiştir. İLGİLİ BİRİM ADET DERECE ÜNVANI AÇIKLAMA SİYASAL BİLGİLER FAKÜLTESİ İKTİSAT BÖLÜMÜ İKTİSADİ GELİŞME VE ULUSLARARASI İKTİSAT ANABİLİM DALI 1 1 PROFESÖR İktisadi Gelişme ve Uluslararası İktisat alanında Doçent ünvanına sahip olmak. İktisadi düşünce alanında çalışmaları bulunmak. İlan olunur. 12209/1-1",
+   "checked_at": "2026-11-26T06:31:07+00:00",
+   "puanlar": {},
+   "akademik": false,
+   "logo": "",
+   "basvuru_adresleri": [],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "iptal": true
+  },
+  {
    "id": 3642999319,
    "institution": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ REKTÖRLÜĞÜ",
    "title": "SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI",
@@ -6883,6 +6941,40 @@
    "akademik": false,
    "puanlar": {},
    "logo": "https://kariyerkapisi.gov.tr/UPS/1aa20c9b-d0d2-4aca-8409-ee7533c07cfe.png"
+  },
+  {
+   "id": 4117368269,
+   "institution": "MERSİN ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Mersin Üniversitesi Rektörlüğü Sözleşmeli Bilişim Personeli Alım İlanı",
+   "city": "MERSİN",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "P3",
+   "min_kpss": 70.0,
+   "quota": null,
+   "deadline": "2026-12-10",
+   "application_start": "2026-11-26",
+   "link": "https://www.ilan.gov.tr/ilan/2304216/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-mersin-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2304216/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-mersin-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Sözleşmeli personel",
+   "description": "Mersin Üniversitesi Rektörlüğünden: SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI Üniversitemizde istihdam edilmek üzere; 375 sayılı Kanun Hükmünde Kararnamenin Ek 6 ncı maddesi ile 31/12/2008 tarih ve 27097 sayılı Resmi Gazetede yayımlanan “Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmelik” in 8 inci maddesi uyarınca Sözleşmeli Bilişim Personeli pozisyonunda istihdam edilmek ve tam zamanlı çalıştırılmak üzere sözleşmeli bilişim personeli alınacaktır. Alımlar şartları aşağıda belirtilen yazılı ve uygulamalı sınav sonucuna göre gerçekleştirilecektir. ÖSYM tarafından 2026 yılında lisans mezunları için yapılan Kamu Personel Seçme Sınavında KPSS P3 puan türünden alınan puanın yüzde yetmişi (%70) ile son beş yıl içinde yapılan İngilizce dilinde Yabancı Dil Bilgisi Seviye Tespit Sınavı (YDS/e-YDS) veya Yükseköğretim Kurulunca YDS’ye denk kabul edilen sınavlarda alınan puanın YDS’deki karşılığının yüzde otuzunun (%30) toplamı esas alınarak yapılacak sıralamaya göre en yüksek puanlıdan başlanarak ilan edilen her sözleşmeli bilişim personeli pozisyonunun 10 katına kadar aday, yazılı ve uygulama sınavına çağrılacaktır. Bu sıralamaya göre son sırada aynı puana sahip birden fazla adayın bulunması halinde bu kişilerin tamamı sınava çağrılacaktır. KPSS puanı olmayan veya sonuç belgesini ibraz etmeyen adayların KPSS puanı 70 (yetmiş), yabancı dil puanı olmayan veya sonuç belgesini ibraz etmeyen adayların yabancı dil puanı 0 (sıfır) olarak değerlendirilecektir. Sınav ve Değerlendirme: Başvurusu geçerli kabul edilen adaylara sınav takviminde belirtilen yer ve tarihte yazılı ve uygulamalı olmak üzere iki aşamalı sınav gerçekleştirilecektir. İlan edilen her kadro için yazılı sınavın %30’u, uygulamalı sınavın %70’i toplamı 100 tam puan üzerinden 70 tam puan ve üzeri olan adaylar başarılı sayılacak olup, puanı en yüksek olan adaydan başlanarak asil ve yedek aday ilan edilecektir. Bu sıralamaya göre asil ve yedekler arasında son sırada aynı puana sahip birden fazla adayın bulunması halinde mezuniyet tarihi önce olan, bunun da eşit olması halinde doğum tarihi önce olan aday sıralamada öne çıkacaktır. SINAV TAKVİMİ Başvuru Başlama Tarihi 26.11.2026 Başvuru Bitiş Tarihi 10.12.2026 (Saat 23:59:59 a kadar) Ön Değerlendirme Sonuç Açıklama Tarihi 18.12.2026 Ön Değerlendirme Sonuç İtiraz Tarihleri 21.12.2026 – 23.12.2026 Ön Değerlendirme Kesin Sonuçlarının Açıklanma Tarihi 25.12.2026 Yazılı Sınav Tarihi ve Saati 31.12.2026 / 09:00 Uygulamalı Sınav Tarihi ve Saati 31.12.2026 / 13:00 Yazılı ve Uygulamalı Sınav Yeri Mühendislik Fakültesi A Blok 1. Kat Bilgisayar Laboratuvarı Sonuç Açıklama Tarihi 05.01.2027 Sonuç İtiraz Tarihleri 06.01.2027 – 08.01.2027 Kesin Sonuç Açıklama Tarihi 12.01.2027 Adaylar sınav bilgilerine Kariyer Kapısı üzerinden ulaşabilecektir. Yazılı ve Uygulamalı sınav yerinde değişiklik olması halinde http://pdb.mersin.edu.tr/ web adresinde duyuru yapılacaktır. İLAN EDİLEN KADROLAR İlan No Ünvan Adet Brüt Ücret Tavanı Çalışma Süresi 1 Sistem Yöneticisi 1 3 Katı Tam Zamanlı A) GENEL ŞARTLAR a)657 sayılı Devlet Memurları Kanununun 48 inci maddesinde yazılı genel koşulları taşımak, b) Erkek adaylar için muvazzaf askerlik hizmetini yapmış, muaf veya tecilli olmak. c)Başvuru son günü itibarıyla 45 yaşından gün almamış olmak. d) Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmelik uyarınca adaylarda; 6 ncı maddesinin (b) fıkrasında sayılan bölümlerden mezun olmak, e)Yazılım, yazılım tasarımı ve geliştirilmesi ile bu sürecin yönetimi konusunda veya büyük ölçekli ağ sistemlerinin kurulumu ve yönetimi konusunda ücret tavanı iki katını geçemeyecekler için en az 3 yıllık, diğerleri için en az 5 yıllık mesleki tecrübeye sahip bulunması (bu ilandaki Sistem Yöneticisi pozisyonu için en az 5 yıl) (Mesleki tecrübenin belirlenmesinde; bilişim personeli olarak 657 sayılı Kanuna tabi kadrolu veya aynı Kanunun 4 üncü maddesinin (b) bendi ya da 399 sayılı Kanun Hükmünde Kararnameye tabi sözleşmeli statüdeki hizmetler ile özel kesimde sosyal güvenlik kurumlarına prim ödenmek suretiyle işçi statüsünde bilişim personeli olarak geçtiği belgelenen hizmet süreleri dikkate alınır). f)Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmaları kaydıyla güncel programlama dillerinden en az ikisini bildiğini belgelemek, g) Adli sicil kaydı bulunmamak, h) Özel şartlarda istenen sertifikalar, e-Devlet onaylı veya Uluslararası kurum/şirketlerden (kendi üreticisinden) verilen orijinal sertifikalar olmalıdır. i) Güvenlik soruşturması ve/veya arşiv araştırmasında kamu hizmetine atanmasına engel bir durumu bulunmamak. j) Başvurulan pozisyonun özel şartlarında belirtilen öğrenim, mesleki deneyim ve diğer nitelikleri taşımak. k) Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmelikte belirtilen özlük hakları ve diğer hususları kabul etmek. B) ÖZEL ŞARTLAR 1.SİSTEM YÖNETİCİSİ (3 Katı) a)Büyük ölçekli bilgi işlem birimlerinde veya millî güvenliği tehdit edebilecek ya da kamu düzeninin bozulmasına yol açabilecek kritik nitelikteki verilerin bulunduğu kamu kurum ve kuruluşlarında veya en az 5.000 (beş bin) iç kullanıcıya hizmet veren özel sektör kuruluşlarının bilgi işlem birimlerinde, sistem yönetimi alanında en az 5 (beş) yıl mesleki deneyime sahip olduğunu belgelemek. Belgelendirilemeyen deneyimler dikkate alınmayacaktır. b) Linux ve Microsoft Windows Server işletim sistemlerinin kurulumu, yapılandırılması, yönetimi, güvenlik sıkılaştırması, performans iyileştirmesi, sistem günlüklerinin analizi ve sorun giderme süreçlerinde fiilen görev aldığını belgelemek. c)Sunucu sanallaştırma sistemlerinden (VMware, Hyper-V, Proxmox veya benzeri) en az birinin kurulumu ve yönetimi süreçlerinde fiilen görev aldığını belgele",
+   "checked_at": "2026-11-26T06:31:09+00:00",
+   "puanlar": {},
+   "akademik": false,
+   "logo": "https://kariyerkapisi.gov.tr/UPS/b72d91a6-8fe9-4802-b7fa-51c51e32e6ae.png",
+   "basvuru_adresleri": [
+    "https://pdb.mersin.edu.tr/",
+    "https://kariyerkapisi.gov.tr/isealim"
+   ],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false,
+   "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 4124985967,
