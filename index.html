@@ -1294,6 +1294,13 @@ $('btnTamam').addEventListener('click',()=>{
     $('ozet').scrollIntoView({behavior:'smooth',block:'center'});
     setTimeout(()=>{b.classList.remove('tamam');ik.textContent='🔍';mt.textContent='Tamam / Filtrele'},1700)},450);
 });
+$('krQuickCity').innerHTML='<option value="">Tüm Türkiye</option>'+SEHIRLER.map(x=>'<option>'+esc(x)+'</option>').join('');
+$('krQuickEdu').value=oku('k_quick_edu')||'';$('krQuickCity').value=oku('k_quick_city')||'';$('krQuickScore').value=oku('k_quick_score')||'';$('krQuickDept').value=oku('k_quick_dept')||'';
+$('krQuickApply').addEventListener('click',hizliProfilDoldur);
+$('krQuickReset').addEventListener('click',()=>{['krQuickEdu','krQuickCity','krQuickScore','krQuickDept'].forEach(id=>$(id).value='');hizliProfilDoldur()});
+$('krSaveSearch').addEventListener('click',()=>{let a=[];try{a=JSON.parse(oku('k_saved_searches')||'[]')}catch(e){};if(a.length>=8){alert('En fazla 8 arama saklayabilirsin. Önce birini sil.');return}const x=aramaAnlikDurum();x.name=prompt('Bu aramaya bir ad ver:',x.name);if(!x.name)return;a.push(x);yaz('k_saved_searches',JSON.stringify(a));kayitliAramaCiz()});
+$('krSavedSearches').addEventListener('change',e=>{if(e.target.value==='')return;let a=[];try{a=JSON.parse(oku('k_saved_searches')||'[]')}catch(x){};const x=a[+e.target.value];if(x)aramaUygula(x)});
+$('krDeleteSearch').addEventListener('click',()=>{const el=$('krSavedSearches');if(el.value===''){alert('Önce silinecek aramayı seç.');return}let a=[];try{a=JSON.parse(oku('k_saved_searches')||'[]')}catch(x){};a.splice(+el.value,1);yaz('k_saved_searches',JSON.stringify(a));kayitliAramaCiz()});
 $('fEgitim').addEventListener('change',()=>{bolumDoldur();otoTur();yenidenCiz()});
 $('cipler').parentNode.addEventListener('click',e=>{const b=e.target.closest('[data-kurum-sec]');if(!b)return;$('fKurum').value=b.dataset.kurumSec;kaydet();yenidenCiz();$('ilanlar').scrollIntoView({behavior:'smooth'})});
 $('fBolumYaz').addEventListener('input',()=>yenidenCiz());
@@ -1358,10 +1365,12 @@ $('mnBildirim').addEventListener('click',async()=>{
  else alert('Bildirim izni verilmedi. Tarayıcı ayarlarından izin verebilirsin.');
 });
 $('karsilastirmaCubugu').addEventListener('click',e=>{if(e.target.id==='btnKarsilastir')karsilastirmaAc();if(e.target.id==='btnKarsilastirmaTemizle'){karsilastirma.clear();yaz('k_compare','[]');listele()}});
+$('modal').addEventListener('change',e=>{const cb=e.target.closest('[data-check]');if(!cb||!modalId)return;const key='k_check_'+modalId;let obj={};try{obj=JSON.parse(oku(key)||'{}')}catch(x){};obj[cb.dataset.check]=cb.checked;yaz(key,JSON.stringify(obj));const box=cb.closest('.kr-checklist');if(box){const n=box.querySelectorAll('input:checked').length;box.querySelector('.kr-check-progress').textContent=n+'/'+checklistAdimlari.length+' adım tamamlandı · yalnızca bu cihazda saklanır'}});
 $('modal').addEventListener('click',e=>{
   if(e.target.id==='modal'||e.target.closest('[data-mkapat]')){modalKapat();return}
   const c=e.target.closest('[data-linkkopya]');
   if(c){try{navigator.clipboard.writeText(c.dataset.linkkopya);c.textContent='✓ Kopyalandı'}catch(x){}return}
+  const aq=e.target.closest('[data-aiq]');if(aq&&modalId){const it=tum.find(x=>String(x.id)===String(modalId));const out=$('krAiAnswer');if(out&&it)out.textContent=ilanSoruCevap(it,aq.dataset.aiq);return}
   listeTik({target:e.target,currentTarget:$('modalIc')});
 });
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('modal').hidden)modalKapat();
@@ -1409,10 +1418,12 @@ async function yerelGuncelle(){
   if(['uygun','yakin','yeni7'].includes(P.get('sekme'))) sekme=P.get('sekme');
   try{JSON.parse(oku('k_cip')||'[]').forEach(k=>CIP_LISTE.some(c=>c[0]===k)&&cip.add(k))}catch(x){}
   cipCiz();
+  kayitliAramaCiz();
   await veriYenile(true);
   if(oku('k_kurum')) $('fKurum').value=oku('k_kurum'); if(oku('k_kaynak')) $('fKaynak').value=oku('k_kaynak');
   listele();
   yerelGuncelle();
+  if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('./sw.js').catch(()=>{});
   setInterval(()=>veriYenile(false),5*60*1000);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)veriYenile(false)});
 })();
