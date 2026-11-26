@@ -574,22 +574,24 @@ def puan_bulunamayanlari_yenile(session, mevcut, limit=24):
                 url_adaylari.insert(0, deger)
         if not url_adaylari:
             continue
-        row["_puan_kontrol_url_adaylari"] = url_adaylari
-        aday.append(row)
+        aday.append((row, url_adaylari))
     # En uzun suredir kontrol edilmeyen ilanlari once al; her calismada farkli bir grup ilerler.
-    aday.sort(key=lambda r: str(r.get("puan_kontrol_at") or ""))
+    aday.sort(key=lambda item: str(item[0].get("puan_kontrol_at") or ""))
     bulunan = 0
-    for row in aday[:limit]:
+    for row, url_adaylari in aday[:limit]:
         try:
             metin = ""
+            en_iyi_metin = ""
             kullanilan_url = ""
-            for kontrol_url in row.pop("_puan_kontrol_url_adaylari", [row.get("link")]):
+            for kontrol_url in url_adaylari:
                 metin = detay_oku(session, kontrol_url)
                 if metin:
+                    en_iyi_metin = metin
                     kullanilan_url = kontrol_url
                     detaydan_doldur(row, metin)
                     if row.get("min_kpss") or row.get("puanlar"):
                         break
+            metin = en_iyi_metin
             if metin:
                 if row.get("min_kpss") or row.get("puanlar"):
                     bulunan += 1
