@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>KamuRadar · Kamu personel alım ilanları</title>
 <meta name="description" content="Bakanlık, kurum, belediye, üniversite ve diğer kamu personel alım ilanları tek yerde. Eğitim, KPSS puanı ve şehre göre filtrele.">
-<meta name="theme-color" content="#0b2a4a">
+<meta name="theme-color" content="#171717">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -234,6 +234,89 @@ footer{padding:26px 0 40px;color:var(--soluk);font-size:13px;border-top:1px soli
 .ky-ok:disabled{opacity:.3;cursor:default}
 .ky-ok:not(:disabled):hover{background:var(--lacivert);color:#fff}
 .yasal{margin-top:8px;font-size:13px}.yasal a{color:inherit;text-decoration:underline;margin:0 2px}
+
+/* KamuRadar yeni görsel kimliği: kömür siyahı + radar sarısı */
+:root{
+  --bg:#f6f6f2;--kart:#fff;--yazi:#191919;--soluk:#666b73;--cizgi:#e7e5dc;
+  --lacivert:#171717;--sari:#f5c400;--mavi:#b88900;
+  --gol:0 2px 5px rgba(20,20,20,.045),0 12px 30px rgba(20,20,20,.055);
+}
+@media(prefers-color-scheme:dark){
+  :root:not([data-tema="acik"]){--bg:#111;--kart:#1c1c1c;--yazi:#f3f3ef;--soluk:#aaa;--cizgi:#333;--lacivert:#090909;--sari:#f5c400;--mavi:#f5c400;--gol:0 4px 18px rgba(0,0,0,.28)}
+}
+:root[data-tema="koyu"]{--bg:#111;--kart:#1c1c1c;--yazi:#f3f3ef;--soluk:#aaa;--cizgi:#333;--lacivert:#090909;--sari:#f5c400;--mavi:#f5c400;--gol:0 4px 18px rgba(0,0,0,.28)}
+html{scroll-padding-top:76px}
+body{letter-spacing:.005em}
+.duyuru{background:#f5c400;color:#171717;padding:7px 12px;font-size:12.5px;letter-spacing:.01em}
+header.ust{background:#111;box-shadow:0 3px 18px rgba(0,0,0,.14);border-bottom:1px solid rgba(245,196,0,.22)}
+.logo{font-size:21px;letter-spacing:-.6px}
+.logo img{border-radius:11px;box-shadow:0 0 0 2px rgba(245,196,0,.35)}
+.menu a,.menu button{color:#d7d7d2}
+.menu a:hover,.menu button:hover{background:rgba(245,196,0,.13);color:#f5c400}
+.ikon-btn{background:#292929;border:1px solid #414141}
+.ikon-btn:hover{background:#3a320e;color:#f5c400}
+.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 88% 8%,rgba(245,196,0,.18),transparent 34%),linear-gradient(125deg,#101010 0%,#202020 58%,#29230d 100%);padding:38px 0 62px}
+.hero:after{content:"";position:absolute;width:300px;height:300px;border:1px solid rgba(245,196,0,.12);border-radius:50%;right:-100px;bottom:-205px;box-shadow:0 0 0 28px rgba(245,196,0,.035),0 0 0 58px rgba(245,196,0,.025);pointer-events:none}
+.hero h1{font-size:clamp(27px,4.5vw,42px);letter-spacing:-1.2px}
+.hero p{color:#d1d1ca}
+.sayac{background:rgba(255,255,255,.065);border:1px solid rgba(245,196,0,.22);backdrop-filter:blur(5px);border-radius:15px}
+.sayac b{color:#f5c400}
+.sayac span,.canli{color:#c6c6be}
+.arama{border-radius:15px;box-shadow:0 12px 34px rgba(0,0,0,.12)}
+.arama input{padding:16px 19px}
+.arama button,.cip.aktif{background:#f5c400;color:#171717;border-color:#f5c400}
+.arama button{font-weight:800}
+.cip:hover,.il:hover{border-color:#d4a900}
+.panel{border-radius:17px;box-shadow:var(--gol)}
+.panel h3{font-size:16px;letter-spacing:-.2px}
+.alan select:focus,.alan input:focus{border-color:#d4a900;box-shadow:0 0 0 3px rgba(245,196,0,.2)}
+.onay input{accent-color:#d4a900}
+.mobil-filtre{background:#171717;color:#f5c400;border:1px solid rgba(245,196,0,.4)}
+.btn-tamam{background:linear-gradient(135deg,#f8d52b,#e6b400);color:#171717;box-shadow:0 7px 18px rgba(190,145,0,.22)}
+.btn-tamam.yukleniyor{background:linear-gradient(135deg,#f8d52b,#e6b400);color:#171717}
+.btn-tamam.tamam{background:linear-gradient(135deg,#22c55e,#16a34a);color:#fff}
+.d-hepsi{background:#f5c400;color:#171717}
+.durum-btn.aktif.d-hepsi{box-shadow:0 0 0 3px var(--kart),0 0 0 5px #d4a900}
+.cip.aktif{font-weight:800}
+.sekme.aktif{background:#f5c400;color:#171717;border-color:#f5c400}
+.sekme.aktif b{background:rgba(0,0,0,.12)}
+.detay,.resmi a,.il b{color:#a77b00}
+.ilan{border-radius:17px;box-shadow:var(--gol);border-top-width:4px}
+.ilan:hover{box-shadow:0 15px 34px rgba(0,0,0,.12)}
+.baslik{letter-spacing:-.15px}
+.incele{background:#171717;color:#f5c400;border:1px solid #171717}
+.incele:hover{background:#f5c400;color:#171717;border-color:#f5c400}
+.btn-ana{background:#f5c400;color:#171717}
+.btn-ana:hover{background:#e5b700}
+.ky-ok:not(:disabled):hover{background:#171717;color:#f5c400}
+.aktifbar{background:rgba(245,196,0,.12);border-color:#d4a900}
+.aktifbar button{background:#171717;color:#f5c400}
+.ipucu{background:rgba(245,196,0,.12);border-color:#d4a900}
+.rozet.r-mavi{background:rgba(245,196,0,.14);color:#8a6500}
+:root[data-tema="koyu"] .rozet.r-mavi{color:#f5d34b}
+:root[data-tema="koyu"] .detay,:root[data-tema="koyu"] .resmi a,:root[data-tema="koyu"] .il b{color:#f5d34b}
+:root[data-tema="koyu"] .btn-ana{background:#f5c400;color:#171717}
+:root[data-tema="koyu"] .incele{background:#f5c400;color:#171717;border-color:#f5c400}
+:root[data-tema="koyu"] .incele:hover{background:#ffdc42}
+:root[data-tema="koyu"] .d-hepsi{background:#f5c400;color:#171717}
+:root[data-tema="koyu"] .sekme.aktif{background:#f5c400;color:#171717}
+:root[data-tema="koyu"] .arama button,:root[data-tema="koyu"] .cip.aktif{background:#f5c400;color:#171717}
+:focus-visible{outline:3px solid rgba(212,169,0,.65);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+@media(max-width:700px){
+  .hero{padding:28px 0 52px}
+  .hero h1{max-width:18ch}
+  .sayaclar{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .sayac{padding:11px 13px}
+  .arama{border-radius:13px}
+  .arama input{padding:14px 12px;font-size:15px}
+  .arama button{padding:0 14px}
+  .cipler{gap:7px}
+  .cip{padding:7px 11px;font-size:12.5px}
+  .liste{gap:11px}
+  .ilan{padding:14px}
+}
+
 </style>
 </head>
 <body>
