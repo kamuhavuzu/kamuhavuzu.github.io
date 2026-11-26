@@ -70,6 +70,10 @@ jobs:
           ayri = "KPSS P93" + (" A" * 80) + " KPSS P3 EN AZ 75 PUAN"
           assert parse_puan_tablosu(ayri).get("P93") is None, parse_puan_tablosu(ayri)
           assert parse_puan_tablosu(ayri).get("P3") == 75.0, parse_puan_tablosu(ayri)
+          # Sahil Guvenlik kilavuzundaki KPSSP03 ASGARI 60 tablo ifadesi.
+          p03 = "2026 YILI KPSSP03 ASGARI 60"
+          assert parse_puan_tablosu(p03).get("P3") == 60.0, parse_puan_tablosu(p03)
+          assert parse_min_kpss(p03) == 60.0, parse_min_kpss(p03)
           print("KPSS puan testleri: OK")
           PY
       - name: Yanlis duyuru filtreleme testi
