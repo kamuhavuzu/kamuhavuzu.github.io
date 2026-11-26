@@ -1,6 +1,6 @@
 {
-  "name": "KamuRadar – Kamu Personel İlanları",
-  "short_name": "KamuRadar",
+  "name": "KamuHavuzu – Kamu Personel İlanları",
+  "short_name": "KamuHavuzu",
   "description": "Türkiye genelindeki kamu personel alım ilanlarını keşfet, filtrele ve takip et.",
   "lang": "tr-TR",
   "start_url": "./",
