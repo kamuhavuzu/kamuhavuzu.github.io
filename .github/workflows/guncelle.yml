@@ -33,6 +33,24 @@ jobs:
                       data = json.load(f)
                   print(f"{name}: JSON OK")
           PY
+      - name: KPSS puan ayristirma testi
+        run: |
+          python - <<'PY'
+          from ayristir import parse_puan_tablosu, parse_min_kpss
+          ornek = """
+          Kadro Unvani: Insaat Muhendisi
+          Kadro Sayisi: 3
+          KPSS Puan Turu: KPSSP3
+          Giris sinavi genel basvuru sartlari:
+          KPSSP3 puan turunden en az 70 puan almis olmak.
+          """
+          puanlar = parse_puan_tablosu(ornek)
+          assert puanlar.get("P3") == 70.0, puanlar
+          assert parse_min_kpss(ornek) == 70.0
+          tablo = parse_puan_tablosu("KPSS P93 EN AZ 65 PUAN")
+          assert tablo.get("P93") == 65.0, tablo
+          print("KPSS puan testleri: OK")
+          PY
       - run: python ilan_cek_web.py
       - name: Yapay zeka ilan okuma
         env:
