@@ -513,6 +513,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 }
 
 </style>
+<style>.kr-yeni .btn-karsilastir{border:1px solid var(--cizgi);background:var(--bg);color:var(--mavi);border-radius:8px;padding:6px;font-size:10px;font-weight:700;cursor:pointer}.kr-compare-dock{display:flex;gap:10px;align-items:center;padding:12px;margin-bottom:12px;border:1px solid var(--cizgi);border-radius:12px;background:var(--kart)}.kr-compare-dock button{border:0;border-radius:8px;background:#245b91;color:white;padding:8px 10px;font-weight:700}.kr-compare-dock button:disabled{opacity:.4}.kr-compare-table-wrap{overflow:auto}.kr-compare-table{border-collapse:collapse;min-width:500px;width:100%;font-size:13px}.kr-compare-table th,.kr-compare-table td{padding:9px;border-bottom:1px solid var(--cizgi);text-align:left;vertical-align:top}</style>
 </head>
 <body class="kr-yeni">
 <div class="duyuru"><span>Bilgilendirme:</span> KamuRadar resmî kurum sitesi değildir. Başvurunu mutlaka resmî kaynaktan yap.</div>
@@ -605,6 +606,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
         <div id="durumAlani"></div>
         <div id="aktifBar"></div>
         <div class="ozet kr-sort-row"><span id="ozet"></span><select id="fSira"><option value="uygun">Önce uygun olanlar</option><option value="yakin">Son başvurusu yakın olan</option><option value="yeni">En yeni</option><option value="kontenjan">Kontenjan (çok → az)</option></select></div>
+        <div id="karsilastirmaCubugu" aria-live="polite"></div>
         <div class="liste" id="liste"></div>
         <button class="daha" id="btnDaha" style="display:none">Daha fazla göster</button>
       </section>
@@ -741,6 +743,7 @@ const norm=s=>String(s??'').replace(/İ/g,'I').replace(/ı/g,'I').replace(/Ö/g,
 
 let tum=[], veriMeta={}, gorunen=SAYFA, cip=new Set(), durumFiltre='hepsi', iller=false;
 let favoriler=new Set(JSON.parse(oku('k_fav')||'[]')), manuel=JSON.parse(oku('k_manuel')||'{}');
+let karsilastirma=new Set((()=>{try{return JSON.parse(oku('k_compare')||'[]').map(String).slice(0,3)}catch(e){return[]}})());
 
 /* ---------- kurum türü ---------- */
 const KURUM_KURALLARI=[
@@ -872,14 +875,14 @@ function kart(i,idx){
   else if(i.education_level) rz.push(`<span class="rozet">${esc(i.education_level)}</span>`);
   rz.push(`<span class="rozet">${esc(i.employment_type||'Diğer')}</span>`);
   if(i.bas&&i.bas>new Date()) rz.push(`<span class="rozet r-mavi">📅 ${gunFmt(i.bas)} başlıyor</span>`);
-  const f=favoriler.has(String(i.id));
+  const f=favoriler.has(String(i.id)), secili=karsilastirma.has(String(i.id));
   return `<article class="ilan ${i.durum}${gorulen.has(String(i.id))?' gorulmus':''}" data-id="${esc(i.id)}" tabindex="0" style="animation-delay:${Math.min(idx,12)*30}ms">
    <div class="kurum-satir">${avatarHtml(i)}
      <div><div class="kurum-ad">${esc(i.institution)}</div><div class="sehir">${esc(i.city||'Şehir belirtilmemiş')} · ${esc(i.tur)}</div></div>
      <button class="fav ${f?'acik':''}" data-fav="${esc(i.id)}" title="Favori">${f?'★':'☆'}</button></div>
    <h3 class="baslik">${esc(i.title)}</h3>
    <div class="rozetler">${rz.filter(Boolean).join('')}</div>
-   <div class="alt"><div>${son(i)}</div><span class="detay">Detay →</span></div></article>`;
+   <div class="alt"><div>${son(i)}</div><button type="button" class="btn-karsilastir" data-compare="${esc(i.id)}">${secili?"✓ Seçildi":"＋ Karşılaştır"}</button><span class="detay">Detay →</span></div></article>`;
 }
 
 /* ---------- ilan ayrıntı penceresi ---------- */
@@ -978,6 +981,7 @@ function listele(){
   $('ozet').textContent=`${sonuc.length} ilan listeleniyor · toplam havuz ${tum.length}`;
   $('liste').innerHTML=sonuc.length?sonuc.slice(0,gorunen).map(kart).join(''):
     `<div class="bos" style="grid-column:1/-1">${sekme==='uygun'&&!(d.puan>0)?'"Bana uygun" listesi için soldan (telefonda ⚙ Filtreleri aç) eğitim durumunu ve KPSS puanını gir.':tum.length?'Bu filtrelere uygun ilan yok. Şehri veya eğitimi "Hepsi" yapıp ya da filtreleri temizleyip tekrar dene.':'Henüz ilan yok. Aşağıdaki "Veri kaynakları" bölümünde hangi kaynağın hata verdiğini görebilirsin.'}</div>`;
+  karsilastirmaCubugu();
   $('btnDaha').style.display=sonuc.length>gorunen?'block':'none';
   $('btnDaha').textContent=`Daha fazla göster (${sonuc.length-gorunen} ilan daha)`;
   const A=[];
@@ -1137,6 +1141,25 @@ function ics(){
   const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([o],{type:'text/calendar'}));a.download='kamuradar-takvim.ics';a.click();
 }
 
+function karsilastirmaCubugu(){
+ const el=$('karsilastirmaCubugu');if(!el)return;
+ const sec=[...karsilastirma].map(id=>tum.find(i=>String(i.id)===id)).filter(Boolean);
+ el.innerHTML=sec.length?'<div class="kr-compare-dock"><b>Karşılaştırma ('+sec.length+'/3)</b><button id="btnKarsilastir" '+(sec.length<2?'disabled':'')+'>Karşılaştır</button><button id="btnKarsilastirmaTemizle">Temizle</button></div>':'';
+}
+function karsilastirmaAc(){
+ const sec=[...karsilastirma].map(id=>tum.find(i=>String(i.id)===id)).filter(Boolean);
+ if(sec.length<2){alert('En az iki ilan seç.');return}
+ const alanlar=[['Kurum',i=>i.institution],['İlan',i=>i.title],['Şehir',i=>i.city||'Belirtilmemiş'],['Kontenjan',i=>i.quota||'Belirtilmemiş'],['KPSS',i=>i.kpss_type||'Belirtilmemiş'],['Taban puan',i=>i.minP||'Belirtilmemiş'],['Eğitim',i=>(i.egitimler||[]).join(', ')||i.education_level||'Belirtilmemiş'],['Son başvuru',i=>i.bitis?gunFmt(i.bitis):'Belirtilmemiş'],['Yaş sınırı',i=>i.yasMax||'Belirtilmemiş']];
+ const h='<table class="kr-compare-table"><tr><th>Özellik</th>'+sec.map(i=>'<th>'+esc(i.institution)+'</th>').join('')+'</tr>'+alanlar.map(([a,fn])=>'<tr><th>'+esc(a)+'</th>'+sec.map(i=>'<td>'+esc(fn(i))+'</td>').join('')+'</tr>').join('')+'</table>';
+ $('modalIc').innerHTML='<button class="m-kapat" data-mkapat>✕</button><h2 id="mBaslik">İlanları karşılaştır</h2><div class="kr-compare-table-wrap">'+h+'</div>';
+ $('modal').hidden=false;document.body.classList.add('modal-acik');modalId=null;
+}
+function karsilastirmaTik(e){
+ const b=e.target.closest('[data-compare]');if(!b)return;
+ e.preventDefault();e.stopPropagation();const id=String(b.dataset.compare);
+ if(karsilastirma.has(id))karsilastirma.delete(id);else if(karsilastirma.size<3)karsilastirma.add(id);else{alert('En fazla 3 ilan seçebilirsin.');return}
+ yaz('k_compare',JSON.stringify([...karsilastirma]));listele();
+}
 /* ---------- olaylar ---------- */
 function yenidenCiz(){gorunen=SAYFA;listele()}
 $('btnTamam').addEventListener('click',()=>{
@@ -1191,6 +1214,7 @@ function gorIsaretle(e){
   if(!document.querySelector('.ky-sifirla')&&$('yeniler').querySelector('.serit-baslik>span')) setTimeout(yenilerCiz,80);
 }
 ['click','auxclick'].forEach(t=>{$('liste').addEventListener(t,gorIsaretle);$('yeniler').addEventListener(t,gorIsaretle)});
+$('liste').addEventListener('click',karsilastirmaTik);
 $('liste').addEventListener('click',listeTik);
 $('yeniler').addEventListener('click',e=>{
   if(e.target.closest('[data-gsifirla]')){gorulen.clear();yaz('k_gorulen','[]');document.querySelectorAll('.gorulmus').forEach(x=>x.classList.remove('gorulmus'));yenilerCiz();return}
@@ -1201,6 +1225,7 @@ $('yeniler').addEventListener('click',e=>{
 $('mnIller').addEventListener('click',()=>{iller=!iller;$('iller').classList.toggle('acik',iller);listele();if(iller)$('ilanlar').scrollIntoView()});
 $('mnFav').addEventListener('click',()=>{cip.has('fav')?cip.delete('fav'):cip.add('fav');yenidenCiz();$('ilanlar').scrollIntoView()});
 $('mnTakvim').addEventListener('click',ics);
+$('karsilastirmaCubugu').addEventListener('click',e=>{if(e.target.id==='btnKarsilastir')karsilastirmaAc();if(e.target.id==='btnKarsilastirmaTemizle'){karsilastirma.clear();yaz('k_compare','[]');listele()}});
 $('modal').addEventListener('click',e=>{
   if(e.target.id==='modal'||e.target.closest('[data-mkapat]')){modalKapat();return}
   const c=e.target.closest('[data-linkkopya]');
