@@ -514,6 +514,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 
 </style>
 <style>.kr-yeni .btn-karsilastir{border:1px solid var(--cizgi);background:var(--bg);color:var(--mavi);border-radius:8px;padding:6px;font-size:10px;font-weight:700;cursor:pointer}.kr-compare-dock{display:flex;gap:10px;align-items:center;padding:12px;margin-bottom:12px;border:1px solid var(--cizgi);border-radius:12px;background:var(--kart)}.kr-compare-dock button{border:0;border-radius:8px;background:#245b91;color:white;padding:8px 10px;font-weight:700}.kr-compare-dock button:disabled{opacity:.4}.kr-compare-table-wrap{overflow:auto}.kr-compare-table{border-collapse:collapse;min-width:500px;width:100%;font-size:13px}.kr-compare-table th,.kr-compare-table td{padding:9px;border-bottom:1px solid var(--cizgi);text-align:left;vertical-align:top}</style>
+<style>.rozet.r-resmi{background:rgba(22,163,74,.11);color:#15803d;border-color:rgba(22,163,74,.22)}#mnBildirim{white-space:nowrap}@media(max-width:700px){#mnBildirim{font-size:11px}}</style>
 </head>
 <body class="kr-yeni">
 <div class="duyuru"><span>Bilgilendirme:</span> KamuRadar resmî kurum sitesi değildir. Başvurunu mutlaka resmî kaynaktan yap.</div>
@@ -528,6 +529,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
       <button type="button" id="mnIller">Şehirlere göre</button>
       <button type="button" id="mnFav">Favorilerim</button>
       <button type="button" id="mnTakvim">Takvime ekle</button>
+      <button type="button" id="mnBildirim">Son gün bildirimleri</button>
     </nav>
     <div class="sag"><div class="sosyal" id="sosyal"></div><button class="ikon-btn" id="btnTema" title="Açık / koyu tema" aria-label="Temayı değiştir">◐</button></div>
   </div>
@@ -850,6 +852,11 @@ function uygun(i,d,durumHaric){
 }
 
 /* ---------- çizim ---------- */
+function kaynakDurumRozeti(i){
+ let host='';try{host=new URL(String(i.link||'')).hostname.toLowerCase()}catch(e){}
+ const resmi=host.endsWith('.gov.tr')||host==='gov.tr';
+ return resmi?'<span class="rozet r-resmi" title="Bağlantı resmî .gov.tr alan adında; ilan metnini yine de kurum sayfasından doğrula">✓ Resmî alan adı</span>':'<span class="rozet r-kontrol" title="Kaynak adresi otomatik doğrulanamadı; başvurmadan önce kontrol et">Kaynak kontrolü gerekli</span>';
+}
 function son(i){
   if(i.kalan===null) return '<span class="son">Son tarih belirtilmemiş</span>';
   if(i.kalan<0) return `<span class="son bitti">Süresi doldu · ${gunFmt(i.bitis)}</span>`;
@@ -875,6 +882,7 @@ function kart(i,idx){
   else if(i.education_level) rz.push(`<span class="rozet">${esc(i.education_level)}</span>`);
   rz.push(`<span class="rozet">${esc(i.employment_type||'Diğer')}</span>`);
   if(i.bas&&i.bas>new Date()) rz.push(`<span class="rozet r-mavi">📅 ${gunFmt(i.bas)} başlıyor</span>`);
+  rz.push(kaynakDurumRozeti(i));
   const f=favoriler.has(String(i.id)), secili=karsilastirma.has(String(i.id));
   return `<article class="ilan ${i.durum}${gorulen.has(String(i.id))?' gorulmus':''}" data-id="${esc(i.id)}" tabindex="0" style="animation-delay:${Math.min(idx,12)*30}ms">
    <div class="kurum-satir">${avatarHtml(i)}
@@ -1117,7 +1125,14 @@ async function veriYenile(ilk){
   const g=(j.son_kontrol||j.guncelleme)?new Date(j.son_kontrol||j.guncelleme):null;
   const dk=g?Math.max(0,Math.round((Date.now()-g)/6e4)):null;
   $('canli').innerHTML=g?`İlanlar en son <b>${dk<60?dk+' dk':dk<1440?Math.round(dk/60)+' saat':Math.round(dk/1440)+' gün'} önce</b> kontrol edildi · sayfa 5 dakikada bir kendiliğinden yenilenir`:'Henüz veri toplanmadı.';
-  istatistik(); secenekler(); kaynakCiz(j.kaynaklar||{}); listele();
+  istatistik(); secenekler(); kaynakCiz(j.kaynaklar||{}); listele(); favoriBildirimleriniGoster();
+}
+function favoriBildirimleriniGoster(){
+ if(!('Notification' in window)||Notification.permission!=='granted'||oku('k_bildirim')!=='1')return;
+ tum.filter(i=>favoriler.has(String(i.id))&&i.bitis&&i.kalan!==null&&i.kalan>=0&&i.kalan<=2).forEach(i=>{
+  const ana='k_bildirim_'+i.id+'_'+i.deadline;if(oku(ana))return;
+  try{new Notification('KamuRadar · Son başvuru yaklaşıyor',{body:(i.institution||'Kamu ilanı')+' — '+i.title+' · '+(i.kalan===0?'Bugün son gün':i.kalan+' gün kaldı')});yaz(ana,'1')}catch(e){}
+ });
 }
 function kaynakCiz(k){
   const ad=Object.keys(k);
@@ -1225,6 +1240,12 @@ $('yeniler').addEventListener('click',e=>{
 $('mnIller').addEventListener('click',()=>{iller=!iller;$('iller').classList.toggle('acik',iller);listele();if(iller)$('ilanlar').scrollIntoView()});
 $('mnFav').addEventListener('click',()=>{cip.has('fav')?cip.delete('fav'):cip.add('fav');yenidenCiz();$('ilanlar').scrollIntoView()});
 $('mnTakvim').addEventListener('click',ics);
+$('mnBildirim').addEventListener('click',async()=>{
+ if(!('Notification' in window)){alert('Bu tarayıcı bildirimleri desteklemiyor.');return}
+ const izin=await Notification.requestPermission();
+ if(izin==='granted'){yaz('k_bildirim','1');favoriBildirimleriniGoster();alert('Bildirimler açıldı. Favori ilanlarının son başvuru tarihleri yaklaşınca site açıkken hatırlatma alırsın.')}
+ else alert('Bildirim izni verilmedi. Tarayıcı ayarlarından izin verebilirsin.');
+});
 $('karsilastirmaCubugu').addEventListener('click',e=>{if(e.target.id==='btnKarsilastir')karsilastirmaAc();if(e.target.id==='btnKarsilastirmaTemizle'){karsilastirma.clear();yaz('k_compare','[]');listele()}});
 $('modal').addEventListener('click',e=>{
   if(e.target.id==='modal'||e.target.closest('[data-mkapat]')){modalKapat();return}
