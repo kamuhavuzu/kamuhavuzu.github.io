@@ -621,7 +621,7 @@ def basvuru_coz(mevcut):
 
 
 def tekillestir(ilanlar):
-    """Ayni kurumun ayni basligi iki kaynaktan geldiyse tek kayit birakir (dogrudan linki olani ve ilk gorulenini)."""
+    """Ayni kurumun ayni basligini tek kartta birlestirir; tum kaynak baglantilarini korur."""
     import re as _re
     def anahtar(r):
         t = f"{r.get('institution', '')}|{r.get('title', '')}".lower()
@@ -631,11 +631,24 @@ def tekillestir(ilanlar):
         gruplar.setdefault(anahtar(r), []).append(r)
     sonuc = []
     for g in gruplar.values():
-        if len(g) == 1:
-            sonuc.append(g[0]); continue
         g.sort(key=lambda r: ("#" in str(r.get("link", "")), str(r.get("checked_at") or "")))
         ana = dict(g[0])
-        ana["checked_at"] = min([str(x.get("checked_at") or "") for x in g if x.get("checked_at")] or [""]) or ana.get("checked_at")
+        if len(g) > 1:
+            ana["checked_at"] = min([str(x.get("checked_at") or "") for x in g if x.get("checked_at")] or [""]) or ana.get("checked_at")
+        baglantilar, gorulen = [], set()
+        for x in g:
+            link = str(x.get("link") or "")
+            kaynak = str(x.get("source_name") or "")
+            anahtar_link = (kaynak, link)
+            if not link or anahtar_link in gorulen:
+                continue
+            gorulen.add(anahtar_link)
+            baglantilar.append({
+                "source_name": kaynak,
+                "link": link,
+                "source_url": x.get("source_url") or link
+            })
+        ana["kaynak_baglantilari"] = baglantilar
         ana["diger_kaynaklar"] = sorted({x.get("source_name", "") for x in g[1:] if x.get("source_name")})
         sonuc.append(ana)
     return sonuc
