@@ -551,6 +551,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 @media(max-width:560px){.kr-quick-match{padding:13px}.kr-quick-grid{grid-template-columns:1fr 1fr}.kr-analytics-grid{grid-template-columns:1fr}.kr-saved-search select{flex:1;min-width:120px}}
 </style>
 
+<style>#krInstallApp[hidden]{display:none}#krInstallApp{border:1px solid #b8cce0!important;border-radius:8px!important;background:#edf4fb!important;color:#174d7a!important;font-weight:750!important}@media(max-width:600px){#krInstallApp{white-space:nowrap}}</style>
 </head>
 <body class="kr-yeni">
 <div class="duyuru"><span>Bilgilendirme:</span> KamuRadar resmî kurum sitesi değildir. Başvurunu mutlaka resmî kaynaktan yap.</div>
@@ -566,6 +567,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
       <button type="button" id="mnFav">Favorilerim</button>
       <button type="button" id="mnTakvim">Takvime ekle</button>
       <button type="button" id="mnBildirim">Son gün bildirimleri</button>
+      <button type="button" id="krInstallApp" hidden>Uygulamayı yükle</button>
     </nav>
     <div class="sag"><div class="sosyal" id="sosyal"></div><button class="ikon-btn" id="btnTema" title="Açık / koyu tema" aria-label="Temayı değiştir">◐</button></div>
   </div>
@@ -1396,6 +1398,13 @@ async function yerelGuncelle(){
   }catch(e){kutu.innerHTML='ℹ guncelle.php bulunamadı; otomatik güncelleme kapalı.'}
 }
 
+/* ---------- uygulama kurulumu ve bağlantı durumu ---------- */
+let krInstallPrompt=null;
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();krInstallPrompt=e;$('krInstallApp').hidden=false});
+$('krInstallApp').addEventListener('click',async()=>{if(!krInstallPrompt){alert('Tarayıcı menüsünden “Ana ekrana ekle” seçeneğini kullanabilirsin.');return}krInstallPrompt.prompt();await krInstallPrompt.userChoice;krInstallPrompt=null;$('krInstallApp').hidden=true});
+window.addEventListener('appinstalled',()=>{$('krInstallApp').hidden=true;krInstallPrompt=null});
+window.addEventListener('offline',()=>{$('canli').textContent='Çevrimdışısın. Son önbelleğe alınan ilan verileri görüntülenebilir; güncel başvuru için bağlantını kontrol et.'});
+window.addEventListener('online',()=>veriYenile(false));
 /* ---------- başlangıç ---------- */
 (async function(){
   $sosyalCiz();
