@@ -720,30 +720,65 @@ def tekillestir(ilanlar):
     return sonuc
 
 
-_AY = {"ocak":1,"şubat":2,"subat":2,"mart":3,"nisan":4,"mayıs":5,"mayis":5,"haziran":6,"temmuz":7,"ağustos":8,"agustos":8,"eylül":9,"eylul":9,"ekim":10,"kasım":11,"kasim":11,"aralık":12,"aralik":12}
-_ILAN_DISI = re.compile(r"sonu[çc]|yerle[şs]tirme|sözlü sınav|sozlu sinav|yazılı sınav|yazili sinav|tercih duyuru|taban ve tavan|tavan ve taban|erteleme|sınav tarihi|hak kazanan|değerlendirme sonu|yedek ol|atanmaya", re.I)
+_AY_NUM = {
+    "OCAK": 1, "SUBAT": 2, "MART": 3, "NISAN": 4, "MAYIS": 5, "HAZIRAN": 6,
+    "TEMMUZ": 7, "AGUSTOS": 8, "EYLUL": 9, "EKIM": 10, "KASIM": 11, "ARALIK": 12
+}
+# Sonuç/yerleştirme ve sınav sonrası duyuruları yeni personel alımı değildir.
+# "Müfettiş yardımcılığı giriş sınavı ilanı" gibi ilk alım ilanları özellikle korunur.
+_ILAN_DISI = re.compile(
+    r"\bSONUC\b|\bYERLESTIRME\b|\bYERLESEN ADAY|\bYEDEK SIRADAN\b|"
+    r"\bHAK KAZANAN\b|\bKAZANANLARA ILISKIN\b|\bISTENILEN BELGELER\b|"
+    r"\bSINAV GIRIS BELGESI\b|\bSINAV YERI\b|\bSINAV TAKVIMI\b|"
+    r"\bSINAVINDA BASARILI OLANLAR\b|\bSINAVININ .* BASARILI OLANLAR\b|"
+    r"\bERTELEME\b|\bTERCIH DUYURUSU\b|\bTABAN VE TAVAN PUAN\b|"
+    r"\bTAVAN VE TABAN PUAN\b|\bATANMAYA HAK\b",
+    re.I
+)
+_TURMOB_RE = re.compile(r"\bTURMOB\b|YEMINLI MALI MUSAVIRLIK SINAV", re.I)
+
 
 def ilan_disi_temizle(mevcut):
-    """Ek kaynaklardaki (bakanlik duyuru sayfalari) sonuc/sinav duyurularini ve eski ilanlari havuzdan cikarir."""
+    """Sonuç duyurularını ve kamu alımı olmayan TÜRMOB sınavlarını çıkarır;
+    eski gerçek alım ilanlarını silmek yerine arşive taşır."""
     bugun = date.today()
     silinecek = []
+    arsivlenen = 0
     for k, r in mevcut.items():
-        if r.get("source_name") in ("ilan.gov.tr", "Kariyer Kapısı"):
-            continue
-        b = str(r.get("title") or "")
-        m = re.match(r"\s*(\d{1,2})\s+([A-Za-zÇĞİÖŞÜçğıöşü]+)\s+(\d{4})", b)
-        eski = False
-        if m and m.group(2).lower() in _AY:
-            try:
-                eski = (bugun - date(int(m.group(3)), _AY[m.group(2).lower()], int(m.group(1)))).days > 45
-            except ValueError:
-                pass
-        if _ILAN_DISI.search(b) or (eski and not str(r.get("deadline") or "")[:10] >= bugun.isoformat()):
+        baslik = str(r.get("title") or "")
+        kurum = str(r.get("institution") or "")
+        kaynak = str(r.get("source_name") or "")
+        duz = ic.norm(" ".join((baslik, kurum)))
+        # TÜRMOB kamu kurumu/personel alımı kaynağı değildir; ilan.gov.tr'de
+        # yayımlanmış olsa bile kamu personel ilan havuzuna alınmaz.
+        if _TURMOB_RE.search(duz):
             silinecek.append(k)
+            continue
+        # Sonuç, yerleştirme, sınav sonucu ve aday belge duyuruları bütün
+        # kaynaklarda elenir. Gerçek ilk alım ilanları (giriş sınavı ilanı) kalır.
+        if _ILAN_DISI.search(duz):
+            silinecek.append(k)
+            continue
+        # Ek kaynaklarda tarihi başlığın başında bulunan eski gerçek alımlar,
+        # son tarihi okunamamış olsa bile açık ilan gibi gösterilmez; arşivlenir.
+        if kaynak not in ("ilan.gov.tr", "Kariyer Kapısı"):
+            m = re.match(r"\s*(\d{1,2})\s+([A-Z]+)\s+(\d{4})", duz)
+            if m and m.group(2) in _AY_NUM:
+                try:
+                    yayin = date(int(m.group(3)), _AY_NUM[m.group(2)], int(m.group(1)))
+                    son = str(r.get("deadline") or "")[:10]
+                    son_gecmis = not son or son < bugun.isoformat()
+                    if (bugun - yayin).days > 45 and son_gecmis and r.get("durum") != "arsiv":
+                        r["durum"] = "arsiv"
+                        r["arsiv_nedeni"] = "Eski tarihli ek kaynak duyurusu; güncel başvuru ilanı değil"
+                        r.setdefault("archived_at", datetime.now(timezone.utc).isoformat(timespec="seconds"))
+                        arsivlenen += 1
+                except ValueError:
+                    pass
     for k in silinecek:
         del mevcut[k]
+    print(f"İlan dışı sonuç/TÜRMOB kaydı çıkarıldı: {len(silinecek)}; eski ilan arşivlendi: {arsivlenen}")
     return len(silinecek)
-
 
 def main():
     mevcut, eski_kaynaklar, eski_guncelleme = {}, {}, None
