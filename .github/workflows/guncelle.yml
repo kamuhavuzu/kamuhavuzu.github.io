@@ -1,6 +1,13 @@
 name: Ilanlari guncelle
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.py"
+      - ".github/workflows/guncelle.yml"
+      - "ek_kaynaklar.json"
+      - "requirements.txt"
   schedule:
     - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
@@ -8,7 +15,9 @@ on:
 permissions:
   contents: write
 
-concurrency: guncelle
+concurrency:
+  group: guncelle
+  cancel-in-progress: true
 
 jobs:
   guncelle:
