@@ -1,4 +1,4 @@
 requests
 truststore; sys_platform == "win32"
 cryptography
-pypdf
+pypdf\nPyMuPDF\npytesseract\nPillow\n
