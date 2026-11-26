@@ -14,6 +14,7 @@ Kaynak listesi:
 Bilgisayarinda:  python ilan_cek_web.py
 """
 import hashlib
+import html
 import json
 import os
 import re
