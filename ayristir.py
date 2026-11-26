@@ -184,9 +184,9 @@ _KPSS_PATTERNS = [
     # "70'ten az olmamak uzere", "70 puandan az olmamak"
     _SAYI + r"\s*['\u2019]?\s*(?:PUAN\w*\s*)?(?:DEN|DAN|TEN|TAN)?\s*(?:AZ|DUSUK)\s+OLMAMAK",
     # "KPSS (P93) puan turunden en az 70", "KPSS ... en dusuk 65"
-    r"KPSS[^.]{0,80}?(?:EN AZ|EN DUSUK)\s*" + _SAYI,
+    r"KPSS[^.]{0,100}?(?:EN AZ|EN DUSUK|ASGARI)\s*" + _SAYI,
     # "KPSS P3 taban puani 80", "KPSS P93 puan: 72"
-    r"KPSS\s*\(?\s*P\s?(?:93|94|3)\s*\)?[^0-9.]{0,25}(?:TABAN|PUAN\w*)[^0-9]{0,25}" + _SAYI,
+    r"KPSS\s*\(?\s*P\s?(?:03|3|93|94)\s*\)?[^0-9.]{0,25}(?:TABAN|PUAN\w*)[^0-9]{0,25}" + _SAYI,
 ]
 _KPSS_DISQUALIFY = re.compile(r"YDS|ALES|YABANCI DIL|MULAKAT|YAZILI|SOZLU")
 
@@ -365,13 +365,15 @@ def parse_puan_tablosu(text):
     sonuc = {}
     for m in _TABLO_RE.finditer(t):
         tur = m.group(1).replace(" ", "")
+        if tur == "P03":
+            tur = "P3"
         v = float(m.group(2).replace(",", "."))
         if 40 <= v <= 100:
             sonuc[tur] = min(sonuc.get(tur, v), v)
 
     # Bazi ilanlarda tablo yalnizca KPSSP3/P93 turunu yazar; asgari puan
     # asagidaki genel sartlarda gecer. Ayni metin blogundaki tur-puani bagla.
-    tur_re = re.compile(r"KPSS\s*\(?\s*(P\s?(?:93|94|3))\s*\)?")
+    tur_re = re.compile(r"KPSS\s*\(?\s*(P\s?(?:03|3|93|94))\s*\)?")
     for mt in tur_re.finditer(t):
         # Ilan.gov.tr tablolari duz metne cevrilirken satirlar arasi bosluk
         # cok buyuyebiliyor. Ayni KPSS turu icin daha genis bolge tara; baska
@@ -389,6 +391,8 @@ def parse_puan_tablosu(text):
         deger = float(puan_eslesme.group(1).replace(",", "."))
         if 40 <= deger <= 100:
             tur = mt.group(1).replace(" ", "")
+            if tur == "P03":
+                tur = "P3"
             sonuc[tur] = min(sonuc.get(tur, deger), deger)
     return sonuc
 
