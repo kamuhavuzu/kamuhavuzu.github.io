@@ -8,7 +8,7 @@ K = os.path.dirname(os.path.abspath(__file__))
 DOSYA = os.path.join(K, "ilanlar.json")
 ANAHTAR = os.environ.get("OPENAI_API_KEY", "")
 GEMINI = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 LIMIT = int(os.environ.get("AI_LIMIT", "20"))
 
@@ -69,7 +69,7 @@ def main():
             try: govde = e.read().decode("utf-8", "ignore")[:300].replace("\n", " ")
             except Exception: govde = ""
             print("Yapay zeka HTTP hatasi:", e.code, govde)
-            if e.code in (401, 402, 403): break
+            if e.code in (401, 402, 403, 404): break
             if e.code == 429: time.sleep(30)
         except Exception as e:
             print("Hata:", type(e).__name__, str(e)[:200])
