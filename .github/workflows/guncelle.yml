@@ -28,7 +28,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: OCR araclarini kur\n        run: |\n          sudo apt-get update\n          sudo apt-get install -y tesseract-ocr tesseract-ocr-tur\n      - run: pip install -r requirements.txt
+      - name: OCR araclarini kur
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-tur\n      - run: pip install -r requirements.txt
       - name: Kod ve veri dosyalarini dogrula
         run: |
           python -m compileall -q .
