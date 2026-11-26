@@ -84,7 +84,12 @@ def gemini(row):
     key = os.environ.get("GEMINI_API_KEY", "")
     if not key:
         return None
-    model = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
+    ana_model = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
+    modeller = [ana_model]
+    # Ana model gecici 503 yogunluk hatasi verirse ikinci resmi, kararlı Flash-Lite modelini dene.
+    if ana_model == "gemini-3.5-flash-lite":
+        modeller.append("gemini-3.1-flash-lite")
+
     payload = {
         "systemInstruction": {"parts": [{"text": SISTEM + " Yalnizca JSON dondur."}]},
         "contents": [{"role": "user", "parts": [{"text": ilan_metni(row)}]}],
@@ -95,16 +100,27 @@ def gemini(row):
                            "ozel_sartlar": {"type": "ARRAY", "items": {"type": "STRING"}}}
         }}
     }
-    try:
-        result = post_json(
-            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-            payload, {"x-goog-api-key": key}
-        )
-        return json_coz(result["candidates"][0]["content"]["parts"][0]["text"])
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", "ignore")[:500].replace("\n", " ")
-        print("Gemini HTTP", e.code, body)
-        raise
+    for sira, model in enumerate(modeller):
+        for deneme in range(2):
+            try:
+                result = post_json(
+                    f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                    payload, {"x-goog-api-key": key}
+                )
+                print("Gemini modeli:", model)
+                return json_coz(result["candidates"][0]["content"]["parts"][0]["text"])
+            except urllib.error.HTTPError as e:
+                body = e.read().decode("utf-8", "ignore")[:500].replace("\\n", " ")
+                print("Gemini HTTP", e.code, "model:", model, body)
+                # 503 model yogunlugunda yedek modele gec; gecici sunucu hatalarinda bir kez bekleyip yinele.
+                if e.code == 503 and sira + 1 < len(modeller):
+                    print("Gemini yedek modeline geciliyor.")
+                    break
+                if e.code in (500, 502, 503, 504) and deneme == 0:
+                    time.sleep(3)
+                    continue
+                raise
+    raise RuntimeError("Gemini ana ve yedek modelleri kullanilamadi.")
 
 def groq(row):
     return openai_uyumlu("Groq", os.environ.get("GROQ_API_KEY", ""),
