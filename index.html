@@ -822,6 +822,7 @@ function kaynakCiz(k){
   const ad=Object.keys(k);
   $('kaynakDurum').innerHTML=ad.length?ad.map(a=>{const d=k[a];
     if(d.durum==='hata') return `<span class="k-rozet hata" title="${esc(d.mesaj||'')}">⚠ ${esc(a)} okunamadı</span>`;
+    if(d.durum==='pasif') return `<span class="k-rozet" title="${esc(d.mesaj||'Kaynak taraması kapalı; eski ilanlar korunuyor.')}">⏸ ${esc(a)} tarama kapalı · ${d.sayi||0} kayıt korumada</span>`;
     return `<span class="k-rozet ${d.not?'dene':'ok'}" title="${esc(d.not||'')}">${d.not?'🧪':'✅'} ${esc(a)} (${d.sayi||0})</span>`}).join('')
     :'<span class="k-rozet">Henüz kaynak bilgisi yok</span>';
 }
