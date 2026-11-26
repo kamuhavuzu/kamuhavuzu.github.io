@@ -187,6 +187,11 @@ jobs:
           print("JSON birlestirildi; ana daldaki ilanlar ve yeni tarama korunuyor.")
           PY
               git add ilanlar.json
+              for f in $(git diff --name-only --diff-filter=U); do
+                git checkout --ours -- "$f" 2>/dev/null || git rm -q -f "$f" 2>/dev/null || true
+              done
+              python sayfa_uret.py
+              git add -A
               GIT_EDITOR=true git rebase --continue
             fi
             git push origin HEAD:main
