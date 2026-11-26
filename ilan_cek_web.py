@@ -43,6 +43,9 @@ MANUEL_DOSYASI = os.path.join(KLASOR, "manuel_ilanlar.json")
 ESKI_GUN = 30            # geriye donuk uyumluluk: ilanlar silinmez, arsivlenir
 TARIHSIZ_GUN = 60        # tarihsiz ilanlar silinmez; kontrol gerektiren olarak korunur
 ACIKLAMA_SINIR = 6000
+DETAY_METIN_LIMIT = 30000
+PDF_EK_LIMIT = 5
+PDF_BOYUT_LIMIT = 12 * 1024 * 1024
 DETAY_LIMIT = 80         # her kaynakta bir calismada en fazla bu kadar ilan sayfasi acilir
 UA = {"user-agent": "Mozilla/5.0 (compatible; KamuRadar/1.0; kisisel kullanim)"}
 
@@ -67,13 +70,64 @@ def temel_satir(link, **alanlar):
     return row
 
 
+def _pdf_metinini_oku(session, url):
+    """PDF ekindeki metni guvenli boyut/sayfa sinirlariyla cikarir."""
+    try:
+        r = session.get(url, headers=UA, timeout=35, stream=True)
+        if r.status_code != 200:
+            return ""
+        uzunluk = int(r.headers.get("content-length") or 0)
+        if uzunluk > PDF_BOYUT_LIMIT:
+            return ""
+        parca = bytearray()
+        for blok in r.iter_content(65536):
+            if not blok:
+                continue
+            parca.extend(blok)
+            if len(parca) > PDF_BOYUT_LIMIT:
+                return ""
+        if not parca.startswith(b"%PDF"):
+            return ""
+        from io import BytesIO
+        from pypdf import PdfReader
+        reader = PdfReader(BytesIO(bytes(parca)), strict=False)
+        sayfalar = []
+        for sayfa in reader.pages[:40]:
+            try:
+                metin = sayfa.extract_text() or ""
+                if metin:
+                    sayfalar.append(metin)
+            except Exception:
+                continue
+        return "\n".join(sayfalar)[:DETAY_METIN_LIMIT]
+    except Exception as e:
+        print(f"[PDF] metin okunamadi: {type(e).__name__}: {url}")
+        return ""
+
+
 def detay_oku(session, url):
-    """Ilan sayfasini acip duz metnini dondurur (hata olursa bos)."""
+    """Ilan sayfasini ve bagli PDF eklerini okuyup tam metni dondurur."""
     try:
         r = session.get(url, headers=UA, timeout=25)
         if r.status_code != 200:
             return ""
-        return ic.duz_metin(r.content.decode("utf-8", "replace"))[:ACIKLAMA_SINIR]
+        ham = r.content.decode(r.encoding or "utf-8", "replace")
+        metin = ic.duz_metin(ham)
+        # Ilan sayfasindaki PDF eklerini de oku; metin ana sayfa metninin
+        # arkasina eklenir, boylece ust menu puan bilgisini gizleyemez.
+        pdfler = []
+        for m in re.finditer(r"""href\s*=\s*["']([^"']+\.pdf(?:\?[^"']*)?)["']""", ham, re.I):
+            pdf_url = urljoin(url, html.unescape(m.group(1)))
+            if pdf_url not in pdfler:
+                pdfler.append(pdf_url)
+            if len(pdfler) >= PDF_EK_LIMIT:
+                break
+        ekler = []
+        for pdf_url in pdfler:
+            pdf_metin = _pdf_metinini_oku(session, pdf_url)
+            if pdf_metin:
+                ekler.append(f"\n[PDF EKI: {pdf_url}]\n{pdf_metin}")
+        return (metin + "\n" + "\n".join(ekler))[:DETAY_METIN_LIMIT]
     except requests.RequestException:
         return ""
 
@@ -88,6 +142,10 @@ def detaydan_doldur(row, metin):
         row["min_kpss"] = ic.parse_min_kpss(tum)
     if row.get("kpss_type") in ("", None):
         row["kpss_type"] = ic.parse_kpss_type(tum)
+    puanlar = ic.parse_puan_tablosu(tum)
+    if puanlar:
+        row["puanlar"] = {**(row.get("puanlar") or {}), **puanlar}
+        row["min_kpss"] = min(puanlar.values())
     if not row.get("education_level"):
         row["education_level"] = ic.parse_education(tum)
     if not row.get("deadline"):
@@ -392,7 +450,7 @@ def puanlari_yenile(mevcut):
                 row["deadline"] = iso(bit)
         if not row.get("education_level"):
             row["education_level"] = ic.parse_education(metin)
-        if "puanlar" not in row:
+        if not isinstance(row.get("puanlar"), dict) or not row.get("puanlar"):
             pt = ic.parse_puan_tablosu(metin)
             row["puanlar"] = pt
             if pt:
