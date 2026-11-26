@@ -52,7 +52,7 @@ def json_coz(text):
     result["ozel_sartlar"] = [str(x) for x in sartlar[:5]] if isinstance(sartlar, list) else []
     return result
 
-def post_json(url, payload, headers, timeout=90):
+def post_json(url, payload, headers, timeout=40):
     req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"),
                                  headers={**headers, "content-type": "application/json"})
     with urllib.request.urlopen(req, timeout=timeout) as response:
@@ -192,7 +192,11 @@ def main():
     aday.sort(key=lambda r: str(r.get("checked_at") or ""), reverse=True)
 
     n = 0
+    baslangic = time.time()
     for row in aday[:LIMIT]:
+        if time.time() - baslangic > 240:
+            print("Sure butcesi doldu; kalan ilanlar sonraki calismaya birakildi.")
+            break
         try:
             row["ai"] = sor(row)
             n += 1

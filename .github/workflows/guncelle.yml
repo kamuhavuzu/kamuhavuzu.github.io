@@ -53,6 +53,8 @@ jobs:
           PY
       - run: python ilan_cek_web.py
       - name: Yapay zeka ilan okuma
+        timeout-minutes: 6
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
