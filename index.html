@@ -566,6 +566,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
 :root[data-tema="koyu"] .kr-yeni .mini .mini-deadline{color:#ff9b91}
 .kr-yeni .ikon-btn svg{display:block;width:19px;height:19px;flex:none}
 </style>
+<style>#krEkle{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;background:#173e66;color:#fff;border-radius:12px;padding:12px 14px;font-size:14px;line-height:1.4;box-shadow:0 6px 24px rgba(0,0,0,.3);display:flex;gap:10px;align-items:flex-start;max-width:520px;margin:0 auto}#krEkle[hidden]{display:none}#krEkle b{display:block;margin-bottom:2px}#krEkle button{background:rgba(255,255,255,.18);color:#fff;border:0;border-radius:8px;padding:6px 10px;font-weight:700;cursor:pointer;white-space:nowrap}</style>
 </head>
 <body class="kr-yeni">
 <div class="duyuru"><span>Bilgilendirme:</span> KamuHavuzu resmî kurum sitesi değildir. Başvurunu mutlaka resmî kaynaktan yap.</div>
@@ -1401,6 +1402,18 @@ $('btnTema').addEventListener('click',()=>{const r=document.documentElement,k=ma
 let krInstallPrompt=null;
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();krInstallPrompt=e;$('krInstallApp').hidden=false});
 $('krInstallApp').addEventListener('click',async()=>{if(!krInstallPrompt){alert('Tarayıcı menüsünden “Ana ekrana ekle” seçeneğini kullanabilirsin.');return}krInstallPrompt.prompt();await krInstallPrompt.userChoice;krInstallPrompt=null;$('krInstallApp').hidden=true});
+
+/* ---------- ana ekrana ekle yönlendirmesi ---------- */
+(function(){
+ const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+ if(standalone||oku('k_ekle_gizle')==='1')return;
+ if(!/Android|iPhone|iPad|iPod/i.test(navigator.userAgent))return;
+ const ios=/iPhone|iPad|iPod/i.test(navigator.userAgent);
+ const m=$('krEkleMetin');
+ m.innerHTML=ios?'<b>Ana ekrana ekle</b>Safari’de alttaki <b style="display:inline">Paylaş</b> düğmesine, sonra “Ana Ekrana Ekle”ye dokun. Kısayoldan siteye tek dokunuşla girersin.':'<b>Ana ekrana ekle</b>Tarayıcı menüsünden (⋮) “Uygulamayı yükle” veya “Ana ekrana ekle”ye dokun. Kısayoldan siteye tek dokunuşla girersin.';
+ setTimeout(()=>{$('krEkle').hidden=false},8000);
+ $('krEkleKapat').addEventListener('click',()=>{$('krEkle').hidden=true;yaz('k_ekle_gizle','1')});
+})();
 window.addEventListener('appinstalled',()=>{$('krInstallApp').hidden=true;krInstallPrompt=null});
 window.addEventListener('offline',()=>{$('canli').textContent='Çevrimdışısın. Son önbelleğe alınan ilan verileri görüntülenebilir; güncel başvuru için bağlantını kontrol et.'});
 window.addEventListener('online',()=>veriYenile(false));
@@ -1435,5 +1448,6 @@ window.addEventListener('online',()=>veriYenile(false));
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)veriYenile(false)});
 })();
 </script>
+<div id="krEkle" hidden role="dialog" aria-label="Ana ekrana ekle"><div id="krEkleMetin"></div><button type="button" id="krEkleKapat">Tamam</button></div>
 </body>
 </html>
