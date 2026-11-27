@@ -647,6 +647,7 @@ header.ust{background:#102a4c;border-bottom:1px solid rgba(255,255,255,.12)}
         <div class="kr-filter-grid">
           <div class="alan"><label>Eğitim durumu</label><select id="fEgitim"><option value="">Hepsi</option><option>Ortaöğretim</option><option>Ön Lisans</option><option>Lisans</option></select></div>
           <div class="alan"><label>Bölüm</label><select id="fBolum"><option value="Tümü">Tümü</option></select></div>
+          <div class="alan"><label>Belge / sertifika (ilanda geçen)</label><input id="fBelge" placeholder="Örn. ilk yardım, SRC, ECDL"></div>
           <div class="alan"><label>Bölüm listede yoksa yaz</label><input id="fBolumYaz" placeholder="Örn. harita, veteriner"></div>
           <div class="alan"><label>Şehir</label><select id="fSehir"></select></div>
           <div class="alan"><label>KPSS türü</label><select id="fTur"></select></div>
@@ -892,7 +893,7 @@ function durumHesapla(i,puan,tur){
 
 /* ---------- filtre durumu ---------- */
 function durum(){return{
-  q:norm($('q').value.trim()), egitim:$('fEgitim').value, bolum:$('fBolum').value, bolumYaz:norm(($('fBolumYaz').value||'').trim()), tur:$('fTur').value,
+  q:norm($('q').value.trim()), egitim:$('fEgitim').value, bolum:$('fBolum').value, bolumYaz:norm(($('fBolumYaz').value||'').trim()), belge:norm(($('fBelge').value||'').trim()), tur:$('fTur').value,
   puan:parseFloat($('fPuan').value)||0, sehir:$('fSehir').value, kurum:$('fKurum').value, calisma:$('fCalisma').value,
   yas:parseInt($('fYas').value)||0, ehliyet:$('fEhliyet').value, kaynak:$('fKaynak').value, akademik:$('fAkademik').checked, bitmis:$('fBitmis').checked, liste:$('fListe').checked}}
 function kaydet(){const d=durum();['egitim','bolum','tur','puan','sehir','kurum','calisma','kaynak','yas','ehliyet'].forEach(k=>yaz('k_'+k,d[k]));yaz('k_cip',JSON.stringify([...cip]))}
@@ -907,6 +908,7 @@ function uygun(i,d,durumHaric){
   if(d.puan>0&&d.tur){ if(Object.keys(i.puanlar).length){ if(!i.puanlar[d.tur]) return false } else if(i.kpss_type&&i.kpss_type!==d.tur) return false }
   if(d.yas>0&&i.yasMax&&d.yas>i.yasMax) return false;
   if(d.ehliyet==='Yok'&&i.ehlZorunlu) return false;
+  if(d.belge){const b=i.ai&&typeof i.ai==='object'?[].concat(i.ai.belge_zorunlu||[],i.ai.belge_avantaj||[]).join(' '):'';if(!norm(b).includes(d.belge)) return false}
   if(d.kurum&&d.kurum!=='Tümü'&&i.tur!==d.kurum) return false;
   if(d.calisma&&i.employment_type!==d.calisma) return false;
   if(d.kaynak&&d.kaynak!=='Tümü'&&i.kaynak!==d.kaynak) return false;
@@ -1001,13 +1003,13 @@ function kayitliAramaCiz(){
  el.innerHTML='<option value="">Kayıtlı aramalar</option>'+a.map((x,i)=>'<option value="'+i+'">'+esc(x.name)+'</option>').join('');
 }
 function aramaAnlikDurum(){
- return {name:"Aramam "+new Date().toLocaleDateString("tr-TR"),q:$("q").value,egitim:$("fEgitim").value,bolum:$("fBolum").value,bolumYaz:$("fBolumYaz").value,tur:$("fTur").value,puan:$("fPuan").value,sehir:$("fSehir").value,kurum:$("fKurum").value,calisma:$("fCalisma").value,kaynak:$("fKaynak").value,yas:$("fYas").value,ehliyet:$("fEhliyet").value,akademik:$("fAkademik").checked,bitmis:$("fBitmis").checked,cip:[...cip]};
+ return {name:"Aramam "+new Date().toLocaleDateString("tr-TR"),q:$("q").value,egitim:$("fEgitim").value,bolum:$("fBolum").value,bolumYaz:$("fBolumYaz").value,belge:$("fBelge").value,tur:$("fTur").value,puan:$("fPuan").value,sehir:$("fSehir").value,kurum:$("fKurum").value,calisma:$("fCalisma").value,kaynak:$("fKaynak").value,yas:$("fYas").value,ehliyet:$("fEhliyet").value,akademik:$("fAkademik").checked,bitmis:$("fBitmis").checked,cip:[...cip]};
 }
 function aramaUygula(x){
  $("q").value=x.q||"";$("fEgitim").value=x.egitim||"";bolumDoldur(x.bolum);$("fBolumYaz").value=x.bolumYaz||"";
  $("fTur").value=x.tur||OTO_TUR[$("fEgitim").value]||"P3";$("fPuan").value=x.puan||"";$("fSehir").value=x.sehir||"Tümü";
  $("fKurum").value=x.kurum||"Tümü";$("fCalisma").value=x.calisma||"";$("fKaynak").value=x.kaynak||"Tümü";
- $("fYas").value=x.yas||"";$("fEhliyet").value=x.ehliyet||"";$("fAkademik").checked=!!x.akademik;$("fBitmis").checked=!!x.bitmis;
+ $("fBelge").value=x.belge||"";$("fYas").value=x.yas||"";$("fEhliyet").value=x.ehliyet||"";$("fAkademik").checked=!!x.akademik;$("fBitmis").checked=!!x.bitmis;
  cip=new Set(x.cip||[]);kaydet();cipCiz();yenidenCiz();
 }
 function analitikCiz(){
@@ -1053,6 +1055,10 @@ function modalAc(id){
     const A=[]; if(v(i.ai.ozet)) A.push(['Özet',v(i.ai.ozet)]);
     [['Bölüm',i.ai.bolum],['Eğitim',i.ai.egitim],['KPSS türü',i.ai.kpss_turu],['Taban puan',i.ai.taban_puan],['Kontenjan',i.ai.kontenjan],['Yaş sınırı',i.ai.yas_siniri],['Ehliyet',i.ai.ehliyet],['Deneyim',i.ai.deneyim]].forEach(([k,x])=>{if(v(x))A.push([k,v(x)])});
     if(Array.isArray(i.ai.ozel_sartlar)&&i.ai.ozel_sartlar.length) A.push(['Özel şartlar',i.ai.ozel_sartlar.slice(0,5).map(x=>'• '+esc(x)).join('<br>')]);
+    const bl=a=>Array.isArray(a)?a.map(x=>String(x||'').trim()).filter(Boolean).slice(0,5):[];
+    const bz=bl(i.ai.belge_zorunlu),ba=bl(i.ai.belge_avantaj);
+    if(bz.length) A.push(['📜 Aranan belge / sertifika (zorunlu)',bz.map(x=>'• '+esc(x)).join('<br>')]);
+    if(ba.length) A.push(['⭐ Avantaj sağlayan belge / sertifika',ba.map(x=>'• '+esc(x)).join('<br>')]);
     if(A.length){S.push(['🤖 Yapay zekâ özeti','<small>(otomatik çıkarım; resmî ilanla karşılaştır)</small>']); A.forEach(x=>S.push(x))}
   }
   const d=durum();
@@ -1326,6 +1332,7 @@ $('krDeleteSearch').addEventListener('click',()=>{const el=$('krSavedSearches');
 $('fEgitim').addEventListener('change',()=>{bolumDoldur();otoTur();yenidenCiz()});
 $('cipler').parentNode.addEventListener('click',e=>{const b=e.target.closest('[data-kurum-sec]');if(!b)return;$('fKurum').value=b.dataset.kurumSec;kaydet();yenidenCiz();$('ilanlar').scrollIntoView({behavior:'smooth'})});
 $('fBolumYaz').addEventListener('input',()=>yenidenCiz());
+$('fBelge').addEventListener('input',()=>yenidenCiz());
 ['fBolum','fTur','fSehir','fKurum','fCalisma','fKaynak','fAkademik','fBitmis','fListe','fSira'].forEach(id=>$(id).addEventListener('change',()=>{kaydet();yenidenCiz()}));
 $('fPuan').addEventListener('input',()=>{kaydet();yenidenCiz()});
 $('fYas').addEventListener('input',()=>{kaydet();yenidenCiz()});
@@ -1340,7 +1347,7 @@ let zaman; $('q').addEventListener('input',()=>{clearTimeout(zaman);zaman=setTim
 $('btnAra').addEventListener('click',yenidenCiz);
 $('btnDaha').addEventListener('click',()=>{gorunen+=SAYFA;listele()});
 $('aktifBar').addEventListener('click',e=>{if(e.target.id==='btnHepsiniKaldir')$('btnTemizle').click()});
-$('btnTemizle').addEventListener('click',()=>{$('q').value='';$('fBolumYaz').value='';$('fEgitim').value='';bolumDoldur();$('fPuan').value='';$('fYas').value='';$('fEhliyet').value='';sekme='hepsi';$('fSehir').value='Tümü';$('fKurum').value='Tümü';$('fCalisma').value='';$('fKaynak').value='Tümü';$('fAkademik').checked=false;$('fBitmis').checked=false;$('fListe').checked=false;cip.clear();durumFiltre='hepsi';kaydet();yenidenCiz()});
+$('btnTemizle').addEventListener('click',()=>{$('q').value='';$('fBolumYaz').value='';$('fBelge').value='';$('fEgitim').value='';bolumDoldur();$('fPuan').value='';$('fYas').value='';$('fEhliyet').value='';sekme='hepsi';$('fSehir').value='Tümü';$('fKurum').value='Tümü';$('fCalisma').value='';$('fKaynak').value='Tümü';$('fAkademik').checked=false;$('fBitmis').checked=false;$('fListe').checked=false;cip.clear();durumFiltre='hepsi';kaydet();yenidenCiz()});
 $('cipler').addEventListener('click',e=>{const b=e.target.closest('.cip');if(!b)return;const k=b.dataset.cip;
   if(EG[k]){$('fEgitim').value=$('fEgitim').value===EG[k]?'':EG[k];bolumDoldur();otoTur();kaydet()}
   else{cip.has(k)?cip.delete(k):cip.add(k);kaydet()} yenidenCiz()});

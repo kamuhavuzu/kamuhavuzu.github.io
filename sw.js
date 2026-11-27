@@ -1,4 +1,4 @@
-const CACHE_NAME="kamuhavuzu-shell-v6";
+const CACHE_NAME="kamuhavuzu-shell-v7";
 const SHELL=["./","./index.html","./bilgi.html","./manifest.webmanifest","./icon-192.png","./icon-512.png","./logo-simge.png"];
 self.addEventListener("install",event=>{
  event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));
