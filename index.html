@@ -1406,7 +1406,7 @@ window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();krInstallPr
 $('krInstallApp').addEventListener('click',async()=>{if(!krInstallPrompt){alert('Tarayıcı menüsünden “Ana ekrana ekle” seçeneğini kullanabilirsin.');return}krInstallPrompt.prompt();await krInstallPrompt.userChoice;krInstallPrompt=null;$('krInstallApp').hidden=true});
 
 /* ---------- ana ekrana ekle yönlendirmesi ---------- */
-(function(){
+window.addEventListener('load',function(){
  const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
  if(standalone||oku('k_ekle_gizle')==='1')return;
  if(!/Android|iPhone|iPad|iPod/i.test(navigator.userAgent))return;
@@ -1415,7 +1415,7 @@ $('krInstallApp').addEventListener('click',async()=>{if(!krInstallPrompt){alert(
  m.innerHTML=ios?'<b>Ana ekrana ekle</b>Safari’de alttaki <b style="display:inline">Paylaş</b> düğmesine, sonra “Ana Ekrana Ekle”ye dokun. Kısayoldan siteye tek dokunuşla girersin.':'<b>Ana ekrana ekle</b>Tarayıcı menüsünden (⋮) “Uygulamayı yükle” veya “Ana ekrana ekle”ye dokun. Kısayoldan siteye tek dokunuşla girersin.';
  setTimeout(()=>{$('krEkle').hidden=false},8000);
  $('krEkleKapat').addEventListener('click',()=>{$('krEkle').hidden=true;yaz('k_ekle_gizle','1')});
-})();
+});
 window.addEventListener('appinstalled',()=>{$('krInstallApp').hidden=true;krInstallPrompt=null});
 window.addEventListener('offline',()=>{$('canli').textContent='Çevrimdışısın. Son önbelleğe alınan ilan verileri görüntülenebilir; güncel başvuru için bağlantını kontrol et.'});
 window.addEventListener('online',()=>veriYenile(false));
