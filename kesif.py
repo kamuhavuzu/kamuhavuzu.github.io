@@ -1,14 +1,16 @@
 import requests, re, html
 H={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36'}
-B='https://www.iskur.gov.tr/ilanlar/kamu-memur-alim-ilanlari/'
-t=requests.get(B,headers=H,timeout=30).text
-gs=re.findall(r'<g[^>]*data-count[^>]*>',t)
-print('INF g',len(gs))
-for g in gs[:6]: print('INF gtag',g[:260])
-tot=0
-for g in gs:
-    m=re.search(r'data-count="(\d+)"',g); tot+=int(m.group(1)) if m else 0
-print('INF toplam data-count',tot)
-sel=re.search(r'<select.*?</select>',t,flags=re.S)
-print('INF select',re.sub(r'\s+',' ',sel.group(0))[:500] if sel else None)
-i=t.find('idId');print('INF idId ctx',re.sub(r'\s+',' ',t[max(0,i-300):i+200]))
+for u in ['https://www.iskur.gov.tr/ilanlar/kamu-memur-alim-ilanlari/','https://www.iskur.gov.tr/ilanlar/kurumdisi-kamu-isci-alim-ilanlari/']:
+    t=requests.get(u,headers=H,timeout=30).text
+    t2=re.sub(r'<script.*?</script>|<style.*?</style>|<svg.*?</svg>','',t,flags=re.S)
+    k=t2.find('city-dropdown')
+    body=t2[k:]
+    # strip select
+    body=re.sub(r'<select.*?</select>','',body,flags=re.S)
+    print('INF',u,len(t2))
+    cards=re.findall(r'<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>',body,flags=re.S)
+    cards=[(h,re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',x))).strip()) for h,x in cards]
+    cards=[c for c in cards if c[1] and not c[0].startswith('http://www.iskur.gov.tr/')]
+    print('INF n',len(cards))
+    for h,x in cards[:60]: print('INF A',h[:100],'|',x[:130])
+    print('INF text',re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',body)))[:600])
