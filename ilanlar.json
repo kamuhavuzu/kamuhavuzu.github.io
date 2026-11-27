@@ -1,44 +1,44 @@
 {
- "guncelleme": "2026-11-27T03:22:56+00:00",
- "son_kontrol": "2026-11-27T03:22:56+00:00",
+ "guncelleme": "2026-11-27T03:37:58+00:00",
+ "son_kontrol": "2026-11-27T03:37:58+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 3,
-   "son_basari": "2026-11-27T03:16:16+00:00",
+   "son_basari": "2026-11-27T03:31:29+00:00",
    "sayi": 188
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T03:16:18+00:00",
+   "son_basari": "2026-11-27T03:31:31+00:00",
    "sayi": 36
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T03:16:20+00:00",
+   "son_basari": "2026-11-27T03:31:32+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T03:21:53+00:00",
+   "son_basari": "2026-11-27T03:37:28+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "Çalışma ve Sosyal Güvenlik Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T03:22:00+00:00",
+   "son_basari": "2026-11-27T03:37:35+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 7
   },
   "Ulaştırma ve Altyapı Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T03:22:08+00:00",
+   "son_basari": "2026-11-27T03:37:44+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 6
   },
@@ -7180,7 +7180,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:44+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:47+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304203/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
   },
   {
@@ -7413,7 +7413,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:44+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:47+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298161/kamu-akademik-personel-akademik-personel-alimlari-bartin-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
   },
   {
@@ -7603,7 +7603,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:45+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:48+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304217/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ozburun-belediye-baskanligi-surekli-isci-alim-ilani"
   },
   {
@@ -7902,7 +7902,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:45+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:49+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304210/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
    "basvuru_link": "https://basvuru.ksu.edu.tr",
    "basvuru_tur": "ana"
@@ -8114,7 +8114,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:46+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:49+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304205/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "basvuru_link": "https://www.afsu.edu.tr",
    "basvuru_tur": "ana"
@@ -8180,7 +8180,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:46+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:50+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304201/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugunden-arastirma-gorevlisi-alim-ilani"
   },
   {
@@ -8243,7 +8243,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:46+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:50+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299635/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
   },
   {
@@ -8312,7 +8312,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2281103/kamu-akademik-personel-akademik-personel-alimlari-ankarasosyal-bilimler-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Ankara Sosyal Bilimler Üniversitesi Rektörlüğünden: Üniversitemizin aşağıda belirtilen birimlerine, 10 sayılı Resmi Gazete Hakkında Cumhurbaşkanlığı Kararnamesi'nin 5 inci maddesinin ikinci fıkrası, Genel Kadro ve Usulü Hakkında 2 sayılı Cumhurbaşkanlığı Kararnamesi, 2547 Sayılı Kanun'un ilgili maddeleri ile \"Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik\"in ilgili maddelerine göre Araştırma Görevlisi ve Öğretim Görevlisi alınacaktır. Başvurular, ilanın Resmi Gazete'de yayımlandığı tarihten itibaren 15 gün içerisinde elektronik ortamda Ankara Sosyal Bilimler Üniversitesi başvuru sistemi (https://basvuru.asbu.edu.tr) üzerinden yapılacaktır. Son başvuru günü saat 17.00'de sistem başvuruya kapanacaktır. Adayların kamu hizmetine girmede aranan genel şartları taşımaları ve ilan edilen kadroya ilişkin özel şartları sağlamaları gerekmektedir. Şahsen veya posta yoluyla yapılan başvurular kabul edilmeyecektir. Başvuru için gerekli belgeler: 1. Dilekçe (Başvuru dilekçesinde; başvurulan kadronun ilan numarası, birimi, bölümü, ana bilim dalı, derecesi ve ünvanı ile adayın ikametgah adresi, telefon numarası ve e-posta adresi açıkça belirtilmelidir.) 2. Özgeçmiş 3. Lisans diploması veya geçici mezuniyet belgesi (Onaylı, yurtdışından alınmış ise denkliğinin YÖK/Üniversitelerarası Kurul tarafından onaylandığını gösterir belge) 4. Lisans Transkripti (onaylı belge) 5. Yüksek lisans veya doktora öğrenci belgesi 6. ALES sonuç belgesi 7. Yabancı dil sonuç belgesi 8. Fotoğraf (Son altı ay içerisinde çekilmiş olmalıdır.) 9. T.C. kimlik kartı veya nüfus cüzdanı fotokopisi 10. Adli sicil kaydı 11. Erkek adaylar için askerlik durum belgesi 12. Sosyal Güvenlik Kurumu (SGK) Hizmet Takip Programı (HİTAP) üzerinden alınan hizmet belgesi (Hâlen bir kamu kurumunda çalışmakta olanlar ile kamu görevinden ayrılmış olan adaylar için) 13. Deneyim Belgesi (Belgelendirmek kaydıyla) Not: e-Devlet Kapısı üzerinden temin edilen karekodlu belgeler başvurularda kabul edilmektedir. ÖNEMLİ NOTLAR: 1. Adayların, 657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinde belirtilen genel şartları taşımaları gerekmektedir. 2. Adayların Devlet Mecburi Hizmet Yükümlülüğü bulunmaması gerekmektedir. 3. Başvurular https://basvuru.asbu.edu.tr adresi üzerinden yapılacaktır. Başvuru sonuçlarının ilgili birimin internet sayfasından takip edilmesi gerekmektedir. Adayların, sisteme yükledikleri belge | \n | \n | \n | \n | \n | \n",
+   "description": "Ankara Sosyal Bilimler Üniversitesi Rektörlüğünden: Üniversitemizin aşağıda belirtilen birimlerine, 10 sayılı Resmi Gazete Hakkında Cumhurbaşkanlığı Kararnamesi'nin 5 inci maddesinin ikinci fıkrası, Genel Kadro ve Usulü Hakkında 2 sayılı Cumhurbaşkanlığı Kararnamesi, 2547 Sayılı Kanun'un ilgili maddeleri ile \"Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik\"in ilgili maddelerine göre Araştırma Görevlisi ve Öğretim Görevlisi alınacaktır. Başvurular, ilanın Resmi Gazete'de yayımlandığı tarihten itibaren 15 gün içerisinde elektronik ortamda Ankara Sosyal Bilimler Üniversitesi başvuru sistemi (https://basvuru.asbu.edu.tr) üzerinden yapılacaktır. Son başvuru günü saat 17.00'de sistem başvuruya kapanacaktır. Adayların kamu hizmetine girmede aranan genel şartları taşımaları ve ilan edilen kadroya ilişkin özel şartları sağlamaları gerekmektedir. Şahsen veya posta yoluyla yapılan başvurular kabul edilmeyecektir. Başvuru için gerekli belgeler: 1. Dilekçe (Başvuru dilekçesinde; başvurulan kadronun ilan numarası, birimi, bölümü, ana bilim dalı, derecesi ve ünvanı ile adayın ikametgah adresi, telefon numarası ve e-posta adresi açıkça belirtilmelidir.) 2. Özgeçmiş 3. Lisans diploması veya geçici mezuniyet belgesi (Onaylı, yurtdışından alınmış ise denkliğinin YÖK/Üniversitelerarası Kurul tarafından onaylandığını gösterir belge) 4. Lisans Transkripti (onaylı belge) 5. Yüksek lisans veya doktora öğrenci belgesi 6. ALES sonuç belgesi 7. Yabancı dil sonuç belgesi 8. Fotoğraf (Son altı ay içerisinde çekilmiş olmalıdır.) 9. T.C. kimlik kartı veya nüfus cüzdanı fotokopisi 10. Adli sicil kaydı 11. Erkek adaylar için askerlik durum belgesi 12. Sosyal Güvenlik Kurumu (SGK) Hizmet Takip Programı (HİTAP) üzerinden alınan hizmet belgesi (Hâlen bir kamu kurumunda çalışmakta olanlar ile kamu görevinden ayrılmış olan adaylar için) 13. Deneyim Belgesi (Belgelendirmek kaydıyla) Not: e-Devlet Kapısı üzerinden temin edilen karekodlu belgeler başvurularda kabul edilmektedir. ÖNEMLİ NOTLAR: 1. Adayların, 657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinde belirtilen genel şartları taşımaları gerekmektedir. 2. Adayların Devlet Mecburi Hizmet Yükümlülüğü bulunmaması gerekmektedir. 3. Başvurular https://basvuru.asbu.edu.tr adresi üzerinden yapılacaktır. Başvuru sonuçlarının ilgili birimin internet sayfasından takip edilmesi gerekmektedir. Adayların, sisteme yükledikleri belge | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:03+00:00",
    "akademik": true,
    "puanlar": {},
@@ -8330,7 +8330,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:47+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:50+00:00",
    "ai": {
     "ozet": "Ankara Sosyal Bilimler Üniversitesi, çeşitli fakültelere 2547 sayılı Kanun ve ilgili yönetmelikler kapsamında araştırma görevlisi ve öğretim görevlisi alacaktır.",
     "bolum": "belirtilmemis",
@@ -8453,7 +8453,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:47+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:51+00:00",
    "ai": {
     "ozet": "Elazığ İl Özel İdaresi, KPSS P3 skoru ile en az 60 puan şartıyla psikolog ve sosyal çalışmacı unvanlarında sözleşmeli personel alacaktır.",
     "bolum": "Psikoloji veya Sosyal Hizmetler",
@@ -8660,7 +8660,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:48+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:52+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298155/kamu-akademik-personel-akademik-personel-alimlari-balikesir-universitesi-ogretim-elemani-alim-ilani",
    "basvuru_link": "https://www.balikesir.edu.tr",
    "basvuru_tur": "ana"
@@ -8876,7 +8876,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2281209/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Diğer",
-   "description": "Hasan Kalyoncu Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimlerine; 2547 Sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili hükümlerinde aranan genel koşulları sağlamış olmak kaydıyla, tam zamanlı öğretim üyesi alınacaktır. BAŞVURU ŞARTLARI: • İlan edilen kadrolara başvuracak adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinden bir örneğini temin edebilecekleri başvuru dilekçelerinin ekinde olmak üzere; özgeçmiş, 2 adet vesikalık fotoğraf, fotokopileri noterden veya resmi kurumlarca onaylanmış lisans, yüksek lisans, doktora diplomaları, nüfus cüzdanı ile bilimsel çalışma ve yayınlarını kapsayan yayın listesi ve eserlerinden oluşan dosyasının (profesör kadrosuna başvuracak adayların başlıca eserlerini belirtmesi ve profesör/doçent kadrolarına başvuracak adayların doçentlik belgelerini ayrıca dosyalarına eklemiş olmaları gerekmektedir) 1 nüshasını basılı olarak, jüri üyelerine gönderilecek nüshalarını ise (profesör kadroları için 6 nüsha, doçent ve doktor öğretim üyesi kadroları için ise 4 nüsha) CD/flashdisk ortamında (profesör/doçent kadroları için Personel Müdürlüğüne, doktor öğretim üyesi kadroları için ise ilgili Fakülte Dekanlığına olmak üzere) şahsen veya posta ile başvuru yapılması gerekmektedir. • Profesör adayları; özgeçmişlerini, bilimsel yayınlarını kongre ve konferans tebliğleri ile bunlara yapılan atıfları, sanat eserlerini, icralarını ve bunlara ilişkin dokümanı, eğitim-öğretim faaliyetlerini, yönetimlerinde devam eden ve biten doktora, sanatta yeterlik veya yüksek lisans çalışmalarını kapsayan dosyada bu başvurularında yayınlarından birini başlıca araştırma eseri olarak göstermeleri gerekmektedir. • Müracaat edecek adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinde yer alan “Başvuru Beyan Formu ve Evrak Kontrol Listesi”ni doldurarak, başvuru dilekçesi ekinde imzalı olarak sunması gerekmektedir. Ayrıca, jüri üyelerine gönderilecek dosyalarda da imzalı şekilde bu belgenin eklenmesi gerekmektedir. • Tüm adayların, gelecekte yapmayı planladıkları eğitim / öğretim / araştırma / geliştirme faaliyetleri ve bunların çıktıları ile Üniversitemizin vizyonuna nasıl entegre olabileceklerini ve kısa / orta / uzun vadede bilimsel literatüre ve üniversite-iş dünyası-kamu-toplum işbirliğine nasıl katkıda bulunabileceklerini açıklayan bir “özgelecek / niyet mektubu / iş planı / kariyer planı” hazırlamaları ve | \n | \n | \n | \n | \n | \n",
+   "description": "Hasan Kalyoncu Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimlerine; 2547 Sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili hükümlerinde aranan genel koşulları sağlamış olmak kaydıyla, tam zamanlı öğretim üyesi alınacaktır. BAŞVURU ŞARTLARI: • İlan edilen kadrolara başvuracak adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinden bir örneğini temin edebilecekleri başvuru dilekçelerinin ekinde olmak üzere; özgeçmiş, 2 adet vesikalık fotoğraf, fotokopileri noterden veya resmi kurumlarca onaylanmış lisans, yüksek lisans, doktora diplomaları, nüfus cüzdanı ile bilimsel çalışma ve yayınlarını kapsayan yayın listesi ve eserlerinden oluşan dosyasının (profesör kadrosuna başvuracak adayların başlıca eserlerini belirtmesi ve profesör/doçent kadrolarına başvuracak adayların doçentlik belgelerini ayrıca dosyalarına eklemiş olmaları gerekmektedir) 1 nüshasını basılı olarak, jüri üyelerine gönderilecek nüshalarını ise (profesör kadroları için 6 nüsha, doçent ve doktor öğretim üyesi kadroları için ise 4 nüsha) CD/flashdisk ortamında (profesör/doçent kadroları için Personel Müdürlüğüne, doktor öğretim üyesi kadroları için ise ilgili Fakülte Dekanlığına olmak üzere) şahsen veya posta ile başvuru yapılması gerekmektedir. • Profesör adayları; özgeçmişlerini, bilimsel yayınlarını kongre ve konferans tebliğleri ile bunlara yapılan atıfları, sanat eserlerini, icralarını ve bunlara ilişkin dokümanı, eğitim-öğretim faaliyetlerini, yönetimlerinde devam eden ve biten doktora, sanatta yeterlik veya yüksek lisans çalışmalarını kapsayan dosyada bu başvurularında yayınlarından birini başlıca araştırma eseri olarak göstermeleri gerekmektedir. • Müracaat edecek adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinde yer alan “Başvuru Beyan Formu ve Evrak Kontrol Listesi”ni doldurarak, başvuru dilekçesi ekinde imzalı olarak sunması gerekmektedir. Ayrıca, jüri üyelerine gönderilecek dosyalarda da imzalı şekilde bu belgenin eklenmesi gerekmektedir. • Tüm adayların, gelecekte yapmayı planladıkları eğitim / öğretim / araştırma / geliştirme faaliyetleri ve bunların çıktıları ile Üniversitemizin vizyonuna nasıl entegre olabileceklerini ve kısa / orta / uzun vadede bilimsel literatüre ve üniversite-iş dünyası-kamu-toplum işbirliğine nasıl katkıda bulunabileceklerini açıklayan bir “özgelecek / niyet mektubu / iş planı / kariyer planı” hazırlamaları ve | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:01+00:00",
    "akademik": true,
    "puanlar": {},
@@ -8897,7 +8897,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:48+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:52+00:00",
    "ai": {
     "ozet": "Hasan Kalyoncu Universitesi Rektorfugu cesitli akademik birimlere 2547 sayili kanun kapsaminda tam zamanli ogretim uyesi alacaktir.",
     "bolum": "belirtilmemis",
@@ -8982,7 +8982,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:49+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:53+00:00",
    "ai": {
     "ozet": "Biruni Üniversitesi, Diş Hekimliği, Eczacılık, Eğitim ve Meslek Yüksekokulu fakültelerine çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
     "bolum": "Çeşitli Bölümler ve Anabilim Dalları",
@@ -9236,7 +9236,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:49+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:53+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298169/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-ogretim-uyesi-alim-ilani"
   },
   {
@@ -9326,7 +9326,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:50+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:54+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2296783/kamu-akademik-personel-akademik-personel-alimlari-istanbul-medipol-universitesi-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "İstanbul Medipol Üniversitesi, 2547 sayılı Kanun ve ilgili yönetmelikler kapsamında çeşitli fakülte ve birimlere devamlı statüde öğretim üyesi alacaktır.",
@@ -9464,7 +9464,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:50+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:54+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293626/kamu-akademik-personel-akademik-personel-alimlari-galata-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "İstanbul Galata Üniversitesi, Diş Hekimliği Fakültesi bünyesinde çeşitli anabilim dallarında görevlendirilmek üzere toplam 13 öğretim üyesi alımı yapacaktır.",
@@ -9553,7 +9553,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:51+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:55+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298201/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-elemani-alim-ilani",
    "basvuru_link": "https://apbs.iuc.edu.tr",
    "basvuru_tur": "ana"
@@ -9670,7 +9670,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:51+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:55+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299717/kamu-akademik-personel-akademik-personel-alimlari-antalya-belek-universitesi-ogretim-uyesi-disindaki-kadrolara-personel-alim-ilani"
   },
   {
@@ -9712,7 +9712,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:51+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:56+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2295214/kamu-akademik-personel-akademik-personel-alimlari-bilecik-seyh-edebali-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "Bilecik Şeyh Edebali Üniversitesi, çeşitli fakülte ve bölümlere 2547 sayılı kanun kapsamında profesör unvanında öğretim üyesi alımı yapacaktır.",
@@ -9813,7 +9813,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:52+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:56+00:00",
    "ai": {
     "ozet": "Biruni Universitesi Rektörlügücesitli fakülte ve meslek yüksekokullarına 2547 sayılı kanun uyarınca ogretim elemani alacaktir.",
     "bolum": "Çeşitli Bölümler",
@@ -10077,7 +10077,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:53+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:57+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani"
   },
   {
@@ -10115,7 +10115,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:53+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:57+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2292344/kamu-akademik-personel-akademik-personel-alimlari-ataturk-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "Atatürk Üniversitesi çeşitli fakültelere 2547 sayılı Kanun kapsamında profesör kadrosunda öğretim üyesi alımı yapacaktır.",
@@ -10268,7 +10268,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2280947/kamu-akademik-personel-akademik-personel-alimlari-erzurum-teknik-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Erzurum Teknik Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemize aşağıda ünvanı, derecesi ve nitelikleri belirtilen kadrolara; 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri ile bu Kanun’a dayanılarak Yükseköğretim Kurulu Başkanlığınca yayınlanan Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca, Erzurum Teknik Üniversitesi Öğretim Üyesi Kadrolarına Atama ve Yükseltme Kriterleri’nde belirtilen şartları sağlamış olmak koşuluyla öğretim üyesi alınacaktır. Başvuru Şartları: • Profesör kadroları daimi statüdedir. Profesör kadrosuna müracaat eden adayların https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilecekleri başvuru formunu doldurmaları ayrıca başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine özgeçmişlerini, Doçentlik belgesinin resmi kurumlardan alınan onaylı örneğini, vesikalık fotoğrafını, nüfus cüzdanının fotokopisini, yabancı dil belgesini, bilimsel çalışma ile yayınlarını ve bu yayınlara yapılan atıfların listelerini, eğitim-öğretim faaliyetlerini, yönetimlerinde biten ve devam eden yüksek lisans ve doktora çalışmalarının listelerini içeren dosyaya Öğretim Üyeliğine Atama ve Yükseltme Kriterlerine göre word formatında hazırlanmış puan cetvelini ekleyip, elektronik başvuru dosyasını oluşturacaklardır. Adaylar, başvurularında yayınlarından birini başlıca araştırma eseri olarak gösterecekler. Adayların, doçentlik ünvanını aldıktan sonra en az beş yıl, açık bulunan profesörlük kadrosu ile ilgili bilim alanında çalışmış olduklarını belgelendirmeleri gerekmektedir. • Doçent kadroları daimi statüdedir. Doçent kadrosuna müracaat eden adayların https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilecekleri başvuru formunu doldurmaları, ayrıca başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine; özgeçmişlerini, doçentlik belgesinin onaylı örneğini, vesikalık fotoğrafını, nüfus cüzdanının fotokopisini, yabancı dil belgesini, bilimsel çalışma ve yayınlarını, eğitim-öğretim faaliyetlerini ve yönetimlerinde biten ve devam eden yüksek lisans ve doktora çalışmalarının listelerini içeren dosyaya Öğretim Üyeliğine Atama ve Yükseltme Kriterlerine göre word formatında hazırlanmış puan cetvelini ekleyip, elektronik başvuru dosyasını oluşturacaklardır. • Doktor Öğretim Üyesi kadroları için müracaat edecek adayların, başvuru formuna https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilir. Başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine;  | \n | \n | \n | \n | \n",
+   "description": "Erzurum Teknik Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemize aşağıda ünvanı, derecesi ve nitelikleri belirtilen kadrolara; 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri ile bu Kanun’a dayanılarak Yükseköğretim Kurulu Başkanlığınca yayınlanan Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca, Erzurum Teknik Üniversitesi Öğretim Üyesi Kadrolarına Atama ve Yükseltme Kriterleri’nde belirtilen şartları sağlamış olmak koşuluyla öğretim üyesi alınacaktır. Başvuru Şartları: • Profesör kadroları daimi statüdedir. Profesör kadrosuna müracaat eden adayların https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilecekleri başvuru formunu doldurmaları ayrıca başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine özgeçmişlerini, Doçentlik belgesinin resmi kurumlardan alınan onaylı örneğini, vesikalık fotoğrafını, nüfus cüzdanının fotokopisini, yabancı dil belgesini, bilimsel çalışma ile yayınlarını ve bu yayınlara yapılan atıfların listelerini, eğitim-öğretim faaliyetlerini, yönetimlerinde biten ve devam eden yüksek lisans ve doktora çalışmalarının listelerini içeren dosyaya Öğretim Üyeliğine Atama ve Yükseltme Kriterlerine göre word formatında hazırlanmış puan cetvelini ekleyip, elektronik başvuru dosyasını oluşturacaklardır. Adaylar, başvurularında yayınlarından birini başlıca araştırma eseri olarak gösterecekler. Adayların, doçentlik ünvanını aldıktan sonra en az beş yıl, açık bulunan profesörlük kadrosu ile ilgili bilim alanında çalışmış olduklarını belgelendirmeleri gerekmektedir. • Doçent kadroları daimi statüdedir. Doçent kadrosuna müracaat eden adayların https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilecekleri başvuru formunu doldurmaları, ayrıca başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine; özgeçmişlerini, doçentlik belgesinin onaylı örneğini, vesikalık fotoğrafını, nüfus cüzdanının fotokopisini, yabancı dil belgesini, bilimsel çalışma ve yayınlarını, eğitim-öğretim faaliyetlerini ve yönetimlerinde biten ve devam eden yüksek lisans ve doktora çalışmalarının listelerini içeren dosyaya Öğretim Üyeliğine Atama ve Yükseltme Kriterlerine göre word formatında hazırlanmış puan cetvelini ekleyip, elektronik başvuru dosyasını oluşturacaklardır. • Doktor Öğretim Üyesi kadroları için müracaat edecek adayların, başvuru formuna https://erzurum.edu.tr/menu/formlar26 adresinden ulaşılabilir. Başvurmak istedikleri birim ve anabilim dalını belirten dilekçelerine;  | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:16+00:00",
    "akademik": true,
    "puanlar": {},
@@ -10285,7 +10285,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T02:07:53+00:00",
+   "puan_kontrol_at": "2026-11-27T03:37:58+00:00",
    "ai": {
     "ozet": "Erzurum Teknik Üniversitesi Rektörlüğü, ilgili kanun ve yönetmelikler kapsamında profesör, doçent ve doktor öğretim üyesi kadrolarına öğretim üyesi alacaktır.",
     "bolum": "belirtilmemis",
