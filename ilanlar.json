@@ -1,44 +1,44 @@
 {
- "guncelleme": "2026-11-27T07:24:39+00:00",
- "son_kontrol": "2026-11-27T07:24:39+00:00",
+ "guncelleme": "2026-11-27T07:39:19+00:00",
+ "son_kontrol": "2026-11-27T07:39:19+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 3,
-   "son_basari": "2026-11-27T07:16:25+00:00",
+   "son_basari": "2026-11-27T07:31:30+00:00",
    "sayi": 196
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
-   "yeni": 0,
-   "son_basari": "2026-11-27T07:16:26+00:00",
-   "sayi": 36
+   "yeni": 1,
+   "son_basari": "2026-11-27T07:31:31+00:00",
+   "sayi": 37
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T07:16:28+00:00",
+   "son_basari": "2026-11-27T07:31:32+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T07:24:08+00:00",
+   "son_basari": "2026-11-27T07:38:41+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "Çalışma ve Sosyal Güvenlik Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T07:24:15+00:00",
+   "son_basari": "2026-11-27T07:38:46+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 7
   },
   "Ulaştırma ve Altyapı Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T07:24:22+00:00",
+   "son_basari": "2026-11-27T07:38:54+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 6
   },
@@ -715,7 +715,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:54:54+00:00",
+   "puan_kontrol_at": "2026-11-27T07:38:58+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2296809/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sosyal-guvenlik-kurumu-baskanligi-mufettis-yardimciligi-giris-sinavi-ilani",
    "ai": {
     "ozet": "Sosyal Güvenlik Kurumu Başkanlığı, KPSS puan sıralamasına göre 50 Müfettiş Yardımcısı alımı için giriş sınavı düzenleyeceğini açıkladı.",
@@ -1120,7 +1120,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:54:54+00:00",
+   "puan_kontrol_at": "2026-11-27T07:38:59+00:00",
    "ai": {
     "ozet": "İstanbul Nişantaşı Üniversitesi Rektörlüğü, ilgili kanun ve yönetmelikler kapsamında fakülte ve yüksekokullarına öğretim elemanları alacaktır.",
     "bolum": "belirtilmemis",
@@ -1217,7 +1217,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2279176/kamu-akademik-personel-akademik-personel-alimlari-samsun-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Samsun Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz akademik birimlerine 657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesi, 2547 sayılı Yükseköğretim Kanunu ve bu kanuna dayalı olarak çıkartılan ilgili Yönetmelik ile Samsun Üniversitesi Akademik Yükseltme ve Atama Ölçütleri Yönergesi hükümleri çerçevesinde Öğretim Üyesi alınacaktır. Adaylardan İstenilen Belgeler; • Adayların başvurularında; özgeçmiş, başlıca araştırma eserinin açıkça belirtildiği ve doçentlik sonrası yaptığı bilimsel çalışma ve yayınlarına ait bilgi ve belgeleri içeren 1 (bir) adet fiziki dosya ile PDF formatında hazırlanmış olan 6 (altı) adet taşınabilir belleği Üniversitemiz Personel Daire Başkanlığına teslim etmeleri gerekmektedir. • Başvuru Formu ( http://www.samsun.edu.tr internet adresinden yapılacak duyurudan temin edilecektir.) • Asgari Koşulların Sağlandığına İlişkin Beyanname ve Çalışmalar Formu (http://www.samsun.edu.tr internet adresinden yapılacak duyurudan temin edilecektir.) • KVKK kapsamında “Aday Aydınlatma Metni Öğretim Üyesi Formu” (http://www.samsun.edu.tr internet adresinden yapılacak duyurudan temin edilecektir.) • Özgeçmiş, • Kimlik Fotokopisi, • Adli Sicil Kaydı, • Erkek adayların askerlik durumlarına ilişkin belgenin aslı veya onaylı kopyası, • Lisans, Yüksek Lisans, Doktora ve Doçentlik belgesi (Doktora ve Doçent ünvanı yurtdışından alınmış ise denkliğinin Üniversitelerarası Kurul tarafından onaylandığını gösterir belgenin eklenmesi gerekmektedir.) • Yabancı dil belgesi, • 2 (iki) adet fotoğraf, • Herhangi bir kamu kurumunda çalışanların (daha önce çalışıp ayrılsalar dahi) e-Devlet üzerinden alacakları “HİTAP Hizmet Belgesini” müracaatlarına eklemeleri gerekmektedir. • e-Devletten alınan karekodlu tüm belgeler geçerlidir. Açıklamalar 1. Adaylar başvurularını, ilanın Resmî Gazete’de yayımlandığı tarihten itibaren 15 gün içerisinde şahsen veya posta yoluyla yapmalıdır. 2. Üniversitemiz Akademik Yükseltme ve Atama Ölçütleri Yönergesine göre başvuru şartlarını taşımadığı tespit edilen adayların başvuruları kabul edilmeyecektir. 3. Adaylar kadro ilanlarından sadece birine başvuru yapabilir. Birden çok kadro ilanına başvuru yaptığı tespit edilen adayların tüm başvuruları geçersiz sayılacaktır. 4. Talep edilen deneyimlerin belgelendirilmesi gerekmektedir. 5. Adayların Üniversitemiz Personel Daire Başkanlığına başvurmaları gerekmektedir. 6. Eksik belge ile yapılan başvurular kabul edilmeyecektir. 7. İlana ve sürece ilişkin bilgiler https://pdb. | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Samsun Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz akademik birimlerine 657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesi, 2547 sayılı Yükseköğretim Kanunu ve bu kanuna dayalı olarak çıkartılan ilgili Yönetmelik ile Samsun Üniversitesi Akademik Yükseltme ve Atama Ölçütleri Yönergesi hükümleri çerçevesinde Öğretim Üyesi alınacaktır. Adaylardan İstenilen Belgeler; • Adayların başvurularında; özgeçmiş, başlıca araştırma eserinin açıkça belirtildiği ve doçentlik sonrası yaptığı bilimsel çalışma ve yayınlarına ait bilgi ve belgeleri içeren 1 (bir) adet fiziki dosya ile PDF formatında hazırlanmış olan 6 (altı) adet taşınabilir belleği Üniversitemiz Personel Daire Başkanlığına teslim etmeleri gerekmektedir. • Başvuru Formu ( http://www.samsun.edu.tr internet adresinden yapılacak duyurudan temin edilecektir.) • Asgari Koşulların Sağlandığına İlişkin Beyanname ve Çalışmalar Formu (http://www.samsun.edu.tr internet adresinden yapılacak duyurudan temin edilecektir.) • KVKK kapsamında “Aday Aydınlatma Metni Öğretim Üyesi Formu” (http://www.samsun.edu.tr internet adresinden yapılacak duyurudan temin edilecektir.) • Özgeçmiş, • Kimlik Fotokopisi, • Adli Sicil Kaydı, • Erkek adayların askerlik durumlarına ilişkin belgenin aslı veya onaylı kopyası, • Lisans, Yüksek Lisans, Doktora ve Doçentlik belgesi (Doktora ve Doçent ünvanı yurtdışından alınmış ise denkliğinin Üniversitelerarası Kurul tarafından onaylandığını gösterir belgenin eklenmesi gerekmektedir.) • Yabancı dil belgesi, • 2 (iki) adet fotoğraf, • Herhangi bir kamu kurumunda çalışanların (daha önce çalışıp ayrılsalar dahi) e-Devlet üzerinden alacakları “HİTAP Hizmet Belgesini” müracaatlarına eklemeleri gerekmektedir. • e-Devletten alınan karekodlu tüm belgeler geçerlidir. Açıklamalar 1. Adaylar başvurularını, ilanın Resmî Gazete’de yayımlandığı tarihten itibaren 15 gün içerisinde şahsen veya posta yoluyla yapmalıdır. 2. Üniversitemiz Akademik Yükseltme ve Atama Ölçütleri Yönergesine göre başvuru şartlarını taşımadığı tespit edilen adayların başvuruları kabul edilmeyecektir. 3. Adaylar kadro ilanlarından sadece birine başvuru yapabilir. Birden çok kadro ilanına başvuru yaptığı tespit edilen adayların tüm başvuruları geçersiz sayılacaktır. 4. Talep edilen deneyimlerin belgelendirilmesi gerekmektedir. 5. Adayların Üniversitemiz Personel Daire Başkanlığına başvurmaları gerekmektedir. 6. Eksik belge ile yapılan başvurular kabul edilmeyecektir. 7. İlana ve sürece ilişkin bilgiler https://pdb. | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:29+00:00",
    "akademik": true,
    "puanlar": {},
@@ -1235,7 +1235,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:54:54+00:00",
+   "puan_kontrol_at": "2026-11-27T07:38:59+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2279176/kamu-akademik-personel-akademik-personel-alimlari-samsun-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "Samsun Universitesi Rektorfugu cesitli akademik birimlere 2547 sayili Kanun ve ilgili yonetmelik hukumleri cercevesinde ogretim uyesi alacaktir.",
@@ -1441,7 +1441,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:54:55+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:00+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293631/kamu-akademik-personel-akademik-personel-alimlari-galata-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "ai": {
     "ozet": "Istanbul Galata Universitesi Cesitli Fakultelere Arastirma Gorevlisi Alacaktir",
@@ -1468,6 +1468,54 @@
    },
    "basvuru_link": "https://www.galata.edu.tr",
    "basvuru_tur": "ana"
+  },
+  {
+   "id": 468355653,
+   "institution": "AVRUPA BİRLİĞİ BAŞKANLIĞI",
+   "title": "SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) İLANI",
+   "city": "",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": "2026-11-27",
+   "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+   "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+   "source_name": "Kariyer Kapısı",
+   "employment_type": "Sözleşmeli personel",
+   "description": "AVRUPA BİRLİĞİ BAŞKANLIĞI - SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+   "checked_at": "2026-11-27T07:31:31+00:00",
+   "logo": "https://kariyerkapisi.gov.tr/UPS/696aa654-bbc6-4c51-9370-987ef5b9f152.png",
+   "akademik": false,
+   "puanlar": {},
+   "puan_kontrol_durumu": "resmi_metinde_puan_yok",
+   "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+   "puan_kontrol_at": "2026-11-27T07:38:58+00:00",
+   "durum": "tarih_belirsiz",
+   "kaynak_baglantilari": [
+    {
+     "source_name": "Kariyer Kapısı",
+     "link": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+     "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5"
+    }
+   ],
+   "diger_kaynaklar": [],
+   "ai": {
+    "ozet": "Avrupa Birliği Başkanlığı bünyesinde istihdam edilmek üzere sözleşmeli destek personeli şoför alım ilanı yayımlanmıştır.",
+    "bolum": "belirtilmemis",
+    "egitim": "belirtilmemis",
+    "kpss_turu": "belirtilmemis",
+    "taban_puan": "belirtilmemis",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "belirtilmemis",
+    "ozel_sartlar": [
+     "belirtilmemis"
+    ]
+   }
   },
   {
    "id": 481021483,
@@ -1553,7 +1601,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:15+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:03+00:00",
    "ai": {
     "ozet": "Karayolları Genel Müdürlüğüne bağlı işyerleri için İŞKUR üzerinden 50 işçi personel alımı yapılacaktır.",
     "bolum": "belirtilmemis",
@@ -1616,7 +1664,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:21+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:08+00:00",
    "ai": {
     "ozet": "Çanakkale Onsekiz Mart Üniversitesi Rektörlüğü çeşitli fakültelere 2547 sayılı Kanun uyarınca öğretim üyesi alımı yapacaktır.",
     "bolum": "Çeşitli Anabilim Dalları",
@@ -1732,7 +1780,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2283151/kamu-akademik-personel-akademik-personel-alimlari-izmir-yuksek-teknoloji-enstitusu-rektorlugunden-ogretim-elemani-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Diğer",
-   "description": "İzmir Yüksek Teknoloji Enstitüsü Rektörlüğünden Enstitümüzün aşağıda belirtilen birimlerine 2547 sayılı Kanun’un ilgili maddeleri ve “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri doğrultusunda aynı Kanun'un 31. maddesi uyarınca öğretim görevlisi ve 50/d maddesinde belirtilen statüde araştırma görevlisi alınacaktır. İlan No Fakülte Bölüm Anabilim Dalı ALES Yab.Dil Puanı Adt. Ünvan Drc. İlan Özel Şartı 2026/19 MÜHENDİSLİK Bilgisayar Mühendisliği Bilgisayar Mühendisliği SAY/70 70 1 Ar.Gör. 5 Bilgisayar Mühendisliği, Yazılım Mühendisliği, Bilgisayar ve Yazılım Mühendisliği, Bilgisayar Bilimleri, Bilişim Sistemleri, Yazılım Yönetimi, Yazılım Mühendisliği ve Veri Bilimi bölümlerinden birinden lisans derecesi almış olmak. Bilgisayar Mühendisliği Anabilim Dalında tezli yüksek lisans veya doktora yapıyor olmak. 2026/20 Elektrik-Elektronik Mühendisliği Elektrik-Elektronik Mühendisliği 1 5 Elektrik ve Elektronik Mühendisliği, Elektronik Mühendisliği veya Elektronik ve Haberleşme Mühendisliği Bölümü lisans mezunu olmak ve Elektronik ve Haberleşme Mühendisliği veya Elektrik-Elektronik Mühendisliği Anabilim Dalında tezli yüksek lisans veya doktora yapıyor olmak. 2026/21 Makine Mühendisliği Makine Mühendisliği 1 5 Makine Mühendisliği lisans mezunu olmak ve Makina Mühendisliği Anabilim Dalında tezli yüksek lisans veya doktora yapıyor olmak. 2026/22 MİMARLIK Endüstriyel Tasarım Endüstriyel Tasarım 1 6 Endüstriyel Tasarım, Endüstri Ürünleri Tasarımı ya da Ürün Tasarımı alanından lisans mezunu olmak. Tezli yüksek lisans veya doktora yapıyor olmak. 2026/23 YABANCI DİLLER YÜKSEKOKULU Yabancı Diller (İNGİLİZCE) SÖZ/70 90 2 Öğr.Gör. (Ders Verecek) 6 İngiliz Dili ve Edebiyatı Bölümünden Lisans mezunu olmak ve alanında tezli yüksek lisans yapmış olmak. Yükseköğretim kurumlarında alanında en az beş yıl ders ders verme deneyimine sahip olmak. Sınav Takvimi Başvuru Başlangıç 09.11.2026 Başvurular aşağıda belirtilen bağlantı adresinden elektronik olarak yapılacaktır. Başvurulara ilişkin ön değerlendirme ve nihai değerlendirme sonuçları ilgili birimin internet sayfasından ve kişisel başvuru ekranından ilan edilecek olup ilanların yayınlanacağı birim internet sayfaları aşağıda belirtilmiştir. Bu sitelerden ve sistem üzerinden yapılan duyuru ve bildirimler tebligat mahiyetindedir, adaylara ayrıca yazılı tebligat yapılmayacaktır. Son Başvuru 23.11.2026 Ön Değe | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "İzmir Yüksek Teknoloji Enstitüsü Rektörlüğünden Enstitümüzün aşağıda belirtilen birimlerine 2547 sayılı Kanun’un ilgili maddeleri ve “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri doğrultusunda aynı Kanun'un 31. maddesi uyarınca öğretim görevlisi ve 50/d maddesinde belirtilen statüde araştırma görevlisi alınacaktır. İlan No Fakülte Bölüm Anabilim Dalı ALES Yab.Dil Puanı Adt. Ünvan Drc. İlan Özel Şartı 2026/19 MÜHENDİSLİK Bilgisayar Mühendisliği Bilgisayar Mühendisliği SAY/70 70 1 Ar.Gör. 5 Bilgisayar Mühendisliği, Yazılım Mühendisliği, Bilgisayar ve Yazılım Mühendisliği, Bilgisayar Bilimleri, Bilişim Sistemleri, Yazılım Yönetimi, Yazılım Mühendisliği ve Veri Bilimi bölümlerinden birinden lisans derecesi almış olmak. Bilgisayar Mühendisliği Anabilim Dalında tezli yüksek lisans veya doktora yapıyor olmak. 2026/20 Elektrik-Elektronik Mühendisliği Elektrik-Elektronik Mühendisliği 1 5 Elektrik ve Elektronik Mühendisliği, Elektronik Mühendisliği veya Elektronik ve Haberleşme Mühendisliği Bölümü lisans mezunu olmak ve Elektronik ve Haberleşme Mühendisliği veya Elektrik-Elektronik Mühendisliği Anabilim Dalında tezli yüksek lisans veya doktora yapıyor olmak. 2026/21 Makine Mühendisliği Makine Mühendisliği 1 5 Makine Mühendisliği lisans mezunu olmak ve Makina Mühendisliği Anabilim Dalında tezli yüksek lisans veya doktora yapıyor olmak. 2026/22 MİMARLIK Endüstriyel Tasarım Endüstriyel Tasarım 1 6 Endüstriyel Tasarım, Endüstri Ürünleri Tasarımı ya da Ürün Tasarımı alanından lisans mezunu olmak. Tezli yüksek lisans veya doktora yapıyor olmak. 2026/23 YABANCI DİLLER YÜKSEKOKULU Yabancı Diller (İNGİLİZCE) SÖZ/70 90 2 Öğr.Gör. (Ders Verecek) 6 İngiliz Dili ve Edebiyatı Bölümünden Lisans mezunu olmak ve alanında tezli yüksek lisans yapmış olmak. Yükseköğretim kurumlarında alanında en az beş yıl ders ders verme deneyimine sahip olmak. Sınav Takvimi Başvuru Başlangıç 09.11.2026 Başvurular aşağıda belirtilen bağlantı adresinden elektronik olarak yapılacaktır. Başvurulara ilişkin ön değerlendirme ve nihai değerlendirme sonuçları ilgili birimin internet sayfasından ve kişisel başvuru ekranından ilan edilecek olup ilanların yayınlanacağı birim internet sayfaları aşağıda belirtilmiştir. Bu sitelerden ve sistem üzerinden yapılan duyuru ve bildirimler tebligat mahiyetindedir, adaylara ayrıca yazılı tebligat yapılmayacaktır. Son Başvuru 23.11.2026 Ön Değe | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:18:43+00:00",
    "akademik": true,
    "puanlar": {},
@@ -1750,7 +1798,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:21+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:08+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2283151/kamu-akademik-personel-akademik-personel-alimlari-izmir-yuksek-teknoloji-enstitusu-rektorlugunden-ogretim-elemani-alim-ilani",
    "ai": {
     "ozet": "Izmir Yuksek Teknoloji Enstitusu, cesitli fakultelere ALES ve yabanci dil sartiyla ogretim gorevlisi ve arastirma gorevlisi alacak.",
@@ -1910,7 +1958,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:22+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:09+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2296715/kamu-akademik-personel-akademik-personel-alimlari-atlas-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "İstanbul Atlas Üniversitesi Tıp Fakültesi bünyesinde istihdam edilmek üzere çeşitli unvanlarda öğretim üyeleri alacaktır.",
@@ -1946,7 +1994,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2280927/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Boğaziçi Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz Fakültelerinde açık bulunan Profesör ve Doçent kadrolarına 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri, 657 sayılı Devlet Memurları Kanunu’nun 48. maddesindeki genel şartları ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği’nin ilgili maddeleri ile Boğaziçi Üniversitesi Öğretim Üyeliğine Atanma ve Yükseltilme Esasları uyarınca Profesör ve Doçent (devamlı statüde) alınacaktır. * Profesör kadrosuna başvuracak adayların; ilana başvuru dilekçelerini, özgeçmişlerini, lisansüstü tezlerini, bilimsel yayınlarını, kongre ve konferans tebliğlerini, bunlara yapılan atıfların listesini, yönetimlerinde devam eden ve tamamlanan doktora ve yüksek lisans tez çalışmalarının listesini, verdiği derslerin listesini, yürüttüğü projelerin listesini ve araştırma faaliyetlerinin kurumsallaştırılmasına katkıları, araştırma ve eğitim faaliyetlerine üniversite dışından sağladıkları kaynaklar ve üstlendikleri idari görevler ile ilgili bilgileri kapsayan belgeleri içeren 1 adet USB ile ilanın yayım tarihinden itibaren 15 gün içinde Personel Daire Başkanlığı’na, * Doçent kadrosuna başvuracak adayların; ilana başvuru dilekçelerini, özgeçmişlerini, Üniversitelerarası Kurul Başkanlığı’ndan alınmış doçentlik belgesini, lisansüstü tezlerini, bilimsel yayınlarını, kongre ve konferans tebliğlerini, bunlara yapılan atıfların listesini, yönetimlerinde devam eden ve tamamlanan doktora ve yüksek lisans tez çalışmalarının listesini, verdiği derslerin listesini, yürüttüğü projelerin listesini ve araştırma faaliyetlerinin kurumsallaştırılmasına katkıları, araştırma ve eğitim faaliyetlerine üniversite dışından sağladıkları kaynaklar ve üstlendikleri idari görevler ile ilgili bilgileri kapsayan belgeleri içeren 1 adet USB ile ilanın yayım tarihinden itibaren 15 gün içinde Personel Daire Başkanlığı’na başvurmaları duyurulur. İlana başvuracak adayların, https://bogazici.edu.tr/tr/announcements adresindeki “Öğretim Üyesi Alım İlanı” başlıklı duyuruda bulunan formları da doldurarak ilgili birime ıslak imzalı dilekçe ve kimlik kartı fotokopisi ile teslim etmesi gerekmektedir. Üniversitemiz öğretim üyesi kadrolarına yapılacak ilk başvurularda yabancı dil koşuluna ilişkin olarak, “Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik”in 8. maddesinin 7. fıkrasında belirtilen şartlardan en az birinin sağlandığına dair belgenin ibraz edilmesi gerekmek | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Boğaziçi Üniversitesi Rektörlüğünden: ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemiz Fakültelerinde açık bulunan Profesör ve Doçent kadrolarına 2547 sayılı Yükseköğretim Kanunu’nun ilgili maddeleri, 657 sayılı Devlet Memurları Kanunu’nun 48. maddesindeki genel şartları ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği’nin ilgili maddeleri ile Boğaziçi Üniversitesi Öğretim Üyeliğine Atanma ve Yükseltilme Esasları uyarınca Profesör ve Doçent (devamlı statüde) alınacaktır. * Profesör kadrosuna başvuracak adayların; ilana başvuru dilekçelerini, özgeçmişlerini, lisansüstü tezlerini, bilimsel yayınlarını, kongre ve konferans tebliğlerini, bunlara yapılan atıfların listesini, yönetimlerinde devam eden ve tamamlanan doktora ve yüksek lisans tez çalışmalarının listesini, verdiği derslerin listesini, yürüttüğü projelerin listesini ve araştırma faaliyetlerinin kurumsallaştırılmasına katkıları, araştırma ve eğitim faaliyetlerine üniversite dışından sağladıkları kaynaklar ve üstlendikleri idari görevler ile ilgili bilgileri kapsayan belgeleri içeren 1 adet USB ile ilanın yayım tarihinden itibaren 15 gün içinde Personel Daire Başkanlığı’na, * Doçent kadrosuna başvuracak adayların; ilana başvuru dilekçelerini, özgeçmişlerini, Üniversitelerarası Kurul Başkanlığı’ndan alınmış doçentlik belgesini, lisansüstü tezlerini, bilimsel yayınlarını, kongre ve konferans tebliğlerini, bunlara yapılan atıfların listesini, yönetimlerinde devam eden ve tamamlanan doktora ve yüksek lisans tez çalışmalarının listesini, verdiği derslerin listesini, yürüttüğü projelerin listesini ve araştırma faaliyetlerinin kurumsallaştırılmasına katkıları, araştırma ve eğitim faaliyetlerine üniversite dışından sağladıkları kaynaklar ve üstlendikleri idari görevler ile ilgili bilgileri kapsayan belgeleri içeren 1 adet USB ile ilanın yayım tarihinden itibaren 15 gün içinde Personel Daire Başkanlığı’na başvurmaları duyurulur. İlana başvuracak adayların, https://bogazici.edu.tr/tr/announcements adresindeki “Öğretim Üyesi Alım İlanı” başlıklı duyuruda bulunan formları da doldurarak ilgili birime ıslak imzalı dilekçe ve kimlik kartı fotokopisi ile teslim etmesi gerekmektedir. Üniversitemiz öğretim üyesi kadrolarına yapılacak ilk başvurularda yabancı dil koşuluna ilişkin olarak, “Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik”in 8. maddesinin 7. fıkrasında belirtilen şartlardan en az birinin sağlandığına dair belgenin ibraz edilmesi gerekmek | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:21+00:00",
    "akademik": true,
    "puanlar": {},
@@ -1963,7 +2011,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:22+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:09+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2280927/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "Boğaziçi Üniversitesi Rektörlüğü, ilgili kanunlar ve yönetmelikler kapsamında profesör ve doçent kadrolarına öğretim üyesi alımı yapacaktır.",
@@ -2081,7 +2129,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:22+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:10+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2288344/kamu-akademik-personel-akademik-personel-alimlari-acibadem-mehmet-ali-aydinlar-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "Acıbadem Mehmet Ali Aydınlar Üniversitesi, 2547 sayılı kanun kapsamında daimi statüde farklı unvanlarda öğretim üyesi alımı yapacaktır.",
@@ -2193,7 +2241,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:23+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:10+00:00",
    "ai": {
     "ozet": "Beykoz Üniversitesi, fakültelerine 2547 sayılı Kanun hükümlerine göre çeşitli unvanlarda öğretim üyesi ve elemanı alacaktır.",
     "bolum": "Çeşitli bölümler",
@@ -2368,7 +2416,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:24+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:11+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2296737/kamu-akademik-personel-akademik-personel-alimlari-bilecik-seyh-edebali-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "ai": {
     "ozet": "Bilecik Şeyh Edebali Üniversitesi, ilgili yönetmelik hükümleri doğrultusunda öğretim elemanı alımı yapacağını duyurmuştur.",
@@ -2515,7 +2563,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:24+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:11+00:00",
    "ai": {
     "ozet": "Marmara Üniversitesi Rektörlüğü, Yabancı Diller Yüksekokulu birimlerine çeşitli alanlarda öğretim görevlisi alımı yapacağını duyurdu.",
     "bolum": "Almanca, Fransızca ve İngilizce Hazırlık Birimleri",
@@ -2576,7 +2624,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:24+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:11+00:00",
    "ai": {
     "ozet": "Marmara Üniversitesi Rektörlüğü çeşitli fakültelere 2547 sayılı Kanun uyarınca öğretim üyesi alacaktır.",
     "bolum": "belirtilmemis",
@@ -2633,7 +2681,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:26+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:12+00:00",
    "ai": {
     "ozet": "SEGEM 2026 Yılı Aktüerlik Sınavları birinci, ikinci, üçüncü ve dördüncü seviye başvuru ve uygulama takvimini duyurdu.",
     "bolum": "belirtilmemis",
@@ -2821,7 +2869,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:31+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:17+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293815/kamu-akademik-personel-akademik-personel-alimlari-gaziantep-islam-bilim-ve-teknoloji-universitesi-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "Gaziantep İslam Bilim ve Teknoloji Üniversitesi, Tıp Fakültesi bünyesindeki çeşitli anabilim dallarına öğretim üyesi alımı yapacaktır.",
@@ -2960,7 +3008,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:32+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:17+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2295260/kamu-akademik-personel-akademik-personel-alimlari-bayburt-universitesi-ogretim-elemani-alim-ilani",
    "ai": {
     "ozet": "Bayburt Universitesi cesitli fakultelerine 2547 sayili Kanun ve ilgili yonetmelik hukumlerine gore ogretim elemani alacaktir.",
@@ -3013,7 +3061,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:32+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:18+00:00",
    "ai": {
     "ozet": "Özyeğin Üniversitesi Rektörlüğü farklı fakültelere tam zamanlı öğretim üyesi alımı yapılacağını duyurdu.",
     "bolum": "Kamu Hukuku, Bilgisayar Mühendisliği, Yapay Zeka ve Veri Mühendisliği, Mühendislik Temel Bilimleri, Psikoloji",
@@ -3205,7 +3253,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2283103/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden 2547 sayılı Yükseköğretim Kanunu ile Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliğin ilgili hükümleri çerçevesinde, Üniversitemizin aşağıda belirtilen akademik birimine 2547 sayılı Kanunun 31. maddesi kapsamında istihdam edilmek üzere, Öğretim Görevlisi alınacaktır Başvuru Başlangıç Tarihi 09.11.2026 Yazılı Sınava Giriş Tarihi 03.12.2026 Son Başvuru Tarihi 23.11.2026 Sonuç Açıklama Tarihi 08.12.2026 Ön Değerlendirme Sonucu Açıklama Tarihi 27.11.2026 Sonuçların Açıklanacağı İnternet Adresi https://www.ksu.edu.tr https://basvuru.ksu.edu.tr Başvuru Yeri ve Şekli https://basvuru.ksu.edu.tr Çevrim içi ortam üzerinden başvuru - İrtibat Tel : 0 344 300 1203 Birimi Ünvanı K/D Adet Niteliği ELBİSTAN MESLEK YÜKSEKOKULU Bölümü Ünvanı K / D Adet ALES Y.Dil Mülkiyet Koruma ve Güvenlik Bölümü Sivil Savunma ve İtfaiyecilik Programı Öğr. Gör. (Ders Verecek) 6 1 Muaf Muaf İş sağlığı ve güvenliği lisans mezunu olmak. İtfaiyecilik alanında en az 10 (on) yıl mesleki deneyime sahip olmak; Bu sürenin en az 5 (beş) yılında itfaiye teşkilatlarında yönetici olarak görev yapmış olmak. “III. Seviye Yangın Eğitici Eğitimi” ve “Yangın Çıkış Sebebinin Araştırılması (Yangın Tahkikatı) Eğitimi” belgelerine sahip olmak. Genel şartlar A)– (1) Bu Yönetmelik kapsamındaki öğretim elemanı kadrolarına yapılacak atamalarda; a)657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesinde belirtilen şartları taşımak, (1) Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesaplanmasında kullanılacak 4’lük ve 5’lik not sistemlerinin 100’lük not sistemine eşdeğerliği Yükseköğretim Kurulu kararıyla belirlenir. Diğer not sistemlerinin 100’lük not sistemine eşdeğerliğine yükseköğretim kurumlarının senatoları karar verir. (2) Alanında tecrübe sahibi olma şartı, lisans mezuniyet tarihinden itibaren geçerlidir. B)- Özel Şartlar (1) İlanda belirtilen şartları taşımak. (2) (Değişik:RG-3/3/2022-31767) Meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanıyla doğrudan ilgili lisans mezuniyeti bulunmayan alanlardaki programların öğretim görevlisi kadrolarına başvuracak adaylarda, en az lisans mezunu olup belgelendirmek kaydıyla alanında en az iki yıl tecrübe sahibi olmak şartı aranır. C) - Ön Değerlendirme (1) Sınav jürisi; başvuran adaylar arasından ilan edilen kadro sayısının on katına ka | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden 2547 sayılı Yükseköğretim Kanunu ile Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliğin ilgili hükümleri çerçevesinde, Üniversitemizin aşağıda belirtilen akademik birimine 2547 sayılı Kanunun 31. maddesi kapsamında istihdam edilmek üzere, Öğretim Görevlisi alınacaktır Başvuru Başlangıç Tarihi 09.11.2026 Yazılı Sınava Giriş Tarihi 03.12.2026 Son Başvuru Tarihi 23.11.2026 Sonuç Açıklama Tarihi 08.12.2026 Ön Değerlendirme Sonucu Açıklama Tarihi 27.11.2026 Sonuçların Açıklanacağı İnternet Adresi https://www.ksu.edu.tr https://basvuru.ksu.edu.tr Başvuru Yeri ve Şekli https://basvuru.ksu.edu.tr Çevrim içi ortam üzerinden başvuru - İrtibat Tel : 0 344 300 1203 Birimi Ünvanı K/D Adet Niteliği ELBİSTAN MESLEK YÜKSEKOKULU Bölümü Ünvanı K / D Adet ALES Y.Dil Mülkiyet Koruma ve Güvenlik Bölümü Sivil Savunma ve İtfaiyecilik Programı Öğr. Gör. (Ders Verecek) 6 1 Muaf Muaf İş sağlığı ve güvenliği lisans mezunu olmak. İtfaiyecilik alanında en az 10 (on) yıl mesleki deneyime sahip olmak; Bu sürenin en az 5 (beş) yılında itfaiye teşkilatlarında yönetici olarak görev yapmış olmak. “III. Seviye Yangın Eğitici Eğitimi” ve “Yangın Çıkış Sebebinin Araştırılması (Yangın Tahkikatı) Eğitimi” belgelerine sahip olmak. Genel şartlar A)– (1) Bu Yönetmelik kapsamındaki öğretim elemanı kadrolarına yapılacak atamalarda; a)657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesinde belirtilen şartları taşımak, (1) Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesaplanmasında kullanılacak 4’lük ve 5’lik not sistemlerinin 100’lük not sistemine eşdeğerliği Yükseköğretim Kurulu kararıyla belirlenir. Diğer not sistemlerinin 100’lük not sistemine eşdeğerliğine yükseköğretim kurumlarının senatoları karar verir. (2) Alanında tecrübe sahibi olma şartı, lisans mezuniyet tarihinden itibaren geçerlidir. B)- Özel Şartlar (1) İlanda belirtilen şartları taşımak. (2) (Değişik:RG-3/3/2022-31767) Meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanıyla doğrudan ilgili lisans mezuniyeti bulunmayan alanlardaki programların öğretim görevlisi kadrolarına başvuracak adaylarda, en az lisans mezunu olup belgelendirmek kaydıyla alanında en az iki yıl tecrübe sahibi olmak şartı aranır. C) - Ön Değerlendirme (1) Sınav jürisi; başvuran adaylar arasından ilan edilen kadro sayısının on katına ka | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:18:51+00:00",
    "akademik": true,
    "puanlar": {},
@@ -3225,7 +3273,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T06:09:32+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:18+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2283103/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
    "ai": {
     "ozet": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü 2547 sayılı Kanun kapsamında Sivil Savunma ve İtfaiyecilik Programına 1 öğretim görevlisi alacaktır.",
@@ -7460,14 +7508,14 @@
    "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f",
    "source_name": "Kariyer Kapısı",
    "employment_type": "Sözleşmeli personel",
-   "description": "SELÇUK ÜNİVERSİTESİ REKTÖRLÜĞÜ - SELÇUK ÜNİVERSİTESİ SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+   "description": "SELÇUK ÜNİVERSİTESİ REKTÖRLÜĞÜ - SELÇUK ÜNİVERSİTESİ SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
    "checked_at": "2026-11-26T21:01:39+00:00",
    "logo": "https://kariyerkapisi.gov.tr/UPS/173d4f3f-b98f-4604-85e1-65338cd6252a.png",
    "akademik": false,
    "puanlar": {},
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f",
-   "puan_kontrol_at": "2026-11-27T06:09:26+00:00",
+   "puan_kontrol_at": "2026-11-27T07:39:12+00:00",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -8607,8 +8655,8 @@
      "7/24 saat esasına göre vardiyalı çalışmaya engel durumu olmamak."
     ]
    },
-   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
-   "basvuru_tur": "genel"
+   "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
+   "basvuru_tur": "ozel"
   },
   {
    "id": 2750195410,
@@ -13333,7 +13381,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2281078/kamu-akademik-personel-akademik-personel-alimlari-sakarya-universitesi-rektorlugunden-arastirma-gorevlisi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Sakarya Üniversitesi Rektörlüğünden Üniversitemiz birimlerine, “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri, 2547 Sayılı Yükseköğretim Kanunu ile 657 Sayılı Devlet Memurları Kanununun 48. maddesi hükümleri uyarınca Öğretim Elemanı alınacaktır. Adaylar ilan edilen kadrolardan ancak birine başvuru yapabilir, aynı ilan dönemi içinde birden fazla kadroya başvurusu bulunduğu tespit edilen adayların tüm başvuruları geçersiz sayılacaktır. Başvurular şahsen veya posta ile yapılacak olup süresi içinde yapılmayan ya da eksik belgeli yapılan başvurular değerlendirmeye alınmayacaktır. Postadaki gecikmelerden Üniversitemiz sorumlu değildir. İstenilen belgelerde gerçeğe aykırı beyanda bulunduğu tespit edilenlerin sınavı geçersiz sayılacak ve atamaları yapılmayacaktır. Bunların atamaları yapılmış olsa dahi iptal edilecek ve hiçbir hak talep edemeyeceklerdir. Bu kişiler hakkında yasal işlem yapılacaktır. Üniversitemiz sınav takviminde zorunlu hallerde değişiklik yapma hakkını saklı tutar ve ilanın her aşamasını iptal edebilir. http://www.ilan.sakarya.edu.tr/ adresinden yapılan tüm duyurular tebligat mahiyetindedir. Kişilere ayrıca yazılı tebligat yapılmayacaktır. Aşağıda belirtilen durumda bulunan adaylar Araştırma Görevlisi ilanlarına başvuru yapamazlar. 1) 06/02/2013 tarihinde Resmî Gazete’de yayımlanan Lisansüstü Eğitim Yönetmeliğinde tanımlanan azami öğrenim süresini dolduran ancak 2016-2017 eğitim öğretim güz yarıyılından itibaren azami süreleri tekrar başlatılan öğrenciler. 2) Lisansüstü Eğitim Yönetmeliğinin yayımlandığı 20/04/2016 tarihinden itibaren 2017 güz dönemine kadar geçen sürede azami öğrenim sürelerinin dolması nedeniyle kadro ile ilişikleri kesilen araştırma görevlilerinden, 2016-2017 güz döneminde azami öğrenim süresi yeniden başlayan öğrenciler. Araştırma görevlisi kadrosuna atamalar 2547 sayılı Yükseköğretim Kanunun 50/d maddesi uyarınca yapılacaktır. Araştırma Görevlisi kadrolarına başvuracak adaylar için Lisansüstü Eğitim ve Öğretim Yönetmeliğinde belirtilen “Azami Öğrenim Sürelerini” doldurmamış olmak şartı aranır. A) GENEL ve ÖZEL ŞARTLAR 1- 657 Sayılı Kanunun 48. maddesinde belirtilen şartları taşımak. 2- ALES’ten en az 70, Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir. Merkezi sınav mua | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Sakarya Üniversitesi Rektörlüğünden Üniversitemiz birimlerine, “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik” hükümleri, 2547 Sayılı Yükseköğretim Kanunu ile 657 Sayılı Devlet Memurları Kanununun 48. maddesi hükümleri uyarınca Öğretim Elemanı alınacaktır. Adaylar ilan edilen kadrolardan ancak birine başvuru yapabilir, aynı ilan dönemi içinde birden fazla kadroya başvurusu bulunduğu tespit edilen adayların tüm başvuruları geçersiz sayılacaktır. Başvurular şahsen veya posta ile yapılacak olup süresi içinde yapılmayan ya da eksik belgeli yapılan başvurular değerlendirmeye alınmayacaktır. Postadaki gecikmelerden Üniversitemiz sorumlu değildir. İstenilen belgelerde gerçeğe aykırı beyanda bulunduğu tespit edilenlerin sınavı geçersiz sayılacak ve atamaları yapılmayacaktır. Bunların atamaları yapılmış olsa dahi iptal edilecek ve hiçbir hak talep edemeyeceklerdir. Bu kişiler hakkında yasal işlem yapılacaktır. Üniversitemiz sınav takviminde zorunlu hallerde değişiklik yapma hakkını saklı tutar ve ilanın her aşamasını iptal edebilir. http://www.ilan.sakarya.edu.tr/ adresinden yapılan tüm duyurular tebligat mahiyetindedir. Kişilere ayrıca yazılı tebligat yapılmayacaktır. Aşağıda belirtilen durumda bulunan adaylar Araştırma Görevlisi ilanlarına başvuru yapamazlar. 1) 06/02/2013 tarihinde Resmî Gazete’de yayımlanan Lisansüstü Eğitim Yönetmeliğinde tanımlanan azami öğrenim süresini dolduran ancak 2016-2017 eğitim öğretim güz yarıyılından itibaren azami süreleri tekrar başlatılan öğrenciler. 2) Lisansüstü Eğitim Yönetmeliğinin yayımlandığı 20/04/2016 tarihinden itibaren 2017 güz dönemine kadar geçen sürede azami öğrenim sürelerinin dolması nedeniyle kadro ile ilişikleri kesilen araştırma görevlilerinden, 2016-2017 güz döneminde azami öğrenim süresi yeniden başlayan öğrenciler. Araştırma görevlisi kadrosuna atamalar 2547 sayılı Yükseköğretim Kanunun 50/d maddesi uyarınca yapılacaktır. Araştırma Görevlisi kadrolarına başvuracak adaylar için Lisansüstü Eğitim ve Öğretim Yönetmeliğinde belirtilen “Azami Öğrenim Sürelerini” doldurmamış olmak şartı aranır. A) GENEL ve ÖZEL ŞARTLAR 1- 657 Sayılı Kanunun 48. maddesinde belirtilen şartları taşımak. 2- ALES’ten en az 70, Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir. Merkezi sınav mua | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:06+00:00",
    "akademik": true,
    "puanlar": {},
@@ -13349,7 +13397,7 @@
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2281078/kamu-akademik-personel-akademik-personel-alimlari-sakarya-universitesi-rektorlugunden-arastirma-gorevlisi-alim-ilani",
-   "puan_kontrol_at": "2026-11-27T05:54:53+00:00",
+   "puan_kontrol_at": "2026-11-27T07:38:58+00:00",
    "ai": {
     "ozet": "Sakarya Universitesi Rektörlügü 2547 ve 657 sayili kanunlar uyarinca arastirma gorevlisi alacak.",
     "bolum": "belirtilmemis",
