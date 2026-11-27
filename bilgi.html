@@ -3,7 +3,7 @@
 <title>KamuHavuzu · Hakkında, Gizlilik ve Kullanım Koşulları</title>
 <link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="robots" content="index,follow"><meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <style>
 :root{--bg:#f4f6fa;--c:#fff;--t:#1c2433;--m:#667085;--l:#e3e8f0;--p:#1d4ed8}
 @media(prefers-color-scheme:dark){:root{--bg:#0f1420;--c:#171e2e;--t:#e6eaf2;--m:#9aa5b8;--l:#26304a;--p:#7aa2ff}}
@@ -14,11 +14,12 @@ section{background:var(--c);border:1px solid var(--l);border-radius:14px;padding
 h1{font-size:22px}h2{margin:0 0 8px;font-size:19px}a{color:var(--p)}
 ul{padding-left:20px}li{margin-bottom:6px}.k{color:var(--m);font-size:13px}
 nav{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px}nav a{font-size:14px}
-</style></head><body>
+</style><script src="cerez.js"></script>
+</head><body>
 <header><a href="./">← KamuHavuzu</a></header>
 <main>
 <h1>Hakkında, Kullanım Koşulları ve Gizlilik</h1>
-<nav><a href="#hakkinda">Hakkında</a><a href="#kosullar">Kullanım koşulları</a><a href="#gizlilik">Gizlilik ve KVKK</a><a href="#kaynak">Kaynaklar ve telif</a><a href="#iletisim">İletişim</a></nav>
+<nav><a href="#hakkinda">Hakkında</a><a href="#kosullar">Kullanım koşulları</a><a href="#gizlilik">Gizlilik ve KVKK</a><a href="#cerez">Çerezler</a><a href="#veri-silme">Verilerimi sil</a><a href="#kaynak">Kaynaklar ve telif</a><a href="#iletisim">İletişim</a></nav>
 
 <section id="hakkinda"><h2>Hakkında</h2>
 <p>KamuHavuzu, Türkiye'de kamu kurumlarının personel alım ilanlarını tek yerde toplayan, eğitim durumu, KPSS türü/puanı, şehir ve kurum türüne göre süzmeyi kolaylaştıran bağımsız bir bilgilendirme aracıdır. Ücretsizdir ve üyelik gerektirmez. Site, reklam gösterimiyle finanse edilebilir.</p>
@@ -35,6 +36,7 @@ nav{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px}nav a{font-size:14px}
 </ul></section>
 
 <section id="gizlilik"><h2>Gizlilik ve kişisel verilerin korunması (KVKK)</h2>
+<p><b>Veri sorumlusu:</b> KamuHavuzu site sahibi (bağımsız, gerçek kişi). İletişim: <a href="mailto:kamuhavuzu@gmail.com">kamuhavuzu@gmail.com</a>. Site kendi başına kişisel veri toplamaz; aşağıdaki işlemler yalnızca cihazında veya adı geçen üçüncü taraf hizmetlerde gerçekleşir.</p>
 <ul>
 <li><b>Üyelik, giriş, form veya yorum yoktur.</b> Adın, e-postan, telefonun gibi kişisel bilgilerini istemeyiz ve toplamayız.</li>
 <li>Girdiğin KPSS puanı, eğitim durumu, bölüm, şehir, favoriler, karşılaştırma seçimleri, kayıtlı aramalar, başvuru kontrol listeleri ve tema seçimi yalnızca <b>kendi tarayıcının yerel depolamasında</b> tutulur. Bu bilgiler bize veya başka bir sunucuya gönderilmez; tarayıcı verilerini silerek istediğin zaman kaldırabilirsin.</li>
@@ -48,8 +50,17 @@ nav{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px}nav a{font-size:14px}
 <li>KVKK kapsamındaki haklarını (bilgi isteme, düzeltme, silme vb.) <a href="#iletisim">iletişim</a> bölümündeki kanallardan kullanabilirsin.</li>
 </ul></section>
 
+<section id="cerez"><h2>Çerez politikası ve tercihler</h2>
+<ul>
+<li><b>Zorunlu depolama:</b> Tema, favoriler, KPSS bilgileri ve bu çerez tercihi gibi ayarlar yalnızca tarayıcının yerel depolamasında tutulur; sunucuya gönderilmez.</li>
+<li><b>Reklam çerezleri (Google AdSense):</b> “Kabul et” dersen Google ve ortakları reklamları kişiselleştirmek için çerez kullanabilir. “Yalnızca gerekli” dersen kişiselleştirilmemiş reklam istenir; bu durumda da reklam ölçümü ve kötüye kullanımı önleme için sınırlı çerez/benzeri teknolojiler kullanılabilir.</li>
+<li>Tercihini istediğin zaman değiştirebilirsin: <button type="button" id="krCerezDegis" style="background:#173e66;color:#fff;border:0;border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer">Çerez tercihini değiştir</button></li>
+</ul></section>
+<section id="veri-silme"><h2>Verilerimi sil</h2>
+<p>Bu cihazda KamuHavuzu’nun sakladığı her şeyi (favoriler, KPSS ve eğitim bilgileri, kayıtlı aramalar, çerez tercihi, çevrimdışı önbellek) tek dokunuşla silebilirsin. Sunucumuzda senin adına kayıtlı veri olmadığı için başka bir silme işlemi gerekmez. Google’ın reklam verileri için <a href="https://myaccount.google.com/data-and-privacy" rel="noopener noreferrer">Google Hesabım</a> sayfasını kullanabilirsin.</p>
+<p><button type="button" id="krVeriSil" style="background:#b3261e;color:#fff;border:0;border-radius:8px;padding:8px 14px;font-weight:700;cursor:pointer">Bu cihazdaki verilerimi sil</button> <span id="krVeriSilSonuc" style="font-weight:700"></span></p></section>
 <section id="kaynak"><h2>Kaynaklar ve telif</h2>
-<p>İlanlar; ilan.gov.tr, Kariyer Kapısı ve benzeri herkese açık resmî kaynaklardan derlenir. Her ilan kartında "İncele" bağlantısı ilanın asıl sayfasına götürür. İlanların ve içeriklerin tüm hakları ilgili kurumlara ve kaynak sitelere aittir.</p>
+<p>İlanlar; ilan.gov.tr, Kariyer Kapısı ve benzeri herkese açık resmî kaynaklardan derlenir. Her ilan kartında "İncele" bağlantısı ilanın asıl sayfasına götürür. İlanların ve içeriklerin tüm hakları ilgili kurumlara ve kaynak sitelere aittir. Kurum adları ve logoları ilgili kurumlara aittir; yalnızca ilanın sahibini göstermek amacıyla, ilan kaynağındaki adresinden yüklenir. KamuHavuzu’nun kendi logosu ve tasarımı site sahibine aittir. Sitede stok fotoğraf veya lisanslı üçüncü taraf görsel kullanılmaz.</p>
 <p>Bir kurum veya kaynak sahibi, kendi içeriğinin sitede yer almasını istemiyorsa <a href="#iletisim">iletişim</a> bölümünden bildirmesi hâlinde ilgili içerik gecikmeden kaldırılır.</p></section>
 
 <section id="iletisim"><h2>İletişim</h2>
