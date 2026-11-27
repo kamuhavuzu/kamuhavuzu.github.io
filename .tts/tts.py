@@ -8,7 +8,7 @@ L=["Kamu işi mi arıyorsun? Onlarca siteyi tek tek gezme.",
 os.makedirs('out',exist_ok=True)
 key=os.environ['GEMINI_API_KEY']
 STIL="Sen 25 yaşında, enerjik, neşeli ve samimi bir İstanbullu genç kadınsın; sosyal medya için tanıtım videosu seslendiriyorsun. Gülümseyerek, canlı ve doğal bir tonla, hafif tempolu ve vurgulu oku. Robotik veya düz okuma yapma. Sadece şu metni oku: "
-for voice in ['Leda','Zephyr','Aoede']:
+for voice in ['Leda']:
     for i,t in enumerate(L,1):
         for deneme in range(8):
             try:
