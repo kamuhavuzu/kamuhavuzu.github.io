@@ -1,43 +1,44 @@
 {
- "guncelleme": "2026-11-27T23:08:17+00:00",
- "son_kontrol": "2026-11-27T23:08:17+00:00",
+ "guncelleme": "2026-11-27T23:24:21+00:00",
+ "son_kontrol": "2026-11-27T23:24:21+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
    "yeni": 3,
-   "son_basari": "2026-11-27T23:02:07+00:00",
+   "son_basari": "2026-11-27T23:16:16+00:00",
    "sayi": 196
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T23:02:09+00:00",
+   "son_basari": "2026-11-27T23:16:18+00:00",
    "sayi": 42
   },
   "Resmî Gazete İlanlar": {
-   "durum": "eski",
-   "mesaj": "ConnectTimeout: HTTPSConnectionPool(host='www.resmigazete.gov.tr', port=443): Max retries exceeded with url: /ilanlar (Caused by ConnectTimeoutError(<HTTPSConne",
-   "son_basari": "2026-11-27T22:46:14+00:00",
+   "durum": "tamam",
+   "yeni": 0,
+   "son_basari": "2026-11-27T23:16:19+00:00",
+   "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T23:07:53+00:00",
+   "son_basari": "2026-11-27T23:23:17+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "Çalışma ve Sosyal Güvenlik Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T23:07:57+00:00",
+   "son_basari": "2026-11-27T23:23:21+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 7
   },
   "Ulaştırma ve Altyapı Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T23:08:04+00:00",
+   "son_basari": "2026-11-27T23:23:30+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 6
   },
@@ -256,7 +257,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T21:41:25+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:13+00:00",
    "ai": {
     "ozet": "Kahramanmaraş Sütçü İmam Üniversitesi çeşitli fakültelere 657 sayılı Kanunun 48. maddesine ve ilgili yönergelere uygun öğretim üyesi alacaktır.",
     "bolum": "Biyosistem Mühendisliği, Tarla Bitkileri, Zootekni, Anesteziyoloji ve Reanimasyon",
@@ -332,7 +333,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2283152/kamu-akademik-personel-akademik-personel-alimlari-izmir-yuksek-teknoloji-enstitusu-rektorlugunden-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Diğer",
-   "description": "İzmir Yüksek Teknoloji Enstitüsü Rektörlüğünden Aşağıda anabilim dalı itibariyle ünvan ve şartları belirtilen, Enstitümüz birimlerinde açık bulunan kadrolara 2547 sayılı Yükseköğretim Kanunu’nun, 12/06/2018 tarihli Resmi Gazete’de yayımlanan Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili maddeleri, Enstitümüzün Minimum Akademik Yükseltme ve Atama Ölçütleri ile İlgili Esasları ve “Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik ve Enstitümüz Senatosu'nun 27.08.2021 tarih ve 26/1 sayılı Kararı hükümlerine göre öğretim üyeleri alınacaktır. İLAN NO FAKÜLTE ANABİLİM DALI ÜNVAN ADT DRC AÇIKLAMA 2026/24 MÜHENDİSLİK Kimya Mühendisliği Profesör 1 1 Kimya Mühendisliği Bilim Alanında doçent ünvanına sahip olmak. Karbondioksit içerisinde çözünebilen polimerlerin tasarımı ve sentezi; gözenekli nanotanecik sentezi; mikroköpük ve lipid tabakası tasarımı, karakterizasyonu, faz davranışlarının incelenmesi ve ultrason kontrast maddesi olarak uygulamaları konularında bilimsel çalışmalar yürütmüş ve uluslararası bilimsel yayınlar yapmış olmak. 2026/25 Bilgisayar Mühendisliği Doçent 1 1 Bilgisayar Bilimleri ve Mühendisliği Bilim Alanında doçent ünvanına sahip olmak. Bilgi tabanları, öneri sistemleri ve dil modelleri konularında bilimsel çalışmalar yürütmüş ve uluslararası bilimsel yayınlar yapmış olmak. 2026/26 Bilgisayar Mühendisliği Doktor Öğretim Üyesi 1 5 Bilişim alanlarından birinden (Bilgisayar Mühendisliği, Bilgisayar Bilimleri, Yazılım Mühendisliği, Bilişim Sistemleri) doktora öğrenimi görmüş olmak. Bilgisayar grafikleri, bilgisayarlı görü ve makine öğrenmesi konularında bilimsel çalışmalar yürütmüş ve uluslararası bilimsel yayınlar yapmış olmak. Diğer Şartlar: 1-Başvuracakların 657 sayılı Kanun’un 48. maddesinde belirtilen şartları taşımaları gerekmektedir. 2-Profesör ve doçent kadrosuna atamalar, daimi statüde yapılacaktır. 3-Yabancı ülkelerden alınan diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması şarttır. 4-Profesör kadrosu adaylarının, doçent ünvanını aldıktan sonraki eserlerinden birini Başlıca Eser olarak belirtmeleri zorunludur. 5-Başvuracaklar, Özgeçmiş, Yayın Listesi, Öğrenim Belgeleri (Lisans, yüksek lisans, doktora, doçentlik), Doktora Tezi, Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavı veya eşdeğerliği kabul edilen sınava ilişkin sonuç belgesi, Fotoğraf, Niyet Mektubu (İYTE Minimum Akademik Yükseltme ve Atama Ölçütleri İ | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "İzmir Yüksek Teknoloji Enstitüsü Rektörlüğünden Aşağıda anabilim dalı itibariyle ünvan ve şartları belirtilen, Enstitümüz birimlerinde açık bulunan kadrolara 2547 sayılı Yükseköğretim Kanunu’nun, 12/06/2018 tarihli Resmi Gazete’de yayımlanan Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili maddeleri, Enstitümüzün Minimum Akademik Yükseltme ve Atama Ölçütleri ile İlgili Esasları ve “Yükseköğretim Kurumlarında Yabancı Dil Öğretimi ve Yabancı Dille Öğretim Yapılmasında Uyulacak Esaslara İlişkin Yönetmelik ve Enstitümüz Senatosu'nun 27.08.2021 tarih ve 26/1 sayılı Kararı hükümlerine göre öğretim üyeleri alınacaktır. İLAN NO FAKÜLTE ANABİLİM DALI ÜNVAN ADT DRC AÇIKLAMA 2026/24 MÜHENDİSLİK Kimya Mühendisliği Profesör 1 1 Kimya Mühendisliği Bilim Alanında doçent ünvanına sahip olmak. Karbondioksit içerisinde çözünebilen polimerlerin tasarımı ve sentezi; gözenekli nanotanecik sentezi; mikroköpük ve lipid tabakası tasarımı, karakterizasyonu, faz davranışlarının incelenmesi ve ultrason kontrast maddesi olarak uygulamaları konularında bilimsel çalışmalar yürütmüş ve uluslararası bilimsel yayınlar yapmış olmak. 2026/25 Bilgisayar Mühendisliği Doçent 1 1 Bilgisayar Bilimleri ve Mühendisliği Bilim Alanında doçent ünvanına sahip olmak. Bilgi tabanları, öneri sistemleri ve dil modelleri konularında bilimsel çalışmalar yürütmüş ve uluslararası bilimsel yayınlar yapmış olmak. 2026/26 Bilgisayar Mühendisliği Doktor Öğretim Üyesi 1 5 Bilişim alanlarından birinden (Bilgisayar Mühendisliği, Bilgisayar Bilimleri, Yazılım Mühendisliği, Bilişim Sistemleri) doktora öğrenimi görmüş olmak. Bilgisayar grafikleri, bilgisayarlı görü ve makine öğrenmesi konularında bilimsel çalışmalar yürütmüş ve uluslararası bilimsel yayınlar yapmış olmak. Diğer Şartlar: 1-Başvuracakların 657 sayılı Kanun’un 48. maddesinde belirtilen şartları taşımaları gerekmektedir. 2-Profesör ve doçent kadrosuna atamalar, daimi statüde yapılacaktır. 3-Yabancı ülkelerden alınan diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması şarttır. 4-Profesör kadrosu adaylarının, doçent ünvanını aldıktan sonraki eserlerinden birini Başlıca Eser olarak belirtmeleri zorunludur. 5-Başvuracaklar, Özgeçmiş, Yayın Listesi, Öğrenim Belgeleri (Lisans, yüksek lisans, doktora, doçentlik), Doktora Tezi, Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavı veya eşdeğerliği kabul edilen sınava ilişkin sonuç belgesi, Fotoğraf, Niyet Mektubu (İYTE Minimum Akademik Yükseltme ve Atama Ölçütleri İ | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:18:40+00:00",
    "akademik": true,
    "puanlar": {},
@@ -350,7 +351,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T21:41:26+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:14+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2283152/kamu-akademik-personel-akademik-personel-alimlari-izmir-yuksek-teknoloji-enstitusu-rektorlugunden-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "İzmir Yüksek Teknoloji Enstitüsü, 2547 sayılı Kanun hükümleri çerçevesinde çeşitli fakültelere profesör, doçent ve doktor öğretim üyesi alacaktır.",
@@ -428,7 +429,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2283160/kamu-akademik-personel-akademik-personel-alimlari-karadeniz-teknik-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Karadeniz Teknik Üniversitesi Rektörlüğünden Üniversitemizin aşağıda belirtilen birimlerine; Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik, 2547 sayılı Yükseköğretim Kanunu ve 657 sayılı Devlet memurları Kanunu'nun 48. maddesi hükümleri uyarınca personel alınacaktır. GENEL ŞARTLAR 1- 657 Sayılı Kanunun 48 inci maddesinde belirtilen şartları taşımak. 2- ALES'ten en az 70 (lisans mezuniyeti hangi alanda ise o alandaki ALES puan türünden ya da ilan edilen bölüm/ana bilim dalı/program hangi alandan öğrenci alıyorsa o alandaki ALES puan türünden) Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir. Merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak alınır. 3- Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesaplanmasında kullanılan 4'lük ve 5'lik not sistemlerinin 100'lük not sistemine eşdeğerliliği Yükseköğretim Kurulu kararıyla belirlenir. Diğer not sistemlerinin 100'lük not sistemine eşdeğerliliğine Üniversitemiz Senatosu karar verir. 4- Yabancı ülkelerden alınan diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması şarttır. ÖZEL ŞARTLAR 1- Öğretim görevlisi kadrosuna başvuracak adaylarda en az tezli yüksek lisans derecesine sahip olmak veya lisans ve yüksek lisans derecesini birlikte veren programlardan mezun olmak şartı aranır. MUAFİYETLER 1- Doktora veya tıpta, diş hekimliğinde, eczacılıkta ve veteriner hekimlikte uzmanlık ya da sanatta yeterlilik eğitimini tamamlamış olanlarda, meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanlarına atanacak olanlarda, yükseköğretim öğretim elemanı kadrolarında çalışmış veya çalışmakta olanlarda merkezi sınav (ALES) şartı aranmaz. 2- Meslek yüksekokullarının, Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliğin 6 ncı maddesinin dördüncü fıkrası kapsamındaki öğretim görevlisi kadroları haricindeki öğretim elemanı kadrolarına yapılacak başvurularda yabancı dil şartı aranmaz. BAŞVURU SİSTEMİNE EKLENECEK BELGELER 1- İlan Başvuru Dilekçesi doldurulmuş ve imzalanmış olarak. 2- Özgeçmiş. 3- Bir adet vesikalık fotoğra | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Karadeniz Teknik Üniversitesi Rektörlüğünden Üniversitemizin aşağıda belirtilen birimlerine; Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik, 2547 sayılı Yükseköğretim Kanunu ve 657 sayılı Devlet memurları Kanunu'nun 48. maddesi hükümleri uyarınca personel alınacaktır. GENEL ŞARTLAR 1- 657 Sayılı Kanunun 48 inci maddesinde belirtilen şartları taşımak. 2- ALES'ten en az 70 (lisans mezuniyeti hangi alanda ise o alandaki ALES puan türünden ya da ilan edilen bölüm/ana bilim dalı/program hangi alandan öğrenci alıyorsa o alandaki ALES puan türünden) Yükseköğretim Kurulu tarafından kabul edilen merkezi yabancı dil sınavından en az 50 puan veya eşdeğerliliği kabul edilen bir sınavdan bu puan muadili bir puan almış olmak gerekir. Merkezi sınav muafiyetinden yararlanmayı talep edenlerin ön değerlendirme ve nihai değerlendirme aşamalarında ALES puanı 70 olarak alınır. 3- Ön değerlendirme ve nihai değerlendirme aşamalarında lisans mezuniyeti notunun hesaplanmasında kullanılan 4'lük ve 5'lik not sistemlerinin 100'lük not sistemine eşdeğerliliği Yükseköğretim Kurulu kararıyla belirlenir. Diğer not sistemlerinin 100'lük not sistemine eşdeğerliliğine Üniversitemiz Senatosu karar verir. 4- Yabancı ülkelerden alınan diplomaların Üniversitelerarası Kurulca denkliğinin onaylanmış olması şarttır. ÖZEL ŞARTLAR 1- Öğretim görevlisi kadrosuna başvuracak adaylarda en az tezli yüksek lisans derecesine sahip olmak veya lisans ve yüksek lisans derecesini birlikte veren programlardan mezun olmak şartı aranır. MUAFİYETLER 1- Doktora veya tıpta, diş hekimliğinde, eczacılıkta ve veteriner hekimlikte uzmanlık ya da sanatta yeterlilik eğitimini tamamlamış olanlarda, meslek yüksekokullarının Yükseköğretim Kurulu tarafından belirlenen uzmanlık alanlarına atanacak olanlarda, yükseköğretim öğretim elemanı kadrolarında çalışmış veya çalışmakta olanlarda merkezi sınav (ALES) şartı aranmaz. 2- Meslek yüksekokullarının, Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmeliğin 6 ncı maddesinin dördüncü fıkrası kapsamındaki öğretim görevlisi kadroları haricindeki öğretim elemanı kadrolarına yapılacak başvurularda yabancı dil şartı aranmaz. BAŞVURU SİSTEMİNE EKLENECEK BELGELER 1- İlan Başvuru Dilekçesi doldurulmuş ve imzalanmış olarak. 2- Özgeçmiş. 3- Bir adet vesikalık fotoğra | ilan.gov.tr - Türkiye'nin İlan Portalı Hoşgeldiniz! İlan.gov.tr'ye hoş geldiniz! Resmi İlan Portalı Kapat -->\n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:18:39+00:00",
    "akademik": true,
    "puanlar": {},
@@ -447,7 +448,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T21:52:06+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:15+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2283160/kamu-akademik-personel-akademik-personel-alimlari-karadeniz-teknik-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
    "ai": {
     "ozet": "Karadeniz Teknik Üniversitesi Rektörlüğü, ilgili yönetmelikler çerçevesinde öğretim görevlisi alımı yapacaktır.",
@@ -605,7 +606,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T21:52:06+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:16+00:00",
    "ai": {
     "ozet": "Abdullah Gül Üniversitesi farklı fakültelere 2547 sayılı Kanun kapsamında öğretim üyesi alımı yapacaktır.",
     "bolum": "İnşaat Mühendisliği, Elektrik-Elektronik Mühendisliği, İşletme",
@@ -664,7 +665,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T21:52:07+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:17+00:00",
    "ai": {
     "ozet": "Ankara Büyükşehir Belediyesi, 657 sayılı Kanuna tabi istihdam edilmek üzere KPSS P48 puanıyla 5 Müfettiş Yardımcısı alacaktır.",
     "bolum": "hukuk, siyasal bilgiler, iktisat, işletme, iktisadî ve idarî bilimler fakülteleri",
@@ -721,7 +722,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T21:52:07+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:17+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2296809/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sosyal-guvenlik-kurumu-baskanligi-mufettis-yardimciligi-giris-sinavi-ilani",
    "ai": {
     "ozet": "Sosyal Güvenlik Kurumu Başkanlığı, KPSS puan sıralamasına göre 50 Müfettiş Yardımcısı alımı için giriş sınavı düzenleyeceğini açıkladı.",
@@ -1186,7 +1187,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T21:52:08+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:18+00:00",
    "ai": {
     "ozet": "İstanbul Nişantaşı Üniversitesi, ilgili yönetmelikler kapsamında fakülte, yüksekokul ve meslek yüksekokullarına öğretim elemanları alacaktır.",
     "bolum": "belirtilmemis",
@@ -1558,14 +1559,14 @@
    "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
    "source_name": "Kariyer Kapısı",
    "employment_type": "Sözleşmeli personel",
-   "description": "AVRUPA BİRLİĞİ BAŞKANLIĞI - SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+   "description": "AVRUPA BİRLİĞİ BAŞKANLIĞI - SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
    "checked_at": "2026-11-27T07:31:31+00:00",
    "logo": "https://kariyerkapisi.gov.tr/UPS/696aa654-bbc6-4c51-9370-987ef5b9f152.png",
    "akademik": false,
    "puanlar": {},
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=add4bb83-a310-4b00-9f8b-6771300863f5",
-   "puan_kontrol_at": "2026-11-27T21:52:09+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:19+00:00",
    "durum": "tarih_belirsiz",
    "kaynak_baglantilari": [
     {
@@ -4508,9 +4509,9 @@
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_at": "2026-11-27T22:07:12+00:00",
    "ai": {
-    "ozet": "Düzce Üniversitesi Rektörlüğü, farklı birimlere 2547 sayılı Kanun kapsamında çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
-    "bolum": "İktisat, Psikoloji, Yönetim ve Organizasyon, Çocuk Sağlığı ve Hastalıkları",
-    "egitim": "Lisans, Yüksek Lisans, Doktora",
+    "ozet": "Düzce Üniversitesi çeşitli fakültelerine 2547 sayılı Kanun hükümlerine göre farklı unvanlarda toplam 4 öğretim üyesi alacaktır.",
+    "bolum": "İktisat, Psikoloji, İşletme, Çocuk Sağlığı ve Hastalıkları",
+    "egitim": "Doktora",
     "kpss_turu": "belirtilmemis",
     "taban_puan": "belirtilmemis",
     "yas_siniri": "belirtilmemis",
@@ -4518,12 +4519,13 @@
     "deneyim": "belirtilmemis",
     "kontenjan": "4",
     "ozel_sartlar": [
-     "Adaylar sadece bir kadroya başvurabilir.",
-     "Doçent unvanını Mikro İktisat alanında almış olmak.",
-     "Doktorasını Gelişim Psikolojisi alanında yapmış olmak.",
-     "İşletme alanında doktora yapmış olmak.",
-     "Çocuk Sağlığı ve Hastalıkları uzmanlığı ve Gelişimsel Pediatri yandal uzmanlığına sahip olmak."
-    ]
+     "Doçent unvanını Mikro İktisat alanında almış, Eğitim Ekonomisi, Kent ve Çevre Ekonomisi alanında çalışmış olmak.",
+     "Lisans ve Yüksek Lisansını Psikoloji alanında, Doktorasını Gelişim Psikolojisi alanında yapmış, Cinsiyet Gelişimi alanında çalışmış olmak.",
+     "İşletme Bölümü Lisans mezunu, İşletme alanında Doktora yapmış, Dijital Dayanıklılık, Yalın Liderlik ve İş Zekası alanında çalışmış olmak.",
+     "Uzmanlığını Çocuk Sağlığı ve Hastalıkları alanında, Yandal Uzmanlığını Gelişimsel Pediatri alanında almış olmak."
+    ],
+    "belge_zorunlu": [],
+    "belge_avantaj": []
    },
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299646/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "basvuru_link": "https://abas.duzce.edu.tr",
@@ -5378,22 +5380,24 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "Yozgat Bozok Üniversitesi bünyesinde istihdam edilmek üzere 2547 sayılı kanun kapsamında çeşitli fakülte ve enstitülere öğretim üyeleri alınacaktır.",
-    "bolum": "belirtilmemis",
-    "egitim": "belirtilmemis",
+    "ozet": "Yozgat Bozok Üniversitesi çeşitli fakültelere öğretim üyesi alımı yapacaktır.",
+    "bolum": "Çeşitli Anabilim Dalları",
+    "egitim": "Lisans / Doktora / Tıpta Uzmanlık",
     "kpss_turu": "belirtilmemis",
     "taban_puan": "belirtilmemis",
     "yas_siniri": "belirtilmemis",
     "ehliyet": "belirtilmemis",
-    "deneyim": "belirtilmemis",
-    "kontenjan": "6",
+    "deneyim": "en az 3 yıl",
+    "kontenjan": "7",
     "ozel_sartlar": [
-     "Basvurular yalnizca elektronik ortamda e-Devlet sifresi ile yapilacaktir.",
-     "Adaylar tek bir kadro ilanina basvuru yapabilecektir.",
-     "2547 sayili Kanun ve ilgili yonetmelik sartlari tasinmalidir.",
-     "Eksik belgeli basvurular kabul edilmeyecektir.",
-     "Tip ve Dis Hekimligi kadrolarina yonelik ozel kosullar aranabilecektir."
-    ]
+     "Hukuk Fakültesi lisans mezunu olup doktorasını Kamu Hukuku Anabilim Dalında yapmış olmak",
+     "Doktorasını biyoteknoloji alanında yapmış olup doçentliğini tarımsal biyoteknoloji alanında almış olmak",
+     "Doçentliğini ilgili alanda almış olup nükleer onkoloji ve nöroendokrin tümörler üzerine çalışma yapmış olmak",
+     "Doçentliğini tıbbi genetik alanında almış olup kanser genetiği ve nörogenetik hastalıklar üzerine çalışma yapmış olmak",
+     "Doçentliğini gıda bilimleri ve gıda mühendisliği alanında almış olmak"
+    ],
+    "belge_zorunlu": [],
+    "belge_avantaj": []
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_at": "2026-11-27T22:24:03+00:00",
@@ -5780,7 +5784,7 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "Yaşar Üniversitesi Rektörlüğü Hukuk ve Mühendislik fakültelerine belirtilen niteliklere sahip öğretim üyeleri alacaktır.",
+    "ozet": "Yaşar Üniversitesi Rektörlüğü, ilgili fakültelerine 2547 sayılı Kanun ve ilgili yönetmelikler kapsamında 2 öğretim üyesi alacaktır.",
     "bolum": "Özel Hukuk / İnşaat Mühendisliği",
     "egitim": "Doktora",
     "kpss_turu": "belirtilmemis",
@@ -5790,12 +5794,15 @@
     "deneyim": "belirtilmemis",
     "kontenjan": "2",
     "ozel_sartlar": [
-     "657 sayılı Kanun'un 48. maddesindeki genel şartları taşımak.",
-     "Yabancı ülkelerden alınan diplomaların denkliğine sahip olmak.",
-     "Devlet Hizmeti Yükümlülüğü bulunmamak.",
-     "Yabancı dil (İngilizce) sınavından en az 85 puan almış olmak.",
-     "Başvuruları şahsen veya kargo ile İnsan Kaynakları Müdürlüğü'ne yapmak."
-    ]
+     "657 sayılı Kanunun 48 inci maddesindeki şartları taşımak",
+     "Yabancı ülkelerden alınan diplomaların denkliğine sahip olmak",
+     "Devlet hizmeti yükümlülüğü bulunmamak",
+     "İngilizce dilinden en az 85 puan almış olmak"
+    ],
+    "belge_zorunlu": [
+     "yabanci dil belgesi"
+    ],
+    "belge_avantaj": []
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_at": "2026-11-27T22:24:04+00:00",
@@ -8655,22 +8662,24 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "Düzce Üniversitesi Rektörlüğü, 2547 ve 657 sayılı kanunlara göre çeşitli birimlerine toplam 5 öğretim elemanı alacaktır.",
-    "bolum": "Makine Mühendisliği, Halkla İlişkiler ve Tanıtım, Bilgisayar/Yazılım Mühendisliği, Çocuk Gelişimi, Acil Yardım ve Afet Yönetimi",
-    "egitim": "Lisans",
+    "ozet": "Düzce Üniversitesi Rektörlüğü, çeşitli fakülte ve meslek yüksekokullarına 2547 sayılı kanun kapsamında öğretim elemanı alacaktır.",
+    "bolum": "Makine Mühendisliği, Halkla İlişkiler ve Tanıtım, Bilgisayar Mühendisliği, Çocuk Gelişimi, İlk ve Acil Yardım",
+    "egitim": "Lisans ve Yüksek Lisans",
     "kpss_turu": "ALES",
     "taban_puan": "70",
     "yas_siniri": "belirtilmemis",
     "ehliyet": "belirtilmemis",
-    "deneyim": "belirtilmemis",
+    "deneyim": "En az 5 ile 10 yıl arasında değişen mesleki deneyim",
     "kontenjan": "5",
     "ozel_sartlar": [
-     "Adaylar tek kadro için başvuruda bulunabilirler.",
-     "Yabancı ülkelerden mezun olanlar için denklik belgesi zorunludur.",
-     "Belirtilen alanlarda tezli yüksek lisans yapıyor veya yapmış olmak.",
-     "İlgili kadrolara göre en az 5 veya 10 yıl mesleki deneyim sahibi olmak.",
-     "Başvurular sadece elektronik ortamda yapılacaktır."
-    ]
+     "Makine Mühendisliği lisans mezunu ve Malzeme Bilimleri alanında tezli yüksek lisans yapıyor olmak",
+     "Halkla İlişkiler ve Tanıtım veya Radyo, Televizyon ve Sinema lisans mezunu olmak",
+     "Bilgisayar Mühendisliği veya Yazılım Mühendisliği lisans mezunu olmak",
+     "Çocuk Gelişimi lisans mezunu olmak",
+     "Acil Yardım ve Afet Yönetimi lisans mezunu olmak"
+    ],
+    "belge_zorunlu": [],
+    "belge_avantaj": []
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_at": "2026-11-27T22:24:47+00:00",
@@ -9342,8 +9351,8 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "Ankara Yıldırım Beyazıt Üniversitesi, Bilgi İşlem Daire Başkanlığı bünyesinde istihdam edilmek üzere 1 sözleşmeli sistem uzmanı alacaktır.",
-    "bolum": "Bilgisayar Mühendisliği, Yazılım Mühendisliği, Elektrik Mühendisliği, Elektronik Mühendisliği, Elektrik-Elektronik Mühendisliği, Endüstri Mühendisliği",
+    "ozet": "Ankara Yıldırım Beyazıt Üniversitesi Bilgi İşlem Daire Başkanlığı bünyesinde istihdam edilmek üzere 1 sözleşmeli bilişim personeli alacaktır.",
+    "bolum": "bilgisayar mühendisliği, yazılım mühendisliği, elektrik mühendisliği, elektronik mühendisliği, elektrik-elektronik mühendisliği ve endüstri mühendisliği",
     "egitim": "Lisans",
     "kpss_turu": "belirtilmemis",
     "taban_puan": "belirtilmemis",
@@ -9354,9 +9363,13 @@
     "ozel_sartlar": [
      "Sistem yönetimi alanında en az 5 yıl tecrübe sahibi olmak.",
      "Windows Server 2016 ve üzeri sürümlerin kurulum ve yapılandırmasında tecrübeli olmak.",
-     "Microsoft Exchange Server 2016 ve üzeri sürümlerin yönetiminde tecrübeli olmak.",
-     "VMware vSphere sanallaştırma platformunun kurulumu ve yönetimi konusunda tecrübeli olmak.",
-     "Linux sunucularda kurulum, yapılandırma ve sorun giderme konularında tecrübeli olmak."
+     "Microsoft Exchange Server kurulum ve yönetimi konusunda tecrübeli olmak.",
+     "VMware vSphere sanallaştırma platformu kurulum ve yönetimi bilmek.",
+     "Linux sunucularda kurulum, yapılandırma ve sorun giderme tecrübesine sahip olmak."
+    ],
+    "belge_zorunlu": [],
+    "belge_avantaj": [
+     "Windows Server Hybrid Administrator Associate"
     ]
    }
   },
@@ -9911,7 +9924,7 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "İçişleri Bakanlığı 2026 yılı merkez ve taşra teşkilatında istihdam edilmek üzere 4/B sözleşmeli personel alımı için sözlü sınav duyurusu yayımlamıştır.",
+    "ozet": "İçişleri Bakanlığı merkez ve taşra teşkilatında istihdam edilmek üzere sözleşmeli personel alımı yapılacaktır.",
     "bolum": "belirtilmemis",
     "egitim": "belirtilmemis",
     "kpss_turu": "belirtilmemis",
@@ -9920,7 +9933,9 @@
     "ehliyet": "belirtilmemis",
     "deneyim": "belirtilmemis",
     "kontenjan": "belirtilmemis",
-    "ozel_sartlar": []
+    "ozel_sartlar": [],
+    "belge_zorunlu": [],
+    "belge_avantaj": []
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=667b7787-181b-4063-af99-0f8f07ba1293",
@@ -11211,22 +11226,26 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "Ondokuz Mayıs Üniversitesi Rektörlüğü, İŞKUR üzerinden İŞK Kanunu kapsamında farklı branşlarda toplam 21 sürekli işçi alacaktır.",
-    "bolum": "Temizlik, Metal Teknolojisi, Motorlu Araçlar Teknolojisi, Elektrik-Elektronik Teknolojisi, Tarım ve Bahçe Bakımı",
+    "ozet": "Ondokuz Mayıs Üniversitesi Rektörlüğü İŞKUR üzerinden 21 sürekli işçi alacaktır.",
+    "bolum": "Ortaöğretim kurumlarının ilgili alanları veya herhangi bir alanı",
     "egitim": "Ortaöğretim (Lise ve Dengi)",
-    "kpss_turu": "KPSS şartı aranmamaktadır",
+    "kpss_turu": "belirtilmemis",
     "taban_puan": "belirtilmemis",
-    "yas_siniri": "Son başvuru tarihi itibarıyla 35 yaşından gün almamış olmak",
+    "yas_siniri": "35 yaşından gün almamış olmak",
     "ehliyet": "belirtilmemis",
     "deneyim": "belirtilmemis",
     "kontenjan": "21",
     "ozel_sartlar": [
-     "Türk vatandaşı olmak ve 18 yaşını tamamlamış olmak",
-     "İlanın yayımlandığı tarihten önce Samsun il merkezi ve ilçelerinde ikamet ediyor olmak",
-     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak",
-     "7/24 esasına göre çalışmasına engel durumu bulunmamak",
-     "İlgili meslek kolları için aranan mezuniyet veya ustalık belgesi şartını taşımak"
-    ]
+     "İlanın yayımlandığı tarihten önce Samsun il merkezi ve ilçelerinde ikamet ediyor olmak.",
+     "7/24 esasına göre çalışmasına engel durumu bulunmamak.",
+     "Son başvuru tarihi itibarıyla 35 yaşından gün almamış olmak.",
+     "Erkek adaylar için askerlik hizmetini yapmış veya muaf olmak.",
+     "Türk vatandaşı olmak."
+    ],
+    "belge_zorunlu": [
+     "Ustalık belgesi"
+    ],
+    "belge_avantaj": []
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_at": "2026-11-27T22:52:29+00:00",
@@ -11477,8 +11496,8 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "Ankara Yıldırım Beyazıt Üniversitesi Rektörlüğü, sözleşmeli bilişim personeli alım ilanı yayımlamıştır.",
-    "bolum": "Bilişim",
+    "ozet": "Ankara Yıldırım Beyazıt Üniversitesi Rektörlüğü tarafından sözleşmeli bilişim personeli alım ilanı yayımlanmıştır.",
+    "bolum": "belirtilmemis",
     "egitim": "belirtilmemis",
     "kpss_turu": "belirtilmemis",
     "taban_puan": "belirtilmemis",
@@ -11486,9 +11505,9 @@
     "ehliyet": "belirtilmemis",
     "deneyim": "belirtilmemis",
     "kontenjan": "belirtilmemis",
-    "ozel_sartlar": [
-     "belirtilmemis"
-    ]
+    "ozel_sartlar": [],
+    "belge_zorunlu": [],
+    "belge_avantaj": []
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=a75fb51f-19e0-4d1e-95fe-1e52774310c2",
@@ -12014,7 +12033,7 @@
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2274524/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-yildiz-teknik-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani",
-   "puan_kontrol_at": "2026-11-27T21:40:46+00:00",
+   "puan_kontrol_at": "2026-11-27T23:23:33+00:00",
    "ai": {
     "ozet": "Yıldız Teknik Üniversitesi Rektörlüğü, Bilgi İşlem Daire Başkanlığı'nda istihdam edilmek üzere 2 sözleşmeli bilişim personeli alacaktır.",
     "bolum": "Bilgisayar Mühendisliği, Yazılım Mühendisliği, Elektrik Mühendisliği, Elektronik Mühendisliği, Elektrik ve Elektronik Mühendisliği, Endüstri Mühendisliği ve diğer ilgili bölümler",
@@ -12087,7 +12106,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2280965/kamu-akademik-personel-akademik-personel-alimlari-gumushane-universitesi-rektorlugu-ogretim-uyesi-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Diğer",
-   "description": "Gümüşhane Üniversitesi Rektörlüğünden: Üniversitemizin aşağıda belirtilen birimlerine 2547 sayılı Kanunun ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca öğretim üyesi alınacaktır. Başvuracak adayların Üniversitemizin web sayfasında yayınlanan “Gümüşhane Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Yönergesi”nde belirtilen kriterleri taşımaları gerekmektedir. Ayrıca adayların fakültelerin veya 4 yıllık yüksekokulların ilgili bölümlerinden mezun olmaları (Yurt dışından alınan diplomaların denkliğinin Yükseköğretim Kurulu'nca onaylanmış olması şarttır.), 657 sayılı Kanunun 48. maddesindeki genel ve özel şartları sağlamış olmaları gerekmektedir. Profesör kadroları devamlı statüde olup, başvuracak adaylar( https://personel.gumushane.edu.tr/sayfa/formlar ) adresinden temin edecekleri “Akademik Kadro Başvuru Formu Öğretim Üyesi” dilekçelerinde, başvurdukları anabilim dalını belirterek, ekinde 2 adet fotoğraf, nüfus cüzdan örneği, lisans, yüksek lisans, doktora mezuniyet belgeleri ve doçentlik başarı belgesinin onaylı örnekleri, dil belgesi, özgeçmiş, yayın listesi ve yayınlardan oluşan, 1 adet fiziki arşiv dosyasının yanında Jürilerin değerlendirmesi için başvuru dosyasına ait bilgi ve belgeleri PDF formatında CD, DVD veya harici bellek ortamında 6 adet olarak (Aday sayısal ortamda sunduğu belgelerin doğruluğu ile sorumludur) Personel Daire Başkanlığına vereceklerdir. (Herhangi bir kurumda çalışanlar bu hizmetlerini gösterir belgelerini eklemeleri gerekmektedir) Doçent kadroları devamlı statüde olup, başvuracak adaylar ( https://personel.gumushane.edu.tr/sayfa/formlar ) adresinden temin edecekleri “Akademik Kadro Başvuru Formu Öğretim Üyesi” dilekçelerinde, başvurdukları anabilim dalını belirterek, ekinde 2 adet fotoğraf, nüfus cüzdan örneği, lisans, yüksek lisans, doktora mezuniyet belgeleri ve doçentlik başarı belgesinin onaylı örnekleri, dil belgesi, özgeçmiş, yayın listesi ve yayınlardan oluşan, 1 adet fiziki arşiv dosyasının yanında Jürilerin değerlendirmesi için başvuru dosyasına ait bilgi ve belgeleri PDF formatında CD, DVD veya harici bellek ortamında 4 adet olarak (Aday sayısal ortamda sunduğu belgelerin doğruluğu ile sorumludur) Personel Daire Başkanlığına vereceklerdir. (Herhangi bir kurumda çalışanlar bu hizmetlerini gösterir belgelerini eklemeleri gerekmektedir.) Doktor Öğretim Üyesi kadrolarına başvuracak adaylar ( https://personel.gumushane.edu.tr/sayfa/formlar ) adresinden temin edecekleri “Akademik Kad | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Gümüşhane Üniversitesi Rektörlüğünden: Üniversitemizin aşağıda belirtilen birimlerine 2547 sayılı Kanunun ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili maddeleri uyarınca öğretim üyesi alınacaktır. Başvuracak adayların Üniversitemizin web sayfasında yayınlanan “Gümüşhane Üniversitesi Öğretim Üyeliğine Yükseltilme ve Atanma Yönergesi”nde belirtilen kriterleri taşımaları gerekmektedir. Ayrıca adayların fakültelerin veya 4 yıllık yüksekokulların ilgili bölümlerinden mezun olmaları (Yurt dışından alınan diplomaların denkliğinin Yükseköğretim Kurulu'nca onaylanmış olması şarttır.), 657 sayılı Kanunun 48. maddesindeki genel ve özel şartları sağlamış olmaları gerekmektedir. Profesör kadroları devamlı statüde olup, başvuracak adaylar( https://personel.gumushane.edu.tr/sayfa/formlar ) adresinden temin edecekleri “Akademik Kadro Başvuru Formu Öğretim Üyesi” dilekçelerinde, başvurdukları anabilim dalını belirterek, ekinde 2 adet fotoğraf, nüfus cüzdan örneği, lisans, yüksek lisans, doktora mezuniyet belgeleri ve doçentlik başarı belgesinin onaylı örnekleri, dil belgesi, özgeçmiş, yayın listesi ve yayınlardan oluşan, 1 adet fiziki arşiv dosyasının yanında Jürilerin değerlendirmesi için başvuru dosyasına ait bilgi ve belgeleri PDF formatında CD, DVD veya harici bellek ortamında 6 adet olarak (Aday sayısal ortamda sunduğu belgelerin doğruluğu ile sorumludur) Personel Daire Başkanlığına vereceklerdir. (Herhangi bir kurumda çalışanlar bu hizmetlerini gösterir belgelerini eklemeleri gerekmektedir) Doçent kadroları devamlı statüde olup, başvuracak adaylar ( https://personel.gumushane.edu.tr/sayfa/formlar ) adresinden temin edecekleri “Akademik Kadro Başvuru Formu Öğretim Üyesi” dilekçelerinde, başvurdukları anabilim dalını belirterek, ekinde 2 adet fotoğraf, nüfus cüzdan örneği, lisans, yüksek lisans, doktora mezuniyet belgeleri ve doçentlik başarı belgesinin onaylı örnekleri, dil belgesi, özgeçmiş, yayın listesi ve yayınlardan oluşan, 1 adet fiziki arşiv dosyasının yanında Jürilerin değerlendirmesi için başvuru dosyasına ait bilgi ve belgeleri PDF formatında CD, DVD veya harici bellek ortamında 4 adet olarak (Aday sayısal ortamda sunduğu belgelerin doğruluğu ile sorumludur) Personel Daire Başkanlığına vereceklerdir. (Herhangi bir kurumda çalışanlar bu hizmetlerini gösterir belgelerini eklemeleri gerekmektedir.) Doktor Öğretim Üyesi kadrolarına başvuracak adaylar ( https://personel.gumushane.edu.tr/sayfa/formlar ) adresinden temin edecekleri “Akademik Kad | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:15+00:00",
    "akademik": true,
    "puanlar": {},
@@ -12108,7 +12127,7 @@
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2280965/kamu-akademik-personel-akademik-personel-alimlari-gumushane-universitesi-rektorlugu-ogretim-uyesi-ilani",
-   "puan_kontrol_at": "2026-11-27T21:40:47+00:00",
+   "puan_kontrol_at": "2026-11-27T23:23:33+00:00",
    "ai": {
     "ozet": "Gümüşhane Üniversitesi Rektörlüğü çeşitli birimlerine 2547 sayılı Kanun kapsamında öğretim üyesi alımı yapacaktır.",
     "bolum": "belirtilmemis",
@@ -12183,7 +12202,7 @@
    "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=98cd96c1-83b3-425a-869c-dae40ba7aee1",
    "source_name": "Kariyer Kapısı",
    "employment_type": "Diğer",
-   "description": "TÜRKİYE İSTATİSTİK KURUMU (TÜİK) - TÜRKİYE İSTATİSTİK KURUMU BAŞKANLIĞI - ÜNVAN DEĞİŞİKLİĞİ SINAV İLANI (Görevde Yükselme ve Unvan Değişikliği İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+   "description": "TÜRKİYE İSTATİSTİK KURUMU (TÜİK) - TÜRKİYE İSTATİSTİK KURUMU BAŞKANLIĞI - ÜNVAN DEĞİŞİKLİĞİ SINAV İLANI (Görevde Yükselme ve Unvan Değişikliği İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
    "checked_at": "2026-11-19T09:20:09+00:00",
    "akademik": false,
    "puanlar": {},
@@ -12212,7 +12231,7 @@
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=98cd96c1-83b3-425a-869c-dae40ba7aee1",
-   "puan_kontrol_at": "2026-11-27T21:40:47+00:00"
+   "puan_kontrol_at": "2026-11-27T23:23:35+00:00"
   },
   {
    "id": 3824166683,
@@ -12253,7 +12272,7 @@
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2275940/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur-ve-turizm-bakanligi-turkiye-turizm-tanitim-ve-gelistirme-ajansindan-personel-alim-ilani",
-   "puan_kontrol_at": "2026-11-27T21:41:23+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:11+00:00",
    "ai": {
     "ozet": "Kültür ve Turizm Bakanlığı Türkiye Turizm Tanıtım ve Geliştirme Ajansı, sözlü giriş sınavı ile 13 personel alımı yapacaktır.",
     "bolum": "belirtilmemis",
@@ -12741,22 +12760,27 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "Türk Akreditasyon Kurumu, KPSS ön lisans puanı ile 3 sözleşmeli koruma ve güvenlik görevlisi alımı yapacağını duyurdu.",
+    "ozet": "Türk Akreditasyon Kurumu, KPSS (B) ön lisans puanı ile sözlü sınav sonucuna göre 3 koruma ve güvenlik görevlisi alacaktır.",
     "bolum": "Güvenlik; Güvenlik Bilimleri, Güvenlik Hizmetleri; Güvenlik ve Koruma, Kamu Güvenlik ve Asayişin Sağlanması; Özel Güvenlik ve Koruma, Savunma ve Güvenlik ön lisans programları",
     "egitim": "Ön Lisans",
     "kpss_turu": "KPSSP93",
     "taban_puan": "70",
-    "yas_siniri": "01.01.2026 tarihi itibariyle 35 yaşını doldurmamış olmak",
+    "yas_siniri": "35 yaşını doldurmamış olmak",
     "ehliyet": "belirtilmemis",
     "deneyim": "belirtilmemis",
     "kontenjan": "3",
     "ozel_sartlar": [
-     "Son başvuru tarihi itibarıyla geçerlilik süresinin dolmasına en az 6 ay kalmış silahlı veya silahsız özel güvenlik görevlisi kimlik kartına sahip olmak",
-     "5188 sayılı Kanun'un 10 uncu maddesindeki şartları taşımak",
-     "Erkekler için en az 170 cm, kadınlar için en az 160 cm boyunda olmak ve belirtilen kilo şartını sağlamak",
-     "Özel Güvenlik Görevlileri Sağlık Şartları Yönetmeliği’nde belirtilen sağlık şartlarına sahip olmak",
-     "Vardiyalı sistemde (nöbet usulü) çalışmaya engel durumu bulunmamak"
-    ]
+     "2026 yılı KPSS ön lisans KPSSP93 puan türünden en az 70 puan almış olmak.",
+     "Geçerlilik süresinin dolmasına en az 6 ay kalmış silahlı veya silahsız özel güvenlik görevlisi kimlik kartına sahip olmak.",
+     "Boy uzunluğu erkekler için en az 170 cm, kadınlar için en az 160 cm olmak.",
+     "Vücut ağırlığı boy uzunluğunun 100 çıkarılmış halinden en fazla 13 kg fazla, en fazla 17 kg az olmak.",
+     "Vardiyalı sistemde nöbet usulü çalışmaya engel durumu olmamak."
+    ],
+    "belge_zorunlu": [
+     "Silahlı veya silahsız özel güvenlik görevlisi kimlik kartı",
+     "Silahlı Özel Güvenlik Görevlisi Olarak Çalışır veya Silahsız Özel Güvenlik Görevlisi Olarak Çalışır ibareli sağlık kurulu raporu"
+    ],
+    "belge_avantaj": []
    },
    "basvuru_link": "https://kariyerkapisi.gov.tr",
    "basvuru_tur": "genel"
@@ -12823,7 +12847,7 @@
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298278/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-uyesi-alim-ilani",
-   "puan_kontrol_at": "2026-11-27T21:41:23+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:12+00:00",
    "basvuru_link": "https://apbs.iuc.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -12940,7 +12964,7 @@
    "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=b40dd0e6-81b6-4871-ac2b-97d9fbd0bd70",
    "source_name": "Kariyer Kapısı",
    "employment_type": "Diğer",
-   "description": "JANDARMA VE SAHİL GÜVENLİK AKADEMİSİ BAŞKANLIĞI - 2027 YILI J.GN.K.LIĞI UZMAN ERBAŞ TEMİNİ (Askeri Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+   "description": "JANDARMA VE SAHİL GÜVENLİK AKADEMİSİ BAŞKANLIĞI - 2027 YILI J.GN.K.LIĞI UZMAN ERBAŞ TEMİNİ (Askeri Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
    "checked_at": "2026-11-23T06:15:53+00:00",
    "akademik": false,
    "puanlar": {},
@@ -12956,9 +12980,9 @@
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=b40dd0e6-81b6-4871-ac2b-97d9fbd0bd70",
-   "puan_kontrol_at": "2026-11-27T21:41:24+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:12+00:00",
    "ai": {
-    "ozet": "Jandarma ve Sahil Güvenlik Akademisi Başkanlığı 2027 yılı uzman erbaş temin ilanı yayımlamıştır.",
+    "ozet": "Jandarma ve Sahil Güvenlik Akademisi Başkanlığı bünyesinde 2027 yılı için uzman erbaş temin ilanı yayımlanmıştır.",
     "bolum": "belirtilmemis",
     "egitim": "belirtilmemis",
     "kpss_turu": "belirtilmemis",
@@ -12967,7 +12991,9 @@
     "ehliyet": "belirtilmemis",
     "deneyim": "belirtilmemis",
     "kontenjan": "belirtilmemis",
-    "ozel_sartlar": []
+    "ozel_sartlar": [],
+    "belge_zorunlu": [],
+    "belge_avantaj": []
    }
   },
   {
@@ -13032,7 +13058,7 @@
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2274511/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-dogu-karadeniz-kalkinma-ajansindan--doka-personel-alim-ilani",
-   "puan_kontrol_at": "2026-11-27T21:41:24+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:13+00:00",
    "basvuru_link": "mailto:doka@doka.org.tr",
    "basvuru_tur": "eposta"
   },
@@ -13105,7 +13131,7 @@
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2292392/kamu-akademik-personel-akademik-personel-alimlari-biruni-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-   "puan_kontrol_at": "2026-11-27T21:41:25+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:14+00:00",
    "ai": {
     "ozet": "Biruni Üniversitesi Rektörlüğü, Tıp Fakültesi bünyesinde çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
     "bolum": "Tıp Fakültesi",
@@ -13146,7 +13172,7 @@
    "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=224db1dc-e78f-47df-809c-61ede62b9c36",
    "source_name": "Kariyer Kapısı",
    "employment_type": "Diğer",
-   "description": "DEVLET TİYATROLARI GENEL MÜDÜRLÜĞÜ - GÖREVDE YÜKSELME SINAVI (Görevde Yükselme ve Unvan Değişikliği İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+   "description": "DEVLET TİYATROLARI GENEL MÜDÜRLÜĞÜ - GÖREVDE YÜKSELME SINAVI (Görevde Yükselme ve Unvan Değişikliği İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
    "checked_at": "2026-11-22T21:01:23+00:00",
    "akademik": false,
    "puanlar": {},
@@ -13162,7 +13188,7 @@
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=224db1dc-e78f-47df-809c-61ede62b9c36",
-   "puan_kontrol_at": "2026-11-27T21:41:26+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:15+00:00",
    "ai": {
     "ozet": "Devlet Tiyatroları Genel Müdürlüğü tarafından görevde yükselme sınavı yapılacağı duyurulmuştur.",
     "bolum": "belirtilmemis",
@@ -13192,7 +13218,7 @@
    "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1",
    "source_name": "Kariyer Kapısı",
    "employment_type": "Sözleşmeli personel",
-   "description": "BURSA TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ - 1 Sözleşmeli Psikolog Alımı (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+   "description": "BURSA TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ - 1 Sözleşmeli Psikolog Alımı (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
    "checked_at": "2026-11-19T09:20:10+00:00",
    "akademik": false,
    "puanlar": {},
@@ -13222,7 +13248,7 @@
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dea72757-7130-466f-bcf2-8d316d02add1",
-   "puan_kontrol_at": "2026-11-27T21:52:06+00:00"
+   "puan_kontrol_at": "2026-11-27T23:24:16+00:00"
   },
   {
    "id": 4117368269,
@@ -13331,22 +13357,28 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "İçişleri Bakanlığı Jandarma ve Sahil Güvenlik Akademisi Başkanlığı, Jandarma Genel Komutanlığı bünyesinde istihdam edilmek üzere 9000 erkek uzman erbaş temin edecektir.",
+    "ozet": "Jandarma Genel Komutanlığı bünyesinde istihdam edilmek üzere farklı branşlarda toplam 9000 uzman erbaş temin edilecektir.",
     "bolum": "belirtilmemis",
-    "egitim": "belirtilmemis",
+    "egitim": "İlköğretim, ortaöğretim, ön lisans ve lisans",
     "kpss_turu": "P3, P93, P94",
-    "taban_puan": "En az 50 ve 60",
-    "yas_siniri": "20 yaşından gün almış ve 27 yaşını bitirmemiş olmak",
+    "taban_puan": "50 ve 60",
+    "yas_siniri": "20 ile 27 yaş arası",
     "ehliyet": "belirtilmemis",
     "deneyim": "belirtilmemis",
     "kontenjan": "9000",
     "ozel_sartlar": [
      "Türk vatandaşı ve erkek olmak",
+     "01 Ocak 2026 itibarıyla 20 yaşından gün almış ve 27 yaşını bitirmemiş olmak",
      "En az 167 cm ve en fazla 210 cm boyunda olmak",
      "Güvenlik soruşturması ve arşiv araştırması olumlu olmak",
-     "Askerlik hizmetini yapma şartı aranmamaktadır",
-     "Sağlık raporu almaya yetkili hastanelerden Uzman Erbaş Olur kararı almak"
-    ]
+     "Sağlık yeteneği yönetmeliğine göre Uzman Erbaş Olur raporu almak"
+    ],
+    "belge_zorunlu": [
+     "Mesleki Yeterlilik Kurumu belgesi",
+     "ustalık belgesi",
+     "kalfalık belgesi"
+    ],
+    "belge_avantaj": []
    },
    "basvuru_link": "https://personeltemin.jandarma.gov.tr",
    "basvuru_tur": "ana"
@@ -13367,7 +13399,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2272784/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Boğaziçi Üniversitesi Rektörlüğünden ÖĞRETİM GÖREVLİSİ ALIM İLANI Üniversitemize 2547 sayılı Yükseköğretim Kanunu, 657 sayılı Devlet Memurları Kanunu’nun 48. maddesinde belirtilen genel şartlar, 10/07/2018 tarih ve 30474 sayılı Resmi Gazete’de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi, 09/11/2018 tarih ve 30590 sayılı Resmi Gazete’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”in ilgili maddeleri uyarınca “Öğretim Görevlisi” alınacaktır. ÖĞRETİM GÖREVLİSİ SÜREÇ TAKVİMİ Duyuru Başlama Tarihi : 30.10.2026 Son Başvuru Tarihi : 25.11.2026 Ön Değerlendirme Tarihi : 27.11.2026 Sözlü Sınav Giriş Tarihi : 01.12.2026 Yazılı Sınav Giriş Tarihi : 03.12.2026 (01.12.2026 tarihinde yapılacak sözlü sınavdan en az 60 puan ve üzeri alan adaylar katılabilecektir.) Sonuç Duyuru Tarihi : 10.12.2026 Başvuru Tipi : Şahsen / Posta Sonuçların Açıklanacağı Web Adresi : www.bogazici.edu.tr BAŞVURULAR; Yabancı Diller Yüksekokulu Müdürlüğü’ne yapılacaktır. Başvuru için Gerekli Belgeler: 1. İlana başvuru dilekçesi, 2. Kimlik kartı fotokopisi, 3. Eksiksiz doldurulmuş fotoğraflı ''Akademik Görev için Müracaat Formu'' (Başvuru biriminden alınabilir.), 4. Lisans ve Lisansüstü diploma fotokopileri, 5. Resmi transkript (Lisans), 6. ALES sonuç belgesi fotokopisi (Sonuçların açıklanma tarihinden itibaren 5 yıl geçerlidir.), 7. Yabancı dil sınavı sonuç belgesi fotokopisi (YDS veya eşdeğerliliği kabul edilen bir sınavdan alınan muadili puanı gösteren belge), 8. Erkek adaylar için askerlikle ilgili terhis, tecilli veya muaf olduğunu belirten belge, 9. İş tecrübesi belgesi. Başvuru için ''Akademik Görev için Müracaat Formu'' https://bogazici.edu.tr/tr/pages/formlar/343 adresinden indirilip eksiksiz olarak doldurularak ilgili birimlere şahsen veya posta ile yapılmalıdır. Süresi içinde yapılmayan ve eksik belgeli başvurular dikkate alınmayacak olup, posta ile yapılan başvuruların son başvuru tarihi mesai bitimine kadar ilgili birimlere ulaşmış olması gerekmektedir. Postalardaki gecikmeler dikkate alınmayacaktır. BİRİM BÖLÜM ABD KADRO ÜNVANI KADRO SAYISI KADRO DERECESİ ALES YDS / EŞDEĞERİ ÖZEL ŞARTLAR Yabancı Diller Yüksekokulu Yabancı Diller Yabancı Diller Öğretim Görevlisi (Ders Vermekle Görevli) 1 5 70 93 Almanca Öğretmenliği, Alman Dili ve Edebiyatı veya Almanca Mütercim ve Tercümanlık programlarından birinden lisans derecesi al | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Boğaziçi Üniversitesi Rektörlüğünden ÖĞRETİM GÖREVLİSİ ALIM İLANI Üniversitemize 2547 sayılı Yükseköğretim Kanunu, 657 sayılı Devlet Memurları Kanunu’nun 48. maddesinde belirtilen genel şartlar, 10/07/2018 tarih ve 30474 sayılı Resmi Gazete’de yayımlanan Genel Kadro ve Usulü Hakkında 2 Sayılı Cumhurbaşkanlığı Kararnamesi, 09/11/2018 tarih ve 30590 sayılı Resmi Gazete’de yayımlanan “Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik”in ilgili maddeleri uyarınca “Öğretim Görevlisi” alınacaktır. ÖĞRETİM GÖREVLİSİ SÜREÇ TAKVİMİ Duyuru Başlama Tarihi : 30.10.2026 Son Başvuru Tarihi : 25.11.2026 Ön Değerlendirme Tarihi : 27.11.2026 Sözlü Sınav Giriş Tarihi : 01.12.2026 Yazılı Sınav Giriş Tarihi : 03.12.2026 (01.12.2026 tarihinde yapılacak sözlü sınavdan en az 60 puan ve üzeri alan adaylar katılabilecektir.) Sonuç Duyuru Tarihi : 10.12.2026 Başvuru Tipi : Şahsen / Posta Sonuçların Açıklanacağı Web Adresi : www.bogazici.edu.tr BAŞVURULAR; Yabancı Diller Yüksekokulu Müdürlüğü’ne yapılacaktır. Başvuru için Gerekli Belgeler: 1. İlana başvuru dilekçesi, 2. Kimlik kartı fotokopisi, 3. Eksiksiz doldurulmuş fotoğraflı ''Akademik Görev için Müracaat Formu'' (Başvuru biriminden alınabilir.), 4. Lisans ve Lisansüstü diploma fotokopileri, 5. Resmi transkript (Lisans), 6. ALES sonuç belgesi fotokopisi (Sonuçların açıklanma tarihinden itibaren 5 yıl geçerlidir.), 7. Yabancı dil sınavı sonuç belgesi fotokopisi (YDS veya eşdeğerliliği kabul edilen bir sınavdan alınan muadili puanı gösteren belge), 8. Erkek adaylar için askerlikle ilgili terhis, tecilli veya muaf olduğunu belirten belge, 9. İş tecrübesi belgesi. Başvuru için ''Akademik Görev için Müracaat Formu'' https://bogazici.edu.tr/tr/pages/formlar/343 adresinden indirilip eksiksiz olarak doldurularak ilgili birimlere şahsen veya posta ile yapılmalıdır. Süresi içinde yapılmayan ve eksik belgeli başvurular dikkate alınmayacak olup, posta ile yapılan başvuruların son başvuru tarihi mesai bitimine kadar ilgili birimlere ulaşmış olması gerekmektedir. Postalardaki gecikmeler dikkate alınmayacaktır. BİRİM BÖLÜM ABD KADRO ÜNVANI KADRO SAYISI KADRO DERECESİ ALES YDS / EŞDEĞERİ ÖZEL ŞARTLAR Yabancı Diller Yüksekokulu Yabancı Diller Yabancı Diller Öğretim Görevlisi (Ders Vermekle Görevli) 1 5 70 93 Almanca Öğretmenliği, Alman Dili ve Edebiyatı veya Almanca Mütercim ve Tercümanlık programlarından birinden lisans derecesi al | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:42+00:00",
    "akademik": true,
    "puanlar": {},
@@ -13416,7 +13448,7 @@
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2272784/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani",
-   "puan_kontrol_at": "2026-11-27T21:52:08+00:00"
+   "puan_kontrol_at": "2026-11-27T23:24:18+00:00"
   },
   {
    "id": 4137251901,
@@ -13472,7 +13504,7 @@
    "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48",
    "source_name": "Kariyer Kapısı",
    "employment_type": "Sözleşmeli personel",
-   "description": "TÜRK AKREDİTASYON KURUMU GENEL SEKRETERLİĞİ - TÜRK AKREDİTASYON KURUMU SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ  GİRİŞ SINAVI DUYURUSU (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+   "description": "TÜRK AKREDİTASYON KURUMU GENEL SEKRETERLİĞİ - TÜRK AKREDİTASYON KURUMU SÖZLEŞMELİ KORUMA VE GÜVENLİK GÖREVLİSİ  GİRİŞ SINAVI DUYURUSU (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
    "checked_at": "2026-11-22T21:15:56+00:00",
    "akademik": false,
    "puanlar": {},
@@ -13487,7 +13519,7 @@
    ],
    "diger_kaynaklar": [],
    "ai": {
-    "ozet": "Türk Akreditasyon Kurumu Genel Sekreterliği sözleşmeli koruma ve güvenlik görevlisi giriş sınavı duyurusu yayımlamıştır.",
+    "ozet": "Türk Akreditasyon Kurumu Genel Sekreterliği sözleşmeli koruma ve güvenlik görevlisi alım ilanı yayınlamıştır.",
     "bolum": "belirtilmemis",
     "egitim": "belirtilmemis",
     "kpss_turu": "belirtilmemis",
@@ -13496,13 +13528,13 @@
     "ehliyet": "belirtilmemis",
     "deneyim": "belirtilmemis",
     "kontenjan": "belirtilmemis",
-    "ozel_sartlar": [
-     "belirtilmemis"
-    ]
+    "ozel_sartlar": [],
+    "belge_zorunlu": [],
+    "belge_avantaj": []
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=3d77e559-3036-4ce5-8131-0d7adae39f48",
-   "puan_kontrol_at": "2026-11-27T21:52:09+00:00"
+   "puan_kontrol_at": "2026-11-27T23:24:19+00:00"
   },
   {
    "id": 4200037491,
@@ -13559,7 +13591,7 @@
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298116/kamu-akademik-personel-akademik-personel-alimlari-abdullah-gul-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
-   "puan_kontrol_at": "2026-11-27T21:52:10+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:20+00:00",
    "basvuru_link": "https://www.agu.edu.tr",
    "basvuru_tur": "ana"
   },
@@ -13637,7 +13669,7 @@
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2296717/kamu-akademik-personel-akademik-personel-alimlari-atlas-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
-   "puan_kontrol_at": "2026-11-27T21:52:10+00:00",
+   "puan_kontrol_at": "2026-11-27T23:24:20+00:00",
    "ai": {
     "ozet": "İstanbul Atlas Üniversitesi, çeşitli fakülte ve meslek yüksekokullarına 2547 sayılı kanun uyarınca toplam 13 öğretim elemanı alacaktır.",
     "bolum": "Çeşitli Bölümler",
