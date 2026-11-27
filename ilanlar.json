@@ -1,44 +1,45 @@
 {
-  "guncelleme": "2026-11-27T11:31:41+00:00",
-  "son_kontrol": "2026-11-27T11:31:41+00:00",
+  "guncelleme": "2026-11-27T11:40:50+00:00",
+  "son_kontrol": "2026-11-27T11:40:50+00:00",
   "kaynaklar": {
     "ilan.gov.tr": {
       "durum": "tamam",
       "yeni": 3,
-      "son_basari": "2026-11-27T11:24:54+00:00",
+      "son_basari": "2026-11-27T11:33:01+00:00",
       "sayi": 196
     },
     "Kariyer Kapısı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-27T11:24:56+00:00",
+      "son_basari": "2026-11-27T11:33:03+00:00",
       "sayi": 37
     },
     "Resmî Gazete İlanlar": {
-      "durum": "tamam",
+      "durum": "eski",
       "yeni": 0,
-      "son_basari": "2026-11-27T11:24:57+00:00",
+      "son_basari": "2026-11-27T11:16:25+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
-      "sayi": 0
+      "sayi": 0,
+      "mesaj": "ConnectTimeout: HTTPSConnectionPool(host='www.resmigazete.gov.tr', port=443): Max retries exceeded with url: /ilanlar (Caused by ConnectTimeoutError(<HTTPSConne"
     },
     "Aile ve Sosyal Hizmetler Bakanlığı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-27T11:31:15+00:00",
+      "son_basari": "2026-11-27T11:40:26+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 16
     },
     "Çalışma ve Sosyal Güvenlik Bakanlığı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-27T11:31:22+00:00",
+      "son_basari": "2026-11-27T11:40:32+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 7
     },
     "Ulaştırma ve Altyapı Bakanlığı": {
       "durum": "tamam",
       "yeni": 0,
-      "son_basari": "2026-11-27T11:31:28+00:00",
+      "son_basari": "2026-11-27T11:40:38+00:00",
       "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
       "sayi": 6
     },
@@ -850,7 +851,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "KARABAĞLAR BELEDİYE BAŞKANLIĞI - Çevre Mühendisi Alımı (2 Adet) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "KARABAĞLAR BELEDİYE BAŞKANLIĞI - Çevre Mühendisi Alımı (2 Adet) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:15+00:00",
       "akademik": false,
       "puanlar": {},
@@ -881,7 +882,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=9ff8772a-9434-42fb-84ad-f8080f79640d",
-      "puan_kontrol_at": "2026-11-27T09:56:27+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:43+00:00"
     },
     {
       "id": 204612279,
@@ -1013,7 +1014,7 @@
       "basvuru_tur": "ozel",
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2305888/kamu-akademik-personel-akademik-personel-alimlari-usak-universitesi-rektorlugunden-ogretim-elemani-alim-ilani",
-      "puan_kontrol_at": "2026-11-27T11:31:38+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:56+00:00",
       "durum": "aktif",
       "kaynak_baglantilari": [
         {
@@ -2173,7 +2174,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f82ad1a8-39b9-4732-acb4-be6cbe8f772e",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Memur",
-      "description": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI (AFAD) - Afet ve Acil Durum Yönetimi Denetçi Yardımcısı Giriş Sınavı İlanı (2026) (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI (AFAD) - Afet ve Acil Durum Yönetimi Denetçi Yardımcısı Giriş Sınavı İlanı (2026) (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:12+00:00",
       "akademik": false,
       "puanlar": {},
@@ -2203,7 +2204,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f82ad1a8-39b9-4732-acb4-be6cbe8f772e",
-      "puan_kontrol_at": "2026-11-27T10:11:05+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:43+00:00"
     },
     {
       "id": 720859559,
@@ -2718,7 +2719,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=7cc8cb95-4799-4879-a104-8362bf62ca4d",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "TÜRK-ALMAN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI 30.11.2026 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "TÜRK-ALMAN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI 30.11.2026 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-24T10:15:58+00:00",
       "akademik": false,
       "puanlar": {},
@@ -2734,7 +2735,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=7cc8cb95-4799-4879-a104-8362bf62ca4d",
-      "puan_kontrol_at": "2026-11-27T10:11:05+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:44+00:00",
       "ai": {
         "ozet": "Türk-Alman Üniversitesi Rektörlüğü 30.11.2026 tarihinde sözleşmeli bilişim personeli alım ilanı yayımlamıştır.",
         "bolum": "Bilişim",
@@ -3312,7 +3313,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "SAVUNMA SANAYİİ BAŞKANLIĞI - PROJE BAZLI SÖZLEŞMELİ PERSONEL ALIMI GİRİŞ SINAVI 2026 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "SAVUNMA SANAYİİ BAŞKANLIĞI - PROJE BAZLI SÖZLEŞMELİ PERSONEL ALIMI GİRİŞ SINAVI 2026 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:17+00:00",
       "akademik": false,
       "puanlar": {},
@@ -3342,7 +3343,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=41353f9d-7dda-4b65-b2ba-de6bf8e72f54",
-      "puan_kontrol_at": "2026-11-27T10:11:05+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:44+00:00"
     },
     {
       "id": 1001806090,
@@ -3559,7 +3560,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=35749108-46fb-4b62-bc89-3700f1525802",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "DOĞU KARADENİZ KALKINMA AJANSI - PERSONEL ALIM İLANI-2026 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "DOĞU KARADENİZ KALKINMA AJANSI - PERSONEL ALIM İLANI-2026 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:15+00:00",
       "akademik": false,
       "puanlar": {},
@@ -3589,7 +3590,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=35749108-46fb-4b62-bc89-3700f1525802",
-      "puan_kontrol_at": "2026-11-27T10:11:06+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:44+00:00"
     },
     {
       "id": 1048996718,
@@ -3985,7 +3986,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Memur",
-      "description": "KAMU DENETÇİLİĞİ KURUMU (OMBUDSMANLIK) - KAMU DENETÇİLİĞİ UZMAN YARDIMCILIĞI GİRİŞ SINAVI İLANI (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "KAMU DENETÇİLİĞİ KURUMU (OMBUDSMANLIK) - KAMU DENETÇİLİĞİ UZMAN YARDIMCILIĞI GİRİŞ SINAVI İLANI (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:06+00:00",
       "akademik": false,
       "puanlar": {},
@@ -4014,7 +4015,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=bf7a4a08-46c9-4643-a8c4-6ccf9c8c6d1b",
-      "puan_kontrol_at": "2026-11-27T10:11:06+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:45+00:00"
     },
     {
       "id": 1252114584,
@@ -4326,7 +4327,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=31b4b404-05cb-4298-9460-1ab3b13b33e8",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "ANADOLU ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIMI İLANI 2026 - 2 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "ANADOLU ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIMI İLANI 2026 - 2 (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:11+00:00",
       "akademik": false,
       "puanlar": {},
@@ -4354,7 +4355,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=31b4b404-05cb-4298-9460-1ab3b13b33e8",
-      "puan_kontrol_at": "2026-11-27T10:11:07+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:45+00:00"
     },
     {
       "id": 1330583618,
@@ -4586,7 +4587,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "ORTA KARADENİZ KALKINMA AJANSI (OKA) - 2026 YILI PERSONEL ALIM İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "ORTA KARADENİZ KALKINMA AJANSI (OKA) - 2026 YILI PERSONEL ALIM İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:07+00:00",
       "akademik": false,
       "puanlar": {},
@@ -4616,7 +4617,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=db21f412-186a-4d5c-bc46-03dff9ea17fb",
-      "puan_kontrol_at": "2026-11-27T10:11:07+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:46+00:00"
     },
     {
       "id": 1535315569,
@@ -5118,7 +5119,7 @@
       "basvuru_tur": "ozel",
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2305879/kamu-akademik-personel-akademik-personel-alimlari-istanbul-medipol-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
-      "puan_kontrol_at": "2026-11-27T11:31:40+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:58+00:00",
       "durum": "tarih_belirsiz",
       "kaynak_baglantilari": [
         {
@@ -5356,7 +5357,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "MERSİN ÜNİVERSİTESİ REKTÖRLÜĞÜ - 1 ADET SÖZLEŞMELİ BİLİŞİM PERSONEL ALIM İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "MERSİN ÜNİVERSİTESİ REKTÖRLÜĞÜ - 1 ADET SÖZLEŞMELİ BİLİŞİM PERSONEL ALIM İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-25T21:02:23+00:00",
       "akademik": false,
       "puanlar": {},
@@ -5372,7 +5373,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6119f52b-afb3-478d-aeb0-23fda9009aa5",
-      "puan_kontrol_at": "2026-11-27T10:11:08+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:46+00:00",
       "ai": {
         "ozet": "Mersin Üniversitesi Rektörlüğü, Kariyer Kapısı üzerinden 1 adet sözleşmeli bilişim personeli alacağını duyurmuştur.",
         "bolum": "Bilişim",
@@ -5508,7 +5509,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=069150d6-ad89-4973-9410-25ae1fa56d67",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "SAHİL GÜVENLİK KOMUTANLIĞI - SAHİL GÜVENLİK KOMUTANLIĞI 2026 YILI DEVLET MEMURU TEMİNİ (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "SAHİL GÜVENLİK KOMUTANLIĞI - SAHİL GÜVENLİK KOMUTANLIĞI 2026 YILI DEVLET MEMURU TEMİNİ (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:11+00:00",
       "akademik": false,
       "puanlar": {},
@@ -5538,7 +5539,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=069150d6-ad89-4973-9410-25ae1fa56d67",
-      "puan_kontrol_at": "2026-11-27T10:11:08+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:46+00:00"
     },
     {
       "id": 1925290483,
@@ -5705,7 +5706,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "NÜKLEER DÜZENLEME KURUMU BAŞKANLIĞI - SÖZLEŞMELİ BİLİŞİM PERSONELİ GİRİŞ SINAVI İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "NÜKLEER DÜZENLEME KURUMU BAŞKANLIĞI - SÖZLEŞMELİ BİLİŞİM PERSONELİ GİRİŞ SINAVI İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:07+00:00",
       "akademik": false,
       "puanlar": {},
@@ -5734,7 +5735,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=4d1a4aba-67fa-449d-b19d-13b197a770f0",
-      "puan_kontrol_at": "2026-11-27T10:11:09+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:47+00:00"
     },
     {
       "id": 1997920134,
@@ -6000,7 +6001,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f657a20b-5132-4e3a-8b1e-131e031f065b",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Memur",
-      "description": "KAMU İHALE KURUMU - KAMU İHALE UZMAN YARDIMCILIĞI GİRİŞ SINAVI DUYURUSU (2026) (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "KAMU İHALE KURUMU - KAMU İHALE UZMAN YARDIMCILIĞI GİRİŞ SINAVI DUYURUSU (2026) (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:05+00:00",
       "akademik": false,
       "puanlar": {},
@@ -6029,7 +6030,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=f657a20b-5132-4e3a-8b1e-131e031f065b",
-      "puan_kontrol_at": "2026-11-27T10:11:09+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:47+00:00"
     },
     {
       "id": 2048870705,
@@ -6198,7 +6199,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "TÜRKİYE SU ENSTİTÜSÜ BAŞKANLIĞI - SÖZLEŞMELİ PERSONEL ALIM İLANI - BİLGİSAYAR MÜHENDİSİ (İSTANBUL) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "TÜRKİYE SU ENSTİTÜSÜ BAŞKANLIĞI - SÖZLEŞMELİ PERSONEL ALIM İLANI - BİLGİSAYAR MÜHENDİSİ (İSTANBUL) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-25T21:02:23+00:00",
       "akademik": false,
       "puanlar": {},
@@ -6228,7 +6229,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0e649e12-a1b8-4d2f-a855-540f983ac98e",
-      "puan_kontrol_at": "2026-11-27T10:11:10+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:48+00:00"
     },
     {
       "id": 2117139872,
@@ -6431,7 +6432,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0dee67ed-656b-4fa2-9ffd-deb7672253b8",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "BARTIN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIM İLANI (2026-4) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "BARTIN ÜNİVERSİTESİ REKTÖRLÜĞÜ - SÖZLEŞMELİ PERSONEL ALIM İLANI (2026-4) (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-20T08:47:31+00:00",
       "akademik": false,
       "puanlar": {},
@@ -6447,7 +6448,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=0dee67ed-656b-4fa2-9ffd-deb7672253b8",
-      "puan_kontrol_at": "2026-11-27T10:11:10+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:48+00:00",
       "ai": {
         "ozet": "Bartın Üniversitesi Rektörlüğü tarafından 2026 yılı dördüncü dönem sözleşmeli personel alım ilanı Kariyer Kapısı üzerinden yayımlanmıştır.",
         "bolum": "belirtilmemis",
@@ -6479,7 +6480,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6a34cb10-0ac0-41e0-a094-3ec83e29a644",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Memur",
-      "description": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI - MÜFETTİŞ YARDIMCILIĞI GİRİŞ SINAVI DUYURUSU 2026 (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI - MÜFETTİŞ YARDIMCILIĞI GİRİŞ SINAVI DUYURUSU 2026 (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-19T09:20:17+00:00",
       "akademik": false,
       "puanlar": {},
@@ -6509,7 +6510,7 @@
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=6a34cb10-0ac0-41e0-a094-3ec83e29a644",
-      "puan_kontrol_at": "2026-11-27T10:11:10+00:00"
+      "puan_kontrol_at": "2026-11-27T11:40:48+00:00"
     },
     {
       "id": 2155858659,
@@ -6726,7 +6727,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Sözleşmeli personel",
-      "description": "ADLİ TIP KURUMU BAŞKANLIĞI - 2026/2 SÖZLEŞMELİ PERSONEL ALIM İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "ADLİ TIP KURUMU BAŞKANLIĞI - 2026/2 SÖZLEŞMELİ PERSONEL ALIM İLANI (Sözleşmeli Personel İlanları) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-20T08:47:31+00:00",
       "akademik": false,
       "puanlar": {},
@@ -6742,7 +6743,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=dc97ce1e-dce0-408a-a785-682c4656435e",
-      "puan_kontrol_at": "2026-11-27T10:11:11+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:49+00:00",
       "ai": {
         "ozet": "Adli Tıp Kurumu Başkanlığı tarafından 2026/2 dönemi için sözleşmeli personel alım ilanı yayımlanmıştır.",
         "bolum": "belirtilmemis",
@@ -6967,7 +6968,7 @@
       "source_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
       "source_name": "Kariyer Kapısı",
       "employment_type": "Memur",
-      "description": "REKABET KURUMU BAŞKANLIĞI - REKABET UZMAN YARDIMCILIĞI GİRİŞ SINAVI (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
+      "description": "REKABET KURUMU BAŞKANLIĞI - REKABET UZMAN YARDIMCILIĞI GİRİŞ SINAVI (A Grubu Memur (Kariyer Meslek)) | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n | Kariyer Kapısı İlan Numarası İlan Türü Başvuru Başlangıç Başvuru Bitiş Kalan Zaman BAŞVUR © 2026 - Kariyer Kapısı - T.C. Cumhurbaşkanlığı\n",
       "checked_at": "2026-11-24T13:01:27+00:00",
       "akademik": false,
       "puanlar": {},
@@ -6983,7 +6984,7 @@
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://kariyerkapisi.gov.tr/IlanDetay?i=5fb0c697-781e-4ea8-befb-3f041d6b9385",
-      "puan_kontrol_at": "2026-11-27T10:11:11+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:49+00:00",
       "ai": {
         "ozet": "Rekabet Kurumu Başkanlığı tarafından Rekabet Uzman Yardımcılığı giriş sınavı yapılacağı duyurulmuştur.",
         "bolum": "belirtilmemis",
@@ -8143,7 +8144,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:31+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:49+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304210/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
       "basvuru_link": "https://basvuru.ksu.edu.tr",
       "basvuru_tur": "ana"
@@ -8355,7 +8356,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:32+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:50+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304205/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
       "basvuru_link": "https://www.afsu.edu.tr",
       "basvuru_tur": "ana"
@@ -8421,7 +8422,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:32+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:50+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304201/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugunden-arastirma-gorevlisi-alim-ilani"
     },
     {
@@ -8484,7 +8485,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:32+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:50+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299635/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
     },
     {
@@ -8571,7 +8572,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:33+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:51+00:00",
       "ai": {
         "ozet": "Ankara Sosyal Bilimler Üniversitesi, çeşitli fakültelere 2547 sayılı Kanun ve ilgili yönetmelikler kapsamında araştırma görevlisi ve öğretim görevlisi alacaktır.",
         "bolum": "belirtilmemis",
@@ -8758,7 +8759,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:33+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:51+00:00",
       "ai": {
         "ozet": "Elazığ İl Özel İdaresi, KPSS P3 skoru ile en az 60 puan şartıyla psikolog ve sosyal çalışmacı unvanlarında sözleşmeli personel alacaktır.",
         "bolum": "Psikoloji veya Sosyal Hizmetler",
@@ -8965,7 +8966,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:34+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:52+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298155/kamu-akademik-personel-akademik-personel-alimlari-balikesir-universitesi-ogretim-elemani-alim-ilani",
       "basvuru_link": "https://www.balikesir.edu.tr",
       "basvuru_tur": "ana"
@@ -9202,7 +9203,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:34+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:52+00:00",
       "ai": {
         "ozet": "Hasan Kalyoncu Universitesi Rektorfugu cesitli akademik birimlere 2547 sayili kanun kapsaminda tam zamanli ogretim uyesi alacaktir.",
         "bolum": "belirtilmemis",
@@ -9287,7 +9288,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:35+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:53+00:00",
       "ai": {
         "ozet": "Biruni Üniversitesi, Diş Hekimliği, Eczacılık, Eğitim ve Meslek Yüksekokulu fakültelerine çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
         "bolum": "Çeşitli Bölümler ve Anabilim Dalları",
@@ -9541,7 +9542,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:35+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:53+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298169/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-ogretim-uyesi-alim-ilani"
     },
     {
@@ -9631,7 +9632,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:35+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:54+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2296783/kamu-akademik-personel-akademik-personel-alimlari-istanbul-medipol-universitesi-ogretim-uyesi-alim-ilani",
       "ai": {
         "ozet": "İstanbul Medipol Üniversitesi, 2547 sayılı Kanun ve ilgili yönetmelikler kapsamında çeşitli fakülte ve birimlere devamlı statüde öğretim üyesi alacaktır.",
@@ -9769,7 +9770,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:36+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:54+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293626/kamu-akademik-personel-akademik-personel-alimlari-galata-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
       "ai": {
         "ozet": "İstanbul Galata Üniversitesi, Diş Hekimliği Fakültesi bünyesinde çeşitli anabilim dallarında görevlendirilmek üzere toplam 13 öğretim üyesi alımı yapacaktır.",
@@ -9858,7 +9859,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:36+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:54+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298201/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-elemani-alim-ilani",
       "basvuru_link": "https://apbs.iuc.edu.tr",
       "basvuru_tur": "ana"
@@ -9975,7 +9976,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:37+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:55+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299717/kamu-akademik-personel-akademik-personel-alimlari-antalya-belek-universitesi-ogretim-uyesi-disindaki-kadrolara-personel-alim-ilani"
     },
     {
@@ -10017,7 +10018,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:37+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:55+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2295214/kamu-akademik-personel-akademik-personel-alimlari-bilecik-seyh-edebali-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
       "ai": {
         "ozet": "Bilecik Şeyh Edebali Üniversitesi, çeşitli fakülte ve bölümlere 2547 sayılı kanun kapsamında profesör unvanında öğretim üyesi alımı yapacaktır.",
@@ -10118,7 +10119,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:38+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:56+00:00",
       "ai": {
         "ozet": "Biruni Universitesi Rektörlügücesitli fakülte ve meslek yüksekokullarına 2547 sayılı kanun uyarınca ogretim elemani alacaktir.",
         "bolum": "Çeşitli Bölümler",
@@ -10382,7 +10383,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:39+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:57+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani"
     },
     {
@@ -10420,7 +10421,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:39+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:58+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2292344/kamu-akademik-personel-akademik-personel-alimlari-ataturk-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
       "ai": {
         "ozet": "Atatürk Üniversitesi çeşitli fakültelere 2547 sayılı Kanun kapsamında profesör kadrosunda öğretim üyesi alımı yapacaktır.",
@@ -10590,7 +10591,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T11:31:41+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:59+00:00",
       "ai": {
         "ozet": "Erzurum Teknik Üniversitesi Rektörlüğü, ilgili kanun ve yönetmelikler kapsamında profesör, doçent ve doktor öğretim üyesi kadrolarına öğretim üyesi alacaktır.",
         "bolum": "belirtilmemis",
@@ -10687,7 +10688,7 @@
       ],
       "diger_kaynaklar": [],
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T09:56:23+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:40+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2295253/kamu-akademik-personel-akademik-personel-alimlari-bayburt-universitesi-ogretim-uyesi-alim-ilani",
       "ai": {
         "ozet": "Bayburt Üniversitesi, 2547 sayılı Kanun hükümlerine göre çeşitli fakülte ve meslek yüksekokullarına profesör, doçent ve doktor öğretim üyesi alacaktır.",
@@ -10769,7 +10770,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T09:56:24+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:41+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299720/kamu-akademik-personel-akademik-personel-alimlari-ozyegin-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
       "basvuru_link": "mailto:ik@ozyegin.edu.tr",
       "basvuru_tur": "eposta"
@@ -10837,7 +10838,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T09:56:24+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:41+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304212/kamu-akademik-personel-akademik-personel-alimlari-istanbul-beykent-universitesi-rektorlugunden-ogretim-gorevlisi-alim-ilani"
     },
     {
@@ -11024,7 +11025,7 @@
         ]
       },
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-      "puan_kontrol_at": "2026-11-27T09:56:25+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:42+00:00",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299634/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ondokuz-mayis-universitesi-rektorlugu-surekli-isci-alim-ilani",
       "basvuru_link": "https://esube.iskur.gov.tr",
       "basvuru_tur": "ana"
@@ -12350,7 +12351,7 @@
       "egitim_tahmin": false,
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2305880/kamu-akademik-personel-akademik-personel-alimlari-turkiye-uluslararasi-islam--bilim-ve-teknoloji-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
-      "puan_kontrol_at": "2026-11-27T11:31:40+00:00",
+      "puan_kontrol_at": "2026-11-27T11:23:58+00:00",
       "durum": "tarih_belirsiz",
       "kaynak_baglantilari": [
         {
@@ -12535,7 +12536,7 @@
       "basvuru_eposta": "",
       "puan_kontrol_durumu": "resmi_metinde_puan_yok",
       "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2305887/kamu-akademik-personel-akademik-personel-alimlari-usak-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
-      "puan_kontrol_at": "2026-11-27T09:56:23+00:00",
+      "puan_kontrol_at": "2026-11-27T11:40:41+00:00",
       "durum": "aktif",
       "kaynak_baglantilari": [
         {
