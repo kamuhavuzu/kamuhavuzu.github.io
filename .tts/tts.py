@@ -14,7 +14,7 @@ async def edge():
 asyncio.run(edge())
 key=os.environ.get('GEMINI_API_KEY')
 if key:
-    for voice in ['Kore','Puck']:
+    for voice in ['Kore']:
         for i,t in enumerate(L,1):
             try:
                 body=json.dumps({"contents":[{"parts":[{"text":"Samimi, enerjik, doğal bir Türkçe ile söyle: "+t}]}],"generationConfig":{"responseModalities":["AUDIO"],"speechConfig":{"voiceConfig":{"prebuiltVoiceConfig":{"voiceName":voice}}}}}).encode()
