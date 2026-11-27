@@ -1,44 +1,44 @@
 {
- "guncelleme": "2026-11-27T06:24:13+00:00",
- "son_kontrol": "2026-11-27T06:24:13+00:00",
+ "guncelleme": "2026-11-27T06:39:46+00:00",
+ "son_kontrol": "2026-11-27T06:39:46+00:00",
  "kaynaklar": {
   "ilan.gov.tr": {
    "durum": "tamam",
-   "yeni": 4,
-   "son_basari": "2026-11-27T06:16:25+00:00",
-   "sayi": 189
+   "yeni": 6,
+   "son_basari": "2026-11-27T06:31:38+00:00",
+   "sayi": 192
   },
   "Kariyer Kapısı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T06:16:27+00:00",
+   "son_basari": "2026-11-27T06:31:40+00:00",
    "sayi": 36
   },
   "Resmî Gazete İlanlar": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T06:16:28+00:00",
+   "son_basari": "2026-11-27T06:31:41+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 0
   },
   "Aile ve Sosyal Hizmetler Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T06:23:12+00:00",
+   "son_basari": "2026-11-27T06:39:16+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 16
   },
   "Çalışma ve Sosyal Güvenlik Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T06:23:16+00:00",
+   "son_basari": "2026-11-27T06:39:21+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 7
   },
   "Ulaştırma ve Altyapı Bakanlığı": {
    "durum": "tamam",
    "yeni": 0,
-   "son_basari": "2026-11-27T06:23:25+00:00",
+   "son_basari": "2026-11-27T06:39:30+00:00",
    "not": "deneme kaynağı: ilanlar resmî sayfadan kontrol edilmeli",
    "sayi": 6
   },
@@ -3059,6 +3059,69 @@
     }
    ],
    "diger_kaynaklar": []
+  },
+  {
+   "id": 955485599,
+   "institution": "SELÇUK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+   "title": "Selçuk Üniversitesi Rektörlüğü Sözleşmeli Bilişim Personeli Alım İlanı",
+   "city": "KONYA",
+   "department": "Herhangi",
+   "education_level": "Lisans",
+   "kpss_type": "P3",
+   "min_kpss": 70.0,
+   "quota": null,
+   "deadline": "2026-12-14",
+   "application_start": "2026-11-27",
+   "link": "https://www.ilan.gov.tr/ilan/2305859/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-selcuk-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2305859/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-selcuk-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Sözleşmeli personel",
+   "description": "SELÇUK ÜNİVERSİTESİ konSÖZLEŞMELİ BİLİŞİM PERSONELİ ALIM İLANI Üniversitemizde tam zamanlı olarak istihdam edilmek üzere 375 sayılı Kanun Hükmünde Kararname’nin ek 6 ncı maddesi ile 31.12.2008 tarih ve 27097 sayılı Resmi Gazete’de yayımlanan Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmeliğin 8 inci maddesi uyarınca, sınav başarı sırasına göre yapılacak yerleştirme ile aşağıda belirtilen ünvan, adet, nitelik ve şartlarda 2 (iki) sözleşmeli bilişim personeli alınacaktır. Ünvanı Adet Ücreti İstenilen Nitelikler 01- Sözleşmeli Bilişim Personeli 1 Ücret Tavanının 2 katına kadar Genel Şartlar ve Özel Şartlar- 1. madde 02- Sözleşmeli Bilişim Personeli 1 Ücret Tavanının 3 katına kadar Genel Şartlar ve Özel Şartlar- 2. madde Başvuru yapacak adayların aşağıda Genel ve Özel Şartlarda belirtilen nitelik ve şartları sağlaması gerekmektedir. I. BAŞVURU ŞARTLARI GENEL ŞARTLAR: Tüm adayların aşağıdaki genel şartları sağlaması gerekmektedir: Türk Vatandaşı olmak, Kamu haklarından mahrum bulunmamak, 657 sayılı Devlet Memurları Kanunu’nun 48 inci maddesine göre Kamu kurumlarında çalışmaya engel oluşturabilecek herhangi bir sabıka kaydı bulunmamak, Aylık brüt sözleşme ücret tavanının 3 (üç) katı ödenecek pozisyonlara başvuru yapmak üzere Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmelik’in 6 ncı maddesinin (b) bendinde belirtilen alanlardan birinden; aylık brüt sözleşme ücret tavanının 2 (iki) katı ödenecek pozisyonlara başvuru yapmak üzere aynı yönetmeliğin 6 ncı maddesinin (b) veya (c) bendinde belirtilen alanlardan birinden mezun olmak. (Erkek adaylar için) Muvazzaf askerlik hizmetini yapmış, yedek sınıfa geçirilmiş veya askerlikten muaf olmak ya da ilişiği bulunmamak, Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak, Bilgisayar çevre birimlerinin donanımı ve kurulan ağ yönetimi güvenliği hakkında bilgi sahibi olmak ve güncel programlama dillerinden en az ikisini bildiğini belgelemek, Büyük ölçekli kamu kurum ve kuruluşlarının veya özel şirketlerin bilgi işlem birimlerinde veya bunlara hizmet veren özel yazılım şirketlerinde yazılımların tasarım ve geliştirme faaliyetlerinde son başvuru tarihi itibariyle ücret tavanının 3 (üç) katını geçmeyecek adaylar için en az 5 (beş) yıllık mesleki tecrübeye ve ücret tavanı 2 (iki) katını geçmeyecek adaylar için en az 5 (beş) yıllık mesleki tecrübeye sahip olmak ve bunu belgelemek. Hizmetin gerektirdiği nitelikler ile muhakeme, temsil, yeni teknolojileri takip etme, öğrenme ve araştırma, hızlı öğrenme ve kendini geliştirme, analitik düşünebilme, takım çalışmasına yatkın olma ve iletişim becerisi yüksek olma, yoğun ve stresli iş temposuna ayak uydurabilme ve belgelemeye (dokümantasyon) önem vererek belgeleme yeteneklerine sahip olmak. \"Kamu Kurum ve Kuruluşlarının Büyük Ölçekli Bilgi İşlem Birimlerinde Sözleşmeli Bilişim Personeli İstihdamına İlişkin Esas ve Usuller Hakkında Yönetmelik\" te belirtilen hususları kabul etmek. B. ÖZEL ŞARTLAR (ARANAN DİĞER NİTELİKLER): Başvuru genel şartlarına ilave olarak, başvurulacak pozisyon için aşağıdaki özel şartlar aranacaktır: 01- SÖZLEŞMELİ BİLİŞİM PERSONELİ a) Belgelendirmek kaydıyla, lisans mezuniyetinden sonra bilişim alanında en az 5 (beş) yıl frontend, backend, mobil uygulama geliştirme veya Yazılım Mühendisliği alanlarında mesleki tecrübeye sahip olmak. b) Modern frontend teknolojileri olan Vue.js, React, Next.js ve Angular frameworklerinin en az birinde ürün geliştirme, mimari iyileştirme ve teknik problem çözme deneyimine sahip olmak; TypeScript, JavaScript, HTML5, CSS3 ve SCSS teknolojilerini ileri düzeyde bilmek. c) Geniş kitlelerce kullanılan açık kaynak kullanıcı arayüzü (UI) kütüphaneleri (PrimeNG, PrimeReact, Material UI vb.) ile bileşen geliştirme ve özelleştirme süreçlerinde görev almış olmak; bileşen API'leri, erişilebilirlik (accessibility), duyarlı (responsive) tasarım, performans optimizasyonu ve tema altyapıları konularında tecrübe sahibi olmak. ç) Yerel büyük dil modelleri (Local LLM), LLM entegrasyonu ve yapay zeka destekli öneri sistemleri konularında tecrübe sahibi olmak. d) Kullanıcıların doğal dil tabanlı sohbet arayüzleri (chatbot) üzerinden çeşitli işlem ve hizmet taleplerini gerçekleştirebildiği yapay zeka entegrasyonlu etkileşimli web akışları tasarlamış olmak. e) C# ve ASP.NET Core veya Python (Flask/Django) ekosistemlerinde backend (arka uç) geliştirme tecrübesine sahip olmak ve REST API entegrasyonları gerçekleştirebilmek. f) Yüksek trafikli dijital platformlarda kritik iş süreçlerinin (kimlik doğrulama vb.) web arayüzüne entegrasyonu konusunda tecrübe sahibi olmak. g) AWS ve benzeri bulut servislerini kullanarak otomasyon ve sunucusuz (serverless) mimariler kurabilmek; web performansı ve SEO iyileştirmeleri yapabilmek. ğ) React Native ile mobil uygulama geliştirme konularında tecrübe sahibi olmak; Swift ve Kotlin ile native iOS ve Android geliştirme süreçleri hakkında bilgi sahibi olmak. h) Docker ve Nginx gibi bulut ve altyapı araçlarını kullanabilmek; CI/CD (GitLab CI, GitHub Actions) süreçleri hakkında bilgi ve tecrübe sahibi olmak. ı) Oracle, SQL ve MongoDB veritabanı sistemleri üzerinde bilgi ve tecrübe sahibi olmak. 02- SÖZLEŞMELİ BİLİŞİM PERSONELİ a) Belgelendirmek kaydıyla, lisans mezuniyetinden sonra en az 5 (beş) yıl yapay zeka veya Yazılım Mühendisliği alanında mesleki tecrübeye sahip olmak. b) Bilgisayarlı görü, anomali tespiti ve zaman serisi analitiği alanlarından en az ikisinde, üretim ortamında çalışan yapay zeka sistemleri geliştirme konusunda deneyim sahibi olmak ve bunu belgelendirmek. c) Python programlama dilini ileri seviyede bilmek; PyTorch, TensorFlow, Keras ve Scikit-learn derin öğrenme/makine öğrenmesi kütüphanelerini kullanarak model geliştirme süreçlerinde görev almış olmak. ç) Doğal Dil İşleme (NLP) ve OpenCV araçları ile görüntü işleme konul",
+   "checked_at": "2026-11-27T06:31:17+00:00",
+   "puanlar": {
+    "P3": 70.0
+   },
+   "akademik": false,
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/5f5aa22f7fbe682aa4aabae7.png",
+   "basvuru_adresleri": [
+    "https://kariyerkapisi.gov.tr/isealim",
+    "https://www.selcuk.edu.tr"
+   ],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "perisci@selcuk.edu.tr",
+   "egitimler": [
+    "Lisans"
+   ],
+   "egitim_tahmin": false,
+   "basvuru_link": "https://kariyerkapisi.gov.tr/IlanDetay?i=20b04c08-a1a3-4c86-93e3-f6876db3a74f",
+   "basvuru_tur": "ozel",
+   "durum": "aktif",
+   "kaynak_baglantilari": [
+    {
+     "source_name": "ilan.gov.tr",
+     "link": "https://www.ilan.gov.tr/ilan/2305859/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-selcuk-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani",
+     "source_url": "https://www.ilan.gov.tr/ilan/2305859/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-selcuk-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani"
+    }
+   ],
+   "diger_kaynaklar": [],
+   "ai": {
+    "ozet": "Selçuk Üniversitesi Rektörlüğü, yazılım ve bilişim alanlarında istihdam edilmek üzere toplam 2 sözleşmeli bilişim personeli alacaktır.",
+    "bolum": "Bilişim ve Yazılım Mühendisliği",
+    "egitim": "Lisans",
+    "kpss_turu": "belirtilmemis",
+    "taban_puan": "belirtilmemis",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "belirtilmemis",
+    "deneyim": "En az 5 yıl",
+    "kontenjan": "2",
+    "ozel_sartlar": [
+     "Lisans mezuniyetinden sonra ilgili bilişim alanında en az 5 yıl mesleki tecrübeye sahip olmak.",
+     "Modern frontend veya yapay zeka teknolojilerinde ürün geliştirme ve mimari deneyimi bulunmak.",
+     "Python, C#, JavaScript, TypeScript gibi programlama dillerinden en az ikisini bildiğini belgelemek.",
+     "Veritabanı sistemleri ve bulut altyapı araçları konusunda bilgi ve tecrübe sahibi olmak.",
+     "Yüksek trafikli sistemler veya yapay zeka entegrasyonlu projelerde görev almış olmak."
+    ]
+   }
   },
   {
    "id": 988164881,
@@ -7083,7 +7146,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2283112/kamu-akademik-personel-akademik-personel-alimlari-bezmialem-vakif-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Diğer",
-   "description": "Bezmiâlem Vakıf Üniversitesi Rektörlüğünden Üniversitemize 2547 sayılı Yükseköğretim Kanunu'nun ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği'nin ilgili maddeleri uyarınca \"Öğretim Üyesi\" alınacaktır. İlan Başlama Tarihi : 09.11.2026 İlan Bitiş Tarihi : 23.11.2026 FAKÜLTE BÖLÜM ANABİLİM DALI/PROGRAMI UZMANLIK ALANI / ARANILAN ŞARTLAR KADRO SAYISI KADRO ÜNVANI Eczacılık Fakültesi Eczacılık Meslek Bilimleri Bölümü Farmakoloji Anabilim Dalı Eczacılık Fakültesi mezunu olmak ve Fitofarmasi uzmanlık derecesine sahip olmak. 1 Dr. Öğr. Üyesi Temel Eczacılık Bilimleri Bölümü Farmasötik Botanik Anabilim Dalı Eczacılık Fakültesi mezunu olmak ve Farmakognozi Doktora Derecesine sahip olmak. Yabancı dille eğitim yapılan programlarda öğretim elemanlarının öğretim dili yabancı dilde ders verebilmeleri için, Yükseköğretim kurumlarında yabancı dilde öğretim yapılmasında uyulacak esaslara ilişkin belirlenen yeterliliğe sahip olmak. 1 Dr. Öğr. Üyesi Tıp Fakültesi Dahili Tıp Bilimleri Bölümü Ruh Sağlığı ve Hastalıkları Anabilim Dalı Tıp Fakültesi mezunu olmak, Ruh Sağlığı ve Hastalıkları uzmanı olmak. 1 Doç. Dr. Tıp Fakültesi mezunu olmak, Ruh Sağlığı ve Hastalıkları uzmanı olmak. 1 Dr. Öğr. Üyesi Cerrahi Tıp Bilimleri Bölümü Genel Cerrahi Anabilim Dalı Tıp Fakültesi mezunu olmak, Uzmanlığını Genel Cerrahi alanında yapmış olmak, Karaciğer nakli konusunda deneyimli olmak. 1 Doç. Dr. Tıp Fakültesi mezunu olmak, Uzmanlığını Genel Cerrahi alanında yapmış olmak, Robotik cerrahi, laparoskopik cerrahi ve endoskopi alanlarında deneyimli olmak. 1 Dr. Öğr. Üyesi Kulak Burun Boğaz Hastalıkları Anabilim Dalı Tıp Fakültesi mezunu olmak, Doçentliğini Kulak Burun Boğaz Hastalıkları alanında almış olmak. 1 Prof. Dr Ortopedi ve Travmatoloji Anabilim Dalı Tıp Fakültesi mezunu olmak, Uzmanlığını Ortopedi ve Travmatoloji alanında yapmış olmak, Robotik kalça ve diz artroplastisi cerrahisi konusunda deneyimli olmak. 1 Doç. Dr. Tıp Fakültesi Temel Tıp Bilimleri Bölümü Biyofizik Anabilim Dalı Biyofizik alanında doktora mezunu olmak, Yabancı dille eğitim yapılan programlarda öğretim elemanlarının öğretim dili yabancı dilde ders verebilmeleri için, Yükseköğretim kurumlarında yabancı dilde öğretim yapılmasında uyulacak esaslara ilişkin belirlenen yeterliliğe sahip olmak. 1 Dr. Öğr. Üyesi Biyofizik alanında doktora mezunu olmak. 1 Dr. Öğr. Üyesi Biyoistatistik ve Tıp Bilişimi Anabilim Dalı Biyoistatistik doktora mezunu olmak. Yabancı dille eğitim yapılan programlarda öğretim elemanlarının öğreti | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Bezmiâlem Vakıf Üniversitesi Rektörlüğünden Üniversitemize 2547 sayılı Yükseköğretim Kanunu'nun ve Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliği'nin ilgili maddeleri uyarınca \"Öğretim Üyesi\" alınacaktır. İlan Başlama Tarihi : 09.11.2026 İlan Bitiş Tarihi : 23.11.2026 FAKÜLTE BÖLÜM ANABİLİM DALI/PROGRAMI UZMANLIK ALANI / ARANILAN ŞARTLAR KADRO SAYISI KADRO ÜNVANI Eczacılık Fakültesi Eczacılık Meslek Bilimleri Bölümü Farmakoloji Anabilim Dalı Eczacılık Fakültesi mezunu olmak ve Fitofarmasi uzmanlık derecesine sahip olmak. 1 Dr. Öğr. Üyesi Temel Eczacılık Bilimleri Bölümü Farmasötik Botanik Anabilim Dalı Eczacılık Fakültesi mezunu olmak ve Farmakognozi Doktora Derecesine sahip olmak. Yabancı dille eğitim yapılan programlarda öğretim elemanlarının öğretim dili yabancı dilde ders verebilmeleri için, Yükseköğretim kurumlarında yabancı dilde öğretim yapılmasında uyulacak esaslara ilişkin belirlenen yeterliliğe sahip olmak. 1 Dr. Öğr. Üyesi Tıp Fakültesi Dahili Tıp Bilimleri Bölümü Ruh Sağlığı ve Hastalıkları Anabilim Dalı Tıp Fakültesi mezunu olmak, Ruh Sağlığı ve Hastalıkları uzmanı olmak. 1 Doç. Dr. Tıp Fakültesi mezunu olmak, Ruh Sağlığı ve Hastalıkları uzmanı olmak. 1 Dr. Öğr. Üyesi Cerrahi Tıp Bilimleri Bölümü Genel Cerrahi Anabilim Dalı Tıp Fakültesi mezunu olmak, Uzmanlığını Genel Cerrahi alanında yapmış olmak, Karaciğer nakli konusunda deneyimli olmak. 1 Doç. Dr. Tıp Fakültesi mezunu olmak, Uzmanlığını Genel Cerrahi alanında yapmış olmak, Robotik cerrahi, laparoskopik cerrahi ve endoskopi alanlarında deneyimli olmak. 1 Dr. Öğr. Üyesi Kulak Burun Boğaz Hastalıkları Anabilim Dalı Tıp Fakültesi mezunu olmak, Doçentliğini Kulak Burun Boğaz Hastalıkları alanında almış olmak. 1 Prof. Dr Ortopedi ve Travmatoloji Anabilim Dalı Tıp Fakültesi mezunu olmak, Uzmanlığını Ortopedi ve Travmatoloji alanında yapmış olmak, Robotik kalça ve diz artroplastisi cerrahisi konusunda deneyimli olmak. 1 Doç. Dr. Tıp Fakültesi Temel Tıp Bilimleri Bölümü Biyofizik Anabilim Dalı Biyofizik alanında doktora mezunu olmak, Yabancı dille eğitim yapılan programlarda öğretim elemanlarının öğretim dili yabancı dilde ders verebilmeleri için, Yükseköğretim kurumlarında yabancı dilde öğretim yapılmasında uyulacak esaslara ilişkin belirlenen yeterliliğe sahip olmak. 1 Dr. Öğr. Üyesi Biyofizik alanında doktora mezunu olmak. 1 Dr. Öğr. Üyesi Biyoistatistik ve Tıp Bilişimi Anabilim Dalı Biyoistatistik doktora mezunu olmak. Yabancı dille eğitim yapılan programlarda öğretim elemanlarının öğreti | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:18:47+00:00",
    "akademik": true,
    "puanlar": {},
@@ -7097,7 +7160,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T04:55:10+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:34+00:00",
    "ai": {
     "ozet": "Bezmiâlem Vakıf Üniversitesi bünyesinde istihdam edilmek üzere farklı fakülte ve bölümlere öğretim üyeleri alınacaktır.",
     "bolum": "Eczacılık, Dahili Tıp Bilimleri, Cerrahi Tıp Bilimleri, Temel Tıp Bilimleri",
@@ -7180,7 +7243,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:07:56+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:34+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304203/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
   },
   {
@@ -7413,7 +7476,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:07:57+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:35+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298161/kamu-akademik-personel-akademik-personel-alimlari-bartin-universitesi-rektorlugu-ogretim-uyesi-alim-ilani"
   },
   {
@@ -7603,7 +7666,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:07:57+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:35+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304217/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ozburun-belediye-baskanligi-surekli-isci-alim-ilani"
   },
   {
@@ -7902,7 +7965,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:07:58+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:36+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304210/kamu-akademik-personel-akademik-personel-alimlari-kahramanmaras-sutcu-imam-universitesi-rektorlugu-ogretim-gorevlisi-alim-ilani",
    "basvuru_link": "https://basvuru.ksu.edu.tr",
    "basvuru_tur": "ana"
@@ -8114,7 +8177,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:07:58+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:36+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304205/kamu-akademik-personel-akademik-personel-alimlari-afyonkarahisar-saglik-bilimleri-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "basvuru_link": "https://www.afsu.edu.tr",
    "basvuru_tur": "ana"
@@ -8180,7 +8243,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:07:59+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:37+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2304201/kamu-akademik-personel-akademik-personel-alimlari-bogazici-universitesi-rektorlugunden-arastirma-gorevlisi-alim-ilani"
   },
   {
@@ -8243,7 +8306,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:07:59+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:37+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299635/kamu-akademik-personel-akademik-personel-alimlari-duzce-universitesi-rektorlugu-ogretim-elemani-alim-ilani"
   },
   {
@@ -8312,7 +8375,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2281103/kamu-akademik-personel-akademik-personel-alimlari-ankarasosyal-bilimler-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Memur",
-   "description": "Ankara Sosyal Bilimler Üniversitesi Rektörlüğünden: Üniversitemizin aşağıda belirtilen birimlerine, 10 sayılı Resmi Gazete Hakkında Cumhurbaşkanlığı Kararnamesi'nin 5 inci maddesinin ikinci fıkrası, Genel Kadro ve Usulü Hakkında 2 sayılı Cumhurbaşkanlığı Kararnamesi, 2547 Sayılı Kanun'un ilgili maddeleri ile \"Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik\"in ilgili maddelerine göre Araştırma Görevlisi ve Öğretim Görevlisi alınacaktır. Başvurular, ilanın Resmi Gazete'de yayımlandığı tarihten itibaren 15 gün içerisinde elektronik ortamda Ankara Sosyal Bilimler Üniversitesi başvuru sistemi (https://basvuru.asbu.edu.tr) üzerinden yapılacaktır. Son başvuru günü saat 17.00'de sistem başvuruya kapanacaktır. Adayların kamu hizmetine girmede aranan genel şartları taşımaları ve ilan edilen kadroya ilişkin özel şartları sağlamaları gerekmektedir. Şahsen veya posta yoluyla yapılan başvurular kabul edilmeyecektir. Başvuru için gerekli belgeler: 1. Dilekçe (Başvuru dilekçesinde; başvurulan kadronun ilan numarası, birimi, bölümü, ana bilim dalı, derecesi ve ünvanı ile adayın ikametgah adresi, telefon numarası ve e-posta adresi açıkça belirtilmelidir.) 2. Özgeçmiş 3. Lisans diploması veya geçici mezuniyet belgesi (Onaylı, yurtdışından alınmış ise denkliğinin YÖK/Üniversitelerarası Kurul tarafından onaylandığını gösterir belge) 4. Lisans Transkripti (onaylı belge) 5. Yüksek lisans veya doktora öğrenci belgesi 6. ALES sonuç belgesi 7. Yabancı dil sonuç belgesi 8. Fotoğraf (Son altı ay içerisinde çekilmiş olmalıdır.) 9. T.C. kimlik kartı veya nüfus cüzdanı fotokopisi 10. Adli sicil kaydı 11. Erkek adaylar için askerlik durum belgesi 12. Sosyal Güvenlik Kurumu (SGK) Hizmet Takip Programı (HİTAP) üzerinden alınan hizmet belgesi (Hâlen bir kamu kurumunda çalışmakta olanlar ile kamu görevinden ayrılmış olan adaylar için) 13. Deneyim Belgesi (Belgelendirmek kaydıyla) Not: e-Devlet Kapısı üzerinden temin edilen karekodlu belgeler başvurularda kabul edilmektedir. ÖNEMLİ NOTLAR: 1. Adayların, 657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinde belirtilen genel şartları taşımaları gerekmektedir. 2. Adayların Devlet Mecburi Hizmet Yükümlülüğü bulunmaması gerekmektedir. 3. Başvurular https://basvuru.asbu.edu.tr adresi üzerinden yapılacaktır. Başvuru sonuçlarının ilgili birimin internet sayfasından takip edilmesi gerekmektedir. Adayların, sisteme yükledikleri belge | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Ankara Sosyal Bilimler Üniversitesi Rektörlüğünden: Üniversitemizin aşağıda belirtilen birimlerine, 10 sayılı Resmi Gazete Hakkında Cumhurbaşkanlığı Kararnamesi'nin 5 inci maddesinin ikinci fıkrası, Genel Kadro ve Usulü Hakkında 2 sayılı Cumhurbaşkanlığı Kararnamesi, 2547 Sayılı Kanun'un ilgili maddeleri ile \"Öğretim Üyesi Dışındaki Öğretim Elemanı Kadrolarına Yapılacak Atamalarda Uygulanacak Merkezi Sınav ile Giriş Sınavlarına İlişkin Usul ve Esaslar Hakkında Yönetmelik\"in ilgili maddelerine göre Araştırma Görevlisi ve Öğretim Görevlisi alınacaktır. Başvurular, ilanın Resmi Gazete'de yayımlandığı tarihten itibaren 15 gün içerisinde elektronik ortamda Ankara Sosyal Bilimler Üniversitesi başvuru sistemi (https://basvuru.asbu.edu.tr) üzerinden yapılacaktır. Son başvuru günü saat 17.00'de sistem başvuruya kapanacaktır. Adayların kamu hizmetine girmede aranan genel şartları taşımaları ve ilan edilen kadroya ilişkin özel şartları sağlamaları gerekmektedir. Şahsen veya posta yoluyla yapılan başvurular kabul edilmeyecektir. Başvuru için gerekli belgeler: 1. Dilekçe (Başvuru dilekçesinde; başvurulan kadronun ilan numarası, birimi, bölümü, ana bilim dalı, derecesi ve ünvanı ile adayın ikametgah adresi, telefon numarası ve e-posta adresi açıkça belirtilmelidir.) 2. Özgeçmiş 3. Lisans diploması veya geçici mezuniyet belgesi (Onaylı, yurtdışından alınmış ise denkliğinin YÖK/Üniversitelerarası Kurul tarafından onaylandığını gösterir belge) 4. Lisans Transkripti (onaylı belge) 5. Yüksek lisans veya doktora öğrenci belgesi 6. ALES sonuç belgesi 7. Yabancı dil sonuç belgesi 8. Fotoğraf (Son altı ay içerisinde çekilmiş olmalıdır.) 9. T.C. kimlik kartı veya nüfus cüzdanı fotokopisi 10. Adli sicil kaydı 11. Erkek adaylar için askerlik durum belgesi 12. Sosyal Güvenlik Kurumu (SGK) Hizmet Takip Programı (HİTAP) üzerinden alınan hizmet belgesi (Hâlen bir kamu kurumunda çalışmakta olanlar ile kamu görevinden ayrılmış olan adaylar için) 13. Deneyim Belgesi (Belgelendirmek kaydıyla) Not: e-Devlet Kapısı üzerinden temin edilen karekodlu belgeler başvurularda kabul edilmektedir. ÖNEMLİ NOTLAR: 1. Adayların, 657 sayılı Devlet Memurları Kanunu'nun 48 inci maddesinde belirtilen genel şartları taşımaları gerekmektedir. 2. Adayların Devlet Mecburi Hizmet Yükümlülüğü bulunmaması gerekmektedir. 3. Başvurular https://basvuru.asbu.edu.tr adresi üzerinden yapılacaktır. Başvuru sonuçlarının ilgili birimin internet sayfasından takip edilmesi gerekmektedir. Adayların, sisteme yükledikleri belge | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:03+00:00",
    "akademik": true,
    "puanlar": {},
@@ -8330,7 +8393,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:07:59+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:38+00:00",
    "ai": {
     "ozet": "Ankara Sosyal Bilimler Üniversitesi, çeşitli fakültelere 2547 sayılı Kanun ve ilgili yönetmelikler kapsamında araştırma görevlisi ve öğretim görevlisi alacaktır.",
     "bolum": "belirtilmemis",
@@ -8352,6 +8415,70 @@
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2281103/kamu-akademik-personel-akademik-personel-alimlari-ankarasosyal-bilimler-universitesi-rektorlugu-ogretim-elemani-alim-ilani",
    "basvuru_link": "https://basvuru.asbu.edu.tr",
    "basvuru_tur": "ana"
+  },
+  {
+   "id": 2729647252,
+   "institution": "T.C DIŞİŞLERİ BAKANLIĞI AVRUPA BİRLİĞİ BAŞKANLIĞI",
+   "title": "Dışişleri Bakanlığı Avrupa Birliği Başkanlığı Sözleşmeli Destek Personeli Alım İlanı",
+   "city": "ANKARA",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": 70.0,
+   "quota": null,
+   "deadline": "2026-12-14",
+   "application_start": "2026-11-27",
+   "link": "https://www.ilan.gov.tr/ilan/2305857/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-disisleri-bakanligi-avrupa-birligi-baskanligi-sozlesmeli-destek-personeli-alim-ilani",
+   "source_url": "https://www.ilan.gov.tr/ilan/2305857/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-disisleri-bakanligi-avrupa-birligi-baskanligi-sozlesmeli-destek-personeli-alim-ilani",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Sözleşmeli personel",
+   "description": "Dışişleri Bakanlığı Avrupa Birliği Başkanlığından: 4/B SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) ALIM İLANI 1. GENEL BİLGİLER 657 sayılı Devlet Memurları Kanununun 4/B maddesi kapsamında, 06.06.1978 tarihli ve 7/15754 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan Sözleşmeli Personel Çalıştırılmasına İlişkin Esaslar uyarınca Başkanlığımız bünyesinde çalıştırılmak üzere Ek-1 listede unvanı, sayısı ve özel şartları belirtilen toplam 5 adet sözleşmeli destek personeli (şoför) alımı yapılacaktır. 2. BAŞVURU ŞARTLARI a. 657 sayılı Devlet Memurları Kanununun 48/1-A maddesinde belirtilen genel şartları taşımak, b. 657 sayılı Devlet Memurları Kanununun 40 ıncı maddesindeki yaş şartlarını taşımak, c. Herhangi bir kamu kurumunda çalışmakta iken görevden veya meslekten ihraç edilmemiş olmak, d. 06.06.1978 tarihli ve 7/15754 sayılı Bakanlar Kurulu Kararı ile yürürlüğe konulan Sözleşmeli Personel Çalıştırılmasına İlişkin Esasların Ek 1 inci maddesi kapsamında sözleşmeli personel olarak istihdamına engel hali bulunmamak, e. Güvenlik Soruşturması ve Arşiv Araştırması olumlu sonuçlanmak (Sözleşme öncesi araştırılıp değerlendirilecektir). f. Ek-1 listede yer alan özel şartları taşıyor olmak. 3. BAŞVURU ŞEKLİ, TARİHİ VE YERİ a. Başvurular; 27/11/2026-14/12/2026 tarihleri arasında e-Devlet / Cumhurbaşkanlığı Kariyer Kapısı ( https://kariyerkapisi.gov.tr/isealim ) adresinden elektronik ortamda alınacaktır. Posta veya diğer şekillerde yapılacak başvurular kabul edilmeyecektir. b. Aranan şartlardan herhangi birini taşımadığı tespit edilen adayların, başvurusu değerlendirmeye alınmayacaktır. 4. DEĞERLENDİRME YÖNTEMİ a. Sözleşmeli destek personeli (şoför) unvanı için genel ve özel şartları taşıyan adaylar arasından KPSS puan üstünlüğü esas alınmak suretiyle yazılı ve/veya sözlü sınav yapılmaksızın en yüksek puan alan adaydan başlamak üzere boş pozisyon sayısı kadar asıl aday belirlenecektir. b. KPSS puan üstünlüğü esas alınmak suretiyle asıl aday sayısı kadar yedek aday belirlenecektir. c. Yerleştirme işlemine esas olan KPSS puanlarının eşit olması halinde; diploma notu yüksek olana, bunun da aynı olması halinde mezuniyet tarihi önce olan adaya öncelik verilir. 5. DİĞER HUSUSLAR a. Başvuru şartlarını taşımadığı sonradan tespit edilenlerle sözleşme imzalanmayacak ve göreve başlatılmayacaktır. Göreve başlatılmış ise sözleşmesi feshedilerek görevine son verilecektir. b. Adaylardan gerçeğe aykırı beyanda bulunduğu veya gerçeğe aykırı belge verdiği tespit edilenler ile ilgili olarak, göreve başlatılmış olanların sözleşmesi feshedilerek görevlerine son verilecektir. Ayrıca haklarında ilgili mevzuatına göre gerekli adli ve idari işlemlerin tesisi için bildirimler/suç duyuruları yapılacaktır. c. Yerleştirme sonuçlarının ilan edildiği tarihten itibaren bir sonraki alım ilan tarihine kadar, belirlenen asıl adaylar arasından; feragat eden, süresi içerisinde başvurmayan ve göreve başlamayanların yerine yedek adaylar arasından sırasıyla atama yapılabilir. d. Adaylar alım sürecine ilişkin tüm bilgileri, Başkanlığımız internet adresi ( www.ab.gov.tr ) ve Cumhurbaşkanlığı Kariyer Kapısı ( https://kariyerkapisi.gov.tr/isealim ) üzerinden görüntüleyebilecektir. 6. İLETİŞİM BİLGİLERİ Ayrıntılı Bilgi ve İrtibat İçin: Samet ŞEN : 0312 2181436 Nurullah BERKİL: 0312 2181590 Avrupa Birliği Başkanlığı Mustafa Kemal Mah. 2082. Cadde No: 5 06530 Çankaya / ANKARA Mail: yhdb@ab.gov.tr Ek-1: Unvan Nitelik Tablosu İSTİHDAM TÜRÜ POZİSYON TEŞKİLAT ALIM USULÜ İL / İLÇE KONTENJAN ÖĞRENİM DURUMU KPSS PUAN TÜRÜ ÖZEL ŞARTLAR 4/B SÖZLEŞMELİ SÖZLEŞMELİ DESTEK PERSONELİ (ŞOFÖR) MERKEZ KPSS PUAN ÜSTÜNLÜĞÜNE GÖRE ANKARA ÇANKAYA 5 ORTAÖĞRETİM VEYA ÖN LİSANS P94 P93 a. Ortaöğretim veya ön lisans mezunu olmak. b. ÖSYM tarafından 2026 yılında gerçekleştirilen Kamu Personeli Seçme Sınavında, ortaöğretim mezunları için KPSS P94, ön lisans mezunları için KPSS P93 puan türünden en az 70 (yetmiş) puan almış olmak. c. En az B sınıfı sürücü belgesine son başvuru tarihi itibarıyla 3 yıldır sahip olmak. d. Görevini devamlı yapmasına engel olabilecek bir hastalığı olmamak; yurdun her yerinde ve her türlü iklim koşullarında görev yapmaya elverişli olmak, seyahate engel durumu olmamak. e. Yapılacak görev gereği 7/24 saat esasına göre vardiyalı olarak kapalı ve açık alanlarda çalışmasına engel durumu olmamak. Kamuoyuna saygıyla duyurulur. 12146/1-1",
+   "checked_at": "2026-11-27T06:31:19+00:00",
+   "puanlar": {
+    "P93": 70.0
+   },
+   "akademik": false,
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/6256be1046bcc20518970e6b.jpg",
+   "basvuru_adresleri": [
+    "https://kariyerkapisi.gov.tr/isealim",
+    "https://www.ab.gov.tr"
+   ],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "egitimler": [
+    "Ön Lisans",
+    "Ortaöğretim"
+   ],
+   "egitim_tahmin": false,
+   "basvuru_link": "https://kariyerkapisi.gov.tr/isealim",
+   "basvuru_tur": "genel",
+   "durum": "aktif",
+   "kaynak_baglantilari": [
+    {
+     "source_name": "ilan.gov.tr",
+     "link": "https://www.ilan.gov.tr/ilan/2305857/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-disisleri-bakanligi-avrupa-birligi-baskanligi-sozlesmeli-destek-personeli-alim-ilani",
+     "source_url": "https://www.ilan.gov.tr/ilan/2305857/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-disisleri-bakanligi-avrupa-birligi-baskanligi-sozlesmeli-destek-personeli-alim-ilani"
+    }
+   ],
+   "diger_kaynaklar": [],
+   "ai": {
+    "ozet": "Dışişleri Bakanlığı Avrupa Birliği Başkanlığı, KPSS puan üstünlüğüne göre merkez teşkilatında istihdam edilmek üzere 5 sözleşmeli destek personeli alacaktır.",
+    "bolum": "belirtilmemis",
+    "egitim": "Ortaöğretim veya ön lisans",
+    "kpss_turu": "KPSS P94, KPSS P93",
+    "taban_puan": "70",
+    "yas_siniri": "belirtilmemis",
+    "ehliyet": "En az B sınıfı sürücü belgesine son başvuru tarihi itibarıyla 3 yıldır sahip olmak",
+    "deneyim": "belirtilmemis",
+    "kontenjan": "5",
+    "ozel_sartlar": [
+     "Ortaöğretim veya ön lisans mezunu olmak.",
+     "2026 yılı KPSS P94 veya P93 puan türünden en az 70 puan almış olmak.",
+     "En az B sınıfı sürücü belgesine son başvuru tarihi itibarıyla 3 yıldır sahip olmak.",
+     "Görevini devamlı yapmasına engel olabilecek bir hastalığı olmamak.",
+     "7/24 saat esasına göre vardiyalı çalışmaya engel durumu olmamak."
+    ]
+   }
   },
   {
    "id": 2750195410,
@@ -8453,7 +8580,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:00+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:38+00:00",
    "ai": {
     "ozet": "Elazığ İl Özel İdaresi, KPSS P3 skoru ile en az 60 puan şartıyla psikolog ve sosyal çalışmacı unvanlarında sözleşmeli personel alacaktır.",
     "bolum": "Psikoloji veya Sosyal Hizmetler",
@@ -8660,7 +8787,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:00+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:39+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298155/kamu-akademik-personel-akademik-personel-alimlari-balikesir-universitesi-ogretim-elemani-alim-ilani",
    "basvuru_link": "https://www.balikesir.edu.tr",
    "basvuru_tur": "ana"
@@ -8876,7 +9003,7 @@
    "source_url": "https://www.ilan.gov.tr/ilan/2281209/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
    "source_name": "ilan.gov.tr",
    "employment_type": "Diğer",
-   "description": "Hasan Kalyoncu Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimlerine; 2547 Sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili hükümlerinde aranan genel koşulları sağlamış olmak kaydıyla, tam zamanlı öğretim üyesi alınacaktır. BAŞVURU ŞARTLARI: • İlan edilen kadrolara başvuracak adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinden bir örneğini temin edebilecekleri başvuru dilekçelerinin ekinde olmak üzere; özgeçmiş, 2 adet vesikalık fotoğraf, fotokopileri noterden veya resmi kurumlarca onaylanmış lisans, yüksek lisans, doktora diplomaları, nüfus cüzdanı ile bilimsel çalışma ve yayınlarını kapsayan yayın listesi ve eserlerinden oluşan dosyasının (profesör kadrosuna başvuracak adayların başlıca eserlerini belirtmesi ve profesör/doçent kadrolarına başvuracak adayların doçentlik belgelerini ayrıca dosyalarına eklemiş olmaları gerekmektedir) 1 nüshasını basılı olarak, jüri üyelerine gönderilecek nüshalarını ise (profesör kadroları için 6 nüsha, doçent ve doktor öğretim üyesi kadroları için ise 4 nüsha) CD/flashdisk ortamında (profesör/doçent kadroları için Personel Müdürlüğüne, doktor öğretim üyesi kadroları için ise ilgili Fakülte Dekanlığına olmak üzere) şahsen veya posta ile başvuru yapılması gerekmektedir. • Profesör adayları; özgeçmişlerini, bilimsel yayınlarını kongre ve konferans tebliğleri ile bunlara yapılan atıfları, sanat eserlerini, icralarını ve bunlara ilişkin dokümanı, eğitim-öğretim faaliyetlerini, yönetimlerinde devam eden ve biten doktora, sanatta yeterlik veya yüksek lisans çalışmalarını kapsayan dosyada bu başvurularında yayınlarından birini başlıca araştırma eseri olarak göstermeleri gerekmektedir. • Müracaat edecek adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinde yer alan “Başvuru Beyan Formu ve Evrak Kontrol Listesi”ni doldurarak, başvuru dilekçesi ekinde imzalı olarak sunması gerekmektedir. Ayrıca, jüri üyelerine gönderilecek dosyalarda da imzalı şekilde bu belgenin eklenmesi gerekmektedir. • Tüm adayların, gelecekte yapmayı planladıkları eğitim / öğretim / araştırma / geliştirme faaliyetleri ve bunların çıktıları ile Üniversitemizin vizyonuna nasıl entegre olabileceklerini ve kısa / orta / uzun vadede bilimsel literatüre ve üniversite-iş dünyası-kamu-toplum işbirliğine nasıl katkıda bulunabileceklerini açıklayan bir “özgelecek / niyet mektubu / iş planı / kariyer planı” hazırlamaları ve | \n | \n | \n | \n | \n | \n | \n | \n",
+   "description": "Hasan Kalyoncu Üniversitesi Rektörlüğünden ÖĞRETİM ÜYESİ ALIM İLANI Üniversitemizin aşağıda belirtilen akademik birimlerine; 2547 Sayılı Yükseköğretim Kanunu, Öğretim Üyeliğine Yükseltilme ve Atanma Yönetmeliğinin ilgili hükümlerinde aranan genel koşulları sağlamış olmak kaydıyla, tam zamanlı öğretim üyesi alınacaktır. BAŞVURU ŞARTLARI: • İlan edilen kadrolara başvuracak adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinden bir örneğini temin edebilecekleri başvuru dilekçelerinin ekinde olmak üzere; özgeçmiş, 2 adet vesikalık fotoğraf, fotokopileri noterden veya resmi kurumlarca onaylanmış lisans, yüksek lisans, doktora diplomaları, nüfus cüzdanı ile bilimsel çalışma ve yayınlarını kapsayan yayın listesi ve eserlerinden oluşan dosyasının (profesör kadrosuna başvuracak adayların başlıca eserlerini belirtmesi ve profesör/doçent kadrolarına başvuracak adayların doçentlik belgelerini ayrıca dosyalarına eklemiş olmaları gerekmektedir) 1 nüshasını basılı olarak, jüri üyelerine gönderilecek nüshalarını ise (profesör kadroları için 6 nüsha, doçent ve doktor öğretim üyesi kadroları için ise 4 nüsha) CD/flashdisk ortamında (profesör/doçent kadroları için Personel Müdürlüğüne, doktor öğretim üyesi kadroları için ise ilgili Fakülte Dekanlığına olmak üzere) şahsen veya posta ile başvuru yapılması gerekmektedir. • Profesör adayları; özgeçmişlerini, bilimsel yayınlarını kongre ve konferans tebliğleri ile bunlara yapılan atıfları, sanat eserlerini, icralarını ve bunlara ilişkin dokümanı, eğitim-öğretim faaliyetlerini, yönetimlerinde devam eden ve biten doktora, sanatta yeterlik veya yüksek lisans çalışmalarını kapsayan dosyada bu başvurularında yayınlarından birini başlıca araştırma eseri olarak göstermeleri gerekmektedir. • Müracaat edecek adayların; https://personel.hku.edu.tr/tum-formlar-ve-dilekceler/ web adresinde yer alan “Başvuru Beyan Formu ve Evrak Kontrol Listesi”ni doldurarak, başvuru dilekçesi ekinde imzalı olarak sunması gerekmektedir. Ayrıca, jüri üyelerine gönderilecek dosyalarda da imzalı şekilde bu belgenin eklenmesi gerekmektedir. • Tüm adayların, gelecekte yapmayı planladıkları eğitim / öğretim / araştırma / geliştirme faaliyetleri ve bunların çıktıları ile Üniversitemizin vizyonuna nasıl entegre olabileceklerini ve kısa / orta / uzun vadede bilimsel literatüre ve üniversite-iş dünyası-kamu-toplum işbirliğine nasıl katkıda bulunabileceklerini açıklayan bir “özgelecek / niyet mektubu / iş planı / kariyer planı” hazırlamaları ve | \n | \n | \n | \n | \n | \n | \n | \n | \n",
    "checked_at": "2026-11-19T09:19:01+00:00",
    "akademik": true,
    "puanlar": {},
@@ -8897,7 +9024,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:01+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:39+00:00",
    "ai": {
     "ozet": "Hasan Kalyoncu Universitesi Rektorfugu cesitli akademik birimlere 2547 sayili kanun kapsaminda tam zamanli ogretim uyesi alacaktir.",
     "bolum": "belirtilmemis",
@@ -8982,7 +9109,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:01+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:40+00:00",
    "ai": {
     "ozet": "Biruni Üniversitesi, Diş Hekimliği, Eczacılık, Eğitim ve Meslek Yüksekokulu fakültelerine çeşitli unvanlarda öğretim üyesi alımı yapacaktır.",
     "bolum": "Çeşitli Bölümler ve Anabilim Dalları",
@@ -9236,7 +9363,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:02+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:41+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298169/kamu-akademik-personel-akademik-personel-alimlari-hasan-kalyoncu-universitesi-ogretim-uyesi-alim-ilani"
   },
   {
@@ -9326,7 +9453,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:02+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:41+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2296783/kamu-akademik-personel-akademik-personel-alimlari-istanbul-medipol-universitesi-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "İstanbul Medipol Üniversitesi, 2547 sayılı Kanun ve ilgili yönetmelikler kapsamında çeşitli fakülte ve birimlere devamlı statüde öğretim üyesi alacaktır.",
@@ -9464,7 +9591,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:03+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:42+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2293626/kamu-akademik-personel-akademik-personel-alimlari-galata-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "İstanbul Galata Üniversitesi, Diş Hekimliği Fakültesi bünyesinde çeşitli anabilim dallarında görevlendirilmek üzere toplam 13 öğretim üyesi alımı yapacaktır.",
@@ -9553,7 +9680,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:03+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:42+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298201/kamu-akademik-personel-akademik-personel-alimlari-istanbul-universitesi-cerrahpasa-rektorlugu-ogretim-elemani-alim-ilani",
    "basvuru_link": "https://apbs.iuc.edu.tr",
    "basvuru_tur": "ana"
@@ -9670,7 +9797,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:03+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:43+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2299717/kamu-akademik-personel-akademik-personel-alimlari-antalya-belek-universitesi-ogretim-uyesi-disindaki-kadrolara-personel-alim-ilani"
   },
   {
@@ -9712,7 +9839,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:04+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:43+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2295214/kamu-akademik-personel-akademik-personel-alimlari-bilecik-seyh-edebali-universitesi-rektorlugu-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "Bilecik Şeyh Edebali Üniversitesi, çeşitli fakülte ve bölümlere 2547 sayılı kanun kapsamında profesör unvanında öğretim üyesi alımı yapacaktır.",
@@ -9813,7 +9940,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:05+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:44+00:00",
    "ai": {
     "ozet": "Biruni Universitesi Rektörlügücesitli fakülte ve meslek yüksekokullarına 2547 sayılı kanun uyarınca ogretim elemani alacaktir.",
     "bolum": "Çeşitli Bölümler",
@@ -10077,7 +10204,7 @@
     ]
    },
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:05+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:45+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2302665/kamu-akademik-personel-akademik-personel-alimlari-manisa-celal-bayar-universitesi-rektorlugu-akademik-personel-alim-ilani"
   },
   {
@@ -10115,7 +10242,7 @@
    ],
    "diger_kaynaklar": [],
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
-   "puan_kontrol_at": "2026-11-27T05:08:06+00:00",
+   "puan_kontrol_at": "2026-11-27T06:39:45+00:00",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2292344/kamu-akademik-personel-akademik-personel-alimlari-ataturk-universitesi-rektorlugunden-ogretim-uyesi-alim-ilani",
    "ai": {
     "ozet": "Atatürk Üniversitesi çeşitli fakültelere 2547 sayılı Kanun kapsamında profesör kadrosunda öğretim üyesi alımı yapacaktır.",
@@ -11331,6 +11458,41 @@
    "puan_kontrol_durumu": "resmi_metinde_puan_yok",
    "puan_kontrol_url": "https://www.ilan.gov.tr/ilan/2298364/kamu-akademik-personel-akademik-personel-alimlari-mardin-artuklu-universitesi-ogretim-gorevlisi-alim-ilani",
    "puan_kontrol_at": "2026-11-27T05:40:42+00:00"
+  },
+  {
+   "id": 3730286785,
+   "institution": "BOZKÖY BELEDİYE BŞK.",
+   "title": "İptal İlanı (Bozköy Belediye Başkanlığı)",
+   "city": "NİĞDE",
+   "department": "Herhangi",
+   "education_level": "",
+   "kpss_type": "",
+   "min_kpss": null,
+   "quota": null,
+   "deadline": null,
+   "application_start": null,
+   "link": "https://www.ilan.gov.tr/ilan/2305858/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-bozkoy-belediye-baskanligi-",
+   "source_url": "https://www.ilan.gov.tr/ilan/2305858/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-bozkoy-belediye-baskanligi-",
+   "source_name": "ilan.gov.tr",
+   "employment_type": "Diğer",
+   "description": "Niğde ili Bozköy Belediye Başkanlığından: İPTAL İLANI 08.11.2026 tarihli ve 33424 sayılı Resmî Gazete’de yayımlanan ilk defa atanmak üzere İtfaiye Eri alımı ilanı iptal edilmiştir. İlan Olunur. 12277/1-1",
+   "checked_at": "2026-11-27T06:31:18+00:00",
+   "puanlar": {},
+   "akademik": false,
+   "logo": "https://medya.ilan.gov.tr/AdvertiserLogo/65313a9246bcc21144cbf927.jpg",
+   "basvuru_adresleri": [],
+   "basvuru_oneri": "",
+   "basvuru_eposta": "",
+   "iptal": true,
+   "durum": "tarih_belirsiz",
+   "kaynak_baglantilari": [
+    {
+     "source_name": "ilan.gov.tr",
+     "link": "https://www.ilan.gov.tr/ilan/2305858/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-bozkoy-belediye-baskanligi-",
+     "source_url": "https://www.ilan.gov.tr/ilan/2305858/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-bozkoy-belediye-baskanligi-"
+    }
+   ],
+   "diger_kaynaklar": []
   },
   {
    "id": 3763246659,
