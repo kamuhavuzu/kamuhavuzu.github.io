@@ -1,3 +1,4 @@
+/* KH-fb91ce4cf50a-2026 © KamuHavuzu. Tüm hakları saklıdır. */
 /* KamuHavuzu çerez tercihi: reklam kişiselleştirme izni. Sunucuya hiçbir şey göndermez. */
 (function(){
  var K='k_cerez',v=null;
@@ -29,4 +30,16 @@
   };
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',hazir);else hazir();
+
+ // Telif uyarısı: sayfa orijinal adresin dışında çalışıyorsa ziyaretçi bilgilendirilir.
+ // Bu kontrol veri toplamaz, hiçbir yere bilgi göndermez.
+ var OK=['kamuhavuzu.github.io','localhost','127.0.0.1'];
+ if(location.protocol!=='file:'&&OK.indexOf(location.hostname)<0){
+  document.addEventListener('DOMContentLoaded',function(){
+   var b=document.createElement('div');
+   b.style.cssText='position:sticky;top:0;z-index:2147483647;background:#b3261e;color:#fff;padding:12px 16px;font:700 15px/1.4 system-ui,Arial,sans-serif;text-align:center';
+   b.innerHTML='⚠ Bu sayfa KamuHavuzu’nun izinsiz bir kopyası olabilir. Orijinal site: <a href="https://kamuhavuzu.github.io" style="color:#ffd23f">kamuhavuzu.github.io</a>';
+   document.body.insertBefore(b,document.body.firstChild);
+  });
+ }
 })();

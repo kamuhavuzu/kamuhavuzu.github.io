@@ -131,6 +131,7 @@ def main():
         f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     # Ziyaretci tarayicisi icin hafif veri: uzun ilan metinleri kisaltilir, bosluksuz yazilir.
     hafif = dict(veri)
+    hafif["imza"] = "KH-fb91ce4cf50a-2026"  # KamuHavuzu telif imzasi
     hafif["ilanlar"] = []
     for r in veri.get("ilanlar", []):
         r = dict(r)

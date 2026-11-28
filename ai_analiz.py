@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# KH-fb91ce4cf50a-2026 (c) KamuHavuzu. Tum haklari saklidir.
 """KamuHavuzu ilanlarini birden fazla yapay zeka saglayicisiyle analiz eder.
 Saglayicilar sirayla denenir; birinin kotasi/hizmeti yoksa digerine gecilir.
 API anahtarlari yalnizca GitHub Actions Secrets ortam degiskenlerinden okunur.
